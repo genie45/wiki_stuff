@@ -24,12 +24,23 @@
 </table>
 <script>
 (function (){
+//fixed values from tek generator
 const shield_radius_scale = 75.0;
 const fuel_consumption_rate_radius_scale = 0.33;
 const fuel_item_consume_interval_element = 648.0;
 const fuel_item_consume_interval_elementshard = 64800.0;
 
-var
+var radius = document.getElementById('radius');
+var elementCostHourServer = document.getElementById('element-cost-hour-server');
+var elementCostHourSP = document.getElementById('element-cost-hour-singleplayer');
+var elementShardCostHourServer =document.getElementById('elementshard-cost-hour-server');
+var elementShardCostHourSP = document.getElementById('elementshard-cost-hour-singleplayer');
 
+radius.addEventListener('input', calculate);
+calculate();
+
+function calculate() {
+    
+}
 })
 </script>
