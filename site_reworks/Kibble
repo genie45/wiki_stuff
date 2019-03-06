@@ -1,0 +1,548 @@
+{{infobox consumable
+| name = Kibble
+| image = Kibble.png
+| description = This pet food recipe has been carefully designed to give balanced nutrition to almost any creature native to the island. Includes plant [[fiber]]s to help with digestion and [[Dinosaur Eggs|egg]] to bind the mix. Humans have difficulty digesting this.
+| type = Kibble
+| category = Consumables
+| spoilsin = 259200
+| spoilsto = 
+| weight = 0.1
+| stacksize = 100
+| decomposesin = 120
+| addedin = 186.0
+| requiredlevel = 
+| engrampoints = 
+| craftingxp = 0
+| craftingtime = 30
+| prerequisite1 = 
+| craftedin = Cooking Pot
+| craftedin2 = Industrial Cooker
+| cost = Mixes (Mobile)
+| costquantity = 50
+| purchasedin = Chef Station (Mobile)
+| purchasequantity = 3
+}}
+
+'''Kibble''' are food items used to [[Taming|tame]] creatures more quickly and with higher affinity, allowing players to save time and end up with better stats on their tamed pet. Most creatures have their own individual favorite type of kibble that maximizes taming effects. However, using a non-favorite kibble is even worse than giving [[Raw Meat]] or [[Berries]].
+
+==Usage==
+Kibbles can be used as food when taming a creature. Although all kibble types will technically work to tame all creatures, certain kibbles will work better for certain creatures. Using the wrong kibble is only 2/3 as effective as using the creature's regular food and will instead decrease the taming effectiveness.
+
+The order of effectiveness (in terms of taming duration) in food for taming creatures is:
+
+{|class="wikitable sortable"
+!Food
+!data-sort-type="number"|Taming Speed
+!Taming Effectiveness
+|-
+| {{ItemLink|Kibble|text=Preferred Kibble}}
+|data-sort-value="5"|5x Speed
+|{{Rating|5}}
+|-
+|{{ItemLink|Raw Mutton}}
+|3.8x Speed
+|{{Rating|4}}
+|-
+| {{ItemLink|Raw Prime Meat}}
+|data-sort-value="3"|3x Speed
+|{{Rating|3}}
+|-
+| {{ItemLink|Spoiled Meat}}
+|data-sort-value="2"|2x Speed
+|{{Rating|3}} <sup>1</sup>
+|-
+|{{ItemLink|Cooked Prime Meat}} / {{ItemLink|Prime Meat Jerky}}
+|data-sort-value="1.5"|1.5x Speed
+|{{Rating|2}}
+|-
+| {{ItemLink|Raw Meat}}
+|data-sort-value="1"|1x Speed
+|{{Rating|1}}
+|-
+| {{ItemLink|Cooked Meat}} / {{ItemLink|Cooked Meat Jerky}} 
+|data-sort-value="1"|1x Speed
+|{{Rating|0}}
+|-
+| {{ItemLink|Berries|text=Preferred Berries}}
+|data-sort-value="1"|1x Speed
+|{{Rating|2}}
+|-
+| {{ItemLink|Advanced Crops|text=Preferred Advanced Crops}}
+|data-sort-value="1"|1x Speed
+|{{Rating|2}}
+|-
+| {{ItemLink|Berries|text=Other Berries}}
+|data-sort-value="1"|1x Speed
+|{{Rating|1}}
+|-
+| {{ItemLink|Advanced Crops|text=Other Advanced Crops}}
+|data-sort-value="1"|1x Speed
+|{{Rating|0}}
+|-
+| {{ItemLink|Kibble|text=Other Kibble}}
+|data-sort-value="0.66"|0.66x Speed
+|{{Rating|0}}
+|}
+
+<small>1: [[Scorpion]]s, [[Dung Beetle]]s, [[Spider]]s, [[Vulture]]s, and [[Karkinos]] only</small>
+
+The favorite kibble fills up 80 points of food, (exceptions: Megalosaurus: 135; Diplocaulus, Daeodon, Kaprosuchus: 120; Bronto, Diplodocus, Woolly Rhino: 53.33; Archaeopteryx: 25; Rock Elemental: 20). Non-favorite kibble fills up 90 or 60 points of food and gives only 1/8 of the taming progress than the favorite kibble. Because of the more food-points it gives, the creature waits longer before eating the next kibble than it would if you were using other food types.
+
+Kibble is also used for [[imprinting]] baby dinos. During care, they may want to be hand fed a randomly selected kibble, including any kibble that is not their species' preferred food. For this reason, having as many types of kibble as possible will allow the imprinting rate to increase.
+
+== Recipe ==
+Learning an [[Engrams|Engram]] is not necessary to create kibbles. Follow the same instructions as when cooking with a {{ItemLink|Cooking Pot}} or {{ItemLink|Industrial Cooker}}.
+
+In addition to the ingredients listed below, all kibble recipes require {{ItemLink|Fiber|text=Fiber|quantity=5}} and a {{ItemLink|Waterskin}} with at least 25% water in it (any other Water-container works, but will be completely used up regardless of capacity). 
+
+When creating Kibbles in an {{ItemLink|Industrial Cooker}} which is hooked up to a water irrigation system, no waterskin or other water-container is necessary.
+
+[[Breeding|Fertilized]] eggs can also be used to make Kibble. Breeding creatures is a great way to generate eggs on-demand.
+
+Cooking these kibbles requires a lit Cooking Pot so in addition you need fuel for the fire. It takes 30 seconds to cook 1 kibble in a Cooking Pot. 
+{|class="wikitable sortable"
+!Kibble
+!Egg Type
+!First Resource
+!Second Resource
+!Third Resource
+!Fourth Resource
+|-
+|{{ItemLink|Basic Kibble}}
+|{{ItemLink|Extra Small Egg}}
+|rowspan='2'|5x {{ItemLink|Mejoberry}}
+|10x {{ItemLink|Amarberry}}
+|10x {{ItemLink|Tintoberry}}
+|1x {{ItemLink|Cooked Meat}}
+|-
+|{{ItemLink|Simple Kibble}}
+|{{ItemLink|Small Egg}}
+|2x {{ItemLink|Rockarrot}}
+|1x {{ItemLink|Cooked Fish Meat}}
+| -
+|-
+|{{ItemLink|Regular Kibble}}
+|{{ItemLink|Medium Egg}}
+|2x {{ItemLink|Longrass}}
+|2x {{ItemLink|Savoroot}}
+|1x {{ItemLink|Cooked Meat Jerky}}
+| -
+|-
+|{{ItemLink|Superior Kibble}}
+|{{ItemLink|Large Egg}}
+|2x {{ItemLink|Citronal}}
+|2x {{ItemLink|Rare Mushroom}}
+|1x {{ItemLink|Prime Meat Jerky}}
+|1x {{ItemLink|Sap}}
+|-
+|{{ItemLink|Exceptional Kibble}}
+|{{ItemLink|Extra Large Egg}}
+|rowspan='2'|10x {{ItemLink|Mejoberry}}
+|1x {{ItemLink|Rare Flower}}
+|1x {{ItemLink|Focal Chili}}
+| -
+|-
+|{{ItemLink|Extraordinary Kibble}}
+|{{ItemLink|Special Egg}}
+|1x {{ItemLink|Giant Bee Honey}}
+|1x {{ItemLink|Lazarus Chowder}}
+| -
+|}
+
+===Creatures===
+These lists the Category of Kibble which is prefered while taming a creature.
+;{{ItemLink|Basic Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Dilo|text=<br />Dilo}}
+| {{ItemLink|size=40px|Dodo|text=<br />Dodo}}
+| {{ItemLink|size=40px|Kairuku|text=<br />Kairuku}}
+| {{ItemLink|size=40px|Lystrosaurus|text=<br />Lystrosaurus}}
+| {{ItemLink|size=40px|Mesopithecus|text=<br />Mesopithecus}}
+| {{ItemLink|size=40px|Parasaur|text=<br />Parasaur}}
+| {{ItemLink|size=40px|Tek Parasaur|text=<br />Tek Parasaur}}
+| {{ItemLink|size=40px|Phiomia|text=<br />Phiomia}}
+|}
+{{clear}}
+;{{ItemLink|Simple Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Araneo|text=<br />Araneo}}   
+| {{ItemLink|size=40px|Archaeopteryx|text=<br />Archaeopteryx}}
+| {{ItemLink|size=40px|Dimorphodon|text=<br />Dimorphodon}}
+| {{ItemLink|size=40px|Diplocaulus|text=<br />Diplocaulus}}
+| {{ItemLink|size=40px|Gallimimus|text=<br />Gallimimus}}
+| {{ItemLink|size=40px|Giant Bee|text=<br />Giant Bee}}
+| {{ItemLink|size=40px|Ichthyornis|text=<br />Ichthyornis}}
+| {{ItemLink|size=40px|Ichthyosaurus|text=<br />Ichthyosaurus}}
+|-
+| {{ItemLink|size=40px|Iguanodon|text=<br />Iguanodon}}
+| {{ItemLink|size=40px|Megaloceros|text=<br />Megaloceros}}
+| {{ItemLink|size=40px|Morellatops|text=<br />Morellatops}}
+| {{ItemLink|size=40px|Onyc|text=<br />Onyc}}
+| {{ItemLink|size=40px|Pachy|text=<br />Pachy}}
+| {{ItemLink|size=40px|Pegomastax|text=<br />Pegomastax}}
+| {{ItemLink|size=40px|Raptor|text=<br />Raptor}}
+| {{ItemLink|size=40px|Tek Raptor|text=<br />Tek Raptor}}
+|-
+| {{ItemLink|size=40px|Triceratops|text=<br />Triceratops}}
+|}
+{{clear}}
+;{{ItemLink|Regular Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Angler|text=<br />Angler}}
+| {{ItemLink|size=40px|Ankylosaurus|text=<br />Ankylosaurus}}
+| {{ItemLink|size=40px|Baryonyx|text=<br />Baryonyx}}
+| {{ItemLink|size=40px|Beelzebufo|text=<br />Beelzebufo}}
+| {{ItemLink|size=40px|Carbonemys|text=<br />Carbonemys}}
+| {{ItemLink|size=40px|Carnotaurus|text=<br />Carnotaurus}}
+| {{ItemLink|size=40px|Dimetrodon|text=<br />Dimetrodon}}
+| {{ItemLink|size=40px|Diplodocus|text=<br />Diplodocus}}
+|-
+| {{ItemLink|size=40px|Doedicurus|text=<br />Doedicurus}}
+| {{ItemLink|size=40px|Gigantopithecus|text=<br />Gigantopithecus}}
+| {{ItemLink|size=40px|Kaprosuchus|text=<br />Kaprosuchus}}
+| {{ItemLink|size=40px|Kentrosaurus|text=<br />Kentrosaurus}}
+| {{ItemLink|size=40px|Lymantria|text=<br />Lymantria}}
+| {{ItemLink|size=40px|Pelagornis|text=<br />Pelagornis}}
+| {{ItemLink|size=40px|Pteranodon|text=<br />Pteranodon}}
+| {{ItemLink|size=40px|Scorpion|text=<br />Scorpion}}
+|-
+| {{ItemLink|size=40px|Purlovia|text=<br />Purlovia}}
+| {{ItemLink|size=40px|Sabertooth|text=<br />Sabertooth}}
+| {{ItemLink|size=40px|Sarco|text=<br />Sarco}}
+| {{ItemLink|size=40px|Stegosaurus|text=<br />Stegosaurus}}
+| {{ItemLink|size=40px|Tek Stegosaurus|text=<br />Tek Stegosaurus}}
+| {{ItemLink|size=40px|Terror Bird|text=<br />Terror Bird}}
+| {{ItemLink|size=40px|Thorny Dragon|text=<br />Thorny Dragon}}
+| {{ItemLink|size=40px|Velonasaur|text=<br />Velonasaur}}
+|}
+{{clear}}
+;{{ItemLink|Superior Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Allosaurus|text=<br />Allosaurus}}
+| {{ItemLink|size=40px|Argentavis|text=<br />Argentavis}}
+| {{ItemLink|size=40px|Castoroides|text=<br />Castoroides}}
+| {{ItemLink|size=40px|Daeodon|text=<br />Daeodon}}
+| {{ItemLink|size=40px|Direbear|text=<br />Direbear}}
+| {{ItemLink|size=40px|Direwolf|text=<br />Direwolf}}
+| {{ItemLink|size=40px|Gasbags|text=<br />Gasbags}}
+| {{ItemLink|size=40px|Dunkleosteus|text=<br />Dunkleosteus}}
+|-
+| {{ItemLink|size=40px|Mammoth|text=<br />Mammoth}}
+| {{ItemLink|size=40px|Megalodon|text=<br />Megalodon}}
+| {{ItemLink|size=40px|Megalosaurus|text=<br />Megalosaurus}}
+| {{ItemLink|size=40px|Megatherium|text=<br />Megatherium}}
+| {{ItemLink|size=40px|Paracer|text=<br />Paracer}}
+| {{ItemLink|size=40px|Plesiosaur|text=<br />Plesiosaur}}
+| {{ItemLink|size=40px|Snow Owl|text=<br />Snow Owl}}
+| {{ItemLink|size=40px|Tapejara|text=<br />Tapejara}}
+|-
+| {{ItemLink|size=40px|Woolly Rhino|text=<br />Woolly Rhino}}
+|}
+{{clear}}
+;{{ItemLink|Exceptional Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Basilosaurus|text=<br />Basilosaurus}}
+| {{ItemLink|size=40px|Brontosaurus|text=<br />Brontosaurus}}
+| {{ItemLink|size=40px|Giganotosaurus|text=<br />Giganotosaurus}}
+| {{ItemLink|size=40px|Karkinos|text=<br />Karkinos}}
+| {{ItemLink|size=40px|Managarmr|text=<br />Managarmr}}
+| {{ItemLink|size=40px|Mosasaurus|text=<br />Mosasaurus}}
+| {{ItemLink|size=40px|Rex|text=<br />Rex}}
+| {{ItemLink|size=40px|Quetzal|text=<br />Quetzal}}
+|-
+| {{ItemLink|size=40px|Therizinosaur|text=<br />Therizinosaur}}
+| {{ItemLink|size=40px|Tek Rex|text=<br />Tek Rex}}
+| {{ItemLink|size=40px|Tek Quetzal|text=<br />Tek Quetzal}}
+| {{ItemLink|size=40px|Spinosaur|text=<br />Spinosaur}}
+|}
+{{clear}}
+;{{ItemLink|Extraordinary Kibble}}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Griffin|text=<br />Griffin}}
+| {{ItemLink|size=40px|Megalania|text=<br />Megalania}}
+| {{ItemLink|size=40px|Rock Elemental|text=<br />Rock Elemental}}
+| {{ItemLink|size=40px|Thylacoleo|text=<br />Thylacoleo}}
+| {{ItemLink|size=40px|Yutyrannus|text=<br />Yutyrannus}}
+|}
+{{clear}}
+;<span title="Do not use kibble taming." style="cursor: help; border-bottom: 1px dotted;">Standalone</span>
+{| class="kibble-table"
+| {{ItemLink|size=40px|Achatina|text=<br />Achatina}}
+| {{ItemLink|size=40px|Arthropluera|text=<br />Arthro}}
+| {{ItemLink|size=40px|Basilisk|text=<br />Basilisk}}
+| {{ItemLink|size=40px|Bulbdog|text=<br />Bulbdog}}
+| {{ItemLink|size=40px|Chalicotherium|text=<br />Chalico}}
+| {{ItemLink|size=40px|Dung Beetle|text=<br />Dung Beetle}}
+| {{ItemLink|size=40px|Hyaenodon|text=<br />Hyaenodon}}
+| {{ItemLink|size=40px|Gacha|text=<br />Gacha}}
+|-
+| {{ItemLink|size=40px|Jerboa|text=<br />Jerboa}}
+| {{ItemLink|size=40px|Liopleurodon|text=<br />Liopleurodon}}
+| {{ItemLink|size=40px|Lystrosaurus|text=<br />Lystrosaurus}}
+| {{ItemLink|size=40px|Manta|text=<br />Manta}}
+| {{ItemLink|size=40px|Compy|text=<br />Compy}}
+| {{ItemLink|size=40px|Ovis|text=<br />Ovis}}
+| {{ItemLink|size=40px|Phoenix|text=<br />Phoenix}}
+| {{ItemLink|size=40px|Procoptodon|text=<br />Procoptodon}}
+|-
+| {{ItemLink|size=40px|Ravager|text=<br />Ravager}}
+| {{ItemLink|size=40px|Reaper|text=<br />Reaper}}
+| {{ItemLink|size=40px|Rock Drake|text=<br />Rock Drake}}
+| {{ItemLink|size=40px|Roll Rat|text=<br />Roll Rat}}
+| {{ItemLink|size=40px|Shinehorn|text=<br />Shinehorn}}
+| {{ItemLink|size=40px|Forest Titan|text=<br />Forest Titan}}
+| {{ItemLink|size=40px|Desert Titan|text=<br />Desert Titan}}
+| {{ItemLink|size=40px|Otter|text=<br />Otter}}
+|-
+| {{ItemLink|size=40px|Oviraptor|text=<br />Oviraptor}}
+| {{ItemLink|size=40px|Ice Titan|text=<br />Ice Titan}}
+| {{ItemLink|size=40px|Titanosaur|text=<br />Titanosaur}}
+| {{ItemLink|size=40px|Wyvern|text=<br />Wyvern}}
+| {{ItemLink|size=40px|Electrophorus|text=<br />Electrophorus}}
+| {{ItemLink|size=40px|Featherlight|text=<br />Featherlight}}
+| {{ItemLink|size=40px|Glowtail|text=<br />Glowtail}}
+| {{ItemLink|size=40px|Hesperornis|text=<br />Hesperornis}}
+|-
+| {{ItemLink|size=40px|Mantis|text=<br />Mantis}}
+| {{ItemLink|size=40px|Microraptor|text=<br />Microraptor}}
+| {{ItemLink|size=40px|Moschops|text=<br />Moschops}}
+| {{ItemLink|size=40px|Pachyrhino|text=<br />Pachyrhino}}
+| {{ItemLink|size=40px|Titanoboa|text=<br />Titanoboa}}
+| {{ItemLink|size=40px|Tusoteuthis|text=<br />Tusoteuthis}}
+| {{ItemLink|size=40px|Vulture|text=<br />Vulture}}
+|}
+{{clear}}
+
+The {{ItemLink|Griffin}} can produce eggs in [[ARK: Survival Evolved Mobile]], and has a corresponding kibble.
+
+==Old Recipes==
+{{ArchiveSection}}
+While most of these kibbles are no longer craftable in game, they still exists in game and are left here for reference. Moreover, these kibbles are denoted by the outer layer of the image's color, sorted by category based on the egg used to craft the new kibble. For example, Titanoboa Kibbles are categorized as Superior Kibble (Purple) as its egg used to make such kibble is considered Large.
+[[File:Kibble Recipe.jpg|thumb|right|In-game recipe for kibbles in general]]
+{{:Table of kibbles}}
+
+;Extinction
+
+Extinction uses a unique type of fused kibble known as Augmented Kibble. It takes in any egg of that type along with the required materials to craft such kibble, currently ideally for the unique creatures of Extinction.
+{{:Table of kibbles/Extinction}}
+
+See also [[#Kibble Rework|Kibble Rework]]
+
+=== Old Kibble Types ===
+
+;Dilo
+{| class="kibble-table"
+| rowspan="5" | {{ItemLink|size=80px|Dilo|text=<br />Dilo}} ||  || {{ItemLink|size=40px|Doedicurus|text=<br />Doedicurus}} ||  || || || {{ItemLink|size=40px|Direbear|text=<br />Direbear}}
+|-
+| ◥ || || || || ◥
+|-
+| ▶ ||{{ItemLink|size=40px|Ankylosaurus|text=<br />Ankylo}}|| ▶ ||{{ItemLink|size=40px|Carno|text=<br />Carno}}|| ▶ || {{ItemLink|size=40px|Triceratops|text=<br />Trike}}|| ▶ || {{ItemLink|size=40px|Sarco|text=<br />Sarco}} || ▶ || {{ItemLink|size=40px|Stegosaurus|text=<br />Stego}} || ▶ || {{ItemLink|size=40px|Argentavis|text=<br />Argent}} || ▶ || {{ItemLink|size=40px|Spinosaur|text=<br />Spino}} || ▶ || {{ItemLink|size=40px|Megalodon|text=<br />Megalodon}}
+|-
+| ◢ || || || || ◢ 
+|-
+|| || {{ItemLink|size=40px|Pachy|text=<br />Pachy}} || ▶ || {{ItemLink|size=40px|Paracer|text=<br />Paracer}} || || {{ItemLink|size=40px|Direwolf|text=<br />Direwolf}}
+|}
+{{clear}}
+;Scorpion
+{| class="kibble-table"
+| rowspan="5" | {{ItemLink|size=80px|Scorpion|text=<br />Scorpion}} || || || || {{ItemLink|size=40px|Plesiosaur|text=<br />Plesiosaur}} || || {{ItemLink|size=40px|Mosasaurus|text=<br />Mosasaurus}} || || || || {{ItemLink|size=40px|Castoroides|text=<br />Castoroides}}
+|-
+| || || ◥ || || ◥ || || || || ◥ 
+|-
+| ▶ || {{ItemLink|size=40px|Rex|text=<br />Rex}} || ▶ || {{ItemLink|size=40px|Quetzal|text=<br />Quetzal}} || ▶ || {{ItemLink|size=40px|Dimetrodon|text=<br />Dimetrodon}} || ▶ || {{ItemLink|size=40px|Gallimimus|text=<br />Gallimimus}} || ▶ || {{ItemLink|size=40px|Terror Bird|text=<br />Terror Bird}} || ▶ || {{ItemLink|size=40px|Woolly Rhino|text=<br />Woolly Rhino}}
+|-
+| ◢ || || || || ◢  
+|-
+|| || {{ItemLink|size=40px|Beelzebufo|text=<br />Beelzebufo}} || || || || {{ItemLink|size=40px|Giganotosaurus|text=<br />Giganoto}} || ▶ || <span title="Giganoto Eggs are the Oviraptor's favourite food, but Giganoto Kibble is unused." style="font-size: 32px; line-height:40px; cursor: help; border-bottom: 1px dotted;">?</span><br/>[[Upcoming Features|Unknown]]
+|}
+{{clear}}
+;Dodo
+{| class="kibble-table"
+| rowspan="5" | {{ItemLink|size=80px|Dodo|text=<br />Dodo}} || || {{ItemLink|size=40px|Ichthy|text=<br /> Ichthy}}  || || || || {{ItemLink|size=40px|Karkinos|text=<br /> Karkinos}}
+|-
+| ◥ || || || || ◥
+|-
+| ▶ || {{ItemLink|size=40px|Pteranodon|text=<br />Pteranodon}} || ▶ || {{ItemLink|size=40px|Carbonemys|text=<br />Carbonemys}} || ▶ || {{ItemLink|size=40px|Brontosaurus|text=<br />Bronto}} || ▶ || {{ItemLink|size=40px|Sabertooth|text=<br />Sabertooth}}
+|-
+| ◢ 
+|-
+| || {{ItemLink|size=40px|Mesopithecus|text=<br />Mesopithecus}}
+|}
+{{clear}}
+;Titanoboa
+{| class="kibble-table"
+| rowspan="5" | {{ItemLink|size=80px|Titanoboa|text=<br />Titanoboa}} || || {{ItemLink|size=40px|Gigantopithecus|text=<br />Gigantopithecus}}
+|-
+| ◥ 
+|-
+| ▶ || {{ItemLink|size=40px|Dunkleosteus|text=<br />Dunkleosteus}}
+|-
+| ◢ 
+|- 
+| || {{ItemLink|size=40px|Thylacoleo|text=<br />Thylacoleo}}
+|}
+{{clear}}
+;Pegomastax
+{| class="kibble-table"
+| rowspan="5" | {{ItemLink|size=80px|Pegomastax|text=<br />Pegomastax}} || || {{ItemLink|size=40px|Ichthyornis|text=<br />Ichthyornis}}  || ▶ || {{ItemLink|size=40px|Giant Bee|text=<br />Giant Bee}}
+|-
+| ◥ 
+|-
+| || 
+|-
+| ◢ 
+|- 
+| || {{ItemLink|size=40px|Pelagornis|text=<br />Pelagornis}} || ▶ || {{ItemLink|size=40px|Archaeopteryx|text=<br />Archaeopteryx}} || ▶ || {{ItemLink|size=40px|Diplocaulus|text=<br />Diplocaulus}}
+|}
+{{clear}}
+;Lystrosaurus
+{| class="kibble-table"
+| {{ItemLink|size=80px|Lystrosaurus|text=<br />Lystrosaurus}} || ▶ || {{ItemLink|size=40px|Diplodocus|text=<br />Diplodocus}} || ▶ || {{ItemLink|size=40px|Allosaurus|text=<br />Allosaurus}} || ▶ || {{ItemLink|size=40px|Tapejara|text=<br />Tapejara}} || ▶ || {{ItemLink|size=40px|Kaprosuchus|text=<br />Kaprosuchus}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|-
+| || || || || || ◢ 
+|-
+|-
+| || || || || || || {{ItemLink|size=40px|Griffin|text=<br />Griffin}} 
+|}
+{{clear}}
+;Compsognathus / Dimorphodon / Kairuku / Microraptor / Moschops / Oviraptor / Pachyrhino / Parasaur / Troodon
+{| class="kibble-table"
+| {{ItemLink|size=40px|Compsognathus|text=<br />Compy}} || ▶ || {{ItemLink|size=40px|Kentrosaurus|text=<br />Kentrosaurus}} || ▶ || {{ItemLink|size=40px|Yutyrannus|text=<br />Yutyrannus}}
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Dimorphodon|text=<br />Dimorph}} || ▶ || {{ItemLink|size=40px|Megaloceros|text=<br />Megaloceros}}
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Kairuku|text=<br />Kairuku}} || ▶ || {{ItemLink|size=40px|Angler|text=<br />Angler}}
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Microraptor|text=<br />Microraptor}} || ▶ || {{ItemLink|size=40px|Iguanodon|text=<br />Iguanodon}} || ▶ || {{ItemLink|size=40px|Daeodon|text=<br />Daeodon}}
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Moschops|text=<br />Moschops}} || ▶ || {{ItemLink|size=40px|Purlovia|text=<br />Purlovia}}
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Oviraptor|text=<br />Oviraptor}} || ▶ || {{ItemLink|size=40px|Megalosaurus|text=<br />Megalosaurus}} || ▶ || {{ItemLink|size=40px|Therizinosaur|text=<br/>Therizinosaur}} || ▶ || {{ItemLink|size=40px|Basilosaurus|text=<br/>Basilosaurus}} 
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Pachyrhinosaurus|text=<br />Pachyrhino}} || ▶ || {{ItemLink|size=40px|Baryonyx|text=<br />Baryonyx}} || ▶ || {{ItemLink|size=40px|Megalania|text=<br />Megalania}} || ▶ || {{ItemLink|size=40px|Megatherium|text=<br />Megatherium}} 
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Parasaur|text=<br />Parasaur}} || ▶ || {{ItemLink|size=40px|Raptor|text=<br />Raptor}} || ▶ || {{ItemLink|size=40px|Mammoth|text=<br />Mammoth}} 
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Troodon|text=<br />Troodon}} || ▶ || {{ItemLink|size=40px|Equus|text=<br />Equus}}
+|} 
+
+{{clear}}
+;Vulture / Mantis ([[Scorched Earth]])
+{| class="kibble-table"
+| {{ItemLink|size=40px|Vulture|text=<br />Vulture}} || ▶ || {{ItemLink|size=40px|Morellatops|text=<br />Morellatops}} || ▶ || {{ItemLink|size=40px|Thorny Dragon|text=<br />Thorny Dragon}} || ▶ || {{ItemLink|size=40px|Lymantria|text=<br />Lymantria}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|}
+{| class="kibble-table"
+| {{ItemLink|size=40px|Mantis|text=<br />Mantis}} || ▶ || {{ItemLink|size=40px|Rock Elemental|text=<br />Rock Elemental}} 
+|}
+{{clear}}
+;Featherlight / Glowtail / Rock Drake ([[Aberration]])
+{| class="kibble-table"
+| {{ItemLink|size=40px|Featherlight|text=<br />Featherlight}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Glowtail|text=<br />Glowtail}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Rock Drake|text=<br />Rock Drake}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|}
+{{clear}}
+;Gasbags / Managarmr / Snow Owl / Velonasaur ([[Extinction]])
+As their kibble can be made from specific assorted eggs, kibbles will instead be placed in place for creatures.
+{| class="kibble-table"
+| {{ItemLink|size=40px|Regular Augmented Kibble (Extinction)|text=<br />Regular Augmented Kibble}} || ▶ || {{ItemLink|size=40px|Velonasaur|text=<br />Velonasaur}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Superior Augmented Kibble (Extinction)|text=<br />Superior Augmented Kibble}} || ▶ || {{ItemLink|size=40px|Snow Owl|text=<br />Snow Owl}} || ▶ || <span style="font-size: 32px; line-height:40px;">?</span><br/>[[Upcoming Features|Unknown]]
+|-
+| || ◢ 
+|-
+| || || {{ItemLink|size=40px|Gasbags|text=<br />Gasbags}}
+|} 
+{| class="kibble-table"
+| {{ItemLink|size=40px|Exceptional Augmented_Kibble (Extinction)|text=<br />Exceptional Augmented Kibble}} || ▶ || {{ItemLink|size=40px|Managarmr|text=<br />Managarmr}}
+|-
+| {{ItemLink|size=40px|Extraordinary Augmented Kibble (Extinction)|text=<br />Extraordinary Augmented Kibble}} || ◥
+|} 
+{{clear}}
+;Royal Griffin ([[ARK: Survival Evolved Mobile|Mobile]])
+{| class="kibble-table"
+| {{ItemLink|size=40px|Kibble (Griffin Egg) (Mobile)|text=<br />Kibble (Griffin Egg)}} || ▶ || {{ItemLink|size=40px|Royal Griffin|text=<br />Royal Griffin}}
+|-
+| || ◢ ||
+|-
+|-
+| || || {{ItemLink|size=40px|Unicorn|text=<br />Unicorn}} 
+|} 
+{{clear}}
+;Produces eggs that do not have a corresponding kibble
+{| class="kibble-table"
+| {{ItemLink|size=40px|Basilisk|text=<br />Basilisk}}
+| {{ItemLink|size=40px|Wyvern|text=<br />Wyvern}}
+|}
+{{clear}}
+;<span title="Do not prefer kibble; do not produce eggs." style="cursor: help; border-bottom: 1px dotted;">Standalone</span>
+{| class="kibble-table"
+| {{ItemLink|size=40px|Achatina|text=<br />Achatina}}
+| {{ItemLink|size=40px|Arthropluera|text=<br />Arthro}}
+| {{ItemLink|size=40px|Bulbdog|text=<br />Bulbdog}}
+| {{ItemLink|size=40px|Chalicotherium|text=<br />Chalico}}
+| {{ItemLink|size=40px|Dung Beetle|text=<br />Dung Beetle}}
+| {{ItemLink|size=40px|Enforcer|text=<br />Enforcer}}
+| {{ItemLink|size=40px|Hyaenodon|text=<br />Hyaenodon}}
+| {{ItemLink|size=40px|Gacha|text=<br />Gacha}}
+| {{ItemLink|size=40px|Jerboa|text=<br />Jerboa}}
+| {{ItemLink|size=40px|Liopleurodon|text=<br />Liopleurodon}}
+| {{ItemLink|size=40px|Manta|text=<br />Manta}}
+| {{ItemLink|size=40px|Mek|text=<br />Mek}}
+| {{ItemLink|size=40px|Mega Mek|text=<br />Mega Mek}}
+| {{ItemLink|size=40px|Onyc|text=<br />Onyc}}
+|-
+| {{ItemLink|size=40px|Ovis|text=<br />Ovis}}
+| {{ItemLink|size=40px|Phiomia|text=<br />Phiomia}}
+| {{ItemLink|size=40px|Phoenix|text=<br />Phoenix}}
+| {{ItemLink|size=40px|Procoptodon|text=<br />Procoptodon}}
+| {{ItemLink|size=40px|Ravager|text=<br />Ravager}}
+| {{ItemLink|size=40px|Reaper|text=<br />Reaper}}
+| {{ItemLink|size=40px|Roll Rat|text=<br />Roll Rat}}
+| {{ItemLink|size=40px|Scout|text=<br />Scout}}
+| {{ItemLink|size=40px|Shinehorn|text=<br />Shinehorn}}
+| {{ItemLink|size=40px|Forest Titan|text=<br />Forest Titan}}
+| {{ItemLink|size=40px|Desert Titan|text=<br />Desert Titan}}
+| {{ItemLink|size=40px|Ice Titan|text=<br />Ice Titan}}
+| {{ItemLink|size=40px|Titanosaur|text=<br />Titanosaur}}
+|}
+<div style="clear:both;"></div>
+
+;Kibble Taming Chart
+
+[[File:KibbleChart.jpg|left|thumb|931x931px|Kibble-Chart (v[[276.0]])]]
+{{clear}}
+
+==Using as regular food==
+Kibble can be used as regular food for tamed dinos. Kibble takes 3 days to spoil, which makes it last longer than most other food types. It also stacks to 100 and weighs little compared to other foods. Kibble can last for very long periods of time when stacked and preserved in a [[Preserving Bin]] or [[Refrigerator]] (Refrigerator is recommended as the spoilage time is greatly increased).
+
+The amount of food per kibble depends on the type of kibble and whether the kibble is preferred by a particular dino. Most dinos gain 80 food from their preferred kibble, even if other dinos would gain more. There are exceptions; for instance, [[Daeodon]]s gain 120 food from their preferred kibble (Iguanadon/Superior), which normally only gives 90. Aside from being preferred by a dino, kibbles will give either 60 or 90 food per kibble. Kibbles that give 90 food generally require [[Prime Meat Jerky]] and as of v257 are: Ankylo, Araneo, Archaeopteryx, Argentavis, Ichthyornis, Iguanodon, Kaprosuchus, Mantis, Megalosaurus, Microraptor, Moth, Oviraptor, Pulminoscorpius, Quetzal, Rex, Spino, Stego, and Tapejara. All other kibbles give 60 food, unless preferred, of course.
+
+Due to these traits, using Kibble as regular food can be useful on some occasions. Like when leaving your creatures behind for long periods of time, as you have to fill the creatures' inventories less often.
+
+However, farming Eggs is still very time consuming and expensive, so generally it is not recommended to use as regular Dino food. When using Kibble for this purpose, it is advised to use Kibble types that are easy to make, like the [[Kibble (Dodo Egg)|Dodo Kibble]].
+
+==Super Kibble (Mobile)==
+{{Main|Super Kibble (Mobile)}}
+{{Exclusive section|Mobile}}
+The Super Kibble is a type of Kibble exclusive to ''[[ARK: Survival Evolved Mobile]]''. It can be crafted in a {{ItemLink|Cooking Pot}} or in an {{ItemLink|Industrial Cooker}} by substituting the normal {{ItemLink|Dinosaur Eggs|Egg}} with a {{ItemLink|Super Fertilized Egg (Mobile)|Super Fertilized Egg}}. A Super Kibble will tame a wild [[Creatures|creature]] faster than a normal Kibble with greater {{ItemLink|Taming}} effectiveness
+
+== Notes ==
+* When using Kibble to passive tame by placing it in the last slot of your hotbar, be aware that if a Pegomastax steals it, it will eat the entire stack!
+
+{{Nav consumables}}
+{{Nav Taming}}
+{{MissingTranslations|pl|it|de|es|pt-br|fr}}
