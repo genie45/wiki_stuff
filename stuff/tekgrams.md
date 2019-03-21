@@ -132,13 +132,13 @@
     Tek Pants
     Tek Gloves
     Tek Generator
-    Tek Through
+    Tek Trough
 ## Medium
     Replicator
     Tek Pants
     Tek Gloves
     Tek Generator
-    Tek Through
+    Tek Trough
     Tek Rifle
     Tek Shield 
     Tek Deidcated Storage 
@@ -148,7 +148,7 @@
     Tek Pants
     Tek Gloves
     Tek Generator
-    Tek Through
+    Tek Trough
     Tek Rifle
     Tek Shield 
     Tek Deidcated Storage 
@@ -162,14 +162,14 @@
 ## Easy
     Replicator
     Tek Bed
-    Tek Through
+    Tek Trough
     Tek Pants
     Tek Gloves
     Tek Generator
 ## Medium
     Replicator
     Tek Bed
-    Tek Through
+    Tek Trough
     Tek Pants
     Tek Gloves
     Tek Generator
@@ -182,7 +182,7 @@
 ## Hard
     Replicator
     Tek Bed
-    Tek Through
+    Tek Trough
     Tek Pants
     Tek Gloves
     Tek Generator
@@ -202,7 +202,7 @@
     Tek Generator
     Tek Boots
     Tek Sniper
-    Tek Through
+    Tek Trough
     Tek Dedicated Storage
 # Forest Titan 
     Replicator
