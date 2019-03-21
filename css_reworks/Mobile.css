@@ -1,0 +1,484 @@
+/* CSS placed here will affect users of the mobile site */
+/* Header and footer */
+.skin-minerva .header-container.header-chrome,
+.skin-minerva #mw-mf-page-center {
+    background: #212121;
+}
+
+
+.skin-minerva .nomobile {
+    display: none;
+}
+
+/* search header */
+.skin-minerva .overlay {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.skin-minerva .overlay .overlay-header-container {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.skin-minerva .search-overlay .overlay-header,
+.skin-minerva .search-overlay .results {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    color: #E0E0E0;
+}
+
+.skin-minerva .search-overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5) !important; 
+}
+
+.skin-minerva ul.suggestions-results,
+.skin-minerva ul.suggestions-results li {
+    background: rgba(0, 0, 0, 0.85);
+    color: #E0E0E0;
+}
+
+.skin-minerva ul.suggestions-results li.suggestions-result {
+    color: #E0E0E0;
+}
+
+/* general header */
+.skin-minerva #mw-mf-header form,
+.skin-minerva #mw-mf-sq {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+/* non-content area */
+.skin-minerva body {
+    background: url('https://ark.gamepedia.com/media/ark.gamepedia.com/e/ef/Mobile_bg.jpg') repeat top left #7c8975;
+}
+
+
+
+.skin-minerva a,
+.skin-minerva a:visited,
+.skin-minerva a.external {
+    color: #397d75;
+}
+
+.skin-minerva .overlay-enabled, #content {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+}
+
+.skin-minerva .content table th {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.skin-minerva .content table td,
+.skin-minerva .content table th {
+    border: medium none;
+    padding: 3px;
+}
+
+.skin-minerva h1, 
+.skin-minerva h2 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #303030;
+    color: #303030;
+}
+
+.skin-minerva h3, h4, h5, h6 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #303030;
+}
+
+.skin-minerva .thumb,
+.skin-minerva #content_wrapper .thumb {
+    background: transparent;
+    border: 2px solid #1a1a1a;
+}
+
+.skin-minerva table.wikitable {
+    border: none;
+    border-collapse: separate !important;
+    border-spacing: 2px !important;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.skin-minerva table.wikitable td {
+    border: none;
+    padding: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.skin-minerva table.wikitable th {
+    background: #ebba8d;
+    border: none;
+    padding: 3px;
+}
+
+.skin-minerva .mwm-notice,
+.skin-minerva #searchbox {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #1a1a1a;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.skin-minerva .divclearable,
+.skin-minerva a.watch-this-article,
+.skin-minerva .jsEnabled #mw-mf-main-menu-button {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.skin-minerva a.back_to_top,
+.skin-minerva a.back_to_top:visited {
+    margin-top: 7px;
+}
+
+/* Infobox style */
+.skin-minerva .infobox {
+  float: right;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  background-color: #111111;
+  border: 1px solid #ffffff;
+  overflow-x: scroll;
+}
+
+.skin-minerva .content table.infobox-table {
+  margin: 0;
+}
+
+.skin-minerva .infobox-table {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.skin-minerva .content table th.infobox-header {
+  padding: 0.1em;
+  color: #ffffff;
+  background-color: #13473f;
+  font-size: 130%;
+  text-align: center;
+}
+
+.skin-minerva .content table th.infobox-section {
+  background-color: #dddddd;
+}
+
+.skin-minerva .infobox-centered {
+  text-align: center;
+}
+
+.skin-minerva .infobox-row {
+  vertical-align: top;
+}
+
+.skin-minerva .infobox-row-name {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.skin-minerva .infobox-spacer {
+  height: 0.5em;
+}
+
+/* non-content area */
+.skin-minerva .globalNotice {
+    position: relative;
+    color: white;
+}
+
+.skin-minerva .page-Main_Page.is-authenticated .pre-content {
+    display: none;
+}
+
+.skin-minerva .notification-count {
+   background: transparent;
+}
+
+.skin-minerva footer {
+    background-color: #000000;
+    border-top: 1px solid #394147;
+    color: #D5D4D4;
+}
+
+.skin-minerva footer a, footer h2 {
+    color: #c3c3c3;
+}
+
+.skin-minerva footer .last-modified-bar {
+  background: transparent;
+}
+
+/* -------------------------- */
+/* "ARKITEXURE"-STYLE INFOBOX */
+/* -------------------------- */
+
+/* arkitexure rounded borders */
+.skin-minerva .info-arkitex {
+  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -icab-border-radius: 10px; -o-border-radius: 10px; float:center;
+}
+.skin-minerva .info-arkitex-left {
+  border-radius: 10px 0 0 10px; -moz-border-radius: 10px 0 0 10px; -webkit-border-radius: 10px 0 0 10px; -khtml-border-radius: 10px 0 0 10px; -icab-border-radius: 10px 0 0 10px; -o-border-radius: 10px 0 0 10px; float:left;
+}
+.skin-minerva .info-arkitex-right {
+  border-radius: 0 10px 10px 0; -moz-border-radius: 0 10px 10px 0; -webkit-border-radius: 0 10px 10px 0; -khtml-border-radius: 0 10px 10px 0; -icab-border-radius: 0 10px 10px 0; -o-border-radius: 0 10px 10px 0; float:right;
+}
+
+/* arkitexure full container */
+.skin-minerva .info-framework {
+  float:left; min-width:340px; width:340px; max-width:410px; background:#68a090; border:2px solid #44685e; margin:0 8px 8px 0; padding:5px 5px 0 5px; overflow:hidden;
+}
+
+/* arkitexure individual module (sub-container) */
+.skin-minerva .info-module {
+  display:inline-block; min-width:333px; width:97%; max-width:402px; text-align:right; background:#9dc1b7; margin:0 0 0/*5px*/ 0; padding:4px 4px 0 4px; overflow:hidden;
+}
+
+/* arkitexure "sub-module" component */
+.skin-minerva .info-unit {
+  display:inline-block; width:100%; min-width:333px; max-width:402px; text-align:center; margin:0 0 0/*4px*/ 0; padding:0; background:#9dc1b7; overflow:hidden;
+}
+.skin-minerva .info-unit-row {
+  display:flex; flex-direction:row; align-items:top; min-width:335px; width:100%; max-width:402px; padding:0; margin:0; overflow:hidden;
+}
+.info-unit-comment { display:flex; align-items:left; font-size:11px !important; }
+.info-unit-caption { text-align:center !important; padding:0 8px 0 8px !important; background:none !important; }
+
+/* arkitexure cell, intended for one total column, 100% width */
+.skin-minerva .info-X1-100 {
+  display:inline-block; min-width:330px; width:100%; max-width:396px; margin:1px; padding:5px 2px 5px 2px; background:#fff;
+}
+.info-masthead { display:flex !important; align-items:center; justify-content:center; min-height:38px; height:auto; font-size:24px; }
+.info-column { display:flex !important; flex-direction:column; align-items:center; }
+.info-sound-div { margin:5px 0 -5px 0; }
+
+
+/* arkitexure cell, intended for two total columns, 25% width */
+.skin-minerva .info-X2-25 {
+  display:flex; align-items:center; justify-content:center; min-width:65px; width:25%; max-width:92px; min-height:40px; height:40px; max-height:40px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb;
+}
+/* arkitexure cell, intended for two total columns, 75% width */
+.skin-minerva .info-X2-75 {
+  display:flex; align-items:center; justify-content:center; min-width:233px; width:75%; max-width:274px; margin:1px; padding:5px 8px 5px 8px; background:#fff; min-height:40px; height:auto; font-size:24px;
+}
+
+/* arkitexure cell, intended for two total columns, 40% width */
+.skin-minerva .info-X2-40 {
+  display:inline-block; min-width:140px; width:40%; max-width:144px; min-height:24px; height:24px; max-height:24px; margin:1px; padding:5px 8px 5px 8px; background:#edf3eb; text-align:right;
+}
+/* arkitexure cell, intended for two total columns, 60% width */
+.skin-minerva .info-X2-60 {
+  display:inline-block; min-width:158px; width:60%; max-width:222px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:left;
+}
+
+/* arkitexure cell, intended for three total columns, 33% width */
+.skin-minerva .info-X3-33 {
+  display:inline-block; min-width:93px; width:33%; max-width:116px; min-height:24px; height:auto; margin:1px; padding:5px 8px 5px 8px; background:#fff; text-align:center;
+}
+
+/* END "ARKITEXURE"-STYLE INFOBOX */
+
+
+
+/* Creature Region Map */
+.skin-minerva .cr-region-map-marker{
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 2px;
+}
+.skin-minerva .cr-region-map-markercave{
+  border: 1px solid black;
+}
+
+.skin-minerva .stripes {
+ background: repeating-linear-gradient(
+.skin-minerva   45deg,
+.skin-minerva   transparent,
+.skin-minerva   transparent 5px,
+.skin-minerva   rgba(0, 0, 0, 0.3) 5px,
+  rgba(0, 0, 0, 0.3) 10px
+  );
+}
+
+.skin-minerva .cr-region-map-very-common{
+  filter: hue-rotate(120deg) brightness(400%);
+}
+.skin-minerva .cr-region-map-common{
+  filter: hue-rotate(78deg) brightness(400%);
+}
+.skin-minerva .cr-region-map-uncommon{
+  filter: hue-rotate(60deg) brightness(400%);
+}
+.skin-minerva .cr-region-map-very-uncommon{
+  filter: hue-rotate(48deg) brightness(400%);
+}
+.skin-minerva .cr-region-map-rare{
+  filter: hue-rotate(24deg) brightness(400%);
+}
+
+.skin-minerva .cr-region-map-cl-very-common{
+  background-color: hsl(120,100%,60%);
+}
+.skin-minerva .cr-region-map-cl-common{
+  background-color: hsl(78,100%,60%);
+}
+.skin-minerva .cr-region-map-cl-uncommon{
+  background-color: hsl(60,100%,63.3%);
+}
+.skin-minerva .cr-region-map-cl-very-uncommon{
+  background-color: hsl(48,100%,63.3%);
+}
+.skin-minerva .cr-region-map-cl-rare{
+  background-color: hsl(30,100%,56.7%);
+}
+.skin-minerva .cr-region-map-cl-very-rare{
+  background-color: hsl(0,100%,56.7%);
+}
+.skin-minerva .cr-region-map-cl-unknown{
+  background-color: #ccc;
+}
+
+/*** spawning-maps, svg ***/
+.skin-minerva .spawningMap-map {
+  filter: sepia(60%) grayscale(30%);
+}
+
+.skin-minerva .spawningMap-deuteranopia.spawningMap-map,
+.skin-minerva .spawningMap-tritanopia.spawningMap-map {
+  filter: grayscale(90%) contrast(80%);
+}
+
+.skin-minerva .spawningMap-very-common {
+  fill: #0F0;
+  background-color: #0F0;
+}
+
+.skin-minerva .spawningMap-common {
+  fill: #B2FF00;
+  background-color: #B2FF00;
+}
+
+.skin-minerva .spawningMap-uncommon {
+  fill: #FF0;
+  background-color: #FF0;
+}
+
+.skin-minerva .spawningMap-very-uncommon {
+  fill: #FC0;
+  background-color: #FC0;
+}
+
+.skin-minerva .spawningMap-rare {
+  fill: #F60;
+  background-color: #F60;
+}
+
+.skin-minerva .spawningMap-very-rare {
+  fill: #F00;
+  background-color: #F00;
+}
+
+.skin-minerva .spawningMap-legendBox {
+  display: inline-block;
+  border-radius: 2px;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: text-bottom;
+  border: 1px solid gray;
+}
+
+
+.skin-minerva .content a > img {
+    max-width: none !important;
+}
+
+/* Photo background */
+.skin-minerva li.photo-bg {
+	margin: 8px 6px;
+	padding: 5px;
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	min-height: 152px;
+	vertical-align: top;
+	text-align: center;
+	background: #c4c4c4;
+	border: 1px solid #b7b7b7;
+	box-shadow: 0 0 8px #333;
+}
+
+/* link-spanner */
+.skin-minerva .link-spanner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+/* Tiles (Template:Tile) */
+.skin-minerva .tile_container {
+  margin: 4px 0px 8px 8px;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.skin-minerva .tile_container:hover{
+  background: #fff;
+}
+
+.skin-minerva .tile_inner {
+  position:relative;
+  top:6px;
+  left:0;
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+/* Survivor Profile Table (Template:DTile) */
+.skin-minerva .dtile a:link, .dtile a:visited, .dtile_dlc a:link, .dtile_dlc a:visited{
+  color: #a8b9ba !important;
+}
+
+.skin-minerva .dtile img{
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+}
+
+.skin-minerva .dtile_dlc img{
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+}
+
+/* Keyboard-Keys (Template:Key) */
+.skin-minerva kbd {
+  font-family: monospace,Courier;
+  background: linear-gradient(to right, #eaeaea 0%,#cecece 99%,#ffffff 99%,#ffffff 100%);
+  border: 1px solid;
+  border-color: #DDD #AAA #888 #CCC;
+  border-radius: 2px;
+  border-width: 1px 2px 3px 2px;
+  padding: 0 .3em;
+  text-shadow: 0 1px rgba(255,255,255,.5);
+  white-space: nowrap;
+}
+
+/* Wiki name to the left of search bar */
+.skin-minerva div.branding-box span {
+  color:#fff;
+  margin-right:1em;
+}
