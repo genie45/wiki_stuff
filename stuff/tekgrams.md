@@ -82,7 +82,7 @@
     Tek Bed
 >Tek Through<br>Tek Pants<br>Tek Gloves<br>Tek Generator
 ## Medium
-    Tek Rock Drack Saddle
+    Tek Rock Drake Saddle
 >Tek Dedicated Storage<br>Tek Helmet<br>Tek Shirt<br>Tek Boots<br>Tek Rifle
 ## Hard
     Tek Sniper
