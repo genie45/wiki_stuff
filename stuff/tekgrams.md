@@ -220,6 +220,7 @@
     Tek Tapejara Saddle
 # Ragnarok
 ## Easy 
+    Tek Light
 ### Manticore
     Replicator
     Tek Pants
