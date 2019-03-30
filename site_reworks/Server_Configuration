@@ -1,0 +1,1605 @@
+The ''[[ARK: Survival Evolved]]'' dedicated server has a wide variety of configuration options that control its behavior and adjust many aspects of the game. These are options that can only be set at server startup.
+
+Most options can be specified on the command line when launching the server or in the server's configuration files. Options that must be specified on the command line are noted below.
+
+== Command Line Syntax ==
+The server is currently launched via the command line using the following syntax to specify runtime options:
+
+ '''<executable>''' '''<map_name>'''?listen[?'''<option>'''='''<value>'''][?'''<option>'''='''<value>''']...[?'''<option>'''='''<value>'''] -UseBattleye '''[<Argument>]'''''
+
+Following the <code><executable></code> name, options are specified as a single string with each option separated by a question mark (<code>?</code>). Most options require a value argument. Refer to the option reference below for more details.
+
+When an option is not specified, its default value is used automatically.
+
+For example, to launch a server that:
+#shows each player a crosshair
+#shows each player their position on the map
+#allows players to view themselves in third person
+#enforces a minimum distance between player structures built by different players and tribes
+#enables BattlEye
+
+On a Linux host:
+ ./ShooterGameServer TheIsland?listen?ServerCrosshair=True?MapPlayerLocation=True?AllowThirdPersonPlayer=True?TheMaxStructuresInRange=100 -UseBattlEye
+
+On a Windows host:
+ start ShooterGameServer.exe "TheIsland?listen?ServerCrosshair=True?AllowThirdPersonPlayer=True?MapPlayerLocation=True?TheMaxStructuresInRange=100" -UseBattlEye
+
+On Windows, quotation marks ('''"''') are used to ensure the command shell does not attempt to interpret any options itself.
+
+== Command line arguments ==
+These are the options of the server launch command. For the syntax see above. Options starting with a ? (question mark) are appended directly one after another, options starting with a - (dash) have to be noted separately.
+
+For Single Player: Right click in your Steam client on the game's name in the Library, choose Properties, tab General, button "Set Launch Options...", enter the options. But some options won't work this way, especially these starting with a ? (question mark). Try to put them into the section <nowiki>[ServerSettings]</nowiki> of the GameUserSettings.ini (for the location of this file see [[#Configuration Files|Configuration Files]]).
+<!--start of command line-->
+{| class="wikitable"
+|-
+!Argument
+!Platform
+!Effect
+|-
+|<code>-allcores</code>
+|?
+|?
+|-
+|<code>-allowansel</code>
+|?
+|Activates [[NVIDIA Ansel]] support, in single player.  When connecting to a server, this will cause most lights (lamps) to no longer function, even when powered and lit.<br/>''Introduced in patch [[246.0]]''
+|-
+|<code>?AllowAnyoneBabyImprintCuddle=true</code>
+|
+|Use this if you want ANYONE to be able to "take care" of a Baby Dino (cuddle etc.), not just whomever Imprinted on it.
+|-
+|<code>?AllowCrateSpawnsOnTopOfStructures=true</code>
+|
+|Servers can now allow from-the-air Supply Crates to appear on top of Structures, rather than being prevented by Structures.
+|-
+|<code>?AllowFlyerCarryPvE=true</code>
+|
+|Flyers on PvE can carry wild dinos.
+|-
+|<code>?AllowFlyingStaminaRecovery=false</code>
+|
+|Set to true if flyers should recover stamina when player is standing on instead riding.
+|-
+|<code>?AllowMultipleAttachedC4=false</code>
+|
+|Set to true to allow to attach more than one [[C4]] per dino.
+|-
+|<code>?AutoDestroyDecayedDinos=true</code>
+|
+|Auto-destroy claimable decayed dinos on load, rather than have them remain around as Claimable.<br/>''Introduced in patch [[255.0]]''
+|-
+|<code>-automanagedmods</code>
+|All
+|Automatic MOD download/installation/updating. <br/>''Introduced in patch [[244.3]]''
+|-
+|<code>?bAllowUnlimitedRespecs=false</code>
+|
+|Set to true to allow more than one usage of [[Mindwipe Tonic]] per level.<br/>''Introduced in patch [[260.0]]''
+|-
+|<code>bAppendItemSets=false</code>
+|
+|Set to true to add item sets to supply crates, rather than overriding all their items. See [[#ConfigOverrideSupplyCrateItems|ConfigOverrideSupplyCrateItems]]<br/>''Introduced in patch [[273.7]]''
+|-
+|<code>bAppendPreventIncreasingMinMaxItemSets=false</code>
+|
+|Set to true to dynamically increase the amount of items dropped. See [[#ConfigOverrideSupplyCrateItems|ConfigOverrideSupplyCrateItems]]<br/>''Introduced in patch [[273.7]]''
+|-
+|<code>?ClampItemSpoilingTimes=true</code>
+|
+|Will clamp all spoiling times to the items' maximum spoiling times. Could potentially cause issues with Mods that alter spoiling time.<br/>''Introduced in patch [[254.944]]''
+|-
+|<code>?ClampItemStats=true</code>
+|
+|Enable/Disable stats clamping for items. See [[#ItemStatClamps|ItemStatClamps]] for more info.<br/>''Introduced in patch [[255.0]]''
+|-
+|<code>-ClearOldItems</code>
+|All
+|Official PvP servers one-time Clearance of all old unequipped items (with the exception of blueprints, eatables, notes, and quest items), to ensure fairness after Item Duplication bug exploit. Server admins can enforce this once if they run with this command argument (will only work ''ONCE''' on pre-update save games)<br/>Introduced in patch 178.0
+|-
+|<code>-culture=??</code>
+|All
+|You can directly override the language by using this commandline. List of currently supported language codes: <code>ca, cs, da, de, en, es, eu, fi, fr, hu, it, ja, ka, ko, nl, pl, pt_BR, ru, sv, th, tr, zh, zh-Hans-CN, zh-TW</code>
+|-
+|<code>-d3d10</code>
+|Windows Only
+|The game is forced to use DX10 instead of DX11 by sm4. This will reduce the graphics engine to a lesser version, reducing some graphics, but raising the framerate.
+|-
+|<code>?DestroyUnconnectedWaterPipes=true</code>
+|All
+|After two days real-time the pipes will auto-destroy if unconnected to any non-pipe (directly or indirectly) and no allied player is nearby.
+|-
+|<code>?DisableImprintDinoBuff=true</code>
+|
+|Use this to disable the Dino Imprinting-Player Stat Bonus, if you don't like it (where whomever specifically imprinted on the Dino, and Raised it to have an Imprinting Quality, gets extra Damage/Resistance buff)
+|-
+|<code>-EnableIdlePlayerKick</code>
+|All
+|Cause characters that have not moved or interacted within the KickIdlePlayersPeriod to be kicked.
+|-
+|<code>?EnableExtraStructurePreventionVolumes=true</code>
+|All
+|Use this to completely disable building in specific resource-rich areas, in particular setup on TheIsland around the major mountains.
+|-
+|<code>?ExtinctionEventTimeInterval=2592000</code>
+|All
+|Use this to enable extinction for 30 days.  The number is the time in seconds.
+|-
+|<code>?FastDecayUnsnappedCoreStructures=true</code>
+|
+|Will decay unsnapped foundations/pillars at 5x speed.<br/>''Introduced in patch [[245.987]]''
+|-
+|<code>-ForceAllowCaveFlyers</code>
+|All
+|Force Flyer dinos to be allowed into caves (Flyers able to go into caves by default on custom maps)
+|-
+|<code>?ForceFlyerExplosives=true</code>
+|All
+|Flyer (except [[Quetzal]] and [[Wyvern]] can't fly with [[C4]] attached to it. Set this parameter to true to let them still fly.<br/>''Introduced in patch [[252.83]]''
+|-
+|<code>-ForceRespawnDinos</code>
+|All
+|Launch with this command to destroy all wild creatures on a startup. (this will only destroy wild creatures that are NOT currently being tamed)<br/>''Introduced in patch [[216.0]]''
+|-
+|<code>-gameplaylogging</code>
+|All
+|Survival of the Fittest servers can launch with this commandline option to output a dated log file to \Saved folder, which will contain a timestamped kill & winners log listing steam id, steam name, character name, etc. Handy for automatic Tournament records…
+|-
+|<code>-insecure</code>
+|Windows Only
+|Disable Valve Anti-Cheat (VAC) system.
+|-
+|<code>-lowmemory</code>
+|All
+|Launch options that reduces graphics and audio effects to save about 800 MB RAM, likely enabling 4GB RAM players to get past infinite-loading screens
+|-
+|<code>-MapModID=#########</code>
+|All
+|Dedicated servers can now optionally load custom maps via ModID diectly, rather than having to specify the map name directly, using this syntax (where the MapModID is the Steam Workshop FileID of your custom map, and the GameModIds are the Id’s of the stacked mods you wish to use, in order)<br/>''Introduced in patch [[193.0]]''
+|-
+|<code>?MaxPersonalTamedDinos=Number</code>
+|
+|Activates a per-tribe dino tame limit. (500 on official servers)<br/>''Introduced in patch [[255.0]]''
+|-
+|<code>?MinimumDinoReuploadInterval=xxxx</code>
+|All
+|Number of seconds cooldown between allowed Dino re-uploads (defaults to 0, set to 43200 on Official Servers which is 12 hours).
+|-
+|<code>-noantispeedhack</code>
+|All
+|Anti speedhack detection is now enabled by default — to disable it, use this server commandline<br/>''Introduced in patch [[218.5]]''
+|-
+|<code>-NoBattlEye</code>
+|
+|Run server without BattleEye
+|-
+|<code>-NoBiomeWalls</code>
+|
+|Eliminates the upcoming-Biome-change area wall effects as introduced in an unversioned addition of v[[241.5]].<br/>''Introduced in patch [[242.7]]''
+|-
+|<code>-nocombineclientmoves</code>
+|All
+|Server player-move-physics optimization is now enabled by default (improves perf) — to disable it, use this server commandline<br/>''Introduced in patch [[218.5]]''
+|-
+|<code>-nofishloot</code>
+|All
+|disable non-meat Fish Loot when using [[Fishing Rod]]<br/>''Introduced in patch [[245.9]]''
+|-
+|<code>-noninlinesaveload</code>
+|All
+|Fixed a savegame corruption case with large savegames: this is experimental, so try with this command, if you have any saves that don’t load. We’ll formally roll this loader change out in a subsequent patch after we’re 100% certain it has no side effects.
+|-
+|<code>-nomansky</code>
+|All
+|Lots of detailed sky features are disabled, such as clouds and starry night sky. This decreases all of those but you can still have them. You still obtain the stars, the sun, and the moon. This just helps you remove the sparkling stars that make you sightless at night
+|-
+|<code>-nomemorybias</code>
+|
+|Reduced client game memory usage by about 600 MB system and 600 MB GPU RAM! (all meshes now stream LOD's dynamically). This could potentially have a small runtime performance impact, so to use the old method (more RAM usage but no potential performance loss), launch with -nomemorybias
+|-
+|<code>?NonPermanentDiseases=true</code>
+|
+|This will make Diseases not permanent (you will then lose them if you respawn).
+|-
+|<code>-NotifyAdminCommandsInChat</code>
+|
+|
+|-
+|<code>-oldsaveformat</code>
+|
+|Defaulted to using "new save format", which is approximately 4x faster and 50% smaller. If you want to use the old save format, launch with -oldsaveformat.
+|-
+|<code>?OnlyAutoDestroyCoreStructures=true</code>
+|
+|You can launch an autodestroy enabled server with this opion to prevent any non-core/non-foundation structures from autodestroying (however they'll still get autodestroyed if a floor that they're on gets autodestroyed, of course). Official PvE Servers use this option.<br/>''Introduced in patch [[245.989]]''
+|-
+|<code>?OnlyDecayUnsnappedCoreStructures=true</code>
+|
+|If set, only unsnapped core structures will decay. Useful for eliminating lone pillar/foundation spam on PvP Servers.<br/>''Introduced in patch [[245.986]]''
+|-
+|<code>?OverrideOfficialDifficulty=5.0</code>
+|
+|Allows you to override the default server difficulty level of 4 with 5 to match the new official server difficulty level.<br/>''Introduced in patch [[247.95]]''
+|-
+|<code>?OverrideStructurePlatformPrevention=true</code>
+|
+|Use this override if you want [[Auto Turret|turret]] or [[Wooden Spike Wall|spike]] structures to be buildable and functional on [[:Category:Platform Saddles|platform saddles]].<br/>''Introduced in patch [[242.0]], changed in patch [[247.999]]''
+|-
+|<code>?OxygenSwimSpeedStatMultiplier=1.0</code>
+|
+|Use this to set how swim speed is multiplied by level spent in oxygen. The value was reduced by 80% in [[256.0]].<br/>''Introduced in patch [[256.3]]''
+|-
+|<code>?PreventDiseases=true</code>
+|
+|This will completely disable Diseases on the server. (thus far just 'Swamp Fever').
+|-
+|<code>?PreventDownloadSurvivors=False<br/>?PreventDownloadItems=False<br/>?PreventDownloadDinos=False<br/>?PreventUploadSurvivors=False<br/>?PreventUploadItems=False<br/>?PreventUploadDinos=False</code>
+|
+|Prevent [[#Cross-ARK Data Transfer|Cross-ARK Data Transfer]]<br/>''Introduced in patch [[246.0]]''
+|-
+|<code>-PreventHibernation</code>
+|
+|In both Single Player and Non-Dedicated Servers creatures in inactive zones are in hibernation instead of in stasis. Use this option to prevent hibernation at the cost of performance and memory usage.<br/>''Introduced in patch [[259.0]]''
+|-
+|<code>?PreventOfflinePvP=true</code>
+|
+|Use this to enable the offline raiding prevention option.
+|-
+|<code>?PreventOfflinePvPInterval=900</code>
+|
+|That would be a 15 min wait before a tribe/players dinos/structures become invulnerable/inactive after they log off. (if Tribe, requires ALL Tribe members logged off!)
+|-
+|<code>?PreventSpawnAnimations=false</code>
+|
+|Setting to true lets player characters (re)spawn without the wake up animation.<br/>''Introduced in patch [[261.0]]''
+|-
+|<code>?PvEAllowStructuresAtSupplyDrops=false</code>
+|
+|Set to '''true''' to allow building near supply drop points in PvE mode.<br/>''Introduced in patch [[247.999]]''
+|-
+|<code>?PvEDinoDecayPeriodMultiplier=1.0</code>
+|
+|Dino PvE Auto-Claim time multiplier<br/>''Introducedin patch [[241.4]]''
+|-
+|<code>?PvPDinoDecay=true</code>
+|
+|Set to '''true''' to prevent dinosaurs from decaying while the Offline Raiding Prevention is active.
+|-
+|<code>?PvPStructureDecay=true</code>
+|
+|Set to '''true''' to prevent structure from decaying while the Offline Raiding Prevention is active.<br/>''Introduced in patch [[206.0]]''
+|-
+|<code>?RCONEnabled=True</code>
+|
+|Enables RCON, needs ''?RCONPort=32330'' and ''?ServerAdminPassword=123'' to work<br/>''Introduced in patch [[185.0]]''
+|-
+|<code>?RCONPort=32330</code>
+|
+|specifies the connection port for the RCON is needed for RCOn to work, you need to manually enable the specified port, any not used port can be used<br/>''Introduced in patch [[185.0]]''
+|-
+|<code>?ShowFloatingDamageText=true</code>
+|
+|Use this to enable RPG-style popup text stat mode.
+|-
+|<code>-server</code>
+|?
+|?
+|-
+|<code>?ServerAdminPassword=passwort</code>
+|
+|If specified, players must provide this password (via the in-game console) to gain access to administrator commands on the server. Also used to log in via RCON.
+|-
+|<code>-servergamelog</code>
+|All
+|Enable Server Admin Logs (including RCON support) use RCON command “getgamelog” to print 100 entries at a time also outputs to dated file in in “\Logs”, adjust max length of RCON buffer with commandline: “?RCONServerGameLogBuffer=600”<br/>''Introduced in patch [[224.0]]''
+|-
+|<code>-servergamelogincludetribelogs</code>
+|
+|
+|-
+|<code>-ServerRCONOutputTribeLogs</code>
+|
+|Allows tribe chat to be displayed in rcon, in addition to global chat.
+|-
+|<code>-sm4</code>
+|Windows Only?
+|The game is forced to use Shader Model 4 instead of the Shader Model 5 as usual. Well, there is no much difference, the game still looks and feels the same, but you can obtain better performance (Windows only?) (reported to increase frames but changes the game lighting)
+|-
+|<code>-StasisKeepControllers</code>
+|
+|AI Controllers to once again be destroyed on Stasis, too much memory overhead to keeping them around on large maps. For servers with a lot of RAM, they can now optionally gain performance by running with this to keep the AI's in memory.
+|-
+|<code>-StructureDestructionTag=DestroySwampSnowStructures</code>
+|All
+|One-Time Auto-Structure Demolish on Swamp and Snow Zones: To do this, which you can only execute once after updating to v216, run your server or game with this commandline
+|-
+|<code>?TheMaxStructuresInRange=10500</code>
+|
+|new value for maximum allowed structures on a server. replaced NewMaxStructuresInRange<br/>''Introduced in patch [[252.1]]''
+|-
+|<code>?TribeLogDestroyedEnemyStructures=true</code>
+|
+| By default enemy structure destruction (for the victim tribe) is not displayed in the tribe Logs, set this to true to enable it.<br/>''Introduced in patch [[247.93]]''
+|-
+|<code>-USEALLAVAILABLECORES</code>
+|All
+|All of your CPU cores will be used, if all of them are not being utilized after using this launch option, then try to disable it!
+|-
+|<code>-usecache</code>
+|All
+|~70% faster loading speed option. Choose “Experiment Fast Load Cache” launch option (use add “-usecache” to your launch commandline manually). After the first & second times that you start the game & load will be still be slow, but the third time onwards will be fast. This may be deprecated, as of [[188.2]] as it was added, by default, for the PrimalData.  It was also supposed to be added to all maps, but has never been clarified as to if this occurred.
+|-
+|<code>?UseOptimizedHarvestingHealth=true</code>
+|
+|"optimized" server with high HarvestAmountMultiplier (but less rare items).
+|-
+|<code>?bRawSockets</code>
+|?
+|Direct UDP socket connections rather than Steam P2P, for significantly increased server network performance. Need to manually open ports 7777 & 7778 if you do so in order for your server to accept connections.<br/>''Introduced in patch [[213.0]]''
+|-class="redish-background" 
+|<code>-nonetthreading</code>
+|
+|option for bRawSockets servers to only utilize a single thread for networking (useful to improve performance for machines with more servers than cpu cores, on Linux in particular)<br/>''Introduced in patch [[271.15]]'' seems to be deprecated with patch [[271.17]]
+|-
+|<code>-forcenetthreading</code>
+|
+|Defaulted dedicated server ?bRawSockets mode to '''not''' use threaded networking, seemed to generally be a net performance loss in our analysis. Use this to forcefully enable it.
+|-
+|-class="redish-background" 
+|<code>-vday</code>
+|All
+|Activate Valentine’s Day Event (2x Mateboost Range, 3x Mating Speed/Mating Recovery, 3x Baby/Egg Maturation Speed, 1/3rd Baby Food Consumption).
+Possibly deprecated; use -ActiveEvent=vday instead.
+|-
+|<code>-webalarm</code>
+|All
+|Activate Web alarms when important things happen to a tribe, such as Tripwire Alarms going off and Babies being born. See [[Web Notifications]] for details.<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>-exclusivejoin</code>
+|All
+|Activate a whitelist only mode on the server that only lets players join if added to the allow list. Not to be confused with "Admin Whitelisting" which uses "AllowedCheaterSteamIDs.txt" to allow players to cheat. This option uses "PlayersJoinNoCheckList.txt" to allow people to join but not give them cheats. If the file does not exist in your Linux/Win64 Binaries folder, create it and add the Steam64 IDs of the players you wish to be allowed to join your server.  Path; "\ShooterGame\Binaries\Win64\" "/ShooterGame/Binaries/Linux/".
+You will need to restart your server, if you add new lines to the file while it is running. You can however use "Cheat AllowPlayerToJoinNoCheck 12345678901234567" in game, to add a new player to the whitelist. This method will also save to the file, so you don't need to reboot the server.
+|-
+|<code>-ActiveEvent=<eventname></code>
+|PC
+|enables a specified event <br /> Only one can be specified and active at a time<br />
+<table class="wikitable">
+    <tr><th>eventname</th><th>Description</th></tr>
+    <tr><td>Easter</td><td>Allows for the [[ARK: Eggcellent Adventure 3|Easter Event]] to be activated</td></tr>
+    <tr><td>Arkaeology</td><td>Allows for the [[ARKaeology|Arkaeology Event]] to be activated.</td></tr>
+    <tr><td>ExtinctionChronicles</td><td>Allows for the [[Extinction Chronicles|Extinction Chronicles Event]] to be activated.</td></tr>
+    <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 3|Winter Wonderland 2018 Event]] to be activated.</td></tr>
+    <tr><td>vday</td><td>Allows for [[ARK: Valentine's Day 4|Valentine's Day Event]] to be activated.</td></tr>
+</table>
+|-
+|<code>?GameModIds=ModID1,ModID2</code>
+|PC
+|Specifies the order and which mods are loaded, ModIDs need to be comma seperated<br/>''Introduced in patch [[190.0]]''
+|-
+|<code>?MaxTamedDinos=4000</code>
+|
+|Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
+|-
+|<code>?SpectatorPassword=mypassword</code>
+|
+|To use non-admin spectator, the server must specify a spectator password. Then any client can use these console commands: '''requestspectator <password>''' and '''stopspectating'''. See patch [[191.0]] for more information and hotkeys.
+|-
+|<code>?AllowCaveBuildingPVE=true</code>
+|
+|If set to True, allows building in caves when PvE mode is also enabled.<br/>''Introduced in patch [[194.0]]''
+|-
+|<code>?AdminLogging=true</code>
+|
+|logs all admin commands to ingame chat<br/>''Introduced in patch [[206.0]]''
+|-
+|<code>?ForceAllStructureLocking=true</code>
+|
+|enabling this will default lock all structures<br/>''Introduced in patch [[222.0]]''
+|-
+|<code>?AutoDestroyOldStructuresMultiplier=1.0</code>
+|
+|Server Option to allow Auto-Destroying Structures after sufficient "no nearby Tribe" time has passed (defined as a multiplier of the Allow Claim period). Useful for servers to clear off abandoned structures automatically over time if they wish<br/>''Introduced in patch [[222.0]]
+|-
+|<code>?RCONServerGameLogBuffer=600</code>
+|
+|determines how many lines of gamelogs are send over RCON<br/>''Introduced in patch [[224.0]]''
+|-
+|<code>?PreventTribeAlliances=true</code>
+|
+|Enabling this will prevent tribes from creating Alliances<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>?AllowRaidDinoFeeding</code>
+|
+|To allow your Server's Titanosaurs to be permanently tamed (namely allow them to be Fed)<br/>'''However, note that TheIsland currently only spawns 3 Titanosaurs whatsoever, so 3 Tamed ones would ultimately block any more Wild ones from spawning.'''<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>?AllowHitMarkers=false</code>
+|
+|Use this to disable optional hitmarkers for ranged attacks<br/>''Introduced in patch [[245.0]]''
+|-
+|<code>?ServerCrosshair=false</code>
+|
+|Use this to disable the Crosshair on your Server<br/>''Introduced in patch [[245.0]]''
+|-
+|<code>?PreventMateBoost=true</code>
+|
+|Option to disable Dino Mate Boost<br/>''Introduced in patch [[247.0]]''
+|-
+|<code>?ServerAutoForceRespawnWildDinosInterval</code>
+|
+|Force Respawn of Wild Dinos on Server Restart. Enabled by default on official servers, this will force weekly respawns of dinos on all servers to prevent certain dino types (like the Basilo and Spino) from becoming depopulated on long running servers.<br/>'''NOTE''' in some cases this may not work more than once<br/>''Introduced in patch [[265.0]]''
+|-
+|<code>?PersonalTamedDinosSaddleStructureCost=19</code>
+|
+|determines the amount of dinoslots a platform saddle will use towards the tribe dino limit<br/>''Introduced in patch [[265.0]]''
+|}
+<!--end of command line-->
+
+== Configuration Files ==
+Most options can also be specified in the games configuration files. The location of the configuration files varies by platform:
+
+{| class="wikitable"
+|-
+! Platform !! Configuration File !! Location
+|-
+| Linux || GameUserSettings.ini || <code>ShooterGame/Saved/Config/LinuxServer/</code>
+|-
+| Linux || Game.ini || <code>ShooterGame/Saved/Config/LinuxServer/</code>
+|-
+| Windows || GameUserSettings.ini || <code>ShooterGame/Saved/Config/WindowsServer/</code>
+|-
+| Windows || Game.ini || <code>ShooterGame/Saved/Config/WindowsServer/</code>
+|}
+
+The '''GameUserSettings.ini''' file contains options for both the game client and the game server. Options for the game client are not used by the server. Server options are specified in the section labeled <code>[ServerSettings]</code>, which is usually located at the bottom of the file.
+
+The '''Game.ini''' file is used for more advanced modifications, such as changing engram points or XP rewarded per level, disabling specific content, or rebalancing depending on player tastes.
+
+For all supported platforms, options are listed one per line using the same basic syntax:
+
+ '''<option>'''='''<value>'''
+
+All options in the configuration file require a value. If an option is not listed in the configuration file, its default value is used automatically.
+
+To configure a game server with the same configuration as shown in [[#Command_Line_Syntax|Command Line Syntax]] above:
+
+ ServerCrosshair=True
+ AllowThirdPersonPlayer=True
+ MapPlayerLocation=True
+ TheMaxStructuresInRange=100
+
+With these options in the configuration file, the server can be launched with a much shorter command line. For Linux:
+
+ ./ShooterGameServer TheIsland?listen
+
+For Windows:
+
+ start ShooterGameServer.exe "TheIsland?listen"
+
+<!--start of GuS.ini-->
+===GameUserSettings.ini===
+To easy create this file, you can use this [http://ini.arkforum.de/index.php?lang=en&mode=all ini-Generator].
+{| class="wikitable sortable"
+|-
+! Option !! Value Type !! Default !! Effect
+|-
+| <code>&lt;map_name&gt;</code> || ''string'' || ''None'' || ''(command line only)'' Specifies the map to use for gameplay<br/>''Note:'' This option is mandatory and must be the first option specified on the command line.Map options are <code>TheIsland</code>, <code>TheCenter</code> (requires DLC), <code>ScorchedEarth_P</code> (requires DLC), <code>Ragnarok</code> (requires DLC), <code>Aberration_P</code> (requires DLC) and <code>Extinction</code> (requires DLC)<br/> '''NOTE:''' A Mod map may have a different map name then here specified, check the modpage or contact the author of the mod for the exact name.
+|-
+| <code>listen</code> || ''N/A'' || ''None'' || ''(command line only)'' Listen for (and accept) player connections from other systems<br/>''Note:'' This option is mandatory for multiplayer servers.
+|-
+| <code>alwaysNotifyPlayerJoined</code> || ''boolean'' || <code>False</code> || Players will always get notified if someone joins the server
+|-
+| <code>alwaysNotifyPlayerLeft</code> || ''boolean'' || <code>False</code> || Players will always get notified if someone leaves the server
+|-
+| <code>allowThirdPersonPlayer</code> || ''boolean'' || <code>False</code> || Enables 3rd Person view
+|-
+| <code>globalVoiceChat</code> || ''boolean'' || <code>False</code> || Voice chat turns global
+|-
+| <code>ShowMapPlayerLocation</code> || ''boolean'' || <code>False</code> || Show each player their own precise position when they view their map
+|-
+| <code>noTributeDownloads</code> || ''boolean'' || <code>False</code> || Disables downloading characters from other servers
+|-
+| <code>proximityChat</code> || ''boolean'' || <code>False</code> || Only players near each other can see their chat messages
+|-
+| <code>serverPVE</code> || ''boolean'' || <code>False</code> || Disables [[Player vs. Player|PvP]], enables [[Player vs. Environment|PvE]]
+|-
+| <code>serverHardcore</code> || ''boolean'' || <code>False</code> || Enables [[hardcore]] mode (player characters revert to level 1 upon death)
+|-
+| <code>serverForceNoHud</code> || ''boolean'' || <code>False</code> || HUD always disabled
+|-
+| <code>bDisableStructureDecayPvE</code> || ''boolean'' || <code>False</code> || Disable the gradual (7 days) decay of player structures<br/>''Introduced in patch [[173.0]]''
+|-
+| <code>DisableDinoDecayPvE</code> || ''boolean'' || <code>False</code> || Disable the gradual (7 days) decay of dinosaur ownership. ''Without this set to true, every dinosaur can be claimed by any player.''<br/>''Introduced in patch [[206.0]]''
+|-
+| <code>AllowFlyerCarryPvE</code> || ''boolean'' || <code>False</code> || Permit flying dinosaurs to pick up other dinosaurs and players when mounted by a player in [[Player vs. Environment|PvE]]<br/>''Introduced in patch [[173.0]] but changed from bAllowFlyerCarryPVE to AllowFlyerCarryPVE''
+|-
+| <code>TheMaxStructuresInRange</code> || ''integer'' || ''10500'' || Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br/>''Introduced in patch [[252.1]] replacing the old value <code>NewMaxStructuresInRange</code>''
+|-
+| <code>bAllowPlatformSaddleMultiFloors</code> ||''boolean'' ||<code>False</code> ||Set to true to allow multiple platform floors.<br />''Introduced in patch [[260.0]]''
+|-
+| <code>MaxPlayers</code> || ''integer'' || 70 || Specifies the maximum number of players that can play on the server simultaneously. Must be placed under [/script/engine.gamesession] in GameUserSettings.ini to function when not used in the command line.
+|-
+| <code>DifficultyOffset</code> || ''float'' || 0.2 || Specifies the [[Difficulty|difficulty level]].
+|-
+| <code>ServerPassword</code> || ''string'' || ''None'' || If specified, players must provide this password to join the server.
+|-
+| <code>ServerAdminPassword</code> || ''string'' || ''None'' || If specified, players must provide this password (via the in-game console) to gain access to administrator commands on the server.
+|-
+| <code>SpectatorPassword</code> || ''string'' || ''None'' || To use non-admin spectator, the server must specify a spectator password. Then any client can use these console commands: '''requestspectator <password>''' and '''stopspectating'''. See patch [[191.0]] for more information and hotkeys.
+|-
+| <code>DayCycleSpeedScale</code> || ''float'' || 1.0 || Specifies the scaling factor for the passage of time in the ARK, controlling how often day changes to night and night changes to day. The default value <code>1</code> provides the same cycle speed as the singleplayer experience (and the official public servers). Values lower than 1 slow down the cycle; higher values accelerate it. Base time when value is 1 appears to be 1 minute real time equals approx. 28 minutes game time. Thus, for an approximate 24 hour day/night cycle in game, use .035 for the value.
+|-
+| <code>NightTimeSpeedScale</code> || ''float'' || 1.0 || Specifies the scaling factor for the passage of time in the ARK during night time. This value determines the length of each night, relative to the length of each day (as specified by <code>DayTimeSpeedScale</code>. Lowering this value increases the length of each night.
+|-
+| <code>DayTimeSpeedScale</code> || ''float'' || 1.0 || Specifies the scaling factor for the passage of time in the ARK during the day. This value determines the length of each day, relative to the length of each night (as specified by <code>NightTimeSpeedScale</code>. Lowering this value increases the length of each day.
+|-
+| <code>DinoDamageMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the damage dinosaurs deal with their attacks. The default value <code>1</code> provides normal damage. Higher values increase damage. Lower values decrease it.
+|-
+| <code>PlayerDamageMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the damage players deal with their attacks. The default value <code>1</code> provides normal damage. Higher values increase damage. Lower values decrease it.
+|-
+| <code>StructureDamageMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the damage structures deal with their attacks (i.e. spiked walls). The default value <code>1</code> provides normal damage. Higher values increase damage. Lower values decrease it.
+|-
+| <code>PlayerResistanceMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the resistance to damage players receive when attacked. The default value <code>1</code> provides normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack. A value of 0.5 results in a player taking half damage while a value of 2.0 would result in taking double normal damage.
+|-
+| <code>DinoResistanceMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the resistance to damage dinosaurs receive when attacked. The default value <code>1</code> provides normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack. A value of 0.5 results in a dino taking half damage while a value of 2.0 would result in a dino taking double normal damage.
+|-
+| <code>StructureResistanceMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the resistance to damage structures receive when attacked. The default value <code>1</code> provides normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack. A value of 0.5 results in a structure taking half damage while a value of 2.0 would result in a structure taking double normal damage.
+|-
+| <code>XPMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the experience received by players, tribes and dinosaurs for various actions. The default value <code>1</code> provides the same amounts of experience as in the singleplayer experience (and official public servers). Higher values increase XP amounts awarded for various actions; lower values decrease it.<br>In [[253.0]] an additional hardcoded multiplier of 2 was activated.
+|-
+| <code>PvEStructureDecayPeriodMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the decay rate of player structures in PvE mode. The specific effect(s) of this option and its range of valid values are unknown as of this writing.<ref name="extended_game_options">Drake (23 June 2015). [http://steamcommunity.com/app/346110/discussions/10/530646715633129364/ "Extended Game Options: How to Configure your Custom ARK server"]. ''Server Hosting & Advertisement''. Steam Community :: ARK: Survival Evolved. Retrieved 19 July 2015.</ref>
+|-
+| <code>PvEStructureDecayDestructionPeriod</code> ||  || 0 || Specifies the time required for player structures to decay in PvE mode. The specific effect(s) of this option and its range of valid values are unknown as of this writing.<ref name="extended_game_options"/>
+|-
+| <code>PvEDinoDecayPeriodMultiplier</code> || ''float'' || 1.0 || ... ''Introduced in patch [[206.0]]''
+|-
+| <code>TamingSpeedMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for dinosaur taming speed. Higher values make taming faster.
+|-
+| <code>HarvestAmountMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for yields from all harvesting activities (chopping down trees, picking berries, carving carcasses, mining rocks, etc.). Higher values increase the amount of materials harvested with each strike.
+|-
+| <code>HarvestHealthMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the "health" of items that can be harvested (trees, rocks, carcasses, etc.). Higher values increase the amount of damage (i.e. "number of strikes") such objects can withstand before being destroyed, which results in higher overall harvest yields.
+|-
+| <code>MaxPlatformSaddleStructureLimit</code> || ''integer'' ||  || Changes the maximum number of platformed-creatures/rafts allowed on the ARK (a potential performance cost)<br/>Example: MaxPlatformSaddleStructureLimit=10 would only allow 10 platform saddles / rafts across the entire ark<br/>''Introduced in patch [[212.1]]''
+|-
+| <code>PerPlatformMaxStructuresMultiplier</code> || ''float'' || 1.0 || Higher number increases (on a percentage scale) max number of items place-able on saddles and rafts<br/>Example: PerPlatformMaxStructuresMultiplier=1.5<br/>(added Patch '''[[211.0]]''')
+|-
+| <code>ResourcesRespawnPeriodMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the respawn rate for resource nodes (trees, rocks, bushes, etc.). Lower values cause nodes to respawn more frequently.
+|-
+| <code>PlayerCharacterWaterDrainMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for player characters' water consumption. Higher values increase water consumption (player characters get thirsty faster).
+|-
+| <code>PlayerCharacterFoodDrainMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for player characters' food consumption. Higher values increase food consumption (player characters get hungry faster).
+|-
+| <code>PlayerCharacterStaminaDrainMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for player characters' stamina consumption. Higher values increase stamina consumption (player characters get tired faster).
+|-
+| <code>PlayerCharacterHealthRecoveryMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for player characters' health recovery. Higher values increase the recovery rate (player characters heal faster).
+|-
+| <code>DinoCharacterFoodDrainMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for dinosaurs' food consumption. Higher values increase food consumption (dinosaurs get hungry faster). It also affects the taming-times.
+|-
+| <code>DinoCharacterStaminaDrainMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for dinosaurs' stamina consumption. Higher values increase stamina consumption (dinosaurs get tired faster).
+|-
+| <code>DinoCharacterHealthRecoveryMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for dinosaurs' health recovery. Higher values increase the recovery rate (dinosaurs heal faster).
+|-
+| <code>DinoCountMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for dinosaur spawns. Higher values increase the number of dinosaurs spawned throughout the ARK.
+|-
+| <code>AllowCaveBuildingPvE</code> || ''boolean'' || <code>False</code> || If set to True, allows building in caves when PvE mode is also enabled.<br/>''Introduced in patch [[194.0]]''
+|-
+| <code>BanListURL</code> || ''URL'' || <code>"http://arkdedicated.com/banlist.txt"</code> || Use the official global ban list, or point to any online ban list that you want. Must be enclosed in double quotes. Before [[279.233]] the URL was http://playark.com/banlist.txt <br/>Introduced in patch [[201.0]]
+|-
+| <code>PvPStructureDecay</code> || ''boolean'' || ''false'' || Turns off structure decay on PvP servers.
+|-
+| <code>TributeItemExpirationSeconds</code> || ''integer'' || 86400 || Set the expiration timer for uploaded items.
+|-
+| <code>TributeDinoExpirationSeconds</code> || ''integer'' || 86400 || Set the expiration timer for uploaded dinos.
+|-
+| <code>TributeCharacterExpirationSeconds</code> || ''integer'' || 86400 || Set the expiration timer for uploaded survivors.
+|-
+| <code>AutoSavePeriodMinutes</code> || ''float'' || 15.0 || Set interval for automatic saves
+|-
+| <code>NPCNetworkStasisRangeScalePlayerCountStart</code> ||  ||  || 
+|-
+| <code>NPCNetworkStasisRangeScalePlayerCountEnd</code> ||  ||  || 
+|-
+| <code>NPCNetworkStasisRangeScalePercentEnd</code> || ''float'' ||  || 
+|-
+| <code>bUseCorpseLocator</code> || ''boolean'' || false || if set to true, you will see a green lightbeam at the location of your death 
+|-
+| <code>CrossARKAllowForeignDinoDownloads</code> || ''boolean'' || false || if set to true, you will be able to tribute download non-native creatures on the [[Aberration]] map<br/>''Introduced in patch [[275.0]]''
+|-
+| <code>DisablePvEGamma</code> || ''boolean'' || false || Prevents use of console command "gamma" in PvE mode<br/>''Introduced in patch [[207.0]]''
+|-
+| <code>EnablePvPGamma</code> || ''boolean'' || false || Allow use of console command "gamma" in PvP mode<br/>Introduced in patch [[174.3]]
+|-
+| <code>TribeNameChangeCooldown</code> || ''integer'' || 15 || Cooldown, in minutes, in between tribe name changes<br/>''Introduced in patch [[278.0]]''
+|-
+| <code>AllowHideDamageSourceFromLogs</code> || ''boolean'' || false || Allows the hiding of damage sources in tribe logs.<br/>''Introduced in patch [[278.0]]''
+|-
+| <code>RandomSupplyCratePoints</code> || ''boolean'' || false || If true, supply drops are in random locations. NOTE: This setting is known to cause artifacts becoming inaccesable on [Ragnarok] if active<br/>''Introduced in patch [[278.0]]''
+|-
+| <code>DisableWeatherFog</code> || ''boolean'' || false || If true, disables fog.<br/>''Introduced in patch [[278.0]]''
+|-
+| <code>ActiveMods</code> || ''integer'' || ModID || Specifies the order and which mods are loaded, ModIDs need to be comma seperated and in one line <br/>''Introduced in patch [[190.0]]''
+|-
+| <code>AdminLogging</code> || ''boolean'' || true || logs all admin commands to ingame chat<br/>''Introduced in patch [[206.0]]''
+|-
+| <code>ClampResourceHarvestDamage</code> || ''boolean'' || false ||Limit the damage caused by a dino to a resource for harvesting.<br/>''Introduced in patch [[182.0]]''
+|-
+| <code>ItemStackSizeMultiplier</code> || ''float'' || 1.0 || allow increasing or decreasing global item stack size, this means all default stacksizes will be multiplied by the value given <br/>''Introduced in patch [[291.100]]''
+<!--|-
+| <code>PlatformSaddleBuildAreaBoundsMultiplier</code> || ''float'' || 1.0 || increasing the number allows structures being placed further away from the platform -->
+|-
+| <code>MaxTamedDinos</code> || ''integer'' || 4000 || Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
+|-class="redish-background"
+||<code>NewMaxStructuresInRange</code> || ''integer'' || 6000 ||Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br>''Introduced in patch [[188.0]] and deprecated with patch [[252.1]] by <code>TheMaxStructuresInRange</code>''
+|-class="redish-background"
+||<code>MaxStructuresInRange</code> || ''integer'' || 1300? ||Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br>''Introduced in patch [[173.0]] and deprecated with patch [[188.0]] by <code>NewMaxStructuresInRange</code>''
+|}
+<!--end of GuS.ini-->
+==== Ragnarok ====
+The following options are only available when playing the DLC [[Ragnarok]].
+
+They need to be set in the <code>[Ragnarok]</code> section (if you dont have one you can create it at the bottom) of the  <code>GameUserSettings.ini</code> file.
+
+'''NOTE: You don't need to use these settings. The game will use the default values if these settings aren't specified.'''
+
+{| class="wikitable sortable"
+|-
+! Option !! Value Type !! Default !! Effect
+|-
+| <code>AllowMultipleTamedUnicorns</code> || ''boolean'' || false || false = one unicorn on the map at a time, true = one wild and unlimited tamed Unicorns on the map.<br/>*This setting currently does not seem to work properly
+|-
+| <code>UnicornSpawnInterval</code> || ''integer'' || 24 || How long the game should wait before spawning a new [[Unicorn]] if the wild one is killed (or tamed, if <code>AllowMultipleTamedUnicorns</code> is enabled). This value sets the minimum amount of time (in hours), and the maximum is equal to 2x this value.
+|-
+| <code>VolcanoIntensity</code> || ''float'' || 1 || The lower the value, the more intense the volcano's eruption will be. Recommended to leave at 1. The minimum value is 0.25, and for multiplayer games, it should not go below 0.5. Very high numbers will basically disable the flaming rocks flung out of the volcano.
+|-
+| <code>VolcanoInterval</code> || ''integer'' || 0 || 0 = 5000 (min) - 15000 (max) seconds between instances of the volcano becoming active. Any number above 0 acts as a multiplier, with a minimum value of .1
+|- 
+| <code>EnableVolcano</code> || ''boolean'' || true || false = disabled (the volcano will '''not''' become active), true = enabled
+|}
+
+==== ARK: Homestead specific ====
+
+{| class="wikitable"
+|-
+!Option !! Value Type !! Default !! Effect
+|-
+| <code>AlwaysAllowStructurePickup</code> || ''boolean'' || false || if true disables the timer on the quick-pickup system
+|-
+| <code>StructurePickupTimeAfterPlacement</code> || ''float'' || 30.0 || amount of time in seconds after placement that quick pickup is available
+|-
+| <code>AllowIntegratedSPlusStructures</code> || ''boolean'' || true || if false disables all of the new S+ structures (intended mainly for letting unofficials that want to keep using the S+ mod version to keep using that without a ton of extra duplicate structures)
+|-
+| <code>StructurePickupHoldDuration</code> || ''float'' || 0.5 || used to specify the quick-pickup hold duration <br />use <code>0</code> to disable and have instant pickup
+|}
+
+=== Game.ini ===
+The following options can only be set in the <code>[/script/shootergame.shootergamemode]</code> section of <code>Game.ini</code>, located in the same folder as <code>GameUserSettings.ini</code> (see above for the location for each platform). Specifying them on the command line will have no effect.
+<!--start of Game.ini-->
+{| class="wikitable sortable"
+|-
+! Option !! Arguments !! Effects and Example
+|-
+| <code>ConfigOverrideItemMaxQuantity=(ItemClassString="<[[Item IDs|Class Name]]>",Quantity=(MaxItemQuantity=<n>, bIgnoreMultiplier=<value>))</code>
+| 
+{| class="wikitable"
+|-
+| <code>Class Name</code> || ''string'' || width="40%" | [[Item IDs|Class Name]] of the item that will be overriden to new stacksize 
+|-
+| <code>n</code> || ''integer'' || width="40%" | new stacksize of the specified item
+|-
+| <code>value</code> || ''boolean || width="40%" | if ''false'', that means that the real stack size is ''ItemStackSizeMultiplier * MaxItemQuantity'' for that item<br/>
+if ''true'', it uses ''MaxItemQuantity'' directly and ignores the multiplier
+|}
+| allow manually overriding item stack size on a per-item basis
+Example:
+ ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemAmmo_ArrowTranq_C",Quantity=(MaxItemQuantity=543, bIgnoreMultiplier=true))
+this will make the Tranqarrows stack to 543 items per stack
+|-
+|
+<code>bOnlyAllowSpecifiedEngrams='''<value>'''</code>
+|
+value = ''boolean (true/false)''<br>Default = false
+|
+If true, any Engram not explicitly specified in the [[#Engram Entries|OverrideEngramEntries]] or [[#Engram Entries|OverrideNamedEngramEntries]] list will be hidden. All Items and Blueprints based on hidden Engrams will be removed.<br/>''Introduced in patch [[187.0]]
+|-
+|
+<code>LevelExperienceRampOverrides=(<br />
+ExperiencePointsForLevel['''<n>''']='''<points>'''<br />
+[,ExperiencePointsForLevel['''<n>''']='''<points>''']<br />
+...<br />
+[,ExperiencePointsForLevel['''<n>''']='''<points>'''])</code>
+|
+{| class="wikitable"
+|-
+| <code>n</code> || ''integer'' || width="40%" | Level to configure
+|-
+| <code>points</code> || ''integer'' || width="40%" | Points needed to reach level
+|}
+| width="40%" | Configure the total number of levels available to players and dinosaurs and the experience points required to reach each level.
+
+This directive can be specified twice in the configuration file. The first time it appears, the values provided will configure player levels. The second time it appears, the values provided will configure dinosaur levels.
+
+Because of this, each time the directive is used, it must list ''all'' of the levels players (or dinosaurs) can reach on the server. One <code>ExperiencePointsForLevel</code> argument must appear for each desired level. Values for <code>'''<n>'''</code> must be sequential, starting from zero. Keep in mind that the last 15 levels are used for ascension, meaning that you have to put 15 extra levels in your configuration file.
+
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed on a single line.
+
+ LevelExperienceRampOverrides=(
+ ExperiencePointsForLevel[0]=1,
+ ExperiencePointsForLevel[1]=5,
+ ...
+ ExperiencePointsForLevel[64]=1000)
+
+ LevelExperienceRampOverrides=(
+ ExperiencePointsForLevel[0]=1,
+ ExperiencePointsForLevel[1]=5,
+ ...
+ ExperiencePointsForLevel[34]=1000)
+
+The first example specifies 50 player levels and 15 ascension levels. The second example (when placed in the configuration file after the first example) specifies 35 dinosaur levels.
+|-
+| <code>OverridePlayerLevelEngramPoints='''<points>'''</code>
+| points = ''integer''
+| Configure the number of engram points granted to players for each level gained.
+This option must be repeated for each player level configured on the server; if there are 65 player levels available, this option should appear in the configuration file 65 times.
+The first appearance of the option configures engram points for reaching level 1. The next one configures engram points for level 2, and so on all the way to the 65th appearance, which configures engram points for level 65.
+
+ OverridePlayerLevelEngramPoints=5
+ OverridePlayerLevelEngramPoints=10
+ ...
+ OverridePlayerLevelEngramPoints=100
+|-
+| <code>GlobalSpoilingTimeMultiplier='''<value>'''</code>
+| value = ''float''<br>Default = 1.0
+| Scales the spoiling time of perishables globally. Higher values prolong the time. (Note: As of patch 196.0 there is still a bug whereby items moved to the player's inventory have their spoilage times reset to normal (value 1.0) despite what this value is set at. It seems that as of [[248.5]] this has been fixed.)<br/>''Introduced in patch [[189.0]]''
+|-
+| <code>GlobalItemDecompositionTimeMultiplier='''<value>'''</code>
+| value = ''float''<br>Default = 1.0
+| Scales the decomposition time of dropped items, loot bags etc. globally. Higher values prolong the time.<br/>''Introduced in patch [[189.0]]''
+|-
+| <code>GlobalCorpseDecompositionTimeMultiplier='''<value>'''</code>
+| value = ''float''<br>Default = 1.0
+| Scales the decomposition time of corpses, (player and dinosaur), globally. Higher values prolong the time.<br/>''Introduced in patch [[189.0]]''
+|-
+| <code>HarvestResourceItemAmountClassMultipliers=(<br>ClassName="'''<classname>'''",<br>Multiplier='''<value>'''<br>)</code>
+|
+{| class="wikitable"
+|-
+| <code>classname</code> || ''string'' || Class Name of resource,<br>see [[Item IDs]]
+|-
+| <code>value</code> || ''float'' || Default = 1.0
+|}
+| width="40%" | Scales on a per-resource type basis, the amount of resources harvested. Higher values increase the amount per swing/attack. E.g.:
+ HarvestResourceItemAmountClassMultipliers=(
+  ClassName="PrimalItemResource_Thatch_C",
+  Multiplier=2.0
+ )
+will provide 2x the amount harvested when harvesting thatch from a tree. Resource classnames can be found at [[Item IDs]]. Functions in the same way as the global setting HarvestAmountMultiplier but for only the type of resource named on this line. Additional lines can be added with other resource types, such as Wood, Stone etc.<br/>''Introduced in patch [[189.0]]''
+|-
+| <code>OverrideMaxExperiencePointsPlayer='''<value>'''</code>
+<code>OverrideMaxExperiencePointsDino='''<value>'''</code>
+| value = ''integer''<br/>Default = N/A
+| Overrides the Max XP cap of players & dinosaur characters, respectively, by exact specified amount.<br/>''Introduced in patch [[189.0]]''
+|-
+| <code>PreventDinoTameClassNames="'''<classname>'''"</code>
+| classname = ''string''
+| Prevents taming of specific dinosaurs via classname.  E.g. <code>PreventDinoTameClassNames="Argent_Character_BP_C"</code>
+Dino classnames can be found on the [[Creature IDs]] page.<br/>''Introduced in patch [[194.0]]''
+|-
+| <code>DinoClassDamageMultipliers=(<br>ClassName="'''<classname>'''",<br>Multiplier='''<multiplier>'''<br>)</code>
+<code>TamedDinoClassDamageMultipliers=(<br>ClassName="'''<classname>'''",<br>Multiplier='''<multiplier>'''<br>)</code>
+| classname = ''string''
+multiplier = ''float'' Default 1.0
+| Multiplies damage dealt of specific dinosaurs via classname. Higher values increase the damage dealt.
+
+Dino classnames can be found on the [[Creature IDs]] page.
+
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed on a single line. Multiple <code>DinoClassDamageMultipliers</code> and <code>TamedDinoClassDamageMultipliers</code> entries can be specified in the file, but <code>ClassName</code> values should not be repeated across multiple entries.
+
+Examples:
+ DinoClassDamageMultipliers=(
+  ClassName="MegaRex_Character_BP_C",
+  Multiplier=0.1
+ )
+
+ TamedDinoClassDamageMultipliers=(
+  ClassName="Rex_Character_BP_C",
+  Multiplier=10.0
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
+''Introduced in patch [[194.0]]''
+|-
+| <code>DinoClassResistanceMultipliers=(<br>ClassName="'''<classname>'''",<br>Multiplier='''<multiplier>'''<br>)</code>
+<code>TamedDinoClassResistanceMultipliers=(<br>ClassName="'''<classname>'''",<br>Multiplier='''<multiplier>'''<br>)</code>
+| classname = ''string''
+multiplier = ''float'' Default 1.0
+| Multiplies resistance of specific dinosaurs via classname. Higher values decrease the damage received.
+
+Dino classnames can be found on the [[Creature IDs]] page.
+
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed on a single line. Multiple <code>DinoClassResistanceMultipliers</code> and <code>TamedDinoClassResistanceMultipliers</code> entries can be specified in the file, but <code>ClassName</code> values should not be repeated across multiple entries.
+
+Examples:
+ DinoClassResistanceMultipliers=(
+  ClassName="MegaRex_Character_BP_C",
+  Multiplier=0.1
+ )
+
+ TamedDinoClassResistanceMultipliers=(
+  ClassName="Rex_Character_BP_C",
+  Multiplier=10.0
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
+''Introduced in patch [[194.0]]''
+|-
+| <code>ResourceNoReplenishRadiusPlayers='''<value>'''</code><br/>
+<code>ResourceNoReplenishRadiusStructures='''<value>'''</code>
+| Value = ''float'' Default = 1.0
+| Allow resources to regrow closer or farther away from players & structures. Values higher than 1 increase the distance around players and structures where resources are allowed to grow back. Values between 0 and 1 will reduce it.
+''Introduced in patch [[196.0]]''
+|-
+| <code>bIncreasePvPRespawnInterval='''<Boolean>'''</code><br/>
+<code>IncreasePvPRespawnIntervalCheckPeriod='''<value1>'''</code><br/>
+<code>IncreasePvPRespawnIntervalMultiplier='''<value2>'''</code><br/>
+<code>IncreasePvPRespawnIntervalBaseAmount='''<value3>'''</code><br/>
+|
+{| class="wikitable"
+|-
+| <code>boolean</code> || ''boolean (true/false)'' || width="40%" | Default = N/A
+|-
+| <code>value1</code> || ''float'' || width="40%" | Default = 300
+|-
+| <code>value2</code> || ''float'' || width="40%" | Default = 2
+|-
+| <code>value3</code> || ''float'' || width="40%" | Default = 60
+|}
+| width="40%" | PvP servers have an optional +1 minute additional respawn ('''<value3>''') that doubles ('''<value2>''') each time if you are killed by a team within 5 minutes ('''<value1>''') of your previous death to that team (timer indicated on Spawn UI). Is enabled in pvp by default, and on all the official pvp servers. Helps prevent PvO ammo-wasting of auto turrets by repeatedly throwing sacrificial players at them.
+<code>bIncreasePvPRespawnInterval</code> must be set to True for these options to be activated.
+
+''Introduced in patch [[196.0]]''
+|-
+| <code>bAutoPvETimer='''<Boolean1>'''</code><br/>
+<code>bAutoPvEUseSystemTime='''<Boolean2>'''</code><br/>
+<code>AutoPvEStartTimeSeconds='''<value1>'''</code><br/>
+<code>AutoPvEStopTimeSeconds='''<value2>'''</code><br/>
+|
+{| class="wikitable"
+|-
+| <code>boolean1</code> || ''Boolean (true/false)'' || width="40%" | Default = N/A
+|-
+| <code>boolean2</code> || ''boolean (true/false)'' || width="40%" | Default = N/A
+|-
+| <code>value</code> || ''0 to 86400'' || width="40%" | Default = N/A
+|-
+| <code>value</code> || ''0 to 86400'' || width="40%" | Default = N/A
+|}
+| width="40%" | Allow switching from PvE to PvP mode at pre-specified in-game times OR a pre-specified real-world (server-side) times! For more detailed information regarding using system time vs. in-game time, please see patch notes [[196.0]].
+<code>bAutoPvETimer</code> must be set to True for these options to be activated.
+
+''Introduced in patch [[196.0]]''
+|-
+| <code>bPvEDisableFriendlyFire='''<value>'''</code> || Value = ''boolean (true/false)''<br>Default = false
+| Prevent-Friendly-Fire (among tribesmates/tribesdinos/tribesstructures) option for PvE servers<br/>''Introduced in patch [[202.0]]''
+|-
+| <code>bDisableFriendlyFire='''<value>'''</code> || Value = ''boolean (true/false)''  <br/>Default =false
+| Prevent-Friendly-Fire (among tribesmates/tribesdinos/tribesstructures) option for PvP servers<br/> ''Introduced in patch [[228.4]]''
+|-
+|<code>bFlyerPlatformAllowUnalignedDinoBasing='''<boolean>'''</code>|| Value = ''boolean (true/false)''<br>Default = false || Quetz platforms will not allow any non-allied dino to base on them when they are flying. If you want your server to allow non-allied dinos to be able to stand on the Quetz platforms set this to true.<br/>''Introduced in patch [[218.3]]''
+|-
+|<code>MatingIntervalMultiplier='''<value>'''</code>|| Value = ''float''<br>Default = 1.0 || Higher number increases (on a percentage scale) interval between which dinosaurs can mate<br/>Example: MatingIntervalMultiplier=0.5 would allow dinosaurs to mate 50% sooner
+''Introduced in patch [[219.0]]''
+|-
+|<code>MatingSpeedMultiplier='''<value>'''</code>
+|Value = ''float''
+Default = 1.0
+|Higher number increases (by percentage) speed at which dinosaurs mate with each other
+Example: MatingSpeedMultiplier=2.0 would cause dinosaurs to complete mating in half the normal time
+
+''Introduced in patch ??? (this var is undocumented in patch notes)''
+|-
+| <code>EggHatchSpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number decreases (by percentage) time needed for fertilized egg to hatch
+''Introduced in patch [[219.0]]''
+|-
+| <code>BabyMatureSpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number decreases (by percentage) time needed for baby dino to mature
+''Introduced in patch [[219.0]]''
+|-
+| <code>BabyFoodConsumptionSpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default  = 1.0 || Lower number decreases (by percentage) the speed that baby dinos eat their food
+''Introduced in patch [[222.3]]''
+|-
+| <code>CropGrowthSpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) speed of crop growth<br/>''Introduced in patch [[218.0]]''
+|-
+| <code>LayEggIntervalMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) time between eggs spawning / being laid<br/>''Introduced in patch [[218.0]]''
+|-
+| <code>PoopIntervalMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number decreases (by percentage) how frequently you can poop<br/>''Introduced in patch [[218.0]]''
+|-
+| <code>CropDecaySpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number decrease (by percentage) speed of crop decay in plots<br/>''Introduced in patch [[218.0]]''
+|-
+| <code>HairGrowthSpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increase speed of hair growth.
+''Introduced in patch [[254.0]]''
+|-
+| <code>StructureDamageRepairCooldown='''<value>'''</code> || Value= ''integer''<br>Default = 180
+| Option for cooldown period on structure repair from the last time damaged. Set to 180 seconds by default, 0 to disable it
+''Introduced in patch [[222.0]]''
+|-
+| <code>bPvEAllowTribeWar='''<value>'''</code> || Value = ''boolean''<br>Default = True
+| False disables capability for Tribes to officially declare war on each other for mutually-agreed-upon period of time
+''Introduced in patch [[223.0]]''
+|-
+| <code>bPvEAllowTribeWarCancel='''<value>'''</code> || Value = ''boolean''<br>Default = False || True allows cancellation of an agreed-upon war before it has actually started
+''Introduced in patch [[223.0]]''
+|-
+| <code>bPassiveDefensesDamageRiderlessDinos='''<value>'''</code> || Value = ''boolean''<br>Default = False || True allow spike walls to damage wild/riderless Dinos
+''Introduced in patch [[224.0]]''
+|-
+| <code>CustomRecipeEffectivenessMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) the effectiveness of a custom recipe
+''Introduced in patch [[226.0]]''
+|-
+| <code>CustomRecipeSkillMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) the effect of the players crafting speed level that is used as a base for the formula in creating a custom recipe
+''Introduced in patch [[226.0]]''
+|-
+| <code>DinoHarvestingDamageMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 3.2 || Higher number increases (by percentage) the damage done to a harvestable item/entity by a Dino. The higher number, the faster you collect
+''Introduced in patch [[231.1]]''
+|-
+| <code>PlayerHarvestingDamageMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) the damage done to a harvestable item/entity by a Player. The higher number, the faster you collect
+''Introduced in patch [[231.1]]''
+|-
+| <code>DinoTurretDamageMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Higher number increases (by percentage) the damage done by Turrets towards a Dino
+''Introduced in patch [[231.4]]''
+|-
+| <code>bDisableLootCrates='''<value>'''</code> || Value = ''boolean''<br>Default = False
+| True prevent spawning of Loot crates (artifact creates will still spawn)
+''Introduced in patch [[231.7]]''
+|-
+| <code>SupplyCrateLootQualityMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0<br>Range= 1 to 5
+| Increases the quality of items that have a quality in the supply crates. The quality also depends on the Difficulty Offset.
+''Introduced in patch [[260.0]]''
+|-
+| <code>FishingLootQualityMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0<br>Range= 1 to 5
+| Increases the quality of items that have a quality when fishing.
+''Introduced in patch [[260.0]]''
+|-
+| <code>KickIdlePlayersPeriod='''<value>'''</code> || Value = ''integer''<br>Default = 3600 || Time after which characters that have not moved or interacted will be kicked (if -EnableIdlePlayerKick  as command line parameter is set).
+''Introduced in patch [[241.5]]''
+|-
+| <code>MaxNumberOfPlayersInTribe='''<value>'''</code> || Value = ''float''<br>Default = 0 || Set this to a number > 0 to act as a limit. 1 Player Tribes effectively disables Tribes
+''Introduced in patch [[242.0]]''
+|-
+| <code>BabyImprintingStatScaleMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || How much of an effect on stats the Imprinting Quality has. Set it to 0 to effectively disable the system.
+''Introduced in patch [[242.0]]''
+|-
+| <code>BabyCuddleIntervalMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || How often Babies wanna cuddle. More often means you'll need to cuddle with them more frequently to gain Imprinting Quality.
+''Introduced in patch [[242.0]]''
+|-
+| <code>BabyCuddleGracePeriodMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || A multiplier on how long after delaying cuddling with the Baby before Imprinting Quality starts to decrease.
+''Introduced in patch [[242.0]]''
+|-
+| <code>BabyCuddleLoseImprintQualitySpeedMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || A multiplier on how fast Imprinting Qualitiy decreases after the grace period if you haven't yet cuddled with the Baby.
+''Introduced in patch [[242.0]]''
+|-
+| <code>ConfigOverrideItemCraftingCosts</code>
+| 
+| See section [[#ConfigOverrideItemCraftingCosts|ConfigOverrideItemCraftingCosts]] for an example.
+Currently doesn't change repair cost and demolish refund of edited structures. Results in potential exploit for lowered crafting costs and may make structures unrepairable.
+
+Note: if using stack mods, refer to the mod new resources instead of vanilla ones (i.e.: PrimalItemResource_Electronics_Child_C instead of PrimalItemResource_Electronics_C)
+
+''Introduced in patch [[242.0]]''
+|-
+| <code>ConfigOverrideSupplyCrateItems</code>
+| 
+| See section [[#ConfigOverrideSupplyCrateItems|ConfigOverrideSupplyCrateItems]] for an example
+
+''Introduced in patch [[242.0]]''
+|-
+| <code>ExcludeItemIndices='''<value>'''</code>
+| Value = one [[Item IDs|Item ID]]
+| Exclude an item from supply crates. You can have multiple lines of this option.
+|-
+| <code>MaxTribeLogs='''<value>'''</code> || Value = ''integer''<br>Default = 100 || How many Tribe logs are displayed for each tribe.
+''Introduced in patch [[224.0]]''
+|-
+| <code>PvPZoneStructureDamageMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 6.0 || Specifies the scaling factor for damage structures take within caves.<br/>The lower the value, the less damage the structure takes (i.e. setting to 1.0 will make structure built in or near a cave receive the same amount of damage as those built on the surface).<br>''Introduced in patch [[187.0]]''
+|-
+| <code>bDisableDinoRiding='''<value>'''</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|
+|-
+| <code>bDisableDinoTaming='''<value>'''</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|
+|-
+| <code>bDisableStructurePlacementCollision='''<value>'''</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|If 'true' allows for structures to clip into the terrain.
+|-
+| <code>bAllowCustomRecipes='''<value>'''</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|''Introduced in patch [[224.0]]''
+|-
+| <code>bAutoUnlockAllEngrams='''<value>'''</code>
+|Value = ''boolean(true/false)''<br>Default = false
+|unlocks all Engrams available.  -Ignores OverrideEngramEntries and OverrideNamedEngramEntries entries. 
+
+''introduced in patch [[273.62]]''
+|-
+| <code>EngramEntryAutoUnlocks=(<br>EngramClassName="<[[Engram Classnames|index]]>",<br>LevelToAutoUnlock=<value><br>)</code>
+|
+{| class="wikitable"
+|-
+| [[Engram Classnames|index]] || text || [[Engram Classnames|Engram Classname]] 
+|-
+| value || integer || Level you need<br>to gain to unlock<br>the Engram automatically
+|}
+|automatically unlocks the specified Engram when reaching the level specified<br/>
+this example unlocks the [[Tek Teleporter]] with level 0:<br/>
+
+ EngramEntryAutoUnlocks=(
+  EngramClassName="EngramEntry_TekTeleporter_C",
+  LevelToAutoUnlock=0
+ )
+
+''introduced in patch [[273.62]]''
+|-
+|-
+|<code>bHardLimitTurretsInRange</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|''Introduced in patch [[278.0]]''
+|-
+|<code>bShowCreativeMode</code>
+|Value = ''boolean (true/false)''<br>Default = false
+|Enables creative mode.
+''Introduced in patch [[278.0]]''
+|-
+|<code>PreventOfflinePvPConnectionInvincibleInterval</code>
+|Value = ''float''<br>Default = 5.0
+|''Introduced in patch [[278.0]]''
+|-
+|<code>TamedDinoCharacterFoodDrainMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier on how fast tame dinos consume food.
+''Introduced in patch [[278.0]]''
+|-
+|<code>WildDinoCharacterFoodDrainMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier on how fast wild dinos consume food.
+''Introduced in patch [[278.0]]''
+|-
+|<code>WildDinoTorporDrainMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier on how fast wild dinos lose torpor.
+''Introduced in patch [[278.0]]''
+|-
+|<code>PassiveTameIntervalMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier on how often you get tame requests for passive tame dinos.
+''Introduced in patch [[278.0]]''
+|-
+|<code>TamedDinoTorporDrainMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier on how fast tamed dinos lose torpor.
+''Introduced in patch [[278.0]]''
+|-
+|<code>KillXPMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier to scale the amount of XP earned for a kill<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>HarvestXPMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier to scale the amount of XP earned for harvesting<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>CraftXPMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier to scale the amount of XP earned for crafting<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>GenericXPMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier to scale the amount of XP earned for generic XP (automatic over time)<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>SpecialXPMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|A multiplier to scale the amount of XP earned for SpecialEvents<br/>''Introduced in patch [[243.0]]''
+|-
+|<code>[ModInstaller]<br/>ModIDS=<value><br/>ModIDS=<value><br/>ModIDS=<value></code>
+|Value = ''ModID''
+|specify a manual list of extra Steam Workshop Mods/Maps/TC ID's to download/install/update in your Game.ini via (with the commandline(<code>-automanagedmods</code>) as normal to actually use them in-game)<br/>''Introduced in patch [[244.3]]''
+|-
+|<code>FastDecayInterval</code>
+|Value =''integer''<br/>Default = 43200
+|Enable this option for a fixed constant decay period for "Fast Decay" structures (such as pillars or lone foundations). Value is in seconds.
+|-
+|<code>MaxAlliancesPerTribe</code>
+|Value = ''integer''<br/>Default = N/A
+|Define the maximum alliances a tribe can form or be part of.
+|-
+|<code>MaxTribesPerAlliance</code>
+|Value = ''integer''<br/>Default = N/A
+|Define the maximum of tribes in an alliance.
+|-
+|<code>bUseTameLimitForStructuresOnly</code>
+|Value = ''boolean''
+|if true will make Tame Units only be applied and used for Platforms with Structures and Rafts effectively disabling Tame Units for Dinos without Platform Structures
+|-
+|<code>UseCorpseLifeSpanMultiplier</code>
+|Value = ''float''
+|modifies corpse AND dropped box lifespan<br/>''Introduced in patch [[275.0]]''
+|-
+|<code>FuelConsumptionIntervalMultiplier</code>
+|Value = ''float''<br>Default = 1.0
+|Define the interval of fuel consumption.
+''Introduced in patch [[264.0]]''
+|-
+|<code>GlobalPoweredBatteryDurabilityDecreasePerSecond</code>
+|Value = ''float''<br/>Default = 4
+|''Introduced in patch [[278.0]]''
+|-
+|<code>DestroyTamesOverLevelClamp﻿</code>
+|Value = ''integer''<br/>Default = 0
+|Tames that exceed that level will be deleted on server start. Official servers have it set to <code>449</code>.
+''Introduced in patch [[255.0]]''
+|}
+<!--end of Game.ini main list-->
+
+==== Turret Limit related ====
+<div style="border:1px solid silver; padding:0 1em;">
+ bLimitTurretsInRange='''<overrride>'''
+ LimitTurretsRange='''<range>'''
+ LimitTurretsNum='''<turrets>'''
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>override</code> || boolean || if true enable the Limit
+|-
+| <code>range</code> || integer || determines the area in which turrets are added towards the limit, the value is UE4 units
+|-
+| <code>turrets</code> || integer || determines the maximum number of turrets that are allowed in the area
+|}
+
+Limits the maximum allowed automated turrets (including [[Plant Species X]]) in a certain range.<br/>''Introduced in patch [[274.0]]''
+</div>
+
+==== Engram Entries ====
+<div style="border:1px solid silver; padding:0 1em;">
+ OverrideEngramEntries=(EngramIndex='''<[[Engram classnames|index]]>'''
+ [,EngramHidden='''<hidden>''']
+ [,EngramPointsCost='''<cost>''']
+ [,EngramLevelRequirement='''<level>''']
+ [,RemoveEngramPreReq='''<remove_prereq>'''])
+
+ OverrideNamedEngramEntries=(EngramClassName="'''<[[Engram classnames|class_name]]>'''"
+ [,EngramHidden='''<hidden>''']
+ [,EngramPointsCost='''<cost>''']
+ [,EngramLevelRequirement='''<level>''']
+ [,RemoveEngramPreReq='''<remove_prereq>'''])
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Engram classnames|index]]</code> || ''integer'' || Index of the engram 
+|-
+| <code>[[Engram classnames|class_name]]</code> || ''integer'' || Class name of the engram
+|-
+| <code>hidden</code> || ''true''{{!}}''false'' || If <code>true</code>, hide the engram in the players' Engrams panel
+|-
+| <code>cost</code> || ''integer'' || Engram points needed to learn engram
+|-
+| <code>level</code> || ''integer'' || Minimum level needed to learn engram
+|-
+| <code>remove_prereq</code> || ''true''<nowiki>|</nowiki>''false'' || Engram points needed to learn engram
+|}
+
+Description:
+
+Configure the status and requirements for learning an engram. For OverrideEngramEntries the <code>EngramIndex</code> argument is always required, for OverrideNamedEngramEntries the <code>EngramClassName</code> argument is always required; the rest are optional, but at least one must be provided in order for the option to have any effect. The option may be repeated in <code>Game.ini</code> once for each engram to be configured.
+
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed entirely on a single line. Multiple <code>OverrideEngramEntries</code> and <code>OverrideNamedEngramEntries</code> entries can be specified in the file, but <code>EngramIndex</code> and <code>EngramClassName</code> values should not be repeated across multiple entries.
+
+For the Engram Index and Engram Class Name see [[Engram classnames]].
+
+Examples:
+ OverrideEngramEntries=(EngramIndex=0, EngramHidden=false)
+
+ OverrideEngramEntries=(EngramIndex=1, EngramHidden=false, EngramPointsCost=3, EngramLevelRequirement=3, RemoveEngramPreReq=true)
+
+ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Campfire_C",  EngramHidden=false)
+
+ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneHatchet_C", EngramHidden=false, EngramPointsCost=3, EngramLevelRequirement=3, RemoveEngramPreReq=true)
+</div>
+
+==== Creature Spawn related ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+'''ConfigAddNPCSpawnEntriesContainer'''
+ ConfigAddNPCSpawnEntriesContainer=(
+ [NPCSpawnEntriesContainerClassString='''<[[Spawn Entries|spawn_class]]>'''],
+ [NPCSpawnEntries=((AnEntryName='''<spawn_name>'''],
+ [EntryWeight='''<factor>'''],
+ [NPCsToSpawnStrings=('''<[[Creature IDs|entity_id]]>''')))],
+ [NPCSpawnLimits=((NPCClassString='''<[[Creature IDs|entity_id]]>'''],
+ [MaxPercentageOfDesiredNumToAllow='''<percentage>''')))]
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Spawn Entries|spawn_class]]</code> || ''string'' || Spawn Class String, see [[Spawn Entries]]
+|-
+| <code>spawn_name</code> || ''string'' || Spawn Name
+|-
+| <code>factor</code> || ''float'' || Weight Factor for this spawn
+|-
+| <code>[[Creature IDs|entity_id]]</code> || ''string'' || Entity ID of the dinosaur or creature to be added, see [[Creature IDs]]
+|-
+| <code>percentage</code> || ''float'' || Sets the maximum allowed dinosaurs or creatures for this instance
+|}
+
+Allows specified dinosaurs/creatures to spawn in specified locations directly through the spawners limited to what is specified. Use one dinosaur/creature per line/setting.
+
+For example: Adding 1 Giganotosaurus to the beach spawn area.
+
+ ConfigAddNPCSpawnEntriesContainer=(
+  NPCSpawnEntriesContainerClassString="DinoSpawnEntriesBeach_C",
+  NPCSpawnEntries=((AnEntryName="GigaSpawner", EntryWeight=1000.0, NPCsToSpawnStrings=("Gigant_Character_BP_C"))),
+  NPCSpawnLimits=((NPCClassString="Gigant_Character_BP_C", MaxPercentageOfDesiredNumToAllow=0.01))
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
+''Introduced in Patch [[248.0]]''
+----
+'''ConfigSubtractNPCSpawnEntriesContainer'''
+ ConfigSubtractNPCSpawnEntriesContainer=(
+ [NPCSpawnEntriesContainerClassString='''<[[Spawn Entries|spawn_class]]>'''],
+ [NPCSpawnEntries=((NPCsToSpawnStrings=('''<[[Creature IDs|entity_id]]>''')))],
+ [NPCSpawnLimits=((NPCClassString='''<[[Creature IDs|entity_id]]>''')))]
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Spawn Entries|spawn_class]]</code> || ''string'' || Spawn Class String, see [[Spawn Entries]]
+|-
+| <code>[[Creature IDs|entity_id]]</code> || ''string'' || Entity ID of the dino or creature to be removed, see [[Creature IDs]]
+|}
+
+Completely removes specified dinosaurs/creatures from specified locations. More than one dinosaur/creature can be specified. 
+
+You cannot reference the same Spawn Entry in multiple lines and have them all take effect, even if the Entity ID or Spawn Class referenced is different between each line. If removing multiple dinosaurs/creatures from the same Spawn Entry, use one line to do so.
+
+Example: Removing Trike and Pteros from the Beach.
+
+ ConfigSubtractNPCSpawnEntriesContainer=(
+  NPCSpawnEntriesContainerClassString="DinoSpawnEntriesBeach_C",
+  NPCSpawnEntries=(
+   (NPCsToSpawnStrings=("Trike_Character_BP_C")),
+   (NPCsToSpawnStrings=("Ptero_Character_BP_C"))
+  ),
+  NPCSpawnLimits=(
+   (NPCClassString="Trike_Character_BP_C"),
+   (NPCClassString="Ptero_Character_BP_C")
+  )
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
+''Introduced in Patch [[248.0]]''
+----
+'''ConfigOverrideNPCSpawnEntriesContainer'''
+ ConfigOverrideNPCSpawnEntriesContainer=(
+ [NPCSpawnEntriesContainerClassString='''<[[Spawn Entries|spawn_class]]>'''],
+ [NPCSpawnEntries=((AnEntryName='''<spawn_name>'''],
+ [EntryWeight='''<factor>'''],
+ [NPCsToSpawnStrings=('''<[[Creature IDs|entity_id]]>''')))],
+ [NPCSpawnLimits=((NPCClassString='''<[[Creature IDs|entity_id]]>'''],
+ [MaxPercentageOfDesiredNumToAllow='''<percentage>''')))]
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Spawn Entries|spawn_class]]</code> || ''string'' || Spawn Class String, see [[Spawn Entries]]
+|-
+| <code>spawn_name</code> || ''string'' || Spawn Name
+|-
+| <code>factor</code> || ''float'' || Weight Factor for this spawn
+|-
+| <code>[[Creature IDs|entity_id]]</code> || ''string'' || Entity ID of the dino or creature to override other spawns, see [[Creature IDs]]
+|-
+| <code>percentage</code> || ''float'' || Sets the maximum allowed dinos or creatures for this instance
+|}
+
+Overrides all dinosaurs/creatures within a specified area with specified dinos, allows for areas to be dedicated for the spawning of specific dinosaurs/creatures. Does not prevent wanderers from entering said location.
+
+For example: If you want only Rexes and Carnos to spawn in the Mountain Region
+
+ ConfigOverrideNPCSpawnEntriesContainer=(
+  NPCSpawnEntriesContainerClassString="DinoSpawnEntriesMountain_C",
+  NPCSpawnEntries=(
+   (AnEntryName="CarnoSpawner", EntryWeight=1.0, NPCsToSpawnStrings=("Carno_Character_BP_C")),
+   (AnEntryName="RexSpawner", EntryWeight=1.0, NPCsToSpawnStrings=("Rex_Character_BP_C"))
+  ),
+  NPCSpawnLimits=(
+   (NPCClassString="Carno_Character_BP_C", MaxPercentageOfDesiredNumToAllow=0.5),
+   (NPCClassString="Rex_Character_BP_C", MaxPercentageOfDesiredNumToAllow=0.5)
+  )
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
+''Introduced in Patch [[248.0]]''
+----
+'''DinoSpawnWeightMultipliers'''
+ DinoSpawnWeightMultipliers=(
+ DinoNameTag='''<[[Creature IDs|tag]]>'''
+ [,SpawnWeightMultiplier='''<factor>''']
+ [,OverrideSpawnLimitPercentage='''<override>''']
+ [,SpawnLimitPercentage='''<limit>'''])
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Creature IDs|tag]]</code> || ''string'' || Dinosaur type to adjust, see [[Creature IDs]] (column Entity ID)
+|-
+| <code>factor</code> || ''float'' || Weight factor for this type
+|-
+| <code>override</code> || ''true''{{!}}''false'' || If <code>true</code>, use the specified <code>SpawnLimitPercentage</code>
+|-
+| <code>limit</code> || ''float'' || Maximum percentage (among all spawns) for this type
+|}
+
+Customizes the spawning rate for a given dinosaur type (at all dinosaur spawn points). Types with a larger <code>SpawnWeightMultiplier</code> are selected more often when spawning new dinosaurs than types with lower multipliers. When <code>OverrideSpawnLimitPercentage</code> is specified (and <code>true</code>), the type will never be spawned more than <code>SpawnLimitPercentage * 100</code> percent of the time, regardless of multiplier. For example, a <code>SpawnLimitPercentage</code> of <code>0.25</code> specifies that the type will be selected for spawning no more than 25% of the time.
+
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed entirely on a single line. Multiple <code>DinoSpawnWeightMultipliers</code> entries can be specified in the file, but <code>DinoNameTag</code> values should not be repeated across multiple entries.
+
+ DinoSpawnWeightMultipliers=(
+  DinoNameTag=Bronto,
+  SpawnWeightMultiplier=10.0,
+  OverrideSpawnLimitPercentage=true,
+  SpawnLimitPercentage=0.5
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+----
+'''NPCReplacements'''
+ NPCReplacements=(FromClassName="'''<classname>'''", ToClassName="'''<classname>'''")
+
+Arguments:
+{| class="wikitable"
+|-
+| <code>[[Creature IDs|classname]]</code> || ''string'' || Spawn Class String, see [[Creature IDs]] (column Entity ID)
+|}
+
+This can be used to disable specific Alpha predators, replace the spawns of a particular NPC (NPC=Non-player character, i.e. a dino) with that of a different NPC, or completely disable any specific NPC spawn. 
+
+ NPCReplacements=(FromClassName="MegaRaptor_Character_BP_C", ToClassName="Dodo_Character_BP_C")
+
+''Introduced in patch [[196.0]]''
+</div>
+
+==== PlayerBaseStatMultipliers ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+ PlayerBaseStatMultipliers[<attribute>]='''<multiplier>'''
+
+Arguments:
+{| class="wikitable"
+| <code>attribute</code> || ''integer''||
+0: Health
+<br/>1: Stamina / Charge Capacity
+<br/>2: Torpidity
+<br/>3: Oxygen / Charge Regeneration
+<br/>4: Food
+<br/>5: Water
+<br/>6: Temperature
+<br/>7: Weight
+<br/>8: MeleeDamageMultiplier / Charge Emission Range
+<br/>9: SpeedMultiplier
+<br/>10: TemperatureFortitude
+<br/>11: CraftingSpeedMultiplier
+|-
+| <code>multiplier</code> || ''float'' || Default = 1.0, see table below for the default value
+|}
+
+Changes the base stats of a player by multipling with the default value. Meaning the start stats of a new spawned character.
+
+''Introduced in patch [[254.6]]''
+
+Default values:
+
+{| class="wikitable"
+|-
+! Attribute !! default !! output
+|-
+| 0 Health || 1.0 || 100.0
+|-
+| 1 Stamina || 1.0 || 100.0
+|-
+| 2 Torpidity || 1.0 || 200.0 (you still become unconscious at 50 regardless of total amount)
+|-
+| 3 Oxygen || 1.0 || 100.0
+|-
+| 4 Food || 1.0 || 100.0
+|-
+| 5 Water || 1.0 || 100.0
+|-
+| 6 Temperature || 0.0 || 0.0 (Unused stat)
+|-
+| 7 Weight || 1.0 || 100.0
+|-
+| 8 MeleeDamageMultiplier || 0.0 || 100% (Base cannot be increased)
+|-
+| 9 SpeedMultiplier || 0.0 || 100% (Base cannot be increased)
+|-
+| 10 TemperatureFortitude || 0.0 || 0 (Base cannot be increased)
+|-
+| 11 CraftingSpeedMultiplier || 0.0 || 100% (Base cannot be increased)
+|}
+</div>
+
+==== PerLevelStatsMultiplier ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+ PerLevelStatsMultiplier_Player[<attribute>]='''<multiplier>'''
+ PerLevelStatsMultiplier_DinoTamed<type>[<attribute>]='''<multiplier>'''
+ PerLevelStatsMultiplier_DinoWild[<attribute>]='''<multiplier>'''
+
+Arguments:
+{| class="wikitable"
+| <code>type</code> || ''text'' ||
+no type given: Multiplier applied for each tamed level-up point
+<br/>_Add: Multiplier immediately added for tamed dino
+<br/>_Affinity: Multiplier applied dependant on affinity
+|-
+| <code>attribute</code> || ''integer'' || 
+0: Health
+<br/>1: Stamina / Charge Capacity
+<br/>2: Torpidity
+<br/>3: Oxygen / Charge Regeneration
+<br/>4: Food
+<br/>5: Water
+<br/>6: Temperature
+<br/>7: Weight
+<br/>8: MeleeDamageMultiplier / Charge Emission Range
+<br/>9: SpeedMultiplier
+<br/>10: TemperatureFortitude
+<br/>11: CraftingSpeedMultiplier
+|-
+| <code>multiplier</code> || ''float'' || Default = 1.0 or see table below
+|}
+
+Allows changing the amount of stats gained for each level. 
+<br/>E.g.: <code>PerLevelStatsMultiplier_Player[7]=2.0</code> would mean that weight-increase per level is 2x as much as default for players.
+<br/>PerLevelStatsMultiplier_Player changes the amount for players.
+<br/>PerLevelStatsMultiplier_DinoTamed changes the amount for tamed dinos.
+<br/>PerLevelStatsMultiplier_DinoWild changes the amount for wild dinos.
+<br/>To nearly disable gaining stats use 0.01 because setting the value to 0 makes it default to 1.0
+
+Examples for different types effecting Health of a tamed dino: 
+ PerLevelStatsMultiplier_DinoTamed[0]=1.0
+ PerLevelStatsMultiplier_DinoTamed_Add[0]=1.0
+ PerLevelStatsMultiplier_DinoTamed_Affinity[0]=1.0
+
+''Introduced in patch [[202.0]]''
+
+Default Values:
+
+{| class="wikitable"
+|-
+! Attribute !! Wild !! Tamed !! Tamed_Add !! Tamed_Affinity
+|-
+| 0 Health || 1 || 0.2 || 0.14 || 0.44
+|-
+| 1 Stamina || 1 || 1 || 1 || 1
+|-
+| 2 Torpidity || 1 || 1 || 1 || 1
+|-
+| 3 Oxygen || 1 || 1 || 1 || 1
+|-
+| 4 Food || 1 || 1 || 1 || 1
+|-
+| 7 Weight || 1 || 1 || 1 || 1
+|-
+| 8 Damage || 1 || 0.17 || 0.14 || 0.44
+|-
+| 9 Speed || 1 || 1 || 1 || 1
+|}
+
+If <code>bUseSingleplayerSettings=true</code> then the following multipliers are applied additionally to the configured (or default) values.
+
+{| class="wikitable"
+|-
+! Attribute !! Tamed !! Tamed_Add !! Tamed_Affinity
+|-
+| 0 Health || × 2.125 || × 3.571 || × 2.273
+|-
+| 8 Damage || × 2.353 || × 3.571 || × 2.273
+|}
+</div>
+
+==== ConfigOverrideItemCraftingCosts ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponStoneHatchet_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemAmmo_ArrowStone_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))<br/>
+ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponTorch_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumable_RawMeat_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),(ResourceItemTypeString="PrimalItemConsumable_CookedMeat_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+
+That's an example of how to make the Hatchet require 1 thatch and 2 stone arrows to craft. And to make the torch require 3 raw meat and 2 cooked meat to craft (because ya know, Meat Torches are the best torches!)
+
+Every Item Class String can be found in the Dev Kit.
+</div>
+
+==== ConfigOverrideSupplyCrateItems ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+ ConfigOverrideSupplyCrateItems=(SupplyCrateClassString="SupplyCrate_Level03_C",MinItemSets=1,MaxItemSets=1,NumItemSetsPower=1.0,bSetsRandomWithoutReplacement=true,ItemSets=((MinNumItems=2,MaxNumItems=2,NumItemsPower=1.0,SetWeight=1.0,bItemsRandomWithoutReplacement=true,ItemEntries=((EntryWeight=1.0,ItemClassStrings=("PrimalItemResource_Stone_C"),ItemsWeights=(1.0),MinQuantity=10.0,MaxQuantity=10.0,MinQuality=1.0,MaxQuality=1.0,bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0),(EntryWeight=1.0,ItemClassStrings=("PrimalItemResource_Thatch_C"),ItemsWeights=(1.0),MinQuantity=10.0,MaxQuantity=10.0,MinQuality=1.0,MaxQuality=1.0,bForceBlueprint=false,ChanceToBeBlueprintOverride=0.0)))))
+
+That's an example of how to completely override the items contained in the regular Level 3 supply crate, to contain just some stone and thatch for example. 
+
+Since [[273.7|v273.7]] the SupplyCrateClassString also takes a part of the class name. E.g. "SupplyCrate" will override all supply crates. You can also set <code>bAppendItemSets=true</code> to add item sets to supply crates, rather than totally overriding all their items. And you can set <code>bAppendPreventIncreasingMinMaxItemSets=true</code> to dynamically increase the amount of items dropped by however many additional itemsets you add (only applies when bAppendItemSets=true).
+
+All of the Item class strings and Supply Crate names can, of course, be found in the ARK Dev Kit and on page [[Beacon IDs]]!
+
+[https://survivetheark.com/index.php?/forums/topic/65930-tutorial-modify-loot-crate-contents-v242/ Tutorial: Modify loot crate contents (v242)]
+</div>
+
+==== ItemStatClamps ====
+<div style="border: 1px solid silver; padding: 0 1em;">
+'''NOTE:''' The command line argument <code>ClampItemStats</code> need to be set to <code>true</code> for the clamping to be enabled on your server. See [[#Command_Line_Syntax|Command Line Syntax]].
+ ItemStatClamps[<attribute>]='''<value>'''
+
+Arguments:
+{| class="wikitable"
+| <code>attribute</code> || ''integer'' || 
+0: Generic Quality
+<br/>1: Armor
+<br/>2: Max Durability﻿
+<br/>3: Weapon Damage Percent
+<br/>4: Weapon Clip Ammo
+<br/>5: Hypothermal Insulation
+<br/>6: W﻿eigh﻿﻿﻿t
+<br/>7: Hyperthermal Insulation
+|-
+| <code>value</code> || ''integer'' || The algorithm used appears to be the following:
+
+<code><Initial Value Constant> + ((<ItemStatClamps[<attribute>]> * <State Modifier Scale>) * (<Randomizer Range Multiplier> * <Initial Value Constant>))</code>
+
+Each items have their own specific data which can be found in the Dev Kit.
+|}
+
+For example, here are the values needed to have the same clamping as official servers for <code>Armor</code> and <code>Weapon Damage Percent</code>:
+ ItemStatClamps[1]=19800
+ ItemStatClamps[3]=19800
+
+This would clamp [[Saddles]] to <code>124.0</code> armor (<code>74.5</code> for the 'tank' creatures such as [[Doedicurus]], [[Rock Elemental]], etc.), [[Flak Armor]] pieces to <code>496.0</code> armor, [[Longneck Rifle]] to <code>298.0%</code> damage, etc.
+
+'''WARNING:''' This will permanently change the stats of any existing items so make sure to backup your current save before modifying and playing with the clamping values.
+</div>
+
+== Administrator Whitelisting ==
+Players can be whitelisted as administrators on the server via their SteamID. These players can use cheat commands on the server automatically, as if they had authenticated themselves via the <code>enablecheats</code> command (described below).
+
+To whitelist administrators, create the file <code>ShooterGame/Saved/AllowedCheaterSteamIDs.txt</code>. In the file, list each player's SteamID, one per line.
+
+SteamIDs for all connected players can be listed in-game via the <code>cheat ListPlayers</code> command. Players can be kicked from the server (using their SteamIDs) via the <code>cheat KickPlayer</code> command. Refer to the following section for details.
+
+'''Note:''' When this method is used, it is not necessary to specify a server administrator password. A password can still be specified, and can be used by players not on the whitelist to gain administrator privileges, but the server will function without it and will still automatically grant privileges to whitelisted administrators.
+
+== Cross-ARK Data Transfer ==
+How Cross-ARK Data Transfer works <ref>https://survivetheark.com/index.php?/forums/topic/85463-scorched-earth-technicaldetail-faq-ongoing/</ref>
+
+1. For '''Officials''', you can 'upload' Survivors from TheIsland or TheCenter via the "ARK Tribute" option available at any Supply Crate or Tribute Terminal. You can then 'download' these Survivors onto an Official ScorchedEarth Server of that same game mode. Currently only Survivors are allowed to travel TO ScorchedEarth (they can not have any items on them), in order to keep it balanced for the time being. However, FROM ScorchedEarth you can transfer Survivors, Items, and Dinos, which you can then download (via the ARK Tribute) onto TheIsland or TheCenter. So indeed you can bring all ScorchedEarth Items, Dinos, and Survivors (and thus Scorched Earth Engrams) onto TheIsland or TheCenter to extend your capabilities there. When transferring a Survivor between ARKs using this method, Tribes should be retained. However Alliances will not be retained, and will need to be re-setup on the other side.
+
+2. For '''Unofficial Servers''', if they wish to allow dynamic Cross-ARK Travel, they will need to run two Servers on the same box from the same directory, and then you can launch with the following commandlines:
+ ShooterGameServer.exe ScorchedEarth_P?SessionName=MySession1?AltSaveDirectoryName=Save1 -NoTransferFromFiltering -clusterid=mycluster123
+ ShooterGameServer.exe TheIsland?SessionName=MySession2?AltSaveDirectoryName=Save2  -NoTransferFromFiltering  -clusterid=mycluster123
+
+(the clusterid must be the same between the servers!)<br/>
+(to avoid saves from clashing each server should use distinct values for: <code>?AltSaveDirectoryName=<SaveFolderName></code>)
+
+you also have options like:
+ ?PreventDownloadSurvivors=False
+ ?PreventDownloadItems=False
+ ?PreventDownloadDinos=False
+ ?PreventUploadSurvivors=False
+ ?PreventUploadItems=False
+ ?PreventUploadDinos=False
+
+[[247.85]] added the ability to specify a common cross-server storage location that functions between multiple servers running on the same machine by adding the following launch parameter to each server:
+ -ClusterDirOverride=C:/TestStorage/
+
+3. Meanwhile, in '''singleplayer''', you can just use the "ARK Tribute" option and then go back to the main menu and host on the other map, and download your data accordingly.
+
+== References ==
+<references />
+
+{{Nav technical}}
+
+[[Category:Guides]]
+{{MissingTranslations|pl|it|de|es|pt-br|fr}}
+[[Category:Servers]]
