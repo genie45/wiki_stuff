@@ -1,0 +1,2571 @@
+{{tocright}}
+{{Tile Nav Entity IDs}}
+{{Ambox|color=blue|icon=Note.png|type=Missing Content|info=This page list most console commands known, if you know more about a specific one or one not listed feel free to edit it or notify us on the [[Talk:Console_Commands|Talk Page]].}}
+== Usage ==
+
+The commands found here can be entered in the console. This allows to do actions that aren't allowed otherwise, e.g. cheating. The console can be opened by pressing {{Key|TAB}} (on the PC/keyboard) or by entering the pause screen, and simultaneously pressing {{xbox|LB}}, {{xbox|RB}}, {{xbox|X}} and {{xbox|Y}} on the Xbox, or {{ps4|L1}}, {{ps4|R1}}, {{ps4|Square}} and {{ps4|Triangle}} on PlayStation.
+
+Some of these commands are not available until you have authenticated yourself with the <code>enablecheats</code> command.<br/>
+Commands marked with Y in the cheat column need to be prefixed with <code>admincheat</code> if used on a multiplayer server. In single-player mode you neither need any <code>cheat</code> or <code>admincheat</code> before the command nor do you need to enable cheats.
+
+Commands that target the creature / entity in your crosshairs are marked with "Target" in the target column, and commands that affect the current player are marked with "Self". These commands cannot be used in the remote console. Console commands are not case sensitive.<br/>
+Boolean parameters can be specified as either the keywords "true" or "false" or the numbers 1 or 0 (or 1.0 / 0.0) respectively. 
+
+Any distances used in these commands are in [[Game Units]] (i.e. roughly one centimeter).
+
+You can concatenate multiple commands in one line using a vertical bar <code>|</code>. For example: <code>LeaveMeAlone | Fly</code>
+
+All commands can be run through <code>[[Console Commands#ShowMyAdminManager|ShowMyAdminManager]]</code>
+
+=== Video ===
+{{#ev:twitchvod|277921270|500||||autoplay=false}}
+
+== Commands ==
+{{ConsoleCommand
+|name = EnableCheats
+|arg1 = Password
+|type1 = String
+|note1 = Server administrator password
+|target = Self
+|added = 0.0 (UE1)
+|description = Enable server administrator commands for the current player. The password provided should match the server's <code>ServerAdminPassword</code> option (see [[Server Configuration]]). In single player games you don't need this command, see the introduction above.
+|example = enablecheats pass123
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = CE
+|arg1 = type
+|cheat = yes
+|type1 = String
+|note1 = Type of weather. Possible values: see below. Mind the quotation marks necessary for commands with space between words.
+|description = Starts and stops weather.
+
+
+;The Island
+:<code>starttime</code>, <code>stoptime</code>, <code>heatwave</code>, <code>coldfront</code>, <code>makeitrain</code>, <code>fogitup</code>
+;[[Scorched Earth]]
+:<code>start_superheat</code>, <code>stop_superheat</code>, <code>start_sandstorm</code>, <code>stop_sandstorm</code>, <code>start_electricalstorm</code>, <code>stop_electricalstorm</code>, <code>start_rain</code>, <code>stop_rain</code>
+;[[Ragnarok]]
+:<code>"start rain"</code>, <code>"stop rain"</code>, <code>"start electricalstorm"</code>, <code>"stop electricalstorm"</code>, <code>"start sandstorm"</code>, <code>"stop sandstorm"</code>, <code>"start superheat"</code>, <code>"stop superheat"</code>, <code>Start_Volcano</code>
+;[[Aberration]]
+:<code>startquake</code>, <code>stopquake</code>
+;[[Extinction]]
+:<code>"start meteors"</code>
+
+|example = cheat ce start_superheat
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GameCommand
+|cheat = yes
+|arg1 = TheCommand
+|type1 = String
+|note1 = Command
+|description = Runs a game-mode specific command / trigger. For example, to start the game in the SoTF mod game mode, run:
+|example = cheat gamecommand startgame
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GFI
+|cheat = yes
+|target = Self
+|added = [[258.0]]
+|arg1 = BlueprintPathPart
+|type1 = String
+|note1 = significant part of the blueprint path
+|arg2 = Quantity
+|type2 = Integer[32]
+|note2 = Number of items to add
+|arg3 = Quality
+|type3 = Float
+|note3 = Quality of added items
+|arg4 = ForceBlueprint
+|type4 = Boolean
+|note4 = <code>true</code> or <code>1</code> to add the item's blueprint; <code>false</code> or <code>0</code> to add the item
+|description = Adds the specified item (or its blueprint) to the player's inventory in the specified quantity and with the specified quality.<br/>
+This is a shortcut version for <code>[[#GiveItem|GiveItem]]</code>. But instead of the complete blueprint path it is sufficient to specify only a significant part of it.<br/>
+E.g. the blueprint path of the [[Tek ATV]] end in PrimalItemVHBuggy. You can use "vhbuggy" or "vhb" or "buggy" or "bugg" or "uggy" or... On the other hand "atv" will not work because it's the name of the item but not a part of the blueprint path.<br/>
+For ambiguous parts you will maybe not get the item you want. Instead you get one that the search mechanism finds first. E.g. for [[Bug Repellant]] (PrimalItemConsumable_BugRepellant) you can't just say "bug" because this part is also included in "buggy". You will get the Tek ATV in this case. But "bugr" is specific enough to find definitely the Bug Repellant.<br/>
+To specify items by their item number, use <code>[[#GiveItemNum|GiveItemNum]]</code>.<br/>
+To give items to another player, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]]</code>.
+|example = cheat gfi bugr 10 0 0
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = PlayersOnly
+|cheat = yes
+|added = 0.0 (UE1)
+|description = Stops all creature movement in the game world and halts crafting. Players can still move normally. Repeat the command to disable its effects.
+|example = cheat PlayersOnly
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = PrintColors
+|description = Prints the [[Color IDs]].
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = StartNearestHorde
+|cheat = yes
+|added = 286.103
+|arg1 = Type
+|type1 = String
+|note1 = <code>Crate</code> for [[Orbital Supply Drop (Extinction)|Orbital Supply Drop]] or <code>Element</code> for [[Element Node (Extinction)|Element Node]]
+|arg2 = Difficulty
+|type2 = Integer
+|note2 = available numbers are 1-4 with 1 being easy and 4 legendary difficulty
+|description = Spawns a Orbital Supply Drop or Element Node at the nearest location to you. It can take a moment before you see anything happening.<br/>
+NOTE: This command will only work on [[Extinction]]
+|example = cheat StartNearestHorde Crate 2
+}}
+
+{{ConsoleCommand
+|name = ListActiveHordeEvents
+|cheat = yes
+|added = 286.103
+|description = Lists all current active [[Orbital Supply Drop (Extinction)|Orbital Supply Drop]] and [[Element Node (Extinction)|Element Node]] in the extended console (you can acces it by using {{Key|TAB}} a second time).<br/>
+NOTE: This command will only work on [[Extinction]]
+|example = cheat ListActiveHordeEvents
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = ScriptCommand
+|cheat = yes
+|added = 197.x
+|arg1 = CommandString
+|type1 = String
+|note1 = Command string.
+|description = Runs a game mode specific command / script. These can be implemented by mod authors. Currently, there are no official game modes that use custom scripts.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = Slomo
+|cheat = yes
+|added = 0.0 (UE2)
+|arg1 = SpeedMult
+|type1 = Float
+|note1 = Speed multiplier
+|description = Sets the game speed multiplier. Change back to 1 to set back to normal.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand|-
+|name = EnableSpectator
+|cheat = yes
+|target = Self
+|added = [[191.0]]
+|description = Mode spectator (will destroy inventory, leave all your stuff at safe place first)<br/>
+;Special Keybindungs while in Spectator:
+
+<table class="wikitable">
+<tr><th>Key</th><th>Description</th></tr>
+<tr><td>{{Key|CTRL}} + {{Key|M}}</td><td>Toggle floating player huds for the entire map (helpful to spot where everyone is)</td></tr>
+<tr><td>{{Key|CTRL}} + {{Key|P}}</td><td>Toggle Only Show Nearby Floating Huds</td></tr>
+<tr><td>{{Key|CTRL}} + {{Key|N}}</td><td>Display a list of players to jump to</td></tr>
+<tr><td>{{Key|LMB}}</td><td>Attach to the player in front of you</td></tr>
+<tr><td>{{Key|LMB}} or {{Key|RMB}}</td><td>Click to cycle attached player</td></tr>
+<tr><td>{{Key|Spacebar}}</td><td>Detach from a player</td></tr>
+<tr><td>{{Key|Shift}}</td><td>Fly Fast</td></tr>
+<tr><td>{{Key|CTRL}}</td><td>Fly Slow</td></tr>
+<tr><td>{{Key|Mousewheel}}</td><td>Adjust fly speed</td></tr>
+<tr><td>{{Key|Shift}} + {{Key|F1}} ... {{Key|F10}}</td><td>Save camera positions</td></tr>
+<tr><td>{{Key|F1}} ... {{Key|F10}}</td><td>Teleport to saved camera postions</td></tr>
+</table>
+
+<code>[[#StopSpectating|stopspectating]]</code> for leaving
+
+See also [[Admin Spectator]]
+|example = cheat EnableSpectator
+|consoleCompatible = Partial - Many features of spectating do not work on consoles. You can fly around and lock to a player, however you cannot unlock the camera from the player or save camera positions. Additionally you cannot view a player list.
+}}
+
+{{ConsoleCommand
+|name = RequestSpectator
+|target = Self
+|added = [[191.0]]
+|arg1 = Password
+|type1 =  String
+|note1 = Spectator password.
+|description = Requests spectator mode on servers where there is a spectator password. The password given must match the server's "SpectatorPassword".
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SetShowAllPlayers
+|cheat = yes
+|arg1 = Enable
+|type1 = Boolean
+|note1 = <code>true</code> or <code>false</code>
+|description = Show player names in spectator mode. A shortcut for the this command is <code>SAP</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DisableSpectator
+|cheat = yes
+|target = Self
+|description = quits spectatormode (as the character is killed when enable spectating, the respawn menu is displayed)
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = StopSpectating
+|description = Leaving the spectator mode which was started with <code>[[#EnableSpectator|EnableSpectator]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ToggleDamageNumbers
+|cheat = yes
+|target = world
+|description = Toggles floating damage numbers on the server
+}}
+
+== Server Managment Commands==
+{{ConsoleCommand
+|name = AllowPlayerToJoinNoCheck
+|arg1 = SteamID
+|type1 = Integer[64]
+|note1 = Player to whitelist
+|cheat = yes
+|description = Adds the player specified by the their Integer encoded Steam ID to the server's whitelist.
+|example = cheat AllowPlayerToJoinNoCheck 18446744073709551615
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = BanPlayer
+|arg1 = SteamID
+|type1 = Integer[64]
+|note1 = Player to ban
+|cheat = yes
+|added = [[178.0]]
+|description = Add the specified player to the server's banned list.
+|example = cheat BanPlayer 18446744073709551615
+|consoleCompatible = No (Use <code>[[#ShowMyAdminManager|ShowMyAdminManager]]</code>)
+}}
+
+{{ConsoleCommand
+|name = Broadcast
+|arg1 = MessageText
+|type1 = String
+|note1 = Message to broadcast
+|cheat = yes
+|added = 170 or earlier
+|description = Broadcast a message to all players on the server.
+|example = cheat Broadcast Hi, everybody!
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = TribeMessage
+|arg1 = TribeId
+|type1 = Integer[32]
+|note1 = UE4 internal Id of the Tribe
+|arg2 = Message
+|type2 = String
+|note2 = The Message you want to display
+|cheat = yes
+|description = Adds a message to the specified tribe's Tribelog
+|example = cheat tribemessage 12358748 Hello my friends
+}}
+
+{{ConsoleCommand
+|name = DisallowPlayerToJoinNoCheck
+|arg1 = SteamID
+|cheat = yes
+|type1 = Integer[64]
+|note1 = Player to remove
+|description = Removes the specified player from the server's whitelist.
+|example = cheat DisallowPlayerToJoinNoCheck 18446744073709551615
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = DoExit
+|cheat = yes
+|description = Shuts down the server as soon as possible.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GetChat
+| added = [[185.4]]
+|description = Returns the latest chat buffer (the same amount that the clients see).
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = GetGameLog
+|added = [[224.0]]
+|description = Print 100 entries at a time also outputs to dated file in in "\Logs".
+Launch server with "-servergamelog" for this command to work.
+
+Set buffer size ?RCONServerGameLogBuffer e.g:
+
+TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergamelog
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = GetTribeIdPlayerList
+|cheat = yes
+|added = [[254.0]]
+|arg1 = TribeID
+|type1 = Integer[32]
+|note1 = use [[#setcheatplayer|setcheatplayer 1]] and look at a tribe structure to see the TeamID which is the TribeID
+|description = prints a list of every player of a specified tribe with both PlayerID and SteamID in the console and in a special ingame chat window
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = TribeStructureAudit
+|cheat = yes
+|arg1 = TribeID
+|type1 = Integer[32]
+|note1 = use [[#setcheatplayer|setcheatplayer 1]] and look at a tribe structure to see the TeamID which is the TribeID
+|description = Console output of the types and counts of a given TribeId's structures.
+}}
+
+{{ConsoleCommand
+|name = TribeDinoAudit
+|cheat = yes
+|arg1 = TribeID
+|type1 = Integer[32]
+|note1 = use [[#setcheatplayer|setcheatplayer 1]] and look at a tribe structure to see the TeamID which is the TribeID
+|description = Console output of the types and counts of a given TribeId's dinos.
+}}
+
+{{ConsoleCommand
+|name = ServerChat
+|cheat = yes
+|arg1 = MessageText
+|type1 = String
+|note1 = Message
+|description = Sends a chat message to all currently connected players.
+|consoleCompatible = Partial - Some players will see the message as if it was from a random player. Others will see the message from System.
+}}
+
+{{ConsoleCommand
+|name = ServerChatTo
+|cheat = yes
+|arg1 = SteamID
+|type1 = Integer[64]
+|note1 = Player's SteamID
+|arg2 = MessageText
+|type2 = String
+|note2 = Message
+|description = Sends a direct chat message to the player specified by their int64 encoded steam id.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ServerChatToPlayer
+|cheat = yes
+|added = [[189.0]]
+|arg1 = PlayerName
+|type1 = String
+|note1 = Player's Steam name.
+|arg2 = MessageText
+|type2 = String
+|note2 = Message
+|description = Sends a direct chat message to the player specified by their Steam name.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SaveWorld
+|cheat = yes
+|description = Forces the server to save the game world to disk in its current state. In single-player mode, the game saves this information locally.
+|example = cheat saveworld
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = SetGlobalPause
+|cheat = yes
+|arg1 = IsPaused
+|type1 = Boolean
+|note1 = Pause game?
+|description = Pauses _EVERYTHING_ game related.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SetTimeOfDay
+|syntax = <code>'''<Hour>''':'''<Minute>'''[:'''<Second>''']</code>
+|cheat = yes
+|arg1 = Hour
+|type1 = Integer
+|note1 = 0..23
+|arg2 = Minute
+|type2 = Integer
+|note2 = 0..59
+|arg3 = Second
+|type3 = Integer
+|note3 = 0..59, (optional; defaults to 0)
+|description = Sets the game world's time of day to the specified time.
+|example = cheat settimeofday 06:30:00
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ShowMessageOfTheDay
+|target = Self
+|description = Displays the message of the day.
+|consoleCompatible = Unknown
+}}
+
+StartSaveBackup
+
+{{ConsoleCommand
+|name = UnbanPlayer
+|cheat = yes
+|arg1 = SteamID
+|type1 = Integer[64]
+|note1 = Player to unban
+|description = Remove the specified player from the server's banned list.
+|example = cheat UnbanPlayer 18446744073709551615
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = SetCheatPlayer
+|syntax = '''true{{!}}false'''
+|parameters = <code>true</code> to enable, <code>false</code> to disable
+|target = Self
+|added = 170 or earlier
+|description = Enable cheat commands that affect the current player, mounted dinosaurs and the game world
+|example = setcheatplayer true
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = ClearPlayerInventory
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|arg2 = ClearInventory
+|type2 = Boolean
+|note2 = Clear player's inventory?
+|arg3 = ClearSlotItems
+|type3 = Boolean
+|note3 = Clear player's slot items?
+|arg4 = ClearEquippedItems
+|type4 = Boolean
+|note4 = Clear player's equipped items (armor)?
+|cheat = yes
+|description = Clears the specified player's inventory, equipped items, and/or slot items.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GetAllState
+|cheat = Y
+|arg1 = type
+|type1 = String
+|note1 = [[Creature IDs|Type]] to summon
+|description = Prints all entities of given type to console (server console, not ingame) and to server log file 'ShooterGame.log' after a while (some minutes) if logging to file is enabled in server configs.
+Useful to check wheter specific dinos are spawned on map.
+
+Example output: 
+
+<p style="word-break:break-all">[2017.01.03-09.38.34:907][490]21) Ankylo_Character_BP_C /Game/Mods/TheCenter/TheCenter.TheCenter:PersistentLevel.Ankylo_Character_BP_C_317</p>
+<p style="word-break:break-all">[2017.01.03-09.38.34:907][490]22) Ankylo_Character_BP_C /Game/Mods/TheCenter/TheCenter.TheCenter:PersistentLevel.Ankylo_Character_BP_C_316</p>
+|example = cheat getallstate Ankylo_Character_BP_C
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveExpToTarget
+|arg1 = Amount
+|type1 = Float
+|note1 = Amount to add
+|arg2 = FromTribeShare
+|type2 = Boolean
+|note2 = Apply as if experience came from tribe.
+|arg3 = PreventSharingWithTribe
+|type3 = Boolean
+|note3 = <code>1</code>: player only; <code>0</code>: share with tribe 
+|description = Same as AddExperience, but adds it to the player or dino you're currently looking at.<br/>
+''Does only work on dinos currently''
+|example = Cheat GiveExpToTarget 9999 0 0
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveInfiniteStatsToTarget
+|description = Gives infinite stats to player or dino you're looking at.<br/>
+''Does only work on dinos currently''
+|example = cheat GiveInfiniteStatsToTarget
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = KickPlayer
+|cheat = yes
+|added = [[178.0]]
+|arg1 = SteamID
+|type1 = Integer[64]
+|note1 = Player to kick<ref>https://developer.valvesoftware.com/wiki/SteamID</ref>
+|description = Forcibly disconnect the specified player from the server.
+|consoleCompatible = No use <code>[[#ShowAdminManager|ShowAdminManager]]</code>
+}}
+
+{{ConsoleCommand
+|name = Kill
+|cheat = yes
+|target = Target
+|description = Instantly kills the targeted structure or dinosaur, leaving behind a corpse.
+
+Actually it deals a large amount of damage that is sufficient to kill non-boss entities. You may need to execute the command twice or more on bosses.
+
+To eliminate an entity without leaving behind a corpse, use the <code>[[#DestroyMyTarget|DestroyMyTarget]]</code> command.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = KillAOE 
+|arg1 = category
+|type1 = string
+|note1 = See below.
+|arg2 = Radius
+|type2 = number
+|note2 = 
+|description = Categories can be abbreviated into the first 3 letters of the name, (EG: str - structures) Radius defaults to 2000 if not specified <br/>
+<table class="wikitable">
+<tr><th>Category</th><th>Description</th></tr>
+<tr><td>pawns</td><td>all nearby pawns (not structures)</td></tr>
+<tr><td>dinos</td><td>all nearby dinos</td></tr>
+<tr><td>wild</td><td>all nearby wild dinos</td></tr>
+<tr><td>tamed</td><td>all nearby tamed dinos</td></tr>
+<tr><td>players</td><td>all nearby players</td></tr>
+<tr><td>structures</td><td>all nearby structures</td></tr>
+</table>
+|example = Cheat KillAOE Wild 2500
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = KillPlayer
+|cheat = yes
+|target = Target
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|description = Kills the specified player in game<br/>
+|example = Cheat KillPlayer 915874562
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = RenamePlayer
+|cheat = yes
+|arg1 = "PlayerName"
+|type1 = String
+|note1 = Player's current name. String must be wrapped in double quotes.
+|arg2 = NewName
+|type2 = String
+|note2 = New name for player. Naked string.
+|description = Renames the player specified by their in-game string name.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = RenameTribe
+|cheat = yes
+|arg1 = "TribeName"
+|type1 = String
+|note1 = Tribe's current name. String must be wrapped in double quotes.
+|arg2 = NewName
+|type2 = String
+|note2 = New name for Tribe. Naked string.
+|description = Renames the tribe specified by its string name.
+|consoleCompatible = Yes
+|example = cheat renametribe "bad name" good name
+}}
+
+{{ConsoleCommand
+|name = TakeAllDino
+|cheat = yes
+|target = Target
+|added = [[252.4]]
+|description = Changes ownership of all dinos of the tribe the player is currently looking at to the tribe of player.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = TakeAllStructure
+|cheat = yes
+|target = Target
+|added = [[252.4]]
+|description = Changes ownership of all structures of the tribe the player is currently looking at to the tribe of player.
+}}
+
+{{ConsoleCommand
+|name = LevelUp
+|cheat = yes
+|arg1 = StatName
+|type1 = string
+|note1 = possible values: <code>Health</code>, <code>Stamina</code>, <code>Torpidity</code>, <code>Oxygen</code>, <code>Food</code>, <code>Water</code>, <code>Temperature</code>, <code>Weight</code>, <code>MeleeDamageMultiplier</code>, <code>SpeedMultiplier</code>, <code>TemperatureFortitude</code>, <code>CraftingSpeedMultiplier</code>
+|arg2 = NumLevels
+|type2 = Integer[32]
+|note2 = Number of Levelups
+|description = Auto-adds some XP, then levels up a stat on your player character, or if riding a dino, on that dino
+|example = cheat LevelUp MeleeDamageMultiplier 25
+}}
+
+{{ConsoleCommand
+|name = LevelUpAOE
+|cheat = yes
+|arg1 = StatName
+|type1 = string
+|note1 = possible values: <code>Health</code>, <code>Stamina</code>, <code>Torpidity</code>, <code>Oxygen</code>, <code>Food</code>, <code>Water</code>, <code>Temperature</code>, <code>Weight</code>, <code>MeleeDamageMultiplier</code>, <code>SpeedMultiplier</code>, <code>TemperatureFortitude</code>, <code>CraftingSpeedMultiplier</code>
+|arg2 = Radius
+|type2 = float
+|note2 = specifies the radius which is affected 
+|arg3 = NumLevels
+|type3 = Integer[32]
+|note3 = Number of Levelups
+|description =  Auto-adds some XP, then levels up a stat on all nearby players and dinos in the specified radius
+|example = cheat LevelUpAOE Health 2500 15
+}}
+
+{{ConsoleCommand
+|name = LevelUpTarget
+|cheat = yes
+|target = Target
+|arg1 = StatName
+|type1 = string
+|note1 = possible values: <code>Health</code>, <code>Stamina</code>, <code>Torpidity</code>, <code>Oxygen</code>, <code>Food</code>, <code>Water</code>, <code>Temperature</code>, <code>Weight</code>, <code>MeleeDamageMultiplier</code>, <code>SpeedMultiplier</code>, <code>TemperatureFortitude</code>, <code>CraftingSpeedMultiplier</code>
+|arg2 = NumLevels
+|type2 = Integer[32]
+|note2 = Number of Levelups
+|description = Auto-adds some XP, then levels up a stat on your targeted player or dino.
+|example = cheat LevelUpTarget MeleeDamageMultiplier 25
+}}
+
+== Teleportation Commands==
+{{ConsoleCommand
+|name = Teleport
+|cheat = yes
+|target = Self
+|description = Moves the player character forward in the direction the player is facing until the character collides with an object or the terrain. If the player wouldn't hit the terrian or an object, they are teleported to 0,0 instead.
+
+See also [[#SetPlayerPos|SetPlayerPos]], [[#TPCoords|TPCoords]]
+|example = cheat teleport
+|consoleCompatible = Partial - Always sets player postition to center of map.
+}}
+
+{{ConsoleCommand
+|name = TeleportPlayerIDToMe
+|cheat = yes
+|target = Self
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game id.
+|description = Teleports the player specified by their in-game ID to the current player.
+
+To teleport yourself to the other player, use the <code>[[#TeleportToPlayer|TeleportToPlayer]]</code> command.
+
+To specify a player to teleport by their player name, use the <code>[[#TeleportPlayerNameToMe|TeleportPlayerNameToMe]]</code> command.
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = TeleportPlayerNameToMe
+|cheat = yes
+|target = Self
+|arg1 = PlayerName
+|type1 = String
+|note1 = Player's in-game name.
+|description = Teleports the player specified by their name to the current player.
+
+To specify a player to teleport by their in-game id, use the <code>[[#TeleportPlayerIDToMe|TeleportPlayerIDToMe]]</code> command.
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = TeleportToPlayer
+|cheat = yes
+|target = Self
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game id.
+|description = Teleports the current player to the player specified by their in-game ID.
+
+To teleport the other player to yourself, use the <code>[[#TeleportPlayerIDToMe|TeleportPlayerIDToMe]]</code> command.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = TeleportToActorLocation
+|cheat = yes
+|arg1 = type
+|type1 = String
+|note1 = [[Creature IDs|Type]] for a list of the Creature IDs; you need to add the number of that specific actor at the end with _<number>
+|description = Lets you teleport to a specific actor in the gameworld. You need to know the Actor ID and his number. 
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = TPCoords
+|cheat = yes
+|target = Self
+|arg1 = Lat
+|type1 = Float
+|note1 = GPS [[Coordinates]]
+|arg2 = Lon
+|type2 = Float
+|note2 = GPS [[Coordinates]]
+|arg3 = Altitude
+|type3 = Float
+|note3 = UE4 [[Coordinates]]
+|description = Moves the player's character to the specified GPS position instantly.
+
+See also [[#Teleport|Teleport]], [[#SetPlayerPos|SetPlayerPos]]
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SPI
+|cheat = yes
+|target = Self
+|arg1 = x
+|type1 = float
+|note1 = [[Coordinates]]
+|arg2 = y
+|type2 = float
+|note2 = [[Coordinates]]
+|arg3 = z
+|type3 = float
+|note3 = [[Coordinates]]
+|arg4 = yaw
+|type4 = float
+|note4 = Defines the yaw of the camera
+|arg5 = pitch
+|type5 = float
+|note5 = Defines the pitch of the camera
+|description = Does the same as [[#SetPlayerPos|SetPlayerPos]] but lets you set a yaw and pitch for a specified view too
+|example = cheat spi -371471 -408636 -13584 -173.80 -12.91
+}}
+
+{{ConsoleCommand
+|name = SetPlayerPos
+|cheat = yes
+|target = Self
+|arg1 = x
+|type1 = Float
+|note1 = [[Coordinates]]
+|arg2 = y
+|type2 = Float
+|note2 = [[Coordinates]]
+|arg3 = z
+|type3 = Float
+|note3 = [[Coordinates]]
+|description = Moves the player's character to the specified position instantly.
+
+See also [[#Teleport|Teleport]], [[#TPCoords|TPCoords]], [http://jdimensional.com/ark-map/ Get coordinates command for The Island].
+|example = cheat SetPlayerPos -71467 -52156 0
+|consoleCompatible = Partial - Will always teleport to center of map.
+}}
+
+{{ConsoleCommand
+|name = MoveTargetTo
+|cheat = yes
+|target = Target
+|arg1 = x
+|type1 = Float
+|note1 = [[Coordinates]]
+|arg2 = y
+|type2 = Float
+|note2 = [[Coordinates]]
+|arg3 = z
+|type3 = Float
+|note3 = [[Coordinates]]
+|description = Sets the world location of the player or dino you are currently looking at
+|example = cheat MoveTargetTo -71467 -52156 12536
+}}
+
+{{ConsoleCommand
+|name = TeleportToActiveHorde
+|cheat = yes
+|arg1 = EventIndex
+|type1 = string
+|note1 =
+|note = To get the index, use <code>cheat [[Console Commands#ListActiveHordeEvents|ListActiveHordeEvents]]</code> first.
+|description = Teleports you to the specified horde event.
+|example = cheat TeleportToActiveHorde 4
+}}
+
+== Destroying Commands==
+{{ConsoleCommand
+|name = DestroyAll
+|arg1 = Type
+|type1 = String
+|note1 = [[Creature IDs|Type]] to destroy
+|cheat = yes
+|description = Destroys all creatures of the specified type, both wild and tamed.
+|example = cheat DestroyAll Ankylo_Character_BP_C
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyAllEnemies
+|cheat = yes
+|description = Destroys all non-player creatures on the map, including tamed creatures. This does not prevent new ones from spawning as usual.
+|example = cheat destroyallenemies
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyMyTarget
+|cheat = yes
+|target = Target
+|description = Instantly destroys the creature or structure in the current player's crosshairs, without leaving any corpse.
+
+To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> command.
+|example = cheat DestroyMyTarget
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyStructures
+|cheat = yes
+|added = [[207.0]]
+|description = Destroys all structures owned by all players on the map.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeDinos
+|cheat = yes
+|target = Target
+|added = [[226.4]]
+|description = Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeId
+|cheat = yes
+|target = Target
+|arg1 = TribeId
+|type1 = Integer[32]
+|note1 = Id of tribe to destroy
+|description = Will destroy a tribe.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeIdDinos
+|cheat = yes
+|target = Target
+|arg1 = TribeId
+|type1 = Integer[32]
+|note1 = Id of tribe to destroy all tames
+|description = Will destroy all tames in a tribe.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeIdPlayers
+|cheat = yes
+|target = Target
+|arg1 = TribeId
+|type1 = Integer[32]
+|note1 = Id of tribe to destroy all players
+|description = Will destroy all players in a tribe.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeIdStructures
+|cheat = yes
+|target = Target
+|arg1 = TribeId
+|type1 = Integer[32]
+|note1 = Id of tribe to destroy all structures
+|description = Will destroy all structures in a tribe.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyTribePlayers
+|cheat = yes
+|target = Target
+|added = [[226.4]]
+|description = Will destroy all players of a tribe on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeStructures
+|cheat = Y
+|target = Target
+|added = [[226.4]]
+|description = Will destroy all structures on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyWildDinos
+|cheat = yes
+|added = [[207.0]]
+|description = Destroys all untamed creatures on the map. Useful for helping newly-released creatures to spawn.
+|consoleCompatible = Yes
+|example = cheat destroywilddinos
+}}
+
+== Tribe Managment Commands==
+{{ConsoleCommand
+|name = ForcePlayerToJoinTargetTribe
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|cheat = yes
+|target = Target
+|added = [[196.0]]
+|description = Forces the player specified by their in-game UE4 ID to the tribe that the target entity or structure of the current player belongs to.
+Known to have problems if there are currently no longer members in the tribe, but this may be fixed in the future.<br/>
+A shortcut for this command is <code>[[Console Commands#ForceJoinTribe|ForceJoinTribe]]</code>
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ForcePlayerToJoinTribe
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|arg2 = TribeName
+|type2 = String
+|note2 = Tribe's Name
+|cheat = yes
+|description = Forces the player specified by their in-game UE4 ID to the tribe specified by its name.
+Known to have problems if there are currently no longer members in the tribe, but this may be fixed in the future.
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = ForceJoinTribe
+|cheat = yes
+|target = Self
+|description = Lets you join a targeted Tribe this command is a shortcut for <code>[[Console Commands#ForcePlayerToJoinTargetTribe|ForcePlayerToJoinTargetTribe]] 0</code>
+|example = 
+}}
+
+{{ConsoleCommand
+|name = ForceTribes
+|cheat = yes
+|arg1 = PlayerName1
+|type1 = ?
+|note1 = Unknown?
+|arg2 = PlayerName2
+|type2 = ?
+|note2 = Unknown?
+|arg3 = NewTribeName
+|type3 = String
+|note3 = Unknown?
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveAllStructure
+|cheat = yes
+|target = Target
+|added = [[201.4]]
+|description = Gives the current player ownership of all the targeted structure and all structures connected to it recursively. 
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = MakeTribeAdmin
+|cheat = yes
+|target = Self
+|added = [[196.0]]
+|description = Promotes you to an admin of the tribe you're currently a member of. 
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = MakeTribeFounder
+|cheat = yes
+|target = Self
+|added = [[196.0]]
+|description = Makes you the founder of the tribe you're currently a member of.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = RemoveTribeAdmin
+|cheat = yes
+|added = [[196.0]]
+|description = Unknown?
+
+See also <code>[[#ForcePlayerToJoinTargetTribe|ForcePlayerToJoinTargetTribe]]</code>, <code>[[#MakeTribeAdmin|MakeTribeAdmin]]</code>, <code>[[#MakeTribeFounder|MakeTribeFounder]]</code>.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = TakeTribe
+|cheat = yes
+|target = Target
+|arg1 = TribeID
+|type1 = Integer[32]
+|note1 = enable [[#setcheatplayer|setcheatplayer]] and check a structure7dino for the TeamId to get the TribeID
+|description = Gives you all of the tribe's dinos and structures. If 0 is provided it uses your target.
+}}
+
+== Creative Mode Commands==
+{{ConsoleCommand
+|name = GiveCreativeMode
+|cheat = yes
+|target = Self
+|added = [[278.0]]
+|description = Sets yourself in [[Creative Mode]]. The command can be abbreviated as <code>GCM</code>.
+
+See also <code>[[#GiveCreativeModeToTarget|GiveCreativeModeToTarget]]</code>, <code>[[#GiveCreativeModeToPlayer|GiveCreativeModeToPlayer]]</code>
+|example = cheat GiveCreativeMode<br>cheat gcm
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveCreativeModeToTarget
+|cheat = yes
+|added = [[278.0]]
+|description = Sets the target you are visiting in [[Creative Mode]]. The command can be abbreviated as <code>GCMT</code>.
+
+See also <code>[[#GiveCreativeMode|GiveCreativeMode]]</code>, <code>[[#GiveCreativeModeToPlayer|GiveCreativeModeToPlayer]]</code>
+|example = cheat GiveCreativeModeToTarget<br>cheat GCMT
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveCreativeModeToPlayer
+|cheat = yes
+|arg1 = PlayerID
+|type1 = Integer[64]
+|note1 = Player's in-game UE4 ID
+|added = [[278.0]]
+|description = Sets a certain player identified by the player's ID in [[Creative Mode]]. The command can be abbreviated as <code>GCMP</code>.
+
+See also <code>[[#GiveCreativeMode|GiveCreativeMode]]</code>, <code>[[#GiveCreativeModeToTarget|GiveCreativeModeToTarget]]</code>
+|example = cheat GiveCreativeModeToPlayer 1234
+|consoleCompatible = Unknown
+}}
+
+== Player Commands==
+{{ConsoleCommand
+|name = AddExperience
+|arg1 = HowMuch
+|type1 = Float
+|note1 = Amount to add
+|arg2 = FromTribeShare
+|type2 = Boolean
+|note2 = Apply as if experience came from tribe.
+|arg3 = PreventSharingWithTribe
+|type3 = Boolean
+|note3 = <code>1</code>: player only; <code>0</code>: share with tribe
+|cheat = yes
+|target = Self
+|description = Adds the specified number of experience points to the player (or the currently mounted dinosaur if the player is mounted).
+To give another player experience, use the <code>GiveExpToPlayer</code> command.
+
+This command is affected by the XPMultiplier setting and the hardcoded multiplier of 2 since [[253.0]]. I.e. the amount you will get is the value of the argument HowMuch × 2 × your XPMultiplier setting value.
+
+|example = cheat addexperience 1000 0 1
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = UnlockEngram
+|cheat = yes
+|added = [[254.0]]
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = a [[Item IDs|blueprint path]]
+|description = Unlocks Tekgram (Tek Engrams)
+|example = cheat UnlockEngram "Blueprint'/Game/PrimalEarth/...something'"
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = HideRiders
+|arg1 = visable
+|type1 = Boolean
+|note1 = <code>true</code> or <code>1</code> to hide a player, <code>false</code> or <code>0</code> to make player visable again
+|cheat = yes
+|target = Self
+|description = Makes a rider of a dino visually invisable. You stay invisable after unmounting.
+|example = cheat hideriders 1
+}}
+
+{{ConsoleCommand
+|name = ChangeSize
+|arg1 = SizeMult
+|type1 = Float
+|note1 = Size multiplier
+|cheat = yes
+|target = Self
+|added = 0.0 (UE2)
+|description = Changes the current player's size. Your player character's model will only stretch or squash so far however, and if made too big will seem to float and bob up and down during different animations (too small and you'll sink through the ground). You will not become any slower or faster. Set back to 1 to go back to your normal size.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ClearTutorials
+|target = Self
+|description = Resets all tutorials on your client (make them so that they will re-appear without being forced).
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = EnemyInvisible
+|syntax = '''true{{!}}false'''
+|parameters = <code>true</code> to be ignored, <code>false</code> for normal behavior
+|cheat = yes
+|target = Self
+|description = When enabled, all creatures on the map will ignore the current player, even when attacked.
+
+See also <code>[[#LeaveMeAlone|LeaveMeAlone]]</code>.
+|example = cheat EnemyInvisible true
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ExecSetSleeping
+|syntax = '''true{{!}}false'''
+|parameters = <code>true</code> to put to sleep, <code>false</code> to wake up
+|cheat = yes
+|target = Self
+|description = Puts the current player character to sleep or wakes them up.
+|example = cheat ExecSetSleeping true
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = Fly
+|cheat = yes
+|target = Self
+|added = 0.0 (UE1)
+|description = Activates "fly mode", permitting the player character to move freely in any direction without physics or gravity being applied.
+Use the <code>[[#Walk|walk]]</code> command to disable the mode.<br>
+If the command is issued while mounted (or the player mounts a tame while in "fly" mode) the animal cannot be moved straight up and down via the keys, but can be made to "fly" by either walking off a cliff, or by pointing the cursor up while moving forward (or point down to descend). Currently, the flying command does not work while mounted on Megalania
+
+See also <code>[[#Ghose|Ghost]]</code>
+|example = cheat fly
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = Ghost
+|cheat = yes
+|target = Self
+|added = 0.0 (UE1)
+|description = Activates "no clip" mode, permitting the player character to pass freely through objects in the world that normally block movement, including the terrain itself. Use the <code>[[#Walk|walk]]</code> command to disable the mode.
+|example = cheat ghost
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveColors
+|cheat = yes
+|target = Self
+|added = [[209.4]]
+|arg1 = Quantity
+|type1 = Integer[32]
+|note1 = Item quantity
+|description = Gives you quantity of each dye in the game. In vanilla Ark, this equates to only 2.6 weight units per set.
+|example = cheat GiveColors 100
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveEngrams
+|cheat = yes
+|target = Self
+|description = Unlocks ''all'' crafting recipes for the player character. May lag a little.
+|example = cheat giveengrams
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveEngramsTekOnly
+|cheat = yes
+|target = Self
+|description = Gives you all tek engrams (like [[Console Commands#GiveEngrams|GiveEngrams]], lasts until the player disconnects from the server)
+|exmple = cheat giveengramstekonly
+}}
+
+{{ConsoleCommand
+|name = GiveTekengramsTo
+|arg1 = playerid
+|type1 = Integer
+|note1 = Player's in-game UE4 ID<br />can be found by looking at the implant of a player 
+|arg2 = partial name
+|type2 = String
+|note2 = significant part of the Blueprint that can be found here: [[Item_IDs]]
+|cheat = yes
+|description =  provide the partial string of a tek engram to give them to players, works similar to [[#GFI|GFI]]<br>
+Tekgrams unlucked this way will stay even after a relog and server restart. <br> Using the example will unlock almost all Tekengrams
+|example = cheat GiveTekengramsTo 125785415 tek}}
+
+{{ConsoleCommand
+|name = GiveExpToPlayer
+|cheat = yes
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|arg2 = HowMuch
+|type2 = Float
+|note2 = Amount to give
+|arg3 = FromTribeShare
+|type3 = Boolean
+|note3 = Apply as if experience came from tribe.
+|arg4 = PreventSharingWithTribe
+|type4 = Boolean
+|note4 = <code>1</code>: player only; <code>0</code>: share with tribe
+|description = Gives the specified player the specified amount of experience points.
+To easily give yourself experience, use the <code>[[#AddExperience|AddExperience]]</code> command.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveItem
+|cheat = yes
+|target = Self
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = The blueprint path of the item to give.
+|arg2 = Quantity
+|type2 = Integer[32]
+|note2 = Number of items to add
+|arg3 = Quality
+|type3 = Float
+|note3 = Quality of added items
+|arg4 = ForceBlueprint
+|type4 = Boolean
+|note4 = <code>true</code> or <code>1</code> to add the item's blueprint; <code>false</code> or <code>0</code> to add the item
+|description = Adds the specified item (or its blueprint) to the player's inventory in the specified quantity and with the specified quality.
+
+To specify items by their item number, use <code>[[#GiveItemNum|GiveItemNum]]</code>.
+
+To specify items by a part of its blueprint path, use <code>[[#GFI|GFI]]</code>.
+
+To give items to another player, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveItemNum
+|cheat = yes
+|target = Self
+|arg1 = ItemNum
+|type1 = Integer[32]
+|note1 = [[Item IDs|Item ID]] to add
+|arg2 = Quantity
+|type2 = Integer[32]
+|note2 = Number of items to add
+|arg3 = Quality
+|type3 = Float
+|note3 = Quality of added items
+|arg4 = ForceBlueprint
+|type4 = Boolean
+|note4 = <code>true</code> or <code>1</code> to add the item's blueprint; <code>false</code> or <code>0</code> to add the item
+|description = Adds the specified item (or its blueprint) to the player's inventory in the specified quantity and with the specified quality.
+
+To specify items by their blueprint path, use <code>[[#GiveItem|GiveItem]]</code>.
+
+To specify items by a part of its blueprint path, use <code>[[#GFI|GFI]]</code>.
+
+To give items to another player, use <code>[[#GiveItemNumToPlayer|GiveItemNumToPlayer]]</code>.
+|example = cheat GiveItemNum 1 1 1 0
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveItemToPlayer
+|cheat = yes
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = PlayerID to give the item to.
+|arg2 = BlueprintPath
+|type2 = String
+|note2 = The blueprint path of the item to give.
+|arg3 = Quantity
+|type3 = Integer[32]
+|note3 = Number of items to add
+|arg4 = Quality
+|type4 = Float
+|note4 = Quality of added items
+|arg5 = ForceBlueprint
+|type5 = Boolean
+|note5 = <code>true</code> or <code>1</code> to add the item's blueprint; <code>false</code> or <code>0</code> to add the item
+|description = Adds the specified item (or its blueprint) to the player's inventory in the specified quantity and with the specified quality.
+
+To specify items by their item number, use <code>[[#GiveItemNumToPlayer|GiveItemNumToPlayer]]</code>.
+
+To give items to yourself, use <code>[[#GiveItemNum|GiveItemNum]]</code>.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveItemNumToPlayer
+|cheat = yes
+|arg1 = PlayerID
+|type1 = Integer[32]
+|note1 = PlayerID to give the item to.
+|arg2 = ItemNum
+|type2 = Integer[32]
+|note2 = [[Item IDs|Item ID]] to add
+|arg3 = Quantity
+|type3 = Integer[32]
+|note3 = Number of items to add
+|arg4 = Quality
+|type4 = Float
+|note4 = Quality of added items
+|arg5 = ForceBlueprint
+|type5 = Boolean
+|note5 = <code>true</code> or <code>1</code> to add the item's blueprint; <code>false</code> or <code>0</code> to add the item
+|description = Adds the specified item (or its blueprint) to the player's inventory in the specified quantity and with the specified quality.
+
+To specify items by their blueprint path, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]]</code>.
+
+To give items to yourself, use <code>[[#GiveItemNum|GiveItemNum]]</code>.
+|example = cheat GiveItemNumToPlayer 1234567890 1 1 0 0
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveResources
+|cheat = yes
+|target = Self
+|description = Add 50 units of each resource in the game to the player's inventory. In vanilla Ark, this equates to 300+ units of weight, so you will probably be encumbered. (200 of which comes from Metal Ore, Metal Ingots, Obsidian, and Crystal)
+|example = cheat giveresources
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveSlotItem
+|cheat = yes
+|target = Self
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = Item's blueprint path.
+|arg2 = SlotNum
+|type2 = Integer[32]
+|note2 = Inventory slot number. (0-9)
+|arg3 = Quantity
+|type3 = Integer[32]
+|note3 = Number of items to add
+|description = Adds the item specified by its blueprint path into one of your item slots. If the item does not support stacking, items after the first will be dumped into your inventory. Specifying an invalid slot id will dump all the item(s) into your inventory. Item quality will always be 0 and you cannot request adding a blueprint.
+
+To specify items by their item ID, use the <code>[[#GiveSlotItemNum|GiveSlotItemNum]]</code> command.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveSlotItemNum
+|cheat = yes
+|target = Self
+|arg1 = ItemNum
+|type1 = String
+|note1 = [[Item IDs|Item ID]] to add.
+|arg2 = SlotNum
+|type2 = Integer[32]
+|note2 = Inventory slot number. (0-9)
+|arg3 = Quantity
+|type3 = Integer[32]
+|note3 = Number of items to add
+|description = Adds the item specified by its item id into one of your item slots. If the item does not support stacking, items after the first will be dumped into your inventory. Specifying an invalid slot id will dump all the item(s) into your inventory. Item quality will always be 0 and you cannot request adding a blueprint.
+
+To specify items by their blueprint path, use the <code>[[#GiveSlotItem|GiveSlotItem]]</code> command.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GiveToMe
+|cheat = yes
+|target = Target
+|description = Changes the owner of the targeted entity (structure or dino) to the current player. However, note that this command does not actually tame dinos - their inventory will not be accessible and they will not be rideable unless they were already tamed by another player or you use one of the dino taming commands afterwards.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GMBuff
+|cheat = yes
+|target = Self
+|added = [[252.4]]
+|description = Gives player <code>[[#God|God]]</code>, <code>[[#InfiniteStats|InfiniteStats]]</code>, <code>[[#EnemyInvisible|EnemyInvisible]] true</code>, and a bunch of experience.
+
+For the same effect but without experience you can use <code>[[#LeaveMeAlone|LeaveMeAlone]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = God
+|cheat = yes
+|target = Self
+|added = 0.0 (UE1)
+|description = Toggles "god mode", making the player invulnerable to damage from attacks, explosions or from falling. This does ''not'' prevent player character death by drowning (<code>[[#InfiniteStats|InfiniteStats]]</code> must be enabled to prevent this). Repeat the command to disable the mode.
+
+To specifically enable or disable god mode, use the <code>[[#SetGodMode|SetGodMode]]</code> command.
+|example = cheat god
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = HideTutorial
+|target = Self
+|arg1 = TutorialIndex
+|type1 = Integer[32]
+|note1 = Tutorial index
+|description = Hides the tutorial specified by its tutorial index. See the <code>[[#ShowTutorial|ShowTutorial]]</code> command description for a list of tutorial ids.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = HurtMe
+|cheat = yes
+|target = Self
+|arg1 = Amount
+|type1 = Integer[64]
+|note1 = Damage to deal
+|description = Damages the player character. 
+|example = cheat HurtMe 50
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = InfiniteStats
+|cheat = yes
+|target = Self
+|description = Refills the player's health, stamina, oxygen, food & water immediately, and keeps them at their maximum level while the command is active. If the player is mounted the effects only apply to his mount, but not the player himself.
+
+When firing weapons in infinitestats mode, no ammo is consumed from the inventory. <BR>
+For weapons with magazines, bullets are removed from the magazine though. Once it is empty, and the "NO AMMO" message appears on the screen, it can be reloaded by either opening/closing the inventory or by switching weapons. 
+
+The command does not make the player invincible (i.e. he can still die from falls or high-level attacks such as a [[Dragon]]'s bite, if the single-hit damage exceeds the player's maximum health stat). The command also has no effect on the carrying capacity.
+
+Repeat the command to disable its effects.
+|example = cheat infinitestats
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = LeaveMeAlone
+|cheat = yes
+|target = Self
+|description = Combination of <code>[[#God|God]]</code>, <code>[[#InfiniteStats|InfiniteStats]]</code> and <code>[[#EnemyInvisible|EnemyInvisible]] true</code>.
+
+See also <code>[[#GMBuff|GMBuff]]</code>
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = OnToggleInGameMenu
+|target = Self
+|description = Opens or closes the in-game menu (when you hit the escape key).
+
+To specifically show the in-game menu, use the <code>[[#ShowInGameMenu|ShowInGameMenu]]</code> command.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = OpenMap
+|cheat = yes
+|arg1 = MapName
+|type1 = String
+|note1 = Map's Name
+|description = Loads the map specified by its name. (not sure if a file path is accepted)
+|example = cheat OpenMap TheIsland
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = Playercommand
+|cheat = yes
+|arg1 = CommandName
+|type1 = String
+|note1 = possible values:<br>Ascend1 (for Gamma)<br>Ascend2 (for Beta)<br>Ascend3 (for Alpha)
+|description = Currently used to give the player the ascension effect.
+|example = cheat playercommand Ascend1
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetAdminIcon
+|syntax = '''true{{!}}false'''
+|parameters = <code>true</code> to enable, <code>false</code> to disable
+|cheat = yes
+|target = Self
+|description = Hides the Admin Icon next to the name in chat when a player that has enabled cheats writes something.
+|example = cheat SetAdminIcon 0
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetFacialHairPercent
+|cheat = yes
+|target = Self
+|added = [[254.0]]
+|arg1 = Length
+|type1 = Float
+|note1 = Value to set relative length of facial hair.
+|description = Sets value in the range from 0 to 1 (= 100%).
+
+See also <code>[[#SetHeadHairPercent|SetHeadHairPercent]]</code>, <code>[[#SetHeadHairStyle|SetHeadHairStyle]]</code>, <code>[[#SetFacialHairStyle|SetFacialHairStyle]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetFacialHairStyle
+|cheat = yes
+|target = Self
+|added = [[254.0]]
+|arg1 = Number
+|type1 = Integer
+|note1 = Number of facial hairstyle, see below.
+|description = Sets value in the range from 0 to 7.
+
+<table class="wikitable">
+<tr><th>Number</th><th>Facial Hairstyle</th></tr>
+<tr><td>0</td><td>Default</td></tr>
+<tr><td>1</td><td>Moustache</td></tr>
+<tr><td>2</td><td>Goatee</td></tr>
+<tr><td>3</td><td>Romantic</td></tr>
+<tr><td>4</td><td>Dread Beard</td></tr>
+<tr><td>5</td><td>Mutton Chops</td></tr>
+<tr><td>6</td><td>Curly Beard</td></tr>
+<tr><td>7</td><td>Viking Beard</td></tr>
+</table>
+
+See also <code>[[#SetHeadHairStyle|SetHeadHairStyle]]</code>, <code>[[#SetFacialHairPercent|SetFacialHairPercent]]</code>, <code>[[#SetHeadHairPercent|SetHeadHairPercent]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetHeadHairPercent
+|cheat = yes
+|target = Self
+|added = [[254.0]]
+|arg1 = Length
+|type1 = Float
+|note1 = Value to set relative hair length.
+|description = Sets value in the range from 0 to 1 (= 100%).
+
+See also <code>[[#SetFacialHairPercent|SetFacialHairPercent]]</code>, <code>[[#SetHeadHairStyle|SetHeadHairStyle]]</code>, <code>[[#SetFacialHairStyle|SetFacialHairStyle]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetHeadHairStyle
+|cheat = yes
+|target = Self
+|added = [[254.0]]
+|arg1 = Number
+|type1 = Integer
+|note1 = Number of head hairstyle, see below.
+|description = Sets value in the range from 0 to 7.
+
+<table class="wikitable">
+<tr><th>Number</th><th>Facial Hairstyle</th></tr>
+<tr><td>0</td><td>Default</td></tr>
+<tr><td>1</td><td>Mohawk</td></tr>
+<tr><td>2</td><td>Afro</td></tr>
+<tr><td>3</td><td>Romantic</td></tr>
+<tr><td>4</td><td>Dreadlocks</td></tr>
+<tr><td>5</td><td>Ponytail</td></tr>
+<tr><td>6</td><td>Braids</td></tr>
+<tr><td>7</td><td>Viking</td></tr>
+</table>
+
+See also <code>[[#SetFacialHairStyle|SetFacialHairStyle]]</code>, <code>[[#SetHeadHairPercent|SetHeadHairPercent]]</code>, <code>[[#SetFacialHairPercent|SetFacialHairPercent]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetGodMode
+|cheat = yes
+|target = Self
+|arg1 = Enable
+|type1 = Boolean
+|note1 = Enable god mode?
+|description = Enables or disables god mode for the current player. 
+
+To simply toggle between god mode states, use the command <code>[[#God|God]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetTargetPlayerBodyVal
+|cheat = yes
+|target = Target
+|added = [[201.4]]
+|arg1 = BodyValIndex
+|type1 = Integer[32]
+|note1 = [[Body Regions]]
+|arg2 = BodyVal
+|type2 = Float
+|note2 = ...
+|description = Setting a value between -1.0 and 1.0 will adjust the targeted player area. Standard value is 0.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SetTargetPlayerColorVal
+|cheat = yes
+|target = Target
+|added = [[201.4]]
+|arg1 = ColorValIndex
+|type1 = Integer[32]
+|note1 = 0 : body, 1 : hair, 2 : eyes
+|arg2 = ColorVal
+|type2 = Float
+|note2 = For eyes: 0 is yellow-ish, 0.4 is green-blue-ish, 0.5 is green 0.7 is orange, 0.8 is red
+|description = Changes the color of various parts of the body. Does ''not'' use [[Color IDs]], but a percentage of the slider seen at character creation.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ShowInGameMenu
+|target = Self
+|description = Displays the in-game menu (same as when you hit the escape key).
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ShowTutorial
+|target = Self
+|arg1 = TutorialIndex
+|type1 = Integer[32]
+|note1 = Tutorial index.
+|arg2 = ForceDisplay
+|type2 = Boolean
+|note2 = True = show tutorial even if you've already seen it.
+|description = Displays the tutorial specified by its tutorial ID. Tutorials are localized messages coded into the game that are displayed in the same area as the message of the day that shows new users hints about the game. These tutorials disappear after some time, just like the message of the day. Currently there are only two tutorials:
+<table class="wikitable">
+<tr><td>0</td><td>Blank</td></tr>
+<tr><td>1</td><td>Your first day.</td></tr>
+</table>
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = Suicide
+|target = Self
+|added = 0.0 (UE2)
+|description = Kills yourself. Does the same thing as hurting yourself (see <code>[[#HurtMe|HurtMe]]</code> command) for your current health, so it will not work if you are invincible. Was originally part of the game when it came out, but it was removed in a later patch. Since then it was re-added.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ToggleInfiniteAmmo
+|cheat = yes
+|target = Self
+|description = Provides unlimited ammunition for all of the player character's weapons. Repeat the command to disable its effects.
+|example = cheat ToggleInfiniteAmmo
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = Walk
+|cheat = yes
+|target = Self
+|added = 0.0 (UE1)
+|description = Deactivates "fly mode" (activated by the <code>[[#Fly|Fly]]</code> command). Physics and gravity will be applied to the player character normally.
+|example = cheat walk
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ToggleGun
+|target = Self
+|description = Prevents the player character's equipped item (or hands if nothing is equipped) from being displayed. Repeat the command to disable its effects.
+|example = cheat togglegun
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = RefillStats
+|cheat = yes
+|target = Self
+|added = [[281.107]]
+|description = Sets all stats to maximum once ,like [[Console Commands#InfiniteStats|InfiniteStats]]
+|example = Cheat RefillStats
+}}
+
+{{ConsoleCommand
+|name = GiveArmorSet
+|arg1 = Tier
+|type1 = String/Int
+|note1 = use one of the specified tiersets below
+|arg2 = Quality
+|type2 = String/Int
+|note2 = can use numbers between 0 - 20
+|cheat = yes
+|target = Self
+|added = [[281.107]]
+|description = Gives you a full armor set of the tier specified, and equips them for you.
+
+Tier is required and should be one of the following:
+*0 (or Cloth)
+*1 (or Chitin)
+*2 (or Metal or Flak)
+*3 (or Tek)
+*Hide
+*Fur
+*Desert
+*Ghillie
+*Riot
+*Scuba
+*Hazard
+
+Quality can be one of the following: Primitive, Ramshackle, Apprentice, Journeyman, Mastercraft, Ascendant, Alpha. You can also use a numeric value between 0 and 20 (higher than 20 is not accessible to players).
+
+When using this command for Tek tier you will also get {{ItemLink|Element|quantity=40}} and [[#GiveEngramsTekOnly|GiveEngramsTekOnly]] is executed, means you get the ability to use Tek stuff until the next server or single player restart.
+|example = Cheat GiveArmorSet Cloth 1
+}}
+
+{{ConsoleCommand
+|name = GiveWeaponSet
+|arg1 = Tier
+|type1 = Integer[32]
+|note1 = see table below 
+|arg2 = Quality
+|type2 = float
+|note2 = optional float between 0 and 20 that determines how good the weapons are
+|cheat = yes
+|target = Self
+|added = [[281.107]]
+|description = Gives you all weapons in the specified tier, as well as the correct ammo for them.
+
+Tier is a required integer and should be one of the following:
+
+<table class="wikitable">
+<tr><th>Tier</th><th>Contains</th></tr>
+<tr><td>0 (or Primitive)</td><td>{{ItemLink|Bow}}, {{ItemLink|Pike}}, {{ItemLink|Spear}}, {{itemLink|Bola}}</td></tr>
+<tr><td>1 (or Basic)</td><td>{{ItemLink|Assault Rifle}}, {{ItemLink|Shotgun}}, {{ItemLink|Longneck Rifle}}, {{ItemLink|Sword}}, {{ItemLink|Grenade}}</td></tr>
+<tr><td>2 (or Advanced)</td><td>{{ItemLink|Compound Bow}}, {{ItemLink|Fabricated Sniper Rifle}}, {{ItemLink|Rocket Launcher}}, {{ItemLink|C4 Charge}}</td></tr>
+<tr><td>3 (or Tek)</td><td>{{ItemLink|Tek Grenade}}, {{ItemLink|Tek Rifle}}, {{ItemLink|Tek Railgun}}, {{ItemLink|Tek Sword}} </td></tr>
+</table>
+Quality can be one of the following: Primitive, Ramshackle, Apprentice, Journeyman, Mastercraft, Ascendant, Alpha. You can also use a numeric value between 0 and 20 (higher than 20 is not accessible to players).
+|example = Cheat GiveWeaponSet 0 1
+}}
+
+{{ConsoleCommand
+|name = GiveItemSet
+|arg1 = Tier
+|type1 = Integer[32]
+|note1 = See table below
+|cheat = yes
+|target = Self
+|added = [[281.107]]
+|description = Gives you all items in the specified item set tier.
+
+Tier is a required integer and should be one of the following:
+<table class="wikitable">
+<tr><th>Tier</th><th>Contains</th></tr>
+<tr><td><code>0</code></td><td>{{ItemLink|Cooked Meat|quantity=90}}, {{ItemLink|Stimberry|quantity=200}}, {{ItemLink|Waterskin|quantity=2}}</td></tr>
+<tr><td><code>1</code></td><td>{{ItemLink|Water Jar|quantity=2}}, {{ItemLink|Stimberry|quantity=200}}, {{ItemLink|Cooked Meat|quantity=90}}, {{ItemLink|Medical Brew|quantity=100}}</td></tr>
+<tr><td><code>2</code></td><td>{{ItemLink|Medical Brew|quantity=100}}, {{ItemLink|Energy Brew|quantity=100}}, {{ItemLink|Cactus Broth|quantity=100}},{{ItemLink|Cooked Meat Jerky|quantity=60}}, {{ItemLink|Canteen|quantity=2}}</td></tr>
+<tr><td><code>3</code></td><td>{{ItemLink|Shadow Steak Saute|quantity=5}}, {{ItemLink|Enduro Stew|quantity=5}}, {{ItemLink|Focal Chili|quantity=5}}, {{ItemLink|Lazarus Chowder|quantity=5}}, {{ItemLink|Medical Brew|quantity=100}}, {{ItemLink|Energy Brew|quantity=100}}, {{ItemLink|Cactus Broth|quantity=100}}, {{ItemLink|Cooked Meat Jerky|quantity=90}}</td></tr>
+<tr><td><code>Food</code></td><td>{{ItemLink|Cooked Meat Jerky|quantity=30}}, {{ItemLink|Prime Meat Jerky|quantity=30}}</td></tr>
+<tr><td><code>Water</code></td><td>one {{ItemLink|Canteen}} Refill</td></tr>
+<tr><td><code>Brews</code></td><td>{{ItemLink|Medical Brew|quantity=100}}, {{ItemLink|Energy Brew|quantity=100}}</td></tr>
+</table>
+
+|example = Cheat GiveItemSet 0
+}}
+
+{{ConsoleCommand
+|name = ClearMyBuffs
+|cheat = yes
+|target = Self
+|added = [[281.107]]
+|description = Attempts to deactivate all of your buffs (works on some buffs but not others)
+|example = Cheat ClearMyBuffs
+}}     
+
+{{ConsoleCommand
+|name = SetMyTargetSleeping
+|cheat = yes
+|target = Target
+|added = [[281.107]]
+|description = Knocks out target Dino or player
+|example = Cheat setmytargetsleeping 1 (1 to knock target out 0 to wake target up)
+}}
+
+== Dino Commands==
+{{ConsoleCommand
+|name = DestroyAll
+|arg1 = Type
+|type1 = String
+|note1 = [[Creature IDs|Type]] to destroy
+|cheat = yes
+|description = Destroys all creatures of the specified type, both wild and tamed.
+|example = cheat DestroyAll Ankylo_Character_BP_C
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyAllEnemies
+|cheat = yes
+|description = Destroys all non-player creatures on the map, including tamed creatures. This does not prevent new ones from spawning as usual.
+|example = cheat destroyallenemies
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DoTame
+|cheat = yes
+|target = Target
+|description = Tames the targeted creature if the creature is capable of being tamed, activating all triggers as if the player had tamed the creature normally (sound effect, dossier entry, gives experience, etc). Will crash game/server if done while mounted.
+
+See also <code>[[#ForceTame|ForceTame]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DumpDinoStats
+|cheat = yes
+|target = Target
+|description = Dumps the stats for the dino you are riding or looking at to the cheat console output. Same data as the [[Admin Blink Rifle]]'s inspect mode.
+}}
+
+{{ConsoleCommand
+|name = ForceTame
+|cheat = yes
+|target = Target
+|description = Immediately tames the dinosaur under the player's crosshairs. Dinosaurs tamed with this command can be ridden even when no saddle is equipped. Will crash game/server if done while mounted.
+
+See also <code>[[#DoTame|DoTame]]</code>
+|example = cheat forcetame
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ForceTameAOE
+|arg1 = Radius
+|type1 = number
+|note1 =
+|description = Force tames every dino in specified radius, default's to 2000 if no number is given.
+|example = cheat ForceTameAOE 2500
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = RainCritters
+|arg1 = NumCritters
+|type1 = number
+|note1 = Number of critters to spawn
+|arg2 = SpreadAmount
+|type2 = number
+|note2 = Smaller number - more clustered, higher number, more spread out
+|arg3 = ZOffset
+|type3 = number
+|note3 = height above the player
+|description = Spawns a mix of sheep and dodos above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
+|example = Cheat RainCritters 10 500 25
+|consoleCompatible = yes
+}}
+
+{{ConsoleCommand
+|name = RainDinos
+|arg1 = NumDinos
+|type1 = number
+|note1 = Number of critters to spawn
+|arg2 = SpreadAmount
+|type2 = number
+|note2 = Smaller number - more clustered, higher number, more spread out
+|arg3 = ZOffset
+|type3 = number
+|note3 = height above the player
+|description = Spawns a mix of trikes and parasaurs above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
+|example = Cheat RainDinos 10 500 25
+|consoleCompatible = Unknown
+|added = [[281.107]]
+}}
+
+{{ConsoleCommand
+|name = RainDanger
+|arg1 = NumDinos
+|type1 = number
+|note1 = Number of critters to spawn
+|arg2 = SpreadAmount
+|type2 = number
+|note2 = Smaller number - more clustered, higher number, more spread out
+|arg3 = ZOffset
+|type3 = number
+|note3 = height above the player
+|description = Spawns a mix of rexes and allos above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
+|example = Cheat RainDanger 10 500 25
+|consoleCompatible = Unknown
+|added = [[281.107]]
+}}
+
+{{ConsoleCommand
+|name = SDF
+|cheat = yes
+|arg1 = NamePart
+|type1 = String
+|note1 = significant part of a creature's Entity ID (without _C)
+|arg2 = Tamed
+|type2 = Boolean
+|note2 = <code>true</code> or 1: tamed, <code>false</code> or 0: wild
+|description = Spawn a creature of the specified type with a random level in front of the player character.
+
+The NamePart has to be unique enough to specify the desired creature. E.g. "mega" is part of a lot of creature Entity IDs and is not suitable to specify what you want, but "ony" is significant enough to address a Baryonyx.
+
+For a list of all Entity IDs see [[Creature IDs]].
+
+See also [[#GMSummon|GMSummon]], [[#Summon|Summon]], [[#SpawnDino|SpawnDino]]
+|example = cheat sdf dodo 1
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetBabyAge
+|cheat = yes
+|target = Target
+|arg1 = AgeValue
+|type1 = Boolean
+|note1 = Value to set age to (0.01 to 1).
+|description = Sets the age of the target baby dino.
+
+See also <code>[[#SetImprintQuality|SetImprintQuality]]</code>.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SetImprintQuality
+|cheat = yes
+|target = Target
+|arg1 = ImprintValue
+|type1 = Float
+|note1 = Value to set imprint quality to.
+|description = Sets value in the range from 0 to 1 (= 100%) of the target baby or adult bred dino.
+
+See also <code>[[#SetBabyAge|SetBabyAge]]</code>
+|example cheat SetImprintQuality 1
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name  = SetImprintedPlayer
+|cheat = yes
+|target = Target
+|arg1 = NewImprinterName
+|type1 = String
+|note1 =
+|arg2 = playerID
+|type2 = Integer[32]
+|note2 =
+|description = Changes the imprinted player of the target dino to the provided player name/id.
+|example = cheat SetImprintedPlayer "Test" 589563953
+}}
+
+{{ConsoleCommand
+|name = TransferImprints
+|cheat = yes
+|arg1 = oldPlayerID
+|type1 = Integer[32]
+|note1 =
+|arg2 = newPlayerID
+|type2 = Integer[32]
+|note2 =
+|arg3 = NewImprinterName
+|type3 = String
+|note3 =
+|description = Transfers all dinos that are imprinted on the oldPlayerId to the newPlayerId. If the newPlayerId is online or located it will use that player's name otherwise it will use NewImprinterName.
+}}
+
+
+{{ConsoleCommand
+|name = SetTargetDinoColor
+|cheat = yes
+|target = Target
+|arg1 = ColorRegion
+|type1 = Integer[32]
+|note1 = Color Region
+|arg2 = ColorID
+|type2 = Integer[32]
+|note2 = [[Color IDs|Color ID]].
+|description = Sets the dino you target to specified color/s.
+|example = cheat SetTargetDinoColor 0 0
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = SpawnActor
+|cheat = yes
+|added = [[207.0]]
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = Blueprint path
+|arg2 = SpawnDistance
+|type2 = Float
+|note2 = Distance in direction of viewing.
+|arg3 = SpawnYOffset
+|type3 = Float
+|note3 = Distance above or below of the direction of viewing.
+|arg4 = ZOffset
+|type4 = Float
+|note4 = Distance right or left of the direction of viewing.
+|description = Spawns the entity specified by its blueprint path at a random level.
+
+See also <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#Summon|Summon]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
+|example = cheat spawnactor "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'" 500 0 0
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SpawnActorSpread
+|cheat = yes
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = Blueprint path
+|arg2 = SpawnDistance
+|type2 = Float
+|note2 = Distance in direction of viewing.
+|arg3 = SpawnYOffset
+|type3 = Float
+|note3 = Distance above or below of the direction of viewing.
+|arg4 = ZOffset
+|type4 = Float
+|note4 = Distance right or left of the direction of viewing.
+|arg5 = NumberActors
+|type5 = Integer[32]
+|note5 = Number of the specified entities to spawn.
+|arg6 = SpreadAmount
+|type6 = Float
+|note6 = Unknown?
+|description = Spawns a number of entities in the specified area.
+
+See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#Summon|Summon]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SpawnDino
+|cheat = yes
+|arg1 = BlueprintPath
+|type1 = String
+|note1 = Blueprint path
+|arg2 = SpawnDistance
+|type2 = Float
+|note2 = Distance in direction of viewing.
+|arg3 = SpawnYOffset
+|type3 = Float
+|note3 = Distance above or below of the direction of viewing.
+|arg4 = ZOffset
+|type4 = Float
+|note4 = Distance right or left of the direction of viewing.
+|arg5 = DinoLevel
+|type5 = Integer[32]
+|note5 = Dino level
+|description = Spawns a leveled dino specified by its blueprint path.
+
+See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#Summon|Summon]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
+|example = cheat spawndino "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'" 500 0 0 120
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = Summon
+|cheat = yes
+|added = 0.0 (UE1)
+|arg1 = type
+|type1 = String
+|note1 = [[Creature IDs|Entity ID]] to summon
+|description = Spawn a creature of the specified type at the place of the player character. Also usable to spawn [[Beacon IDs|Beacons]].
+
+See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
+|example = cheat summon Ankylo_Character_BP_C
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SummonTamed
+|cheat = yes
+|arg1 = type
+|type1 = String
+|note1 = [[Creature IDs|Entity ID]] to summon
+|description = Spawn a force-tamed creature of the specified type at the place of the player character.
+
+See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#Summon|Summon]]</code>, <code>[[#GMSummon|GMSummon]]</code>
+|example = cheat summontamed Ankylo_Character_BP_C
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GMSummon
+|cheat = yes
+|target = Self
+|added = [[252.4]]
+|arg1 = "type"
+|type1 = string
+|note1 = [[Creature IDs|Entity ID]] to summon, enclosed in quotation marks
+|arg2 = level
+|type2 = string
+|note2 = Level w/o taming bonus
+|description = Spawn a creature of the specified type at the place of the player character and tames it.
+The dino isn't cheat-tamed, so still requires a saddle. The level is without taming bonus, so if you want to end with a level x you should divide that number by 1.5. E.g. you want level 150, that is 150 / 1.5 = 100. You type 100 and the result is 100 plus 50% taming bonus: 150.
+
+The quotation marks around the type are mandatory.
+
+See also <code>[[#Summon|Summon]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>
+|example = cheat GMSummon "Dodo_Character_BP_C" 100
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = GiveDinoSet
+|cheat = yes
+|arg1 = Tier
+|type1 = String
+|note1 = See below 
+|arg2 = Quantity
+|type2 = Integer[32]
+|note2 = number of dinos to spawn. Use 0 to spawn the full set.
+|description = Spawns a set of dinos in the specified tier, fully set up with reasonably optimized stats and saddles.<br/>
+Tier is a required argument and should be one of the following:
+<table class="wikitable">
+<tr><th>Tier</th><th>contains</th></tr> 
+<tr><td><code>0</code></td><td>{{ItemLink|Raptor}}, {{ItemLink|Dilo}}, {{ItemLink|Trike}}</td></tr>
+<tr><td><code>1</code></td><td>{{ItemLink|Raptor}}, {{ItemLink|Carnotaurus}}, {{ItemLink|Thylacoleo}}</td></tr>
+<tr><td><code>2</code></td><td>{{ItemLink|Rex}}, {{ItemLink|Spino}}, {{ItemLink|Paracer}}, {{ItemLink|Therizinosaur}}</td></tr>
+<tr><td><code>3</code></td><td>1 normal {{ItemLink|Rex}} and 1 with {{ItemLink|Rex Tek Saddle}}, {{ItemLink|Daeodon}}, {{ItemLink|Yutyrannus}}, {{ItemLink|Therizinosaur}}</td></tr>
+<tr><td><code>Flyers</code></td><td>{{ItemLink|Pteranodon}}, {{ItemLink|Tapejara}} with {{ItemLink|Tapejara Tek Saddle}}, {{ItemLink|Argentavis}}, {{ItemLink|Quetzal}}</td></tr>
+<tr><td><code>Mek</code></td><td>{{ItemLink|Mek|quantity=3}}s, one with each module - {{ItemLink|M.S.C.M. (Extinction)}}, {{ItemLink|M.R.L.M. (Extinction)}}, {{ItemLink|M.D.S.M. (Extinction)}}, {{ItemLink|Element}} and ammo for each</td></tr>
+<tr><td><code>SiegeMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.S.C.M. (Extinction)}}, {{ItemLink|Element}}, {{ItemLink|Cannon Shell (Extinction)}}</td></tr>
+<tr><td><code>MissleMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.R.L.M. (Extinction)}}, {{ItemLink|Element}}, {{ItemLink|Rocket Pod (Extinction)}}</td></tr>
+<tr><td><code>ShieldMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.D.S.M. (Extinction)}}, {{ItemLink|Element}}</td></tr>
+<tr><td><code>Argent</code></td><td>one really good {{ItemLink|Argentavis}}</td></tr>
+<tr><td><code>Extinction</code></td><td>{{ItemLink|Enforcer}}, {{ItemLink|Gasbags}}, {{ItemLink|Snow Owl}}, {{ItemLink|Gacha}}, {{ItemLink|Managarmr}}, {{ItemLink|Velonasaur}}</td></tr>
+</table>
+|example = cheat GiveDinoSet Mek 0
+}}
+
+{{ConsoleCommand
+|name = SpawnSetupDino
+|cheat = yes
+|arg1 = DinoBlueprintPath
+|type1 = String
+|note1 = [[Creature IDs|Blueprint path]]
+|arg2 = SaddleBlueprintPath
+|type2 = String
+|note2 = [[Item IDs|Blueprint path]]
+|arg3 = SaddleQuality
+|type3 = Integer[32]
+|note3 = Quality of the equipped saddle
+|arg4 = DinoLevel
+|type4 = Integer[32]
+|note4 = Level of the spawned Dino
+|arg5 = DinoStats
+|type5 = String
+|note5 = DinoStats is a string that contains a comma separated list of base stats to give the dino<<br/>
+base stats are: <code>Health</code>, <code>Stamina</code>, <code>Torpidity</code>, <code>Oxygen</code>, <code>Food</code>, <code>Water</code>, <code>Temperature</code>, <code>Weight</code>, <code>MeleeDamageMultiplier</code>, <code>SpeedMultiplier</code>, <code>TemperatureFortitude</code>, <code>CraftingSpeedMultiplier</code><br/>
+Syntax example: <code>"Health=30,MeleeDamageMultiplier=20,Weight=10"</code>
+|arg6 = SpawnDistance
+|type6 = float
+|note6 = Distance in front of you in which the Dino will be spawned
+|arg7 = YOffset
+|type7 = float
+|note7 = Offset to the side in which the Dino will be spawned
+|arg8 = ZOffset
+|type8 = float
+|note8 = Height at which the Dino will be spawned 
+|description = Spawns a fully set up dino with the specified saddle, level, and base stats<br/>
+This cheat tends to be long and cumbersome - you might want to write them in notepad and copy-paste them into the game when needed<br/>
+Note that SaddleBlueprintPath and DinoStats are string arguments, so if you don't want to use them, you should use <code>""</code> (the empty string)
+|example = cheat SpawnSetupDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'" "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'" 1 80 "Health=30,MeleeDamageMultiplier=20,Weight=10" 500 500 0
+}}
+
+{{ConsoleCommand
+|name = ForcePoop
+|cheat = yes
+|target = Target
+|description = Forces the dino you are riding (or if not riding a dino, the dino you are looking at) to poop
+}}
+
+<div class="fakeh2">Dino specific commands</div>
+The following Commands will only work on the dinos they are listed under
+If you're riding a dino, these cheats will apply to that dino. Otherwise they will apply to the dino you're currently looking at.
+
+;'''Enforcer'''
+{{ConsoleCommand
+|name = Dino Reset
+|cheat = yes
+|description = Resets all blink cooldowns
+|example = cheat Dino Reset
+}}
+
+{{ConsoleCommand
+|name = Dino InfiniteBlink
+|cheat = yes
+|description = Don't use blink cooldown slots, just always allow blinking
+|example cheat Dino InfiniteBlink
+}}
+
+{{ConsoleCommand
+|name = DinoSet Cooldowns
+|cheat = yes
+|arg1 = Number
+|type1 = Integer[32]
+|note1 =  Number of Blinks
+|description = Set the number of blink cooldown slots the enforcer has
+|example = cheat DinoSet Cooldowns 7
+}}
+
+{{ConsoleCommand
+|name = Dino DontHideRiderDuringBlink
+|cheat = yes
+|description = Prevents the Enforcer from touching rider visibility during blink, allowing the <code>[[#HideRiders|HideRiders]]</code> cheat to work like it does for other dinos
+|example = cheat Dino DontHideRiderDuringBlink
+}}
+
+{{ConsoleCommand
+|name = DinoSet Blink
+|cheat = yes
+|arg1 = number
+|type1 = float
+|note1 = value must be between 0 and 1
+|description = Sets the blink vfx (forwards) to the specified percentage
+|example = cheat DinoSet Blink 0.5
+}}
+
+{{ConsoleCommand
+|name = DinoSet BlinkBack
+|cheat = yes
+|arg1 = number
+|type1 = float
+|note1 = value must be between 0 and 1
+|description = Sets the blink vfx (backwards) to the specified percentage
+|example = cheat DinoSet BlinkBack 0.5
+}}
+
+;'''Gasbags'''
+
+{{ConsoleCommand
+|name = Dino Inflate
+|cheat = yes
+|description = Sets current inflation to maximum
+|example = cheat Dino Inflate
+}}
+
+{{ConsoleCommand
+|name = DinoSet Inflate
+|cheat = yes
+|arg1 = number
+|type1 = Integer[32]
+|note1 = amount of inflation
+|description = Increases inflation by a specific amount (also accepts negative numbers to reduce inflation)
+|example = cheat DinoSet Inflate 50
+}}
+
+{{ConsoleCommand
+|name = Dino InfiniteGas
+|cheat = yes
+|description = Constantly refills inflation to keep it at maximum (toggle)
+|example = cheat Dino InfiniteGas
+}}
+
+;'''Mek'''
+
+{{ConsoleCommand
+|name = Dino Reset
+|cheat = yes
+|description = Resets Mek fuel to maximum and heat level to zero
+|example = cheat Dino Reset
+}}
+
+{{ConsoleCommand
+|name = Dino InfiniteFuel
+|cheat = yes
+|description = Keeps fuel at 100%
+}}
+
+{{ConsoleCommand
+|name =  DinoSet Fuel
+|cheat =  yes
+|arg1 = number
+|type1 = ??
+|note1 = amount that gets added
+|description = Adds or subtracts the amount of fuel specified
+|example = cheat DinoSet Fuel -10 
+}}
+
+{{ConsoleCommand
+|name = Dino NoHeat
+|cheat = yes
+|description = Keeps heat at 0% (effectively infinite hover)
+}}
+
+{{ConsoleCommand
+|name = Dino ToggleUpkeep
+|cheat = yes
+|description = Disables/Enables Mek upkeep (the system that subtracts fuel/health every 60 seconds)
+}}
+
+{{ConsoleCommand
+|name = DinoSet UpkeepInterval
+|cheat = yes
+|arg1 = number
+|type1 = Integer[32]
+|note1 = interval in seconds
+|description = Sets the Mek's upkeep interval in seconds. Does not affect the rate of fuel/health loss, just how often it updates.
+|example = cheat DinoSet UpkeepInterval 60
+}}
+
+;'''Mega Mek'''
+
+{{ConsoleCommand
+|name = Dino ReplayIntro
+|cheat = yes
+|description = Makes the MegaMek invisible, then replays the intro effect VFX.
+}}
+
+{{ConsoleCommand
+|name = DinoSet Blink
+|cheat = yes
+|arg1 = number
+|type1 =  float
+|note1 = value between 0 and 1
+|description = Sets the blink/intro effect to that level.
+|example =  cheat DinoSet Blink 0.5
+}}
+
+;'''Gacha'''
+
+{{ConsoleCommand
+|name = DinoSet EatTime
+|cheat = yes
+|arg1 = number
+|type1 =  Integer[32]
+|note1 = time in seconds
+|description = Sets the time in seconds between sitting down to digest
+|example = cheat DinoSet EatTime  3
+}}
+
+;'''Forest Titan'''
+
+{{ConsoleCommand
+|name = Dino DestroyRightNode
+|cheat = yes
+|description = Dismembers right arm and destroys the node.
+}}
+
+{{ConsoleCommand
+|name = Dino DestroyLeftNode
+|cheat = yes
+|description = Dismembers left arm and destroys the node. 
+}}
+
+{{ConsoleCommand
+|name = Dino DestroyCenterNode
+|cheat = yes
+|description = Destroys the center node.
+}}
+
+== no cheat Commands==
+{{ConsoleCommand
+|name = CopyCoordsToClipboard
+|cheat = no
+|added = 286.103
+|description =  Copies your current coordinates and rotation to your clipboard in the form: X Y Z Yaw Pitch. A shortcut for this command is <code>ccc</code>.
+}}
+
+{{ConsoleCommand
+|name = DebugStructures
+|cheat = yes
+|target = Self
+|description = Toggles the display of debug information on structures when you look at them, including the structure's class name and entity ID. You can use the class name in other commands.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = Stat
+|added = 0.0 (UE2)
+|arg1 = Command
+|type1 = String
+|note1 = See below.
+|example = cheat Stat fps
+|description = Enables an on-screen display showing various debug information.
+
+Only the [https://udn.epicgames.com/Three/StatsDescriptions.html#Standalone%20Stats standalone stat commands from UE3/UE4] are available - the multi stat output table has been disabled. Prefix all stat commands with the "stat" command (example: "stat fps" to show fps.) Enter the same stat command to disable showing it.
+
+<table class="wikitable">
+<tr><th>Name</th><th>Description</th></tr>
+<tr><td>FPS</td><td>Displays the current number of frames being rendered per second and the amount of time taken to render the frame in milliseconds (ms).</td></tr>
+<tr><td>Levels</td><td>Displays a list of currently active levels and displays their status through color coding. Streaming levels are grouped under the persistent level. The number of seconds next to the level name is the time it took from load request to load finish.</td></tr>
+<tr><td>Unit</td><td>Displays the time spent for the current frame on the CPU, the time spent in the game thread, the time spent in the render thread, and the time spent for the current frame on the GPU. The GPU frame time is only displayed if the time spent is greater than 0 (e.g. the GPU is actually being used / does exist).</td></tr>
+<tr><td>UnitGraph</td><td>Normally graphs the information in the "stat unit" command in UE4 games, but the graph is apparently also disabled. Color codes the labels in the "stat unit" command output.</td></tr>
+</table>
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ShowDebug
+|arg1 = value
+|type1 = String
+|note1 = See below.
+|description = Enables an on-screen overlay showing various debug information.
+
+Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>ShowDebug reset</code>
+<table class="wikitable">
+<tr><th>Name</th><th>Description</th></tr>
+<tr><td>reset</td><td>Resets everything to normal</td></tr>
+<tr><td>physics</td><td>This will show you Location, Speed & Gravity</td></tr>
+<tr><td>camera</td><td>This will show you information about your camera (position, FOV, angle, etc.)</td></tr>
+<tr><td>bones</td><td>Use 3rd person view to see skeletal mesh</td></tr>
+<tr><td>animation</td><td>Shows information about animation</td></tr>
+<tr><td>input</td><td>All input keys are show with their action while pressing them + mouse & joystick input</td></tr>
+<tr><td>collision</td><td>Shows radius and height of your collision model (not sure)</td></tr>
+<tr><td>net</td><td>Shows remoterole and NetNode</td></tr>
+<tr><td>weapon</td><td>No special information is given</td></tr>
+<tr><td>ai</td><td>No special information is given</td></tr>
+</table>
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand|-
+|name = SetGraphicsQuality
+|target = Self
+|arg1 = Quality
+|type1 = Float
+|note1 = Graphics quality.
+|description = Sets your client's graphics quality. Note that Ark claims the quality parameter is actually an Integer[32], but it does accept decimals (so I called it a float, not sure if that's correct). This command is a general command that affects many different graphics settings, all of which will be set to the new value (rounding if necessary). This command does not change the quality to the graphics presets, which are generally much better to use. The table below lists the ''approximate'' corresponding graphics qualities.
+<table class="wikitable">
+<tr><td>&lt;0</td><td>Low</td></tr>
+<tr><td>1</td><td>Medium</td></tr>
+<tr><td>2</td><td>High</td></tr>
+<tr><td>&gt;3</td><td>Epic</td></tr>
+</table>
+|consoleCompatible = Unknown
+}}
+
+== unknown ==
+;commands that seem to be available but no info on how to us them:
+{{ConsoleCommand
+|name = AutoCycle
+|arg1 = Duration
+|type1 = 
+|note1 = 
+|description = unknown
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DoRestartLevel
+|cheat = yes
+|description = Unknown? Appears to trigger an internal map restart.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GetPlayerIDForSteamID
+|added = [[254.0]]
+|arg1 = SteamId
+|type1 = Integer[32]
+|note1 = 
+|description = '''Bug:''' This command does not seem to work correctly, returning a different value than the one used in <code>[[#ShowMyAdminManager|ShowMyAdminManager]]</code>, and does not work for commands that require player ID.
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = GetSteamIDForPlayerID
+|added = [[254.0]]
+|arg1 = PlayerId
+|type1 = Integer[32]
+|note1 = 
+|description = ?
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = TestSteamRefreshItems
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ReportLeastSpawnManagers
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ReportSpawnManagers
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = VisualizeClass
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = VisualizeWorld
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = VisualizeWorldGeo
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = PrintActorLocation
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = AddItemToAllClustersInventory
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = UnlockAchievement
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = TeleportToActorLocation
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+== References ==
+<references />
+
+{{Nav technical}}
+[[Category:Guides]]
+{{MissingTranslations|pl|it|de|es|pt-br|fr}}
+[[Category:Servers]]
