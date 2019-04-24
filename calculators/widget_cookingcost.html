@@ -5,29 +5,33 @@ RLQ.push(function () {
   if (cookingCalcDiv = document.getElementById('cookingCalc')) {
     // [0]: health, [1]: stamina, [2]:food, [3]: water
     cookingStats = {
+        'Element Dust': [2.5, 2.5, 2.5, 2.5, 0.02],
+        'Giant Bee Honey': [1.6875, 1.0625, 2.25, 1.0625, 0.02],
+        'Spoiled Meat': [-2.5, -1.5, 0.3125, 0.05, 0.01],
         'Raw Meat/Fish': [0.55, 0.05, 0.75, 0.05, 0.01],
         'Raw Prime Meat/Fish/Mutton': [1.2, 0.05, 1, 0.05, 0.01],
         'Cooked/Jerky Meat/Fish': [0.55, 0.05, 1, 0.05, 0.01],
         'Cooked/Jerky Prime Meat/Fish/Lamb Chop': [1.65, 0.05, 1.45, 0.05, 0.01],
-        'Amar/Azul/Tintoberry': [0.05, 0.05, 0.1875, 0.125, 0.01],
-        'Mejoberry': [0.05, 0.05, 0.2625, 0.175, 0.01],
         'Narcoberry': [0.05, -0.5, 0.5, 0.05, 0.01],
         'Stimberry': [0.05, 0.625, 0.1875, -1.25, 0.01],
-        'Seed': [0.05, 0.05, 0.05, 0.05, 0.01],
+        'Mejoberry': [0.05, 0.05, 0.2625, 0.175, 0.01],
+        'Amar/Azul/Tintoberry/Cactus Sap': [0.05, 0.05, 0.1875, 0.125, 0.01],
         'Advanced Crops': [0.275, 0.05, 0.3, 2.5, 0.01],
-        'Rare Mushroom': [0.05, 5, 0.05, 0.05, 0.01],
+        'Seed': [0.05, 0.05, 0.05, 0.05, 0.01],
         'Rare Flower': [0.05, 0.05, 0.05, 0.05, 1],
+        'Rare Mushroom': [0.05, 5, 0.05, 0.05, 0.01],
         'Egg': [4, 4, 4, 0.05, 0.3],
         'Kibble': [0.05, 15, 11.25, -5, 0.05],
-        'Spoiled Meat': [-2.5, -1.5, 0.3125, 0.05, 0.01],
+        'Sweet Veggie Cake': [0.5, 0.05, 0.5, 0.05, 0.02],
+        'Soap': [-0.25, -0.25, 0.5, -0.25, 0.01],
+        'Organic Polymer': [-2.5, -2.5, 0.5, -2.5, 0.01],
         'Human Feces': [-0.625, -0.625, 0.5, -0.625, 0.01],
         'Small Feces': [-0.25, -0.25, 0, -0.25, 0.01],
         'Medium Feces': [-0.5, -0.5, 0.5, -0.5, 0.03],
         'Large/Massive Feces': [-0.75, -0.75, 0.5, -0.75, 0.03],
-        'Cactus Sap': [0.05, 0.05, 0.1875, 0.125, 0.01],
-        'Soap': [-0.25, -0.25, 0.5, -0.25, 0.01],
-        'Organic Polymer': [-2.5, -2.5, 0.5, -2.5, 0.01],
-        'Giant Bee Honey': [1.6875, 1.0625, 2.25, 1.0625, 0.02]
+        'Aquatic Mushroom': [1.063, 1.625, 1.625, 2.25, 0.01],
+        'Aggeravic Mushroom': [1.3125, 2.25, 1.625, 1, 0.01],
+        'Auric Mushroom': [1.125, 7.25, 1.46875, -2.125, 0.01]
     };
     var tableRows = '';
     var dropDownOptions = '';
