@@ -26,5 +26,562 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | [[295.102]] - April 16th, 2019 
 | style="text-align:center;" | 
 | style="text-align:center;" | 
-
+|-
+| Vaultdrop patch was later withdrawn cause of unforseen issues
+| style="text-align:center;" | [[294.112]] - April 4th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Iteration on undermesh metrics
+| style="text-align:center;" | [[294.110]] - April 2nd, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| added undermesh metrics to offical servers
+| style="text-align:center;" | [[294.108]] - March 30th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Homestead balances
+| style="text-align:center;" | [[294.101]] - March 21th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| unknown exploit fix 
+| style="text-align:center;" | [[293.105]] - March 16th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| crash fixes
+| style="text-align:center;" | [[293.104]] - March 8th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes related to Homestead update
+| style="text-align:center;" | [[293.103]] - March 5th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Homestead update<br>also known as Structure+ integration
+| style="text-align:center;" | [[293.100]] - March 5th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixes
+| style="text-align:center;" | [[292.103]] - February 15th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Valentines Day Event 
+| style="text-align:center;" | [[292.100]] - February 12th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes -- Server only
+| style="text-align:center;" | [[291.102]] - January 30th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Extinction DLC balance update V
+| style="text-align:center;" | [[291.100]] - January 24th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+! scope="col" colspan="4" | <big>280</big>
+|-
+| fix for ARK data display
+| style="text-align:center;" | [[289.101]] - January 16th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Extinction DLC balance update IV and optimazations 
+| style="text-align:center;" | [[289.100]] - January 16th, 2019
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixes
+| style="text-align:center;" | [[288.114]] - December 19th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Winter Wonderland Event and various fixes
+| style="text-align:center;" | [[288.113]] - December 13th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fix for exploit related to structure pickup -- Server only
+| style="text-align:center;" | [[287.124]] December 4th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 1st Structure+ Integration and various fixes
+| style="text-align:center;" | [[287.123]] - December 4th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed bug on private servers -- Server only
+| style="text-align:center;" | [[287.112]] - December 1st, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Extinction DLC balance update III
+| style="text-align:center;" | [[287.110]] - November 30th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fix for saddle dupe method -- Server only
+| style="text-align:center;" | [[287.103]] - November 21th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Mek sword fix
+| style="text-align:center;" | [[287.102]] - November 18th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Extinction DLC balance update II
+| style="text-align:center;" | [[287.100]] - November 16th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Element Vein base destruction "fix"
+| style="text-align:center;" | [[286.104]] - November 10th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Extinction DLC balance update I
+| style="text-align:center;" | [[286.103]] - November 10th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| cryopod transfer fix
+| style="text-align:center;" | [[285.105]] - November 7th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Extinction]] release
+| style="text-align:center;" | [[285.104]] - November 6th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Extinction Chronicles]] V and various fixes
+| style="text-align:center;" | [[284.104]] - October 16th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixes
+| style="text-align:center;" | [[283.112]] - September 27th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Extinction Chronicles]] IV and meshhole fixes
+| style="text-align:center;" | [[283.101]] - September 18th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed an upload exploit -- Server only
+| style="text-align:center;" | [[282.110]] - September 12th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
 |}
