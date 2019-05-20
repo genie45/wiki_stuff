@@ -246,138 +246,138 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various fixes
+| style="text-align:center;" | [[279.261]] - April 26th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various fixes
+| style="text-align:center;" | [[279.252]] - April 12th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| BattlEye update and transfer issue fix
+| style="text-align:center;" | [[279.243]] - April 5th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various fixes
+| style="text-align:center;" | [[279.242]] - April 5th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| PixARK button in main menu
+| style="text-align:center;" | [[279.234]] - March 28th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various fixes 
+| style="text-align:center;" | [[279.233]] - March 27th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
+| ARK Park dino export feature -- Steam version only
+| style="text-align:center;" | [[279.225]] - March 22nd, 2018
+| style="text-align:center;" | -
+| style="text-align:center;" | -
+|-
+| various fixes
+| style="text-align:center;" | [[279.224]] - March 21st, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| TLC Phase 2 and various fixes
+| style="text-align:center;" | [[279.22]] - March 20th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| C4 placement limit and various fixes 
+| style="text-align:center;" | [[278.73]] - March 14th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| [[Aberration]] foreign dino fix
+| style="text-align:center;" | [[278.66]] - March 8th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| mesh exploit fixes 
+| style="text-align:center;" | [[278.64]] - March 7th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various balance changes and mesh exploit fix 
+| style="text-align:center;" | [[278.54]] - February 27th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| UI optimazations
+| style="text-align:center;" | [[278.46]] February 22nd, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
+| ended Valentines Day event
+| style="text-align:center;" | [[278.4]] - February 17th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
+| Valentines Day event -- Server only
+| style="text-align:center;" | [[278.3]] - February 14th, 2018
 | style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[278.2]] - February 13rd, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixes
+| style="text-align:center;" | [[278.1]] February 10th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| TLC Phase 1 and various fixes
+| style="text-align:center;" | [[278.0]] February 10th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Ragnarok fixes and exploit fix
+| style="text-align:center;" | [[277.0]] - February 6th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixesS
+| style="text-align:center;" | [[276.5]] February 5th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| character dupe fix on official servers
+| style="text-align:center;" | [[276.493]] - February 4th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| character transfer and Ragnarok disconnect issue fix
+| style="text-align:center;" | [[276.48]] - February 3rd, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[276.47]] - February 3rd, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| client crash fix 
+| style="text-align:center;" | [[276.44]] - January 30th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[276.43]] January 26th, 2018
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[276.42]] - January 10th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
