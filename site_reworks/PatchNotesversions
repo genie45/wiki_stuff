@@ -381,123 +381,575 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| server crash fix 
+| style="text-align:center;" | [[276.41]] - January 9th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| [[Ascension]] award issue fix
+| style="text-align:center;" | [[276.4]] - January 7th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various fixes 
+| style="text-align:center;" | [[276.3]] - January 7th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| varius fixes related to Aberration
+| style="text-align:center;" | [[276.21]] - January 6th, 2018
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| holiday event 2017 
+| style="text-align:center;" | [[276.13]] - December 23rd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various [[Ragnarok]] fixes
+| style="text-align:center;" | [[276.12]] - December 22nd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| Ragnarok overspawn and dino collision fixes
+| style="text-align:center;" | [[276.11]] - December 22nd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| Ragnarok final version release
+| style="text-align:center;" | [[276.0]] - December 21st, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| Server crash fix 
+| style="text-align:center;" | [[275.53]] - December 21st, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various [[Aberration]] fixes
+| style="text-align:center;" | [[275.52]] - December 20th, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-| style="text-align:center;" | 
-|-
-| 
-| style="text-align:center;" | 
+| various Aberration fixes
+| style="text-align:center;" | [[275.44]] - December 19th, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
+| various fixes 
+| style="text-align:center;" | [[275.43]] - December 19th, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
+| fixes for mod issues
+| style="text-align:center;" | [[275.42]] - December 17th, 2017
 | style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Griffin]] nerf and various other balances
+| style="text-align:center;" | [[275.4]] - December 16th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| crash fixes
+| style="text-align:center;" | [[275.34]] - December 15th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| D3D device lost fix<sup>1</sup> and multiple other fixes 
+| style="text-align:center;" | [[275.33]] - December 14th,  2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Aberration dino download issue fix
+| style="text-align:center;" | [[275.32]] - December 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed various crashes and balance changes
+| style="text-align:center;" | [[275.31]] - December 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Lantern Pet inventory is tribute inventory fix and other fixes
+| style="text-align:center;" | [[275.2]] - December 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fix for Distance Field Ambient Occlusion setting on Aberration
+| style="text-align:center;" | [[275.11]] December 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fix for cleint crashes with certain mods
+| style="text-align:center;" | [[275.1]] - December 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Aberration]] release and balance changes
+| style="text-align:center;" | [[275.0]] - December 12nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| turret limit enabled on official servers
+| style="text-align:center;" | [[274.12]] - December 5th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| [[Heavy Turret]] added
+| style="text-align:center;" | [[274.0]] - November 30th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| rendering crash fix
+| style="text-align:center;" | [[273.882]] - November 26th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| render optimazations
+| style="text-align:center;" | [[273.86]] - November 25th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| PhysX issues fix for servers
+| style="text-align:center;" | [[273.8]] - November 20th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed placement issues with mods
+| style="text-align:center;" | [[273.76]] - November 18th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| implemented Turret counter HUD 
+| style="text-align:center;" | [[273.74]] - November 29th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed Supply Crate Override ini option 
+| style="text-align:center;" | [[273.7]] - November 15th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed dino download related exploit
+| style="text-align:center;" | [[273.692]] - November 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed collision issue with chairs
+| style="text-align:center;" | [[273.68]] - November 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed recipe crafting exploit 
+| style="text-align:center;" | [[273.67]] - November 8th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[273.64]] - November 4th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed bug where players could fasttravel to other tribes beds
+| style="text-align:center;" | [[273.63]] - November 3rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| ini option to auto-unlock [[Engrams]] 
+| style="text-align:center;" | [[273.62]] - November 3rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[273.6]] - November 2nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| end of Halloween Event 2017
+| style="text-align:center;" | [[273.58]] - November 1st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed haircuts in inventory
+| style="text-align:center;" | [[273.55]] - November 1st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| halloween Event 2017
+| style="text-align:center;" | [[273.5]] - October 31st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| desync fixes
+| style="text-align:center;" | [[273.22]] - October 29th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| server performance improvements
+| style="text-align:center;" | [[273.2]] - October 29th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[273.11]] - October 27th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| sleeping and handcuff mechanics added
+| style="text-align:center;" | [[273.0]] - October 26th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| GroundClutter rendering improvements and crash fix
+| style="text-align:center;" | [[272.35]] - October 24th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| disabled GroundCLutter optimization
+| style="text-align:center;" | [[272.31]] - October 20th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| optimazed GroundClutter rendering and readded HDR 
+| style="text-align:center;" | [[272.3]] - October 20th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Ragnarok bossfight related issues fixed
+| style="text-align:center;" | [[272.2]] - October 17th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| prevented rafts from being uploaded
+| style="text-align:center;" | [[272.11]] - October 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed issue with Raganrok update 
+| style="text-align:center;" | [[272.1]] - October 11st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed a crash and Raganrok SW update
+| style="text-align:center;" | [[272.0]] - October 11st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| added HDR and various fixes 
+| style="text-align:center;" | [[271.3]] - October 10th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed crashes related to mods
+| style="text-align:center;" | [[271.24]] - October 8th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed impact decals rendering
+| style="text-align:center;" | [[271.21]] - October 7th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[271.2]] - October 7th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| server networking update
+| style="text-align:center;" | [[271.17]] - October 3rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed Raganrok related issues
+| style="text-align:center;" | [[271.16]] - September 28th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Server networking optimazations
+| style="text-align:center;" | [[271.15]] - September 27th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[271.11]] - September 27th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[271.0]] - September 26th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes to Tek armor
+| style="text-align:center;" | [[270.1]] - September 22nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| new Tek items and various fixes
+| style="text-align:center;" | [[270.0]] - September 21st,  2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various balance changes
+| style="text-align:center;" | [[269.2]] - September 19th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Direct3D Device Lost fixes<sup>1</<sup>
+| style="text-align:center;" | [[269.1]] - September 18th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+! scope="col" colspan="4" | <big>260</big>
+|-
+| various fixes mostly related to Scorched Earth
+| style="text-align:center;" | [[269.0]] - September 15th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed crashes and optimazations for UI
+| style="text-align:center;" | [[268.22]] - September 6th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Phoenix balance changes
+| style="text-align:center;" | [[268.2]] - September 5th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| increased Phoenix spawns
+| style="text-align:center;" | [[268.13]] - September 4th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Phoenix health change
+| style="text-align:center;" | [[268.12]] - September 4th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| added Phoenix and various fixes
+| style="text-align:center;" | [[268.11]] - September 3rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| added support for Aberration Season Pass items
+| style="text-align:center;" | [[267.3]] - September 2nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| enabled "gamma" controll on official servers
+| style="text-align:center;" | [[267.21]] - August 31st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Ice wyvern transfer issue fix 
+| style="text-align:center;" | [[267.2]] - August 30th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various crash fixes
+| style="text-align:center;" | [[267.17]] - August 30th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| ARK leaves Early Access<br>release of Otter, Endboss and Ascension, remodeled Icewyvern release, Anti Duping system on offical servers
+| style="text-align:center;" | [[267.0]] August 27th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[266.0]] - August 28th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed Preserving Bins inventory issue
+| style="text-align:center;" | [[265.51]] - August 24th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[265.5]] - August 24th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Ragnarok update and various other fixes
+| style="text-align:center;" | [[265.3]] - August 23rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[265.284]] - August 33nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed egg pick-up issue
+| style="text-align:center;" | [[265.17]] - August 21st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed thrid person issues
+| style="text-align:center;" | [[265.16]] - August 20th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed disconnect issue related to blarge bases
+| style="text-align:center;" | [[265.14]] - August 20th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed a render crash
+| style="text-align:center;" | [[265.1]] - August 16th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Raganrok content update 1 - SW region and various fixes
+| style="text-align:center;" | [[265.0]] - August 16th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| performance increase for medium settings
+| style="text-align:center;" | [[264.6]] - August 16th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| server crash fix
+| style="text-align:center;" | [[264.53]] - August 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed client crash and rocketlauncher shooting off aim
+| style="text-align:center;" | [[264.52]] - August 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[264.5]] - August 13rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| GPU performance improvements
+| style="text-align:center;" | [[264.41]] - August 11st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| no notes published
+| style="text-align:center;" | [[264.4]] - August 10th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| spector render paintings correct no and SLI updates
+| style="text-align:center;" | [[264.36]] - August 9th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[264.32]] - August 8th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes and balance changes
+| style="text-align:center;" | [[264.3]] - August 4th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed an item issue
+| style="text-align:center;" | [[264.22]] - August 1st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| multiplayer boss balance changes, CPU optimazations
+| style="text-align:center;" | [[264.2]] July 29th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed server crash related to rafts
+| style="text-align:center;" | [[264.16]] - August 25th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed artifacts not spawning correctly
+| style="text-align:center;" | [[264.15]] - July 24th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed structure startup crash
+| style="text-align:center;" | [[264.1]] - July 22nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes and balance changes
+| style="text-align:center;" | [[264.0]] - July 22nd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[263.0]] - July 17th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Eel balance and other fixes
+| style="text-align:center;" | [[262.16]] - July 16th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed various crashes
+| style="text-align:center;" | [[262.12]] - July 15th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed "Fog of War" map crash
+| style="text-align:center;" | [[262.1]] - July 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[262.0]] - July 14th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[261.0]] - July 7th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed wild dino re/spawn issues in Singleplayer
+| style="text-align:center;" | [[260.2]] - July 3rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed crash related to engram list 
+| style="text-align:center;" | [[260.11]] - July 1st, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| crash fix and rollback of PVE island servers due to unintentionally wiped structures
+| style="text-align:center;" | [[260.1]] - June 30th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes 
+| style="text-align:center;" | [[260.0]] - June 30th, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| Pegomastax taming and megalania climbing fix 
+| style="text-align:center;" | [[259.35]] - June 23rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes and cooking pot crash fix
+| style="text-align:center;" | [[259.32]] - June 23rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| fixed babys eating in stasis 
+| style="text-align:center;" | [[259.31]] - June 23rd, 2017
+| style="text-align:center;" | 
+| style="text-align:center;" | 
+|-
+| various fixes
+| style="text-align:center;" | [[259.3]] - June 23rd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
@@ -587,3 +1039,5 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | 
 |-
 |}
+
+<sup>1</sup>  it fixed one of teh various cases of this issue 
