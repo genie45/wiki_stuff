@@ -691,17 +691,17 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
+! scope="col" colspan="4" | <big>260</big>
+|-
 | various balance changes
 | style="text-align:center;" | [[269.2]] - September 19th, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| Direct3D Device Lost fixes<sup>1</<sup>
+| Direct3D Device Lost fixes<sup>1</sup>
 | style="text-align:center;" | [[269.1]] - September 18th, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
-|-
-! scope="col" colspan="4" | <big>260</big>
 |-
 | various fixes mostly related to Scorched Earth
 | style="text-align:center;" | [[269.0]] - September 15th, 2017
@@ -953,13 +953,13 @@ Listed below are all ARK patches released and their coresponding console patches
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
+| various fixes related to mods and baby dino
+| style="text-align:center;" | [[259.21]] - June 22nd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
-| 
-| style="text-align:center;" | 
+| fixed a crash and various other fixes
+| style="text-align:center;" | [[259.1]] - June 22nd, 2017
 | style="text-align:center;" | 
 | style="text-align:center;" | 
 |-
@@ -1040,4 +1040,4 @@ Listed below are all ARK patches released and their coresponding console patches
 |-
 |}
 
-<sup>1</sup>  it fixed one of teh various cases of this issue 
+<sup>1</sup>  it fixed one of the various cases of this issue 
