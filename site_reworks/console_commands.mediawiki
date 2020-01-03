@@ -1,17 +1,18 @@
 {{tocright}}
 {{Tile Nav Entity IDs}}
 {{Ambox|color=blue|icon=Note.png|type=Missing Content|info=This page list most console commands known, if you know more about a specific one or one not listed feel free to edit it or notify us on the [[Talk:Console_Commands|Talk Page]].}}
+The commands found here can be entered in the console. This allows to do actions that aren't allowed otherwise, e.g. cheating. The console can be opened by pressing {{Key|TAB}} (on the PC/keyboard) or by entering the pause screen, and simultaneously pressing {{xbox|LB}}, {{xbox|RB}}, {{xbox|X}} and {{xbox|Y}} on the Xbox, or {{ps4|L1}}, {{ps4|R1}}, {{ps4|Square}} and {{ps4|Triangle}} on PlayStation. Alternativly works just pressing {{Key|TAB}} if you have Keyboard & Mouse mode active on consoles.
+
 == Usage ==
+Some of these commands are not available until you have authenticated yourself with the <code>enablecheats</code> command.
 
-The commands found here can be entered in the console. This allows to do actions that aren't allowed otherwise, e.g. cheating. The console can be opened by pressing {{Key|TAB}} (on the PC/keyboard) or by entering the pause screen, and simultaneously pressing {{xbox|LB}}, {{xbox|RB}}, {{xbox|X}} and {{xbox|Y}} on the Xbox, or {{ps4|L1}}, {{ps4|R1}}, {{ps4|Square}} and {{ps4|Triangle}} on PlayStation.
-
-Some of these commands are not available until you have authenticated yourself with the <code>enablecheats</code> command.<br/>
 Commands marked with Y in the cheat column need to be prefixed with <code>admincheat</code> if used on a multiplayer server. In single-player mode you neither need any <code>cheat</code> or <code>admincheat</code> before the command nor do you need to enable cheats.
 
-Commands that target the creature / entity in your crosshairs are marked with "Target" in the target column, and commands that affect the current player are marked with "Self". These commands cannot be used in the remote console. Console commands are not case sensitive.<br/>
+Commands that target the creature / entity in your crosshairs are marked with "Target" in the target column, and commands that affect the current player are marked with "Self". These commands cannot be used in the remote console. Console commands are not case sensitive.
+
 Boolean parameters can be specified as either the keywords "true" or "false" or the numbers 1 or 0 (or 1.0 / 0.0) respectively. 
 
-Any distances used in these commands are in [[Game Units]] (i.e. roughly one centimeter).
+Any distances used in these commands are in [[Game Units]], i.e. roughly one centimeter.
 
 You can concatenate multiple commands in one line using a vertical bar <code>|</code>. For example: <code>LeaveMeAlone | Fly</code>
 
@@ -52,6 +53,9 @@ All commands can be run through <code>[[Console Commands#ShowMyAdminManager|Show
 :<code>startquake</code>, <code>stopquake</code>
 ;[[Extinction]]
 :<code>"start meteors"</code>
+;[[Valguero]]
+:<code>SpawnRainbow</code>, <code>TestNorthernLights</code><sup>1</sup>
+<sup>1</sup> After activating the Auroras on [[Valguero]] using the command, Auroras will cease to appear.
 
 |example = cheat ce start_superheat
 |consoleCompatible = Yes
@@ -101,7 +105,7 @@ To give items to another player, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]
 |added = 0.0 (UE1)
 |description = Stops all creature movement in the game world and halts crafting. Players can still move normally. Repeat the command to disable its effects.
 |example = cheat PlayersOnly
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -227,6 +231,14 @@ See also [[Admin Spectator]]
 |cheat = yes
 |target = world
 |description = Toggles floating damage numbers on the server
+}}
+
+{{ConsoleCommand
+|name = HatchEgg
+|cheat = yes
+|target = Target
+|added = [[297.17]]
+|description = Despite the name of the command, it doesn't actually hatch the egg you are looking at but only set its incubating progress to 0% meaning that you still need the appropriate [[Incubation|temperature]] for it to properly hatch. If the temperature is not adequate, the egg will have the "broken icon" and you won't be able to consume it after performing this command.
 }}
 
 == Server Managment Commands==
@@ -421,7 +433,7 @@ TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergam
 |name = ShowMessageOfTheDay
 |target = Self
 |description = Displays the message of the day.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 StartSaveBackup
@@ -445,7 +457,7 @@ StartSaveBackup
 |added = 170 or earlier
 |description = Enable cheat commands that affect the current player, mounted dinosaurs and the game world
 |example = setcheatplayer true
-|consoleCompatible = No
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -707,6 +719,20 @@ To teleport the other player to yourself, use the <code>[[#TeleportPlayerIDToMe|
 }}
 
 {{ConsoleCommand
+|name = TeleportToPlayerName
+|cheat = yes
+|target =  Self
+|arg1 = PlayerName
+|type1 = String
+|note1 = Player's in-game name
+|description = Teleports the user to the player named as given in command.
+
+A short version is <code>TPName</code>
+|consoleCompatible = Yes
+}}
+
+
+{{ConsoleCommand
 |name = TeleportToActorLocation
 |cheat = yes
 |arg1 = type
@@ -715,6 +741,59 @@ To teleport the other player to yourself, use the <code>[[#TeleportPlayerIDToMe|
 |description = Lets you teleport to a specific actor in the gameworld. You need to know the Actor ID and his number. 
 |consoleCompatible = Unknown
 }}
+
+{{ConsoleCommand
+|name = TP
+|cheat = yes
+|arg1 = locationname
+|type1 = String
+|note1 = check table to see which location name works 
+|description = Lets you teleport to defined locations quickly, the example will teleport you to the red obelisk on any DLC map.<br>
+<table class="wikitable">
+    <tr><th>Location Name</th><th>Map</th><th>Location</th></tr>
+    <!--THE ISLAND-->
+    <tr><td><code>red</code></td><td>The Island</td><td>Red Obelisk <code>-260638 238923 -11202 121.41 -0.33</code></td></tr>
+    <tr><td><code>green</code></td><td>The Island</td><td>Green Obelisk <code>178454 71660 -10081 121.41 -0.33</code></td></tr>
+    <tr><td><code>blue</code></td><td>The Island</td><td>Blue Obelisk <code>-195154 -195984 33858 -121.79 -20.82</code></td></tr>
+    <tr><td><code>cave1</code></td><td>The Island</td><td>Entrance of [[Lower South Cave]] <code>28780 242180 -13292 -121.79 -20.82</code></td></tr>
+    <tr><td><code>cave2</code></td><td>The Island</td><td>Entrance of [[Upper South Cave]] <code>49580 146350 -13533 59.56 -24.90</code></td></tr>
+    <tr><td><code>cave3</code></td><td>The Island</td><td>Entrance of [[Lava Cave]] <code>289030 165000 -14145 -129.93 -7.49</code></td></tr>
+    <tr><td><code>cave5</code></td><td>The Island</td><td>Entrance of [[Central Cave]] <code>-23520 -67430 -101 -0.56 1.06</code></td></tr>
+    <tr><td><code>cave6</code></td><td>The Island</td><td>Entrance of [[North West Cave]] <code>-247490 -245850 -11300 80.25 -8.41</code> (spawns you in the ground )</td></tr>
+    <tr><td><code>cave7</code></td><td>The Island</td><td>Entrance of [[North East Cave]] <code>283820 -281680 -13699 152.53 12.08</code></td></tr>
+    <tr><td><code>cave8</code></td><td>The Island</td><td>Entrance of [[Swamp Cave]] <code>-101776 101764 -5189 13.19 -15.63</code></td></tr>
+    <tr><td><code>cave9</code></td><td>The Island</td><td>Entrance of [[Snow Cave]] <code>-143966 -164657 -5 -109.95 2.65</code></td></tr>
+    <tr><td><code>cave10</code></td><td>The Island</td><td>Entrance of [[Tek Cave]] <code>-87039 -54406 33489 -99.94 -10.32</code></td></tr>
+    <!--SCORCHED EARTH-->
+    <tr><td><code>blue</code></td><td>Scorched Earth</td><td>Blue Obelisk <code>-128529 -261433 -15439 -13.87 -6.04</code></td></tr>
+    <tr><td><code>green</code></td><td>Scorched Earth</td><td>Green Obelisk <code>195186 186 -12513 0.31 8.64</code></td></tr>
+    <tr><td><code>red</code></td><td>Scorched Earth</td><td>Red Obelisk <code>-86375 168902 -16340 0.31 8.64</code></td></tr>
+    <!--Aberration-->
+    <tr><td><code>red</code></td><td>Aberration</td><td>Red Obelisk <code>-237249 246932 53390 0.00 0.00</code></td></tr>
+    <tr><td><code>green</code></td><td>Aberration</td><td>Green Obelisk <code>222546 -219529 57313 0.00 0.00</code></td></tr>
+    <tr><td><code>blue</code></td><td>Aberration</td><td>Blue Obelisk <code>-271144 -248355 66754 0.00 0.00</code></td></tr>
+    <!--Extinction-->
+    <tr><td><code>red</code></td><td>Extinction</td><td>Desert Titan Terminal <code>321836 377222 -60260 60.00 0.00</code></td></tr>
+    <tr><td><code>green</code></td><td>Extinction</td><td>Forest Titan Terminal <code>5439 -272891 -145851 -23.85 -6.83</code></td></tr>
+    <tr><td><code>blue</code></td><td>Extinction</td><td>Ice Titan Terminal <code>286565 -346100 -40719 -108.38 10.44</code></td></tr>
+    <tr><td><code>king</code></td><td>Extinction</td><td>King Titan Terminal <code>-8131 -373611 36660 -107.57 8.54</code></td></tr>
+    <!--The Center-->
+    <tr><td><code>red</code></td><td>The Center</td><td>Red Obelisk <code>37242 -210931 2066 -4.38 0.00</code></td></tr>
+    <tr><td><code>green</code></td><td>The Center</td><td>Green Obelisk <code>-376571 43020 -13552 -4.38 0.00</code></td></tr>
+    <tr><td><code>blue</code></td><td>The Center</td><td>Blue Obelisk <code>250968 194402 -8487 -4.38 0.00</code></td></tr>
+    <!--Ragnarok-->
+    <tr><td><code>red</code></td><td>Ragnarok</td><td>Red Obelisk <code>467435 -195919 -14209 -50.00 0.00</code></td></tr>
+    <tr><td><code>green</code></td><td>Ragnarok</td><td>Green Obelisk <code>-155773 91671 11619 -50.00 0.00</code></td></tr>
+    <tr><td><code>blue</code></td><td>Ragnarok</td><td>Blue Obelisk <code>-427662 -417081 -13747 -50.00 0.00</code></td></tr>
+    <!--Valguero-->
+    <tr><td><code>red</code></td><td>Valguero</td><td>Red Obelisk <code>-268136 213499 -39 -61.42 6.08</code></td></tr>
+    <tr><td><code>green</code></td><td>Valguero</td><td>Green Obelisk <code>213785 -9234 -12739 -61.42 6.08</code></td></tr>
+    <tr><td><code>blue</code></td><td>Valguero</td><td>Blue Obelisk <code>-267025 -331553 688 -61.42 6.08</code></td></tr>
+</table>
+|consoleCompatible = Yes
+|example = cheat tp red
+}}
+
 
 {{ConsoleCommand
 |name = TPCoords
@@ -814,6 +893,7 @@ See also [[#Teleport|Teleport]], [[#TPCoords|TPCoords]], [http://jdimensional.co
 |note1 = [[Creature IDs|Type]] to destroy
 |cheat = yes
 |description = Destroys all creatures of the specified type, both wild and tamed.
+Also destroys specified structures.
 |example = cheat DestroyAll Ankylo_Character_BP_C
 |consoleCompatible = Yes
 }}
@@ -913,6 +993,22 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |target = Target
 |added = [[226.4]]
 |description = Will destroy all structures on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = DestroyTribeStructuresLessThan
+|arg1 = TribeTeamID
+|type1 = Integer[32]
+|note1 = The ID of the tribe that owns the structures to be destroyed. Use [[#setcheatplayer|setcheatplayer 1]] and look at any structure owned by the tribe to see its ID.
+|arg2 = Connections
+|type2 = Integer[32]
+|note2 = Any structures owned by the given tribe that have less than the given connections (snapped structures) will be destroyed.
+|cheat = yes
+|added = [[284.104]]
+|description = Destroy all the structures owned by the given tribe that have less than the given connections (snapped structures). The given example below would remove all the lone structures owned by the tribe matching the 1234567890 ID.
+A shortcut to this command is <code>LessThan</code> (added in [[298.3]]).
+|example = cheat DestroyTribeStructuresLessThan 1234567890 2
 |consoleCompatible = Yes
 }}
 
@@ -1100,12 +1196,12 @@ This command is affected by the XPMultiplier setting and the hardcoded multiplie
 
 {{ConsoleCommand
 |name = HideRiders
-|arg1 = visable
+|arg1 = visible
 |type1 = Boolean
-|note1 = <code>true</code> or <code>1</code> to hide a player, <code>false</code> or <code>0</code> to make player visable again
+|note1 = <code>true</code> or <code>1</code> to hide a player, <code>false</code> or <code>0</code> to make player visible again
 |cheat = yes
 |target = Self
-|description = Makes a rider of a dino visually invisable. You stay invisable after unmounting.
+|description = Makes a rider of a dino visually invisible. You stay invisible after un-mounting.
 |example = cheat hideriders 1
 }}
 
@@ -1409,6 +1505,17 @@ To specify items by their blueprint path, use the <code>[[#GiveSlotItem|GiveSlot
 
 For the same effect but without experience you can use <code>[[#LeaveMeAlone|LeaveMeAlone]]</code>.
 |consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = EnvQA
+|cheat = yes
+|target = Self
+|added = [[292.103]]
+|description = A shortcut that internally executes <code>[[#GMBuff|GMBuff]]</code>, <code>[[#GiveArmorSet|GiveArmorSet]] Tek 0</code>, <code>[[#stat|stat]] fps</code> and <code>[[#stat|stat]] unit</code>.
+|consoleCompatible = Yes
+
+Fun fact: This command is an alias of <code>TurnOnGmBuffAndTekArmorAndStatFpsAndAlsoStatUnitBecauseThisIsEasierToTypeOnXbox</code>.
 }}
 
 {{ConsoleCommand
@@ -1805,6 +1912,71 @@ Tier is a required integer and should be one of the following:
 |example = Cheat setmytargetsleeping 1 (1 to knock target out 0 to wake target up)
 }}
 
+{{ConsoleCommand
+|name = MaxAscend
+|arg1 = PlayerId
+|type1 = Integer[32]
+|note1 = The ID of the player to ascend (0 for local/single-player profile).
+|cheat = yes
+|added = [[298.3]]
+|description = Unlock Alpha [[Overseer]] and Alpha [[Rockwell]] ascensions for the player matching the given ID. While the player will unlock the levels and the tekgrams associated with the ascensions, his implant won't change until his character is uploaded then downloaded back and/or the current server save is wiped.
+|example = cheat MaxAscend 0
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DefeatBoss
+|arg1 = PlayerId
+|type1 = Integer[32]
+|note1 = The ID of the player to unlock the boss (0 for local/single-player profile).
+|arg2 = BossName
+|type2 = String
+|note2 = The name of the boss to unlock (see table below).
+|arg3 = Difficulty
+|type3 = Integer[32]
+|note3 = The difficulty to unlock (0=Gamma, 1=Beta and 2=Alpha).
+|cheat = yes
+|added = [[298.3]]
+|description = Unlock the given boss for the player matching the given ID. While the [[Tekgrams]] associated to the given boss are unlocked instantly, the extra levels unlocked by the ascensions won't be available until the player respawn or reconnect and its implant won't be updated until he dies (unlike the extra levels, reconnecting won't update it). Possible ''BossName'' values:
+<table class="wikitable">
+    <tr><th>BossName Value</th><th>Boss Name</th></tr>
+    <tr><td><code>Guardian</code></td><td>[[Overseer]]</td>
+    <tr><td><code>Rockwell</code></td><td>[[Rockwell]]</td>
+    <tr><td><code>Uberspider</code></td><td>[[Broodmother Lysrix]]</td>
+    <tr><td><code>Megapithecus</code></td><td>[[Megapithecus]]</td>
+    <tr><td><code>Dragon</code></td><td>[[Dragon]]</td>
+    <tr><td><code>Manticore</code></td><td>[[Manticore]]</td>
+    <tr><td><code>King Titan</code></td><td>[[King Titan]]</td>
+    <tr><td><code>IceKaiju</code></td><td>[[Ice Titan]]</td>
+    <tr><td><code>ForestKaiju</code></td><td>[[Forest Titan]]</td>
+    <tr><td><code>DesertKaiju</code></td><td>[[Desert Titan]]</td>
+</table>
+It is currently impossible to unlock the modded variants of these bosses thus making it impossible to unlock the mod-specific Tekgrams such as the [[Tek Light (Ragnarok)]], [[Tek Shield (Ragnarok)]], etc. with that command.
+|example = cheat DefeatBoss 0 "King Titan" 2
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DefeatAllBosses
+|arg1 = PlayerId
+|type1 = Integer[32]
+|note1 = The ID of the player to unlock all the alpha bosses (0 for local/single-player profile).
+|cheat = yes
+|added = [[298.3]]
+|description = Unlock all the bosses of alpha difficulty for the player matching the given ID.
+|example = cheat DefeatAllBosses 0
+Would be the equivalence of individually running the [[#DefeatBoss|DefeatBoss]] command for all the available bosses with a difficulty of 2.
+}}
+
+{{ConsoleCommand
+|name = UnlockAllExplorerNotes
+|target = Self
+|cheat = yes
+|added = [[300.0]]
+|description = Unlock all the explorer notes for the player issuing the command. Your client might freeze for a while after performing this command.
+|example = cheat UnlockAllExplorerNotes
+}}
+
 == Dino Commands==
 {{ConsoleCommand
 |name = DestroyAll
@@ -1924,7 +2096,7 @@ See also <code>[[#DoTame|DoTame]]</code>
 |note2 = <code>true</code> or 1: tamed, <code>false</code> or 0: wild
 |description = Spawn a creature of the specified type with a random level in front of the player character.
 
-The NamePart has to be unique enough to specify the desired creature. E.g. "mega" is part of a lot of creature Entity IDs and is not suitable to specify what you want, but "ony" is significant enough to address a Baryonyx.
+The NamePart has to be unique enough to specify the desired creature. E.g. "mega" is part of a lot of creature Entity IDs and is not suitable to specify what you want, but "Griff" is significant enough to address a Griffin.
 
 For a list of all Entity IDs see [[Creature IDs]].
 
@@ -2060,7 +2232,7 @@ See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnDino|SpawnDino]]
 |cheat = yes
 |arg1 = BlueprintPath
 |type1 = String
-|note1 = Blueprint path
+|note1 = Blueprint path, see creature's page or [[Creature IDs]]
 |arg2 = SpawnDistance
 |type2 = Float
 |note2 = Distance in direction of viewing.
@@ -2196,6 +2368,14 @@ Note that SaddleBlueprintPath and DinoStats are string arguments, so if you don'
 |cheat = yes
 |target = Target
 |description = Forces the dino you are riding (or if not riding a dino, the dino you are looking at) to poop
+}}
+
+{{ConsoleCommand
+|name = ClearCryoSickness
+|cheat = yes
+|target = Target
+|description = Clears the cryo-sickness status of the tame you are looking at and wakes it up.
+|added = [[297.17]]
 }}
 
 <div class="fakeh2">Dino specific commands</div>
