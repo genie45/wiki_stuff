@@ -364,7 +364,7 @@ You will need to restart your server, if you add new lines to the file while it 
     <tr><td>Easter</td><td>Allows for the [[ARK: Eggcellent Adventure 3|Easter Event]] to be activated</td></tr>
     <tr><td>Arkaeology</td><td>Allows for the [[ARKaeology|Arkaeology Event]] to be activated.</td></tr>
     <tr><td>ExtinctionChronicles</td><td>Allows for the [[Extinction Chronicles|Extinction Chronicles Event]] to be activated.</td></tr>
-    <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 3|Winter Wonderland 2018 Event]] to be activated.</td></tr>
+    <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 4|Winter Wonderland 2019 Event]] to be activated.</td></tr>
     <tr><td>vday</td><td>Allows for [[ARK: Valentine's Day 4|Valentine's Day Event]] to be activated.</td></tr>
     <tr><td>Summer</td><td>Allows for [[ARK: Summer Bash 2019|Summer Bash 2019 Event]] to be activated.</td></tr>
     <tr><td>FearEvolved</td><td>Allows for [[ARK: Fear Evolved 3]] to be activated.</td></tr>
