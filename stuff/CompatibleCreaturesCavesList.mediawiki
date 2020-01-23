@@ -1,52 +1,3 @@
-{{DisambigMobile|The Middle Chamber}}
-
-
-{{Infobox cave
-| name = Central Cave
-| wideimage = CaveC.jpg
-| description = Cave near the [[Volcano]] in the middle of the Island.
-| interiormap = Central_Cave_Cavemap.jpg
-| lat = 41.5
-| lon = 46.9
-| artifact = Artifact of the Clever
-| artifactLat = 39.6
-| artifactLon = 45.9
-| artifactLevel = 10
-| lootquality = Green, Blue 
-| biome = 
-| temperature = 
-| precipitation = 
-| clothing = 
-}}
-
-The '''Central Cave''' is a cave in the central part of [[The Island]]. The cave contains the {{ItemLink|Artifact of the Clever}}, needed to summon the {{ItemLink|Broodmother Lysrix}}.
-
-==Dangers==
-* Tight corridors which can make fights requiring range a huge problem. Especially dangerous with {{ItemLink|Megalosaurus}} around the corner when using splash damage weapons.
-* Multiple paths that loop back together may cause some players to get lost
-* Large amount of {{ItemLink|Piranha}} in the water section which are difficult to see before being in the water, do not enter water without a strong mount.
-* Cold
-* {{ItemLink|Arthropluera}} acid attack will break Primitive {{ItemLink|Flak Armor}} in 1 - 2 hits.
-* Megalosaurus become active here at night and are fierce opponents with devastating attacks. During the day they are slower and weaker than they are at night, but running into one is still an unpleasant experience.
-
-==Recommended Equipment==
-* {{ItemLink|Chitin Armor}} or better.
-* {{ItemLink|Pike}}  
-* {{ItemLink|Crossbow}} and {{ItemLink|Grappling Hook}}s 
-* {{ItemLink|Cooked Meat}}
-* {{ItemLink|Medical Brew}}
-* {{ItemLink|Stimberry}} or {{ItemLink|Stimulant}}
-* {{ItemLink|Shotgun}} 
-* {{ItemLink|Bug Repellant}}
-* {{ItemLink|Simple Shotgun Ammo}}
-
-==Creatures==
-{{ItemList|Araneo|Arthropluera|Dung Beetle|Megalosaurus|Onyc|Piranha|Pulmonoscorpius|Sarcosuchus|Titanoboa}}
-
-==Way to Artifact==
-Generally speaking the fastest way to the artifact in this cave is by always taking the left way on the way down.
-
-
 ==Compatible Tamed Creatures==
 
 '''Accessibility Ratings:'''
@@ -714,22 +665,3 @@ Generally speaking the fastest way to the artifact in this cave is by always tak
 |
 |-
 |}
-
-==Notes==
-* Probably the easiest cave on [[The Island]]. Many [[Creatures]] can fit inside effortlessly.
-* There is an underwater segment in the artifact room that is NOT necessary to obtain the artifact.
-* Central Cave is also referred to as "Chitin Cave" because of how easy it is to obtain chitin while riding on a [[Sabertooth]], [[Direwolf]] or [[Raptor]].
-* This cave also contains two dossier [[Explorer Notes|Explorer notes]]: The [[Megalodon]] and [[Araneo]].
-* This cave is a common place for [[Megalosaurus]] spawns, making it a prime destination if you wish to tame these animals.
-* Due to tight spaces, fighting on foot is very troublesome. Using Grenades, Shotguns or ranged [[Weapons]] to fight around corners is a good idea. But if you disturb a Megalosaurus in the process, you and your mounts may be in grave danger.
-
-==Gallery==
-<gallery mode="nolines">
-File:CaveCEntrance.jpg|Cave Entrance
-File:CaveC.jpg|Inside the Cave
-File:Central Cave Map.png|old Cavelayout prior to [[254.0]]
-</gallery>
-
-{{Nav Locations}}
-
-[[Category:Caves with tamable creatures|Island]]

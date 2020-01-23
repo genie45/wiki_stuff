@@ -438,6 +438,14 @@ You will need to restart your server, if you add new lines to the file while it 
 |<code>-nodinos</code>
 |PC
 |prevents wild dinos from being spawned<br/>'''NOTE''' you need to wipe dinos (<code>cheat destroywilddinos</code>) after adding this on a not fresh server
+|-
+|<code>-noundermeshchecking</code>
+|PC
+|Will turn it off the anti meshing system entirely<br/>''Introduced in patch [[304.445]]''
+|-
+|<code>-noundermeshkilling</code>
+|PC
+|Will turn off the anti meshing player kills (but still allow teleporting)<br/>''Introduced in patch [[304.445]]''
 |}
 <!--end of command line-->
 
@@ -1565,11 +1573,11 @@ Arguments:
 | <code>attribute</code> || ''integer'' || 
 0: Generic Quality
 <br/>1: Armor
-<br/>2: Max Durability﻿
+<br/>2: Max Durability
 <br/>3: Weapon Damage Percent
 <br/>4: Weapon Clip Ammo
 <br/>5: Hypothermal Insulation
-<br/>6: W﻿eigh﻿﻿﻿t
+<br/>6: Weight
 <br/>7: Hyperthermal Insulation
 |-
 | <code>value</code> || ''integer'' || The algorithm used appears to be the following:
