@@ -1,0 +1,55 @@
+<div id="fp-container">
+    <div id="fp-1" class="fp-section">
+        <div class="fpbox plain" style="text-align: center;" id="fpwelcome">
+            <!-- BEGIN Welcome box-->
+            <div class="mainheading">Welcome to the Official Apex Wiki</div>
+        </div>
+        <!--END Welcome box-->
+        <div class="fpbox" id="fpabout">
+            <!-- BEGIN Welcome and Description box-->
+            {{header|What is Apex?}}
+            lorum ipsum
+        </div>
+        <!--END Welcome and Description box-->
+        <div class="fpbox" id="fpfeatures">
+            <!-- BEGIN Game Features-->
+            {{header|Apex Features}}
+            <div style="padding-left: 1em;">
+                * unique weather
+            </div>
+            <!--END Game Features-->
+            <noinclude>
+        </div>
+    </div>
+    <div id="fp-2" class="fp-section">
+        <div class="fpbox">
+            <!-- BEGIN Patch-->
+            {{header|Current [[Patch Notes]]}}
+            <big>'''PC and Linux'''</big>
+
+            Version: {{currentversion|link}}<br />
+            <div class="mw-collapsible mw-expanded" id="mw-customcollapsible-pc">
+                <div class="mw-collapsible-content">
+                    [<div class="mw-customtoggle-pc pseudo-link" style="display:inline-block;">Show</div>]
+                </div>
+            </div>
+            <div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-pc">
+                <div class="mw-collapsible-content">
+                    [<div class="mw-customtoggle-pc pseudo-link" style="display:inline-block;">Hide</div>]
+                    {{ :{{currentversion}} }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END Patch-->
+    <div id="fp-3" class="fp-section">
+
+    </div>
+
+    <div id="fp-4" class="fp-section">
+
+    </div>
+
+</div>
+__NOTITLE__
+__NOTOC__
