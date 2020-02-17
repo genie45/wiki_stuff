@@ -1,0 +1,68 @@
+{{modNote|Apex}}
+Apex lets you modify the following settings:<br/>
+These settings need to be added to the <code>[Apex]</code> section (if you dont have one you can create it at the bottom) of the <code>GameUserSettings.ini</code> file.
+
+'''NOTE: You don't need to use these settings. The game will use the default values if these settings aren't specified.'''
+
+{| class="wikitable sortable"
+|-
+! Option !! Value Type !! Effect
+|-
+| <code>UseCustomWeatherWeights</code> || ''boolean'' || true{{=}} enable the override as specified below, false {{=}} don't use the override
+|-
+| <code>Month<1-12>TempMin</code> || ''integer'' || sets the lowest temperature on average for that month ('''NOTE''' temperatures change based on elevation and if you are in water)
+|-
+| <code>Month<1-12>TempMax</code> || ''integer'' || sets the maximum temperature on average for that month ('''NOTE''' temperatures change based on elevation and if you are in water)
+|-
+| <code>Month<1-12>RainChance</code> || ''integer'' || sets the chance for rain for that month
+|-
+|}
+Additional Notes: 
+* all temperatures are in °Celsius 
+* a month is 30 in-game days
+* if the temperature is below freezing rain will automaticly become snow
+* you need to specify each seperate as seen in the example below
+* the map is default setup to reflect the [https://www.usclimatedata.com/climate/washington/united-states/3217 climate of Washington state]
+
+===Example:===
+
+ [Apex]
+ UseCustomWeatherWeights=TRUE
+ Month1TempMin=-10
+ Month1TempMax=-30
+ Month1RainChance=30
+ Month2TempMin=10
+ Month2TempMax=19
+ Month2RainChance=30
+ Month3TempMin=10
+ Month3TempMax=30
+ Month3RainChance=100
+ Month4TempMin=20
+ Month4TempMax=30
+ Month4RainChance=30
+ Month5TempMin=-20
+ Month5TempMax=-10
+ Month5RainChance=30
+ Month6TempMin=10
+ Month6TempMax=15
+ Month6RainChance=30
+ Month7TempMin=20
+ Month7TempMax=30
+ Month7RainChance=30
+ Month8TempMin=-10
+ Month8TempMax=-30
+ Month8RainChance=30
+ Month9TempMin=-50
+ Month9TempMax=-45
+ Month9RainChance=30
+ Month10TempMin=60
+ Month10TempMax=65
+ Month10RainChance=30
+ Month11TempMin=0
+ Month11TempMax=10
+ Month11RainChance=30
+ Month12TempMin=-36
+ Month12TempMax=-35
+ Month12RainChance=30
+
+{{Nav Apex}}

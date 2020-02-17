@@ -1,0 +1,20 @@
+<noinclude>{{modNote|Apex}}</noinclude>
+{{Navbox
+| name       = Nav Apex
+| title      = [[Mod:Apex|Apex]]
+| listclass  = hlist
+| state      = {{{state|expanded}}}
+
+| above      = Everything you need to know about Apex.
+
+| group1     = Regions
+| list1      = 
+
+| group2     = Lakes
+| list2      = 
+
+| group3     = Misc
+| list3      = [[Mod:Apex/Configuration|Configuration]]
+
+| below      = 
+}}<noinclude>[[Category:Navigation templates]]</noinclude>
