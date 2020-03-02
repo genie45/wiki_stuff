@@ -1,0 +1,37 @@
+/*Template:Mission*/
+.mission{
+	display:inline-block;
+	vertical-align:top;
+	width:22%;
+	margin:1em;
+}
+
+.mission-main{
+	border:2px solid #00cefa;
+	background: #00718B;
+	color:#BCEEFA !important;
+}
+
+.mission-dif-gamma{
+	color:#4edb17 !important;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.mission-dif-beta{
+	color:#19cff9 !important;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.mission-dif-alpha{
+	color:#f76450 !important;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.mission-dif-none{
+	color:#BCEEFA !important;
+	font-size: larger;
+	font-weight: bolder;
+}

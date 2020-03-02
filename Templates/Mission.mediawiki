@@ -1,0 +1,49 @@
+<includeonly><onlyinclude><div class="mission">
+{|class="mission-main"
+|-
+| [[File:{{{biome|}}} Biome Icon.png|frameless|30px]] || <div class="mission-dif-none">{{{name|}}}</div> 
+|{{#switch: {{{difficulty|}}} 
+|gamma = <div class="mission-dif-gamma"> (Gamma)</div> 
+|beta = <div class="mission-dif-beta"> (Beta)</div> 
+|alpha = <div class="mission-dif-alpha"> (Alpha)</div> 
+| &nbsp;
+}}
+|-
+| colspan{{=}}"3" style="overflow-wrap: break-word;" | {{{description|}}}
+|-
+|GPS: 
+| {{{lat|}}} &nbsp; {{{lon|}}} 
+| {{Console|cheat spi {{{spi|}}} }}
+|-
+|{{#switch: {{{maxplayer|}}} 
+|10 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-10 
+|8 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-8 
+|5 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-5 
+|1 = [[File:Missions_SinglePlayerIcon.png|frameless|30px]] {{!!}} 1 
+|#default = &nbsp; {{!!}} &nbsp;
+}} 
+| style="text-align: right;" |{{{hexagons|}}} &nbsp; [[File:Hexagon Icon.png|frameless|30px]]
+|}</div></onlyinclude></includeonly>
+<noinclude>
+Generates a mission overview 
+===Usage===
+
+<table class="wikitable">
+<tr><td>name</td><td>Ingame name of the Mission</td></tr>
+<tr><td>biome</td><td>Biome this mission is in</td></tr>
+<tr><td>difficulty</td><td>use alpha, beta or gamma</td></tr>
+<tr><td>lat</td><td>GPS coordinate</td></tr>
+<tr><td>lon</td><td>GPS coordinate</td></tr>
+<tr><td>spi</td><td>exact location based on usiage of <code>ccc</code></td></tr>
+<tr><td>maxplayer</td><td>how many player can max enter the misssion (single digit only 1, 5, 8 or 10)</td></tr>
+<tr><td>hexagons</td><td>max amount of hexagons you can get (based on value shown in mission overview tab)</td></tr>
+<tr><td>description</td><td>for the ingame description text</td></tr>
+</table>
+
+
+ <nowiki>{{Mission| biome=Arctic | name=Snow | difficulty=gamma | lat=10 | lon=20 | spi=1545 5448 5451 0 0 | maxplayer=5 | hexagons=10000 | description=something about dinos }}</nowiki>
+will result in 
+{{Mission| biome=Arctic | name=Snow | difficulty=gamma | lat=10 | lon=20 | spi=1545 5448 5451 0 0 | maxplayer=5 | hexagons=10000 |  description=something about dinos }}
+
+
+[[Category:Text templates]]</noinclude>
