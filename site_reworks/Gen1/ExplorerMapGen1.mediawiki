@@ -26,13 +26,13 @@
 |show=obelisk-blue|text.obelisk-blue=Blue Obelisk
 |show=obelisk-green|text.obelisk-green=Green Obelisk
 |showcavetoggle=false
-|show=artifact|text.artifact=Artifact
 |show=cave-entrance|text.cave-entrance=Cave entrance
 |show=poi|text.poi=Point of interest
 |show=wyvern-nest|text.wyvern-nest=Wyvern Nest
 |show=cave-loot|text.cave-loot=Cave loot crate
 |show=sea-loot|text.sea-loot=Deep sea loot crate
 |show=crate|text.crate=Beacon loot crate
+|show=glitch|text.glitch=Glitch
 }}</div>
 {{ResourceMap|id=genx
 | map=Genesis_Map.jpg
@@ -43,7 +43,6 @@
 | borderCoordLeft = 0
 | borderCoordRight = 100.0
 | caption = Exploration spot locations on Genesis Part 1
-| marker artifact = 10
 | marker cave-entrance = 10
 | marker poi = 14
 | marker wyvern-nest = 7
@@ -60,6 +59,156 @@
 | marker crate c031525354560 = 15
 | marker crate c03152535456070 = 15
 | marker crate c456070 = 15
+|78.6, 16.4, glitch
+|74.5, 76.5, glitch
+|18.9, 47.4, glitch
+|60.2, 59.5, glitch
+|67.5, 25.8, glitch
+|62.7, 30.7, glitch
+|70.8, 28.7, glitch
+|73.7, 25.2, glitch
+|82.2, 18.8, glitch
+|57.7, 61.8, glitch
+|86.2, 15.3, glitch
+|70.1, 31.1, glitch
+|42.8, 73.6, glitch
+|20.7, 55.0, glitch
+|33.1, 66.9, glitch
+|35.1, 86.6, glitch
+|19.8, 72.8, glitch
+|21.2, 85.4, glitch
+|40.8, 73.7, glitch
+|42.3, 67.8, glitch
+|30.9, 81.9, glitch
+|30.7, 56.2, glitch
+|13.7, 87.1, glitch
+|35.1, 54.0, glitch
+|18.4, 56.4, glitch
+|73.3, 27.3, glitch
+|66.2, 21.3, glitch
+|22.2, 69.6, glitch
+|70.6, 33.4, glitch
+|85.0, 37.1, glitch
+|68.1, 59.8, glitch
+|73.5, 76.9, glitch
+|40.8, 38.2, glitch
+|72.5, 43.4, glitch
+|48.4, 73.6, glitch
+|25.9, 58.0, glitch
+|41.6, 75.9, glitch
+|37.3, 86.2, glitch
+|17.1, 71.3, glitch
+|28.5, 80.6, glitch
+|28.3, 74.0, glitch
+|24.3, 13.7, glitch
+|12.4, 38.8, glitch
+|40.9, 12.7, glitch
+|68.0, 21.9, glitch
+|43.3, 80.7, glitch
+|31.4, 56.7, glitch
+|48.8, 18.0, glitch
+|71.9, 69.4, glitch
+|43.6, 76.1, glitch
+|75.3, 75.8, glitch
+|21.8, 69.2, glitch
+|79.4, 72.6, glitch
+|34.5, 51.0, glitch
+|44.6, 85.5, glitch
+|26.9, 77.2, glitch
+|47.5, 66.8, glitch
+|35.9, 45.7, glitch
+|43.4, 35.2, glitch
+|18.4, 37.4, glitch
+|21.4, 14.5, glitch
+|50.9, 13.9, glitch
+|84.2, 74.8, glitch
+|49.7, 29.2, glitch
+|34.3, 32.1, glitch
+|37.3, 24.5, glitch
+|70.9, 75.1, glitch
+|73.7, 83.7, glitch
+|66.5, 85.0, glitch
+|71.1, 76.8, glitch
+|39.1, 47.1, glitch
+|40.2, 56.3, glitch
+|36.4, 49.3, glitch
+|47.1, 14.1, glitch
+|31.8, 57.3, glitch
+|18.9, 51.8, glitch
+|23.1, 51.3, glitch
+|32.2, 46.2, glitch
+|80.6, 26.7, glitch
+|71.2, 19.5, glitch
+|76.4, 28.1, glitch
+|61.3, 37.5, glitch
+|82.6, 42.0, glitch
+|75.7, 53.1, glitch
+|22.3, 31.3, glitch
+|61.4, 33.0, glitch
+|32.2, 48.5, glitch
+|17.3, 87.9, glitch
+|36.7, 72.4, glitch
+|83.5, 60.6, glitch
+|72.6, 70.0, glitch
+|67.2, 78.2, glitch
+|66.2, 67.5, glitch
+|32.7, 59.0, glitch
+|33.1, 51.9, glitch
+|21.6, 26.0, glitch
+|28.8, 60.6, glitch
+|33.3, 51.4, glitch
+|75.5, 46.2, glitch
+|32.8, 32.9, glitch
+|28.2, 80.3, glitch
+|38.5, 24.6, glitch
+|50.5, 27.8, glitch
+|23.6, 25.7, glitch
+|26.4, 32.7, glitch
+|27.0, 27.6, glitch
+|30.2, 35.4, glitch
+|31.9, 14.8, glitch
+|33.9, 19.3, glitch
+|47.4, 23.7, glitch
+|29.2, 48.1, glitch
+|34.3, 45.3, glitch
+|26.7, 51.1, glitch
+|23.8, 48.8, glitch
+|21.8, 50.3, glitch
+|21.0, 51.0, glitch
+|20.2, 50.1, glitch
+|32.3, 37.7, glitch
+|15.9, 47.5, glitch
+|15.4, 74.5, glitch
+|85.5, 30.8, glitch
+|57.2, 69.2, glitch
+|61.5, 74.8, glitch
+|28.8, 47.8, glitch
+|73.1, 30.9, glitch
+|67.2, 32.8, glitch
+|12.4, 76.3, glitch
+|82.3, 21.4, glitch
+|26.5, 19.3, glitch
+|35.7, 77.5, glitch
+|27.9, 66.7, glitch
+|25.3, 77.3, glitch
+|50.8, 31.1, glitch
+|69.9, 77.0, glitch
+|67.8, 72.9, glitch
+|66.4, 75.3, glitch
+|64.2, 74.7, glitch
+|71.6, 75.4, glitch
+|72.5, 76.6, glitch
+|34.2, 26.8, glitch
+|64.1, 37.5, glitch
+|59.8, 61.1, glitch
+|73.1, 84.9, glitch
+|63.8, 76.5, glitch
+|79.9, 34.9, glitch
+|46.4, 21.5, glitch
+|57.4, 84.8, glitch
+|74.7, 30.5, glitch
+|70.2, 76.6, glitch
+|77.0, 21.7, glitch
 }}
 </div>
 

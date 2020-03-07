@@ -8,9 +8,9 @@ For an '''interactive map''' of Explorer Notes and other collectibles, see the f
 |- style="vertical-align:top;"
 | [[File:ExplorerNotesTheIslandThumbnail.png|frame|none|link=Explorer Map (The Island)|The Island]] 
 | [[File:ExplorerNotesScorchedEarthThumbnail.png|frame|none|link=Explorer Map (Scorched Earth)|Scorched Earth]]
-| [[File:Aberration Map.jpg|frame|150px|none|link=Explorer Map (Aberration)|Aberration]]
-| [[File:Extinction Map.jpg|frame|150px|none|link=Explorer Map (Extinction)|Extinction]]
-| [[File:Genesis_Map.jpg|frame|150px|none|link=Explorer Map (Genesis Part 1)|Genesis Part 1]]
+| [[File:Aberration Map.jpg|thumb|150px|none|link=Explorer Map (Aberration)|Aberration]]
+| [[File:Extinction Map.jpg|thumb|150px|none|link=Explorer Map (Extinction)|Extinction]]
+| [[File:Genesis_Map.jpg|thumb|150px|none|link=Explorer Map (Genesis Part 1)|Genesis Part 1]]
 |}
 
 <div style="display:inline-block;vertical-align:top;margin:10px">
