@@ -1,0 +1,61 @@
+{{DisambigMsg|locations of resource nodes on Genesis Part 1|locations of explorer notes, caves, artifacts, and beacons|Explorer Map (Genesis Part 1)}}
+{{#widget:MapStyles}}
+<div class="mobileonly">Mobile App users need to view this page in a browser to use the map fully.</div>
+<div id="top-notice" class="notice">
+{| align=left style="height:70px; margin:5px;"
+| |[[File:Note.png|100x100px|link=]]<div class="top-notice-image">[[File:Magnifying Glass.png|100x100px|link=]]</div>
+| class="top-notice-text" |'''To use this map,'''
+:'''select from the resources to display on the left.'''
+|}
+</div><div class="full-container"><div class="legend-container">
+<div id="legend-notice" class="notice">'''Important Notice:'''<br/>For any resource found in caves, its underground cave nodes are also displayed on the map.</div>
+{{#widget:MapLegend|id=genesis
+|showcavetoggle=false
+|showobelisks=false
+|show=obelisk-red|text.obelisk-red=Red Obelisk
+|show=obelisk-blue|text.obelisk-blue=Blue Obelisk
+|show=obelisk-green|text.obelisk-green=Green Obelisk
+|show=crystal|text.crystal=Crystal
+|show=metal|text.metal=Metal
+|show=metal-rich|text.metal-rich=Rich Metal
+|show=metal-underwater|text.metal-underwater=Underwater Metal
+|noshow=river-rock|text.river-rock=River Rock (with small amount of metal)
+|show=obsidian|text.obsidian=Obsidian
+|show=oil-rock|text.oil-rock=Oil Rock
+|show=oil-vein|text.oil-vein=Oil Vein
+|show=oil-vent|text.water-vein=Oil Vent
+|show=silica|text.silica=Silica Pearls
+|show=black-pearl|text.black-pearl=Black Pearl
+|show=salt|text.salt=Raw Salt
+|show=sulfur|text.sulfur=Sulfur
+|show=oxy-vents|text.cactus=Oxygen Vent
+}}</div>
+{{ResourceMap|id=genesis
+| map= Genesis_Map.jpg
+| float = right
+| mapsize = 800
+| borderCoordTop = 0
+| borderCoordBottom = 100
+| borderCoordLeft = 0
+| borderCoordRight = 100
+| caption = Strategic Resource locations on Genesis Part 1
+| marker obelisk-red = 20
+| marker obelisk-blue = 20
+| marker obelisk-green = 20
+| marker oil-vent = 7
+| marker oil-vein = 7
+| marker sulfur = 7
+| marker sulfur cave = 7
+| marker salt = 7
+| marker oxy-vents = 7
+| 12.3, 77.2, oil-vein
+| 14.7, 66.4, oil-vein
+| 48.1, 67.5, oil-vein
+| 
+|
+|
+}}
+</div>
+
+{{Nav resource maps}}
+[[Category:Resource maps]]

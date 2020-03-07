@@ -1,0 +1,1840 @@
+== Note Locations ==
+All available explorer notes except 11 are listed below. The other 11 are the [[:Category:Bosses|boss]] dossiers, obtained by defeating each of the bosses. There are currently two creatures with an unobtainable dossier, these being the Griffin from Ragnarok and the Deinonychus from Valguero.
+
+For an '''interactive map''' of Explorer Notes and other collectibles, see the following pages: 
+
+===Canon Explorer Notes===
+{|
+|- style="vertical-align:top;"
+| [[File:ExplorerNotesTheIslandThumbnail.png|frame|none|link=Explorer Map (The Island)|The Island]] 
+| [[File:ExplorerNotesScorchedEarthThumbnail.png|frame|none|link=Explorer Map (Scorched Earth)|Scorched Earth]]
+| [[File:Aberration Map.jpg|frame|150px|none|link=Explorer Map (Aberration)|Aberration]]
+| [[File:Extinction Map.jpg|frame|150px|none|link=Explorer Map (Extinction)|Extinction]]
+| [[File:Genesis_Map.jpg|frame|150px|none|link=Explorer Map (Genesis Part 1)|Genesis Part 1]]
+|}
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+==== The Island ====
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Dossier || {{ItemLink|Achatina}} || [[Explorer Notes#Helena Walker|Helena]] || 75.8 || 78.2 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Allosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 16.4 || 10.9 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Ammonite}} || [[Explorer Notes#Helena Walker|Helena]] || 87.5 || 51.4 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Anglerfish}} || [[Explorer Notes#Helena Walker|Helena]] || 24.6 || 40.1 || [[Northern Plains]]
+|-
+| Dossier || {{ItemLink|Ankylosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 15.8 || 26.7 || [[Whitesky Peak]]
+|-
+| Dossier || {{ItemLink|Araneo}} || [[Explorer Notes#Helena Walker|Helena]] || 39.6 || 45.8 || [[Central Cave]]
+|-
+| Dossier || {{ItemLink|Archaeopteryx}} || [[Explorer Notes#Helena Walker|Helena]] || 18.7 || 42.8 || [[Winter's Mouth]] hidden behind a waterfall
+|-
+| Dossier || {{ItemLink|Argentavis}} || [[Explorer Notes#Helena Walker|Helena]] || 21.6 || 53.9 || [[Winter's Mouth]]
+|-
+| Dossier || {{ItemLink|Arthropleura}} || [[Explorer Notes#Helena Walker|Helena]] || 14.2 || 69.1 || [[Northern Shores]]
+|-
+| Dossier || {{ItemLink|Baryonyx}} || [[Explorer Notes#Helena Walker|Helena]] || 30 || 78.1 || [[Far's Peak]]
+|-
+| Dossier || {{ItemLink|Basilosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 52.5 || 17.7 || [[The Western Approach]]
+|-
+| Dossier || {{ItemLink|Giant Bee|Bee}} || [[Explorer Notes#Helena Walker|Helena]] || 70.7 || 61.1 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Beelzebufo}} || [[Explorer Notes#Helena Walker|Helena]] || 14.8 || 81.4 || [[The Dead Island]]
+|-
+| Dossier || {{ItemLink|Brontosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 31.6 || 17.1 || [[Whitesky Peak]]
+|-
+| Dossier || {{ItemLink|Carbonemys}} || [[Explorer Notes#Helena Walker|Helena]] || 10.9 || 40.4 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Carnotaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 33.3 || 41 || [[The Grand Hills]]
+|-
+| Dossier || {{ItemLink|Castoroides}} || [[Explorer Notes#Helena Walker|Helena]] || 25.1 || 71.8 || [[The Hidden Lake]]
+|-
+| Dossier || {{ItemLink|Chalicotherium}} || [[Explorer Notes#Helena Walker|Helena]] || 31.3 || 28.9 || [[Whitesky Peak]]
+|-
+| Dossier || {{ItemLink|Cnidaria}} || [[Explorer Notes#Helena Walker|Helena]] || 49.8 || 81.7 || [[The Caverns of Lost Hope]]
+|-
+| Dossier || {{ItemLink|Coelacanth}} || [[Explorer Notes#Helena Walker|Helena]] || 37 || 49.9 || [[The Maw]]
+|-
+| Dossier || {{ItemLink|Compy}} || [[Explorer Notes#Helena Walker|Helena]] || 41.2 || 49.2 || [[The Grand Hills]]
+|-
+| Dossier || {{ItemLink|Daeodon}} || [[Explorer Notes#Helena Walker|Helena]] || 88.1 || 53 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Dilophosaur}} || [[Explorer Notes#Helena Walker|Helena]] || 84.3 || 10.2 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Dimetrodon}} || [[Explorer Notes#Helena Walker|Helena]] || 28.5 || 74.2 || [[Far's Peak]]
+|-
+| Dossier || {{ItemLink|Dimorphodon}} || [[Explorer Notes#Helena Walker|Helena]] || 26.6 || 70.6 || [[The Hidden Lake]]
+|-
+| Dossier || {{ItemLink|Diplocaulus}} || [[Explorer Notes#Helena Walker|Helena]] || 27.6 || 82.6 ||[[Northern Shores]]
+|-
+| Dossier || {{ItemLink|Diplodocus}} || [[Explorer Notes#Helena Walker|Helena]] || 25.1 || 13.5 || [[Whitesky Peak]]
+|-
+| Dossier || {{ItemLink|Dire Bear}} || [[Explorer Notes#Helena Walker|Helena]] || 40.4 || 83.8 ||[[The Eastern Forest]]
+|-
+| Dossier || {{ItemLink|Direwolf}} || [[Explorer Notes#Helena Walker|Helena]] || 42.5 || 20.8 || [[The Western Plains]]
+|-
+| Dossier || {{ItemLink|Dodo}} || [[Explorer Notes#Helena Walker|Helena]] || 56.7 || 21.4 || [[The Western Approach]]
+|-
+| Dossier || {{ItemLink|Doedicurus}} || [[Explorer Notes#Helena Walker|Helena]] || 47 || 27.5 || [[The Western Plains]]
+|-
+| Dossier || {{ItemLink|Dung Beetle}} || [[Explorer Notes#Helena Walker|Helena]] || 16.5 || 85 || [[The Dead Island]]
+|-
+| Dossier || {{ItemLink|Dunkleosteus}} || [[Explorer Notes#Helena Walker|Helena]] || 44 || 55.2 || [[The Maw]]
+|-
+| Dossier || {{ItemLink|Electrophorus}} || [[Explorer Notes#Helena Walker|Helena]] || 36.4 || 81.4 || [[Far's Peak]]
+|-
+| Dossier || {{ItemLink|Equus}} || [[Explorer Notes#Helena Walker|Helena]] || 63.6 || 33.4 || [[The Redwood Forests]]
+|-
+| Dossier || {{ItemLink|Eurypterid}} || [[Explorer Notes#Helena Walker|Helena]] || 44.1 || 49 || [[The Maw]]
+|-
+| Dossier || {{ItemLink|Gallimimus}} || [[Explorer Notes#Helena Walker|Helena]] || 45.6 || 62.3 || [[The Maw]]
+|-
+| Dossier || {{ItemLink|Giganotosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 44 || 66.4 || [[Smuggler's Pass]]
+|-
+| Dossier || {{ItemLink|Gigantopithecus}} || [[Explorer Notes#Helena Walker|Helena]] || 26.6 || 23.6 || [[Whitesky Peak]]
+|-
+| Dossier || {{ItemLink|Hesperornis}} || [[Explorer Notes#Helena Walker|Helena]] || 81.7 || 84.1 ||[[:en:South Haven|South Haven]]
+|-
+| Dossier || {{ItemLink|Hyaenodon}} || [[Explorer Notes#Helena Walker|Helena]] || 80.9 || 81.9 ||[[Southeast Shores|Southeastern Shores]]
+|-
+| Dossier || {{ItemLink|Ichthyornis}} || [[Explorer Notes#Helena Walker|Helena]] || 72.8 || 64.5 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Ichthyosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 52.9 || 79.8 ||[[Southeast Shores|Southeastern Shores]]
+|-
+| Dossier || {{ItemLink|Iguanodon}} || [[Explorer Notes#Helena Walker|Helena]] || 62.4 || 24.7 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Kairuku}} || [[Explorer Notes#Helena Walker|Helena]] || 42.5 || 79.6 || [[The Eastern Forest]]
+|-
+| Dossier || {{ItemLink|Kaprosuchus}} || [[Explorer Notes#Helena Walker|Helena]] || 82.9 || 51.9 || [[Lower South Cave]]
+|-
+| Dossier || {{ItemLink|Kentrosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 78.3 || 23.6 ||[[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Leech}} || [[Explorer Notes#Helena Walker|Helena]] || 85.3 || 53.4 || [[Lower South Cave]]
+|-
+| Dossier || {{ItemLink|Leedsichthys}} || [[Explorer Notes#Helena Walker|Helena]] || 83.1 || 23.5 || [[Cragg's Island]]
+|-
+| Dossier || {{ItemLink|Liopleurodon}} || [[Explorer Notes#Helena Walker|Helena]] || 78.2 || 24.4 ||[[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Lystrosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 68.6 || 59.3 || [[Upper South Cave]]
+|-
+| Dossier || {{ItemLink|Mammoth}} || [[Explorer Notes#Helena Walker|Helena]] || 71.3 || 59.8 || [[Upper South Cave]]
+|-
+| Dossier || {{ItemLink|Manta}} || [[Explorer Notes#Helena Walker|Helena]] || 68.9 || 86.2 || [[South East Cave]]
+|-
+| Dossier || {{ItemLink|Megalania}} || [[Explorer Notes#Helena Walker|Helena]] || 84.4 || 84.1 ||[[:en:South Haven|South Haven]]
+|-
+| Dossier || {{ItemLink|Megaloceros}} || [[Explorer Notes#Helena Walker|Helena]] || 67.5 || 85.6 || [[South East Cave]]
+|-
+| Dossier || {{ItemLink|Megalodon}} || [[Explorer Notes#Helena Walker|Helena]] || 41 || 47.3 || [[Central Cave]]
+|-
+| Dossier || {{ItemLink|Megalosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 16.6 || 84.1 || [[North East Cave]]
+|-
+| Dossier || {{ItemLink|Meganeura}} || [[Explorer Notes#Helena Walker|Helena]] || 54.3 || 41.4 || [[The Redwood Forests]]
+|-
+| Dossier || {{ItemLink|Megatherium}} || [[Explorer Notes#Helena Walker|Helena]] || 75 || 21.4 || [[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Mesopithecus}} || [[Explorer Notes#Helena Walker|Helena]] || 16.1 || 84.4 || [[North East Cave]]
+|-
+| Dossier || {{ItemLink|Microraptor}} || [[Explorer Notes#Helena Walker|Helena]] || 48.5 || 21.6 || [[The Western Approach]]
+|-
+| Dossier || {{ItemLink|Mosasaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 16.4 || 84.5 || [[North East Cave]]
+|-
+| Dossier || {{ItemLink|Moschops}} || [[Explorer Notes#Helena Walker|Helena]] || 64.3 || 17.4 || [[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Onyc}} || [[Explorer Notes#Helena Walker|Helena]] || 66.4 || 19.7 || [[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Otter}} || [[Explorer Notes#Helena Walker|Helena]] || 35.7 || 59.1 || [[The Frozen Tooth]]
+|-
+| Dossier || {{ItemLink|Oviraptor}} || [[Explorer Notes#Helena Walker|Helena]] || 58.9 || 23.1 || [[The Western Approach]]
+|-
+| Dossier || {{ItemLink|Ovis}} || [[Explorer Notes#Helena Walker|Helena]] || 73.3 || 74.1 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Pachy}} || [[Explorer Notes#Helena Walker|Helena]] || 65.5 || 40.8 || [[The Redwood Forests]]
+|-
+| Dossier || {{ItemLink|Pachyrhinosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 77.6 || 20.7 || [[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Paraceratherium}} || [[Explorer Notes#Helena Walker|Helena]] || 65.1 || 31.4 || [[The Redwood Forests]]
+|-
+| Dossier || {{ItemLink|Parasaur}} || [[Explorer Notes#Helena Walker|Helena]] || 71.5 || 32.1 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Pegomastax}} || [[Explorer Notes#Helena Walker|Helena]] || 82.2 || 62.9 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Pelagornis}} || [[Explorer Notes#Helena Walker|Helena]] || 71.3 || 47.2 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Phiomia}} || [[Explorer Notes#Helena Walker|Helena]] || 72.5 || 53.8 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Piranha}} || [[Explorer Notes#Helena Walker|Helena]] || 68.1 || 67.6 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Plesiosaur}} || [[Explorer Notes#Helena Walker|Helena]] || 68.4 || 59.5 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Procoptodon}} || [[Explorer Notes#Helena Walker|Helena]] || 72.3 || 78.2 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Pteranodon}} || [[Explorer Notes#Helena Walker|Helena]] || 66.9 || 76.8 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Pulmonoscorpius}} || [[Explorer Notes#Helena Walker|Helena]] || 80.6 || 61.9 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Purlovia}} || [[Explorer Notes#Helena Walker|Helena]] || 36.6 || 34.9 || [[The Grand Hills]]
+|-
+| Dossier || {{ItemLink|Quetzal}} || [[Explorer Notes#Helena Walker|Helena]] || 87.4 || 23.3 || [[Cragg's Island]]
+|-
+| Dossier || {{ItemLink|Raptor}} || [[Explorer Notes#Helena Walker|Helena]] || 86.8 || 25 || [[Cragg's Island]]
+|-
+| Dossier || {{ItemLink|Rex}} || [[Explorer Notes#Helena Walker|Helena]] || 53.1 || 92.5 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Sabertooth}} || [[Explorer Notes#Helena Walker|Helena]] || 77.1 || 26.1 || [[Southern Jungle]]
+|-
+| Dossier || {{ItemLink|Sabertooth Salmon}} || [[Explorer Notes#Helena Walker|Helena]] || 87.5 || 52.5 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Sarco}} || [[Explorer Notes#Helena Walker|Helena]] || 77.9 || 42.9 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Spino}} || [[Explorer Notes#Helena Walker|Helena]] || 75.7 || 79.8 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Stegosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 78.3 || 79.1 || [[Southeast Shores]]
+|-
+| Dossier || {{ItemLink|Tapejara}} || [[Explorer Notes#Helena Walker|Helena]] || 62.3 || 40.2 || [[Swamp Cave]]
+|-
+| Dossier || {{ItemLink|Terror Bird}} || [[Explorer Notes#Helena Walker|Helena]] || 62.2 || 40.9 || [[Swamp Cave]]
+|-
+| Dossier || {{ItemLink|Therizinosaur}} || [[Explorer Notes#Helena Walker|Helena]] || 67.6 || 48.5 ||[[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Thylacoleo}} || [[Explorer Notes#Helena Walker|Helena]] || 32.4 || 66.2 || [[The Frozen Tooth]]
+|-
+| Dossier || {{ItemLink|Titanoboa}} || [[Explorer Notes#Helena Walker|Helena]] || 36.1 || 92 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Titanomyrma}} || [[Explorer Notes#Helena Walker|Helena]] || 49.3 || 11.1 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Titanosaur}} || [[Explorer Notes#Helena Walker|Helena]] || 61.8 || 40.7 || [[Swamp Cave]]
+|-
+| Dossier || {{ItemLink|Triceratops}} || [[Explorer Notes#Helena Walker|Helena]] || 87.4 || 91 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Trilobite}} || [[Explorer Notes#Helena Walker|Helena]] || 11 || 22.1 || [[Caves|Underwater Cave]]
+|-
+| Dossier || {{ItemLink|Troodon}} || [[Explorer Notes#Helena Walker|Helena]] || 75 || 78.8 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Tusoteuthis}} || [[Explorer Notes#Helena Walker|Helena]] || 59.9 || 21.3 || [[The Caverns of Lost Faith]]
+|-
+| Dossier || {{ItemLink|Woolly Rhino}} || [[Explorer Notes#Helena Walker|Helena]] || 79.2 || 32.3 || [[The Footpaw]]
+|-
+| Dossier || {{ItemLink|Yutyrannus}} || [[Explorer Notes#Helena Walker|Helena]] || 73.9 || 23.6 || [[Southern Jungle]]
+|-
+| Note || [[Explorer Notes#Helena Note #1 (The Island)|Note #1]] || [[Explorer Notes#Helena Walker|Helena]] || 8.5 || 90.9 || [[Caves|Underwater Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #2 (The Island)|Note #2]] || [[Explorer Notes#Helena Walker|Helena]] || 91.8 || 71.3 || [[Caves|Underwater Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #3 (The Island)|Note #3]] || [[Explorer Notes#Helena Walker|Helena]] || 91 || 36.2 || [[Caves|Underwater Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #4 (The Island)|Note #4]] || [[Explorer Notes#Helena Walker|Helena]] || 90.6 || 13.1 || [[Caves|Underwater Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #5 (The Island)|Note #5]] || [[Explorer Notes#Helena Walker|Helena]] || 81.5 || 44.7 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #6 (The Island)|Note #6]] || [[Explorer Notes#Helena Walker|Helena]] || 77.2 || 76.4 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #7 (The Island)|Note #7]] || [[Explorer Notes#Helena Walker|Helena]] || 78.8 || 27.7 || [[The Footpaw]]
+|-
+| Note || [[Explorer Notes#Helena Note #8 (The Island)|Note #8]] || [[Explorer Notes#Helena Walker|Helena]] || 61.2 || 81.5 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #9 (The Island)|Note #9]] || [[Explorer Notes#Helena Walker|Helena]] || 49.4 || 79.2 || [[The Caverns of Lost Hope]]
+|-
+| Note || [[Explorer Notes#Helena Note #10 (The Island)|Note #10]] || [[Explorer Notes#Helena Walker|Helena]] || 52.4 || 59 || [[The Redwood Forests]]
+|-
+| Note || [[Explorer Notes#Helena Note #11 (The Island)|Note #11]] || [[Explorer Notes#Helena Walker|Helena]] || 69.8 || 61.4 || [[Upper South Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #12 (The Island)|Note #12]] || [[Explorer Notes#Helena Walker|Helena]] || 84.1 || 52.1 || [[Lower South Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #13 (The Island)|Note #13]] || [[Explorer Notes#Helena Walker|Helena]] || 55.2 || 27.7 || [[The Western Approach]]
+|-
+| Note || [[Explorer Notes#Helena Note #14 (The Island)|Note #14]] || [[Explorer Notes#Helena Walker|Helena]] || 26.3 || 62.9 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #15 (The Island)|Note #15]] || [[Explorer Notes#Helena Walker|Helena]] || 34.1 || 56.1 || [[The Frozen Tooth]]
+|-
+| Note || [[Explorer Notes#Helena Note #16 (The Island)|Note #16]] || [[Explorer Notes#Helena Walker|Helena]] || 40.7 || 26.1 || [[The Western Plains]]
+|-
+| Note || [[Explorer Notes#Helena Note #17 (The Island)|Note #17]] || [[Explorer Notes#Helena Walker|Helena]] || 76.8 || 77.3 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #18 (The Island)|Note #18]] || [[Explorer Notes#Helena Walker|Helena]] || 76.6 || 70.7 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #19 (The Island)|Note #19]] || [[Explorer Notes#Helena Walker|Helena]] || 25.1 || 44.6 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #20 (The Island)|Note #20]] || [[Explorer Notes#Helena Walker|Helena]] || 19.2 || 49.9 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #21 (The Island)|Note #21]] || [[Explorer Notes#Helena Walker|Helena]] || 12.6 || 49.3 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #22 (The Island)|Note #22]] || [[Explorer Notes#Helena Walker|Helena]] || 24.9 || 60.9 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #23 (The Island)|Note #23]] || [[Explorer Notes#Helena Walker|Helena]] || 23.9 || 65.3 || [[Smuggler's Pass]]
+|-
+| Note || [[Explorer Notes#Helena Note #24 (The Island)|Note #24]] || [[Explorer Notes#Helena Walker|Helena]] || 28.9 || 23.2 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Helena Note #25 (The Island)|Note #25]] || [[Explorer Notes#Helena Walker|Helena]] || 36.2 || 22.4 || [[The Western Plains]]
+|-
+| Note || [[Explorer Notes#Helena Note #26 (The Island)|Note #26]] || [[Explorer Notes#Helena Walker|Helena]] || 27.7 || 56.4 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Helena Note #27 (The Island)|Note #27]] || [[Explorer Notes#Helena Walker|Helena]] || 26 || 25.6 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Helena Note #28 (The Island)|Note #28]] || [[Explorer Notes#Helena Walker|Helena]] || 22.3 || 23.4 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Helena Note #29 (The Island)|Note #29]] || [[Explorer Notes#Helena Walker|Helena]] || 16.3 || 81.2 || [[The Dead Island]]
+|-
+| Note || [[Explorer Notes#Helena Note #30 (The Island)|Note #30]] || [[Explorer Notes#Helena Walker|Helena]] || 19.2 || 77.1 || [[Tek Cave]] ascension area
+|-
+| Record || [[Explorer Notes#Rockwell Record #1 (The Island)|Record #1]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 25.3 || 73.1 || [[The Hidden Lake]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #2 (The Island)|Record #2]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 83.2 || 24.8 || [[Cragg's Island]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #3 (The Island)|Record #3]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 54.8 || 13.8 || [[The Western Coast]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #4 (The Island)|Record #4]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 14.1 || 85.9 || [[The Dead Island]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #5 (The Island)|Record #5]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 21.3 || 69.2 || [[The Hidden Lake]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #6 (The Island)|Record #6]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 46.4 || 83.7 || [[The Caverns of Lost Hope]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #7 (The Island)|Record #7]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.1 || 81.4 || [[The Eastern Forest]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #8 (The Island)|Record #8]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 64.5 || 34.1 || [[The Redwood Forests]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #9 (The Island)|Record #9]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 61.7 || 16.1 || [[The Caverns of Lost Faith]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #10 (The Island)|Record #10]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 75.7 || 71.5 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #11 (The Island)|Record #11]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 80 || 67.1 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #12 (The Island)|Record #12]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 82.6 || 51.3 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #13 (The Island)|Record #13]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 64.1 || 61.6 ||[[The Writhing Swamps]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #14 (The Island)|Record #14]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 58.6 || 49 || [[The Red Peak]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #15 (The Island)|Record #15]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 70.2 || 32 ||[[The Writhing Swamps]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #16 (The Island)|Record #16]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 69.5 || 24.8 ||[[The Writhing Swamps]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #17 (The Island)|Record #17]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 40.8 || 47.7 || [[Central Cave]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #18 (The Island)|Record #18]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 68.7 || 86.1 || [[South East Cave]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #19 (The Island)|Record #19]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 83.8 || 27.7 || [[Cragg's Island]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #20 (The Island)|Record #20]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 86.4 || 26.7 || [[Cragg's Island]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #21 (The Island)|Record #21]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 77.1 || 31.6 || [[The Footpaw]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #22 (The Island)|Record #22]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 76 || 46.7 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #23 (The Island)|Record #23]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 75.5 || 74 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #24 (The Island)|Record #24]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 76.5 || 68.1 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #25 (The Island)|Record #25]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 75 || 65.6 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #26 (The Island)|Record #26]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 75.8 || 75.5 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #27 (The Island)|Record #27]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 20.1 || 85.9 || [[The Dead Island]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #28 (The Island)|Record #28]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 78.3 || 47.3 || [[Southern Islets]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #29 (The Island)|Record #29]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 14.2 || 75.6 || [[Tek Cave]] ascension area
+|-
+| Note || [[Explorer Notes#Mei Yin Note #1 (The Island)|Note #1]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 25 || 18.9 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #2 (The Island)|Note #2]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 15.2 || 20.7 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #3 (The Island)|Note #3]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 15.8 || 52.5 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #4 (The Island)|Note #4]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 19.8 || 30.1 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #5 (The Island)|Note #5]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 26.6 || 16.4 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #6 (The Island)|Note #6]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 16.8 || 29 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #7 (The Island)|Note #7]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 21.3 || 30 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #8 (The Island)|Note #8]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 32.5 || 16.1 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #9 (The Island)|Note #9]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 47.2 || 81.6 || [[The Caverns of Lost Hope]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #10 (The Island)|Note #10]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 27.3 || 43.9 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #11 (The Island)|Note #11]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 20.5 || 40.8 || [[Northern Plains]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #12 (The Island)|Note #12]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 12.8 || 54.5 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #13 (The Island)|Note #13]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 21.3 || 40.9 || [[Northern Plains]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #14 (The Island)|Note #14]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 15.3 || 53.2 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #15 (The Island)|Note #15]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 26.8 || 39.7 || [[Northern Plains]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #16 (The Island)|Note #16]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 34.4 || 29.4 || [[The Western Plains]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #17 (The Island)|Note #17]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 28 || 33.9 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #18 (The Island)|Note #18]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 26.6 || 51.7 || [[Winter's Mouth]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #19 (The Island)|Note #19]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 39 || 44.1 || [[The Grand Hills]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #20 (The Island)|Note #20]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 39.1 || 71.1 || [[Northern Shores]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #21 (The Island)|Note #21]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 32.4 || 73.3 || [[Far's Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #22 (The Island)|Note #22]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 30.1 || 82.4 || [[Far's Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #23 (The Island)|Note #23]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 40.2 || 78.8 || [[The Eastern Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #24 (The Island)|Note #24]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 50.5 || 23.3 || [[The Western Approach]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #25 (The Island)|Note #25]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 42.6 || 23 || [[The Western Plains]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #26 (The Island)|Note #26]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 52.4 || 17.4 || [[The Western Approach]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #27 (The Island)|Note #27]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 22.1 || 9.7 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #28 (The Island)|Note #28]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 23.5 || 37.8 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #29 (The Island)|Note #29]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 18.2 || 38 || [[Whitesky Peak]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #30 (The Island)|Note #30]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 39.9 || 40.6 || [[The Grand Hills]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #31 (The Island)|Note #31]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 13.3 || 73.9 || [[Tek Cave]] ascension area
+|-
+| Note || [[Explorer Notes#Nerva Note #1 (The Island)|Note #1]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 22.4 || 68.5 || [[The Hidden Lake]]
+|-
+| Note || [[Explorer Notes#Nerva Note #2 (The Island)|Note #2]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 35.7 || 78.1 || [[Far's Peak]]
+|-
+| Note || [[Explorer Notes#Nerva Note #3 (The Island)|Note #3]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 39.5 || 24.5 || [[The Western Plains]]
+|-
+| Note || [[Explorer Notes#Nerva Note #4 (The Island)|Note #4]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 41.2 || 68 || [[The Maw]]
+|-
+| Note || [[Explorer Notes#Nerva Note #5 (The Island)|Note #5]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 45.4 || 31.5 || [[The Grand Hills]]
+|-
+| Note || [[Explorer Notes#Nerva Note #6 (The Island)|Note #6]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 49.4 || 79 || [[The Eastern Forest]]
+|-
+| Note || [[Explorer Notes#Nerva Note #7 (The Island)|Note #7]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 47.8 || 60.9 || [[The Maw]]
+|-
+| Note || [[Explorer Notes#Nerva Note #8 (The Island)|Note #8]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 52.5 || 49.1 || [[The Redwood Forests]]
+|-
+| Note || [[Explorer Notes#Nerva Note #9 (The Island)|Note #9]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 58.2 || 19.8 || [[The Caverns of Lost Faith]]
+|-
+| Note || [[Explorer Notes#Nerva Note #10 (The Island)|Note #10]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 51.4 || 54.6 || [[The Redwood Forests]]
+|-
+| Note || [[Explorer Notes#Nerva Note #11 (The Island)|Note #11]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 82.7 || 27.1 || [[Cragg's Island]]
+|-
+| Note || [[Explorer Notes#Nerva Note #12 (The Island)|Note #12]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 77.4 || 16.4 || [[Southern Jungle]]
+|-
+| Note || [[Explorer Notes#Nerva Note #13 (The Island)|Note #13]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 69.6 || 84.6 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Nerva Note #14 (The Island)|Note #14]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 72.3 || 59.2 ||[[The Writhing Swamps]]
+|-
+| Note || [[Explorer Notes#Nerva Note #15 (The Island)|Note #15]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 62.1 || 20.4 || [[Southern Jungle]]
+|-
+| Note || [[Explorer Notes#Nerva Note #16 (The Island)|Note #16]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 53.7 || 77.8 ||[[The Writhing Swamps]]
+|-
+| Note || [[Explorer Notes#Nerva Note #17 (The Island)|Note #17]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 43.3 || 69.3 || [[The Eastern Plains]]
+|-
+| Note || [[Explorer Notes#Nerva Note #18 (The Island)|Note #18]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 57.9 || 32.2 || [[The Redwood Forests]]
+|-
+| Note || [[Explorer Notes#Nerva Note #19 (The Island)|Note #19]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 43.4 || 31 || [[The Grand Hills]]
+|-
+| Note || [[Explorer Notes#Nerva Note #20 (The Island)|Note #20]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 50.6 || 38.5 || [[The Grand Hills]]
+|-
+| Note || [[Explorer Notes#Nerva Note #21 (The Island)|Note #21]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 54.8 || 70.8 ||[[The Writhing Swamps]]
+|-
+| Note || [[Explorer Notes#Nerva Note #22 (The Island)|Note #22]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 43.6 || 61 || [[The Maw]]
+|-
+| Note || [[Explorer Notes#Nerva Note #23 (The Island)|Note #23]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 45.4 || 68.4 || [[Eastern Plains]]
+|-
+| Note || [[Explorer Notes#Nerva Note #24 (The Island)|Note #24]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 44.1 || 77 || [[The Eastern Forest]]
+|-
+| Note || [[Explorer Notes#Nerva Note #25 (The Island)|Note #25]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 55.2 || 75.9 ||[[The Writhing Swamps]]
+|-
+| Note || [[Explorer Notes#Nerva Note #26 (The Island)|Note #26]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 73.8 || 17.6 || [[Southern Jungle]]
+|-
+| Note || [[Explorer Notes#Nerva Note #27 (The Island)|Note #27]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 56.2 || 51.1 || 
+|-
+| Note || [[Explorer Notes#Nerva Note #28 (The Island)|Note #28]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 47.9 || 47.5 || 
+|-
+| Note || [[Explorer Notes#Nerva Note #29 (The Island)|Note #29]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 71.2 || 58 || 
+|-
+| Note || [[Explorer Notes#Nerva Note #30 (The Island)|Note #30]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 43 || 39.2 || 
+|-
+| Note || [[Explorer Notes#??? #1 (The Island)|Note #1]] || [[Explorer Notes#???|???]] || 23.7 || 78.2 || [[Overseer Arena]]
+|-
+| Note || [[Explorer Notes#??? #4 (The Island)|Note #4]] || [[Explorer Notes#???|???]] || 36.1 || 79.0 || [[Far's Peak]]
+|-
+| Note || [[Explorer Notes#??? #7 (The Island)|Note #7]] || [[Explorer Notes#???|???]] || 75.6 || 60.5 || 
+|-
+| Note || [[Explorer Notes#??? #10 (The Island)|Note #10]] || [[Explorer Notes#???|???]] || 44.4 || 23.7 || 
+|-
+| Note || [[Explorer Notes#??? #13 (The Island)|Note #13]] || [[Explorer Notes#???|???]] || 89.2 || 24.4 || 
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #1 (The Island)|Discovery #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 68.7 || 85.9 || [[Lava Cave]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #2 (The Island)|Discovery #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 70.4 || 59.3 || [[Upper South Cave]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #3 (The Island)|Discovery #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 27.9 || 27.6 || [[Snow Cave]]
+|}</div>
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+
+==== Scorched Earth ====
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Dossier || {{ItemLink|Deathworm}} || [[Explorer Notes#Helena Walker|Helena]] || 18.6 || 46.3 || 
+|-
+| Dossier || {{ItemLink|Jerboa}} || [[Explorer Notes#Helena Walker|Helena]] || 37 || 12.3 || [[Dunes (Scorched Earth)|Dunes]]
+|-
+| Dossier || {{ItemLink|Jug Bug}} || [[Explorer Notes#Helena Walker|Helena]] || 35.1 || 59.7 || 
+|-
+| Dossier || {{ItemLink|Mantis}} || [[Explorer Notes#Helena Walker|Helena]] || 18.2 || 81.9 || [[Dunes (Scorched Earth)|Dunes]]
+|-
+| Dossier || {{ItemLink|Morellatops}} || [[Explorer Notes#Helena Walker|Helena]] || 85 || 52.1 || [[Dunes (Scorched Earth)|Dunes]]
+|-
+| Dossier || {{ItemLink|Moth}} || [[Explorer Notes#Helena Walker|Helena]] || 65 || 32.6 || 
+|-
+| Dossier || {{ItemLink|Phoenix}} || [[Explorer Notes#Helena Walker|Helena]] || 84.7 || 14.6 || 
+|-
+| Dossier || {{ItemLink|Rock Elemental}} || [[Explorer Notes#Helena Walker|Helena]] || 79.6 || 32.4 || 
+|-
+| Dossier || {{ItemLink|Thorny Dragon}} || [[Explorer Notes#Helena Walker|Helena]] || 81.2 || 14.2 || [[Dunes (Scorched Earth)|Dunes]]
+|-
+| Dossier || {{ItemLink|Vulture}} || [[Explorer Notes#Helena Walker|Helena]] || 18.3 || 67.3 || [[Dunes (Scorched Earth)|Dunes]]
+|-
+| Dossier || {{ItemLink|Wyvern}} || [[Explorer Notes#Helena Walker|Helena]] || 12.3 || 46.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #1 (Scorched Earth)|Note #1]] || [[Explorer Notes#Helena Walker|Helena]] || 43.3 || 45 || 
+|-
+| Note || [[Explorer Notes#Helena Note #2 (Scorched Earth)|Note #2]] || [[Explorer Notes#Helena Walker|Helena]] || 48.8 || 71.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #3 (Scorched Earth)|Note #3]] || [[Explorer Notes#Helena Walker|Helena]] || 57 || 76.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #4 (Scorched Earth)|Note #4]] || [[Explorer Notes#Helena Walker|Helena]] || 81.6 || 63.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #5 (Scorched Earth)|Note #5]] || [[Explorer Notes#Helena Walker|Helena]] || 41 || 54.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #6 (Scorched Earth)|Note #6]] || [[Explorer Notes#Helena Walker|Helena]] || 50.8 || 25.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #7 (Scorched Earth)|Note #7]] || [[Explorer Notes#Helena Walker|Helena]] || 31.9 || 29.4 ||Grave of the Tyrants
+|-
+| Note || [[Explorer Notes#Helena Note #8 (Scorched Earth)|Note #8]] || [[Explorer Notes#Helena Walker|Helena]] || 23.4 || 53.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #9 (Scorched Earth)|Note #9]] || [[Explorer Notes#Helena Walker|Helena]] || 51 || 86.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #10 (Scorched Earth)|Note #10]] || [[Explorer Notes#Helena Walker|Helena]] || 80 || 75.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #11 (Scorched Earth)|Note #11]] || [[Explorer Notes#Helena Walker|Helena]] || 10.6 || 19.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #12 (Scorched Earth)|Note #12]] || [[Explorer Notes#Helena Walker|Helena]] || 15.7 || 21.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #13 (Scorched Earth)|Note #13]] || [[Explorer Notes#Helena Walker|Helena]] || 23.7 || 12.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #14 (Scorched Earth)|Note #14]] || [[Explorer Notes#Helena Walker|Helena]] || 15.8 || 40.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #15 (Scorched Earth)|Note #15]] || [[Explorer Notes#Helena Walker|Helena]] || 14.1 || 35.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #16 (Scorched Earth)|Note #16]] || [[Explorer Notes#Helena Walker|Helena]] || 16.6 || 56.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #17 (Scorched Earth)|Note #17]] || [[Explorer Notes#Helena Walker|Helena]] || 23.3 || 52.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #18 (Scorched Earth)|Note #18]] || [[Explorer Notes#Helena Walker|Helena]] || 10.4 || 66.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #19 (Scorched Earth)|Note #19]] || [[Explorer Notes#Helena Walker|Helena]] || 53 || 26.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #20 (Scorched Earth)|Note #20]] || [[Explorer Notes#Helena Walker|Helena]] || 54.8 || 48.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #21 (Scorched Earth)|Note #21]] || [[Explorer Notes#Helena Walker|Helena]] || 85.8 || 13.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #22 (Scorched Earth)|Note #22]] || [[Explorer Notes#Helena Walker|Helena]] || 84.8 || 18.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #23 (Scorched Earth)|Note #23]] || [[Explorer Notes#Helena Walker|Helena]] || 66 || 39.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #24 (Scorched Earth)|Note #24]] || [[Explorer Notes#Helena Walker|Helena]] || 60.2 || 70.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #25 (Scorched Earth)|Note #25]] || [[Explorer Notes#Helena Walker|Helena]] || 72.4 || 70.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #26 (Scorched Earth)|Note #26]] || [[Explorer Notes#Helena Walker|Helena]] || 85.1 || 37.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #27 (Scorched Earth)|Note #27]] || [[Explorer Notes#Helena Walker|Helena]] || 54.8 || 13.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #28 (Scorched Earth)|Note #28]] || [[Explorer Notes#Helena Walker|Helena]] || 17.5 || 34.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #29 (Scorched Earth)|Note #29]] || [[Explorer Notes#Helena Walker|Helena]] || 21.8 || 43.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #30 (Scorched Earth)|Note #30]] || [[Explorer Notes#Helena Walker|Helena]] || 23.8 || 48.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #1 (Scorched Earth)|Record #1]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 71.8 || 10.5 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #2 (Scorched Earth)|Record #2]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 72 || 85.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #3 (Scorched Earth)|Record #3]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 84.3 || 13.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #4 (Scorched Earth)|Record #4]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 78.8 || 81.9 ||Ruins of Nosti
+|-
+| Record || [[Explorer Notes#Rockwell Record #5 (Scorched Earth)|Record #5]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 13.3 || 77.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #6 (Scorched Earth)|Record #6]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 24.2 || 39 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #7 (Scorched Earth)|Record #7]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 58 || 44.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #8 (Scorched Earth)|Record #8]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 23.4 || 65.1 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #9 (Scorched Earth)|Record #9]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 54.3 || 76.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #10 (Scorched Earth)|Record #10]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 86.3 || 69 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #11 (Scorched Earth)|Record #11]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 28.3 || 49.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #12 (Scorched Earth)|Record #12]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 36.2 || 42.2 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #13 (Scorched Earth)|Record #13]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 27.6 || 55.1 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #14 (Scorched Earth)|Record #14]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 36.2 || 68.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #15 (Scorched Earth)|Record #15]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 31.7 || 72.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #16 (Scorched Earth)|Record #16]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 31.3 || 59.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #17 (Scorched Earth)|Record #17]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 40.5 || 77.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #18 (Scorched Earth)|Record #18]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 39.9 || 86.1 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #19 (Scorched Earth)|Record #19]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 55 || 56 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #20 (Scorched Earth)|Record #20]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.6 || 63 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #21 (Scorched Earth)|Record #21]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 83.2 || 19 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #22 (Scorched Earth)|Record #22]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 81.8 || 17.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #23 (Scorched Earth)|Record #23]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 59.4 || 86.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #24 (Scorched Earth)|Record #24]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 66 || 86.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #25 (Scorched Earth)|Record #25]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 80.4 || 39.7 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #26 (Scorched Earth)|Record #26]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 25.7 || 52.7 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #27 (Scorched Earth)|Record #27]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 31.5 || 51.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #28 (Scorched Earth)|Record #28]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 37.1 || 50 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #29 (Scorched Earth)|Record #29]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 32.2 || 48.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #30 (Scorched Earth)|Record #30]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 30.6 || 44.1 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #1 (Scorched Earth)|Tablet #1]] || [[Explorer Notes#Raia|Raia]] || 11.2 || 40 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #2 (Scorched Earth)|Tablet #2]] || [[Explorer Notes#Raia|Raia]] || 51.4 || 49.4 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #3 (Scorched Earth)|Tablet #3]] || [[Explorer Notes#Raia|Raia]] || 49.3 || 50.8 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #4 (Scorched Earth)|Tablet #4]] || [[Explorer Notes#Raia|Raia]] || 86.1 || 68.8 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #5 (Scorched Earth)|Tablet #5]] || [[Explorer Notes#Raia|Raia]] || 69.9 || 59.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #6 (Scorched Earth)|Tablet #6]] || [[Explorer Notes#Raia|Raia]] || 22.2 || 60.8 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #7 (Scorched Earth)|Tablet #7]] || [[Explorer Notes#Raia|Raia]] || 78.3 || 76.1 || Ruins Of Nosti
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #8 (Scorched Earth)|Tablet #8]] || [[Explorer Notes#Raia|Raia]] || 16.8 || 56.5 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #9 (Scorched Earth)|Tablet #9]] || [[Explorer Notes#Raia|Raia]] || 50.3 || 80.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #10 (Scorched Earth)|Tablet #10]] || [[Explorer Notes#Raia|Raia]] || 88.7 || 38.6 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #11 (Scorched Earth)|Tablet #11]] || [[Explorer Notes#Raia|Raia]] || 76.8 || 69.2 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #12 (Scorched Earth)|Tablet #12]] || [[Explorer Notes#Raia|Raia]] || 76.1 || 60.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #13 (Scorched Earth)|Tablet #13]] || [[Explorer Notes#Raia|Raia]] || 77.4 || 77.9 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #14 (Scorched Earth)|Tablet #14]] || [[Explorer Notes#Raia|Raia]] || 33.1 || 85.7 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #15 (Scorched Earth)|Tablet #15]] || [[Explorer Notes#Raia|Raia]] || 27.6 || 88.6 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #16 (Scorched Earth)|Tablet #16]] || [[Explorer Notes#Raia|Raia]] || 45.8 || 9.5 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #17 (Scorched Earth)|Tablet #17]] || [[Explorer Notes#Raia|Raia]] || 49.1 || 20.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #18 (Scorched Earth)|Tablet #18]] || [[Explorer Notes#Raia|Raia]] || 43.1 || 37.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #19 (Scorched Earth)|Tablet #19]] || [[Explorer Notes#Raia|Raia]] || 43.7 || 59.4 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #20 (Scorched Earth)|Tablet #20]] || [[Explorer Notes#Raia|Raia]] || 54.8 || 61.5 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #21 (Scorched Earth)|Tablet #21]] || [[Explorer Notes#Raia|Raia]] || 79.7 || 15.5 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #22 (Scorched Earth)|Tablet #22]] || [[Explorer Notes#Raia|Raia]] || 82.2 || 13.6 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #23 (Scorched Earth)|Tablet #23]] || [[Explorer Notes#Raia|Raia]] || 62.7 || 44.3 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #24 (Scorched Earth)|Tablet #24]] || [[Explorer Notes#Raia|Raia]] || 60.1 || 59.4 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #25 (Scorched Earth)|Tablet #25]] || [[Explorer Notes#Raia|Raia]] || 84.6 || 32.2 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #26 (Scorched Earth)|Tablet #26]] || [[Explorer Notes#Raia|Raia]] || 75.8 || 54.1 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #27 (Scorched Earth)|Tablet #27]] || [[Explorer Notes#Raia|Raia]] || 37.5 || 40 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #28 (Scorched Earth)|Tablet #28]] || [[Explorer Notes#Raia|Raia]] || 45.3 || 30 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #29 (Scorched Earth)|Tablet #29]] || [[Explorer Notes#Raia|Raia]] || 46.6 || 22.1 || 
+|-
+| Tablet || [[Explorer Notes#Raia Tablet #30 (Scorched Earth)|Tablet #30]] || [[Explorer Notes#Raia|Raia]] || 70.2 || 39.3 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #1 (Scorched Earth)|Note #1]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 17.7 || 12.3 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #2 (Scorched Earth)|Note #2]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 14.8 || 27.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #3 (Scorched Earth)|Note #3]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 66.3 || 14.4 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #4 (Scorched Earth)|Note #4]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 71.1 || 48.1 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #5 (Scorched Earth)|Note #5]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 53.3 || 43.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #6 (Scorched Earth)|Note #6]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 78.9 || 49.9 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #7 (Scorched Earth)|Note #7]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 30.6 || 53.8 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #8 (Scorched Earth)|Note #8]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 22.4 || 44.2 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #9 (Scorched Earth)|Note #9]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 42.3 || 88.4 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #10 (Scorched Earth)|Note #10]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 61.2 || 77.8 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #11 (Scorched Earth)|Note #11]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 24.5 || 77.6 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #12 (Scorched Earth)|Note #12]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 17.6 || 87.5 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #13 (Scorched Earth)|Note #13]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 33.6 || 10.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #14 (Scorched Earth)|Note #14]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 28.5 || 12.4 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #15 (Scorched Earth)|Note #15]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 39.7 || 41.1 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #16 (Scorched Earth)|Note #16]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 35.8 || 37.8 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #17 (Scorched Earth)|Note #17]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 30.4 || 39.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #18 (Scorched Earth)|Note #18]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 28.2 || 41.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #19 (Scorched Earth)|Note #19]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 45.6 || 34.6 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #20 (Scorched Earth)|Note #20]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 54.5 || 31.7 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #21 (Scorched Earth)|Note #21]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 48.7 || 64 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #22 (Scorched Earth)|Note #22]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 83.6 || 15.2 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #23 (Scorched Earth)|Note #23]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 63.7 || 10.4 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #24 (Scorched Earth)|Note #24]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 72.8 || 36.6 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #25 (Scorched Earth)|Note #25]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 61.1 || 46.9 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #26 (Scorched Earth)|Note #26]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 65.4 || 55.5 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #27 (Scorched Earth)|Note #27]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 78.4 || 55.5 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #28 (Scorched Earth)|Note #28]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 76.5 || 76.9 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #29 (Scorched Earth)|Note #29]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 83.4 || 71.8 || 
+|-
+| Note || [[Explorer Notes#Dahkeya Note #30 (Scorched Earth)|Note #30]] || [[Explorer Notes#John Dahkeya|Dahkeya]] || 86.1 || 51.1 || 
+|-
+| Note || [[Explorer Notes#??? #2 (Scorched Earth)|Note #2]] || [[Explorer Notes#???|???]] || 51.5 || 49.6 || [[Manticore Arena]]
+|-
+| Note || [[Explorer Notes#??? #5 (Scorched Earth)|Note #5]] || [[Explorer Notes#???|???]] || 63.3 || 61.5 || Southeast [[Badlands (Scorched Earth)|Badlands]]
+|-
+| Note || [[Explorer Notes#??? #8 (Scorched Earth)|Note #8]] || [[Explorer Notes#???|???]] || 63.3 || 29.4 || 
+|-
+| Note || [[Explorer Notes#??? #11 (Scorched Earth)|Note #11]] || [[Explorer Notes#???|???]] || 30.7 || 56.2 || 
+|-
+| Note || [[Explorer Notes#??? #14 (Scorched Earth)|Note #14]] || [[Explorer Notes#???|???]] || 24.4 || 29.7 || 
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #4 (Scorched Earth)|Discovery #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 56.5 || 44.7 || [[Old Tunnels (Scorched Earth)|Old Tunnels]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #5 (Scorched Earth)|Discovery #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 76.7 || 79.6 || [[Ruins of Nosti (Scorched Earth)|Ruins of Nosti]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #6 (Scorched Earth)|Discovery #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 40.3 || 47.8 || [[Northern Canyons (Scorched Earth)|Northern Canyons]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #7 (Scorched Earth)|Discovery #7]] || [[Explorer Notes#HLN-A|HLN-A]] || 57.0 || 56.2 || [[Southern East Badlands (Scorched Earth)|Southern East Badlands]]
+|}</div>
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+
+==== Aberration ====
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Dossier || {{ItemLink|Basilisk}} || [[Explorer Notes#Helena Walker|Helena]] || 36.4 || 56.1 || [[River Valley (Aberration)|River Valley]]
+|-
+| Dossier || {{ItemLink|Bulbdog}} || [[Explorer Notes#Helena Walker|Helena]] || 51.7 || 68.3 || 
+|-
+| Dossier || {{ItemLink|Featherlight}} || [[Explorer Notes#Helena Walker|Helena]] || 48.3 || 27.2 || [[Mushroom Forest]]
+|-
+| Dossier || {{ItemLink|Glowbug}} || [[Explorer Notes#Helena Walker|Helena]] || 48.6 || 66.7 || 
+|-
+| Dossier || {{ItemLink|Glowtail}} || [[Explorer Notes#Helena Walker|Helena]] || 46.8 || 72.2 || 
+|-
+| Dossier || {{ItemLink|Karkinos}} || [[Explorer Notes#Helena Walker|Helena]] || 46.1 || 64.2 || 
+|-
+| Dossier || {{ItemLink|Lamprey}} || [[Explorer Notes#Helena Walker|Helena]] || 57.1 || 73.7 || 
+|-
+| Dossier || {{ItemLink|Roll Rat}} || [[Explorer Notes#Helena Walker|Helena]] || 27.2 || 63.6 || [[River Valley (Aberration)|River Valley]]
+|-
+| Dossier || {{ItemLink|Nameless}} || [[Explorer Notes#Helena Walker|Helena]] || 43.9 || 54.9 || 
+|-
+| Dossier || {{ItemLink|Ravager}} || [[Explorer Notes#Helena Walker|Helena]] || 36 || 47.3 || [[Mushroom Forest]]
+|-
+| Dossier || {{ItemLink|Reaper}} || [[Explorer Notes#Helena Walker|Helena]] || 65 || 56.2 || 
+|-
+| Dossier || {{ItemLink|Rock Drake}} || [[Explorer Notes#Helena Walker|Helena]] || 52 || 49.1 || 
+|-
+| Dossier || {{ItemLink|Seeker}} || [[Explorer Notes#Helena Walker|Helena]] || 81.4 || 19.9 || [[The Surface - Southwest (Aberration)|The Surface-Southwest]]
+|-
+| Dossier || {{ItemLink|Shinehorn}} || [[Explorer Notes#Helena Walker|Helena]] || 55.1 || 52.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #1 (Aberration)|Note #1]] || [[Explorer Notes#Helena Walker|Helena]] || 44.5 || 20.2 || [[The Ancient Device]]
+|-
+| Note || [[Explorer Notes#Helena Note #2 (Aberration)|Note #2]] || [[Explorer Notes#Helena Walker|Helena]] || 22.3 || 49.3 || [[The Fallen Nexus (Aberration)|The Fallen Nexus]]
+|-
+| Note || [[Explorer Notes#Helena Note #3 (Aberration)|Note #3]] || [[Explorer Notes#Helena Walker|Helena]] || 25.8 || 48.9 || [[The Fallen Nexus (Aberration)|The Fallen Nexus]]
+|-
+| Note || [[Explorer Notes#Helena Note #4 (Aberration)|Note #4]] || [[Explorer Notes#Helena Walker|Helena]] || 26.8 || 62.6 || [[River Valley (Aberration)|River Valley]]
+|-
+| Note || [[Explorer Notes#Helena Note #5 (Aberration)|Note #5]] || [[Explorer Notes#Helena Walker|Helena]] || 28.5 || 45.2 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Helena Note #6 (Aberration)|Note #6]] || [[Explorer Notes#Helena Walker|Helena]] || 27.5 || 39.9 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Helena Note #7 (Aberration)|Note #7]] || [[Explorer Notes#Helena Walker|Helena]] || 32.2 || 40.3 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Helena Note #8 (Aberration)|Note #8]] || [[Explorer Notes#Helena Walker|Helena]] || 27.9 || 54.4 || [[River Valley (Aberration)|River Valley]]
+|-
+| Note || [[Explorer Notes#Helena Note #9 (Aberration)|Note #9]] || [[Explorer Notes#Helena Walker|Helena]] || 31.3 || 56.3 || [[River Valley (Aberration)|River Valley]]
+|-
+| Note || [[Explorer Notes#Helena Note #10 (Aberration)|Note #10]] || [[Explorer Notes#Helena Walker|Helena]] || 34.5 || 61.3 || [[River Valley (Aberration)|River Valley]]
+|-
+| Note || [[Explorer Notes#Helena Note #11 (Aberration)|Note #11]] || [[Explorer Notes#Helena Walker|Helena]] || 55.6 || 23.5 || [[The Surface - Southwest (Aberration)|The Surface-Southwest]]
+|-
+| Note || [[Explorer Notes#Helena Note #12 (Aberration)|Note #12]] || [[Explorer Notes#Helena Walker|Helena]] || 37 || 70.2 || [[Luminous Marshlands (Aberration)|Luminous Marshlands]]
+|-
+| Note || [[Explorer Notes#Helena Note #13 (Aberration)|Note #13]] || [[Explorer Notes#Helena Walker|Helena]] || 16.6 || 23.6 || [[The Surface - Northwest (Aberration)|The Surface-Northwest]]
+|-
+| Note || [[Explorer Notes#Helena Note #14 (Aberration)|Note #14]] || [[Explorer Notes#Helena Walker|Helena]] || 18.9 || 15.3 || [[The Surface - Northwest (Aberration)|The Surface-Northwest]]
+|-
+| Note || [[Explorer Notes#Helena Note #15 (Aberration)|Note #15]] || [[Explorer Notes#Helena Walker|Helena]] || 16.8 || 19.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #16 (Aberration)|Note #16]] || [[Explorer Notes#Helena Walker|Helena]] || 50.3 || 72.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #17 (Aberration)|Note #17]] || [[Explorer Notes#Helena Walker|Helena]] || 54.4 || 74.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #18 (Aberration)|Note #18]] || [[Explorer Notes#Helena Walker|Helena]] || 57.4 || 69.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #19 (Aberration)|Note #19]] || [[Explorer Notes#Helena Walker|Helena]] || 57.9 || 61.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #20 (Aberration)|Note #20]] || [[Explorer Notes#Helena Walker|Helena]] || 57.4 || 51.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #21 (Aberration)|Note #21]] || [[Explorer Notes#Helena Walker|Helena]] || 63.4 || 51.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #22 (Aberration)|Note #22]] || [[Explorer Notes#Helena Walker|Helena]] || 63.7 || 47.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #23 (Aberration)|Note #23]] || [[Explorer Notes#Helena Walker|Helena]] || 67.3 || 45.4 || 
+|-
+| Note || [[Explorer Notes#Helena Note #24 (Aberration)|Note #24]] || [[Explorer Notes#Helena Walker|Helena]] || 68 || 37.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #25 (Aberration)|Note #25]] || [[Explorer Notes#Helena Walker|Helena]] || 70 || 31.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #26 (Aberration)|Note #26]] || [[Explorer Notes#Helena Walker|Helena]] || 69.7 || 29.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #27 (Aberration)|Note #27]] || [[Explorer Notes#Helena Walker|Helena]] || 76.8 || 30.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #28 (Aberration)|Note #28]] || [[Explorer Notes#Helena Walker|Helena]] || 82.2 || 40.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #29 (Aberration)|Note #29]] || [[Explorer Notes#Helena Walker|Helena]] || 81 || 45.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #30 (Aberration)|Note #30]] || [[Explorer Notes#Helena Walker|Helena]] || 87.2 || 46.6 || [[Elemental Vault|Elemental Vault-Caverns]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #1 (Aberration)|Record #1]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.6 || 24.1 || [[The Ancient Device]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #2 (Aberration)|Record #2]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 22.4 || 52.2 || [[The Fallen Nexus (Aberration)|The Fallen Nexus]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #3 (Aberration)|Record #3]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 29.5 || 53.5 || [[River Valley (Aberration)|River Valley]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #4 (Aberration)|Record #4]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 38.4 || 44.6 || [[Mushroom Forest]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #5 (Aberration)|Record #5]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 41.3 || 33.4 || [[Mushroom Forest]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #6 (Aberration)|Record #6]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 24.2 || 51.7 || [[The Fallen Nexus (Aberration)|The Fallen Nexus]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #7 (Aberration)|Record #7]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 29 || 56.8 || [[River Valley (Aberration)|River Valley]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #8 (Aberration)|Record #8]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 34.4 || 53.9 || [[River Valley (Aberration)|River Valley]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #9 (Aberration)|Record #9]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 39.7 || 46.8 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #10 (Aberration)|Record #10]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.5 || 33.9 || [[Mushroom Forest]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #11 (Aberration)|Record #11]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 50.8 || 40 || [[The Overlook (Aberration)|The Overlook]]
+|-
+| Record || [[Explorer Notes#Rockwell Record #12 (Aberration)|Record #12]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 49.1 || 48.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #13 (Aberration)|Record #13]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.4 || 56.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #14 (Aberration)|Record #14]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 44.6 || 59.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #15 (Aberration)|Record #15]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 47.8 || 56.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #16 (Aberration)|Record #16]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 48.7 || 63.2 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #17 (Aberration)|Record #17]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 52.8 || 65.2 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #18 (Aberration)|Record #18]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 55.7 || 62.3 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #19 (Aberration)|Record #19]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 54.9 || 56.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #20 (Aberration)|Record #20]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 60.4 || 55.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #21 (Aberration)|Record #21]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 64 || 51.1 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #22 (Aberration)|Record #22]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 61.8 || 48 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #23 (Aberration)|Record #23]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 61.6 || 39.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #24 (Aberration)|Record #24]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 70.2 || 39.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #25 (Aberration)|Record #25]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 70.2 || 45.4 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #26 (Aberration)|Record #26]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 67.6 || 48.6 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #27 (Aberration)|Record #27]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 70 || 53.1 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #28 (Aberration)|Record #28]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 62.1 || 52.5 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #29 (Aberration)|Record #29]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 53.5 || 46 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #30 (Aberration)|Record #30]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 53.7 || 53.3 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #1 (Aberration)|Note #1]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 44.3 || 14.8 || [[The Ancient Device]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #2 (Aberration)|Note #2]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 67.9 || 12.4 || [[The Surface - Southwest (Aberration)|The Surface-Southwest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #3 (Aberration)|Note #3]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 32.4 || 34.4 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #4 (Aberration)|Note #4]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 38.3 || 30.9 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #5 (Aberration)|Note #5]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 40.5 || 19.9 || [[The Ancient Device]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #6 (Aberration)|Note #6]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 50 || 26 || [[Old Railway Cave (Aberration)|Old Railway Cave]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #7 (Aberration)|Note #7]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 45.2 || 31.1 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #8 (Aberration)|Note #8]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 44.3 || 33.3 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #9 (Aberration)|Note #9]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 42.1 || 37.2 || [[Mushroom Forest]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #10 (Aberration)|Note #10]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 41.6 || 49.3 || [[River Valley (Aberration)|River Valley]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #11 (Aberration)|Note #11]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 48.1 || 38.5 || [[The Overlook (Aberration)|The Overlook]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #12 (Aberration)|Note #12]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 53 || 36.4 || [[The Overlook (Aberration)|The Overlook]]
+|-
+| Note || [[Explorer Notes#Mei Yin Note #13 (Aberration)|Note #13]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 50.4 || 42.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #14 (Aberration)|Note #14]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 43.7 || 52.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #15 (Aberration)|Note #15]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 52.2 || 53.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #16 (Aberration)|Note #16]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 48.4 || 58.3 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #17 (Aberration)|Note #17]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 48.2 || 62.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #18 (Aberration)|Note #18]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 47.6 || 69.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #19 (Aberration)|Note #19]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 51.4 || 61.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #20 (Aberration)|Note #20]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 58.4 || 55.9 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #21 (Aberration)|Note #21]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 62.4 || 53.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #22 (Aberration)|Note #22]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 64.4 || 59.9 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #23 (Aberration)|Note #23]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 64 || 65.2 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #24 (Aberration)|Note #24]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 69.8 || 66.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #25 (Aberration)|Note #25]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 73.2 || 58.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #26 (Aberration)|Note #26]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 79.4 || 58.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #27 (Aberration)|Note #27]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 83.5 || 60.2 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #28 (Aberration)|Note #28]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 86.5 || 63.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #29 (Aberration)|Note #29]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 88.6 || 69.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #30 (Aberration)|Note #30]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 88.2 || 74.7 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Boris #1 (Aberration)|Grad Journal Boris #1]] || [[Explorer Notes#Boris|Boris]] || 44.1 || 25.3 || [[The Ancient Device]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Boris #2 (Aberration)|Grad Journal Boris #2]] || [[Explorer Notes#Boris|Boris]] || 55.7 || 52.4 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Boris #3 (Aberration)|Grad Journal Boris #3]] || [[Explorer Notes#Boris|Boris]] || 63.8 || 48.9 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Boris #4 (Aberration)|Grad Journal Boris #4]] || [[Explorer Notes#Boris|Boris]] || 55.7 || 51.4 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Boris #5 (Aberration)|Grad Journal Boris #5]] || [[Explorer Notes#Boris|Boris]] || 52.7 || 40.5 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Emilia #1 (Aberration)|Grad Journal Emilia #1]] || [[Explorer Notes#Emilia|Emilia]] || 46.2 || 35.3 || [[Mushroom Forest]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Emilia #2 (Aberration)|Grad Journal Emilia #2]] || [[Explorer Notes#Emilia|Emilia]] || 39.1 || 37.4 || [[Mushroom Forest]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Emilia #3 (Aberration)|Grad Journal Emilia #3]] || [[Explorer Notes#Emilia|Emilia]] || 56.2 || 38.4 || [[The Overlook (Aberration)|The Overlook]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Emilia #4 (Aberration)|Grad Journal Emilia #4]] || [[Explorer Notes#Emilia|Emilia]] || 48.7 || 63.7 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Emilia #5 (Aberration)|Grad Journal Emilia #5]] || [[Explorer Notes#Emilia|Emilia]] || 24.3 || 65.5 || [[The Surface - Northeast (Aberration)|The Surface-Northeast]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Imamu #1 (Aberration)|Grad Journal Imamu #1]] || [[Explorer Notes#Imamu|Imamu]] || 75.3 || 73.5 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Imamu #2 (Aberration)|Grad Journal Imamu #2]] || [[Explorer Notes#Imamu|Imamu]] || 68.8 || 72.6 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Imamu #3 (Aberration)|Grad Journal Imamu #3]] || [[Explorer Notes#Imamu|Imamu]] || 72.7 || 62.9 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Imamu #4 (Aberration)|Grad Journal Imamu #4]] || [[Explorer Notes#Imamu|Imamu]] || 71.9 || 55.2 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Imamu #5 (Aberration)|Grad Journal Imamu #5]] || [[Explorer Notes#Imamu|Imamu]] || 46.5 || 48.7 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Rusty #1 (Aberration)|Grad Journal Rusty #1]] || [[Explorer Notes#Rusty|Rusty]] || 38.5 || 51.6 || [[River Valley (Aberration)|River Valley]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Rusty #2 (Aberration)|Grad Journal Rusty #2]] || [[Explorer Notes#Rusty|Rusty]] || 34.1 || 50.5 || [[River Valley (Aberration)|River Valley]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Rusty #3 (Aberration)|Grad Journal Rusty #3]] || [[Explorer Notes#Rusty|Rusty]] || 31 || 47.9 || [[Mushroom Forest]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Rusty #4 (Aberration)|Grad Journal Rusty #4]] || [[Explorer Notes#Rusty|Rusty]] || 37 || 41.2 || [[Mushroom Forest]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Rusty #5 (Aberration)|Grad Journal Rusty #5]] || [[Explorer Notes#Rusty|Rusty]] || 45.5 || 38.1 || [[Mushroom Forest]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Skye #1 (Aberration)|Grad Journal Skye #1]] || [[Explorer Notes#Skye|Skye]] || 45.4 || 40.5 || [[The Overlook (Aberration)|The Overlook]]
+|-
+| Journal || [[Explorer Notes#Grad Journal Trent #1 (Aberration)|Grad Journal Trent #1]] || [[Explorer Notes#Trent|Trent]] || 58.5 || 43.8 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Trent #2 (Aberration)|Grad Journal Trent #2]] || [[Explorer Notes#Trent|Trent]] || 70.9 || 49.1 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Trent #3 (Aberration)|Grad Journal Trent #3]] || [[Explorer Notes#Trent|Trent]] || 69.7 || 55.6 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Trent #4 (Aberration)|Grad Journal Trent #4]] || [[Explorer Notes#Trent|Trent]] || 71.8 || 61.6 || 
+|-
+| Journal || [[Explorer Notes#Grad Journal Trent #5 (Aberration)|Grad Journal Trent #5]] || [[Explorer Notes#Trent|Trent]] || 77.1 || 68.2 || 
+|-
+| Log || [[Explorer Notes#Diana Log #1 (Aberration)|Log #1]] || [[Explorer Notes#Diana|Diana]] || 47.6 || 31.9 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #2 (Aberration)|Log #2]] || [[Explorer Notes#Diana|Diana]] || 29.7 || 52.6 || [[River Valley (Aberration)|River Valley]]
+|-
+| Log || [[Explorer Notes#Diana Log #3 (Aberration)|Log #3]] || [[Explorer Notes#Diana|Diana]] || 33.8 || 47.3 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #4 (Aberration)|Log #4]] || [[Explorer Notes#Diana|Diana]] || 37.7 || 46 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #5 (Aberration)|Log #5]] || [[Explorer Notes#Diana|Diana]] || 30.5 || 45.7 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #6 (Aberration)|Log #6]] || [[Explorer Notes#Diana|Diana]] || 34 || 38.9 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #7 (Aberration)|Log #7]] || [[Explorer Notes#Diana|Diana]] || 38.3 || 37 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #8 (Aberration)|Log #8]] || [[Explorer Notes#Diana|Diana]] || 38.2 || 29.7 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #9 (Aberration)|Log #9]] || [[Explorer Notes#Diana|Diana]] || 48.3 || 23.3 || [[Mushroom Forest]]
+|-
+| Log || [[Explorer Notes#Diana Log #10 (Aberration)|Log #10]] || [[Explorer Notes#Diana|Diana]] || 18.7 || 69.1 || [[The Surface - Northeast (Aberration)|The Surface-Northeast]]
+|-
+| Log || [[Explorer Notes#Diana Log #11 (Aberration)|Log #11]] || [[Explorer Notes#Diana|Diana]] || 22.3 || 78.4 || [[The Surface - Northeast (Aberration)|The Surface-Northeast]]
+|-
+| Log || [[Explorer Notes#Diana Log #12 (Aberration)|Log #12]] || [[Explorer Notes#Diana|Diana]] || 58.3 || 61.4 || 
+|-
+| Log || [[Explorer Notes#Diana Log #13 (Aberration)|Log #13]] || [[Explorer Notes#Diana|Diana]] || 52.9 || 68.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #14 (Aberration)|Log #14]] || [[Explorer Notes#Diana|Diana]] || 47.4 || 72.4 || 
+|-
+| Log || [[Explorer Notes#Diana Log #15 (Aberration)|Log #15]] || [[Explorer Notes#Diana|Diana]] || 52.9 || 76.4 || 
+|-
+| Log || [[Explorer Notes#Diana Log #16 (Aberration)|Log #16]] || [[Explorer Notes#Diana|Diana]] || 70.4 || 75.3 || 
+|-
+| Log || [[Explorer Notes#Diana Log #17 (Aberration)|Log #17]] || [[Explorer Notes#Diana|Diana]] || 84.6 || 77.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #18 (Aberration)|Log #18]] || [[Explorer Notes#Diana|Diana]] || 70.6 || 73.7 || 
+|-
+| Log || [[Explorer Notes#Diana Log #19 (Aberration)|Log #19]] || [[Explorer Notes#Diana|Diana]] || 71 || 58.9 || 
+|-
+| Log || [[Explorer Notes#Diana Log #20 (Aberration)|Log #20]] || [[Explorer Notes#Diana|Diana]] || 60.5 || 47.6 || 
+|-
+| Note || [[Explorer Notes#??? #3 (Aberration)|Note #3]] || [[Explorer Notes#???|???]] || 82.7 || 10.7 || [[Rockwell Arena]]
+|-
+| Note || [[Explorer Notes#??? #6 (Aberration)|Note #6]] || [[Explorer Notes#???|???]] || 29.4 || 58.5 || [[River Valley]]
+|-
+| Note || [[Explorer Notes#??? #9 (Aberration)|Note #9]] || [[Explorer Notes#???|???]] || 47.6 || 21.8 || [[The Ancient Device]]
+|-
+| Note || [[Explorer Notes#??? #12 (Aberration)|Note #12]] || [[Explorer Notes#???|???]] || 69.1 || 46.4 || 
+|-
+| Note || [[Explorer Notes#??? #15 (Aberration)|Note #15]] || [[Explorer Notes#???|???]] || 85.0 || 69.8 || 
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #8 (Aberration)|Discovery #8]] || [[Explorer Notes#HLN-A|HLN-A]] || 37.1 || 60.3 || [[Luminous Marshlands (Aberration)|Luminous Marshlands]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #9 (Aberration)|Discovery #9]] || [[Explorer Notes#HLN-A|HLN-A]] || 68.0 || 66.0 || [[The Spine (Aberration)|The Spine]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #10 (Aberration)|Discovery #10]] || [[Explorer Notes#HLN-A|HLN-A]] || 27.8 || 46.7 || [[Mushroom Forest (Aberration)|Mushroom Forest]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #11 (Aberration)|Discovery #11]] || [[Explorer Notes#HLN-A|HLN-A]] || 28.1 || 76.2 || [[The Surface - Northeast (Aberration)|The Surface - Northeast]]
+|}</div>
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+
+==== Extinction ====
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Dossier || {{ItemLink|Corrupted Creatures}} || [[Explorer Notes#Helena Walker|Helena]] || 56 || 89.3 || 
+|-
+| Dossier || {{ItemLink|Gacha}} || [[Explorer Notes#Helena Walker|Helena]] || 25.2 || 14.6 || 
+|-
+| Dossier || {{ItemLink|Gasbags}} || [[Explorer Notes#Helena Walker|Helena]] || 22.1 || 51.2 || 
+|-
+| Dossier || {{ItemLink|Managarmr}} || [[Explorer Notes#Helena Walker|Helena]] || 22.4 || 74.3 || 
+|-
+| Dossier || {{ItemLink|Snow Owl}} || [[Explorer Notes#Helena Walker|Helena]] || 11.9 || 78 || 
+|-
+| Dossier || {{ItemLink|Velonasaur}} || [[Explorer Notes#Helena Walker|Helena]] || 87.8 || 73.6 || 
+|-
+| Manual || [[Scout|Scout FM]] || [[Explorer Notes#Santiago|Santiago]] || 57.1 || 49.1 || 
+|-
+| Manual || [[Enforcer|Enforcer FM]] || [[Explorer Notes#Santiago|Santiago]] || 52.1 || 70 || 
+|-
+| Manual || [[Mek|Mek TM]] || [[Explorer Notes#Santiago|Santiago]] || 52.9 || 23.4 || 
+|-
+| Manual || [[Mega Mek|Mega Mek TM]] || [[Explorer Notes#Santiago|Santiago]] || 1.6 || 42 || 
+|-
+| Note || [[Explorer Notes#Helena Note #1 (Extinction)|Note #1]] || [[Explorer Notes#Helena Walker|Helena]] || 50.9 || 29.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #2 (Extinction)|Note #2]] || [[Explorer Notes#Helena Walker|Helena]] || 56.9 || 36.4 || 
+|-
+| Note || [[Explorer Notes#Helena Note #3 (Extinction)|Note #3]] || [[Explorer Notes#Helena Walker|Helena]] || 58.5 || 48.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #4 (Extinction)|Note #4]] || [[Explorer Notes#Helena Walker|Helena]] || 53.2 || 55.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #5 (Extinction)|Note #5]] || [[Explorer Notes#Helena Walker|Helena]] || 63.1 || 42.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #6 (Extinction)|Note #6]] || [[Explorer Notes#Helena Walker|Helena]] || 66.6 || 55.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #7 (Extinction)|Note #7]] || [[Explorer Notes#Helena Walker|Helena]] || 61.4 || 69 || 
+|-
+| Note || [[Explorer Notes#Helena Note #8 (Extinction)|Note #8]] || [[Explorer Notes#Helena Walker|Helena]] || 55 || 79.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #9 (Extinction)|Note #9]] || [[Explorer Notes#Helena Walker|Helena]] || 47.8 || 75.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #10 (Extinction)|Note #10]] || [[Explorer Notes#Helena Walker|Helena]] || 31.2 || 59.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #11 (Extinction)|Note #11]] || [[Explorer Notes#Helena Walker|Helena]] || 27.2 || 53.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #12 (Extinction)|Note #12]] || [[Explorer Notes#Helena Walker|Helena]] || 19.7 || 60.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #13 (Extinction)|Note #13]] || [[Explorer Notes#Helena Walker|Helena]] || 25 || 46 || 
+|-
+| Note || [[Explorer Notes#Helena Note #14 (Extinction)|Note #14]] || [[Explorer Notes#Helena Walker|Helena]] || 41.4 || 43.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #15 (Extinction)|Note #15]] || [[Explorer Notes#Helena Walker|Helena]] || 43.7 || 33.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #16 (Extinction)|Note #16]] || [[Explorer Notes#Helena Walker|Helena]] || 50.8 || 21.5 || 
+|-
+| Note || [[Explorer Notes#Helena Note #17 (Extinction)|Note #17]] || [[Explorer Notes#Helena Walker|Helena]] || 40.9 || 15.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #18 (Extinction)|Note #18]] || [[Explorer Notes#Helena Walker|Helena]] || 32.9 || 24.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #19 (Extinction)|Note #19]] || [[Explorer Notes#Helena Walker|Helena]] || 19.3 || 17.7 || 
+|-
+| Note || [[Explorer Notes#Helena Note #20 (Extinction)|Note #20]] || [[Explorer Notes#Helena Walker|Helena]] || 27.8 || 12.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #21 (Extinction)|Note #21]] || [[Explorer Notes#Helena Walker|Helena]] || 11.3 || 8.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #22 (Extinction)|Note #22]] || [[Explorer Notes#Helena Walker|Helena]] || 15.3 || 11.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #23 (Extinction)|Note #23]] || [[Explorer Notes#Helena Walker|Helena]] || 14.8 || 18.2 || 
+|-
+| Note || [[Explorer Notes#Helena Note #24 (Extinction)|Note #24]] || [[Explorer Notes#Helena Walker|Helena]] || 16.8 || 23.8 || 
+|-
+| Note || [[Explorer Notes#Helena Note #25 (Extinction)|Note #25]] || [[Explorer Notes#Helena Walker|Helena]] || 8.3 || 29.9 || 
+|-
+| Note || [[Explorer Notes#Helena Note #26 (Extinction)|Note #26]] || [[Explorer Notes#Helena Walker|Helena]] || 11.9 || 39.1 || 
+|-
+| Note || [[Explorer Notes#Helena Note #27 (Extinction)|Note #27]] || [[Explorer Notes#Helena Walker|Helena]] || 8.6 || 43.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #28 (Extinction)|Note #28]] || [[Explorer Notes#Helena Walker|Helena]] || 7.1 || 48.3 || 
+|-
+| Note || [[Explorer Notes#Helena Note #29 (Extinction)|Note #29]] || [[Explorer Notes#Helena Walker|Helena]] || 10.5 || 47.6 || 
+|-
+| Note || [[Explorer Notes#Helena Note #30 (Extinction)|Note #30]] || [[Explorer Notes#Helena Walker|Helena]] || 12.6 || 44.9 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #1 (Extinction)|Note #1]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 26.8 || 53 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #2 (Extinction)|Note #2]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 38.5 || 29.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #3 (Extinction)|Note #3]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 47.2 || 22.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #4 (Extinction)|Note #4]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 47.8 || 12.2 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #5 (Extinction)|Note #5]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 73.2 || 42.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #6 (Extinction)|Note #6]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 70.6 || 53.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #7 (Extinction)|Note #7]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 58.7 || 73.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #8 (Extinction)|Note #8]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 43.1 || 90.8 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #9 (Extinction)|Note #9]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 31.9 || 81.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #10 (Extinction)|Note #10]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 26.5 || 71.1 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #11 (Extinction)|Note #11]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 19.6 || 77.8 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #12 (Extinction)|Note #12]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 17.2 || 86.3 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #13 (Extinction)|Note #13]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 10.1 || 72.3 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #14 (Extinction)|Note #14]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 22.2 || 65.8 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #15 (Extinction)|Note #15]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 20.6 || 61.7 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #16 (Extinction)|Note #16]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 18.3 || 78.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #17 (Extinction)|Note #17]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 10.7 || 64.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #18 (Extinction)|Note #18]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 27.3 || 61 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #19 (Extinction)|Note #19]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 32.1 || 30.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #20 (Extinction)|Note #20]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 31 || 27 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #21 (Extinction)|Note #21]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 27.6 || 22.2 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #22 (Extinction)|Note #22]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 20.6 || 13.1 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #23 (Extinction)|Note #23]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 29.5 || 15.8 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #24 (Extinction)|Note #24]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 20.5 || 29.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #25 (Extinction)|Note #25]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 10.5 || 32.6 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #26 (Extinction)|Note #26]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 8.7 || 47.2 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #27 (Extinction)|Note #27]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 13.3 || 45.5 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #28 (Extinction)|Note #28]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 18.4 || 15.3 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #29 (Extinction)|Note #29]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 13.2 || 28.4 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #30 (Extinction)|Note #30]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 15.6 || 17.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #1 (Extinction)|Log #1]] || [[Explorer Notes#Diana|Diana]] || 90.3 || 68.8 || 
+|-
+| Log || [[Explorer Notes#Diana Log #2 (Extinction)|Log #2]] || [[Explorer Notes#Diana|Diana]] || 78.1 || 79.9 || 
+|-
+| Log || [[Explorer Notes#Diana Log #3 (Extinction)|Log #3]] || [[Explorer Notes#Diana|Diana]] || 66.6 || 80.3 || 
+|-
+| Log || [[Explorer Notes#Diana Log #4 (Extinction)|Log #4]] || [[Explorer Notes#Diana|Diana]] || 49.2 || 67.9 || 
+|-
+| Log || [[Explorer Notes#Diana Log #5 (Extinction)|Log #5]] || [[Explorer Notes#Diana|Diana]] || 46.4 || 61.4 || 
+|-
+| Log || [[Explorer Notes#Diana Log #6 (Extinction)|Log #6]] || [[Explorer Notes#Diana|Diana]] || 45.1 || 53.1 || 
+|-
+| Log || [[Explorer Notes#Diana Log #7 (Extinction)|Log #7]] || [[Explorer Notes#Diana|Diana]] || 54.9 || 32.8 || 
+|-
+| Log || [[Explorer Notes#Diana Log #8 (Extinction)|Log #8]] || [[Explorer Notes#Diana|Diana]] || 41.4 || 26.8 || 
+|-
+| Log || [[Explorer Notes#Diana Log #9 (Extinction)|Log #9]] || [[Explorer Notes#Diana|Diana]] || 28.2 || 20.7 || 
+|-
+| Log || [[Explorer Notes#Diana Log #10 (Extinction)|Log #10]] || [[Explorer Notes#Diana|Diana]] || 25 || 23 || 
+|-
+| Log || [[Explorer Notes#Diana Log #11 (Extinction)|Log #11]] || [[Explorer Notes#Diana|Diana]] || 31.2 || 23.6 || 
+|-
+| Log || [[Explorer Notes#Diana Log #12 (Extinction)|Log #12]] || [[Explorer Notes#Diana|Diana]] || 30.4 || 37.6 || 
+|-
+| Log || [[Explorer Notes#Diana Log #13 (Extinction)|Log #13]] || [[Explorer Notes#Diana|Diana]] || 23.9 || 44.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #14 (Extinction)|Log #14]] || [[Explorer Notes#Diana|Diana]] || 30.8 || 47.3 || 
+|-
+| Log || [[Explorer Notes#Diana Log #15 (Extinction)|Log #15]] || [[Explorer Notes#Diana|Diana]] || 35.7 || 62.2 || 
+|-
+| Log || [[Explorer Notes#Diana Log #16 (Extinction)|Log #16]] || [[Explorer Notes#Diana|Diana]] || 43.9 || 72 || 
+|-
+| Log || [[Explorer Notes#Diana Log #17 (Extinction)|Log #17]] || [[Explorer Notes#Diana|Diana]] || 38.4 || 88.9 || 
+|-
+| Log || [[Explorer Notes#Diana Log #18 (Extinction)|Log #18]] || [[Explorer Notes#Diana|Diana]] || 33.7 || 82.1 || 
+|-
+| Log || [[Explorer Notes#Diana Log #19 (Extinction)|Log #19]] || [[Explorer Notes#Diana|Diana]] || 21.2 || 62.9 || 
+|-
+| Log || [[Explorer Notes#Diana Log #20 (Extinction)|Log #20]] || [[Explorer Notes#Diana|Diana]] || 16.3 || 51.6 || 
+|-
+| Log || [[Explorer Notes#Diana Log #21 (Extinction)|Log #21]] || [[Explorer Notes#Diana|Diana]] || 22.2 || 38.7 || 
+|-
+| Log || [[Explorer Notes#Diana Log #22 (Extinction)|Log #22]] || [[Explorer Notes#Diana|Diana]] || 10.5 || 29.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #23 (Extinction)|Log #23]] || [[Explorer Notes#Diana|Diana]] || 14.1 || 41 || 
+|-
+| Log || [[Explorer Notes#Diana Log #24 (Extinction)|Log #24]] || [[Explorer Notes#Diana|Diana]] || 7.9 || 41.7 || 
+|-
+| Log || [[Explorer Notes#Diana Log #25 (Extinction)|Log #25]] || [[Explorer Notes#Diana|Diana]] || 1 || 43.5 || 
+|-
+| Log || [[Explorer Notes#Diana Log #26 (Extinction)|Log #26]] || [[Explorer Notes#Diana|Diana]] || -2.4 || 55.8 || 
+|-
+| Log || [[Explorer Notes#Diana Log #27 (Extinction)|Log #27]] || [[Explorer Notes#Diana|Diana]] || 5.6 || 57.8 || 
+|-
+| Log || [[Explorer Notes#Diana Log #28 (Extinction)|Log #28]] || [[Explorer Notes#Diana|Diana]] || 1.9 || 38.1 || 
+|-
+| Log || [[Explorer Notes#Diana Log #29 (Extinction)|Log #29]] || [[Explorer Notes#Diana|Diana]] || 8.4 || 44.6 || 
+|-
+| Log || [[Explorer Notes#Diana Log #30 (Extinction)|Log #30]] || [[Explorer Notes#Diana|Diana]] || 3.1 || 48.8 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #1|The One Who Waits #1]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 49.2 || 71.7 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #2|The One Who Waits #2]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 46.7 || 55.3 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #3|The One Who Waits #3]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 56.1 || 56.4 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #4|The One Who Waits #4]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 55.3 || 49.7 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #5|The One Who Waits #5]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 48.7 || 42.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #6|The One Who Waits #6]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 46.4 || 35 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #7|The One Who Waits #7]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 41.4 || 43.8 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #8|The One Who Waits #8]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 9.7 || 47 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #9|The One Who Waits #9]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 12.4 || 48.8 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #10|The One Who Waits #10]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 16.1 || 51 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #11|The One Who Waits #11]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 23.5 || 18.7 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #12|The One Who Waits #12]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 21.1 || 86.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #13|The One Who Waits #13]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 6.8 || 85.1 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #14|The One Who Waits #14]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 94.1 || 83.8 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #15|The One Who Waits #15]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 97.1 || 89.9 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #16|The One Who Waits #16]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 66.1 || 17.5 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #17|The One Who Waits #17]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 46.6 || 10.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #18|The One Who Waits #18]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 38.9 || 13 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #19|The One Who Waits #19]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 19.2 || 13.2 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #20|The One Who Waits #20]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 22.9 || 22.5 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #21|The One Who Waits #21]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 17.5 || 79.1 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #22|The One Who Waits #22]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 61.1 || 89.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #23|The One Who Waits #23]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 62.8 || 43.8 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #24|The One Who Waits #24]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 46.9 || 62 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #25|The One Who Waits #25]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 44 || 52.7 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #26|The One Who Waits #26]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 47.4 || 48.7 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #27|The One Who Waits #27]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 45.9 || 35.9 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #28|The One Who Waits #28]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 54.3 || 30.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #29|The One Who Waits #29]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 50.6 || 40.6 || 
+|-
+|  || [[Explorer Notes#The One Who Waits #30|The One Who Waits #30]] || [[Explorer Notes#The One Who Waits|The One Who Waits]] || 49.8 || 65.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #1 (Extinction)|Log #1]] || [[Explorer Notes#Santiago|Santiago]] || 59 || 68.4 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #2 (Extinction)|Log #2]] || [[Explorer Notes#Santiago|Santiago]] || 59.4 || 48.4 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #3 (Extinction)|Log #3]] || [[Explorer Notes#Santiago|Santiago]] || 57.3 || 27 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #4 (Extinction)|Log #4]] || [[Explorer Notes#Santiago|Santiago]] || 56 || 50.2 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #5 (Extinction)|Log #5]] || [[Explorer Notes#Santiago|Santiago]] || 58.6 || 53.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #6 (Extinction)|Log #6]] || [[Explorer Notes#Santiago|Santiago]] || 56.5 || 36.2 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #7 (Extinction)|Log #7]] || [[Explorer Notes#Santiago|Santiago]] || 59.3 || 40.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #8 (Extinction)|Log #8]] || [[Explorer Notes#Santiago|Santiago]] || 52.8 || 42.9 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #9 (Extinction)|Log #9]] || [[Explorer Notes#Santiago|Santiago]] || 56.5 || 43.8 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #10 (Extinction)|Log #10]] || [[Explorer Notes#Santiago|Santiago]] || 54.5 || 53.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #11 (Extinction)|Log #11]] || [[Explorer Notes#Santiago|Santiago]] || 53.9 || 61 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #12 (Extinction)|Log #12]] || [[Explorer Notes#Santiago|Santiago]] || 51.6 || 74.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #13 (Extinction)|Log #13]] || [[Explorer Notes#Santiago|Santiago]] || 59.7 || 69.6 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #14 (Extinction)|Log #14]] || [[Explorer Notes#Santiago|Santiago]] || 65.8 || 62.5 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #15 (Extinction)|Log #15]] || [[Explorer Notes#Santiago|Santiago]] || 75.7 || 50.2 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #16 (Extinction)|Log #16]] || [[Explorer Notes#Santiago|Santiago]] || 83.9 || 37.5 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #17 (Extinction)|Log #17]] || [[Explorer Notes#Santiago|Santiago]] || 71.8 || 31.6 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #18 (Extinction)|Log #18]] || [[Explorer Notes#Santiago|Santiago]] || 75.7 || 19.2 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #19 (Extinction)|Log #19]] || [[Explorer Notes#Santiago|Santiago]] || 58.8 || 32.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #20 (Extinction)|Log #20]] || [[Explorer Notes#Santiago|Santiago]] || 49 || 31.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #21 (Extinction)|Log #21]] || [[Explorer Notes#Santiago|Santiago]] || 45.2 || 35.9 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #22 (Extinction)|Log #22]] || [[Explorer Notes#Santiago|Santiago]] || 42.7 || 42.3 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #23 (Extinction)|Log #23]] || [[Explorer Notes#Santiago|Santiago]] || 50.6 || 35.3 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #24 (Extinction)|Log #24]] || [[Explorer Notes#Santiago|Santiago]] || 43.8 || 39.6 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #25 (Extinction)|Log #25]] || [[Explorer Notes#Santiago|Santiago]] || 50.6 || 62.6 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #26 (Extinction)|Log #26]] || [[Explorer Notes#Santiago|Santiago]] || 47 || 60.7 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #27 (Extinction)|Log #27]] || [[Explorer Notes#Santiago|Santiago]] || 47.2 || 57.5 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #28 (Extinction)|Log #28]] || [[Explorer Notes#Santiago|Santiago]] || 36.4 || 50.8 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #29 (Extinction)|Log #29]] || [[Explorer Notes#Santiago|Santiago]] || 40.6 || 39 || 
+|-
+| Log || [[Explorer Notes#Santiago's Log #30 (Extinction)|Log #30]] || [[Explorer Notes#Santiago|Santiago]] || 49.5 || 33.2 || 
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #12 (Extinction)|Discovery #12]] || [[Explorer Notes#HLN-A|HLN-A]] || 27.8 || 16.0 || [[Wasteland (Extinction)|Wasteland]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #13 (Extinction)|Discovery #13]] || [[Explorer Notes#HLN-A|HLN-A]] || 13.3 || 57.5 || [[Forbidden Zone (Extinction)|Forbidden Zone]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #14 (Extinction)|Discovery #14]] || [[Explorer Notes#HLN-A|HLN-A]] || 53.4 || 76.5 || [[The Trench (Extinction)|The Trench]]
+|-
+| Discovery || [[Explorer Notes#HLN-A Discovery #15 (Extinction)|Discovery #15]] || [[Explorer Notes#HLN-A|HLN-A]] || 84.8 || 16.1 || [[The Sweeping Spires (Extinction)|The Sweeping Spires]]
+|}</div>
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+
+==== Genesis Part 1 ====
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #9|Biome Glitch Discovery Snow #9]] || [[Explorer Notes#HLN-A|HLN-A]] || 78.6 || 16.4 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Bog #3|Biome Glitch Discovery Bog #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 74.5 || 76.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #1|Biome Glitch Discovery Ocean #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 18.9 || 47.4 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Bog #5|Biome Glitch Discovery Bog #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 60.1 || 59.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #5|Biome Glitch Discovery Snow #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 67.5 || 25.8 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #6|Biome Glitch Discovery Snow #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 62.7 || 30.7 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #7|Biome Glitch Discovery Snow #7]] || [[Explorer Notes#HLN-A|HLN-A]] || 70.8 || 28.7 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #8|Biome Glitch Discovery Snow #8]] || [[Explorer Notes#HLN-A|HLN-A]] || 73.7 || 25.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #59|Tidbit Glitch Discovery #59]] || [[Explorer Notes#HLN-A|HLN-A]] || 82.2 || 18.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #38|Tidbit Glitch Discovery #38]] || [[Explorer Notes#HLN-A|HLN-A]] || 57.7 || 61.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #60|Tidbit Glitch Discovery #60]] || [[Explorer Notes#HLN-A|HLN-A]] || 86.2 || 61.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #10|Tidbit Glitch Discovery #10]] || [[Explorer Notes#HLN-A|HLN-A]] || 70.1 || 31.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #39|Tidbit Glitch Discovery #39]] || [[Explorer Notes#HLN-A|HLN-A]] || 42.8 || 73.6 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #2|Biome Glitch Discovery Ocean #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 20.7 || 55.0 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #40|Tidbit Glitch Discovery #40]] || [[Explorer Notes#HLN-A|HLN-A]] || 33.1 || 66.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #41|Tidbit Glitch Discovery #41]] || [[Explorer Notes#HLN-A|HLN-A]] || 35.1 || 86.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #42|Tidbit Glitch Discovery #42]] || [[Explorer Notes#HLN-A|HLN-A]] || 19.8 || 72.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #43|Tidbit Glitch Discovery #43]] || [[Explorer Notes#HLN-A|HLN-A]] || 21.2 || 85.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #44|Tidbit Glitch Discovery #44]] || [[Explorer Notes#HLN-A|HLN-A]] || 40.8 || 73.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #45|Tidbit Glitch Discovery #45]] || [[Explorer Notes#HLN-A|HLN-A]] || 42.3 || 67.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #46|Tidbit Glitch Discovery #46]] || [[Explorer Notes#HLN-A|HLN-A]] || 30.9 || 81.9 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 30.7 || 53.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #47|Tidbit Glitch Discovery #47]] || [[Explorer Notes#HLN-A|HLN-A]] || 13.7 || 87.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #56|Tidbit Glitch Discovery #56]] || [[Explorer Notes#HLN-A|HLN-A]] || 35.1 || 54.0 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #3|Biome Glitch Discovery Ocean #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 18.4 || 56.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #11|Tidbit Glitch Discovery #11]] || [[Explorer Notes#HLN-A|HLN-A]] || 73.3 || 27.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #12|Tidbit Glitch Discovery #12]] || [[Explorer Notes#HLN-A|HLN-A]] || 66.2 || 21.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #57|Tidbit Glitch Discovery #57]] || [[Explorer Notes#HLN-A|HLN-A]] || 22.2 || 69.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #71|Tidbit Glitch Discovery #71]] || [[Explorer Notes#HLN-A|HLN-A]] || 70.6 || 33.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #72|Tidbit Glitch Discovery #72]] || [[Explorer Notes#HLN-A|HLN-A]] || 85.0 || 37.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 68.1 || 59.8 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 73.5 || 76.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #14|Tidbit Glitch Discovery #14]] || [[Explorer Notes#HLN-A|HLN-A]] || 40.8 || 38.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #73|Tidbit Glitch Discovery #73]] || [[Explorer Notes#HLN-A|HLN-A]] || 72.5 || 43.4 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 48.4 || 73.6 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #4|Biome Glitch Discovery Ocean #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 25.9 || 58.0 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 41.6 || 75.9 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 37.3 || 86.2 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 17.0 || 71.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 28.5 || 80.6 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 28.3 || 74.0 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #13|Tidbit Glitch Discovery #13]] || [[Explorer Notes#HLN-A|HLN-A]] || 24.3 || 13.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #16|Tidbit Glitch Discovery #16]] || [[Explorer Notes#HLN-A|HLN-A]] || 12.4 || 38.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #68|Tidbit Glitch Discovery #68]] || [[Explorer Notes#HLN-A|HLN-A]] || 40.9 || 12.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #69|Tidbit Glitch Discovery #69]] || [[Explorer Notes#HLN-A|HLN-A]] || 68.0 || 21.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #17|Tidbit Glitch Discovery #17]] || [[Explorer Notes#HLN-A|HLN-A]] || 43.3 || 80.7 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #5|Biome Glitch Discovery Ocean #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 31.4 || 56.7 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 48.8 || 18.0 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #64|Tidbit Glitch Discovery #64]] || [[Explorer Notes#HLN-A|HLN-A]] || 71.9 || 69.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #18|Tidbit Glitch Discovery #18]] || [[Explorer Notes#HLN-A|HLN-A]] || 43.6 || 76.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 75.3 || 75.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #19|Tidbit Glitch Discovery #19]] || [[Explorer Notes#HLN-A|HLN-A]] || 21.8 || 69.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #65|Tidbit Glitch Discovery #65]] || [[Explorer Notes#HLN-A|HLN-A]] || 79.4 || 72.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #66|Tidbit Glitch Discovery #66]] || [[Explorer Notes#HLN-A|HLN-A]] || 34.5 || 51.0 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #1|Biome Glitch Discovery Volcanic #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 44.6 || 85.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #2|Biome Glitch Discovery Volcanic #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 26.9 || 77.2 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #3|Biome Glitch Discovery Volcanic #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 47.5 || 66.8 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Ocean #6|Biome Glitch Discovery Ocean #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 35.9 || 45.7 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 43.4 || 35.2 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 18.4 || 37.4 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 21.4 || 14.5 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 50.9 || 13.9 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Bog #6|Biome Glitch Discovery Bog #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 84.2 || 74.8 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 49.7 || 29.2 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 34.3 || 32.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 37.3 || 24.5 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 70.8 || 75.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 73.7 || 83.7 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 66.5 || 85.0 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 71.1 || 76.8 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 39.1 || 47.0 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 40.2 || 56.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 36.4 || 49.3 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #1|Biome Glitch Discovery Moon #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 47.1 || 14.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 32.8 || 57.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 18.9 || 51.8 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 23.1 || 51.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 32.2 || 46.2 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 80.6 || 26.7 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 71.2 || 19.5 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 76.4 || 28.1 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 61.3 || 37.5 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 82.6 || 42.0 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 75.7 || 53.1 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #2|Biome Glitch Discovery Moon #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 22.3 || 31.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 61.4 || 33.0 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 32.2 || 48.5 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 17.3 || 87.9 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] ||  ||  || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 36.7 || 72.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #1|Tidbit Glitch Discovery #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 83.5 || 60.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #2|Tidbit Glitch Discovery #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 72.6 || 69.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #3|Tidbit Glitch Discovery #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 67.2 || 78.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #4|Tidbit Glitch Discovery #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 66.2 || 67.5 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #5|Tidbit Glitch Discovery #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 32.7 || 58.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #6|Tidbit Glitch Discovery #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 33.1 || 51.9 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #3|Biome Glitch Discovery Moon #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 21.6 || 25.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #7|Tidbit Glitch Discovery #7]] || [[Explorer Notes#HLN-A|HLN-A]] || 28.8 || 60.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #8|Tidbit Glitch Discovery #8]] || [[Explorer Notes#HLN-A|HLN-A]] || 33.3 || 51.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #9|Tidbit Glitch Discovery #9]] || [[Explorer Notes#HLN-A|HLN-A]] || 75.5 || 46.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #15|Tidbit Glitch Discovery #15]] || [[Explorer Notes#HLN-A|HLN-A]] || 32.8 || 32.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #20|Tidbit Glitch Discovery #20]] || [[Explorer Notes#HLN-A|HLN-A]] || 28.2 || 80.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #21|Tidbit Glitch Discovery #21]] || [[Explorer Notes#HLN-A|HLN-A]] || 38.5 || 24.6 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #22|Tidbit Glitch Discovery #22]] || [[Explorer Notes#HLN-A|HLN-A]] || 50.5 || 27.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #23|Tidbit Glitch Discovery #23]] || [[Explorer Notes#HLN-A|HLN-A]] || 23.6 || 25.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #24|Tidbit Glitch Discovery #24]] || [[Explorer Notes#HLN-A|HLN-A]] || 26.4 || 32.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #25|Tidbit Glitch Discovery #25]] || [[Explorer Notes#HLN-A|HLN-A]] || 27.0 || 27.6 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #4|Biome Glitch Discovery Moon #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 30.2 || 35.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #26|Tidbit Glitch Discovery #26]] || [[Explorer Notes#HLN-A|HLN-A]] || 31.9 || 14.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #27|Tidbit Glitch Discovery #27]] || [[Explorer Notes#HLN-A|HLN-A]] || 33.9 || 19.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #28|Tidbit Glitch Discovery #28]] || [[Explorer Notes#HLN-A|HLN-A]] || 47.4 || 23.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #48|Tidbit Glitch Discovery #48]] || [[Explorer Notes#HLN-A|HLN-A]] || 29.2 || 48.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #49|Tidbit Glitch Discovery #49]] || [[Explorer Notes#HLN-A|HLN-A]] || 34.3 || 45.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #50|Tidbit Glitch Discovery #50]] || [[Explorer Notes#HLN-A|HLN-A]] || 26.6 || 51.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #51|Tidbit Glitch Discovery #51]] || [[Explorer Notes#HLN-A|HLN-A]] || 23.8 || 48.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #52|Tidbit Glitch Discovery #52]] || [[Explorer Notes#HLN-A|HLN-A]] || 21.8 || 50.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #53|Tidbit Glitch Discovery #53]] || [[Explorer Notes#HLN-A|HLN-A]] || 21.0 || 51.0 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #54|Tidbit Glitch Discovery #54]] || [[Explorer Notes#HLN-A|HLN-A]] || 20.2 || 50.1 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #5|Biome Glitch Discovery Moon #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 32.3 || 37.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #55|Tidbit Glitch Discovery #55]] || [[Explorer Notes#HLN-A|HLN-A]] || 15.9 || 47.5 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #58|Tidbit Glitch Discovery #58]] || [[Explorer Notes#HLN-A|HLN-A]] || 15.4 || 74.5 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #61|Tidbit Glitch Discovery #61]] || [[Explorer Notes#HLN-A|HLN-A]] || 85.5 || 30.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #62|Tidbit Glitch Discovery #62]] || [[Explorer Notes#HLN-A|HLN-A]] || 57.2 || 69.2 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #63|Tidbit Glitch Discovery #63]] || [[Explorer Notes#HLN-A|HLN-A]] || 61.5 || 74.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #67|Tidbit Glitch Discovery #67]] || [[Explorer Notes#HLN-A|HLN-A]] || 28.8 || 47.8 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #70|Tidbit Glitch Discovery #70]] || [[Explorer Notes#HLN-A|HLN-A]] || 73.1 || 30.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #74|Tidbit Glitch Discovery #74]] || [[Explorer Notes#HLN-A|HLN-A]] || 67.2 || 32.8 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #7|Biome Glitch Discovery Volcanic #7]] || [[Explorer Notes#HLN-A|HLN-A]] || 12.4 || 76.3 || 
+|-
+| Glitch ||  || [[Explorer Notes#HLN-A|HLN-A]] || 82.3 || 21.4 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #6|Biome Glitch Discovery Moon #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 26.5 || 19.3 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #4|Biome Glitch Discovery Volcanic #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 35.7 || 77.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #5|Biome Glitch Discovery Volcanic #5]] || [[Explorer Notes#HLN-A|HLN-A]] || 27.9 || 66.7 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Volcanic #6|Biome Glitch Discovery Volcanic #6]] || [[Explorer Notes#HLN-A|HLN-A]] || 25.3 || 77.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #29|Tidbit Glitch Discovery #29]] || [[Explorer Notes#HLN-A|HLN-A]] || 50.8 || 31.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #57|Tidbit Glitch Discovery #57]] || [[Explorer Notes#HLN-A|HLN-A]] || 69.9 || 77.0 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #30|Tidbit Glitch Discovery #30]] || [[Explorer Notes#HLN-A|HLN-A]] || 67.8 || 72.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #31|Tidbit Glitch Discovery #31]] || [[Explorer Notes#HLN-A|HLN-A]] || 66.4 || 75.3 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #32|Tidbit Glitch Discovery #32]] || [[Explorer Notes#HLN-A|HLN-A]] || 64.2 || 74.7 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #33|Tidbit Glitch Discovery #33]] || [[Explorer Notes#HLN-A|HLN-A]] || 71.6 || 75.4 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #34|Tidbit Glitch Discovery #34]] || [[Explorer Notes#HLN-A|HLN-A]] || 72.5 || 76.6 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #7|Biome Glitch Discovery Moon #7]] || [[Explorer Notes#HLN-A|HLN-A]] || 34.2 || 26.8 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #1|Biome Glitch Discovery Snow #1]] || [[Explorer Notes#HLN-A|HLN-A]] || 64.1 || 37.5 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #35|Tidbit Glitch Discovery #35]] || [[Explorer Notes#HLN-A|HLN-A]] || 59.8 || 61.1 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #36|Tidbit Glitch Discovery #36]] || [[Explorer Notes#HLN-A|HLN-A]] || 73.1 || 84.9 || 
+|-
+| Glitch || [[Explorer Notes#Tidbit Glitch Discovery #37|Tidbit Glitch Discovery #37]] || [[Explorer Notes#HLN-A|HLN-A]] || 63.8 || 76.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #2|Biome Glitch Discovery Snow #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 79.9 || 34.9 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Moon #8|Biome Glitch Discovery Moon #8]] || [[Explorer Notes#HLN-A|HLN-A]] || 46.4 || 21.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Bog #2|Biome Glitch Discovery Bog #2]] || [[Explorer Notes#HLN-A|HLN-A]] || 57.4 || 84.8 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #3|Biome Glitch Discovery Snow #3]] || [[Explorer Notes#HLN-A|HLN-A]] || 74.7 || 30.5 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Bog #4|Biome Glitch Discovery Bog #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 70.2 || 76.6 || 
+|-
+| Glitch || [[Explorer Notes#Biome Glitch Discovery Snow #4|Biome Glitch Discovery Snow #4]] || [[Explorer Notes#HLN-A|HLN-A]] || 77.0 || 21.7 || 
+|-
+|}
+</div>
+
+<div style="display:inline-block;vertical-align:top;margin:10px">
+
+==== Mobile ====
+Most Explorer Notes are on the same location as on PC, the ones that are not are listed here.
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+!Type !! Topic !! Author !! Lat !! Lon !! Location
+|-
+| Dossier || {{ItemLink|Allosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 61.4 || 39.3 || [[Swamp Cave]]
+|-
+| Dossier || {{ItemLink|Ankylosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 15.2 || 26.8 || 
+|-
+| Dossier || {{ItemLink|Brontosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 31.2 || 17.7 || 
+|-
+| Dossier || {{ItemLink|Carnotaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 32.9 || 40.4 || 
+|-
+| Dossier || {{ItemLink|Chalicotherium}} || [[Explorer Notes#Helena Walker|Helena]] || 30.9 || 28.9 || 
+|-
+| Dossier || {{ItemLink|Compy}} || [[Explorer Notes#Helena Walker|Helena]] || 40.8 || 48.2 || 
+|-
+| Dossier || {{ItemLink|Cnidaria}} || [[Explorer Notes#Helena Walker|Helena]] || 88.0 || 51.8 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Daeodon}} || [[Explorer Notes#Helena Walker|Helena]] || 48.2 || 21.9 || 
+|-
+| Dossier || {{ItemLink|Doedicurus}} || [[Explorer Notes#Helena Walker|Helena]] || 46.6 || 27.6 || 
+|-
+| Dossier || {{ItemLink|Dilophosaur}} || [[Explorer Notes#Helena Walker|Helena]] || ? || ? || [[North West Cave]]
+|-
+| Dossier || {{ItemLink|Dire Bear}} || [[Explorer Notes#Helena Walker|Helena]] || 40.0 || 81.1 || 
+|-
+| Dossier || {{ItemLink|Eurypterid}} || [[Explorer Notes#Helena Walker|Helena]] || 43.8 || 48.0 || 
+|-
+| Dossier || {{ItemLink|Gigantopithecus}} || [[Explorer Notes#Helena Walker|Helena]] || 26.2 || 23.8 || 
+|-
+| Dossier || {{ItemLink|Jerboa}} || [[Explorer Notes#Helena Walker|Helena]] || 70.6 || 59.4 || [[The Writhing Swamps]]
+|-
+| Dossier || {{ItemLink|Kairuku}} || [[Explorer Notes#Helena Walker|Helena]] || 42.2 || 77.1 || 
+|-
+| Dossier || {{ItemLink|Liopleurodon}} || [[Explorer Notes#Helena Walker|Helena]] || 78.0 || 24.6 || 
+|-
+| Dossier || {{ItemLink|Lystrosaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 66.7 || 82.9 ||   [[Lava Cave]]
+|-
+| Dossier || {{ItemLink|Mammoth}} || [[Explorer Notes#Helena Walker|Helena]] || 68.5 || 79.9 ||  [[Lava Cave]]
+|-
+| Dossier || {{ItemLink|Manta}} || [[Explorer Notes#Helena Walker|Helena]] || 68.7 || 83.3 ||  [[Lava Cave]]
+|-
+| Dossier || {{ItemLink|Mosasaurus}} || [[Explorer Notes#Helena Walker|Helena]] || 27.1  || 24.8  ||  [[Snow Cave]]
+|-
+| Dossier || {{ItemLink|Oviraptor}} || [[Explorer Notes#Helena Walker|Helena]] || 58.6 || 23.3 || [[Lava Cave]]
+|-
+| Dossier || {{ItemLink|Pegomastax}} || [[Explorer Notes#Helena Walker|Helena]] || 82.2 || 61.3 || [[Southern Islets]]
+|-
+| Dossier || {{ItemLink|Quetzal}} || [[Explorer Notes#Helena Walker|Helena]] || 87.3 || 23.6 || 
+|-
+| Dossier || {{ItemLink|Rex}} || [[Explorer Notes#Helena Walker|Helena]] || 84.4 || 53.1 || [[Lower South Cave]]
+|-
+| Dossier || {{ItemLink|Royal Griffin}} || [[Explorer Notes#Helena Walker|Helena]] || 29.7 || 79.7 || 
+|-
+| Dossier || {{ItemLink|Triceratops}} || [[Explorer Notes#Helena Walker|Helena]] || 40.4 || 46.5 || [[Caves|Central Cave]]
+|-
+| Dossier || {{ItemLink|Trilobite}} || [[Explorer Notes#Helena Walker|Helena]] || 39.6 || 45.4 || [[Caves|Central Cave]]
+|-
+| Dossier || {{ItemLink|Tusoteuthis}} || [[Explorer Notes#Helena Walker|Helena]] || 59.7 || 21.7 || 
+|-
+| Dossier || {{ItemLink|Trilobite}} || [[Explorer Notes#Helena Walker|Helena]] || 39.6 || 45.4 || [[Central Cave]]
+|-
+| Discovery || [[Explorer Notes#Helena Discovery #1 (The Island)|Discovery #1]] || [[Explorer Notes#Helena Walker|Helena]] || 77.1 || 31.6 || [[The Footpaw]]
+|-
+| Discovery || [[Explorer Notes#Helena Discovery #2 (The Island)|Discovery #2]] || [[Explorer Notes#Helena Walker|Helena]] || 76.6 || 70.7 || [[Southern Islets]]
+|-
+| Discovery || [[Explorer Notes#Helena Discovery #3 (The Island)|Discovery #3]] || [[Explorer Notes#Helena Walker|Helena]] || 61.2 || 81.5 || [[Southern Islets]]
+|-
+| Note || [[Explorer Notes#Helena Note #1 (The Island)|Note #1]] || [[Explorer Notes#Helena Walker|Helena]] || ? || ? ||
+|-
+| Note || [[Explorer Notes#Helena Note #2 (The Island)|Note #2]] || [[Explorer Notes#Helena Walker|Helena]] || 19.5 || 19.8 || [[North West Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #3 (The Island)|Note #3]] || [[Explorer Notes#Helena Walker|Helena]] || ? || ? || [[North West Cave]]
+|-
+| Note || [[Explorer Notes#Helena Note #4 (The Island)|Note #4]] || [[Explorer Notes#Helena Walker|Helena]] ||? ||? || [[North West Cave]]
+|-
+| Discovery || [[Explorer Notes#Rockwell Discovery #1 (The Island)|Discovery #1]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 64.1 || 61.6 || [[The Writhing Swamps]]
+|-
+| Discovery || [[Explorer Notes#Rockwell Discovery #2 (The Island)|Discovery #2]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 20.1 || 85.9 || 
+|-
+| Record || [[Explorer Notes#Rockwell Record #1 (The Island)|Record #3]] || [[Explorer Notes#Sir Edmund Rockwell|Rockwell]] || 54.5 || 14.5 || 
+|-
+| Discovery || [[Explorer Notes#Mei Yin Discovery #1 (The Island)|Discovery #1]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 76.8 || 77.3 || [[Southern Islets]]
+|-
+| Discovery || [[Explorer Notes#Mei Yin Discovery #2 (The Island)|Discovery #2]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 75 || 65.6
+|-
+| Note || [[Explorer Notes#Mei Yin Note #4 (The Island)|Note #4]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 19.3 || 30.0 || 
+|-
+| Note || [[Explorer Notes#Mei Yin Note #6 (The Island)|Note #6]] || [[Explorer Notes#Mei-Yin Li|Mei Yin]] || 16.3 || 29.0 || 
+|-
+| Discovery || [[Explorer Notes#Nerva Discovery #1 (The Island)|Discovery #1]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 77.4 || 16.4 || [[Southern Jungle]]
+|-
+| Discovery || [[Explorer Notes#Nerva Discovery #2 (The Island)|Discovery #2]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 73.8 || 17.6 || [[Southern Jungle]]
+|-
+| Discovery || [[Explorer Notes#Nerva Discovery #3 (The Island)|Discovery #3]] || [[Explorer Notes#Gaius Marcellus Nerva|Nerva]] || 62.1 || 20.4 || [[Southern Jungle]]
+|-
+|}</div>
+
+[[Category:Locations]]

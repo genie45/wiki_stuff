@@ -1,0 +1,67 @@
+{{DisambigMsg|locations of explorer notes, caves, artifacts, and beacons on Genesis Part 1|locations of resource nodes|Resource Map (Genesis Part 1)}}
+{{#widget:MapStyles
+|crate.c031525={{filepath:PieWGB.svg}}
+|crate.c031530={{filepath:PieWGB.svg}}
+|crate.c03153045={{filepath:PieWGBP.svg}}
+|crate.c0315304555={{filepath:PieWGBPY.svg}}
+|crate.c15253545={{filepath:PieGBPY.svg}}
+|crate.c25354560={{filepath:PieBPYR.svg}}
+|crate.c304555={{filepath:PieBPY.svg}}
+|crate.c30455570={{filepath:PieBPYR.svg}}
+|crate.c456070={{filepath:PiePR.svg}}
+|crate.c031525354560={{filepath:PieWGBPYR.svg}}
+|crate.c03152535456070={{filepath:PieWGBPYR.svg}}
+}}
+<div id="top-notice" class="notice">
+{| align=left style="height:70px; margin:5px;"
+| |[[File:Note.png|100x100px|link=]]<div class="top-notice-image">[[File:Magnifying Glass.png|100x100px|link=]]</div>
+| class="top-notice-text" |'''To see the GPS coordinates,'''
+:'''point your mouse to a dot.'''
+|}
+</div><div class="full-container"><div class="legend-container">
+<!--<div id="legend-notice" class="notice">'''Important Notice:'''<br/>Currently none.</div>-->
+{{#widget:MapLegend|id=genx
+|showobelisks=false
+|show=obelisk-red|text.obelisk-red=Red Obelisk
+|show=obelisk-blue|text.obelisk-blue=Blue Obelisk
+|show=obelisk-green|text.obelisk-green=Green Obelisk
+|showcavetoggle=false
+|show=artifact|text.artifact=Artifact
+|show=cave-entrance|text.cave-entrance=Cave entrance
+|show=poi|text.poi=Point of interest
+|show=wyvern-nest|text.wyvern-nest=Wyvern Nest
+|show=cave-loot|text.cave-loot=Cave loot crate
+|show=sea-loot|text.sea-loot=Deep sea loot crate
+|show=crate|text.crate=Beacon loot crate
+}}</div>
+{{ResourceMap|id=genx
+| map=Genesis_Map.jpg
+| float = right
+| mapsize = 800
+| borderCoordTop = 0
+| borderCoordBottom = 100.0
+| borderCoordLeft = 0
+| borderCoordRight = 100.0
+| caption = Exploration spot locations on Genesis Part 1
+| marker artifact = 10
+| marker cave-entrance = 10
+| marker poi = 14
+| marker wyvern-nest = 7
+| marker cave-loot = 7
+| marker sea-loot = 10
+| marker crate c031525 = 15
+| marker crate c031530 = 15
+| marker crate c03153045 = 15
+| marker crate c0315304555 = 15
+| marker crate c15253545 = 15
+| marker crate c25354560 = 15
+| marker crate c304555 = 15
+| marker crate c30455570 = 15
+| marker crate c031525354560 = 15
+| marker crate c03152535456070 = 15
+| marker crate c456070 = 15
+}}
+</div>
+
+{{Nav resource maps}}
+[[Category:Resource maps]]
