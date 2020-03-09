@@ -1,11 +1,11 @@
 <includeonly><onlyinclude><div class="mission">
 {|class="mission-main"
 |-
-| [[File:{{{biome|}}} Biome Icon.png|frameless|30px]] || <div class="mission-dif-none">{{{name|}}}</div> 
-|{{#switch: {{{difficulty|}}} 
-|gamma = <div class="mission-dif-gamma"> (Gamma)</div> 
-|beta = <div class="mission-dif-beta"> (Beta)</div> 
-|alpha = <div class="mission-dif-alpha"> (Alpha)</div> 
+| [[File:{{{biome|}}} Biome Icon.png|frameless|30px]] 
+|colspan{{=}}"2"{{!}}<span class="mission-dif-none">[[Missions/{{{name|}}} {{ucfirst:{{{difficulty|}}} }}|{{{name|}}}]]</span>{{#switch:{{{difficulty|}}} 
+|gamma = <span class="mission-dif-gamma"> (Gamma)</span>
+|beta = <span class="mission-dif-beta"> (Beta)</span>
+|alpha = <span class="mission-dif-alpha"> (Alpha)</span>
 | &nbsp;
 }}
 |-
