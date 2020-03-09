@@ -262,8 +262,9 @@ See also [[Admin Spectator]]
 |added = [[178.0]]
 |description = Add the specified player to the server's banned list.
 |example = cheat BanPlayer 18446744073709551615
-|consoleCompatible = No (Use <code>[[#ShowMyAdminManager|ShowMyAdminManager]]</code>)
-}}
+Xbox/playstation use cheat BanPlayer myname84937593
+|consoleCompatible = Yes - use Xbox/PlayStation name or id
+|Note2=Xbox/PlayStation will have a effect where if player try’s to join back they will keep on lagging out|Note2s=|Note=}}
 
 {{ConsoleCommand
 |name = Broadcast
@@ -930,7 +931,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |cheat = yes
 |target = Target
 |added = [[226.4]]
-|description = Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at.
+|description = Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at. Unclaimed dinos are in their own separate tribe, so using this command while targeting an unclaimed dino will destroy all unclaimed dinos and leave the tamed and wild dinos alone. This can be useful if config settings for breeding are very fast and a tribe or player leaves a pair of dinos to breed unchecked, crippling the performance of the singleplayer game or server by causing endlessly increasing lag/stutter from thousands of unclaimed dinos walking around freely.
 |consoleCompatible = Yes
 }}
 
@@ -1312,7 +1313,7 @@ See also <code>[[#Ghose|Ghost]]</code>
 |note2 = significant part of the Blueprint that can be found here: [[Item_IDs]]
 |cheat = yes
 |description =  provide the partial string of a tek engram to give them to players, works similar to [[#GFI|GFI]]<br>
-Tekgrams unlucked this way will stay even after a relog and server restart. <br> Using the example will unlock almost all Tekengrams
+Tekgrams unlocked this way will stay even after a relog and server restart. <br> Using the example will unlock almost all Tekengrams
 |example = cheat GiveTekengramsTo 125785415 tek}}
 
 {{ConsoleCommand
@@ -1969,12 +1970,38 @@ Would be the equivalence of individually running the [[#DefeatBoss|DefeatBoss]] 
 }}
 
 {{ConsoleCommand
-|name = UnlockAllExplorerNotes
+|name = GiveAllExplorerNotes
 |target = Self
 |cheat = yes
-|added = [[300.0]]
+|added = [[279.224]]
 |description = Unlock all the explorer notes for the player issuing the command. Your client might freeze for a while after performing this command.
-|example = cheat UnlockAllExplorerNotes
+|example = cheat GiveAllExplorerNotes
+}}
+
+{{ConsoleCommand
+|name = GiveExplorerNote
+|arg1 = NoteIndex
+|type1 = Integer[32]
+|note1 = The index of the explorer note to unlock.
+|target = Self
+|cheat = yes
+|added = [[279.224]]
+|description = Unlock the note matching the specified index.
+|example = cheat GiveExplorerNote 17
+Would unlock the [[#Carnotaurus|Carnotaurus]] dossier for the player issuing the command.
+}}
+
+{{ConsoleCommand
+|name = AddHexagons
+|arg1 = HowMuch
+|type1 = Float
+|note1 = Amount to add
+|cheat = yes
+|target = Self
+|description = Adds the specified amount of hexagons to the player issuing the command.
+
+|example = cheat AddHexagons 1000
+|consoleCompatible = Unknown
 }}
 
 == Dino Commands==
@@ -2018,7 +2045,7 @@ See also <code>[[#ForceTame|ForceTame]]</code>.
 |name = ForceTame
 |cheat = yes
 |target = Target
-|description = Immediately tames the dinosaur under the player's crosshairs. Dinosaurs tamed with this command can be ridden even when no saddle is equipped. Will crash game/server if done while mounted.
+|description = Immediately tames the dinosaur under the player's crosshairs. Dinosaurs tamed with this command can be ridden even when no saddle is equipped (to remove this, cryopod and throw out the creature). Will crash game/server if done while mounted.
 
 See also <code>[[#DoTame|DoTame]]</code>
 |example = cheat forcetame
