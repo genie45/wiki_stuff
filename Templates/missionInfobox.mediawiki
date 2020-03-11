@@ -1,0 +1,33 @@
+<includeonly>{{Arkitexure start|dlc = {{#var:dlc}}|nodlcambox = {{{nodlcambox|}}}}}<div class="info-arkitex info-framework">
+
+{{Arkitexure header
+| name = {{{name|{{PAGENAME}}}}}
+| description = {{{description|}}}
+}}
+
+{{Arkitexure map
+| map = {{{map|{{{dlcmap|Genesis1}}}}}}
+| lat = {{{lat|}}}
+| lon = {{{lon|}}}
+| mapmarker = {{{mapmarker|}}}
+| mapmarkersize = {{{mapmarkersize|}}}
+}}
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">Info</div>
+{{Arkitexure
+| Biome
+|{{{biome|}}}
+}}
+{{Arkitexure
+|Hexagons
+|{{{hexagons}}}
+}}
+{{Arkitexure
+|Maximum Player
+|{{{maxplayer}}}
+}}
+</div></div>
+
+</div>[[Category:Missions]]</includeonly><noinclude>
+[[Category:Infobox templates]]</noinclude>

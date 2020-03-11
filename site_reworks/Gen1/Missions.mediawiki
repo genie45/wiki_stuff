@@ -1,4 +1,1461 @@
-[[Genesis]] features several missions which can be done by solo players or teams.
+[[Genesis: Part 1]] features several missions which can be done by solo players or teams.
 Following is a list of all available missions.
 
-==[[File:Bog Biome Icon.png|50px]]Bog Biome==
+==[[File:Bog Biome Icon.png|50px]]  Bog Biome==
+{{Mission
+|biome = Bog
+|name = Just a Hop, Skip, and a Jump Away
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 1800
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+}}
+{{Mission
+|biome = Bog
+|name = Just a Hop, Skip, and a Jump Away
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 10800
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+}}
+{{Mission
+|biome = Bog
+|name = Just a Hop, Skip, and a Jump Away
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 28800
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Bog
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+
+==[[File:Arctic Biome Icon.png|50px]]  Arctic Biome==
+{{Mission
+|biome = Arctic
+|name = Home Is Where the Pouch Is
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 1800
+|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
+}}
+{{Mission
+|biome = Arctic
+|name = Home Is Where the Pouch Is
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 10800
+|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
+}}
+{{Mission
+|biome = Arctic
+|name = Home Is Where the Pouch Is
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 28800
+|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Arctic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+
+==[[File:Ocean Biome Icon.png|50px]]  Ocean Biome==
+{{Mission
+|biome = Ocean
+|name = One Tough Moeder
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 2040
+|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+}}
+{{Mission
+|biome = Ocean
+|name = One Tough Moeder
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 12240
+|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+}}
+{{Mission
+|biome = Ocean
+|name = One Tough Moeder
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 32640
+|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Ocean
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+
+
+==[[File:Volcanic Biome Icon.png|50px]]  Volcanic Biome==
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Volcanic
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+
+==[[File:Lunar Biome Icon.png|50px]]  Lunar Biome==
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
+{{Mission
+|biome = Lunar
+|name = 
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 
+|description = 
+}}
