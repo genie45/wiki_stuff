@@ -37,300 +37,410 @@ Following is a list of all available missions.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Bog Fishin'
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 1
+|hexagons = 80
+|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
+}}
+{{Mission
+|biome = Bog
+|name = Bog Fishin'
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 1
+|hexagons = 480
+|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
+}}
+{{Mission
+|biome = Bog
+|name = Bog Fishin'
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 1
+|hexagons = 1280
+|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
+}}
+{{Mission
+|biome = Bog
+|name = Another Bog Hunt
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 125
+|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
+}}
+{{Mission
+|biome = Bog
+|name = Another Bog Hunt
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 750
+|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
+}}
+{{Mission
+|biome = Bog
+|name = Another Bog Hunt
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 2000
+|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
+}}
+{{Mission
+|biome = Bog
+|name = Bog Beatdown
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 2280
+|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+}}
+{{Mission
+|biome = Bog
+|name = Bog Beatdown
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 13680
+|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+}}
+{{Mission
+|biome = Bog
+|name = Bog Beatdown
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 36480
+|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+}}
+{{Mission
+|biome = Bog
+|name = Web Search
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
+|hexagons = 1920
+|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
+}}
+{{Mission
+|biome = Bog
+|name = Web Search
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
+}}
+{{Mission
+|biome = Bog
+|name = Web Search
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
+}}
+{{Mission
+|biome = Bog
+|name = Cheaper by the Pack
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = Search the bog for Raptors, but beware! They rarely travel alone.
+}}
+{{Mission
+|biome = Bog
+|name = Cheaper by the Pack
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = Search the bog for Raptors, but beware! They rarely travel alone.
+}}
+{{Mission
+|biome = Bog
+|name = Cheaper by the Pack
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = Search the bog for Raptors, but beware! They rarely travel alone.
+}}
+{{Mission
+|biome = Bog
+|name = Swamp Placid
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = A Brute Sarco is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Swamp Placid
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = A Brute Sarco is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Swamp Placid
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = A Brute Sarco is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Spy Vs Spino
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = A Brute Spino is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Spy Vs Spino
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = A Brute Spino is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Spy Vs Spino
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = A Brute Spino is on the prowl, take it down!
+}}
+{{Mission
+|biome = Bog
+|name = Repair the Bog Glitches!
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 1
+|hexagons = 1000
 |description = 
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Bog Rally
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 100
+|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Bog Rally
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 600
+|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Bog Rally
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1600
+|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = "King of Swing" Grand Prix
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 100
+|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = "King of Swing" Grand Prix
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 600
+|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = "King of Swing" Grand Prix
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1600
+|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Along Came Pollen
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1980
+|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Along Came Pollen
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 11880
+|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Along Came Pollen
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 31680
+|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
 }}
 {{Mission
 |biome = Bog
-|name = 
+|name = Dodoball Pick-Up Game (10 Min)
 |difficulty = 
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = -
+|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
 }}
 {{Mission
 |biome = Bog
-|name = 
+|name = Dodoball Pick-Up Game (2 Min)
 |difficulty = 
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = -
+|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
 }}
 {{Mission
 |biome = Bog
-|name = 
+|name = Dodoball Pick-Up Game (5 Min)
 |difficulty = 
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = -
+|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Dodoball Shot Clock
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 1
+|hexagons = 75
+|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 10 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Dodoball Shot Clock
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 1
+|hexagons = 450
+|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 50 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly.
 }}
 {{Mission
 |biome = Bog
-|name = 
-|difficulty = 
+|name = Dodoball Shot Clock
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Bog
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 1
+|hexagons = 900
+|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 50 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly."
 }}
 
 ==[[File:Arctic Biome Icon.png|50px]]  Arctic Biome==
@@ -369,289 +479,311 @@ Following is a list of all available missions.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Searching the Fro-zone
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 125
+|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
+}}
+{{Mission
+|biome = Arctic
+|name = Searching the Fro-zone
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 750
+|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
+}}
+{{Mission
+|biome = Arctic
+|name = Searching the Fro-zone
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 8
+|hexagons = 2000
+|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
+}}
+{{Mission
+|biome = Arctic
+|name = Built Fjord Tough
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 2280
+|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
+}}
+{{Mission
+|biome = Arctic
+|name = Built Fjord Tough
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 13680
+|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
+}}
+{{Mission
+|biome = Arctic
+|name = Built Fjord Tough
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 36480
+|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
+}}
+{{Mission
+|biome = Arctic
+|name = Mammoths on Parade
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
+|hexagons = 1920
+|description = Track and kill the Mammoth herd trekking its way across the biome.
+}}
+{{Mission
+|biome = Arctic
+|name = Mammoths on Parade
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = Track and kill the Mammoth herd trekking its way across the biome.
+}}
+{{Mission
+|biome = Arctic
+|name = Mammoths on Parade
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = Track and kill the Mammoth herd trekking its way across the biome.
+}}
+{{Mission
+|biome = Arctic
+|name = Deer-ly Departed
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+}}
+{{Mission
+|biome = Arctic
+|name = Deer-ly Departed
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+}}
+{{Mission
+|biome = Arctic
+|name = Deer-ly Departed
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+}}
+{{Mission
+|biome = Arctic
+|name = Hyde and Seek
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+}}
+{{Mission
+|biome = Arctic
+|name = Hyde and Seek
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+}}
+{{Mission
+|biome = Arctic
+|name = Hyde and Seek
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+}}
+{{Mission
+|biome = Arctic
+|name = Ruffle Some Feathers
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 1920
+|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+}}
+{{Mission
+|biome = Arctic
+|name = Ruffle Some Feathers
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 11520
+|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+}}
+{{Mission
+|biome = Arctic
+|name = Ruffle Some Feathers
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 
+|hexagons = 30720
+|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+}}
+{{Mission
+|biome = Arctic
+|name = Repair the Arctic Glitches!
+|difficulty = 
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 1
+|hexagons = 1000
 |description = 
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Saber Slalom
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 100
+|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Saber Slalom
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 600
+|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Saber Slalom
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1600
+|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = The Rhino 500
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 100
+|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = The Rhino 500
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 600
+|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = The Rhino 500
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1600
+|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Mound Over Matter
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 1980
+|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Mound Over Matter
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 11880
+|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
 }}
 {{Mission
 |biome = Arctic
-|name = 
-|difficulty = 
+|name = Mound Over Matter
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
 |maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
-{{Mission
-|biome = Arctic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|hexagons = 31680
+|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
 }}
 
 ==[[File:Ocean Biome Icon.png|50px]]  Ocean Biome==
