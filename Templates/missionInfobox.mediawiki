@@ -20,13 +20,27 @@
 |{{{biome|}}}
 }}
 {{Arkitexure
-|Hexagons
-|{{{hexagons}}}
-}}
-{{Arkitexure
 |Maximum Player
 |{{{maxplayer}}}
 }}
+{{Arkitexure
+|Time Limit
+|{{{timelimit}}}
+}}
+<div class="info-unit-caption">Hexagons</div>
+{{Arkitexure
+|Base
+|{{{hexagons}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
+}}
+{{Arkitexure
+|1st Time Bonus
+|{{{hexfirstbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
+}}
+{{Arkitexure
+|Last Hit Bonus
+|{{{hexlasthitbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
+}}
+
 </div></div>
 
 </div>[[Category:Missions]]</includeonly><noinclude>

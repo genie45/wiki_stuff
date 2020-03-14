@@ -822,193 +822,280 @@ Following is a list of all available missions.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Echo of a Classic
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 1800
+|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Echo of a Classic
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 10800
+|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Echo of a Classic
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 28800
+|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Rip It, Roll It, and Punch It!
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 1800
+|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Rip It, Roll It, and Punch It!
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 10800
+|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Rip It, Roll It, and Punch It!
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 28800
+|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Hide and Sink
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 125
+|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Hide and Sink
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 750
+|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Hide and Sink
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 2000
+|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Chasing the White Whale
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 1920
+|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Chasing the White Whale
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 11520
+|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = Chasing the White Whale
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 30720
+|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
 }}
 {{Mission
 |biome = Ocean
-|name = 
-|difficulty = 
+|name = The Mosa Proposal
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 10
+|hexagons = 1920
+|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
 }}
 {{Mission
 |biome = Ocean
-|name = 
+|name = The Mosa Proposal
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 11520
+|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
+}}
+{{Mission
+|biome = Ocean
+|name = The Mosa Proposal
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 30720
+|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
+}}
+{{Mission
+|biome = Ocean
+|name = Loch'd and Loaded
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 1920
+|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+}}
+{{Mission
+|biome = Ocean
+|name = Loch'd and Loaded
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 11520
+|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+}}
+{{Mission
+|biome = Ocean
+|name = Loch'd and Loaded
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 30720
+|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+}}
+{{Mission
+|biome = Ocean
+|name = Who Hid the Squid?
+|difficulty = gamma
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 1920
+|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+}}
+{{Mission
+|biome = Ocean
+|name = Who Hid the Squid?
+|difficulty = beta
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 11520
+|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+}}
+{{Mission
+|biome = Ocean
+|name = Who Hid the Squid?
+|difficulty = alpha
+|lat = 
+|lon = 
+|spi = 
+|maxplayer = 10
+|hexagons = 30720
+|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+}}
+{{Mission
+|biome = Ocean
+|name = Repair the Ocean Glitches!
 |difficulty = 
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
+|maxplayer = 1
+|hexagons = 1000
 |description = 
 }}
-
 
 ==[[File:Volcanic Biome Icon.png|50px]]  Volcanic Biome==
 {{Mission
 |biome = Volcanic
-|name = 
-|difficulty = 
+|name = Out of the Frying Pan...
+|difficulty = gamma
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 125
+|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
 }}
 {{Mission
 |biome = Volcanic
-|name = 
-|difficulty = 
+|name = Out of the Frying Pan...
+|difficulty = beta
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 750
+|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
 }}
 {{Mission
 |biome = Volcanic
-|name = 
-|difficulty = 
+|name = Out of the Frying Pan...
+|difficulty = alpha
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
+|maxplayer = 8
+|hexagons = 2000
+|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
 }}
 {{Mission
 |biome = Volcanic
