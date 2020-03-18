@@ -41,6 +41,14 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |?
 |?
 |-
+|<code>-UseDynamicConfig</code>
+|all
+|enables the use of the dynamic confiq, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic confiq for that platform (the one used on official server) <br/> '''NOTE:''' It takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
+|-
+|<code>?customdynamicconfigurl=<link></code>
+|all
+|direct link to confiq file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier <br/>''Introduced in patch [[307.2]]''
+|-
 |<code>-allowansel</code>
 |?
 |Activates [[NVIDIA Ansel]] support, in single player.  When connecting to a server, this will cause most lights (lamps) to no longer function, even when powered and lit.<br/>''Introduced in patch [[246.0]]''
