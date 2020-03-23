@@ -2,7 +2,7 @@
 {|class="mission-main"
 |-
 | [[File:{{{biome|}}} Biome Icon.png|frameless|30px]] 
-|colspan{{=}}"2"{{!}}<span class="mission-dif-none">[[Missions/{{{name|}}} {{ucfirst:{{{difficulty|}}} }}|{{{name|}}}]]</span>{{#switch:{{{difficulty|}}} 
+|colspan{{=}}"2"{{!}}<span class="mission-dif-none">[[{{{name|}}}#{{ucfirst:{{{difficulty|}}}}}|{{{name|}}}]]</span>{{#switch:{{{difficulty|}}} 
 |gamma = <span class="mission-dif-gamma"> (Gamma)</span>
 |beta = <span class="mission-dif-beta"> (Beta)</span>
 |alpha = <span class="mission-dif-alpha"> (Alpha)</span>
@@ -41,9 +41,29 @@ Generates a mission overview
 </table>
 
 
- <nowiki>{{Mission| biome=Arctic | name=Snow | difficulty=gamma | lat=10 | lon=20 | spi=1545 5448 5451 0 0 | maxplayer=5 | hexagons=10000 | description=something about dinos }}</nowiki>
+ <nowiki>{{Mission
+|biome = Bog
+|name = Just a Hop, Skip, and a Jump Away
+|difficulty = alpha
+|lat = 86.8
+|lon = 73.5
+|spi = 246300 386100 187
+|maxplayer = 10
+|hexagons = 28800
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+}}</nowiki>
 will result in 
-{{Mission| biome=Arctic | name=Snow | difficulty=gamma | lat=10 | lon=20 | spi=1545 5448 5451 0 0 | maxplayer=5 | hexagons=10000 |  description=something about dinos }}
+{{Mission
+|biome = Bog
+|name = Just a Hop, Skip, and a Jump Away
+|difficulty = alpha
+|lat = 86.8
+|lon = 73.5
+|spi = 246300 386100 187
+|maxplayer = 10
+|hexagons = 28800
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+}}
 
 
 [[Category:Text templates]]</noinclude>

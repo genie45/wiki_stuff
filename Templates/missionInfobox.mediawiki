@@ -6,7 +6,7 @@
 }}
 
 {{Arkitexure map
-| map = {{{map|{{{dlcmap|Genesis1}}}}}}
+| map = {{{map|{{{dlcmap|Genesis: Part 1}}}}}}
 | lat = {{{lat|}}}
 | lon = {{{lon|}}}
 | mapmarker = {{{mapmarker|}}}
@@ -23,25 +23,17 @@
 |Maximum Player
 |{{{maxplayer}}}
 }}
-{{Arkitexure
-|Time Limit
-|{{{timelimit}}}
-}}
+{{#if: {{{timelimit}}} | {{Arkitexure|Time Limit|{{{timelimit}}}}} | }} 
+{{#if: {{{type}}} | {{Arkitexure|Type|{{{type}}} }} | }} 
 <div class="info-unit-caption">Hexagons</div>
 {{Arkitexure
 |Base
 |{{{hexagons}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
 }}
-{{Arkitexure
-|1st Time Bonus
-|{{{hexfirstbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
-}}
-{{Arkitexure
-|Last Hit Bonus
-|{{{hexlasthitbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
-}}
+{{#if: {{{hexfirstbonus}}} | {{Arkitexure|1st Time Bonus|{{{hexfirstbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}} }} |  }}
+{{#if: {{{hexlasthitbonus}}} | {{Arkitexure|Last Hit Bonus|{{{hexlasthitbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}}} | }}
 
 </div></div>
 
-</div>[[Category:Missions]]</includeonly><noinclude>
+</div>[[Category:Missions]] [[Category:{{{type}}} Missions]]</includeonly><noinclude>
 [[Category:Infobox templates]]</noinclude>
