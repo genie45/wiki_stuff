@@ -1571,17 +1571,6 @@ Following is a list of all available missions.
 |hexagons = 
 |description = Brave a Magmasaur's den and steal one of their precious eggs. Only the most prepared survivors will escape the onslaught of fire and teeth that follows.
 }}
-{{Mission
-|biome = Volcanic
-|name = 
-|difficulty = 
-|lat = 
-|lon = 
-|spi = 
-|maxplayer = 
-|hexagons = 
-|description = 
-}}
 
 ==[[File:Lunar Biome Icon.png|50px]]  Lunar Biome==
 {{Mission
