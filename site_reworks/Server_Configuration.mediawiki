@@ -43,11 +43,11 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |-
 |<code>-UseDynamicConfig</code>
 |all
-|enables the use of the dynamic confiq, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic confiq for that platform (the one used on official server) <br/> '''NOTE:''' It takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
+|enables the use of the dynamic config, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic config for that platform (the one used on official server) <br/> '''NOTE:''' It takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
 |-
 |<code>?customdynamicconfigurl=<link></code>
 |all
-|direct link to confiq file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier <br/>''Introduced in patch [[307.2]]''
+|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier <br/>''Introduced in patch [[307.2]]''
 |-
 |<code>-allowansel</code>
 |?
@@ -652,6 +652,8 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 | <code>bForceCanRideFliers</code> || ''boolean'' || false || allows flyers to be used on maps where they normally are disabled '''NOTE:''' if you set it to false it will disable flyers on any map 
 |-
 | <code>AllowTekSuitPowersInGenesis</code> || ''boolean'' || false || enable or disable TEK suit powers in [[Genesis Part 1]]
+|-
+| <code>EnableCryoSicknessPVE</code> || ''boolean'' || false || Enable/Disable cryosickness for tamed creatures on PVE.''<br/>Introduced in patch [[307.56]]''
 |-
 | <code>MaxTamedDinos</code> || ''integer'' || 4000 || Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
 |-class="redish-background"

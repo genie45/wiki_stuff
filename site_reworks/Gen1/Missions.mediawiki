@@ -1,1949 +1,870 @@
 {{DLC|Genesis: Part 1}}
-[[Genesis: Part 1]] features several missions which can be done by solo players or teams.
+[[Genesis: Part 1]] features several missions which can be done alone or in a group and each Mission has an Alpha, Beta, and Gamma difficulty.
+There are a total of 176 Missions across the 5 simulated maps. Completing missions grant Hexagons and Reward items as well as XP. Some missions allow you to use tamed creatures, some provide a high level creature for you to use during the mission, and some do not allow creatures to be used (Tamed creatures in the mission area will automatically be put in a temporary [[Cryopod]] on the inventory of the person who initiated the mission after the mission is over. Once these temporary Cryopods are used they will disappear from the user's inventory.) Missions can be repeated as often as you want although they will reward significantly fewer Hexagons if they are repeated at the same difficulty level in a short period.
+
+Each missions contains a Mission Terminal, for where the missions can be started. While in progress, it is inaccessible for a new mission until it is done. (Blue signals mission available, Red signals mission in progress). It is also the primary means for transferring tames and survivors across the server.
+
 Following is a list of all available missions.
 
-==[[File:Bog Biome Icon.png|50px]]  Bog Biome==
+==Mission Types==
+The following mission types can be found on [[Genesis: Part 1]]:
+;Hunt
+:A Hunt Mission is a type of mission where you follow tracks on the ground until you encounter specific {{ItemLink|Brute Creatures}} to defeat. These are marked with a dino skull with two sword symbols.
+:
+:'''Scoring is based on how long it took to kill the Brute Creatures and its cohorts.'''
+;Race
+:A Race Mission is a straight forward "follow the arrow as fast as you can" type of mission where you will be racing on a high-level dino temporarily given to you for the duration of the mission. These are marked with a flag symbol.
+:
+:'''Scoring is based on the time taken to clear the race.'''
+;Gauntlet
+:An arena style survival mission where you have to survive trough 5 rounds where zone specific dinos spawn and attack you. In this arena you cannot use your own weapons or dinos. Only arena spawned weapons are allowed during the mission, but you can use the armor you have on. All weapons spawned in the arena are capable of easily killing the zone-specific dino that spawns. Weapon ammos are unlimited for Gamma. These are marked with three dino skull symbol.
+:
+:None of the creatures will be able to grab you, but they can still inflict debuffs to a certain degree.
+:
+:'''Scoring is based on time taken to clear the entire 5 wave.'''
+;Checkpoint
+:HLNA will show the way to points, you will have to stop at each point for a few seconds. At each point you will have to defend yourself from wild spawning dinos. When you reach the last point, there will be a task, such as collect pollen in the Bog. After you have collected all the items, a timer will start counting quickly down, during this time you have to race to the finish line in order to get any rewards. Only all the collected resources need to get to the finish line, not all players in the mission.
+:
+:'''Scoring is based on time taken to reach and collect the required resources, and escape with it.'''
+;Escort
+:A creature will spawn nearby belonging to the tribe that started the mission. It cannot be commanded under any method, and random dinos will spawn to attack it, and sometimes anyone else present. It will sometimes pause between travel and will need to be constantly protected. At nearing the end of the escort, there are several more creatures nearby awaiting its return. These are marked with 4 arrow pointing at a shield symbol. 
+:
+:'''Scoring is based on how much health all the escorted dinos have leftover. Any deaths from the other escorted dinos will incur a score penalty.'''
+;Basketball
+:A high-level carriable dino will spawn in the middle of a court to be thrown into the hoops on the end. It respawns afterwards once it gets thrown into the hoop.
+:
+:'''There is no scoring system in this type.'''
+;Fishing
+:As the mission type states, fish for fishes that lives under the water during the mission.
+:
+:'''Scoring is based on how much time left.'''
+;Retrieve
+:A treasure hunting-style mission, requiring you to find the glowing particles on each region. Particles spawns everytime another is picked up after the first per region, and will spawn at different parts within the region every time the mission starts. The only way to track them is via following the hand hud in the middle: Green represents the right direction to look for the particles, whereas red represents the opposite.
+:
+:'''Scoring is based on how much time used from collecting all the treasures.'''
+;Boss
+:Eliminate the boss. Simple? Not so. This is a giant terminal marked with a nearly visible Hexagon exclamation mark.
+:
+:'''There is no scoring system in this type.'''
+
+==Missions==
+<tabber>
+Bog Biome=
+<div class="missions">
 {{Mission
 |biome = Bog
-|name = Just a Hop, Skip, and a Jump Away
-|difficulty = gamma
-|lat = 86.8
-|lon = 73.5
-|spi = 246300 386100 187
+|type = race
+|name = "King of Swing" Grand Prix
+|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
+|maxplayer = 5
+|lat = 84.1
+|lon = 69.9
+|spi = 208789 358255 -36
+|hexagons1 = 575
+|hexagons2 = 720
+|hexagons3 = 900
+}}
+{{Mission
+|biome = Bog
+|type = retrieval
+|name = Along Came Pollen
+|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
 |maxplayer = 10
-|hexagons = 1800
-|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+|lat = 74.9
+|lon = 68.0
+|spi = 189231 262278 122
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
 }}
 {{Mission
 |biome = Bog
-|name = Just a Hop, Skip, and a Jump Away
-|difficulty = beta
-|lat = 86.8
-|lon = 73.5
-|spi = 246300 386100 187
-|maxplayer = 10
-|hexagons = 10800
-|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
-}}
-{{Mission
-|biome = Bog
-|name = Just a Hop, Skip, and a Jump Away
-|difficulty = alpha
-|lat = 86.8
-|lon = 73.5
-|spi = 246300 386100 187
-|maxplayer = 10
-|hexagons = 28800
-|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
-}}
-{{Mission
-|biome = Bog
-|name = Bog Fishin'
-|difficulty = gamma
-|lat = 85.3
-|lon = 71.6
-|spi = 226507 371060 63
-|maxplayer = 1
-|hexagons = 80
-|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
-}}
-{{Mission
-|biome = Bog
-|name = Bog Fishin'
-|difficulty = beta
-|lat = 85.3
-|lon = 71.6
-|spi = 226507 371060 63
-|maxplayer = 1
-|hexagons = 480
-|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
-}}
-{{Mission
-|biome = Bog
-|name = Bog Fishin'
-|difficulty = alpha
-|lat = 85.3
-|lon = 71.6
-|spi = 226507 371060 63
-|maxplayer = 1
-|hexagons = 1280
-|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
-}}
-{{Mission
-|biome = Bog
+|type = gather
 |name = Another Bog Hunt
-|difficulty = gamma
+|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
+|maxplayer = 8
 |lat = 68.3
 |lon = 86.3
 |spi = 380808 191717 -384
-|maxplayer = 8
-|hexagons = 125
-|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
+|hexagons1 = 125
+|hexagons2 = 750
+|hexagons3 = 2,000
 }}
 {{Mission
 |biome = Bog
-|name = Another Bog Hunt
-|difficulty = beta
-|lat = 68.3
-|lon = 86.3
-|spi = 380808 191717 -384
-|maxplayer = 8
-|hexagons = 750
-|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
-}}
-{{Mission
-|biome = Bog
-|name = Another Bog Hunt
-|difficulty = alpha
-|lat = 68.3
-|lon = 86.3
-|spi = 380808 191717 -384
-|maxplayer = 8
-|hexagons = 2000
-|description = Don't get bogged down in minutiae of day-to-day survival, search the swamp with HLN-A to find hidden points instead!
-}}
-{{Mission
-|biome = Bog
+|type = gauntlet
 |name = Bog Beatdown
-|difficulty = gamma
+|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+|maxplayer = 10
 |lat = 84.9
 |lon = 61.1
 |spi = 116190 366280 -5256
-|maxplayer = 10
-|hexagons = 2280
-|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+|hexagons1 = 2,280
+|hexagons2 = 13,680
+|hexagons3 = 36,480
 }}
 {{Mission
 |biome = Bog
-|name = Bog Beatdown
-|difficulty = beta
-|lat = 84.9
-|lon = 61.1
-|spi = 116190 366280 -5256
-|maxplayer = 10
-|hexagons = 13680
-|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+|type = fishing
+|name = Bog Fishin'
+|description = Net as many fish as you can in the shallow waters of the bog. No license, no limits!
+|maxplayer = 1
+|lat = 85.3
+|lon = 71.6
+|spi = 226507 371060 63
+|hexagons1 = 80
+|hexagons2 = 480
+|hexagons3 = 1,280
 }}
 {{Mission
 |biome = Bog
-|name = Bog Beatdown
-|difficulty = alpha
-|lat = 84.9
-|lon = 61.1
-|spi = 116190 366280 -5256
-|maxplayer = 10
-|hexagons = 36480
-|description = Swarms of insects will try to overwhelm you with sheer numbers. Squish 'em good!
+|type = race
+|name = Bog Rally
+|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck!
+|maxplayer = 5
+|lat = 60.1
+|lon = 84.1
+|spi = 358247 105744 677
+|hexagons1 = 815
+|hexagons2 = 1,020
+|hexagons3 = 1,275
 }}
 {{Mission
 |biome = Bog
-|name = Web Search
-|difficulty = gamma
-|lat = 62.7
-|lon = 87.4
-|spi = 393016 132914 43
-|maxplayer = 
-|hexagons = 1920
-|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
-}}
-{{Mission
-|biome = Bog
-|name = Web Search
-|difficulty = beta
-|lat = 62.7
-|lon = 87.4
-|spi = 393016 132914 43
-|maxplayer = 
-|hexagons = 11520
-|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
-}}
-{{Mission
-|biome = Bog
-|name = Web Search
-|difficulty = alpha
-|lat = 62.7
-|lon = 87.4
-|spi = 393016 132914 43
-|maxplayer = 
-|hexagons = 30720
-|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
-}}
-{{Mission
-|biome = Bog
+|type = hunt
 |name = Cheaper by the Pack
-|difficulty = gamma
+|description = Search the bog for Raptors, but beware! They rarely travel alone.
+|maxplayer = 10
 |lat = 62.7
 |lon = 87.4
 |spi = 393016 132914 43
-|maxplayer = 
-|hexagons = 1920
-|description = Search the bog for Raptors, but beware! They rarely travel alone.
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Bog
-|name = Cheaper by the Pack
-|difficulty = beta
-|lat = 62.7
-|lon = 87.4
-|spi = 393016 132914 43
-|maxplayer = 
-|hexagons = 11520
-|description = Search the bog for Raptors, but beware! They rarely travel alone.
+|type = basketball
+|name = Dodoball Pick-Up Game
+|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
+|maxplayer = 10
+|lat = 54.2
+|lon = 84.7
+|spi = 364678 43879 71
+|hexagons1 = 10 Min
+|hexagons2 = 5 Min
+|hexagons3 = 2 Min
 }}
 {{Mission
 |biome = Bog
-|name = Cheaper by the Pack
-|difficulty = alpha
-|lat = 62.7
-|lon = 87.4
-|spi = 393016 132914 43 
-|maxplayer = 
-|hexagons = 30720
-|description = Search the bog for Raptors, but beware! They rarely travel alone.
+|type = basketball
+|name = Dodoball Shot Clock
+|description = <small>Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score <span class="mission-dif-gamma">10</span>/<span class="mission-dif-beta">25</span>/<span class="mission-dif-alpha">50</span> points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly.</small>
+|maxplayer = 1
+|lat = 54.2
+|lon = 84.7
+|spi = 364678 43879 71
+|hexagons1 = 75
+|hexagons2 = 450
+|hexagons3 = 900
 }}
 {{Mission
 |biome = Bog
-|name = Swamp Placid
-|difficulty = gamma
+|type = escort
+|name = Just a Hop, Skip, and a Jump Away
+|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+|maxplayer = 10
+|lat = 86.8
+|lon = 73.5
+|spi = 246300 386100 187
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
+}}
+{{Mission
+|biome = Bog
+|type = hunt
+|name = Spy Vs Spino
+|description = A Brute Spino is on the prowl, take it down!
+|maxplayer = 10
 |lat = 84.8
 |lon = 57.4
 |spi = 77295 364912 8
-|maxplayer = 
-|hexagons = 1920
-|description = A Brute Sarco is on the prowl, take it down!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Bog
+|type = hunt
 |name = Swamp Placid
-|difficulty = beta
+|description = A Brute Sarco is on the prowl, take it down!
+|maxplayer = 10
 |lat = 84.8
 |lon = 57.4
 |spi = 77295 364912 8
-|maxplayer = 
-|hexagons = 11520
-|description = A Brute Sarco is on the prowl, take it down!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Bog
-|name = Swamp Placid
-|difficulty = alpha
-|lat = 84.8
-|lon = 57.4
-|spi = 77295 364912 8 
-|maxplayer = 
-|hexagons = 30720
-|description = A Brute Sarco is on the prowl, take it down!
+|type = hunt
+|name = Web Search
+|description = Hunt the bog biome's apex predator, the deadly and cunning bloodstalker. Try not to get webbed, stabbed, disoriented... or exsanguinated.
+|maxplayer = 10
+|lat = 62.7
+|lon = 87.4
+|spi = 393016 132914 43
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Bog
-|name = Spy Vs Spino
-|difficulty = gamma
-|lat = 84.8
-|lon = 57.4
-|spi = 77295 364912 8 
-|maxplayer = 
-|hexagons = 1920
-|description = A Brute Spino is on the prowl, take it down!
-}}
-{{Mission
-|biome = Bog
-|name = Spy Vs Spino
-|difficulty = beta
-|lat = 84.8
-|lon = 57.4
-|spi = 77295 364912 8 
-|maxplayer = 
-|hexagons = 11520
-|description = A Brute Spino is on the prowl, take it down!
-}}
-{{Mission
-|biome = Bog
-|name = Spy Vs Spino
-|difficulty = alpha
-|lat = 84.8
-|lon = 57.4
-|spi = 77295 364912 8
-|maxplayer = 
-|hexagons = 30720
-|description = A Brute Spino is on the prowl, take it down!
-}}
-{{Mission
-|biome = Bog
+|type = 
 |name = Repair the Bog Glitches!
-|difficulty = 
+|description = 
+|maxplayer = 1
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 1
-|hexagons = 1000
-|description = 
+|hexagons = 30,000
 }}
-{{Mission
-|biome = Bog
-|name = Bog Rally
-|difficulty = gamma
-|lat = 60.1
-|lon = 84.1
-|spi = 358247 105744 677
-|maxplayer = 
-|hexagons = 100
-|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
-}}
-{{Mission
-|biome = Bog
-|name = Bog Rally
-|difficulty = beta
-|lat = 60.1
-|lon = 84.1
-|spi = 358247 105744 677
-|maxplayer = 
-|hexagons = 600
-|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
-}}
-{{Mission
-|biome = Bog
-|name = Bog Rally
-|difficulty = alpha
-|lat = 60.1
-|lon = 84.1
-|spi = 358247 105744 677
-|maxplayer = 
-|hexagons = 1600
-|description = Race along the bog pools, avoiding poisonous gas and other hazards... but don't get stuck in the muck! 
-}}
-{{Mission
-|biome = Bog
-|name = "King of Swing" Grand Prix
-|difficulty = gamma
-|lat = 84.1
-|lon = 69.9
-|spi = 208789 358255 -36
-|maxplayer = 
-|hexagons = 100
-|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
-}}
-{{Mission
-|biome = Bog
-|name = "King of Swing" Grand Prix
-|difficulty = beta
-|lat = 84.1
-|lon = 69.9
-|spi = 208789 358255 -36
-|maxplayer = 
-|hexagons = 600
-|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
-}}
-{{Mission
-|biome = Bog
-|name = "King of Swing" Grand Prix
-|difficulty = alpha
-|lat = 84.1
-|lon = 69.9
-|spi = 208789 358255 -36 
-|maxplayer = 
-|hexagons = 1600
-|description = Mount a bloodstalker and race through the swamp canopy, doing your best Man-Spider impersonation. With bog power comes bog responsibility.
-}}
-{{Mission
-|biome = Bog
-|name = Along Came Pollen
-|difficulty = gamma
-|lat = 74.9
-|lon = 68.0
-|spi = 189231 262278 122
-|maxplayer = 
-|hexagons = 1980
-|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
-}}
-{{Mission
-|biome = Bog
-|name = Along Came Pollen
-|difficulty = beta
-|lat = 74.9
-|lon = 68.0
-|spi = 189231 262278 122
-|maxplayer = 
-|hexagons = 11880
-|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
-}}
-{{Mission
-|biome = Bog
-|name = Along Came Pollen
-|difficulty = alpha
-|lat = 74.9
-|lon = 68.0
-|spi = 189231 262278 122
-|maxplayer = 
-|hexagons = 31680
-|description = Track down some High-Quality Pollen, while avoiding the toxic pollen and defending yourself from territorial creatures.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Pick-Up Game (10 Min)
-|difficulty = 
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 10
-|hexagons = -
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Pick-Up Game (2 Min)
-|difficulty = 
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 10
-|hexagons = -
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Pick-Up Game (5 Min)
-|difficulty = 
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 10
-|hexagons = -
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Shot Clock
-|difficulty = gamma
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 1
-|hexagons = 75
-|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 10 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Shot Clock
-|difficulty = beta
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 1
-|hexagons = 450
-|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 50 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly.
-}}
-{{Mission
-|biome = Bog
-|name = Dodoball Shot Clock
-|difficulty = alpha
-|lat = 54.2
-|lon = 84.7
-|spi = 364678 43879 71
-|maxplayer = 1
-|hexagons = 900
-|description = Shooting hoops, just like on the playground...only there's a dodo instead of a ball. Ignore the dodo's complaints and score 50 points before the timer runs out. Hey, if the dodo doesn't like it, it should have learned to fly."
-}}
-
-==[[File:Arctic Biome Icon.png|50px]]  Arctic Biome==
+</div>
+|-|
+Arctic Biome=
+<div class="missions">
 {{Mission
 |biome = Arctic
-|name = Home Is Where the Pouch Is
-|difficulty = gamma
-|lat = 61.9
-|lon = 26.8
-|spi = -243408 125893.6 -21452
-|maxplayer = 10
-|hexagons = 1800
-|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
-}}
-{{Mission
-|biome = Arctic
-|name = Home Is Where the Pouch Is
-|difficulty = beta
-|lat = 61.9
-|lon = 26.8
-|spi = -243408 125893.6 -21452
-|maxplayer = 10
-|hexagons = 10800
-|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
-}}
-{{Mission
-|biome = Arctic
-|name = Home Is Where the Pouch Is
-|difficulty = alpha
-|lat = 61.9
-|lon = 26.8
-|spi = -243408 125893.6 -21452
-|maxplayer = 10
-|hexagons = 28800
-|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
-}}
-{{Mission
-|biome = Arctic
-|name = Searching the Fro-zone
-|difficulty = gamma
-|lat = 70.7
-|lon = 26.2
-|spi = -249556 217356 -19767
-|maxplayer = 8
-|hexagons = 125
-|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
-}}
-{{Mission
-|biome = Arctic
-|name = Searching the Fro-zone
-|difficulty = beta
-|lat = 70.7
-|lon = 26.2
-|spi = -249556 217356 -19767
-|maxplayer = 8
-|hexagons = 750
-|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
-}}
-{{Mission
-|biome = Arctic
-|name = Searching the Fro-zone
-|difficulty = alpha
-|lat = 70.7
-|lon = 26.2
-|spi = -249556 217356 -19767
-|maxplayer = 8
-|hexagons = 2000
-|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
-}}
-{{Mission
-|biome = Arctic
+|type = gauntlet
 |name = Built Fjord Tough
-|difficulty = gamma
+|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
+|maxplayer = 10
 |lat = 63.5
 |lon = 49.8
 |spi = -1666 142161 -19401
-|maxplayer = 10
-|hexagons = 2280
-|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
+|hexagons1 = 2,280
+|hexagons2 = 13,680
+|hexagons3 = 36,480
 }}
 {{Mission
 |biome = Arctic
-|name = Built Fjord Tough
-|difficulty = beta
-|lat = 63.5
-|lon = 49.8
-|spi = -1666 142161 -19401
-|maxplayer = 10
-|hexagons = 13680
-|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
-}}
-{{Mission
-|biome = Arctic
-|name = Built Fjord Tough
-|difficulty = alpha
-|lat = 63.5
-|lon = 49.8
-|spi = -1666 142161 -19401
-|maxplayer = 10
-|hexagons = 36480
-|description = Focus hard and flex your muscles, explorer. Be a fusion of strength and speed while you endeavour to defeat the monsters.
-}}
-{{Mission
-|biome = Arctic
-|name = Mammoths on Parade
-|difficulty = gamma
-|lat = 63.9
-|lon = 41.3
-|spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 1920
-|description = Track and kill the Mammoth herd trekking its way across the biome.
-}}
-{{Mission
-|biome = Arctic
-|name = Mammoths on Parade
-|difficulty = beta
-|lat = 63.9
-|lon = 41.3
-|spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 11520
-|description = Track and kill the Mammoth herd trekking its way across the biome.
-}}
-{{Mission
-|biome = Arctic
-|name = Mammoths on Parade
-|difficulty = alpha
-|lat = 63.9
-|lon = 41.3
-|spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 30720
-|description = Track and kill the Mammoth herd trekking its way across the biome.
-}}
-{{Mission
-|biome = Arctic
+|type = hunt
 |name = Deer-ly Departed
-|difficulty = gamma
+|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+|maxplayer = 10
 |lat = 75.9
 |lon = 45.1
 |spi = -51888 272584 -18111
-|maxplayer = 
-|hexagons = 1920
-|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Arctic
-|name = Deer-ly Departed
-|difficulty = beta
-|lat = 75.9
-|lon = 45.1
-|spi = -51888 272584 -18111
-|maxplayer = 
-|hexagons = 11520
-|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
+|type = escort
+|name = Home Is Where the Pouch Is
+|description = A baby Procoptodon has lost its way. Escort it as it searches for its mother across the biome
+|maxplayer = 10
+|lat = 61.9
+|lon = 26.8
+|spi = -243408 125893.6 -21452
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
 }}
 {{Mission
 |biome = Arctic
-|name = Deer-ly Departed
-|difficulty = alpha
-|lat = 75.9
-|lon = 45.1
-|spi = -51888 272584 -18111
-|maxplayer = 
-|hexagons = 30720
-|description = A herd Megaloceroses have left their usual grounds and are wandering the biome. Hunt them down!
-}}
-{{Mission
-|biome = Arctic
+|type = hunt
 |name = Hyde and Seek
-|difficulty = gamma
+|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+|maxplayer = 10
 |lat = 75.9
 |lon = 45.1
 |spi = -51888 272584 -18111 
-|maxplayer = 
-|hexagons = 1920
-|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Arctic
-|name = Hyde and Seek
-|difficulty = beta
-|lat = 75.9
-|lon = 45.1
-|spi = -51888 272584 -18111
-|maxplayer = 
-|hexagons = 11520
-|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
+|type = fishing
+|name = Ice Fishin'
+|description = Just like regular fishing, minus the water... and the warmth. Use your fishing rod (and your patience!) to catch as many fish as you can.
+|maxplayer = 1
+|lat = 69.0
+|lon = 21.3
+|spi = -301610 200020.5 -28792
+|hexagons1 = 80
+|hexagons2 = 480
+|hexagons3 = 1,280
 }}
 {{Mission
 |biome = Arctic
-|name = Hyde and Seek
-|difficulty = alpha
-|lat = 75.9
-|lon = 45.1
-|spi = -51888 272584 -18111
-|maxplayer = 
-|hexagons = 30720
-|description = Search the frozen Arctic for a rampaging Ferox. Put it down before it runs out of things to destroy.
-}}
-{{Mission
-|biome = Arctic
-|name = Ruffle Some Feathers
-|difficulty = gamma
+|type = hunt
+|name = Mammoths on Parade
+|description = Track and kill the Mammoth herd trekking its way across the biome.
+|maxplayer = 10
 |lat = 63.9
 |lon = 41.3
 |spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 1920
-|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Arctic
+|type = retrieval
+|name = Mound Over Matter
+|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
+|maxplayer = 10
+|lat = 61.7
+|lon = 34.7
+|spi = -160564 122714 -17234
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
+}}
+{{Mission
+|biome = Arctic
+|type = hunt
 |name = Ruffle Some Feathers
-|difficulty = beta
+|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+|maxplayer = 10
 |lat = 63.9
 |lon = 41.3
 |spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 11520
-|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Arctic
-|name = Ruffle Some Feathers
-|difficulty = alpha
-|lat = 63.9
-|lon = 41.3
-|spi = -91078 146085 -14532
-|maxplayer = 
-|hexagons = 30720
-|description = Track and kill a horde of Yutyrannuses on the prowl. Take them down before they get a chance to roar!
+|type = race
+|name = Saber Slalom
+|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
+|maxplayer = 5
+|lat = 70.6
+|lon = 33.1
+|spi = -177153 216741 42163
+|hexagons1 = 960
+|hexagons2 = 1,200
+|hexagons3 = 1,500
 }}
 {{Mission
 |biome = Arctic
+|type = gather
+|name = Searching the Fro-zone
+|description = Brave winter's chill to find hidden points among the frozen lakes and ice structures. The cold never bothered you anyway.
+|maxplayer = 8
+|lat = 70.7
+|lon = 26.2
+|spi = -249556 217356 -19767
+|hexagons1 = 125
+|hexagons2 = 750
+|hexagons3 = 2,000
+}}
+{{Mission
+|biome = Arctic
+|type = race
+|name = The Rhino 500
+|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
+|maxplayer = 5
+|lat = 61.6
+|lon = 33.1
+|spi = -177118 116132 -4858
+|hexagons1 = 480
+|hexagons2 = 600
+|hexagons3 = 750
+}}
+{{Mission
+|biome = Arctic
+|type = 
 |name = Repair the Arctic Glitches!
-|difficulty = 
+|maxplayer = 1
+|description = 
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 1
-|hexagons = 1000
-|description = 
+|hexagons = 30,000
 }}
-{{Mission
-|biome = Arctic
-|name = Saber Slalom
-|difficulty = gamma
-|lat = 70.6
-|lon = 33.1
-|spi = -177153 216741 42163
-|maxplayer = 
-|hexagons = 100
-|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
-}}
-{{Mission
-|biome = Arctic
-|name = Saber Slalom
-|difficulty = beta
-|lat = 70.6
-|lon = 33.1
-|spi = -177153 216741 42163
-|maxplayer = 
-|hexagons = 600
-|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
-}}
-{{Mission
-|biome = Arctic
-|name = Saber Slalom
-|difficulty = alpha
-|lat = 70.6
-|lon = 33.1
-|spi = -177153 216741 42163
-|maxplayer = 
-|hexagons = 1600
-|description = Master the Spire Rock Trail by racing your Snow Saber down the mountain.
-}}
-{{Mission
-|biome = Arctic
-|name = The Rhino 500
-|difficulty = gamma
-|lat = 61.6
-|lon = 33.1
-|spi = -177118 116132 -4858
-|maxplayer = 
-|hexagons = 100
-|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
-}}
-{{Mission
-|biome = Arctic
-|name = The Rhino 500
-|difficulty = beta
-|lat = 61.6
-|lon = 33.1
-|spi = -177118 116132 -4858
-|maxplayer = 
-|hexagons = 600
-|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
-}}
-{{Mission
-|biome = Arctic
-|name = The Rhino 500
-|difficulty = alpha
-|lat = 61.6
-|lon = 33.1
-|spi = -177118 116132 -4858
-|maxplayer = 
-|hexagons = 1600
-|description = Climb aboard a Woolly Rhino and race across the frozen plains in the most watched race on Genesis.
-}}
-{{Mission
-|biome = Arctic
-|name = Mound Over Matter
-|difficulty = gamma
-|lat = 61.7
-|lon = 34.7
-|spi = -160564 122714 -17234
-|maxplayer = 
-|hexagons = 1980
-|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
-}}
-{{Mission
-|biome = Arctic
-|name = Mound Over Matter
-|difficulty = beta
-|lat = 61.7
-|lon = 34.7
-|spi = -160564 122714 -17234
-|maxplayer = 
-|hexagons = 11880
-|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
-}}
-{{Mission
-|biome = Arctic
-|name = Mound Over Matter
-|difficulty = alpha
-|lat = 61.7
-|lon = 34.7
-|spi = -160564 122714 -17234
-|maxplayer = 
-|hexagons = 31680
-|description = Search out some buried Golden Nuggets, then steal them away from the greedy guardians.
-}}
-{{Mission
-|biome = Arctic
-|name = Ice Fishin'
-|difficulty = gamma
-|lat = 69.0
-|lon = 21.3
-|spi = -301610 200020.5 -28792
-|maxplayer = 1
-|hexagons = 80
-|description = Just like regular fishing, minus the water... and the warmth. Use your fishing rod (and your patience!) to catch as many fish as you can.
-}}
-{{Mission
-|biome = Arctic
-|name = Ice Fishin'
-|difficulty = beta
-|lat = 69.0
-|lon = 21.3
-|spi = -301610 200020.5 -28792
-|maxplayer = 1
-|hexagons = 480
-|description = Just like regular fishing, minus the water... and the warmth. Use your fishing rod (and your patience!) to catch as many fish as you can.
-}}
-{{Mission
-|biome = Arctic
-|name = Ice Fishin'
-|difficulty = alpha
-|lat = 69.0
-|lon = 21.3
-|spi = -301610 200020.5 -28792
-|maxplayer = 1
-|hexagons = 1280
-|description = Just like regular fishing, minus the water... and the warmth. Use your fishing rod (and your patience!) to catch as many fish as you can.
-}}
-
-==[[File:Ocean Biome Icon.png|50px]]  Ocean Biome==
+</div>
+|-|
+Ocean Biome=
+<div class="missions">
 {{Mission
 |biome = Ocean
-|name = One Tough Moeder
-|difficulty = gamma
-|lat = 39.5
-|lon = 52.0
-|spi = 21679 -110472 -77148
-|maxplayer = 8
-|hexagons = 2040
-|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+|type = race
+|name = Bottle-nosed Blitz
+|description = An all-out sprint to see who's fastest. Cyclones and reefs blocking the way. This is a classic. This is Bottle-Nosed Blitz.
+|maxplayer = 5
+|lat = 34.3
+|lon = 51.6
+|spi = 16866 -164332 -33782
+|hexagons1 = 815
+|hexagons2 = 1,020
+|hexagons3 = 1,275
 }}
 {{Mission
 |biome = Ocean
-|name = One Tough Moeder
-|difficulty = beta
-|lat = 39.5
-|lon = 52.0
-|spi = 21679 -110472 -77148
-|maxplayer = 8
-|hexagons = 12240
-|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+|type = hunt
+|name = Chasing the White Whale
+|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
+|maxplayer = 10
+|lat = 26.5
+|lon = 51.8
+|spi = 19119 -246901 -17501
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Ocean
-|name = One Tough Moeder
-|difficulty = alpha
-|lat = 39.5
-|lon = 52.0
-|spi = 21679 -110472 -77148
-|maxplayer = 8
-|hexagons = 32640
-|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
-}}
-{{Mission
-|biome = Ocean
+|type = escort
 |name = Echo of a Classic
-|difficulty = gamma
+|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
+|maxplayer = 10
 |lat = 20.2
 |lon = 61.6
 |spi = 121719 -313246 -10513
-|maxplayer = 10
-|hexagons = 1800
-|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
 }}
 {{Mission
 |biome = Ocean
-|name = Echo of a Classic
-|difficulty = beta
-|lat = 20.2
-|lon = 61.6
-|spi = 121719 -313246 -10513
-|maxplayer = 10
-|hexagons = 10800
-|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
-}}
-{{Mission
-|biome = Ocean
-|name = Echo of a Classic
-|difficulty = alpha
-|lat = 20.2
-|lon = 61.6
-|spi = 121719 -313246 -10513
-|maxplayer = 10
-|hexagons = 28800
-|description = Keep Icco the Dolphin safe as he uses echolocation to find a far-off voice across the sea
-}}
-{{Mission
-|biome = Ocean
-|name = Rip It, Roll It, and Punch It!
-|difficulty = gamma
-|lat = 31.6
-|lon = 57.5
-|spi = 78863 -193478 -7458
-|maxplayer = 10
-|hexagons = 1800
-|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
-}}
-{{Mission
-|biome = Ocean
-|name = Rip It, Roll It, and Punch It!
-|difficulty = beta
-|lat = 31.6
-|lon = 57.5
-|spi = 78863 -193478 -7458
-|maxplayer = 10
-|hexagons = 10800
-|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
-}}
-{{Mission
-|biome = Ocean
-|name = Rip It, Roll It, and Punch It!
-|difficulty = alpha
-|lat = 31.6
-|lon = 57.5
-|spi = 78863 -193478 -7458
-|maxplayer = 10
-|hexagons = 28800
-|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
-}}
-{{Mission
-|biome = Ocean
+|type = gather
 |name = Hide and Sink
-|difficulty = gamma
+|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
+|maxplayer = 8
 |lat = 30.9
 |lon = 55.9
 |spi = 61754 -200520 918
-|maxplayer = 8
-|hexagons = 125
-|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
+|hexagons1 = 125
+|hexagons2 = 750
+|hexagons3 = 2,000
 }}
 {{Mission
 |biome = Ocean
-|name = Hide and Sink
-|difficulty = beta
-|lat = 30.9
-|lon = 55.9
-|spi = 61754 -200520 918
-|maxplayer = 8
-|hexagons = 750
-|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
-}}
-{{Mission
-|biome = Ocean
-|name = Hide and Sink
-|difficulty = alpha
-|lat = 30.9
-|lon = 55.9
-|spi = 61754 -200520 918 
-|maxplayer = 8
-|hexagons = 2000
-|description = Tour the beauty of the reefs and avoid the predators as HLN-A takes you in and out of the water to find hidden points.
-}}
-{{Mission
-|biome = Ocean
-|name = Chasing the White Whale
-|difficulty = gamma
-|lat = 26.5
-|lon = 51.8
-|spi = 19119 -246901 -17501
-|maxplayer = 10
-|hexagons = 1920
-|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
-}}
-{{Mission
-|biome = Ocean
-|name = Chasing the White Whale
-|difficulty = beta
-|lat = 26.5
-|lon = 51.8
-|spi = 19119 -246901 -17501
-|maxplayer = 10
-|hexagons = 11520
-|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
-}}
-{{Mission
-|biome = Ocean
-|name = Chasing the White Whale
-|difficulty = alpha
-|lat = 26.5
-|lon = 51.8
-|spi = 19119 -246901 -17501
-|maxplayer = 10
-|hexagons = 30720
-|description = Follow the checkpoints to your target: a white Leedsichthys. You might need more than just a harpoon.
-}}
-{{Mission
-|biome = Ocean
-|name = The Mosa Proposal
-|difficulty = gamma
-|lat = 30.2
-|lon = 55.8
-|spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 1920
-|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
-}}
-{{Mission
-|biome = Ocean
-|name = The Mosa Proposal
-|difficulty = beta
-|lat = 30.2
-|lon = 55.8
-|spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 11520
-|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
-}}
-{{Mission
-|biome = Ocean
-|name = The Mosa Proposal
-|difficulty = alpha
-|lat = 30.2
-|lon = 55.8
-|spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 30720
-|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
-}}
-{{Mission
-|biome = Ocean
+|type = hunt
 |name = Loch'd and Loaded
-|difficulty = gamma
+|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+|maxplayer = 10
 |lat = 26.5
 |lon = 51.8
 |spi = 19119 -246901 -17501
-|maxplayer = 10
-|hexagons = 1920
-|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Ocean
-|name = Loch'd and Loaded
-|difficulty = beta
-|lat = 26.5
-|lon = 51.8
-|spi = 19119 -246901 -17501
-|maxplayer = 10
-|hexagons = 11520
-|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+|type = 
+|name = One Tough Moeder
+|description = Dive beneath the waves to battle Moeder, the master AI for this biome.
+|maxplayer = 8
+|lat = 39.5
+|lon = 52.0
+|spi = 21679 -110472 -77148
+|hexagons1 = 2,040
+|hexagons2 = 12,240
+|hexagons3 = 32,640
 }}
 {{Mission
 |biome = Ocean
-|name = Loch'd and Loaded
-|difficulty = alpha
-|lat = 26.5
-|lon = 51.8
-|spi = 19119 -246901 -17501
+|type = escort
+|name = Rip It, Roll It, and Punch It!
+|description = Protect a group of sea turtles as they travel through this dangerous section of their migration, toward the East Genesis Current
 |maxplayer = 10
-|hexagons = 30720
-|description = Search the Ocean's depths for a ravenous Plesiosaur. This monster isn't just a myth.
+|lat = 31.6
+|lon = 57.5
+|spi = 78863 -193478 -7458
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
 }}
 {{Mission
 |biome = Ocean
-|name = Who Hid the Squid?
-|difficulty = gamma
+|type = hunt
+|name = The Mosa Proposal
+|description = Track down a vicious Mosasaurus amongst the dangers of the deep and remind it that man is the most dangerous game.
+|maxplayer = 10
 |lat = 30.2
 |lon = 55.8
 |spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 1920
-|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Ocean
+|type = retrieval
+|name = The Teeth Underneath
+|description = Retrieve teeth from a school of Toothy Megalodons, then escape before you become something's next meal.
+|maxplayer = 10
+|lat = 28.7
+|lon = 52.5
+|spi = 25995 -224062 -41943
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
+}}
+{{Mission
+|biome = Ocean
+|type = race
+|name = Wave Ray 64
+|description = Make all the right sea-do's and sea-don'ts in this race above and below the waves. This race has no margin for error!
+|maxplayer = 5
+|lat = 30.4
+|lon = 49.7
+|spi = -2904 -206142 102
+|hexagons1 = 790
+|hexagons2 = 990
+|hexagons3 = 1,235
+}}
+{{Mission
+|biome = Ocean
+|type = hunt
 |name = Who Hid the Squid?
-|difficulty = beta
+|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+|maxplayer = 10
 |lat = 30.2
 |lon = 55.8
 |spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 11520
-|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Ocean
-|name = Who Hid the Squid?
-|difficulty = alpha
-|lat = 30.2
-|lon = 55.8
-|spi = 60793 -208135 -3305
-|maxplayer = 10
-|hexagons = 30720
-|description = Search the depths for a nightmarish Tusoteuthis and end its reign of terror!
-}}
-{{Mission
-|biome = Ocean
+|type = 
 |name = Repair the Ocean Glitches!
-|difficulty = 
+|description = 
+|maxplayer = 1
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 1
-|hexagons = 1000
-|description = 
+|hexagons = 30,000
 }}
-{{Mission
-|biome = Ocean
-|name = Wave Ray 64
-|difficulty = gamma
-|lat = 30.4
-|lon = 49.7
-|spi = -2904 -206142 102
-|maxplayer = 5
-|hexagons = 790
-|description = Make all the right sea-do's and sea-don'ts in this race above and below the waves. This race has no margin for error!
-}}
-{{Mission
-|biome = Ocean
-|name = Wave Ray 64
-|difficulty = beta
-|lat = 30.4
-|lon = 49.7
-|spi = -2904 -206142 102
-|maxplayer = 5
-|hexagons = 990
-|description = Make all the right sea-do's and sea-don'ts in this race above and below the waves. This race has no margin for error!
-}}
-{{Mission
-|biome = Ocean
-|name = Wave Ray 64
-|difficulty = alpha
-|lat = 30.4
-|lon = 49.7
-|spi = -2904 -206142 102
-|maxplayer = 5
-|hexagons = 1235
-|description = Make all the right sea-do's and sea-don'ts in this race above and below the waves. This race has no margin for error!
-}}
-{{Mission
-|biome = Ocean
-|name = Bottle-nosed Blitz
-|difficulty = gamma
-|lat = 34.3
-|lon = 51.6
-|spi = 16866 -164332 -33782
-|maxplayer = 5
-|hexagons = 815
-|description = An all-out sprint to see who's fastest. Cyclones and reefs blocking the way. This is a classic. This is Bottle-Nosed Blitz.
-}}
-{{Mission
-|biome = Ocean
-|name = Bottle-nosed Blitz
-|difficulty = beta
-|lat = 34.3
-|lon = 51.6
-|spi = 16866 -164332 -33782
-|maxplayer = 5
-|hexagons = 1020
-|description = An all-out sprint to see who's fastest. Cyclones and reefs blocking the way. This is a classic. This is Bottle-Nosed Blitz.
-}}
-{{Mission
-|biome = Ocean
-|name = Bottle-nosed Blitz
-|difficulty = alpha
-|lat = 34.3
-|lon = 51.6
-|spi = 16866 -164332 -33782
-|maxplayer = 5
-|hexagons = 1275
-|description = An all-out sprint to see who's fastest. Cyclones and reefs blocking the way. This is a classic. This is Bottle-Nosed Blitz.
-}}
-{{Mission
-|biome = Ocean
-|name = The Teeth Underneath
-|difficulty = gamma
-|lat = 28.7
-|lon = 52.5
-|spi = 25995 -224062 -41943
-|maxplayer = 10
-|hexagons = 1980
-|description = Retrieve teeth from a school of Toothy Megalodons, then escape before you become something's next meal.
-}}
-{{Mission
-|biome = Ocean
-|name = The Teeth Underneath
-|difficulty = beta
-|lat = 28.7
-|lon = 52.5
-|spi = 25995 -224062 -41943
-|maxplayer = 10
-|hexagons = 11880
-|description = Retrieve teeth from a school of Toothy Megalodons, then escape before you become something's next meal.
-}}
-{{Mission
-|biome = Ocean
-|name = The Teeth Underneath
-|difficulty = alpha
-|lat = 28.7
-|lon = 52.5
-|spi = 25995 -224062 -41943
-|maxplayer = 10
-|hexagons = 31680
-|description = Retrieve teeth from a school of Toothy Megalodons, then escape before you become something's next meal.
-}}
-
-==[[File:Volcanic Biome Icon.png|50px]]  Volcanic Biome==
+</div>
+|-|
+Volcanic Biome=
+<div class="missions">
 {{Mission
 |biome = Volcanic
-|name = Out of the Frying Pan...
-|difficulty = gamma
-|lat = 15.1
-|lon = 70.6
-|spi = 216665 -366503 -5118
-|maxplayer = 8
-|hexagons = 125
-|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
-}}
-{{Mission
-|biome = Volcanic
-|name = Out of the Frying Pan...
-|difficulty = beta
-|lat = 15.1
-|lon = 70.6
-|spi = 216665 -366503 -5118
-|maxplayer = 8
-|hexagons = 750
-|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
-}}
-{{Mission
-|biome = Volcanic
-|name = Out of the Frying Pan...
-|difficulty = alpha
-|lat = 15.1
-|lon = 70.6
-|spi = 216665 -366503 -5118
-|maxplayer = 8
-|hexagons = 2000
-|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
-}}
-{{Mission
-|biome = Volcanic
-|name = Magma Medley Melee
-|difficulty = gamma
-|lat = 45.1
-|lon = 80.8
-|spi = 323039 -51731 -30539
-|maxplayer = 10
-|hexagons = 2280
-|description = Fight off an ensemble of fiery predators or it's curtains for you! At least that volcano isn't erupting... oh wait.
-}}
-{{Mission
-|biome = Volcanic
-|name = Magma Medley Melee
-|difficulty = beta
-|lat = 45.1
-|lon = 80.8
-|spi = 323039 -51731 -30539
-|maxplayer = 10
-|hexagons = 11400
-|description = Fight off an ensemble of fiery predators or it's curtains for you! At least that volcano isn't erupting... oh wait.
-}}
-{{Mission
-|biome = Volcanic
-|name = Magma Medley Melee
-|difficulty = alpha
-|lat = 45.1
-|lon = 80.8
-|spi = 323039 -51731 -30539 
-|maxplayer = 10
-|hexagons = 36480
-|description = Fight off an ensemble of fiery predators or it's curtains for you! At least that volcano isn't erupting... oh wait.
-}}
-{{Mission
-|biome = Volcanic
+|type = hunt
 |name = Allo and Goodbye
-|difficulty = gamma
-|lat = 41.3
-|lon = 86.7
-|spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 1920
 |description = A low level Brute Allosaurus Pack is on the prowl, take it down!
-}}
-{{Mission
-|biome = Volcanic
-|name = Allo and Goodbye
-|difficulty = beta
+|maxplayer = 10
 |lat = 41.3
 |lon = 86.7
 |spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 11520
-|description = A mid level Brute Allosaurus Pack is on the prowl, take it down!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Volcanic
-|name = Allo and Goodbye
-|difficulty = alpha
-|lat = 41.3
-|lon = 86.7
-|spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 30720
-|description = A high level Brute Allosaurus Pack is on the prowl, take it down!
+|type = race
+|name = Dead Heat
+|description = Ride a skittish Gallimimus on this race through the biome's most blitseringly hot terrain.
+|maxplayer = 5
+|lat = 41.8
+|lon = 82.2
+|spi = 338144 -85637 -30174
+|hexagons1 = 840
+|hexagons2 = 1,050
+|hexagons3 = 1,310
 }}
 {{Mission
 |biome = Volcanic
+|type = race
+|name = Gotta Go Fast
+|description = Mount a Doedicurus and roll at supersonic speeds down the side of a volcano, timing your bounces to avoid lethal lava.
+|maxplayer = 5
+|lat = 33.7
+|lon = 85.2
+|spi = 369948 -171539 -5013
+|hexagons1 = 575
+|hexagons2 = 720
+|hexagons3 = 900
+}}
+{{Mission
+|biome = Volcanic
+|type = hunt
 |name = Hunt in the Heat
-|difficulty = gamma
+|description = Hunt the Magmasaur, and try to keep your cool.
+|maxplayer = 10
 |lat = 41.3
 |lon = 86.7
 |spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 1920
-|description = Hunt the Magmasaur, and try to keep your cool.
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Volcanic
-|name = Hunt in the Heat
-|difficulty = beta
-|lat = 41.3
-|lon = 86.7
-|spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 11520
-|description = Hunt the Magmasaur, and try to keep your cool.
-}}
-{{Mission
-|biome = Volcanic
-|name = Hunt in the Heat
-|difficulty = alpha
-|lat = 41.3
-|lon = 86.7
-|spi = 385618 -90973 -30896
-|maxplayer = 10
-|hexagons = 30720
-|description = Hunt the Magmasaur, and try to keep your cool.
-}}
-{{Mission
-|biome = Volcanic
+|type = hunt
 |name = Kingslayer
-|difficulty = gamma
-|lat = 33.3
-|lon = 85.9
-|spi = 377326 -175860 -3800
-|maxplayer = 10
-|hexagons = 1920
 |description = Hunt down a thundering Tyrannosaurus Rex across the Volcanic wasteland and overthrow this tyrant king!
-}}
-{{Mission
-|biome = Volcanic
-|name = Kingslayer
-|difficulty = beta
+|maxplayer = 10
 |lat = 33.3
 |lon = 85.9
 |spi = 377326 -175860 -3800
-|maxplayer = 10
-|hexagons = 1152
-|description = Hunt down a thundering Tyrannosaurus Rex across the Volcanic wasteland and overthrow this tyrant king!
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Volcanic
-|name = Kingslayer
-|difficulty = alpha
-|lat = 33.3
+|type = gauntlet
+|name = Magma Medley Melee
+|description = Fight off an ensemble of fiery predators or it's curtains for you! At least that volcano isn't erupting... oh wait.
+|maxplayer = 10
+|lat = 45.1
+|lon = 80.8
+|spi = 323039 -51731 -30539
+|hexagons1 = 2,280
+|hexagons2 = 13,680
+|hexagons3 = 36,480
+}}
+{{Mission
+|biome = Volcanic
+|type = retrieval
+|name = One Hell of a Treasure Hunt
+|description = Retrieve the skull of the Alpha X-Triceratops from its Volcanic stomping ground. Don't panic, there's just fire and lava everywhere.
+|maxplayer = 10
+|lat = 40.7
+|lon = 81.8
+|spi = 333799 -97511 -30259
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
+}}
+{{Mission
+|biome = Volcanic
+|type = gather
+|name = Out of the Frying Pan...
+|description = Explore the volcano and try not to get burned as you search for hidden points in this oppressively hot region.
+|maxplayer = 8
+|lat = 15.1
+|lon = 70.6
+|spi = 216665 -366503 -5118
+|hexagons1 = 125
+|hexagons2 = 750
+|hexagons3 = 2,000
+}}
+{{Mission
+|biome = Volcanic
+|type = retrieval
+|name = The Egg-straction
+|description = Brave a Magmasaur's den and steal one of their precious eggs. Only the most prepared survivors will escape the onslaught of fire and teeth that follows.
+|maxplayer = 10
+|lat = 32.5
 |lon = 85.9
-|spi = 377326 -175860 -3800 
-|maxplayer = 10
-|hexagons = 30720
-|description = Hunt down a thundering Tyrannosaurus Rex across the Volcanic wasteland and overthrow this tyrant king!
+|spi = 377827 -183539 -2459
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
 }}
 {{Mission
 |biome = Volcanic
+|type = escort
+|name = The Summit Tour
+|description = A family of Parasaurs are wandering around the summit. Protect them from predators who want fresh meat
+|maxplayer = 10
+|lat = 32.8
+|lon = 88.1
+|spi = 400305 -180186 -6103
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
+}}
+{{Mission
+|biome = Volcanic
+|type = hunt
 |name = We Will Rock You
-|difficulty = gamma
+|description = Hunt down a Rock Elemental, but watch out for its volcanic bombardment.
+|maxplayer = 10
 |lat = 33.3
 |lon = 85.9
 |spi = 377326 -175860 -3800
-|maxplayer = 10
-|hexagons = 1920
-|description = Hunt down a Rock Elemental, but watch out for its volcanic bombardment.
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
 }}
 {{Mission
 |biome = Volcanic
-|name = We Will Rock You
-|difficulty = beta
-|lat = 33.3
-|lon = 85.9
-|spi = 377326 -175860 -3800
-|maxplayer = 10
-|hexagons = 11520
-|description = Hunt down a Rock Elemental, but watch out for its volcanic bombardment.
-}}
-{{Mission
-|biome = Volcanic
-|name = We Will Rock You
-|difficulty = alpha
-|lat = 33.3
-|lon = 85.9
-|spi = 377326 -175860 -3800
-|maxplayer = 10
-|hexagons = 30720
-|description = Hunt down a Rock Elemental, but watch out for its volcanic bombardment.
-}}
-{{Mission
-|biome = Volcanic
+|type = 
 |name = Repair the Volcanic Glitches!
-|difficulty = 
+|description = 
+|maxplayer = 1
 |lat = 
 |lon = 
 |spi = 
+|hexagons = 30,000
+}}
+</div>
+|-|
+Lunar Biome=
+<div class="missions">
+{{Mission
+|biome = Lunar
+|type = hunt
+|name = A Captain's Conquest
+|description = Search the desolate Lunar reaches for a gigantic territorial Astrocetus. Take it down and reclaim the stars!
+|maxplayer = 10
+|lat = 49.3
+|lon = 30.6
+|spi = -203544 -7384 -8300
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
+}}
+{{Mission
+|biome = Lunar
+|type = basketball
+|name = Bulbdogball Pick-Up Game
+|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
+|maxplayer = 10
+|lat = 50.3
+|lon = 28.1
+|spi = -230176 3078 45289
+|hexagons1 = 10 Min
+|hexagons2 = 5 Min
+|hexagons3 = 2 Min
+}}
+{{Mission
+|biome = Lunar
+|type = retrieval
+|name = Don't Fear the Reaper King
+|description = Turn the hunter into the hunted as you track down an Injured Reaper King and harvest its Reaper Pheromone Gland.
+|maxplayer = 10
+|lat = 27.8
+|lon = 16.9
+|spi = -347722 -232669 -31579
+|hexagons1 = 1,980
+|hexagons2 = 11,880
+|hexagons3 = 31,680
+}}
+{{Mission
+|biome = Lunar
+|type = hunt
+|name = Hunting by Moonlight
+|description = Seek and destroy a malfunctioning Tek Giganotosaurus that's trying to assert its dominance over the Lunar landscape.
+|maxplayer = 10
+|lat = 43.9
+|lon = 25.4
+|spi = -258177 -63644 33601
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
+}}
+{{Mission
+|biome = Lunar
+|type = hunt
+|name = It's a Bug Hunt
+|description = Stalk a pack of Nameless and expunge them from the biome -- but beware their Reaper allies.
+|maxplayer = 10
+|lat = 43.9
+|lon = 25.4
+|spi = -258177 -63644 33601
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
+}}
+{{Mission
+|biome = Lunar
+|type = hunt
+|name = King of the Moon
+|description = It's time to hunt! Your quarry is a pack of Tek Tyrannosaurus Rexes.
+|maxplayer = 10
+|lat = 49.3
+|lon = 30.6
+|spi = -203544 -7384 -8300
+|hexagons1 = 1,920
+|hexagons2 = 11,520
+|hexagons3 = 30,720
+}}
+{{Mission
+|biome = Lunar
+|type = basketball
+|name = Space Jam
+|description = When you don't have a basketball, perhaps a Bulbdog will do. Score 10 points before the timer runs out! (1-pointer shots will not be counted!)
 |maxplayer = 1
-|hexagons = 1000
-|description = 
-}}
-{{Mission
-|biome = Volcanic
-|name = One Hell of a Treasure Hunt
-|difficulty = gamma
-|lat = 40.7
-|lon = 81.8
-|spi = 333799 -97511 -30259
-|maxplayer = 10
-|hexagons = 1980
-|description = Retrieve the skull of the Alpha X-Triceratops from its Volcanic stomping ground. Don't panic, there's just fire and lava everywhere.
-}}
-{{Mission
-|biome = Volcanic
-|name = One Hell of a Treasure Hunt
-|difficulty = beta
-|lat = 40.7
-|lon = 81.8
-|spi = 333799 -97511 -30259
-|maxplayer = 10
-|hexagons = 11880
-|description = Retrieve the skull of the Alpha X-Triceratops from its Volcanic stomping ground. Don't panic, there's just fire and lava everywhere.
-}}
-{{Mission
-|biome = Volcanic
-|name = One Hell of a Treasure Hunt
-|difficulty = alpha
-|lat = 40.7
-|lon = 81.8
-|spi = 333799 -97511 -30259
-|maxplayer = 10
-|hexagons = 31680
-|description = Retrieve the skull of the Alpha X-Triceratops from its Volcanic stomping ground. Don't panic, there's just fire and lava everywhere.
-}}
-{{Mission
-|biome = Volcanic
-|name = The Summit Tour
-|difficulty = gamma
-|lat = 32.8
-|lon = 88.1
-|spi = 400305 -180186 -6103
-|maxplayer = 10
-|hexagons = 1800
-|description = A family of Parasaurs are wandering around the summit. Protect them from predators who want fresh meat
-}}
-{{Mission
-|biome = Volcanic
-|name = The Summit Tour
-|difficulty = beta
-|lat = 32.8
-|lon = 88.1
-|spi = 400305 -180186 -6103
-|maxplayer = 10
-|hexagons = 
-|description = A family of Parasaurs are wandering around the summit. Protect them from predators who want fresh meat
-}}
-{{Mission
-|biome = Volcanic
-|name = The Summit Tour
-|difficulty = alpha
-|lat = 32.8
-|lon = 88.1
-|spi = 400305 -180186 -6103
-|maxplayer = 10
-|hexagons = 
-|description = A family of Parasaurs are wandering around the summit. Protect them from predators who want fresh meat
-}}
-{{Mission
-|biome = Volcanic
-|name = Gotta Go Fast
-|difficulty = gamma
-|lat = 33.7
-|lon = 85.2
-|spi = 369948 -171539 -5013
-|maxplayer = 5
-|hexagons = 575
-|description = Mount a Doedicurus and roll at supersonic speeds down the side of a volcano, timing your bounces to avoid lethal lava.
-}}
-{{Mission
-|biome = Volcanic
-|name = Gotta Go Fast
-|difficulty = beta
-|lat = 33.7
-|lon = 85.2
-|spi = 369948 -171539 -5013
-|maxplayer = 5
-|hexagons = 720
-|description = Mount a Doedicurus and roll at supersonic speeds down the side of a volcano, timing your bounces to avoid lethal lava.
-}}
-{{Mission
-|biome = Volcanic
-|name = Gotta Go Fast
-|difficulty = alpha
-|lat = 33.7
-|lon = 85.2
-|spi = 369948 -171539 -5013
-|maxplayer = 5
-|hexagons = 900
-|description = Mount a Doedicurus and roll at supersonic speeds down the side of a volcano, timing your bounces to avoid lethal lava.
-}}
-{{Mission
-|biome = Volcanic
-|name = Dead Heat
-|difficulty = gamma
-|lat = 41.8
-|lon = 82.2
-|spi = 338144 -85637 -30174
-|maxplayer = 5
-|hexagons = 840
-|description = Ride a skittish Gallimimus on this race through the biome's most blitseringly hot terrain.
-}}
-{{Mission
-|biome = Volcanic
-|name = Dead Heat
-|difficulty = beta
-|lat = 41.8
-|lon = 82.2
-|spi = 338144 -85637 -30174
-|maxplayer = 5
-|hexagons = 1050
-|description = Ride a skittish Gallimimus on this race through the biome's most blitseringly hot terrain.
-}}
-{{Mission
-|biome = Volcanic
-|name = Dead Heat
-|difficulty = alpha
-|lat = 41.8
-|lon = 82.2
-|spi = 338144 -85637 -30174
-|maxplayer = 5
-|hexagons = 1310
-|description = Ride a skittish Gallimimus on this race through the biome's most blitseringly hot terrain.
-}}
-{{Mission
-|biome = Volcanic
-|name = The Egg-straction
-|difficulty = gamma
-|lat = 32.5
-|lon = 85.9
-|spi = 377827 -183539 -2459
-|maxplayer = 10
-|hexagons = 1980
-|description = Brave a Magmasaur's den and steal one of their precious eggs. Only the most prepared survivors will escape the onslaught of fire and teeth that follows.
-}}
-{{Mission
-|biome = Volcanic
-|name = The Egg-straction
-|difficulty = beta
-|lat = 32.5
-|lon = 85.9
-|spi = 377827 -183539 -2459
-|maxplayer = 10
-|hexagons = 
-|description = Brave a Magmasaur's den and steal one of their precious eggs. Only the most prepared survivors will escape the onslaught of fire and teeth that follows.
-}}
-{{Mission
-|biome = Volcanic
-|name = The Egg-straction
-|difficulty = alpha
-|lat = 32.5
-|lon = 85.9
-|spi = 377827 -183539 -2459
-|maxplayer = 10
-|hexagons = 
-|description = Brave a Magmasaur's den and steal one of their precious eggs. Only the most prepared survivors will escape the onslaught of fire and teeth that follows.
-}}
-
-==[[File:Lunar Biome Icon.png|50px]]  Lunar Biome==
-{{Mission
-|biome = Lunar
-|name = This Little Light of Mine
-|difficulty = gamma
-|lat = 21.1
-|lon = 27.9
-|spi = -231749 -303082 29015
-|maxplayer = 10
-|hexagons = 1800
-|description = Guard a lantern pup as it travels across the asteroid landscape gathering Teleporter Power to make its escape
+|lat = 50.3
+|lon = 28.1
+|spi = -230176 3078 45289
+|hexagons1 = 75
+|hexagons2 = 450
+|hexagons3 = 900
 }}
 {{Mission
 |biome = Lunar
-|name = This Little Light of Mine
-|difficulty = beta
-|lat = 21.1
-|lon = 27.9
-|spi = -231749 -303082 29015
-|maxplayer = 10
-|hexagons = 10800
-|description = Guard a lantern pup as it travels across the asteroid landscape gathering Teleporter Power to make its escape
-}}
-{{Mission
-|biome = Lunar
-|name = This Little Light of Mine
-|difficulty = alpha
-|lat = 21.1
-|lon = 27.9
-|spi = -231749 -303082 29015
-|maxplayer = 10
-|hexagons = 28800
-|description = Guard a lantern pup as it travels across the asteroid landscape gathering Teleporter Power to make its escape
-}}
-{{Mission
-|biome = Lunar
-|name = To Boldly Go
-|difficulty = gamma
-|lat = 35.0
-|lon = 28.2
-|spi = -229014 -157205 35262
-|maxplayer = 8
-|hexagons = 125
-|description = Seek out new life and new civilizations -- or at least the hidden points among the asteroids.
-}}
-{{Mission
-|biome = Lunar
-|name = To Boldly Go
-|difficulty = beta
-|lat = 35.0
-|lon = 28.2
-|spi = -229014 -157205 35262
-|maxplayer = 8
-|hexagons = 750
-|description = Seek out new life and new civilizations -- or at least the hidden points among the asteroids.
-}}
-{{Mission
-|biome = Lunar
-|name = To Boldly Go
-|difficulty = alpha
-|lat = 35.0
-|lon = 28.2
-|spi = -229014 -157205 35262
-|maxplayer = 8
-|hexagons = 2000
-|description = Seek out new life and new civilizations -- or at least the hidden points among the asteroids.
-}}
-{{Mission
-|biome = Lunar
+|type = gauntlet
 |name = TEKnological Terrors
-|difficulty = gamma
+|description = Fend off increasingly difficult waves of robotic predators. Defrag them before they delete you.
+|maxplayer = 10
 |lat = 14.2
 |lon = 29.7
 |spi = -213095 -376214 -3960
-|maxplayer = 10
-|hexagons = 2280
-|description = Fend off increasingly difficult waves of robotic predators. Defrag them before they delete you.
+|hexagons1 = 2,280
+|hexagons2 = 13,680
+|hexagons3 = 36,480
 }}
 {{Mission
 |biome = Lunar
-|name = TEKnological Terrors
-|difficulty = beta
-|lat = 14.2
-|lon = 29.7
-|spi = -213095 -376214 -3960
+|type = escort
+|name = This Little Light of Mine
+|description = Guard a lantern pup as it travels across the asteroid landscape gathering Teleporter Power to make its escape
 |maxplayer = 10
-|hexagons = 13680
-|description = Fend off increasingly difficult waves of robotic predators. Defrag them before they delete you.
+|lat = 21.1
+|lon = 27.9
+|spi = -231749 -303082 29015
+|hexagons1 = 1,800
+|hexagons2 = 10,800
+|hexagons3 = 28,800
 }}
 {{Mission
 |biome = Lunar
-|name = TEKnological Terrors
-|difficulty = alpha
-|lat = 14.2
-|lon = 29.7
-|spi = -213095 -376214 -3960
-|maxplayer = 10
-|hexagons = 36480
-|description = Fend off increasingly difficult waves of robotic predators. Defrag them before they delete you.
+|type = gather
+|name = To Boldly Go
+|description = Seek out new life and new civilizations -- or at least the hidden points among the asteroids.
+|maxplayer = 8
+|lat = 35.0
+|lon = 28.2
+|spi = -229014 -157205 35262
+|hexagons1 = 125
+|hexagons2 = 750
+|hexagons3 = 2,000
 }}
 {{Mission
 |biome = Lunar
-|name = Hunting by Moonlight
-|difficulty = gamma
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601
-|maxplayer = 10
-|hexagons = 1920
-|description = Seek and destroy a malfunctioning Tek Giganotosaurus that's trying to assert its dominance over the Lunar landscape.
+|type = race
+|name = Tokyo Skifft
+|description = Dodge meteors and control your altitude as you drift your Skiff across multiple lunar asteroids.
+|maxplayer = 5
+|lat = 48.4
+|lon = 27.7
+|spi = -234373 -16825 45702
+|hexagons1 = 910
+|hexagons2 = 1,140
+|hexagons3 = 1,425
 }}
 {{Mission
 |biome = Lunar
-|name = Hunting by Moonlight
-|difficulty = beta
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601
-|maxplayer = 10
-|hexagons = 11520
-|description = Seek and destroy a malfunctioning Tek Giganotosaurus that's trying to assert its dominance over the Lunar landscape.
-}}
-{{Mission
-|biome = Lunar
-|name = Hunting by Moonlight
-|difficulty = alpha
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601
-|maxplayer = 10
-|hexagons = 30720
-|description = Seek and destroy a malfunctioning Tek Giganotosaurus that's trying to assert its dominance over the Lunar landscape.
-}}
-{{Mission
-|biome = Lunar
-|name = King of the Moon
-|difficulty = gamma
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 1920
-|description = It's time to hunt! Your quarry is a pack of Tek Tyrannosaurus Rexes.
-}}
-{{Mission
-|biome = Lunar
-|name = King of the Moon
-|difficulty = beta
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 11520
-|description = It's time to hunt! Your quarry is a pack of Tek Tyrannosaurus Rexes.
-}}
-{{Mission
-|biome = Lunar
-|name = King of the Moon
-|difficulty = alpha
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 30720
-|description = It's time to hunt! Your quarry is a pack of Tek Tyrannosaurus Rexes.
-}}
-{{Mission
-|biome = Lunar
-|name = It's a Bug Hunt
-|difficulty = gamma
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601
-|maxplayer = 10
-|hexagons = 1920
-|description = Stalk a pack of Nameless and expunge them from the biome -- but beware their Reaper allies.
-}}
-{{Mission
-|biome = Lunar
-|name = It's a Bug Hunt
-|difficulty = beta
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601 
-|maxplayer = 10
-|hexagons = 11520
-|description = Stalk a pack of Nameless and expunge them from the biome -- but beware their Reaper allies.
-}}
-{{Mission
-|biome = Lunar
-|name = It's a Bug Hunt
-|difficulty = alpha
-|lat = 43.9
-|lon = 25.4
-|spi = -258177 -63644 33601
-|maxplayer = 10
-|hexagons = 30720
-|description = Stalk a pack of Nameless and expunge them from the biome -- but beware their Reaper allies.
-}}
-{{Mission
-|biome = Lunar
-|name = A Captain's Conquest
-|difficulty = gamma
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 1920
-|description = Search the desolate Lunar reaches for a gigantic territorial Astrocetus. Take it down and reclaim the stars!
-}}
-{{Mission
-|biome = Lunar
-|name = A Captain's Conquest
-|difficulty = beta
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 11520
-|description = Search the desolate Lunar reaches for a gigantic territorial Astrocetus. Take it down and reclaim the stars!
-}}
-{{Mission
-|biome = Lunar
-|name = A Captain's Conquest
-|difficulty = alpha
-|lat = 49.3
-|lon = 30.6
-|spi = -203544 -7384 -8300
-|maxplayer = 10
-|hexagons = 30720
-|description = Search the desolate Lunar reaches for a gigantic territorial Astrocetus. Take it down and reclaim the stars!
-}}
-{{Mission
-|biome = Lunar
+|type = 
 |name = Repair the Lunar Glitches!
-|difficulty = 
+|description = 
+|maxplayer = 1
 |lat = 
 |lon = 
 |spi = 
-|maxplayer = 1
-|hexagons = 1000
-|description = 
+|hexagons = 30,000
 }}
-{{Mission
-|biome = Lunar
-|name = Don't Fear the Reaper King
-|difficulty = gamma
-|lat = 27.8
-|lon = 16.9
-|spi = -347722 -232669 -31579
-|maxplayer = 10
-|hexagons = 1980
-|description = Turn the hunter into the hunted as you track down an Injured Reaper King and harvest its Reaper Pheromone Gland.
-}}
-{{Mission
-|biome = Lunar
-|name = Don't Fear the Reaper King
-|difficulty = beta
-|lat = 27.8
-|lon = 16.9
-|spi = -347722 -232669 -31579
-|maxplayer = 10
-|hexagons = 11880
-|description = Turn the hunter into the hunted as you track down an Injured Reaper King and harvest its Reaper Pheromone Gland.
-}}
-{{Mission
-|biome = Lunar
-|name = Don't Fear the Reaper King
-|difficulty = alpha
-|lat = 27.8
-|lon = 16.9
-|spi = -347722 -232669 -31579
-|maxplayer = 10
-|hexagons = 31680
-|description = Turn the hunter into the hunted as you track down an Injured Reaper King and harvest its Reaper Pheromone Gland.
-}}
-{{Mission
-|biome = Lunar
-|name = Bulbdogball Pick-Up Game (10 Min)
-|difficulty = 
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 10
-|hexagons = 
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Lunar
-|name = Bulbdogball Pick-Up Game (5 Min)
-|difficulty = 
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 10
-|hexagons = 
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Lunar
-|name = Bulbdogball Pick-Up Game (2 Min)
-|difficulty = 
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 10
-|hexagons = 
-|description = It's blue vs. red! The team with the highest score when the timer runs out wins.
-}}
-{{Mission
-|biome = Lunar
-|name = Space Jam
-|difficulty = gamma
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 1
-|hexagons = 75
-|description = When you don't have a basketball, perhaps a Bulbdog will do. Score 10 points before the timer runs out! (1-pointer shots will not be counted!)
-}}
-{{Mission
-|biome = Lunar
-|name = Space Jam
-|difficulty = beta
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 1
-|hexagons = 450
-|description = When you don't have a basketball, perhaps a Bulbdog will do. Score 10 points before the timer runs out! (1-pointer shots will not be counted!)
-}}
-{{Mission
-|biome = Lunar
-|name = Space Jam
-|difficulty = alpha
-|lat = 50.3
-|lon = 28.1
-|spi = -230176 3078 45289
-|maxplayer = 1
-|hexagons = 900
-|description = When you don't have a basketball, perhaps a Bulbdog will do. Score 10 points before the timer runs out! (1-pointer shots will not be counted!)
-}}
-{{Mission
-|biome = Lunar
-|name = Tokyo Skifft
-|difficulty = gamma
-|lat = 48.4
-|lon = 27.7
-|spi = -234373 -16825 45702
-|maxplayer = 5
-|hexagons = 910
-|description = Dodge meteors and control your altitude as you drift your Skiff across multiple lunar asteroids.
-}}
-{{Mission
-|biome = Lunar
-|name = Tokyo Skifft
-|difficulty = beta
-|lat = 48.4
-|lon = 27.7
-|spi = -234373 -16825 45702
-|maxplayer = 5
-|hexagons = 1140
-|description = Dodge meteors and control your altitude as you drift your Skiff across multiple lunar asteroids.
-}}
-{{Mission
-|biome = Lunar
-|name = Tokyo Skifft
-|difficulty = alpha
-|lat = 48.4
-|lon = 27.7
-|spi = -234373 -16825 45702
-|maxplayer = 5
-|hexagons = 1425
-|description = Dodge meteors and control your altitude as you drift your Skiff across multiple lunar asteroids.
-}}
+</div>
+</tabber>
+
+{{Nav missions}}
+{{Nav Gameplay Mechanics}}
