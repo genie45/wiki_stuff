@@ -369,7 +369,7 @@ You will need to restart your server, if you add new lines to the file while it 
 |enables a specified event <br /> Only one can be specified and active at a time<br />
 <table class="wikitable">
     <tr><th>eventname</th><th>Description</th></tr>
-    <tr><td>Easter</td><td>Allows for the [[ARK: Eggcellent Adventure 3|Easter Event]] to be activated</td></tr>
+    <tr><td>Easter</td><td>Allows for the [[ARK: Eggcellent Adventure 5|Easter Event]] to be activated</td></tr>
     <tr><td>Arkaeology</td><td>Allows for the [[ARK: ARKaeology|Arkaeology Event]] to be activated.</td></tr>
     <tr><td>ExtinctionChronicles</td><td>Allows for the [[Extinction Chronicles|Extinction Chronicles Event]] to be activated.</td></tr>
     <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 4|Winter Wonderland 2019 Event]] to be activated.</td></tr>
@@ -653,7 +653,15 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>AllowTekSuitPowersInGenesis</code> || ''boolean'' || false || enable or disable TEK suit powers in [[Genesis Part 1]]
 |-
-| <code>EnableCryoSicknessPVE</code> || ''boolean'' || false || Enable/Disable cryosickness for tamed creatures on PVE.''<br/>Introduced in patch [[307.56]]''
+| <code>EnableCryoSicknessPVE</code> || ''boolean'' || false || Enable/Disable cryosickness for tamed creatures on PVE.<br/>''Introduced in patch [[307.56]]''
+|-
+| <code>EnableCryopodNerf</code> || ''boolean'' || false || Enable/Disable Cryopod nerf with custom settings for amount of time and percentage of damage reduction after deploy. The following settings need to be set too [[#CryopodNerfDamageMult|CryopodNerfDamageMult]] & [[#CryopodNerfDuration|CryopodNerfDuration]]<br/>''Introduced in patch [[309.53]]''
+|-
+| <code>CryopodNerfDuration</code> || ''integer'' || 10 || Amount of time the damage reduction of a tame will last after being deployed from a Cryopod. [[#CryopodNerfDamageMult|CryopodNerfDamageMult]] needs a valid value & [[#EnableCryoSicknessPVE|EnableCryoSicknessPVE]] need to be true<br/>''Introduced in patch [[309.53]]''
+|-
+| <code>CryopodNerfDamageMult</code> || ''float'' || 0.01 || percentage of damage the tame can deal after being deployed from a cryopod for the set time. [[#CryopodNerfDuration|CryopodNerfDuration]] needs a valid value & [[#EnableCryoSicknessPVE|EnableCryoSicknessPVE]] need to be true <br/> CryopodNerfDamageMult=0.01 means 99% of the damage is removed <br/>''Introduced in patch [[309.53]]''
+|-
+| <code>CryopodNerfIncomingDamageMultPercent</code> || ''float'' || 0.25 || increase incoming damage multiplier from the cryopod-release debuff. <br/>CryopodNerfIncomingDamageMultPercent=0.25 means a realeased tame takes 25% more damage while the debuff lasts <br/>''Introduced in patch [[310.11]]''
 |-
 | <code>MaxTamedDinos</code> || ''integer'' || 4000 || Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
 |-class="redish-background"
