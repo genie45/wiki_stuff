@@ -1,0 +1,42 @@
+<noinclude>{{include}}
+== Orbital Supply Drop ==</noinclude>
+<div style="padding-left: calc(1em - 5px);border-left: 5px solid #007CCC">
+;Easy
+<tabber>
+Overview=
+{{ItemList|columnWidth=15em|listtype=none|}}
+|-|Detailed=
+* Quality range: 100% - 100%
+* The crate contains of exactly 1 of the following tier sets.
+
+<div style="border:1px solid silver;padding:0 0.5em;margin-bottom:0.5em;">
+;Mission Loot Set (Medium) (Total Weight - 1)
+The tier set "Mission Loot Set (Medium)" contains at least 1 and at most 2 of the following item entries.
+<div style="margin-left:1em;">
+;Missions - no BP - with quality - Weight 1
+:The item entry "Missions - no BP - with quality" contains at exactly 1 of the following items.
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:as item or as blueprint
+:with quality 160% - 300%
+</div><div style="margin-left:1em;">
+;Missions - never BP - no quality - Weight 1
+:The item entry "Missions - never BP - no quality" contains exactly 1 of the following items.
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:as item or as blueprint
+:with no quality 
+</div><div style="margin-left:1em;">
+;Missions - with BP - with quality - Weight 1
+:The item entry "Missions - with BP - with quality" contains exactly 1 of the following items.
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:as item or as blueprint
+:with quality 140% - 240%
+</div><div style="margin-left:1em;">
+;Missions - with BP - no quality - Weight 0.25
+:The item entry "Missions - with BP - no quality" contains exactly 1 of the following items.
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:as item or as blueprint
+:with no quality 
+</div>
+</div>
+</tabber>
+</div>
