@@ -13,27 +13,27 @@ Overview=
 ;Mission Loot Set (Medium) (Total Weight - 1)
 The tier set "Mission Loot Set (Medium)" contains at least 1 and at most 2 of the following item entries.
 <div style="margin-left:1em;">
-;Missions - no BP - with quality - Weight 1
+;Missions - no BP - with quality - Weight 0.25
 :The item entry "Missions - no BP - with quality" contains at exactly 1 of the following items.
 :{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
 :as item or as blueprint
 :with quality 160% - 300%
 </div><div style="margin-left:1em;">
-;Missions - never BP - no quality - Weight 1
+;Missions - never BP - no quality - Weight 0.25
 :The item entry "Missions - never BP - no quality" contains exactly 1 of the following items.
 :{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
 :as item or as blueprint
 :with no quality 
 </div><div style="margin-left:1em;">
-;Missions - with BP - with quality - Weight 1
+;Missions - with BP - with quality - Weight 0.25
 :The item entry "Missions - with BP - with quality" contains exactly 1 of the following items.
-:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|  Magmasaur Saddle (Genesis: Part 1) | Mining Drill (Genesis: Part 1) | Metal Ocean Platform (Genesis: Part 1) | Wood Ocean Platform (Genesis: Part 1) | Tek Claws (Genesis: Part 1) | Megachelon Platform Saddle (Genesis: Part 1)}}
 :as item or as blueprint
 :with quality 140% - 240%
 </div><div style="margin-left:1em;">
 ;Missions - with BP - no quality - Weight 0.25
 :The item entry "Missions - with BP - no quality" contains exactly 1 of the following items.
-:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true| Fish Net (Genesis: Part 1) | Mining Drill (Genesis: Part 1) | Pressure Plate (Genesis: Part 1) | Fish Net (Genesis: Part 1) | Tek Sensor (Genesis: Part 1)}}
 :as item or as blueprint
 :with no quality 
 </div>
