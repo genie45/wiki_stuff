@@ -1,0 +1,109 @@
+{{modNote|Primal Fear}}
+<div id="fp-container">
+<div id="fp-1" class="fp-section">
+<div class="fpbox plain" style="text-align: center;" id="fpwelcome">
+<!-- BEGIN Welcome box-->
+<div class="mainheading">Welcome to the Official Primal Fear Wiki</div>
+</div>
+<!--END Welcome box-->
+<div class="fpbox" id="fpabout">
+<!-- BEGIN Welcome and Description box-->
+{{header|What is Primal Fear?}}
+<center>
+short description of the mod
+</center>
+</div>
+<!--END Welcome and Description box-->
+<div class="fpbox">
+<!-- BEGIN Game Features-->
+{{header|Primal Fear Features}}
+<center>
+*list of features ?
+*
+*
+*
+*
+*
+</center>
+<!--END Game Features-->
+</div>
+</div>
+<div id="fp-2" class="fp-section">
+<div class="fpbox">
+{{header|Expansions}}
+<center>
+<tabber>
+Genesis: Part 1=
+<center>[[File:Genesis Part 1 DLC.jpg|400px|middle|link=Genesis: Part 1|class=fpWideImage]]</center>
+[[Genesis: Part 1]] is a DLC Expansion Pack available on [http://store.steampowered.com/app/1113410/ Steam]
+|-|
+Valguero=
+<center>[[File:Valguero DLC.jpg|400px|middle|link=Valguero|class=fpWideImage]]</center>
+[[Valguero]] is a free DLC Expansion Map available on [http://store.steampowered.com/app/1100810/ Steam]
+|-|
+Extinction=
+<center>[[File:Extinction DLC.jpg|400px|middle|link=Extinction|class=fpWideImage]]</center>
+[[Extinction]] is a DLC Expansion Pack available for $20 on [http://store.steampowered.com/app/887380/ Steam]
+|-|
+Aberration=
+<center>[[File:Aberration DLC.jpg|400px|middle|link=Aberration|class=fpWideImage]]</center>
+[[Aberration]] is a DLC Expansion Pack available for $20 on [http://store.steampowered.com/app/708770/ Steam]
+|-|
+Ragnarok=
+<center>[[File:Ragnarok DLC.jpg|400px|middle|link=Ragnarok|class=fpWideImage]]</center>
+[[Ragnarok]] is a free DLC Expansion Map available on [http://store.steampowered.com/app/642250/ Steam],
+|-|
+Scorched Earth=
+<center>[[File:Scorched Earth DLC.jpg|400px|middle|link=Scorched Earth|class=fpWideImage]]</center>
+[[Scorched Earth]] is a DLC Expansion Pack available for $20 on [http://store.steampowered.com/app/512540/ Steam]
+</tabber>
+</center>
+</div>
+</div>
+<!--END Patch-->
+<div id="fp-3" class="fp-section">
+<div class="fpbox">
+<!-- BEGIN Socials -->
+{{header|Socials}}
+<div style="text-align: center;">
+<center>
+<gallery widths=110px heights=80px mode=nolines perrow=5>
+gphelp:Twitter.svg|link=https://twitter.com/JacksonLawr3nce |[https://twitter.com/JacksonLawr3nce JacksonLawr3nce]
+gphelp:Twitch.svg|link=https://www.twitch.tv/jacksonlawrence |[https://www.twitch.tv/jacksonlawrence JacksonLawrence]
+gphelp:Discord.svg|link=https://discord.gg/aswugRE |[https://discord.gg/aswugRE Apex Discord]
+gphelp:Twitch.svg|link=https://twitch.tv/excited_kangaroo |[https://twitch.tv/excited_kangaroo  Excited Kangaroo]
+gphelp:Twitter.svg|link=https://twitter.com/ExcitedKangaroo |[https://twitter.com/ExcitedKangaroo  Excited Kangaroo]
+gphelp:Steam.svg|link= |[ Steam Workshop]
+</gallery>
+</center>
+</div>
+<!--END Socials -->
+</div>
+<div class="fpbox" id="fptweets">
+<!-- BEGIN Twitterfeed -->
+{{header|Official Tweets}}
+<center>
+<twitterfeed noheader nofooter noborder theme=dark width=400 height=400>survivetheark</twitterfeed>
+</center>
+</div>
+<!--END Twitterfeed -->
+</div>
+<div id="fp-4" class="fp-section">
+<div class="fpbox">
+<!-- BEGIN Patch-->
+{{header|Current Patch Notes}}
+<center>
+*initial release
+</center>
+</div>
+</div>
+</div>
+<div class="fpbox">
+{{Nav Primal Fear}}
+<center>
+<h2>Other Mods:</h2>
+</center>
+{{Nav Unofficial Mods}}
+</div>
+__NOTITLE__
+__NOTOC__
