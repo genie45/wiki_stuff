@@ -1,5 +1,5 @@
 <noinclude>{{include}}
-== Orbital Supply Drop ==</noinclude>
+== Moeder Mission Loot ==</noinclude>
 <div style="padding-left: calc(1em - 5px);border-left: 5px solid #007CCC">
 ;Easy
 <tabber>
@@ -13,25 +13,25 @@ Overview=
 ;Mission Loot Set (Medium) (Total Weight - 1)
 The tier set "Mission Loot Set (Medium)" contains at least 1 and at most 2 of the following item entries.
 <div style="margin-left:1em;">
-;Missions - no BP - with quality - Weight 0.25
+;Missions - no BP - with quality - Weight 1
 :The item entry "Missions - no BP - with quality" contains at exactly 1 of the following items.
-:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true| Desert Cloth Shirt (Scorched Earth) | Desert Goggles and Hat (Scorched Earth) | Desert Cloth Pants (Scorched Earth) | Desert Cloth Boots (Scorched Earth) | Desert Cloth Gloves (Scorched Earth) | Flamethrower (Scorched Earth) | Whip (Scorched Earth) | Charge Battery (Aberration) | Charge Lantern (Aberration) | Hazard Suit Hat (Aberration) | Hazard Suit Shirt (Aberration) | Hazard Suit Pants (Aberration) | Hazard Suit Boots (Aberration) | Hazard Suit Gloves (Aberration) | Ravager Saddle (Aberration) | Roll Rat Saddle (Aberration) | Karkinos Saddle (Aberration) | Basilisk Saddle (Aberration) | Thorny Dragon Saddle (Scorched Earth) | Gacha Saddle (Extinction)}}
 :as item or as blueprint
 :with quality 160% - 300%
 </div><div style="margin-left:1em;">
-;Missions - never BP - no quality - Weight 0.25
+;Missions - never BP - no quality - Weight 1
 :The item entry "Missions - never BP - no quality" contains exactly 1 of the following items.
-:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|}}
+:{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true| Tent (Scorched Earth) | Vessel (Scorched Earth) | Wind Turbine (Scorched Earth) | Mirror (Scorched Earth) | Oil Pump (Scorched Earth) | Boomerang (Scorched Earth) | Glow Stick (Aberration) | Pliers (Aberration) | Glider Suit Skin (Aberration) | Fish Basket (Aberration) | Shag Rug (Aberration) | Taxidermy Tool (Extinction) | Small Taxidermy Base (Extinction) | Medium Taxidermy Base (Extinction) | Large Taxidermy Base (Extinction) | Dino Leash (Extinction) | Delivery Crate (Extinction)}}
 :as item or as blueprint
 :with no quality 
 </div><div style="margin-left:1em;">
-;Missions - with BP - with quality - Weight 0.25
+;Missions - with BP - with quality - Weight 1
 :The item entry "Missions - with BP - with quality" contains exactly 1 of the following items.
 :{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true|  Magmasaur Saddle (Genesis: Part 1) | Mining Drill (Genesis: Part 1) | Metal Ocean Platform (Genesis: Part 1) | Wood Ocean Platform (Genesis: Part 1) | Tek Claws (Genesis: Part 1) | Megachelon Platform Saddle (Genesis: Part 1)}}
 :as item or as blueprint
 :with quality 140% - 240%
 </div><div style="margin-left:1em;">
-;Missions - with BP - no quality - Weight 0.25
+;Missions - with BP - no quality - Weight 1
 :The item entry "Missions - with BP - no quality" contains exactly 1 of the following items.
 :{{ItemList|columnWidth=15em|listtype=none|showQuantityAsPerCent=true| Fish Net (Genesis: Part 1) | Mining Drill (Genesis: Part 1) | Pressure Plate (Genesis: Part 1) | Fish Net (Genesis: Part 1) | Tek Sensor (Genesis: Part 1)}}
 :as item or as blueprint
