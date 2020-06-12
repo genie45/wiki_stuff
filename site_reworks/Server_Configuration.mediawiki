@@ -263,7 +263,7 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |-
 |<code>?PvEDinoDecayPeriodMultiplier=1.0</code>
 |
-|Dino PvE Auto-Claim time multiplier<br/>''Introducedin patch [[241.4]]''
+|Dino PvE Auto-Claim time multiplier<br/>''Introduced in patch [[241.4]]''
 |-
 |<code>?PvPDinoDecay=true</code>
 |
@@ -336,18 +336,18 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |<code>?UseOptimizedHarvestingHealth=true</code>
 |
 |"optimized" server with high HarvestAmountMultiplier (but less rare items).
-|-
+|-class="redish-background"
 |<code>?bRawSockets</code>
 |?
-|Direct UDP socket connections rather than Steam P2P, for significantly increased server network performance. Need to manually open ports 7777 & 7778 if you do so in order for your server to accept connections.<br/>''Introduced in patch [[213.0]]''
+|Direct UDP socket connections rather than Steam P2P, for significantly increased server network performance. Need to manually open ports 7777 & 7778 if you do so in order for your server to accept connections.<br/>''Introduced in patch [[213.0]], disabled since v311.78''
 |-class="redish-background" 
 |<code>-nonetthreading</code>
 |
 |option for bRawSockets servers to only utilize a single thread for networking (useful to improve performance for machines with more servers than cpu cores, on Linux in particular)<br/>''Introduced in patch [[271.15]]'' seems to be deprecated with patch [[271.17]]
-|-
+|-class="redish-background"
 |<code>-forcenetthreading</code>
 |
-|Defaulted dedicated server ?bRawSockets mode to '''not''' use threaded networking, seemed to generally be a net performance loss in our analysis. Use this to forcefully enable it.
+|Defaulted dedicated server ?bRawSockets mode to '''not''' use threaded networking, seemed to generally be a net performance loss in our analysis. Use this to forcefully enable it.<br/>''Disabled since v311.78''
 |-
 |-class="redish-background" 
 |<code>-vday</code>
@@ -449,11 +449,28 @@ You will need to restart your server, if you add new lines to the file while it 
 |-
 |<code>-noundermeshchecking</code>
 |PC
-|Will turn it off the anti meshing system entirely<br/>''Introduced in patch [[304.445]]''
+|Will turn off the anti meshing system entirely<br/>''Introduced in patch [[304.445]]''
 |-
 |<code>-noundermeshkilling</code>
 |PC
 |Will turn off the anti meshing player kills (but still allow teleporting)<br/>''Introduced in patch [[304.445]]''
+|-
+|<code>-AutoDestroyStructures</code>
+|PC
+|Enables auto destruction of old structures.<br/>
+Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
+|-
+|<code>-crossplay</code>
+|PC
+|enables Crossplay (between EPIC and Steam) on Dedicated Server<br/>''Introduced in patch [[311.74]]''
+|-
+|<code>-epiconly</code>
+|PC
+|enables Epic Game Store only players to connect to the Dedicated Server<br/>''Introduced in patch [[311.74]]''
+|-
+|<code>-UseVivox</code>
+|PC
+|enables Vivox on Steam only servers <br/>default for EPIC servers can be enabled for Steam server<br/>''Introduced in patch [[311.74]]''
 |}
 <!--end of command line-->
 
@@ -509,6 +526,12 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>listen</code> || ''N/A'' || ''None'' || ''(command line only)'' Listen for (and accept) player connections from other systems<br/>''Note:'' This option is mandatory for multiplayer servers.
 |-
+|-
+| <code>MaxTributeDinos</code> || ''integer'' || <code>20</code> || Slots for uploaded creatures <br/>''Note:'' Some player claimed maximum 273 to be safe cap and more will corrupt profile/cluster and lead to loose of all storaged creatures but it need to be checked
+|-
+|-
+| <code>MaxTributeItems</code> || ''integer'' || <code>50</code> || Slots for uploaded items and resources <br/>''Note:'' Some player claimed maximum 154 to be safe cap and more will corrupt profile/cluster and lead to loose of all storaged items and resources but it need to be checked
+|-
 | <code>alwaysNotifyPlayerJoined</code> || ''boolean'' || <code>False</code> || Players will always get notified if someone joins the server
 |-
 | <code>alwaysNotifyPlayerLeft</code> || ''boolean'' || <code>False</code> || Players will always get notified if someone leaves the server
@@ -529,7 +552,7 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>serverForceNoHud</code> || ''boolean'' || <code>False</code> || HUD always disabled
 |-
-| <code>bDisableStructureDecayPvE</code> || ''boolean'' || <code>False</code> || Disable the gradual (7 days) decay of player structures<br/>''Introduced in patch [[173.0]]''
+| <code>DisableStructureDecayPvE</code> || ''boolean'' || <code>False</code> || Disable the gradual (7 days) decay of player structures<br/>''Introduced in patch [[173.0]]''
 |-
 | <code>DisableDinoDecayPvE</code> || ''boolean'' || <code>False</code> || Disable the gradual (7 days) decay of dinosaur ownership. ''Without this set to true, every dinosaur can be claimed by any player.''<br/>''Introduced in patch [[206.0]]''
 |-
@@ -623,8 +646,6 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>NPCNetworkStasisRangeScalePercentEnd</code> || ''float'' ||  || 
 |-
-| <code>bUseCorpseLocator</code> || ''boolean'' || false || if set to true, you will see a green lightbeam at the location of your death 
-|-
 | <code>CrossARKAllowForeignDinoDownloads</code> || ''boolean'' || false || if set to true, you will be able to tribute download non-native creatures on the [[Aberration]] map<br/>''Introduced in patch [[275.0]]''
 |-
 | <code>DisablePvEGamma</code> || ''boolean'' || false || Prevents use of console command "gamma" in PvE mode<br/>''Introduced in patch [[207.0]]''
@@ -653,15 +674,15 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>AllowTekSuitPowersInGenesis</code> || ''boolean'' || false || enable or disable TEK suit powers in [[Genesis Part 1]]
 |-
-| <code>EnableCryoSicknessPVE</code> || ''boolean'' || false || Enable/Disable cryosickness for tamed creatures on PVE.<br/>''Introduced in patch [[307.56]]''
+| <code>EnableCryoSicknessPVE</code> || ''boolean'' || false || Enable/Disable Crypod cooldown timer when deploying a creature.  If ''false'', deployed creatures do not experience cryosickness.<br/>''Introduced in patch [[307.56]]''
 |-
-| <code>EnableCryopodNerf</code> || ''boolean'' || false || Enable/Disable Cryopod nerf with custom settings for amount of time and percentage of damage reduction after deploy. The following settings need to be set too [[#CryopodNerfDamageMult|CryopodNerfDamageMult]] & [[#CryopodNerfDuration|CryopodNerfDuration]]<br/>''Introduced in patch [[309.53]]''
+| <code>EnableCryopodNerf</code> || ''boolean'' || false || Enable/Disable Cryosickness when deploying a creature. The following settings need to be set also: [[#CryopodNerfDamageMult|CryopodNerfDamageMult]] & [[#CryopodNerfDuration|CryopodNerfDuration]].  <br/>If ''true,'' there is no Crypod cooldown timer, and creatures do not become unconscious.<br/>''Introduced in patch [[309.53]]''
 |-
-| <code>CryopodNerfDuration</code> || ''integer'' || 10 || Amount of time the damage reduction of a tame will last after being deployed from a Cryopod. [[#CryopodNerfDamageMult|CryopodNerfDamageMult]] needs a valid value & [[#EnableCryoSicknessPVE|EnableCryoSicknessPVE]] need to be true<br/>''Introduced in patch [[309.53]]''
+| <code>CryopodNerfDuration</code> || ''integer'' || 10 || Amount of time, in seconds, Cryosickness lasts after deploying a creature from a Cryopod. If [[#EnableCryoSicknessPVE|EnableCryoSicknessPVE]] is enabled, it will override this line.<br/>''Introduced in patch [[309.53]]''
 |-
-| <code>CryopodNerfDamageMult</code> || ''float'' || 0.01 || percentage of damage the tame can deal after being deployed from a cryopod for the set time. [[#CryopodNerfDuration|CryopodNerfDuration]] needs a valid value & [[#EnableCryoSicknessPVE|EnableCryoSicknessPVE]] need to be true <br/> CryopodNerfDamageMult=0.01 means 99% of the damage is removed <br/>''Introduced in patch [[309.53]]''
+| <code>CryopodNerfDamageMult</code> || ''float'' || 0.01 || Reduces the amount of damage delt by the creature after it is deployed from the cryopod, as a percentage of total damage output, and for the length of time set by [[#CryopodNerfDuration|CryopodNerfDuration]].  [[#CryopodNerfDuration|CryopodNerfDuration]] needs a valid value. <br/> CryopodNerfDamageMult=0.01 means 99% of the damage is removed <br/>''Introduced in patch [[309.53]]''
 |-
-| <code>CryopodNerfIncomingDamageMultPercent</code> || ''float'' || 0.25 || increase incoming damage multiplier from the cryopod-release debuff. <br/>CryopodNerfIncomingDamageMultPercent=0.25 means a realeased tame takes 25% more damage while the debuff lasts <br/>''Introduced in patch [[310.11]]''
+| <code>CryopodNerfIncomingDamageMultPercent</code> || ''float'' || 0.25 || Increases the amount of damage taken by the creature after it is deployed from the cryopod, as a percentage of total damage received, and for the length of time set by [[#CryopodNerfDuration|CryopodNerfDuration]]. <br/>CryopodNerfIncomingDamageMultPercent=0.25 means a realeased tame takes 25% more damage while the debuff lasts <br/>''Introduced in patch [[310.11]]''
 |-
 | <code>MaxTamedDinos</code> || ''integer'' || 4000 || Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
 |-class="redish-background"
@@ -927,6 +948,11 @@ Line breaks and spaces are here for better readability of the example. Keep it a
 | Prevent-Friendly-Fire (among tribesmates/tribesdinos/tribesstructures) option for PvP servers<br/> ''Introduced in patch [[228.4]]''
 |-
 |<code>bFlyerPlatformAllowUnalignedDinoBasing='''<boolean>'''</code>|| Value = ''boolean (true/false)''<br>Default = false || Quetz platforms will not allow any non-allied dino to base on them when they are flying. If you want your server to allow non-allied dinos to be able to stand on the Quetz platforms set this to true.<br/>''Introduced in patch [[218.3]]''
+|-
+|bUseCorpseLocator
+|Value = ''boolean (true/false)''
+Default = false
+|If set to true, you will see a green light beam at the location of your death
 |-
 |<code>MatingIntervalMultiplier='''<value>'''</code>|| Value = ''float''<br>Default = 1.0 || Higher number increases (on a percentage scale) interval between which dinosaurs can mate<br/>Example: MatingIntervalMultiplier=0.5 would allow dinosaurs to mate 50% sooner
 ''Introduced in patch [[219.0]]''
