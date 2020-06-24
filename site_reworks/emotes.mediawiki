@@ -1,0 +1,99 @@
+{{stub}}
+'''Emotes''' are a way to communicate by an action, not directly saying something. For example, your character can nod his head yes instead of physically typing or saying "yes."
+
+There are currently 12 emotes in-game for both Male and Female survivors. However, the "Flex" emote can only be obtained by crafting it with 100 {{ItemLink|Prime Meat Jerky}} in a cooking pot during [[ARK: Summer Bash 2019]]. 
+
+{{ItemLink|Mini-HLNA Skin (Genesis: Part 1)}} will show an icon on its screen eye whenever the survivor does an emote.
+
+==How to use an Emote==
+Tap one of the emote keys, by default theses are bound to {{Key|[}} (Left Bracket) and {{Key|]}} (Right Bracket).
+
+To display the Emote Wheel press and hold one of the emote keys and the wheel will pop up.
+===How to Rebind an Emote===
+While the emote wheel is displayed hover over an emote and press either {{Key|[}} or {{Key|]}}.
+
+==Emotes list==
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Salute'''
+{{clear}}
+A simple but effective way to salute a tribe mate
+{{clear}}
+[[File:Emote_Salute.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Sorry'''
+{{clear}}
+A good way to say sorry and restore peace
+{{clear}}
+[[File:Emote_Sorry.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Thank'''
+{{clear}}
+A great way to thank someone after a grateful action
+{{clear}}
+[[File:Emote_Thank.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:5px">
+'''Wave'''
+{{clear}}
+Very simple way of attracting attention
+{{clear}}
+[[File:Emote_Wave.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Laugh'''
+{{clear}}
+An effective way to make fun of your friends
+{{clear}}
+[[File:Emote_Laugh.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Yes'''
+{{clear}}
+[[File:Emote_Yes.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''No'''
+{{clear}}
+[[File:Emote_No.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Taunt'''
+{{clear}}
+[[File:Emote_Taunt.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Cheer'''
+{{clear}}
+[[File:Emote_Cheer.gif]]
+</div>
+
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''Friendly Lower Hands'''
+{{clear}}
+[[File:Emote_FriendlyLowerHands.gif]]
+</div>
+
+==Event Emotes list==
+{{ItemList|Bunny Hop Dance Emote}}
+
+==Notes/Trivia==
+* Emotes were first added in version [[183.0]].
+* Prior to v[[Mobile 1.1.04|1.1.04]] in [[ARK: Survival Evolved Mobile]], survivors could not emote in [[Single Player]].
+* Pets that emit a charge light in Aberration can be toggled on/off using the "Light!" emote when they are mounted on a survivor's shoulder.
+* {{ItemLink|Bloodstalker}} will attempt to mimic the Survivor if an emote is used while ridden, but refuses. Exceptions are "Thanks", "Yes", "Taunt" and "Dance/Panic".
+
+{{Nav Gameplay Mechanics}}
+[[Category:Gameplay mechanics]]
+[[fr:Emotes]]
+[[pl:Gesty]]
+{{MissingTranslations|it|de|es|pt-br}}
