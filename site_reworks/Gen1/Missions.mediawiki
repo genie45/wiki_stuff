@@ -17,7 +17,7 @@ The following mission types can be found on [[Genesis: Part 1]]:
 :
 :'''Scoring is based on the time taken to clear the race.'''
 ;Gauntlet
-:An arena style survival mission where you have to survive trough 5 rounds where zone specific dinos spawn and attack you. In this arena you cannot use your own weapons or dinos. Only arena spawned weapons are allowed during the mission, but you can use the armor you have on. All weapons spawned in the arena are capable of easily killing the zone-specific dino that spawns. Weapon ammos are unlimited for Gamma. These are marked with three dino skull symbol.
+:An arena style survival mission where you have to survive through 5 rounds where zone specific dinos spawn and attack you. In this arena you cannot use your own weapons or dinos. Only arena spawned weapons are allowed during the mission, but you can use the armor you have on. All weapons spawned in the arena are capable of easily killing the zone-specific dino that spawns. Weapon ammos are unlimited for Gamma. These are marked with three dino skull symbol.
 :
 :None of the creatures will be able to grab you, but they can still inflict debuffs to a certain degree.
 :
@@ -27,7 +27,7 @@ The following mission types can be found on [[Genesis: Part 1]]:
 :
 :'''Scoring is based on time taken to reach and collect the required resources, and escape with it.'''
 ;Escort
-:A creature will spawn nearby belonging to the tribe that started the mission. It cannot be commanded under any method, and random dinos will spawn to attack it, and sometimes anyone else present. It will sometimes pause between travel and will need to be constantly protected. At nearing the end of the escort, there are several more creatures nearby awaiting its return. These are marked with 4 arrow pointing at a shield symbol. 
+:A creature (or more than one, following the first or next) will spawn nearby belonging to the tribe that started the mission. It cannot be commanded under any method, and at least a survivor, ridden or not, must be nearby for it to advance, else it will pause (if nobody is near the escorting creature for too long, or if too far, the mission will immediately fail). Sometimes aggressive dino will teleport nearby, targeting mainly the creature(s) in question and anyone else nearby. At nearing the end of the escort, there are several more creatures nearby awaiting its return. These are marked with 4 arrow pointing at a shield symbol. 
 :
 :'''Scoring is based on how much health all the escorted dinos have leftover. Any deaths from the other escorted dinos will incur a score penalty.'''
 ;Basketball
