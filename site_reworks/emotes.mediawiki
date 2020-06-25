@@ -12,13 +12,18 @@ To display the Emote Wheel press and hold one of the emote keys and the wheel wi
 ===How to Rebind an Emote===
 While the emote wheel is displayed hover over an emote and press either {{Key|[}} or {{Key|]}}.
 
-==Emotes list==
+==Default Emotes list==
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''Salute'''
 {{clear}}
 A simple but effective way to salute a tribe mate
 {{clear}}
-[[File:Emote_Salute.gif]]
+<tabber>
+Female=
+[[File:Emote_Salute_female.gif]]
+|-| Male=
+[[File:Emote_Salute_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
@@ -26,7 +31,12 @@ A simple but effective way to salute a tribe mate
 {{clear}}
 A good way to say sorry and restore peace
 {{clear}}
-[[File:Emote_Sorry.gif]]
+<tabber>
+Female=
+[[File:Emote_Sorry_female.gif]]
+|-| Male=
+[[File:Emote_Sorry_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
@@ -34,7 +44,12 @@ A good way to say sorry and restore peace
 {{clear}}
 A great way to thank someone after a grateful action
 {{clear}}
-[[File:Emote_Thank.gif]]
+<tabber>
+Female=
+[[File:Emote_Thank_female.gif]]
+|-| Male=
+[[File:Emote_Thank_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:5px">
@@ -42,7 +57,12 @@ A great way to thank someone after a grateful action
 {{clear}}
 Very simple way of attracting attention
 {{clear}}
-[[File:Emote_Wave.gif]]
+<tabber>
+Female=
+[[File:Emote_Wave_female.gif]]
+|-| Male=
+[[File:Emote_Wave_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
@@ -50,40 +70,80 @@ Very simple way of attracting attention
 {{clear}}
 An effective way to make fun of your friends
 {{clear}}
-[[File:Emote_Laugh.gif]]
+<tabber>
+Female=
+[[File:Emote_Laugh_female.gif]]
+|-| Male=
+[[File:Emote_Laugh_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''Yes'''
 {{clear}}
-[[File:Emote_Yes.gif]]
+<tabber>
+Female=
+[[File:Emote_Yes_female.gif]]
+|-| Male=
+[[File:Emote_Yes_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''No'''
 {{clear}}
-[[File:Emote_No.gif]]
+<tabber>
+Female=
+[[File:Emote_No_female.gif]]
+|-| Male=
+[[File:Emote_No_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''Taunt'''
 {{clear}}
-[[File:Emote_Taunt.gif]]
+<tabber>
+Female=
+[[File:Emote_Taunt_female.gif]]
+|-| Male=
+[[File:Emote_Taunt_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''Cheer'''
 {{clear}}
-[[File:Emote_Cheer.gif]]
+<tabber>
+Female=
+[[File:Emote_Cheer_female.gif]]
+|-| Male=
+[[File:Emote_Cheer_male.gif]]
+</tabber>
 </div>
 
 <div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
 '''Friendly Lower Hands'''
 {{clear}}
-[[File:Emote_FriendlyLowerHands.gif]]
+<tabber>
+Female=
+[[File:Emote_FriendlyLowerHands_female.gif]]
+|-| Male=
+[[File:Emote_FriendlyLowerHands_male.gif]]
+</tabber>
 </div>
 
 ==Event Emotes list==
+<div style="display:inline-block;vertical-align:top;text-align:center;margin:10px">
+'''{{ItemList|Bunny Hop Dance Emote}}'''
+{{clear}}
+<tabber>
+Female=
+[[File:Emote__female.gif]]
+|-| Male=
+[[File:Emote__male.gif]]
+</tabber>
+</div>
 {{ItemList|Bunny Hop Dance Emote}}
 
 ==Notes/Trivia==
