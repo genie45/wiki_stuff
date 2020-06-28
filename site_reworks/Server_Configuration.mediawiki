@@ -374,9 +374,10 @@ You will need to restart your server, if you add new lines to the file while it 
     <tr><td>ExtinctionChronicles</td><td>Allows for the [[Extinction Chronicles|Extinction Chronicles Event]] to be activated.</td></tr>
     <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 4|Winter Wonderland 2019 Event]] to be activated.</td></tr>
     <tr><td>vday</td><td>Allows for [[ARK: Love Evolved|Love Evolved]] to be activated.</td></tr>
-    <tr><td>Summer</td><td>Allows for [[ARK: Summer Bash 2019|Summer Bash 2019 Event]] to be activated.</td></tr>
+    <tr><td>Summer</td><td>Allows for [[ARK: Summer Bash 2020|Summer Bash 2020 Event]] to be activated.</td></tr>
     <tr><td>FearEvolved</td><td>Allows for [[ARK: Fear Evolved 3]] to be activated.</td></tr>
-   <tr><td>TurkeyTrial</td><td>Allows for [[ARK: Turkey Trial 3]] to be activated.</td></tr>
+    <tr><td>TurkeyTrial</td><td>Allows for [[ARK: Turkey Trial 3]] to be activated.</td></tr>
+    <tr><td>birthday</td><td>Allows for [[ARK: 5th Anniversary]] to be activated.</td></tr>
 </table>
 |-
 |<code>?GameModIds=ModID1,ModID2</code>
@@ -471,6 +472,10 @@ Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
 |<code>-UseVivox</code>
 |PC
 |enables Vivox on Steam only servers <br/>default for EPIC servers can be enabled for Steam server<br/>''Introduced in patch [[311.74]]''
+|-
+|<code>-PublicIPForEpic=<IPAddress></code>
+|PC
+|this is the public IP that EGS clients will attempt to connect to, if this command line is missing and -Multihome is specified, then EGS clients will attempt to connect to the Multihome IP; Note that if you're using Multihome and specify a non-public IP address, then players will not be able to connect to your server using EGS. Make sure to set a public IP address (e.g WAN or external)
 |}
 <!--end of command line-->
 
@@ -522,7 +527,7 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 ! Option !! Value Type !! Default !! Effect
 |-
-| <code>&lt;map_name&gt;</code> || ''string'' || ''None'' || ''(command line only)'' Specifies the map to use for gameplay<br/>''Note:'' This option is mandatory and must be the first option specified on the command line. Map options are <code>TheIsland</code>, <code>TheCenter</code> (requires DLC), <code>ScorchedEarth_P</code> (requires DLC), <code>Ragnarok</code> (requires DLC), <code>Aberration_P</code> (requires DLC), <code>Extinction</code> (requires DLC), <code>Valguero_P</code> (requires DLC) and <code>Genesis</code> (requires DLC)<br/> '''NOTE:''' A Mod map may have a different map name then here specified, check the modpage or contact the author of the mod for the exact name.
+| <code>&lt;map_name&gt;</code> || ''string'' || ''None'' || ''(command line only)'' Specifies the map to use for gameplay<br/>''Note:'' This option is mandatory and must be the first option specified on the command line. Map options are <code>TheIsland</code>, <code>TheCenter</code> (requires DLC), <code>ScorchedEarth_P</code> (requires DLC), <code>Ragnarok</code> (requires DLC), <code>Aberration_P</code> (requires DLC), <code>Extinction</code> (requires DLC), <code>Valguero_P</code> (requires DLC) and <code>Genesis</code> (requires DLC), <code>CrystalIsles</code> (requires DLC)<br/> '''NOTE:''' A Mod map may have a different map name then here specified, check the modpage or contact the author of the mod for the exact name.
 |-
 | <code>listen</code> || ''N/A'' || ''None'' || ''(command line only)'' Listen for (and accept) player connections from other systems<br/>''Note:'' This option is mandatory for multiplayer servers.
 |-
@@ -1431,7 +1436,7 @@ Line breaks and spaces are here for better readability of the example. Keep it a
 Arguments:
 {| class="wikitable"
 |-
-| <code>[[Creature IDs|tag]]</code> || ''string'' || Dinosaur type to adjust, see [[Creature IDs]] (column Entity ID)
+| <code>[[Creature IDs|tag]]</code> || ''string'' || Dinosaur type to adjust, see [[Creature IDs]] (column Name Tags)
 |-
 | <code>factor</code> || ''float'' || Weight factor for this type
 |-
