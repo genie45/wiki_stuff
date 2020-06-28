@@ -21,9 +21,9 @@ The Island=
 {{:Extinction/Spawn Locations}}
 |-| Valguero=
 {{:Valguero/Spawn Locations}}
-|-| Genesis: Part 1
+|-| Genesis: Part 1=
 {{:Genesis: Part 1/Spawn Locations}}
-|-| Crystal Isles
+|-| Crystal Isles=
 {{:Crystal Isles/Spawn Locations}}
 </tabber>
 
@@ -43,9 +43,9 @@ The Island=
 {{:Extinction/Spawn Locations/tabble}}
 |-| Valguero=
 {{:Valguero/Spawn Locations/tabble}}
-|-| Genesis: Part 1
+|-| Genesis: Part 1=
 {{:Genesis: Part 1/Spawn Locations/tabble}}
-|-| Crystal Isles
+|-| Crystal Isles=
 {{:Crystal Isles/Spawn Locations/tabble}}
 </tabber>
 
@@ -98,7 +98,6 @@ However, in the north, the temperatures will be cold. You would want to get into
 *Try to tame a [[Pteranodon]] so you can fly around and see predators from afar.
 
 {{Nav Gameplay Mechanics}}
-[[Category:Gameplay mechanics]]
 [[Category:Gameplay mechanics]]
 [[fr:Lieux de spawn]]
 {{MissingTranslations|pl|it|de|es|pt-br}}
