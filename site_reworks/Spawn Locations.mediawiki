@@ -1,0 +1,104 @@
+{{DisambigMsg|player spawn locations|creature spawn locations|Spawn Map#Creature Spawn Maps{{!}}Spawn Map}}
+
+
+==Overview==
+'''Spawn Locations''' are the areas you can spawn in ''ARK: Survival Evolved''. Different spawn locations grant different difficulties on your first days of survival. If you spawn in the north, you'd be likely greeted with cold temperatures and dangerous carnivores, such as the [[Raptor]]. If you spawn in the south, you'll have an easier time with warm temperatures and harmless herbivores such as the [[Trike]].
+
+==Locations==
+a visual overview of all spawn locations of a map can be found here
+<tabber>
+The Island=
+{{:The Island/Spawn Locations}}
+|-| The Center=
+{{:The Center/Spawn Locations}}
+|-| Scorched Earth=
+{{:Scorched Earth/Spawn Locations}}
+|-| Ragnarok=
+{{:Ragnarok/Spawn Locations}}
+|-| Aberration=
+{{:Aberration/Spawn Locations}}
+|-| Extinction=
+{{:Extinction/Spawn Locations}}
+|-| Valguero=
+{{:Valguero/Spawn Locations}}
+|-| Genesis: Part 1
+{{:Genesis: Part 1/Spawn Locations}}
+|-| Crystal Isles
+{{:Crystal Isles/Spawn Locations}}
+</tabber>
+
+
+<tabber>
+The Island=
+{{:The Island/Spawn Locations/tabble}}
+|-| The Center=
+{{:The Center/Spawn Locations/tabble}}
+|-| Scorched Earth=
+{{:Scorched Earth/Spawn Locations/tabble}}
+|-| Ragnarok=
+{{:Ragnarok/Spawn Locations/tabble}}
+|-| Aberration=
+{{:Aberration/Spawn Locations/tabble}}
+|-| Extinction=
+{{:Extinction/Spawn Locations/tabble}}
+|-| Valguero=
+{{:Valguero/Spawn Locations/tabble}}
+|-| Genesis: Part 1
+{{:Genesis: Part 1/Spawn Locations/tabble}}
+|-| Crystal Isles
+{{:Crystal Isles/Spawn Locations/tabble}}
+</tabber>
+
+==Early-Game Spawn Locations==
+If you are a beginner survivor, you will want to spawn in the ''South'' of both maps. The south is where surviving will be the easiest. In addition, the tropical islands on the center are a great place for a beginner survivor. They add a more basic element to the game, and give you the option to move elsewhere via raft if you might want.
+
+The following creatures will most likely be found in the south:
+
+===Creatures===
+{{ItemList|Brontosaurus|Dilophosaur|Dodo|Lystrosaurus|Parasaur|Pteranodon|Raptor|Triceratops|Trilobite}}
+
+Almost all these creatures are harmless. Occasionally, there will be a [[Dilo]] or a [[Raptor]] and a few minor threats.
+
+==Resources==
+Resources are important in ARK, especially when you're trying to get your first shelter built.
+
+These resources will be found in the south:
+
+===Resources in the South===
+{{ItemList|columns=1|Wood|Thatch|Fiber|Flint|Stone|Berries|Seeds|Crystal|Metal|Oil}}
+
+All the components required for a basic shelter can be found in the south. This is why the south is a great place to start your journey into the ARK.
+
+==Challenging Spawn Locations==
+
+You may feel you can take on the challenging creatures and elements found in the ''North''. The north is much harder to survive in. You will most likely be attacked frequently.
+
+The following creatures will most likely be found in the north:
+===Creatures===
+{{ItemList|Argentavis|Brontosaurus|Carbonemys|Carnotaurus|Compy|Dilophosaur|Dodo|Oviraptor|Pteranodon|Raptor|Rex|Sabertooth|Spino|Stegosaurus|Triceratops|Trilobite}}.
+
+There is also the chance for [[Alpha Creatures]] to spawn, which is devastating for when you're first starting off.
+
+==Resources==
+While the north may be dangerous and difficult to survive in, the resources are more plentiful and valuable than in the south.
+
+===Resources in the North===
+{{ItemList|columnWidth=15em|Wood|Thatch|Fiber|Stone|Flint|Oil|Metal|Obsidian|Crystal|Berries|Seeds|Organic Polymer}}
+
+Metal is very rare in the south, which is why the north is considered to be resource-plenty.
+
+==Temperatures==
+Depending on the north or south, the [[Temperature]] will vary. In the south, it will be warm. You should not have a problem with temperature in the south.
+
+However, in the north, the temperatures will be cold. You would want to get into [[Hide Armor]] fast, so you can withstand the cold. You may also want to level up in [[Fortitude]]. [[Campfire]]s will also not be a bad idea, as they provide lots of warmth, while giving you [[Cooked Meat]], assuming you have harvested [[Raw Meat]] and put it in the fire. [[Cooked Meat]] will regenerate your health, which is helpful for when you are attacked.
+
+==Tips==
+*Stay on the open beach, where forests are not blocking your view. This way you can see all predators in your area and can take precautions in case they decide to attack.
+*Stay away from the mountains, as [[Argentavis]] and [[Sabertooth]] are fairly common, and will attack you on sight.
+*Try to tame a [[Pteranodon]] so you can fly around and see predators from afar.
+
+{{Nav Gameplay Mechanics}}
+[[Category:Gameplay mechanics]]
+[[Category:Gameplay mechanics]]
+[[fr:Lieux de spawn]]
+{{MissingTranslations|pl|it|de|es|pt-br}}
