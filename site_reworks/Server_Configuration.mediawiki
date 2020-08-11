@@ -47,7 +47,7 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |-
 |<code>?customdynamicconfigurl=<link></code>
 |all
-|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier <br/>''Introduced in patch [[307.2]]''
+|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier, BabyFoodConsumptionSpeedMultiplier, CropGrowthSpeedMultiplier, MatingSpeedMultiplier, BabyCuddleIntervalMultiplier, BabyImprintAmountMultiplier, CustomRecipeEffectivenessMultiplier, TributeItemExpirationSeconds, TributeDinoExpirationSeconds and EnableFullDump. <br/>''Introduced in patch [[307.2]]''
 |-
 |<code>-allowansel</code>
 |?
@@ -611,7 +611,9 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>MaxPlatformSaddleStructureLimit</code> || ''integer'' ||  || Changes the maximum number of platformed-creatures/rafts allowed on the ARK (a potential performance cost)<br/>Example: MaxPlatformSaddleStructureLimit=10 would only allow 10 platform saddles / rafts across the entire ark<br/>''Introduced in patch [[212.1]]''
 |-
-| <code>PerPlatformMaxStructuresMultiplier</code> || ''float'' || 1.0 || Higher number increases (on a percentage scale) max number of items place-able on saddles and rafts<br/>Example: PerPlatformMaxStructuresMultiplier=1.5<br/>(added Patch '''[[211.0]]''')
+| <code>PerPlatformMaxStructuresMultiplier</code> || ''float'' || 1.0 || Higher number increases (on a percentage scale) max number of items place-able on saddles and rafts<br/>Example: PerPlatformMaxStructuresMultiplier=1.5<br/>''Introduced in patch [[211.0]]''
+|-
+| <code>MaxGateFrameOnSaddles</code> || ''integer'' || 0 || Defines the maximum amount of gateways allowed on platform saddles.<br/>Example: MaxGateFrameOnSaddles=2<br/>Would prevent players from placing more than 2 gateways on their platform saddles. This setting is not retroactive, meaning existing builds won't be affected. Set to 0 to not impose any limits.<br/>Official PVP servers have it set to 2.<br/>''Introduced in patch [[312.65]]''
 |-
 | <code>ResourcesRespawnPeriodMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the respawn rate for resource nodes (trees, rocks, bushes, etc.). Lower values cause nodes to respawn more frequently.
 |-
@@ -688,6 +690,8 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 | <code>CryopodNerfDamageMult</code> || ''float'' || 0.01 || Reduces the amount of damage delt by the creature after it is deployed from the cryopod, as a percentage of total damage output, and for the length of time set by [[#CryopodNerfDuration|CryopodNerfDuration]].  [[#CryopodNerfDuration|CryopodNerfDuration]] needs a valid value. <br/> CryopodNerfDamageMult=0.01 means 99% of the damage is removed <br/>''Introduced in patch [[309.53]]''
 |-
 | <code>CryopodNerfIncomingDamageMultPercent</code> || ''float'' || 0.25 || Increases the amount of damage taken by the creature after it is deployed from the cryopod, as a percentage of total damage received, and for the length of time set by [[#CryopodNerfDuration|CryopodNerfDuration]]. <br/>CryopodNerfIncomingDamageMultPercent=0.25 means a realeased tame takes 25% more damage while the debuff lasts <br/>''Introduced in patch [[310.11]]''
+|-
+| <code>AllowSharedConnections</code> || ''boolean'' || false ||  <br/>AllowSharedConnections=False means family sharing is disabled<br/>''Introduced in patch [[312.73]]''
 |-
 | <code>MaxTamedDinos</code> || ''integer'' || 4000 || Sets the maximum number of tamed Dinos on a Server, this is a global cap.<br/>''Introduced in patch [[191.0]]''
 |-class="redish-background"
@@ -1042,6 +1046,8 @@ Example: MatingSpeedMultiplier=2.0 would cause dinosaurs to complete mating in h
 |-
 | <code>BabyImprintingStatScaleMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || How much of an effect on stats the Imprinting Quality has. Set it to 0 to effectively disable the system.
 ''Introduced in patch [[242.0]]''
+|-
+| <code>BabyImprintAmountMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || Multiplier applied to the percentage each imprints provide. For example, if an imprint usually give 10%, setting this multiplier to 0.5 means they would now give 5% each. While setting it to 2.0 means they would now give 20% each, etc.<br/>This multiplier is global, meaning it will affect the imprinting progression of every species.<br/>''Introduced in patch [[312.35]]''
 |-
 | <code>BabyCuddleIntervalMultiplier='''<value>'''</code> || Value = ''float''<br>Default = 1.0 || How often Babies wanna cuddle. More often means you'll need to cuddle with them more frequently to gain Imprinting Quality.
 ''Introduced in patch [[242.0]]''
@@ -1695,6 +1701,7 @@ you also have options like:
  ?PreventUploadSurvivors=False
  ?PreventUploadItems=False
  ?PreventUploadDinos=False
+ ?noTributeDownloads=False
 
 [[247.85]] added the ability to specify a common cross-server storage location that functions between multiple servers running on the same machine by adding the following launch parameter to each server:
  -ClusterDirOverride=C:/TestStorage/
