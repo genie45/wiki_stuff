@@ -45,9 +45,13 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |all
 |enables the use of the dynamic config, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic config for that platform (the one used on official server) <br/> '''NOTE:''' It takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
 |-
-|<code>?customdynamicconfigurl=<link></code>
+|<code>?customdynamicconfigurl="<link>"</code>
 |all
-|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ; '''This flag has to be at the end of your commandline''' <br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier, BabyFoodConsumptionSpeedMultiplier, CropGrowthSpeedMultiplier, MatingSpeedMultiplier, BabyCuddleIntervalMultiplier, BabyImprintAmountMultiplier, CustomRecipeEffectivenessMultiplier, TributeItemExpirationSeconds, TributeDinoExpirationSeconds and EnableFullDump. <br/>''Introduced in patch [[307.2]]''
+|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ;<br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier, BabyFoodConsumptionSpeedMultiplier, CropGrowthSpeedMultiplier, MatingSpeedMultiplier, BabyCuddleIntervalMultiplier, BabyImprintAmountMultiplier, CustomRecipeEffectivenessMultiplier, TributeItemExpirationSeconds, TributeDinoExpirationSeconds and EnableFullDump. <br/>''Introduced in patch [[307.2]]''
+|-
+|<code>?CustomLiveTuningUrl="<link>"</code>
+|PC
+|direct link to the LiveTuning file e.g.: http://arkdedicated.com/DefaultOverloads.json ; currently only allows to change the values of DecayDestructionPeriod & DecayDestructionPeriodMultiplier for any items in the game, for more information on how to use this system check out the official announcement: https://survivetheark.com/index.php?/forums/topic/569366-server-configuration-live-tuning-system/
 |-
 |<code>-allowansel</code>
 |?
@@ -476,6 +480,18 @@ Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
 |<code>-PublicIPForEpic=<IPAddress></code>
 |PC
 |this is the public IP that EGS clients will attempt to connect to, if this command line is missing and -Multihome is specified, then EGS clients will attempt to connect to the Multihome IP; Note that if you're using Multihome and specify a non-public IP address, then players will not be able to connect to your server using EGS. Make sure to set a public IP address (e.g WAN or external)
+|-
+|<code>-high</code>
+|PC
+|runs game (ARK:SE) as a high-priority process
+|-
+|<code>-noaafonts</code>
+|PC
+|removes fonts anitalising
+|-
+|<code>?IgnoreLimitMaxStructuresInRangeTypeFlag=false</code>
+|PC
+|Removes the limit of 150
 |}
 <!--end of command line-->
 
@@ -595,7 +611,7 @@ To easy create this file, you can use this [http://ini.arkforum.de/index.php?lan
 |-
 | <code>StructureResistanceMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the resistance to damage structures receive when attacked. The default value <code>1</code> provides normal damage. Higher values decrease resistance, increasing damage per attack. Lower values increase it, reducing damage per attack. A value of 0.5 results in a structure taking half damage while a value of 2.0 would result in a structure taking double normal damage.
 |-
-| <code>XPMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the experience received by players, tribes and dinosaurs for various actions. The default value <code>1</code> provides the same amounts of experience as in the singleplayer experience (and official public servers). Higher values increase XP amounts awarded for various actions; lower values decrease it.<br>In [[253.0]] an additional hardcoded multiplier of 2 was activated.
+| <code>XPMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the experience received by players, tribes and dinosaurs for various actions. The default value <code>1</code> provides the same amounts of experience as in the singleplayer experience (and official public servers). Higher values increase XP amounts awarded for various actions; lower values decrease it.<br>In [[313.5]] an additional hardcoded multiplier of 4 was activated.
 |-
 | <code>PvEStructureDecayPeriodMultiplier</code> || ''float'' || 1.0 || Specifies the scaling factor for the decay rate of player structures in PvE mode. The specific effect(s) of this option and its range of valid values are unknown as of this writing.<ref name="extended_game_options">Drake (23 June 2015). [http://steamcommunity.com/app/346110/discussions/10/530646715633129364/ "Extended Game Options: How to Configure your Custom ARK server"]. ''Server Hosting & Advertisement''. Steam Community :: ARK: Survival Evolved. Retrieved 19 July 2015.</ref>
 |-
@@ -1296,7 +1312,7 @@ Arguments:
 |-
 | <code>level</code> || ''integer'' || Minimum level needed to learn engram
 |-
-| <code>remove_prereq</code> || ''true''<nowiki>|</nowiki>''false'' || Engram points needed to learn engram
+| <code>remove_prereq</code> || ''true''{{!}}''false'' || Remove the need of prerequisite engrams to learn this engram.
 |}
 
 Description:
@@ -1714,5 +1730,5 @@ you also have options like:
 {{Nav technical}}
 
 [[Category:Guides]]
-{{MissingTranslations|pl|it|de|es|pt-br|fr}}
+{{MissingTranslations|de|es|fr|it|ja|pl|pt-br|ru}}
 [[Category:Servers]]
