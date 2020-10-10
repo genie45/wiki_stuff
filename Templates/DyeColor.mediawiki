@@ -1,0 +1,32 @@
+<includeonly>{{#vardefine:colorName|{{{1|no color given}}}}}{{#switch:{{lc:{{#var:colorName}}}}
+| 201 | black  dye  = {{#vardefine:bgColor|#1f1f1f}}{{#vardefine:colorName|Black Dye}}
+| 202 | blue dye = {{#vardefine:bgColor|#0000ff}}{{#vardefine:colorName|Blue Dye}}
+| 203 | brown dye = {{#vardefine:bgColor|#756147}}{{#vardefine:colorName|Brown Dye}}
+| 204 | cyan dye = {{#vardefine:bgColor|#00ffff}}{{#vardefine:colorName|Cyan Dye}}
+| 205 | forest dye = {{#vardefine:bgColor|#006c00}}{{#vardefine:colorName|Forest Dye}}
+| 206 | green dye = {{#vardefine:bgColor|#00ff00}}{{#vardefine:colorName|Green Dye}}
+| 207 | purple dye = {{#vardefine:bgColor|#6c00ba}}{{#vardefine:colorName|Purple Dye}}
+| 208 | orange dye = {{#vardefine:bgColor|#ff8800}}{{#vardefine:colorName|Orange Dye}}
+| 209 | parchment dye = {{#vardefine:bgColor|#ffffba}}{{#vardefine:colorName|Parchment Dye}}
+| 210 | pink dye = {{#vardefine:bgColor|#ff7be1}}{{#vardefine:colorName|Pink Dye}}
+| 211 | unused purple dye = {{#vardefine:bgColor|#7b00e0}}{{#vardefine:colorName|Unused Purple Dye}}
+| 212 | red dye = {{#vardefine:bgColor|#ff0000}}{{#vardefine:colorName|Red Dye}}
+| 213 | royalty dye = {{#vardefine:bgColor|#7b00a8}}{{#vardefine:colorName|Royalty Dye}}
+| 214 | silver dye = {{#vardefine:bgColor|#e0e0e0}}{{#vardefine:colorName|Silver Dye}}
+| 215 | sky dye = {{#vardefine:bgColor|#bad4ff}}{{#vardefine:colorName|Sky Dye}}
+| 216 | tan dye = {{#vardefine:bgColor|#ffed82}}{{#vardefine:colorName|Tan Dye}}
+| 217 | tangerine dye = {{#vardefine:bgColor|#ad652c}}{{#vardefine:colorName|Tangerine Dye}}
+| 218 | white dye = {{#vardefine:bgColor|#fefefe}}{{#vardefine:colorName|White Dye}}
+| 219 | yellow dye = {{#vardefine:bgColor|#ffff00}}{{#vardefine:colorName|Yellow Dye}}
+| 220 | magenta dye = {{#vardefine:bgColor|#e71fd9}}{{#vardefine:colorName|Magenta Dye}}
+| 221 | brick dye = {{#vardefine:bgColor|#94341f}}{{#vardefine:colorName|Brick Dye}}
+| 222 | cantaloupe dye = {{#vardefine:bgColor|ff9a00}}{{#vardefine:colorName|Cantaloupe Dye}}
+| 223 | mud dye = {{#vardefine:bgColor|#473b2b}}{{#vardefine:colorName|Mud Dye}}
+| 224 | navy dye = {{#vardefine:bgColor|#34346c}}{{#vardefine:colorName|Navy Dye}}
+| 225 | olive dye = {{#vardefine:bgColor|#baba59}}{{#vardefine:colorName|Olive Dye}}
+| 226 | slate dye = {{#vardefine:bgColor|#595959}}{{#vardefine:colorName|Slate Dye}}
+| #default = {{#vardefine:bgColor|lightgrey}}{{#vardefine:colorName|"{{#var:colorName}}" is an unknown color}}
+}}<div style="color: #FFFFFF; text-shadow: 0px 0px 4px black; background-color: {{#var:bgColor}}; border-radius: 0.8em; padding: 0 0.6em; border: 1px black solid; min-width: 8em; display: inline-block; text-align: center;">{{#var:colorName}}</div></includeonly><noinclude>
+{{doc}}
+[[Category:Formatting templates]]
+</noinclude>

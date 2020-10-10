@@ -1,0 +1,153 @@
+{{Tile Nav Entity IDs}}
+
+A creature has up to 6 color-regions (numbered 0 to 5). To set region to the creature-color with the id, look at the creature and execute the following in the console:
+
+ setTargetDinoColor <region> <color-id>
+
+Some colors do not occur naturally on wild creatures, but they can appear as a mutation in bred creatures. 
+
+During certain [[event]]s however based on what event is occuring, specific color can potentially appear as well on any creatures with visible (or hidden, in the case of {{ItemLink|Reaper Queen}}) color region.
+
+==List of Color IDs==
+<div class="color-ids-wrapper">
+<ul>
+<li>Color ID: 1    {{CreatureColor| Red}}    Hex Code: <tt>#ff0000</tt></li>
+<li>Color ID: 2    {{CreatureColor| Blue}}    Hex Code: <tt>#0000ff</tt></li>
+<li>Color ID: 3    {{CreatureColor| Green}}    Hex Code: <tt>#00ff00</tt></li>
+<li>Color ID: 4    {{CreatureColor| Yellow}}    Hex Code: <tt>#ffff00</tt></li>
+<li>Color ID: 5    {{CreatureColor| Cyan}}    Hex Code: <tt>#00ffff</tt></li>
+<li>Color ID: 6    {{CreatureColor| Magenta}}    Hex Code: <tt>#ff00ff</tt></li>
+<li>Color ID: 7    {{CreatureColor| Light Green}}    Hex Code: <tt>#c0ffba</tt></li>
+<li>Color ID: 8    {{CreatureColor| Light Grey}}    Hex Code: <tt>#c8caca</tt></li>
+<li>Color ID: 9    {{CreatureColor| Light Brown}}    Hex Code: <tt>#786759</tt></li>
+<li>Color ID: 10    {{CreatureColor| Light Orange}}    Hex Code: <tt>#ffb46c</tt></li>
+<li>Color ID: 11    {{CreatureColor| Light Yellow}}    Hex Code: <tt>#fffa8a</tt></li>
+<li>Color ID: 12    {{CreatureColor| Light Red}}    Hex Code: <tt>#ff756c</tt></li>
+<li>Color ID: 13    {{CreatureColor| Dark Grey}}    Hex Code: <tt>#7b7b7b</tt></li>
+<li>Color ID: 14    {{CreatureColor| Black}}    Hex Code: <tt>#3b3b3b</tt></li>
+<li>Color ID: 15    {{CreatureColor| Brown}}    Hex Code: <tt>#593a2a</tt></li>
+<li>Color ID: 16    {{CreatureColor| Dark Green}}    Hex Code: <tt>#224900</tt></li>
+<li>Color ID: 17    {{CreatureColor| Dark Red}}    Hex Code: <tt>#812118</tt></li>
+<li>Color ID: 18    {{CreatureColor| White}}    Hex Code: <tt>#ffffff</tt></li>
+<li>Color ID: 19    {{CreatureColor| Dino Light Red}}    Hex Code: <tt>#ffa8a8</tt></li>
+<li>Color ID: 20    {{CreatureColor| Dino Dark Red}}    Hex Code: <tt>#592b2b</tt></li>
+<li>Color ID: 21    {{CreatureColor| Dino Light Orange}}    Hex Code: <tt>#ffb694</tt></li>
+<li>Color ID: 22    {{CreatureColor| Dino Dark Orange}}    Hex Code: <tt>#88532f</tt></li>
+<li>Color ID: 23    {{CreatureColor| Dino Light Yellow}}    Hex Code: <tt>#cacaa0</tt></li>
+<li>Color ID: 24    {{CreatureColor| Dino Dark Yellow}}    Hex Code: <tt>#94946c</tt></li>
+<li>Color ID: 25    {{CreatureColor| Dino Light Green}}    Hex Code: <tt>#e0ffe0</tt></li>
+<li>Color ID: 26    {{CreatureColor| Dino Medium Green}}    Hex Code: <tt>#799479</tt></li>
+<li>Color ID: 27    {{CreatureColor| Dino Dark Green}}    Hex Code: <tt>#224122</tt></li>
+<li>Color ID: 28    {{CreatureColor| Dino Light Blue}}    Hex Code: <tt>#d9e0ff</tt></li>
+<li>Color ID: 29    {{CreatureColor| Dino Dark Blue}}    Hex Code: <tt>#394263</tt></li>
+<li>Color ID: 30    {{CreatureColor| Dino Light Purple}}    Hex Code: <tt>#e4d9ff</tt></li>
+<li>Color ID: 31    {{CreatureColor| Dino Dark Purple}}    Hex Code: <tt>#403459</tt></li>
+<li>Color ID: 32    {{CreatureColor| Dino Light Brown}}    Hex Code: <tt>#ffe0ba</tt></li>
+<li>Color ID: 33    {{CreatureColor| Dino Medium Brown}}    Hex Code: <tt>#948575</tt></li>
+<li>Color ID: 34    {{CreatureColor| Dino Dark Brown}}    Hex Code: <tt>#594e41</tt></li>
+<li>Color ID: 35    {{CreatureColor| Dino Darker Grey}}    Hex Code: <tt>#595959</tt></li>
+<li>Color ID: 36    {{CreatureColor| Dino Albino}}    Hex Code: <tt>#ffffff</tt></li>
+<li>Color ID: 37    {{CreatureColor| BigFoot0}}    Hex Code: <tt>#b79683</tt></li>
+<li>Color ID: 38    {{CreatureColor| BigFoot4}}    Hex Code: <tt>#eadad5</tt></li>
+<li>Color ID: 39    {{CreatureColor| BigFoot5}}    Hex Code: <tt>#d0a794</tt></li>
+<li>Color ID: 40    {{CreatureColor| WolfFur}}    Hex Code: <tt>#c3b39f</tt></li>
+<li>Color ID: 41    {{CreatureColor| DarkWolfFur}}    Hex Code: <tt>#887666</tt></li>
+<li>Color ID: 42    {{CreatureColor| DragonBase0}}    Hex Code: <tt>#a0664b</tt></li>
+<li>Color ID: 43    {{CreatureColor| DragonBase1}}    Hex Code: <tt>#cb7956</tt></li>
+<li>Color ID: 44    {{CreatureColor| DragonFire}}    Hex Code: <tt>#bc4f00</tt></li>
+<li>Color ID: 45    {{CreatureColor| DragonGreen0}}    Hex Code: <tt>#79846c</tt></li>
+<li>Color ID: 46    {{CreatureColor| DragonGreen1}}    Hex Code: <tt>#909c79</tt></li>
+<li>Color ID: 47    {{CreatureColor| DragonGreen2}}    Hex Code: <tt>#a5a48b</tt></li>
+<li>Color ID: 48    {{CreatureColor| DragonGreen3}}    Hex Code: <tt>#74939c</tt></li>
+<li>Color ID: 49    {{CreatureColor| WyvernPurple0}}    Hex Code: <tt>#787496</tt></li>
+<li>Color ID: 50    {{CreatureColor| WyvernPurple1}}    Hex Code: <tt>#b0a2c0</tt></li>
+<li>Color ID: 51    {{CreatureColor| WyvernBlue0}}    Hex Code: <tt>#6281a7</tt></li>
+<li>Color ID: 52    {{CreatureColor| WyvernBlue1}}    Hex Code: <tt>#485c75</tt></li>
+<li>Color ID: 53    {{CreatureColor| Dino Medium Blue}}    Hex Code: <tt>#5fa4ea</tt></li>
+<li>Color ID: 54    {{CreatureColor| Dino Deep Blue}}    Hex Code: <tt>#4568d4</tt></li>
+<li>Color ID: 55    {{CreatureColor| NearWhite}}    Hex Code: <tt>#ededed</tt></li>
+<li>Color ID: 56    {{CreatureColor| NearBlack}}    Hex Code: <tt>#515151</tt></li>
+<li>Color ID: 57    {{CreatureColor| DarkTurquoise}}    Hex Code: <tt>#184546</tt></li>
+<li>Color ID: 58    {{CreatureColor| MediumTurquoise}}    Hex Code: <tt>#007060</tt></li>
+<li>Color ID: 59    {{CreatureColor| Turquoise}}    Hex Code: <tt>#00c5ab</tt></li>
+<li>Color ID: 60    {{CreatureColor| GreenSlate}}    Hex Code: <tt>#40594c</tt></li>
+<li>Color ID: 61    {{CreatureColor| Sage}}    Hex Code: <tt>#3e4f40</tt></li>
+<li>Color ID: 62    {{CreatureColor| DarkWarmGray}}    Hex Code: <tt>#3b3938</tt></li>
+<li>Color ID: 63    {{CreatureColor| MediumWarmGray}}    Hex Code: <tt>#585554</tt></li>
+<li>Color ID: 64    {{CreatureColor| LightWarmGray}}    Hex Code: <tt>#9b9290</tt></li>
+<li>Color ID: 65    {{CreatureColor| DarkCement}}    Hex Code: <tt>#525b56</tt></li>
+<li>Color ID: 66    {{CreatureColor| LightCement}}    Hex Code: <tt>#8aa196</tt></li>
+<li>Color ID: 67    {{CreatureColor| LightPink}}    Hex Code: <tt>#e8b0ff</tt></li>
+<li>Color ID: 68    {{CreatureColor| DeepPink}}    Hex Code: <tt>#ff119a</tt></li>
+<li>Color ID: 69    {{CreatureColor| DarkViolet}}    Hex Code: <tt>#730046</tt></li>
+<li>Color ID: 70    {{CreatureColor| DarkMagenta}}    Hex Code: <tt>#b70042</tt></li>
+<li>Color ID: 71    {{CreatureColor| BurntSienna}}    Hex Code: <tt>#7e331e</tt></li>
+<li>Color ID: 72    {{CreatureColor| MediumAutumn}}    Hex Code: <tt>#a93000</tt></li>
+<li>Color ID: 73    {{CreatureColor| Vermillion}}    Hex Code: <tt>#ef3100</tt></li>
+<li>Color ID: 74    {{CreatureColor| Coral}}    Hex Code: <tt>#ff5834</tt></li>
+<li>Color ID: 75    {{CreatureColor| Orange}}    Hex Code: <tt>#ff7f00</tt></li>
+<li>Color ID: 76    {{CreatureColor| Peach}}    Hex Code: <tt>#ffa73a</tt></li>
+<li>Color ID: 77    {{CreatureColor| LightAutumn}}    Hex Code: <tt>#ae7000</tt></li>
+<li>Color ID: 78    {{CreatureColor| Mustard}}    Hex Code: <tt>#949427</tt></li>
+<li>Color ID: 79    {{CreatureColor| ActualBlack}}    Hex Code: <tt>#000000</tt></li>
+<li>Color ID: 80    {{CreatureColor| MidnightBlue}}    Hex Code: <tt>#191d36</tt></li>
+<li>Color ID: 81    {{CreatureColor| DarkBlue}}    Hex Code: <tt>#152b3a</tt></li>
+<li>Color ID: 82    {{CreatureColor| BlackSands}}    Hex Code: <tt>#302531</tt></li>
+<li>Color ID: 83    {{CreatureColor| LemonLime}}    Hex Code: <tt>#a8ff44</tt></li>
+<li>Color ID: 84    {{CreatureColor| Mint}}    Hex Code: <tt>#38e985</tt></li>
+<li>Color ID: 85    {{CreatureColor| Jade}}    Hex Code: <tt>#008840</tt></li>
+<li>Color ID: 86    {{CreatureColor| PineGreen}}    Hex Code: <tt>#0f552e</tt></li>
+<li>Color ID: 87    {{CreatureColor| SpruceGreen}}    Hex Code: <tt>#005b45</tt></li>
+<li>Color ID: 88    {{CreatureColor| LeafGreen}}    Hex Code: <tt>#5b9725</tt></li>
+<li>Color ID: 89    {{CreatureColor| DarkLavender}}    Hex Code: <tt>#5e275f</tt></li>
+<li>Color ID: 90    {{CreatureColor| MediumLavender}}    Hex Code: <tt>#853587</tt></li>
+<li>Color ID: 91    {{CreatureColor| Lavender}}    Hex Code: <tt>#bd77be</tt></li>
+<li>Color ID: 92    {{CreatureColor| DarkTeal}}    Hex Code: <tt>#0e404a</tt></li>
+<li>Color ID: 93    {{CreatureColor| MediumTeal}}    Hex Code: <tt>#105563</tt></li>
+<li>Color ID: 94    {{CreatureColor| Teal}}    Hex Code: <tt>#14849c</tt></li>
+<li>Color ID: 95    {{CreatureColor| PowderBlue}}    Hex Code: <tt>#82a7ff</tt></li>
+<li>Color ID: 96    {{CreatureColor| Glacial}}    Hex Code: <tt>#aceaff</tt></li>
+<li>Color ID: 97    {{CreatureColor| Cammo}}    Hex Code: <tt>#505118</tt></li>
+<li>Color ID: 98    {{CreatureColor| DryMoss}}    Hex Code: <tt>#766e3f</tt></li>
+<li>Color ID: 99    {{CreatureColor| Custard}}    Hex Code: <tt>#c0bd5e</tt></li>
+<li>Color ID: 100    {{CreatureColor| Cream}}    Hex Code: <tt>#f4ffc0</tt></li>
+</ul>
+</div>
+    
+==List of Dye IDs==
+Color IDs obtainable through mutations or [[Events|event]] candy. Color IDs 202, 204, 206, and 226 are the same as color IDs 2, 5, 3, and 35 (in that order).
+<div class="color-ids-wrapper">
+<ul>
+<li>Color ID: 201    {{DyeColor| Black Dye}}    Hex Code: <tt>#1f1f1f</tt></li>
+<li>Color ID: 202    {{DyeColor| Blue Dye}}    Hex Code: <tt>#0000ff</tt></li>
+<li>Color ID: 203    {{DyeColor| Brown Dye}}    Hex Code: <tt>#756147</tt></li>
+<li>Color ID: 204    {{DyeColor| Cyan Dye}}    Hex Code: <tt>#00ffff</tt></li>
+<li>Color ID: 205    {{DyeColor| Forest Dye}}    Hex Code: <tt>#006c00</tt></li>
+<li>Color ID: 206    {{DyeColor| Green Dye}}    Hex Code: <tt>#00ff00</tt></li>
+<li>Color ID: 207    {{DyeColor| Purple Dye}}    Hex Code: <tt>#6c00ba</tt></li>
+<li>Color ID: 208    {{DyeColor| Orange Dye}}    Hex Code: <tt>#ff8800</tt></li>
+<li>Color ID: 209    {{DyeColor| Parchment Dye}}    Hex Code: <tt>#ffffba</tt></li>
+<li>Color ID: 210    {{DyeColor| Pink Dye}}    Hex Code: <tt>#ff7be1</tt></li>
+<li>Color ID: 211    {{DyeColor| Unused Purple Dye}}    Hex Code: <tt>#7b00e0</tt></li>
+<li>Color ID: 212    {{DyeColor| Red Dye}}    Hex Code: <tt>#ff0000</tt></li>
+<li>Color ID: 213    {{DyeColor| Royalty Dye}}    Hex Code: <tt>#7b00a8</tt></li>
+<li>Color ID: 214    {{DyeColor| Silver Dye}}    Hex Code: <tt>#e0e0e0</tt></li>
+<li>Color ID: 215    {{DyeColor| Sky Dye}} Hex Code: <tt>#bad4ff</tt></li>
+<li>Color ID: 216    {{DyeColor| Tan Dye}}    Hex Code: <tt>#ffed82</tt></li>
+<li>Color ID: 217    {{DyeColor| Tangerine Dye}}    Hex Code: <tt>#ad652c</tt></li>
+<li>Color ID: 218    {{DyeColor| White Dye}}    Hex Code: <tt>#fefefe</tt></li>
+<li>Color ID: 219    {{DyeColor| Yellow Dye}}    Hex Code: <tt>#ffff00</tt></li>
+<li>Color ID: 220    {{DyeColor| Magenta Dye}}    Hex Code: <tt>#e71fd9</tt></li>
+<li>Color ID: 221    {{DyeColor| Brick Dye}}    Hex Code: <tt>#94341f</tt></li>
+<li>Color ID: 222    {{DyeColor| Cantaloupe Dye}}    Hex Code: <tt>#ff9a00</tt></li>
+<li>Color ID: 223    {{DyeColor| Mud Dye}}    Hex Code: <tt>#473b2b</tt></li>
+<li>Color ID: 224    {{DyeColor| Navy Dye}}    Hex Code: <tt>#34346c</tt></li>
+<li>Color ID: 225    {{DyeColor| Olive Dye}}    Hex Code: <tt>#baba59</tt></li>
+<li>Color ID: 226    {{DyeColor| Slate Dye}}    Hex Code: <tt>#595959</tt></li>
+</ul>
+</div>
+
+[[ru:ID_Цветов]]
+[[Category:Data lists]]
+[[fr:IDs des Couleurs]]
+{{MissingTranslations|de|es|it|ja|pl|pt-br}}
