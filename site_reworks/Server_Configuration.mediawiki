@@ -462,8 +462,7 @@ You will need to restart your server, if you add new lines to the file while it 
 |-
 |<code>-AutoDestroyStructures</code>
 |PC
-|Enables auto destruction of old structures.<br/>
-Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
+|Enables auto destruction of old structures.<br/> Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
 |-
 |<code>-crossplay</code>
 |PC
@@ -492,11 +491,15 @@ Timer can be adjusted with <code>AutoDestroyOldStructuresMultiplier</code>
 |<code>?IgnoreLimitMaxStructuresInRangeTypeFlag=false</code>
 |PC
 |Removes the limit of 150
+|-
+|<code>-UseStructureStasisGrid</code>
+|PC
+|enables the structure stasis grid to improve server performance on large bases with lots of players, more info can be found here: https://survivetheark.com/index.php?/articles.html/community-crunch-241-fear-evolved-4-live-tuning-system-network-improvements-and-more-r1652/ <br/>''Introduced in patch [[314.5]]''
 |}
 <!--end of command line-->
 
 == Configuration Files ==
-Most options can also be specified in the games configuration files. The location of the configuration files varies by platform:
+Most options can also be specified in the games configuration files. The location of the configuration files varies by platform
 
 {| class="wikitable"
 |-
