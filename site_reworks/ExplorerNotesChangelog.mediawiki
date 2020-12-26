@@ -2,87 +2,87 @@
 <div style="overflow-x:auto;">
 {| class="wikitable mw-collapsible mw-collapsed" style="text-align:center"
 |-
-! Version !! [[248.0]] !! [[250.0]] !! [[252.0]] !! [[253.0]] !! [[254.0]] !! [[255.0]] !! [[256.0]] !! [[257.0]] !! [[258.0]] !! [[259.0]] !! [[267.0]] !! [[268.0]] !! [[275.0]] !! [[280.114]] !! [[281.107]] !! [[282.102]] !! [[283.101]] !! [[284.104]] !! [[285.104]] !! [[299.26]] !! [[300.6]] !! [[303.1]] !! [[306.41]] !! [[316.18]] !! TOTAL
+! Version !! [[248.0]] !! [[250.0]] !! [[252.0]] !! [[253.0]] !! [[254.0]] !! [[255.0]] !! [[256.0]] !! [[257.0]] !! [[258.0]] !! [[259.0]] !! [[267.0]] !! [[268.0]] !! [[275.0]] !! [[280.114]] !! [[281.107]] !! [[282.102]] !! [[283.101]] !! [[284.104]] !! [[285.104]] !! [[299.26]] !! [[300.6]] !! [[303.1]] !! [[306.41]] !! [[316.18]] !! [[319.14 ]] !! TOTAL
 |-
-| colspan="26" style="text-align: center;" class="explorernot-change-tableend" | '''[[The Island]]''' <!--234 Notes-->
+| colspan="27" style="text-align: center;" class="explorernot-change-tableend" | '''[[The Island]]''' <!--234 Notes-->
 |-
-| '''[[Dossiers|Dossier]]''' || +71 ||  || +3 || +5 || +4 || +4 || +4 || +4 || +5 || || +1 || || || || || || || || || || || || || || class="explorernot-change-tableend" | 101
+| '''[[Dossiers|Dossier]]''' || +71 ||  || +3 || +5 || +4 || +4 || +4 || +4 || +5 || || +1 || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 101
 |-
-| '''[[Explorer Notes#Helena Walker|Helena]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +3 || +1 || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Helena Walker|Helena]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +3 || +1 || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +2 || +1 || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 29
+| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +2 || +1 || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 29
 |-
-| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 ||  || +4 || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 31
+| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 ||  || +4 || || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 31
 |-
-| '''[[Explorer Notes#Gaius Marcellus Nerva|Nerva]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +4 || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Gaius Marcellus Nerva|Nerva]]''' || +4 || +1 || +2 || +2 || +1 || +8 || +8 || || +4 || || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1 || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1 || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || +3 || || || || 5 || class="explorernot-change-tableend" | 8
+| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || +3 || || || || 5 || || class="explorernot-change-tableend" | 8
 |-
-| colspan="26" style="text-align: center;" class="explorernot-change-tableend" | '''[[Scorched Earth]]''' <!--140 Notes-->
+| colspan="27" style="text-align: center;" class="explorernot-change-tableend" | '''[[Scorched Earth]]''' <!--140 Notes-->
 |-
-| '''[[Dossiers|Dossier]]''' || +10 || || || || || || || || || || || +1 || || || || || || || || || || || || || class="explorernot-change-tableend" | 11
+| '''[[Dossiers|Dossier]]''' || +10 || || || || || || || || || || || +1 || || || || || || || || || || || || || || class="explorernot-change-tableend" | 11
 |-
-| '''[[Explorer Notes#Helena Walker|Helena]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Helena Walker|Helena]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Raia|Raia]]''' || +4 || +1 || +2 || +2 || +1 || || || +8 || +12 || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Raia|Raia]]''' || +4 || +1 || +2 || +2 || +1 || || || +8 || +12 || || || || || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#John Dahkeya|Dahkeya]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#John Dahkeya|Dahkeya]]''' || +4 || +1 || +2 || +2 || +1 || +8 || || || +12 || || || || || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1  || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1  || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || +2 || +2 || || || || class="explorernot-change-tableend" | 4
+| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || +2 || +2 || || || || 5 || class="explorernot-change-tableend" | 9
 |-
-| colspan="26" style="text-align: center;" class="explorernot-change-tableend" | '''[[Aberration]]''' <!--159 Notes-->
+| colspan="27" style="text-align: center;" class="explorernot-change-tableend" | '''[[Aberration]]''' <!--159 Notes-->
 |-
-| '''[[Dossiers|Dossier]]''' || || || || || || || || || || || || || 14 || || || || || || || || || || || ||  class="explorernot-change-tableend" | 14
+| '''[[Dossiers|Dossier]]''' || || || || || || || || || || || || || 14 || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 14
 |-
-| '''[[Explorer Notes#Helena Walker|Helena]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Helena Walker|Helena]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Sir Edmund Rockwell|Rockwell]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || || || || || || || || || || || || || +30 || || || || || || || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Diana Altaras|Diana]]''' || || || || || || || || || || || || || +20 || || || || || || || || || || || || class="explorernot-change-tableend" | 20
+| '''[[Explorer Notes#Diana Altaras|Diana]]''' || || || || || || || || || || || || || +20 || || || || || || || || || || || || || class="explorernot-change-tableend" | 20
 |-
-| '''[[Explorer Notes#Rusty Stafford|Rusty]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#Rusty Stafford|Rusty]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#Emilia Müller|Emilia]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#Emilia Müller|Emilia]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#Boris|Boris]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#Boris|Boris]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#Trent|Trent]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || ||  class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#Trent|Trent]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#Imamu|Imamu]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || ||  class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#Imamu|Imamu]]''' || || || || || || || || || || || || || +5 || || || || || || || || || || || || ||  class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#Skye|Skye]]''' || || || || || || || || || || || || || +1 || || || || || || || || || || || || class="explorernot-change-tableend" | 1
+| '''[[Explorer Notes#Skye|Skye]]''' || || || || || || || || || || || || || +1 || || || || || || || || || || || || || class="explorernot-change-tableend" | 1
 |-
-| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1 || || || || || || || class="explorernot-change-tableend" | 5
+| '''[[Explorer Notes#???|???]]''' || || || || || || || || || || || || || || +1 || +1 || +1 || +1 || +1 || || || || || || || || class="explorernot-change-tableend" | 5
 |-
-| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || +3 || +1 || || || class="explorernot-change-tableend" | 4
+| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || +3 || +1 || || || || class="explorernot-change-tableend" | 4
 |-
-| colspan="26" style="text-align: center;" class="explorernot-change-tableend" | '''[[Extinction]]''' <!--164 Notes-->
+| colspan="27" style="text-align: center;" class="explorernot-change-tableend" | '''[[Extinction]]''' <!--164 Notes-->
 |-
-| '''[[Dossiers|Dossier]]''' || || || || || || || || || || || || || || || || || || || +10 || || || || || ||  class="explorernot-change-tableend" | 10
+| '''[[Dossiers|Dossier]]''' || || || || || || || || || || || || || || || || || || || +10 || || || || || || ||  class="explorernot-change-tableend" | 10
 |-
-| '''[[Explorer Notes#Helena|Helena]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Helena|Helena]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Mei Yin Li|Mei-Yin]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Diana Altaras|Diana]]''' || || || || || || || || || || || || || || || || || ||  || +30 || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Diana Altaras|Diana]]''' || || || || || || || || || || || || || || || || || ||  || +30 || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#Santiago|Santiago]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#Santiago|Santiago]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#The One Who Waits|The One Who Waits]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || class="explorernot-change-tableend" | 30
+| '''[[Explorer Notes#The One Who Waits|The One Who Waits]]''' || || || || || || || || || || || || || || || || || || || +30 || || || || || || || class="explorernot-change-tableend" | 30
 |-
-| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || || +4 || || || class="explorernot-change-tableend" | 4
+| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || || +4 || || || || class="explorernot-change-tableend" | 4
 |-
-| colspan="26" style="text-align: center;" class="explorernot-change-tableend" | '''[[Genesis: Part 1]]''' <!--150 Notes-->
+| colspan="27" style="text-align: center;" class="explorernot-change-tableend" | '''[[Genesis: Part 1]]''' <!--150 Notes-->
 |-
-| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || || || +150 || ||  class="explorernot-change-tableend" | 150
+| '''[[Explorer Notes#HLN-A|HLN-A]]''' || || || || || || || || || || || || || || || || || || || || || || || +150 || || ||  class="explorernot-change-tableend" | 150
 |-
 | class="explorernot-change-tableend" | 
 | class="explorernot-change-tableend" | 113
@@ -109,7 +109,8 @@
 | class="explorernot-change-tableend" | 5
 | class="explorernot-change-tableend" | 150
 | class="explorernot-change-tableend" | 5
-| class="explorernot-change-tableend" | '''847'''
+| class="explorernot-change-tableend" | 5
+| class="explorernot-change-tableend" | '''853'''
 |}
 </div>
 </onlyinclude>

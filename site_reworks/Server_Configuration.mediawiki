@@ -47,11 +47,11 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |-
 |<code>?customdynamicconfigurl="<link>"</code>
 |all
-|direct link to config file e.g.: arkdedicated.com/dynamicconfig.ini ;<br/>currently only the following options are supported to be adjusted dynamically: TamingSpeedMultiplier, HarvestAmountMultiplier, XPMultiplier, MatingIntervalMultiplier, BabyMatureSpeedMultiplier, EggHatchSpeedMultiplier, BabyFoodConsumptionSpeedMultiplier, CropGrowthSpeedMultiplier, MatingSpeedMultiplier, BabyCuddleIntervalMultiplier, BabyImprintAmountMultiplier, CustomRecipeEffectivenessMultiplier, TributeItemExpirationSeconds, TributeDinoExpirationSeconds and EnableFullDump. <br/>''Introduced in patch [[307.2]]''
+|direct link to config file e.g.: http://arkdedicated.com/dynamicconfig.ini ;<br/>currently only the following options are supported to be adjusted dynamically: <code>TamingSpeedMultiplier</code>, <code>HarvestAmountMultiplier</code>, <code>XPMultiplier</code>, <code>MatingIntervalMultiplier</code>, <code>BabyMatureSpeedMultiplier</code>, <code>EggHatchSpeedMultiplier</code>, <code>BabyFoodConsumptionSpeedMultiplier</code>, <code>CropGrowthSpeedMultiplier</code>, <code>MatingSpeedMultiplier</code>, <code>BabyCuddleIntervalMultiplier</code>, <code>BabyImprintAmountMultiplier</code>, <code>CustomRecipeEffectivenessMultiplier</code>, <code>TributeItemExpirationSeconds</code>, <code>TributeDinoExpirationSeconds</code>, <code>EnableFullDump</code>, <code>GUseServerNetSpeedCheck</code>, <code>bUseAlarmNotifications</code> and <code>HexagonRewardMultiplier</code>. <br/>''Introduced in patch [[307.2]]''
 |-
 |<code>?CustomLiveTuningUrl="<link>"</code>
 |PC
-|direct link to the LiveTuning file e.g.: http://arkdedicated.com/DefaultOverloads.json ; currently only allows to change the values of DecayDestructionPeriod & DecayDestructionPeriodMultiplier for any items in the game, for more information on how to use this system check out the official announcement: https://survivetheark.com/index.php?/forums/topic/569366-server-configuration-live-tuning-system/
+|direct link to the LiveTuning file e.g.: http://arkdedicated.com/DefaultOverloads.json ; currently only allows to change the values of <code>DecayDestructionPeriod</code> & <code>DecayDestructionPeriodMultiplier</code> for any items in the game, for more information on how to use this system check out the official announcement: https://survivetheark.com/index.php?/forums/topic/569366-server-configuration-live-tuning-system/
 |-
 |<code>-allowansel</code>
 |?
@@ -379,8 +379,8 @@ You will need to restart your server, if you add new lines to the file while it 
     <tr><td>WinterWonderland</td><td>Allows for [[ARK: Winter Wonderland 4|Winter Wonderland 2019 Event]] to be activated.</td></tr>
     <tr><td>vday</td><td>Allows for [[ARK: Love Evolved|Love Evolved]] to be activated.</td></tr>
     <tr><td>Summer</td><td>Allows for [[ARK: Summer Bash 2020|Summer Bash 2020 Event]] to be activated.</td></tr>
-    <tr><td>FearEvolved</td><td>Allows for [[ARK: Fear Evolved 3]] to be activated.</td></tr>
-    <tr><td>TurkeyTrial</td><td>Allows for [[ARK: Turkey Trial 3]] to be activated.</td></tr>
+    <tr><td>FearEvolved</td><td>Allows for [[ARK: Fear Evolved 4]] to be activated.</td></tr>
+    <tr><td>TurkeyTrial</td><td>Allows for [[ARK: Turkey Trial 4]] to be activated.</td></tr>
     <tr><td>birthday</td><td>Allows for [[ARK: 5th Anniversary]] to be activated.</td></tr>
 </table>
 |-
@@ -977,9 +977,7 @@ Line breaks and spaces are here for better readability of the example. Keep it a
 |-
 |<code>bFlyerPlatformAllowUnalignedDinoBasing='''<boolean>'''</code>|| Value = ''boolean (true/false)''<br>Default = false || Quetz platforms will not allow any non-allied dino to base on them when they are flying. If you want your server to allow non-allied dinos to be able to stand on the Quetz platforms set this to true.<br/>''Introduced in patch [[218.3]]''
 |-
-|bUseCorpseLocator
-|Value = ''boolean (true/false)''
-Default = false
+| <code>bUseCorpseLocator</code> || Value = ''boolean (true/false)''<br>Default = false
 |If set to true, you will see a green light beam at the location of your death
 |-
 |<code>MatingIntervalMultiplier='''<value>'''</code>|| Value = ''float''<br>Default = 1.0 || Higher number increases (on a percentage scale) interval between which dinosaurs can mate<br/>Example: MatingIntervalMultiplier=0.5 would allow dinosaurs to mate 50% sooner
