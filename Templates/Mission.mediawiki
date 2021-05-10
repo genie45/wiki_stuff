@@ -1,69 +1,51 @@
-<includeonly><onlyinclude><div class="mission">
-{|class="mission-main"
+<includeonly><onlyinclude>
+<div class="mission">
+<div class="mission-row">[[File:{{#if:{{{type|}}}|{{{type|}}}|InactiveMission}}.png|frameless|30px]] <span class="mission-dif-none">'''[[{{{name|}}} (Genesis: Part 1)|{{{name|}}}]]'''</span></div>
+<div class="mission-row mission-description">
+{{{description|}}}</div>
+<div class="mission-row mission-worldbuff-description">
+{{{worldbuff-description|}}}</div>
+<div class="mission-row">
+{| style="text-align:right;width:100%;"
+|
+|
+| {{#if:{{{hexagons1|}}}|<span class="mission-dif-gamma"> '''Gamma :'''</span>}}
+| {{#if:{{{hexagons1|}}}|{{{hexagons1|}}} [[File:Hexagon Icon.png|frameless|20px]]}}
 |-
-| [[File:{{{biome|}}} Biome Icon.png|frameless|30px]] 
-|colspan{{=}}"2"{{!}}<span class="mission-dif-none">[[{{{name|}}}#{{ucfirst:{{{difficulty|}}}}}|{{{name|}}}]]</span>{{#switch:{{{difficulty|}}} 
-|gamma = <span class="mission-dif-gamma"> (Gamma)</span>
-|beta = <span class="mission-dif-beta"> (Beta)</span>
-|alpha = <span class="mission-dif-alpha"> (Alpha)</span>
-| &nbsp;
-}}
-|-
-| colspan{{=}}"3" style="overflow-wrap: break-word;" | {{{description|}}}
-|-
-|GPS: 
-| {{{lat|}}} &nbsp; {{{lon|}}} 
-| {{Console|cheat spi {{{spi|}}} }}
-|-
-|{{#switch: {{{maxplayer|}}} 
-|10 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-10 
-|8 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-8 
-|5 = [[File:Missions_MultiplayerIcon.png|frameless|30px]] {{!!}} 1-5 
-|1 = [[File:Missions_SinglePlayerIcon.png|frameless|30px]] {{!!}} 1 
-|#default = &nbsp; {{!!}} &nbsp;
+| style="text-align:center;" | {{#switch: {{{maxplayer|}}} 
+|10 = [[File:Missions_MultiplayerIcon.png|frameless|30px]]
+|8 = [[File:Missions_MultiplayerIcon.png|frameless|30px]]
+|5 = [[File:Missions_MultiplayerIcon.png|frameless|30px]]
+|1 = [[File:Missions_SinglePlayerIcon.png|frameless|30px]]
+|#default = &nbsp;
 }} 
-| style="text-align: right;" |{{{hexagons|}}} &nbsp; [[File:Hexagon Icon.png|frameless|30px]]
-|}</div></onlyinclude></includeonly>
+| style="text-align:center;" | {{#if:{{{lat|}}}|{{#if:{{{lon|}}}|[[File:GPS.png|frameless|30px]]}}}}
+| {{#if:{{{hexagons2|}}}|<span class="mission-dif-beta"> '''Beta :'''</span>}}
+| {{#if:{{{hexagons2|}}}|{{{hexagons2|}}} [[File:Hexagon Icon.png|frameless|20px]]|{{#if:{{{hexagons|}}}|{{{hexagons|}}} [[File:Hexagon Icon.png|frameless|20px]]}}}}
+|-
+| style="text-align:center;" | {{#switch: {{{maxplayer|}}} 
+|10 = 1-10 
+|8 = 1-8 
+|5 = 1-5 
+|1 = 1 
+|#default = &nbsp;
+}} 
+| style="text-align:center;" | {{#if:{{{lat|}}}|{{#if:{{{lon|}}}|{{{lat|}}} / {{{lon|}}}}}}}
+| {{#if:{{{hexagons3|}}}|<span class="mission-dif-alpha"> '''Alpha :'''</span>}}
+| {{#if:{{{hexagons3|}}}|{{{hexagons3|}}} [[File:Hexagon Icon.png|frameless|20px]]}}
+|-
+| style="text-align:left;" colspan="4" | {{#if:{{{spi|}}}|{{Console|cheat spi {{{spi|}}} }}}}
+|}
+</div>
+</div></onlyinclude></includeonly>
 <noinclude>
-Generates a mission overview 
-===Usage===
-
-<table class="wikitable">
-<tr><td>name</td><td>Ingame name of the Mission</td></tr>
-<tr><td>biome</td><td>Biome this mission is in</td></tr>
-<tr><td>difficulty</td><td>use alpha, beta or gamma</td></tr>
-<tr><td>lat</td><td>GPS coordinate</td></tr>
-<tr><td>lon</td><td>GPS coordinate</td></tr>
-<tr><td>spi</td><td>exact location based on usiage of <code>ccc</code></td></tr>
-<tr><td>maxplayer</td><td>how many player can max enter the misssion (single digit only 1, 5, 8 or 10)</td></tr>
-<tr><td>hexagons</td><td>max amount of hexagons you can get (based on value shown in mission overview tab)</td></tr>
-<tr><td>description</td><td>for the ingame description text</td></tr>
-</table>
-
-
- <nowiki>{{Mission
-|biome = Bog
-|name = Just a Hop, Skip, and a Jump Away
-|difficulty = alpha
-|lat = 86.8
-|lon = 73.5
-|spi = 246300 386100 187
-|maxplayer = 10
-|hexagons = 28800
-|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
-}}</nowiki>
-will result in 
-{{Mission
-|biome = Bog
-|name = Just a Hop, Skip, and a Jump Away
-|difficulty = alpha
-|lat = 86.8
-|lon = 73.5
-|spi = 246300 386100 187
-|maxplayer = 10
-|hexagons = 28800
-|description = Escort an adorable frog as it tries to find its way to safety amid the myriad dangers of the mire
+{{Mission/sandbox
+|type = hunt
+|name = Testy McTestface
+|description = Track and tackedown a pack of Velonosaurs.
+|maxplayer = 5
+|hexagons1 = 100
+|hexagons2 = 600
+|hexagons3 = 1,600
 }}
-
-
-[[Category:Text templates]]</noinclude>
+</noinclude>

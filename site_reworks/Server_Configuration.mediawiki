@@ -43,11 +43,11 @@ For Single Player: Right click in your Steam client on the game's name in the Li
 |-
 |<code>-UseDynamicConfig</code>
 |all
-|enables the use of the dynamic config, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic config for that platform (the one used on official server) <br/> '''NOTE:''' It takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
+|enables the use of the dynamic config, if you dont provide a '''customdynamicconfigurl''' the server will use the default dynamic config for that platform (the one used on official server) <br/> '''NOTE:''' Unless you force an immediate update using the [[Console Commands#ForceUpdateDynamicConfig|ForceUpdateDynamicConfig]] command, it takes about 15 minutes for the config to take effect after the file has been changed. When you want to "undo" the config you should be changing it back to whatever your default is.<br/>''Introduced in patch [[307.2]]''
 |-
 |<code>?customdynamicconfigurl="<link>"</code>
 |all
-|direct link to config file e.g.: http://arkdedicated.com/dynamicconfig.ini ;<br/>currently only the following options are supported to be adjusted dynamically: <code>TamingSpeedMultiplier</code>, <code>HarvestAmountMultiplier</code>, <code>XPMultiplier</code>, <code>MatingIntervalMultiplier</code>, <code>BabyMatureSpeedMultiplier</code>, <code>EggHatchSpeedMultiplier</code>, <code>BabyFoodConsumptionSpeedMultiplier</code>, <code>CropGrowthSpeedMultiplier</code>, <code>MatingSpeedMultiplier</code>, <code>BabyCuddleIntervalMultiplier</code>, <code>BabyImprintAmountMultiplier</code>, <code>CustomRecipeEffectivenessMultiplier</code>, <code>TributeItemExpirationSeconds</code>, <code>TributeDinoExpirationSeconds</code>, <code>EnableFullDump</code>, <code>GUseServerNetSpeedCheck</code>, <code>bUseAlarmNotifications</code> and <code>HexagonRewardMultiplier</code>. <br/>''Introduced in patch [[307.2]]''
+|direct link to config file e.g.: http://arkdedicated.com/dynamicconfig.ini ;<br/>currently only the following options are supported to be adjusted dynamically: <code>TamingSpeedMultiplier</code>, <code>HarvestAmountMultiplier</code>, <code>XPMultiplier</code>, <code>MatingIntervalMultiplier</code>, <code>BabyMatureSpeedMultiplier</code>, <code>EggHatchSpeedMultiplier</code>, <code>BabyFoodConsumptionSpeedMultiplier</code>, <code>CropGrowthSpeedMultiplier</code>, <code>MatingSpeedMultiplier</code>, <code>BabyCuddleIntervalMultiplier</code>, <code>BabyImprintAmountMultiplier</code>, <code>CustomRecipeEffectivenessMultiplier</code>, <code>TributeItemExpirationSeconds</code>, <code>TributeDinoExpirationSeconds</code>, <code>EnableFullDump</code>, <code>GUseServerNetSpeedCheck</code>, <code>bUseAlarmNotifications</code>, <code>HexagonRewardMultiplier</code> and <code>NPCReplacements</code>. <br/>''Introduced in patch [[307.2]]''
 |-
 |<code>?CustomLiveTuningUrl="<link>"</code>
 |PC
@@ -495,6 +495,18 @@ You will need to restart your server, if you add new lines to the file while it 
 |<code>-UseStructureStasisGrid</code>
 |PC
 |enables the structure stasis grid to improve server performance on large bases with lots of players, more info can be found here: https://survivetheark.com/index.php?/articles.html/community-crunch-241-fear-evolved-4-live-tuning-system-network-improvements-and-more-r1652/ <br/>''Introduced in patch [[314.5]]''
+|-
+|<code>-NewYearEvent</code>
+|PC
+|enables the New Year Event; it will automaticly start at Midnight EST and Noon EST on the 1st of January 2021, unless specificly specified with the following 2 options<br/>''Introduced in patch [[320.38]]''
+|-
+|<code>?NewYear1UTC=<epoch time></code>
+|PC
+|You can use https://www.epochconverter.com/ to get your appropriate timestamp. Please keep in mind that this event cannot be run before Midnight EST on the 1st of January 2021, so if you wish to change your time it would have to be set after that.<br/>''Introduced in patch [[320.38]]''
+|-
+|<code>?NewYear2UTC=<epoch time></code>
+|PC
+|You can use https://www.epochconverter.com/ to get your appropriate timestamp. Please keep in mind that this event cannot be run before Midnight EST on the 1st of January 2021, so if you wish to change your time it would have to be set after that.<br/>''Introduced in patch [[320.38]]''
 |}
 <!--end of command line-->
 
@@ -1493,6 +1505,16 @@ This can be used to disable specific Alpha Creatures, replace the spawns of a pa
 
  NPCReplacements=(FromClassName="MegaRaptor_Character_BP_C", ToClassName="Dodo_Character_BP_C")
 
+Dynamic Config:
+
+As of [[319.14]], NPC replacements can be defined through the dynamic config. However, the syntax is slightly different. Rather than having multiple entries each defining a single replacement, it must be a single entry mapping all of them. For example (note the extra brackets):
+
+ NPCReplacements=((FromClassName="MegaRaptor_Character_BP_C", ToClassName="Dodo_Character_BP_C"))
+
+Any additional replacements must be mapped inside that set separated by a comma like so:
+
+ NPCReplacements=((FromClassName="MegaRaptor_Character_BP_C", ToClassName="Dodo_Character_BP_C"), (FromClassName="Coel_Character_BP_C", ToClassName="Piranha_Character_BP_C"))
+
 ''Introduced in patch [[196.0]]''
 </div>
 
@@ -1731,5 +1753,6 @@ you also have options like:
 {{Nav technical}}
 
 [[Category:Guides]]
-{{MissingTranslations|de|es|fr|it|ja|pl|pt-br|ru}}
+[[es:Configuración del servidor]]
+{{MissingTranslations|de|fr|it|ja|pl|pt-br|ru}}
 [[Category:Servers]]

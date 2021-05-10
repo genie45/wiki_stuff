@@ -1,7 +1,8 @@
-<includeonly>{{Arkitexure start|dlc = {{#var:dlc}}|nodlcambox = {{{nodlcambox|}}}}}<div class="info-arkitex info-framework">
+<includeonly>{{Arkitexure start|dlc = {{{dlc|}}}|nodlcambox = {{{nodlcambox|}}}}}<div class="info-arkitex info-framework">
 
 {{Arkitexure header
 | name = {{{name|{{PAGENAME}}}}}
+| wideimage = {{{wideimage|{{{image|{{{name|{{PAGENAME}}}}}.jpg}}}}}}
 | description = {{{description|}}}
 }}
 
@@ -12,28 +13,106 @@
 | mapmarker = {{{mapmarker|}}}
 | mapmarkersize = {{{mapmarkersize|}}}
 }}
+
 <div class="info-arkitex info-module">
 <div class="info-arkitex info-unit">
-<div class="info-unit-caption">Info</div>
+<div class="info-unit-caption">[[Missions (Genesis: Part 1)|Mission]]</div>
 {{Arkitexure
-| Biome
-|{{{biome|}}}
-}}
+  | Type
+  | {{{type|}}}
+}}{{Arkitexure
+  | [[Biomes|Biome]]
+  | {{{biome|}}}
+}}{{Arkitexure
+  | Player Capacity
+  | {{#if:{{{maxplayer|}}}|{{{maxplayer|}}} players}}
+}}{{Arkitexure
+  | Time Limit{{#if:{{{betatimelimit|}}}|&#32;(Gamma)}}
+  | {{#if:{{{timelimit|}}}|{{duration|{{{timelimit|}}}}}}}
+}}{{Arkitexure
+  | Time Limit (Beta)
+  | {{#if:{{{betatimelimit|}}}|{{duration|{{{betatimelimit|}}}}}}}
+}}{{Arkitexure
+  | Time Limit (Alpha)
+  | {{#if:{{{alphatimelimit|}}}|{{duration|{{{alphatimelimit|}}}}}}}
+}}</div></div>{{#if:{{{gammahexagons|}}}{{{betahexagons|}}}{{{alphahexagons|}}}|<nowiki/>
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">World Effect</div>
+<div class="info-unit-caption">{{{worldbuffdescription|}}}
+<tabber>
+Gamma=
 {{Arkitexure
-|Maximum Player
-|{{{maxplayer}}}
+  | Increase
+  | {{{gammaworldbuffmulti|}}}
 }}
-{{#if: {{{timelimit}}} | {{Arkitexure|Time Limit|{{{timelimit}}}}} | }} 
-{{#if: {{{type}}} | {{Arkitexure|Type|{{{type}}} }} | }} 
+|-|
+Beta=
+{{Arkitexure
+  | Increase
+  | {{{betaworldbuffmulti|}}}
+}}
+|-|
+Alpha=
+{{Arkitexure
+  | Increase
+  | {{{alphaworldbuffmulti|}}}
+}}</tabber></div></div>
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
 <div class="info-unit-caption">Hexagons</div>
+<tabber>
+Gamma=
 {{Arkitexure
-|Base
-|{{{hexagons}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}
+  | Base Amount
+  | {{Icon|Hexagon Icon|{{{gammahexagons|}}}|size=20px}}
+}}{{Arkitexure
+  | First-time Bonus
+  | {{#if:{{{gammafirstbonushexagons|}}}|{{Icon|Hexagon Icon|{{{gammafirstbonushexagons|}}}|size=20px}}}}
+}}{{Arkitexure
+  | Last-hit Bonus
+  | {{#if:{{{gammalasthitbonushexagons|}}}|{{Icon|Hexagon Icon|{{{gammalasthitbonushexagons|}}}|size=20px}}}}
 }}
-{{#if: {{{hexfirstbonus}}} | {{Arkitexure|1st Time Bonus|{{{hexfirstbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}} }} |  }}
-{{#if: {{{hexlasthitbonus}}} | {{Arkitexure|Last Hit Bonus|{{{hexlasthitbonus}}} {{ItemLink|Hexagon|||image=Hexagon_Icon.png}}}} | }}
-
-</div></div>
-
-</div>[[Category:Missions]] [[Category:{{{type}}} Missions]]</includeonly><noinclude>
-[[Category:Infobox templates]]</noinclude>
+|-|
+Beta=
+{{Arkitexure
+  | Base Amount
+  | {{Icon|Hexagon Icon|{{{betahexagons|}}}|size=20px}}
+}}{{Arkitexure
+  | First-time Bonus
+  | {{#if:{{Icon|Hexagon Icon|{{{betafirstbonushexagons|}}}|size=20px}}}}
+}}{{Arkitexure
+  | Last-hit Bonus
+  | {{#if:{{{betalasthitbonushexagons|}}}|{{Icon|Hexagon Icon|{{{betalasthitbonushexagons|}}}|size=20px}}}}
+}}
+|-|
+Alpha=
+{{Arkitexure
+  | Base Amount
+  | {{Icon|Hexagon Icon|{{{alphahexagons|}}}|size=20px}}
+}}{{Arkitexure
+  | First-time Bonus
+  | {{#if:{{Icon|Hexagon Icon|{{{alphafirstbonushexagons|}}}|size=20px}}}}
+}}{{Arkitexure
+  | Last-hit Bonus
+  | {{#if:{{{alphalasthitbonushexagons|}}}|{{Icon|Hexagon Icon|{{{alphalasthitbonushexagons|}}}|size=20px}}}}
+}}</tabber></div></div>}}</div>
+</includeonly><noinclude>
+{{Infobox mission/sandbox
+|description= testy testy test test
+|type = hunt
+|mayplayer = 5
+|timelimit = 150
+|betatimelimit = 250
+|alphatimelimit = 3200
+|gammahexagons = 150
+|betahexagons = 250
+|alphahexagons = 24320
+|worldbuffdescription = testy testy test test mc testy 
+|gammaworldbuffmulti = 0.1
+|betaworldbuffmulti = 0.3
+|alphaworldbuffmulti = 0.5
+}}
+</noinclude>
