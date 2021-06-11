@@ -1,8 +1,16 @@
+/* [[de:MediaWiki:Hydradark.css]] * [[es:MediaWiki:Hydradark.css]] * [[fr:MediaWiki:Hydradark.css]] * [[it:MediaWiki:Hydradark.css]] * [[ja:MediaWiki:Hydradark.css]] * [[pl:MediaWiki:Hydradark.css]] * [[pt-br:MediaWiki:Hydradark.css]] * [[ru:MediaWiki:Hydradark.css]] */
 /* CSS placed here will affect users of the Hydra Dark skin */
+
+/* used on the community portal */
+.feature {
+    background: rgba(200, 200, 200, 0.05);
+    border: 1px solid rgba(200, 200, 200, 0.2);
+    border-radius: 5px; padding: 10px;
+}
 
 /* Base framework */
 body {
-	background: url(https://ark.gamepedia.com/media/9/95/Bg_dark.jpg) no-repeat;
+	background: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/9/95/Bg_dark.jpg/revision/latest) no-repeat; /*[[File:Bg dark.jpg]]*/
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #0b1212;
@@ -16,7 +24,8 @@ body {
 	height: 4.3em;
 }
 
-div#content {
+div#content,
+div#footer {
 	position: relative;
 	border: 1px solid #7FE7FF;
 	background-color: rgba(4, 36, 48, 0.95);
@@ -24,16 +33,22 @@ div#content {
 	color: #88E9FF;
 }
 
-div#content::before {
+div#content::before,
+div#footer::before {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	content: "";
-	background: url(https://ark.gamepedia.com/media/b/b7/Hex_grid.png) repeat;
+	background: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/b/b7/Hex_grid.png/revision/latest) repeat; /*[[File:Hex grid.png]]*/
 	z-index: -1;
 	opacity: 0.7;
+}
+
+div#footer {
+	margin-top: 4em;
+	margin-bottom: 2em;
 }
 
 #pageWrapper {
@@ -44,33 +59,11 @@ div#content table {
 	color: ;
 }
 
-div#footer {
-	position: relative;
-	border: 1px solid #7FE7FF;
-	background-color: rgba(4, 36, 48, 0.95);
-	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
-	color: #88E9FF;
-	margin-top: 4em;
-	margin-bottom: 2em;
-}
-
-div#footer::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	content: "";
-	background: url(https://ark.gamepedia.com/media/b/b7/Hex_grid.png) repeat;
-	z-index: -1;
-	opacity: 0.7;
-}
-
 div#footer ul li {
 	color: #88E9FF;
 }
 
-footer {
+#gamepedia-footer {
 	border-top: #f48020 1px solid;
 }
 
@@ -81,8 +74,6 @@ fieldset {
 .oo-ui-panelLayout-framed {
 	border: 1px solid #000;
 }
-
-
 
 #p-logo a {
   background-size: contain;
@@ -105,9 +96,17 @@ div#content a.extiw:visited,
 div#content a.external,
 div#content a.external:visited,
 #mw-indicator-mw-helplink a,
-.pseudo-link {
+.pseudo-link,
+.jslink,
+label.toctogglelabel {
 	color: #4FB5FF;
 }
+
+.jslink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 div#content a.new {
 	color: #E51616;
@@ -133,19 +132,19 @@ div#mw-panel div.portal div.body {
 }
 
 .skin-hydradark #mw-panel.collapsible-nav .portal.collapsed h3 {
-	background-image: url("https://commons.gamepedia.com/media/3/37/Sidebar_collapsed.png");
+	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/3/37/Sidebar_collapsed.png");
 	background-position: left;
 	background-repeat: no-repeat;
 }
 
 .skin-hydradark #mw-panel.collapsible-nav .portal h3 {
-	background-image: url("https://commons.gamepedia.com/media/7/72/Sidebar_expanded.png");
+	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/7/72/Sidebar_expanded.png");
 	background-position: left;
 	background-repeat: no-repeat;
 }
 
 .skin-hydradark div#mw-panel div.portal div.body {
-  background-image:url(https://breach.gamepedia.com/media/a/a7/Underline.png);
+  background-image:url(https://static.wikia.nocookie.net/breach_gamepedia_en/images/a/a7/Underline.png/revision/latest);
 }
 
 div#mw-panel div.portal div.body ul li a,
@@ -309,11 +308,10 @@ div#mw-head li#ca-unwatch a {
 	color: transparent
 }
 
-
 /* End Vector Tabs */
 
-/* Used by Template:Header */
-.header {
+/* Used by Template:FP heading */
+.fpheading {
 	border-bottom: 3px solid #235361;
 	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
 	border-radius: 0.3em;
@@ -385,7 +383,7 @@ div#mw-head li#ca-unwatch a {
 	border-color: #555555;
 }
 .ambox-green {
-	border-color: #13473f;
+	border-color: #2ebf33;
 }
 .ambox-purple {
 	border-color: #a655b2;
@@ -397,7 +395,7 @@ div#mw-head li#ca-unwatch a {
 	border-color: #aaaa00;
 }
 .ambox-cyan { 
-	border-color: #00ffff;
+	border-color: #00ABA2;
 }
 .ambox-orange {
 	border-color: #ffa500;
@@ -445,12 +443,22 @@ div#mw-head li#ca-unwatch a {
 .infobox-centered {
 	text-align: center;
 	color: #88E9FF;
-	padding: 1em;
+	padding: 0 1em;
 }
 
 .infobox-centered img {
   max-width:100%;
   height:auto;
+}
+
+.infobox .slideboxlightshow {
+  max-width:calc(21em - 4px);
+  height:auto;
+}
+
+.infobox .slideboxlightshow a,
+.infobox .slideboxlightshow img {
+  max-width:100%;
 }
 
 .infobox-row {
@@ -464,6 +472,7 @@ div#mw-head li#ca-unwatch a {
 	white-space: nowrap;
 	color: #88E9FF;
 	padding-left: 1em;
+	font-weight: bold;
 }
 
 .infobox-spacer {
@@ -477,7 +486,6 @@ div#mw-head li#ca-unwatch a {
 
 /* -------------------------- */
 
-/* arkitexure rounded borders */
 .info-arkitex {
 	float: center;
 }
@@ -492,9 +500,8 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure full container */
 .info-framework {
 	float: right;
-	min-width: 410px;
 	width: 410px;
-	max-width: 410px;
+	max-width: 100%;
 	background: #021d31d6;
 	border: 1px solid #7FE7FF;
 	margin: 0 0 8px 8px;
@@ -506,12 +513,9 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure individual module (sub-container) */
 .info-module {
 	display: inline-block;
-	min-width: 402px;
-	width: 402px;
-	max-width: 402px;
+	width: 98%;
 	text-align: right;
-	margin: 0 0 0/*5px*/
-	0;
+	margin: 0;
 	padding: 4px 4px 0 4px;
 	overflow: hidden;
 	border-bottom: 3px solid #235361;
@@ -523,12 +527,9 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure "sub-module" component */
 .info-unit {
 	display: inline-block;
-	width: 402px;
-	min-width: 402px;
-	max-width: 402px;
+	width: 100%;
 	text-align: center;
-	margin: 0 0 0/*4px*/
-	0;
+	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
@@ -536,9 +537,7 @@ div#mw-head li#ca-unwatch a {
 	display: flex;
 	flex-direction: row;
 	align-items: top;
-	min-width: 402px;
-	width: 402px;
-	max-width: 402px;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
@@ -546,26 +545,18 @@ div#mw-head li#ca-unwatch a {
 .info-unit-comment {
 	display: flex;
 	align-items: left;
-	font-size: 11px !important;
+	font-size: 11px;
 }
-.info-unit-caption {
-	text-align: center !important;
-	padding: 0 8px 0 8px !important;
-	background: none !important;
-}
-
 
 /* arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
 	display: inline-block;
-	min-width: 396px;
-	width: 396px;
-	max-width: 396px;
+	width: calc(100% - 8px);
 	margin: 1px;
 	padding: 5px 2px 5px 2px;
 }
 .info-masthead {
-	display: flex !important;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 38px;
@@ -573,7 +564,7 @@ div#mw-head li#ca-unwatch a {
 	font-size: 24px;
 }
 .info-column {
-	display: flex !important;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -587,16 +578,11 @@ div#mw-head li#ca-unwatch a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 92px;
-	width: 92px;
-	max-width: 92px;
-	min-height: 40px;
+	width: 25%;
 	height: 40px;
-	max-height: 40px;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #2d74bea6;
-	;
 }
 
 
@@ -605,9 +591,7 @@ div#mw-head li#ca-unwatch a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 274px;
-	width: 274px;
-	max-width: 274px;
+	width: 75%;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #6e92c036;
@@ -620,12 +604,8 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure cell, intended for two total columns, 40% width */
 .info-X2-40 {
 	display: inline-block;
-	min-width: 144px;
-	width: 144px;
-	max-width: 144px;
-	min-height: 24px;
+	width: 40%;
 	height: 24px;
-	max-height: 24px;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #2d74bea6;
@@ -636,11 +616,8 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
 	display: inline-block;
-	min-width: 222px;
-	width: 222px;
-	max-width: 222px;
+	width: 60%;
 	min-height: 24px;
-	height: auto;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #6e92c036;
@@ -651,11 +628,8 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure cell, intended for three total columns, 33% width */
 .info-X3-33 {
 	display: inline-block;
-	min-width: 116px;
-	width: 116px;
-	max-width: 116px;
+	width: 33.33%;
 	min-height: 24px;
-	height: auto;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #6e92c036;
@@ -666,17 +640,24 @@ div#mw-head li#ca-unwatch a {
 /* arkitexure cell, intended for two total columns, 50% width */
 .info-X2-50 {
 	display: inline-block;
-	min-width: 182px;
-	width: 182px;
-	max-width: 182px;
+	width: 50%;
 	min-height: 24px;
-	height: auto;
 	margin: 1px;
 	padding: 5px 8px 5px 8px;
 	background: #6e92c036;
 	text-align: center;
 }
 
+.info-unit-caption {
+	text-align: center;
+	padding: 0 8px 0 8px;
+	background: none;
+}
+
+/* arkitexure spawn map tabber */
+.info-spawn .tabber {
+  display:inline-block;
+}
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
 
@@ -684,7 +665,7 @@ div#mw-head li#ca-unwatch a {
 table.navbox {
   clear: both;
   font-size: 88%;
-  margin: auto;
+  margin: 1em 0;
   padding: 1px;
   background: rgba(0, 0, 0, 0);
   border: 1px solid #000;
@@ -715,6 +696,7 @@ table.navbox th {
 
 .navbox-list {
   border-bottom:1px solid rgba(0,0,0,0.5);
+  color: #88E9FF;
 }
 
 .navbox-subgroup > tbody > tr {
@@ -744,6 +726,10 @@ table.navbox th {
   font-size: 120%;
   color: #88E9FF;
   background: #2768A5;
+}
+
+table.navbox .navbox-title .mw-collapsible-toggle {
+  font-weight: normal;
 }
 
 /* Level 2 styling */
@@ -790,12 +776,16 @@ table.collapsed tr.collapsible {
 
 
 /* NavBox Creatures */
+.navbox.navbox-creature {
+	margin-bottom: -1em;
+}
+
 .navbox-creature-item {
 	display: inline-block;
 	margin: 2px;
 	overflow: hidden;
 	vertical-align: middle;
-	width: 48px;
+	width: 50px;
 	text-align: center
 }
 
@@ -815,8 +805,8 @@ table.collapsed tr.collapsible {
   background-color:#E5DFAC;
 }
 
-.navbox-creature-item .nav-blue {
-  background-color:#93C3E2;
+.navbox-creature-item .nav-brown {
+  background-color:#e5c6ac;
 }
 
 .navbox-creature-item .nav-purple {
@@ -824,9 +814,28 @@ table.collapsed tr.collapsible {
 }
 
 .navbox-creature-item .nav-orange {
-  background-color:#ffc5b7;
+  background-color:#FAD6A5;
 }
 
+.navbox-creature-item .nav-grey {
+  background-color:#C4C4C4
+}
+
+.navbox-creature-item .nav-green {
+  background-color:#a6ffa9
+}
+
+.navbox-creature-item .nav-cyan {
+  background-color:#86e0f0
+}
+
+.navbox-creature-item .nav-pink {
+  background-color:#ffb0eb
+}
+
+.navbox-creature-item .nav-red {
+  background-color:#e5acb1
+}
 
 /* Tabber */
 .tabber.tabberlive {
@@ -863,7 +872,8 @@ ul.tabbernav li a {
 }
 ul.tabbernav li {
 	display: inline-block;
-	margin-top: 0.5em;
+	padding-top:0;
+	margin-top: 0.55em;
 }
 
 .tabberNoTabberNav ul.tabbernav {
@@ -878,11 +888,9 @@ ul.tabbernav li {
   width:calc(25.3em + 6px);
 }
 
-.infobox-tabber .tabbernav {
-  display:flex;
-  flex-flow:row wrap-reverse;
+.infobox-tabber-big {
+  width:calc(30.7em + 6px);
 }
-
 
 /*Template:Achievement*/
 .achieve_container {
@@ -903,17 +911,11 @@ ul.tabbernav li {
 }
 
 
-/*Template:PaintRegions*/
-td.paintregion {
-	width: 200px;
-	padding-top: 15px !important;
-	vertical-align: top;
-	background: #2d74bea6;
-	color: #88E9FF;
+/* [[Template:PaintRegions]] */
+.paintregion {
+	border:1px solid #7FE7FF;
+	background:#2d74bea6;
 }
-
-
-
 
 /* Tiles (Template:Tile) */
 .tile_container {
@@ -942,6 +944,11 @@ td.paintregion {
 	left: 0;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+/* Image-specific tweak to get it to display with a height of 75px */
+.tile_inner img[src*="PS.svg"] {
+  height: 75px;
 }
 
 
@@ -1122,12 +1129,13 @@ table.wikitable tbody tr th
 table.wikitable > tr > th,
 table.wikitable > * > tr > th {
   background-color: rgba(0,0,0,0.75);
-  color: #80E7FF;
+  color: #88E9FF;
   border:1px solid #3F737F;
 }
 
 table.wikitable tbody tr td {
   border:1px solid #000;
+  color: #88E9FF;
 }
 /* End wikitable styling */
 
@@ -1148,12 +1156,12 @@ table.wikitable tbody tr td {
 }
 
 .skin-hydradark div#content .mw-search-profile-tabs .search-types ul li a {
-  color:#4FB5FF;
+  color:#88E9FF;
   border-right: 1px solid #7f7f7f;
 }
 
 .skin-hydradark div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
-  color:#1C6071;
+  color:#4FB5FF;
 }
 
 .skin-hydradark .mw-search-profile-tabs ul li.current {
@@ -1326,7 +1334,8 @@ ul#filetoc {
 /*status effect styling*/
 table.status-effect-backg {
 	text-align: left;
-	margin-top: -60px;
+	margin-top:1em;
+	margin-bottom:1em;
 	border: 1px solid #7FE7FF;
 	background: #6e92c06b;
 	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
@@ -1412,6 +1421,7 @@ table.dossier-background{
 	border:2px solid #2d74bea6;
 	border-radius:0.5em;
 	border-left-width:1em;
+	margin-bottom:1em;
 	color:#88E9FF !important;
 }
 .dossier-cite-left, .quote-left{
@@ -1561,15 +1571,115 @@ div.full-container{
 .cell-pink {
   background-color:#7F0000 !important;
 }
+
+.cell-grey {
+  background-color:#454545 !important;
+}
+
 .ctc-notice{
   display:inline-block; 
   border:1px dashed yellow; 
   background:#0000007a; 
-  padding:10px;"
+  padding:10px;
 }
 
 /* Tweak for illegible css code highlighting */
 .mw-highlight .nc,
 .mw-highlight .nn {
   color:#8E8ECC;
+}
+
+/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+.text-white {
+  color:#FFFFFF
+}
+
+.text-green {
+  color:#0F0
+}
+
+.text-blue {
+  color:#0059FF
+}
+
+.text-purple {
+  color:#F0F
+}
+
+.text-yellow {
+  color:#FF0
+}
+
+.text-red {
+  color:#F00
+}
+
+.text-cyan {
+  color:#0FF
+}
+
+.text-orange {
+  color:#F90
+}
+
+/* Narrow width skin-specific tweaks */
+@media screen and (max-width:720px) {
+  div#right-navigation div#simpleSearch {
+    border-bottom:1px solid #7FE7FF;
+  }
+  
+  div.vectorTabs li span,
+  div#mw-head div.vectorMenu h3 {
+    margin:0;
+  }
+  
+  div#mw-navigation div#mw-panel {
+    border: 1px solid #7FE7FF;
+    border-left:0;
+    background-color: rgba(4,36,48,0.95);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
+  }
+}
+
+/* Coloring for [[Template:Mission]] */
+.mission {
+  border:2px solid #00cefa;
+  background: #003E4C;
+  color:#BCEEFA;
+}
+
+.mission-dif-gamma {
+  color:#4edb17;
+}
+
+.mission-dif-beta {
+  color:#19cff9;
+}
+
+.mission-dif-alpha {
+  color:#f76450;
+}
+
+.mission-dif-none {
+  color:#BCEEFA;
+}
+
+/* Used by [[Template:HoverText]] */
+.hover-text {
+  cursor:help;
+  border-bottom:1px dotted #4FB5FF;
+}
+
+/* Styling for collapsible toggle */
+.mw-collapsible-toggle.mw-collapsible-toggle-expanded a, 
+.mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
+    color: #4FB5FF;
+}
+
+/* Invert [[File:PS.svg]] colors for better visibility */
+img[src*="/PS.svg/"] {
+  -webkit-filter:
+    invert(100%);
+  filter:
+    invert(100%);
 }

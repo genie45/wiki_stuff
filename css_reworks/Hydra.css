@@ -1,0 +1,1398 @@
+/* [[de:MediaWiki:Hydra.css]] * [[es:MediaWiki:Hydra.css]] * [[fr:MediaWiki:Hydra.css]] * [[it:MediaWiki:Hydra.css]] * [[ja:MediaWiki:Hydra.css]] * [[pl:MediaWiki:Hydra.css]] * [[pt-br:MediaWiki:Hydra.css]] * [[ru:MediaWiki:Hydra.css]] */
+/* CSS placed here will affect users of the Hydra skin */
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+.feature {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px; padding: 10px;
+}
+
+/* Framework */
+body {
+    background-attachment: fixed;
+    background-color: #4C6663;
+    background-image: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/9/98/Bg.jpg/revision/latest); /* [[File:Bg.jpg]] */
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#pageWrapper {
+    margin-right: 10px;
+}
+
+#mw-page-base {
+    background: transparent !important;   
+}
+
+#mw-head-base {
+    background: transparent !important; 
+    border: 0px solid black;
+    bottom: 0;
+    height: 40px;
+}
+
+#p-logo a {
+  background-size: contain;
+}
+
+/* Adds bulletpoints styled after links to all lists on the wiki, replaces the default, gauche blue of the Mediawiki, that's so drab and ugly, mon Dieu! */
+
+ul {
+list-style-type: disc;
+list-style-image: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/7/75/Bulletpoint.png/revision/latest);
+list-style-image: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/7/75/Bulletpoint.png/revision/latest) !ie;
+}
+
+/**************************
+/* Article navigation bar *
+/**************************/
+#right-navigation {
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+#left-navigation {
+    margin-top: 1em;
+}
+
+div.vectorMenu h3 a {
+  background-image: none;
+}
+
+div.vectorTabs {
+    background-image: none;
+}
+
+div.vectorTabs span {
+    background-image: none;
+}
+
+div.vectorTabs ul {
+    background-image: none;
+}
+
+div.vectorTabs ul li {
+    background-color: transparent;
+    background-image: none;
+    color: #000000;
+}
+
+div.vectorTabs ul li.selected {
+    background-color: transparent;
+    background-image: none;
+    color: #ffffff;
+}
+
+div.vectorTabs ul li span {
+    background-image: none;
+    background-color: #transparent;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.vectorTabs ul li.selected span {
+    background-image: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.vectorTabs li span a {
+    background-image: none;
+    color: #ffffff;
+}
+
+div.vectorTabs span a:visited {
+    color: #ffffff;
+}
+
+div.vectorTabs li span a:hover, div.vectorTabs span a:visited:hover {
+    color: #ffffff;
+}
+
+div.vectorTabs li.selected span a {
+    background-color: transparent;
+    color: #ffffff !important;
+}
+
+div.vectorTabs li.new span a:visited {
+    color: #ffffff;
+}
+
+div.vectorTabs li.new span a:hover, div.vectorTabs li.new span a:visited:hover {
+    color: #ffffff;
+}
+
+div.vectorMenu h5 a {
+    background-image: none;
+}
+
+div.vectorMenu:hover, div.menu, div.vectorMenu div.menuForceShow {
+    display: block;
+}
+
+div#p-cactions div.menu ul {
+    border: 1px solid #000000;
+}
+
+div#p-cactions div.menu ul li a {
+    background: #ffffff;
+    color: #000000;
+}
+
+div#p-cactions div.menu ul li a:visited {
+    color: #666;
+}
+
+div#p-cactions div.menu ul li a:hover, div#p-cactions div.menu ul li a:visited:hover {
+    display: block;
+}
+
+div#mw-head div.vectorMenu h4 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.vectorMenu ul {
+    border: 1px solid #ffffff;
+}
+
+
+/* Sidebar */
+div#mw-panel div.portal, 
+div#mw-panel div.portal div.body {
+    background-image: none;
+}
+
+div#mw-panel div.portal h3,
+#mw-panel.collapsible-nav .portal h3 a,
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav div.portal h3 a,
+#mw-panel.collapsible-nav div.portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#mw-panel.collapsible-nav .portal.collapsed h3 {
+    background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/3/37/Sidebar_collapsed.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#mw-panel.collapsible-nav .portal h3 {
+    background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/7/72/Sidebar_expanded.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+ 
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:link,
+div#mw-panel div.portal div.body ul li a:visited, 
+div#mw-panel div.portal div.body ul li a:hover {
+    color: #ffffff;
+}
+
+/* social media add-on fix */
+div#mw-panel div#p-socialProfiles.portal .body {
+    margin: auto;
+}
+
+.socialSidebar {
+    width: auto;
+    max-width: 100%;
+}
+
+/* Sliver Fix */
+
+div#mw-head div.vectorMenu h3 {
+    background-image: none;
+}
+
+div.vectorMenu h3 span {
+    padding-top: 1.3em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Content */
+div#content {
+    background: rgba(255, 255, 255, 0.8);
+    color: #111111;
+    border: 1px solid #1a1a1a;
+    box-shadow: rgba(26, 26, 26, 1) 0 0.1em 0.75em;
+    margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #303030;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #303030;
+}
+
+h3, h4, h5, h6 {
+    border-bottom: 0px solid #dddad3;
+}
+
+.catlinks {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+}
+
+.mw-warning {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#toc, .toc, .mw-warning {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+    font-size: 95%;
+    padding: 5px;
+}
+
+/***************
+/* Link styles *
+/***************/
+a,
+a:visited,
+div#footer a,
+div#content a.extiw,
+div#content a.extiw:visited,
+div#content a.external,
+div#content a.external:visited,
+#mw-indicator-mw-helplink a,
+.pseudo-link,
+.jslink,
+label.toctogglelabel {
+    color: #397d75;
+}
+
+.jslink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*****************
+/* Footer styles *
+/*****************/
+div#footer {
+    background-image: none;
+}
+
+div#footer ul li {
+    color: #ffffff;
+}
+
+div#footer a {
+    color: #d4d5b8;
+    text-shadow: 1px 1px #000000;
+}
+
+div#footer a:hover {
+    color: #397d75;
+}
+
+/* Wiki editor fixes */
+.wikiEditor-ui {
+    background: rgba(0, 0, 0, 0);
+    border: medium none;
+}
+
+.wikiEditor-ui .wikiEditor-ui-view {
+    border-bottom: medium none;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top : medium none;
+}
+
+div.wikiEditor-ui-buttons {
+    background-color: rgba(0, 0, 0, 0);
+    border-top: medium none;
+    margin-right: 5px;
+}
+
+div.wikiEditor-ui-controls {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs {
+    background-color: #28333f;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div {
+    background-color: #28333f;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div a {
+     background: #28333f;
+     color: #c0c0c0;
+}
+
+.wikiEditor-ui-tabs div.current {
+    background-color: #28333f;
+    border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-tabs div.current a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.wikiEditor-ui .wikiEditor-ui-top {
+    border-bottom: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .group {
+    border-right: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .group-search {
+    border-left: 1px solid #000000;
+    border-right: none;
+}
+
+.wikiEditor-ui-toolbar .group .label {
+    color: #000000;
+}
+
+.tab {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+    color: #000000;
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a.current,
+.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+    color: #000000;
+}
+
+.wikiEditor-ui-toolbar .group .tool-select .label {
+    color: #000000;
+}
+
+.wikiEditor-ui-toolbar .sections .section {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #000000;
+}
+
+.wikiEditor-ui-toolbar .booklet .index div {
+    color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color: rgba(0, 0, 0, 0);
+    color: #000000;
+}
+
+.wikiEditor-ui-toolbar .booklet .pages {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-ui-toolbar .page-characters div span {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #000000;
+    color: #efefef;
+}
+
+.wikiEditor-ui-toolbar .page-table td {
+    border-top: 1px solid #000000;
+    color: #000000;
+}
+
+.wikiEditor-preview-loading {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.wikiEditor-preview-contents {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color #000000 #000000;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+
+.editOptions {  
+    background-color: rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color #000000 #000000;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+
+/* Page history */
+#pagehistory li {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 3px;
+}
+
+#pagehistory li.selected {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: none;
+    border: 1px dashed #aaaaaa;
+    padding: 3px;
+}
+
+table.diff {
+    background: transparent;
+}
+
+td.diff-context {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #666666;
+    color: #000000;
+}
+
+td.diff-deletedline {
+    background-color: #FFE49C;
+    border-color: #FFE49C;
+    color: #000000;
+}
+
+td.diff-addedline {
+    background-color: #A3D3FF;
+    border-color: #A3D3FF;
+    color: #000000;
+}
+
+/* Preferences */
+.client-js #preftoc {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px;
+}
+
+.client-js #preftoc,
+.client-js #preftoc li,  
+.client-js #preferences, 
+.client-js #preftoc li a {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #666666;
+}
+
+.client-js #preftoc li:first-child {
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+
+.client-js #preftoc li.selected a {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: none;
+    border-color: #aaaaaa #aaaaaa rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+}
+
+.client-js #preferences {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #aaaaaa;
+}
+
+.client-js #preferences fieldset {
+    border-color: #aaaaaa;
+}
+
+/* Used by Template:FP heading */
+.fpheading {
+  border: 3px solid #4F6D68;
+  border-radius: 0.3em;
+  text-align: center;
+  color: #000000;
+  font-size: 130%;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+/*end Template:Header */
+
+/* copy to clipboard */
+.copy-clipboard {
+  background-color: white;
+  font-family: Courier,monospace;
+  padding: 0.2em;
+}
+
+.copy-clipboard button {
+  padding: 0 0 0 1em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: FontAwesome;
+}
+/*end copy to clipboard*/
+
+/* Ambox style */
+.ambox {
+  max-width: 80%;
+  margin: 1em auto;
+  background-color: #dddddd;
+
+  border: 1px solid #999999;
+  border-collapse: collapse;
+  border-left-style: solid;
+  border-left-width: 10px;
+}
+
+.ambox-icon {
+  width: 60px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-DLC-icon {
+  width: 115px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-type {
+  padding: 0.25em 0.5em;
+}
+
+.ambox-info {
+  margin-top: 0.5em; font-size: smaller;
+}
+
+.ambox-blue { border-left-color: #0000aa; }
+.ambox-gray { border-left-color: #555555; }
+.ambox-green { border-left-color: #00aa06; }
+.ambox-purple { border-left-color: #a655b2; }
+.ambox-red { border-left-color: #aa0000; }
+.ambox-yellow { border-left-color: #aaaa00; }
+.ambox-cyan { border-left-color: #00ABA2; }
+.ambox-orange { border-left-color: #ffa500; }
+
+/* Infobox style */
+.infobox {
+  float: right;
+  width: 23em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
+
+.infobox-table {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.infobox-header {
+  padding: 0.1em;
+  color: #ffffff;
+  background-color: #13473f;
+  font-size: 130%;
+  text-align: center;
+}
+
+.infobox-section {
+  background-color: #dddddd;
+}
+
+.infobox-centered {
+  text-align: center;
+}
+
+.infobox-centered img {
+  max-width:100%;
+  height:auto;
+}
+
+.infobox .slideboxlightshow {
+  max-width:calc(23em - 4px);
+  height:auto;
+}
+
+.infobox .slideboxlightshow a,
+.infobox .slideboxlightshow img {
+  max-width:100%;
+}
+
+.infobox-row {
+  vertical-align: top;
+}
+
+.infobox-row-name {
+  text-align: left;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.infobox-spacer {
+  height: 0.5em;
+}
+
+
+
+/* -------------------------- */
+/* "ARKITEXURE"-STYLE INFOBOX */
+/* -------------------------- */
+
+/* arkitexure rounded borders */
+.info-arkitex {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  float:center;
+}
+.info-arkitex-left {
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  float:left;
+}
+.info-arkitex-right {
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  float:right;
+}
+
+/* arkitexure full container */
+.info-framework {
+  float:right;
+  width:410px;
+  max-width:100%;
+  background:#68a090;
+  border:2px solid #44685e;
+  margin:0 0 8px 8px;
+  padding:5px 5px 0 5px;
+  overflow:hidden;
+}
+
+/* arkitexure individual module (sub-container) */
+.info-module {
+  display:inline-block;
+  width:98%;
+  text-align:right;
+  background:#9dc1b7;
+  margin:0;
+  padding:4px 4px 0 4px;
+  overflow:hidden;
+}
+
+/* arkitexure "sub-module" component */
+.info-unit {
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  margin:0;
+  padding:0;
+  background:#9dc1b7;
+  overflow:hidden;
+}
+.info-unit-row {
+  display:flex;
+  flex-direction:row;
+  align-items:top;
+  width:100%;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+.info-unit-comment {
+  display:flex;
+  align-items:left;
+  font-size:11px;
+}
+
+/* arkitexure cell, intended for one total column, 100% width */
+.info-X1-100 {
+  display:inline-block;
+  width:calc(100% - 8px);
+  margin:1px;
+  padding:5px 2px 5px 2px;
+  background:#fff;
+}
+.info-masthead {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  height:auto;
+  font-size:24px;
+}
+
+.info-column {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.info-sound-div {
+  margin:5px 0 -5px 0;
+}
+
+/* arkitexure cell, intended for two total columns, 25% width */
+.info-X2-25 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:25%;
+  min-height:40px;
+  height:40px;
+  max-height:40px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#edf3eb;
+}
+
+/* arkitexure cell, intended for two total columns, 75% width */
+.info-X2-75 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:75%;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  min-height:40px;
+  height:auto;
+  font-size:24px;
+}
+
+/* arkitexure cell, intended for two total columns, 40% width */
+.info-X2-40 {
+  display:inline-block;
+  width:40%;
+  height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#edf3eb;
+  text-align:right;
+}
+/* arkitexure cell, intended for two total columns, 60% width */
+.info-X2-60 {
+  display:inline-block;
+  width:60%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:left;
+}
+
+/* arkitexure cell, intended for three total columns, 33% width */
+.info-X3-33 {
+  display:inline-block;
+  width:33.33%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:center;
+}
+
+/* arkitexure cell, intended for two total columns, 50% width */
+.info-X2-50 {
+  display:inline-block;
+  width:50%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:center;
+}
+
+.info-unit-caption {
+  text-align:center;
+  padding:0 8px 0 8px;
+  background:none;
+}
+
+/* arkitexure spawn map tabber */
+.info-spawn .tabber {
+  display:inline-block;
+}
+
+/* END "ARKITEXURE"-STYLE INFOBOX */
+
+/* Navbox template style */
+table.navbox {
+    clear: both;
+    font-size: 88%;
+    margin: 1em 0;
+    padding: 1px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    font-size: 90%;
+    width: 100%;
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.navbox-list {
+  border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.navbox-subgroup > tbody > tr {
+  display:flex;
+  align-items:stretch;
+}
+
+.navbox-subgroup .navbox-group {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-basis:10em;
+  flex-grow:1;
+  flex-shrink:0;
+  white-space:normal;
+}
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+	font-weight: bold;
+	font-size: 120%;
+	color: #c4ded6;
+	background: #13473f;
+}
+
+table.navbox .navbox-title .mw-collapsible-toggle {
+  font-weight: normal;
+}
+
+.navbox-title a,
+div#content .navbox-title a.external {
+	color: #70C0B6;
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+	background-color: #eaecf0;
+	color: #222;
+	border: 1px solid #a2a9b1;
+}
+ 
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+ 
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+ 
+table.collapsed tr.collapsible {
+    display: none;
+}
+/* End of Navbox styling */
+
+/* Template:Navbar */
+.va-navbar{
+  position:absolute;
+  padding-left:.5em;
+}
+
+/* NavBox Creatures */
+.navbox.navbox-creature {
+	margin-bottom: -1em;
+}
+
+.navbox-creature-item{
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  vertical-align:middle;
+  width:50px;
+  text-align:center
+}
+
+.navbox-creature-item div{
+  background-color: white;
+  border-radius: 100px;
+}
+
+.creature_roster li:hover > div {
+  box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
+}
+
+.navbox-creature-item .nav-white {
+  background-color:white;
+}
+
+.navbox-creature-item .nav-yellow {
+  background-color:#fffbd1;
+}
+
+.navbox-creature-item .nav-brown {
+  background-color:#ffe6d1;
+}
+
+.navbox-creature-item .nav-purple {
+  background-color:#edd1ff;
+}
+
+.navbox-creature-item .nav-orange {
+  background-color:#ffe1b7;
+}
+
+.navbox-creature-item .nav-grey {
+  background-color:#d6d6d6
+}
+
+.navbox-creature-item .nav-green {
+  background-color:#cdffc9
+}
+
+.navbox-creature-item .nav-cyan {
+  background-color:#c2f6ff
+}
+
+.navbox-creature-item .nav-pink {
+  background-color:#ffc2f3
+}
+
+.navbox-creature-item .nav-red {
+  background-color:#ffd1d1
+}
+
+/* Tabber */
+.tabber.tabberlive{
+   overflow-y: auto;
+}
+
+ul.tabbernav li a:link {
+   font-size: 12px !important;
+   border-radius: 10px 10px 0px 0px;
+   background-color: #ffffe0; /* Old browsers */
+   background: -moz-linear-gradient(#ffffe0, transparent) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#ffffe0, transparent) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#ffffe0, transparent) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe0', endColorstr='#fff',GradientType=0 ) !important; /* IE6-9 */
+   color: #397d75 !important;
+}
+ul.tabbernav li a:hover {
+   background: #ddd !important;
+   color: #666666 !important;
+   border-color: #44685e;
+}
+ul.tabbernav li.tabberactive a {
+   color: #ffffff !important;
+   text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+   border-color: #44685e;
+   border-bottom: 1px solid #9dc1b7 !important;
+   background: -moz-linear-gradient(#68a090, #9dc1b7) !important; /* FF3.6-15 */
+   background: -webkit-linear-gradient(#68a090, #9dc1b7) !important; /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(#68a090, #9dc1b7) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68a090', endColorstr='#9dc1b7',GradientType=0 ) !important; /* IE6-9 */
+}
+ul.tabbernav li a {
+  margin-left: 1px;
+}
+ul.tabbernav li {
+  display:inline-block;
+  padding-top:0;
+  margin-top:0.55em;
+}
+
+.tabberNoTabberNav ul.tabbernav{
+ display:none;
+}
+
+.infobox-tabber {
+  width:calc(24em + 6px);
+}
+
+.infobox-tabber-big {
+  width:calc(30.7em + 6px);
+}
+
+/* Template:Photo */
+.photo-nav, .photo-nav a:link, .photo-nav a:visited{
+  color: #fff !important;
+  font-weight:bold;
+  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+}
+
+.photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
+  color: #000 !important;
+}
+
+.photo-gallery img{
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+  opacity(.9);
+}
+
+.photo-gallery img:hover{
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+  opacity(1);
+}
+
+.photo-nav li:hover img{
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+/* Tiles (Template:Tile) */
+.tile_container {
+  margin: 4px 0px 8px 8px;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(white, lightgray);
+  background: -o-linear-gradient(white, lightgray);
+  background: -moz-linear-gradient(white, lightgray);
+  background: linear-gradient(white, lightgray);
+}
+
+.tile_container:hover{
+  background: #fff;
+}
+
+.tile_inner {
+  position:relative;
+  top:6px;
+  left:0;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/* Image-specific tweak to get it to display with a height of 75px */
+.tile_inner img[src*="PS.svg"] {
+  height: 75px;
+}
+
+/* Survivor Profile Table (Template:DTile) */
+.dtile a:link, .dtile a:visited, .dtile_dlc a:link, .dtile_dlc a:visited{
+  color: #a8b9ba !important;
+}
+
+.dtile img {
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+}
+
+.dtile_dlc img {
+  -webkit-filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+  filter: 
+      invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* [[Template:PaintRegions]] */
+.paintregion {
+  border:1px solid #a2a9b1;
+	background: white;
+	background: -webkit-linear-gradient(white,lightgray);
+	background: -o-linear-gradient(white,lightgray);
+	background: -moz-linear-gradient(white,lightgray);
+	background: linear-gradient(white,lightgray);
+}
+
+/*ExplorerNote changelog table fix*/
+.explorernot-change-tableend{
+	background: #dddddd !important;
+}
+
+/*status effect styling*/
+.status-effect-backg{
+	text-align:left;
+	margin-top:1em;
+	margin-bottom:1em;
+	border:1px solid black; 
+	background:white; 
+	background: -webkit-linear-gradient(white, lightgray); 
+	background: -o-linear-gradient(white, lightgray); 
+	background: -moz-linear-gradient(white, lightgray);
+	background: linear-gradient(white, lightgray);
+}
+
+/* Patch Notes */
+.PN-normal{
+  background: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+}
+
+/*Admin noticeboard header adminlist styling*/
+.adminlist-background{
+	float: right; 
+	width: 300px; 
+	margin-left: 20px; 
+	margin-bottom: 20px; 
+	padding-right: 5px; 
+	padding-left: 5px; 
+	background: #f9f9f9; 
+	border: 1px solid #dddddd; 
+	font-family: Tahoma, Arial,sans-serif;
+	font-size: 80%;
+}
+
+/*template:Photo*/
+li.photo-bg{
+       margin: 8px 6px; 
+       padding:5px; 
+       position:relative; 
+       display:inline-block; 
+       width:200px;
+       min-height:152px; 
+       vertical-align:top; 
+       text-align:center; 
+       background:#fff; 
+       border:1px solid #fff; 
+       box-shadow:0 0 8px #333; 
+       /* For IE 7 */ zoom:1; *display:inline;
+}
+
+div.photo-text{
+       position:relative; 
+       top:4px; 
+       padding:6px 0 6px 0; 
+       font-size:16px;
+}
+
+
+.redish-background{
+	background-color:#d6baba;
+}
+
+/*Template:Dossier & Template:Quote*/
+table.dossier-background{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+	border-radius:0.5em;
+	border-left-width:1em;
+	margin-bottom:1em;
+	color:#3c2a09
+}
+.dossier-cite-left, .quote-left{
+	color: #7d5f2a;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: top;
+}
+
+.dossier-cite-right, .quote-right{
+	color: #7d5f2a;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: bottom;
+}
+
+/*Template:Explorer Note*/
+.explorer-note{
+	display:inline-block;
+	vertical-align:top;
+	width:47%;
+	margin:1em;
+}
+
+.explorer-note-main{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+	border-radius:0.5em;
+	border-left-width:1em;
+}
+
+/*styling for kibble tables*/
+.kibble-table{
+	text-align:center;
+	font-size:.9em;
+	border:1px solid #ccc;
+	background-color:#fff;
+	float:left;
+	margin:0 .5em .5em 0;
+}
+.kibble-table-new{
+	text-align:left;
+	font-size:.9em;
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding: .5em;
+	margin:0 .5em .5em 0;
+}
+
+
+/* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
+.fakeh2 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin-top: 1em;
+  line-height: 1.3;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 0.25em;
+  padding: 0;
+  border-bottom: 1px solid #303030;
+  overflow:hidden;
+}
+
+/* used by some templates for graying table cells */
+.gray {
+  background-color:#E6E6E6;
+}
+
+/* Used by [[Table of Tekgrams]] and [[Template:CreatureTableRow]] */
+.cell-green {
+  background-color:#90EE90 !important;
+}
+
+.cell-yellow {
+  background-color:#FFD700 !important;
+}
+
+.cell-pink {
+  background-color:#e3a4a4 !important;
+}
+
+.cell-grey {
+  background-color:#BDBDBD !important;
+}
+
+.ctc-notice{
+  display:inline-block; 
+  border:1px solid black; 
+  background:lightgray; 
+  padding:10px;
+}
+
+/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+.text-white {
+  color:#666
+}
+
+.text-green {
+  color:#060
+}
+
+.text-blue {
+  color:#006
+}
+
+.text-purple {
+  color:#606
+}
+
+.text-yellow {
+  color:#660
+}
+
+.text-red {
+  color:#600
+}
+
+.text-cyan {
+  color:#699
+}
+
+.text-orange {
+  color:#820
+}
+
+/* Narrow width skin-specific tweak */
+@media screen and (max-width:720px) {
+  div#content {
+    margin-top:3em;
+  }
+}
+
+/* Coloring for [[Template:Mission]] */
+.mission {
+  border:1px solid #a2a9b1;
+  background: #f8f9fa;
+}
+
+.mission-dif-gamma {
+  color:#48BF15;
+}
+
+.mission-dif-beta {
+  color:#17B5D8;
+}
+
+.mission-dif-alpha {
+  color:#D85847;
+}
+/* End Template:Mission coloring; */
+
+/* Used by [[Template:HoverText]] */
+.hover-text {
+  cursor:help;
+  border-bottom:1px dotted #397d75;
+}
