@@ -1,0 +1,829 @@
+/* [[de:MediaWiki:Fandomdesktop.css]] * [[es:MediaWiki:Fandomdesktop.css]] * [[fr:MediaWiki:Fandomdesktop.css]] * [[it:MediaWiki:Fandomdesktop.css]] * [[ja:MediaWiki:Fandomdesktop.css]] * [[pl:MediaWiki:Fandomdesktop.css]] * [[pt-br:MediaWiki:Fandomdesktop.css]] * [[ru:MediaWiki:Fandomdesktop.css]] * [[th:มีเดียวิกิ:Fandomdesktop.css]] */
+/* CSS placed here will affect users of the FandomDesktop skin */
+/* Coloring */
+.theme-fandomdesktop-light {
+	
+}
+
+.theme-fandomdesktop-dark {
+	--theme-page-text-color: #88E9FF;
+	--theme-page-text-color--hover: #69B5C6;
+	--theme-page-text-color--rgb: 136, 233, 255;
+}
+
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+/* Restore pre-FD table header text centering */
+.wikitable > tr > th, .wikitable > * > tr > th {
+	text-align: center;
+	background-color: var(--custom-table-header-background);
+}
+
+/* Restore pre-FD Hydra/Vector table paddings. */
+.article-table tr td,
+.article-table tr th,
+.wikitable tr td,
+.wikitable tr th {
+	padding: 0.2em 0.4em;
+}a
+
+/* Make pseudo-heading padding closer to H4 */
+.page-content dl {
+    margin: 2px 0 6px;
+}
+
+/* Used by Template:FP heading */
+.fpheading {
+  border: 3px solid #4F6D68;
+  border-radius: 0.3em;
+  text-align: center;
+  color: var(--theme-page-text-color);
+  font-size: 130%;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+/*end Template:Header */
+
+/* Front page font color (overiding Common.css) */
+.fpbox {
+	color: var(--theme-page-text-color);
+}
+
+
+/* copy to clipboard */
+.copy-clipboard {
+  background-color: white;
+  font-family: Courier,monospace;
+  padding: 0.2em;
+}
+
+.copy-clipboard button {
+  padding: 0 0 0 1em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: FontAwesome;
+}
+/*end copy to clipboard*/
+
+/* Ambox style */
+.ambox {
+  max-width: 80%;
+  margin: 1em auto;
+  background-color: #dddddd;
+
+  border: 1px solid #999999;
+  border-collapse: collapse;
+  border-left-style: solid;
+  border-left-width: 10px;
+}
+
+.ambox-icon {
+  width: 60px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-DLC-icon {
+  width: 115px;
+  padding: 2px 0 2px 0.5em;
+  text-align: center;
+}
+
+.ambox-type {
+  padding: 0.25em 0.5em;
+}
+
+.ambox-info {
+  margin-top: 0.5em; font-size: smaller;
+}
+
+.ambox-blue { border-left-color: #0000aa; }
+.ambox-gray { border-left-color: #555555; }
+.ambox-green { border-left-color: #00aa06; }
+.ambox-purple { border-left-color: #a655b2; }
+.ambox-red { border-left-color: #aa0000; }
+.ambox-yellow { border-left-color: #aaaa00; }
+.ambox-cyan { border-left-color: #00ABA2; }
+.ambox-orange { border-left-color: #ffa500; }
+
+/* Infobox style */
+.infobox {
+  float: right;
+  width: 23em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
+
+.infobox-table {
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.infobox-header {
+  padding: 0.1em;
+  color: #ffffff;
+  background-color: #13473f;
+  font-size: 130%;
+  text-align: center;
+}
+
+.infobox-section {
+  background-color: #dddddd;
+}
+
+.infobox-centered {
+  text-align: center;
+}
+
+.infobox-centered img {
+  max-width:100%;
+  height:auto;
+}
+
+.infobox .slideboxlightshow {
+  max-width:calc(23em - 4px);
+  height:auto;
+}
+
+.infobox .slideboxlightshow a,
+.infobox .slideboxlightshow img {
+  max-width:100%;
+}
+
+.infobox-row {
+  vertical-align: top;
+}
+
+.infobox-row-name {
+  text-align: left;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.infobox-spacer {
+  height: 0.5em;
+}
+
+
+
+/* -------------------------- */
+/* "ARKITEXURE"-STYLE INFOBOX */
+/* -------------------------- */
+
+/* arkitexure rounded borders */
+.info-arkitex {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  float:center;
+}
+.info-arkitex-left {
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  float:left;
+}
+.info-arkitex-right {
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  float:right;
+}
+
+/* arkitexure full container */
+.info-framework {
+  float:right;
+  width:410px;
+  max-width:100%;
+  background:#68a090;
+  border:2px solid #44685e;
+  margin:0 0 8px 8px;
+  padding:5px 5px 0 5px;
+  overflow:hidden;
+}
+
+/* arkitexure individual module (sub-container) */
+.info-module {
+  display:inline-block;
+  width:98%;
+  text-align:right;
+  background:#9dc1b7;
+  margin:0;
+  padding:4px 4px 0 4px;
+  overflow:hidden;
+}
+
+/* arkitexure "sub-module" component */
+.info-unit {
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  margin:0;
+  padding:0;
+  background:#9dc1b7;
+  overflow:hidden;
+}
+.info-unit-row {
+  display:flex;
+  flex-direction:row;
+  align-items:top;
+  width:100%;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+.info-unit-comment {
+  display:flex;
+  align-items:left;
+  font-size:11px;
+}
+
+/* arkitexure cell, intended for one total column, 100% width */
+.info-X1-100 {
+  display:inline-block;
+  width:calc(100% - 8px);
+  margin:1px;
+  padding:5px 2px 5px 2px;
+  background:#fff;
+}
+.info-masthead {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  height:auto;
+  font-size:24px;
+}
+
+.info-column {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.info-sound-div {
+  margin:5px 0 -5px 0;
+}
+
+/* arkitexure cell, intended for two total columns, 25% width */
+.info-X2-25 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:25%;
+  min-height:52px;
+  height:52px;
+  max-height:52px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#edf3eb;
+}
+
+/* arkitexure cell, intended for two total columns, 75% width */
+.info-X2-75 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:75%;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  min-height:40px;
+  height:auto;
+  font-size:24px;
+}
+
+/* arkitexure cell, intended for two total columns, 40% width */
+.info-X2-40 {
+  display:inline-block;
+  width:40%;
+  height:37px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#edf3eb;
+  text-align:right;
+}
+/* arkitexure cell, intended for two total columns, 60% width */
+.info-X2-60 {
+  display:inline-block;
+  width:60%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:left;
+}
+
+/* arkitexure cell, intended for three total columns, 33% width */
+.info-X3-33 {
+  display:inline-block;
+  width:33.33%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:center;
+}
+
+/* Infobox creature: lower line height on release dates */
+@media only screen and (min-width:1500px) {
+    .info-arkitex .info-X3-33 .mw-formatted-date {
+	    display: block;
+        line-height: 1.5;
+    }
+}
+
+/* arkitexure cell, intended for two total columns, 50% width */
+.info-X2-50 {
+  display:inline-block;
+  width:50%;
+  min-height:24px;
+  margin:1px;
+  padding:5px 8px 5px 8px;
+  background:#fff;
+  text-align:center;
+}
+
+.info-unit-caption {
+  text-align:center;
+  padding:0 8px 0 8px;
+  background:none;
+}
+
+/* arkitexure spawn map tabber */
+.info-spawn .tabber {
+  display:inline-block;
+}
+
+/* Hide mw-empty-elt in spawn map tabbers */
+.info-spawn .tabber .mw-empty-elt {
+    display: none;
+}
+
+/* END "ARKITEXURE"-STYLE INFOBOX */
+
+/* Navbox template style */
+table.navbox {
+    clear: both;
+    font-size: 88%;
+    margin: 1em 0;
+    padding: 1px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    font-size: 90%;
+    width: 100%;
+}
+
+/* Hide mw-empty-elt in navboxes (FD fix) */
+.navbox .mw-empty-elt {
+	display: none;
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.navbox-list {
+  border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.navbox-subgroup > tbody > tr {
+  display:flex;
+  align-items:stretch;
+}
+
+.navbox-subgroup .navbox-group {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-basis:10em;
+  flex-grow:1;
+  flex-shrink:0;
+  white-space:normal;
+}
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+	font-weight: bold;
+	font-size: 120%;
+	color: #c4ded6;
+	background: #13473f;
+}
+
+table.navbox .navbox-title .mw-collapsible-toggle {
+  font-weight: normal;
+}
+
+.navbox-title a,
+div#content .navbox-title a.external {
+	color: #70C0B6;
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+	background-color: #eaecf0;
+	color: #222;
+	border: 1px solid #a2a9b1;
+}
+ 
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+ 
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+ 
+table.collapsed tr.collapsible {
+    display: none;
+}
+/* End of Navbox styling */
+
+/* Template:Navbar */
+.va-navbar{
+  position:absolute;
+  padding-left:.5em;
+}
+
+/* NavBox Creatures */
+.navbox-creature-item{
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  vertical-align:middle;
+  width:50px;
+  text-align:center
+}
+
+.navbox-creature-item div{
+  background-color: white;
+  border-radius: 100px;
+}
+
+.creature_roster li:hover > div {
+  box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
+}
+
+.navbox-creature-item .nav-white {
+  background-color:white;
+}
+
+.navbox-creature-item .nav-yellow {
+  background-color:#fffbd1;
+}
+
+.navbox-creature-item .nav-brown {
+  background-color:#ffe6d1;
+}
+
+.navbox-creature-item .nav-purple {
+  background-color:#edd1ff;
+}
+
+.navbox-creature-item .nav-orange {
+  background-color:#ffe1b7;
+}
+
+.navbox-creature-item .nav-grey {
+  background-color:#d6d6d6
+}
+
+.navbox-creature-item .nav-green {
+  background-color:#cdffc9
+}
+
+.navbox-creature-item .nav-cyan {
+  background-color:#c2f6ff
+}
+
+.navbox-creature-item .nav-pink {
+  background-color:#ffc2f3
+}
+
+.navbox-creature-item .nav-red {
+  background-color:#ffd1d1
+}
+
+/* Do not set any negative bottom margin on Nav creatures to avoid a scrollbar. */
+.navbox.navbox-creature {
+	margin-bottom: 0;
+}
+
+/* Template:Photo */
+.photo-nav, .photo-nav a:link, .photo-nav a:visited{
+  color: #fff !important;
+  font-weight:bold;
+  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+}
+
+.photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
+  color: #000 !important;
+}
+
+.photo-gallery img{
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+}
+
+.photo-gallery img:hover{
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+.photo-nav li:hover img{
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+li.photo-bg{
+       margin: 8px 6px; 
+       padding:5px; 
+       position:relative; 
+       display:inline-block; 
+       width:200px;
+       min-height:152px; 
+       vertical-align:top; 
+       text-align:center; 
+       background:#fff; 
+       border:1px solid #fff; 
+       box-shadow:0 0 8px #333; 
+       /* For IE 7 */ zoom:1; *display:inline;
+}
+
+div.photo-text{
+       position:relative; 
+       top:4px; 
+       padding:6px 0 6px 0; 
+       font-size:16px;
+}
+
+.redish-background{
+	background-color:#d6baba;
+}
+
+/* Tiles (Template:Tile) */
+.tile_container {
+  margin: 4px 0px 8px 8px;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(white, lightgray);
+  background: -o-linear-gradient(white, lightgray);
+  background: -moz-linear-gradient(white, lightgray);
+  background: linear-gradient(white, lightgray);
+}
+
+.tile_container:hover{
+  background: #fff;
+}
+
+.tile_inner {
+  position:relative;
+  top:6px;
+  left:0;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/* Image-specific tweak to get it to display with a height of 75px */
+.tile_inner img[src*="PS.svg"] {
+  height: 75px;
+}
+
+/* Restore pre-FD centered captions in FP Quick Game Basics */
+#fpbasics .gallerybox .gallerytext {
+	text-align: center;
+}
+
+/* [[Template:PaintRegions]] */
+.paintregion {
+  border:1px solid #a2a9b1;
+	background: white;
+	background: -webkit-linear-gradient(white,lightgray);
+	background: -o-linear-gradient(white,lightgray);
+	background: -moz-linear-gradient(white,lightgray);
+	background: linear-gradient(white,lightgray);
+}
+
+/*ExplorerNote changelog table fix*/
+.explorernot-change-tableend{
+	background: #dddddd !important;
+}
+
+/*status effect styling*/
+.status-effect-backg{
+	text-align:left;
+	margin-top:1em;
+	margin-bottom:1em;
+	border:1px solid black; 
+	background:white; 
+	background: -webkit-linear-gradient(white, lightgray); 
+	background: -o-linear-gradient(white, lightgray); 
+	background: -moz-linear-gradient(white, lightgray);
+	background: linear-gradient(white, lightgray);
+}
+
+/* Patch Notes */
+.PN-normal{
+  background: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+}
+
+/*Template:Dossier & Template:Quote*/
+table.dossier-background{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+	border-radius:0.5em;
+	border-left-width:1em;
+	margin-bottom:1em;
+	color:#3c2a09
+}
+.dossier-cite-left, .quote-left{
+	color: #7d5f2a;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: top;
+}
+
+.dossier-cite-right, .quote-right{
+	color: #7d5f2a;
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: bottom;
+}
+
+/*Template:Explorer Note*/
+.explorer-note{
+	display:inline-block;
+	vertical-align:top;
+	width:47%;
+	margin:1em;
+}
+
+.explorer-note-main{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+	border-radius:0.5em;
+	border-left-width:1em;
+}
+
+/*styling for kibble tables*/
+.kibble-table{
+	text-align:center;
+	font-size:.9em;
+	border:1px solid #ccc;
+	background-color:#fff;
+	float:left;
+	margin:0 .5em .5em 0;
+}
+.kibble-table-new{
+	text-align:left;
+	font-size:.9em;
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding: .5em;
+	margin:0 .5em .5em 0;
+}
+
+/* used by some templates for graying table cells */
+.gray {
+  background-color:#E6E6E6;
+}
+
+/* Used by [[Table of Tekgrams]] and [[Template:CreatureTableRow]] */
+.cell-green {
+  background-color:#90EE90 !important;
+}
+
+.cell-yellow {
+  background-color:#FFD700 !important;
+}
+
+.cell-pink {
+  background-color:#e3a4a4 !important;
+}
+
+.cell-grey {
+  background-color:#BDBDBD !important;
+}
+
+.ctc-notice{
+  display:inline-block; 
+  border:1px solid black; 
+  background:lightgray; 
+  padding:10px;
+}
+
+/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+.text-white {
+  color:#666
+}
+
+.text-green {
+  color:#060
+}
+
+.text-blue {
+  color:#006
+}
+
+.text-purple {
+  color:#606
+}
+
+.text-yellow {
+  color:#660
+}
+
+.text-red {
+  color:#600
+}
+
+.text-cyan {
+  color:#699
+}
+
+.text-orange {
+  color:#820
+}
+
+/* Coloring for [[Template:Mission]] */
+.mission {
+  border:1px solid #a2a9b1;
+  background: #f8f9fa;
+}
+
+.mission-dif-gamma {
+  color:#48BF15;
+}
+
+.mission-dif-beta {
+  color:#17B5D8;
+}
+
+.mission-dif-alpha {
+  color:#D85847;
+}
+/* End Template:Mission coloring; */
+
+/* Used by [[Template:HoverText]] */
+.hover-text {
+  cursor:help;
+  border-bottom:1px dotted #397d75;
+}
