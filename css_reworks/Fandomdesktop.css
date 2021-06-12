@@ -1,25 +1,40 @@
 /* [[de:MediaWiki:Fandomdesktop.css]] * [[es:MediaWiki:Fandomdesktop.css]] * [[fr:MediaWiki:Fandomdesktop.css]] * [[it:MediaWiki:Fandomdesktop.css]] * [[ja:MediaWiki:Fandomdesktop.css]] * [[pl:MediaWiki:Fandomdesktop.css]] * [[pt-br:MediaWiki:Fandomdesktop.css]] * [[ru:MediaWiki:Fandomdesktop.css]] * [[th:มีเดียวิกิ:Fandomdesktop.css]] */
 /* CSS placed here will affect users of the FandomDesktop skin */
-/* Coloring */
-.theme-fandomdesktop-light {
-	
-}
+/*to find stuff specific to dark / light skin search for dark or light as they are further down the page*/
+/*everything that effects both skins*/
+/*import custom font that doesnt look ugly*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400&family=Montserrat:wght@400&family=Roboto:wght@400&display=swap');
 
-.theme-fandomdesktop-dark {
-	--theme-page-text-color: #88E9FF;
-	--theme-page-text-color--hover: #69B5C6;
-	--theme-page-text-color--rgb: 136, 233, 255;
+div#content {
+	    font-family: 'Montserrat', sans-serif;
 }
+/*end custom font*/
+/*hex background on content*/
+main.page__main {
+	background: rgba(var(--theme-page-background-color--rgb), 0.95);
+} 
 
+main.page__main::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/b/b7/Hex_grid.png/revision/latest) repeat; /*[[File:Hex grid.png]]*/
+	z-index: -1;
+	opacity: 0.7;
+}
+/*end hex background*/
 /* For elements which only display in the mobile view */
 .mobileonly {
-    display: none;
+  display: none;
 }
 
 /* Restore pre-FD table header text centering */
 .wikitable > tr > th, .wikitable > * > tr > th {
-	text-align: center;
-	background-color: var(--custom-table-header-background);
+text-align: center;
+background-color: var(--custom-table-header-background);
 }
 
 /* Restore pre-FD Hydra/Vector table paddings. */
@@ -27,54 +42,52 @@
 .article-table tr th,
 .wikitable tr td,
 .wikitable tr th {
-	padding: 0.2em 0.4em;
-}a
+padding: 0.2em 0.4em;
+}
 
 /* Make pseudo-heading padding closer to H4 */
 .page-content dl {
-    margin: 2px 0 6px;
+  margin: 2px 0 6px;
 }
 
 /* Used by Template:FP heading */
 .fpheading {
-  border: 3px solid #4F6D68;
-  border-radius: 0.3em;
-  text-align: center;
-  color: var(--theme-page-text-color);
-  font-size: 130%;
-  margin-bottom: 5px;
-  padding: 2px;
+border: 3px solid #4F6D68;
+border-radius: 0.3em;
+text-align: center;
+color: var(--theme-page-text-color);
+font-size: 130%;
+margin-bottom: 5px;
+padding: 2px;
 }
 /*end Template:Header */
 
 /* Front page font color (overiding Common.css) */
 .fpbox {
-	color: var(--theme-page-text-color);
+color: var(--theme-page-text-color);
 }
 
 
 /* copy to clipboard */
 .copy-clipboard {
-  background-color: white;
-  font-family: Courier,monospace;
-  padding: 0.2em;
+background-color: white;
+color: black;
+font-family: Courier,monospace;
+padding: 0.2em;
 }
 
 .copy-clipboard button {
-  padding: 0 0 0 1em;
-  border: none;
-  background: none;
-  cursor: pointer;
-  font-family: FontAwesome;
+padding: 0 0 0 1em;
+border: none;
+background: none;
+cursor: pointer;
+font-family: FontAwesome;
 }
 /*end copy to clipboard*/
-
 /* Ambox style */
 .ambox {
   max-width: 80%;
   margin: 1em auto;
-  background-color: #dddddd;
-
   border: 1px solid #999999;
   border-collapse: collapse;
   border-left-style: solid;
@@ -109,7 +122,7 @@
 .ambox-yellow { border-left-color: #aaaa00; }
 .ambox-cyan { border-left-color: #00ABA2; }
 .ambox-orange { border-left-color: #ffa500; }
-
+/*end Ambox*/
 /* Infobox style */
 .infobox {
   float: right;
@@ -118,27 +131,17 @@
   margin-right: 1em;
   margin-bottom: 0.5em;
   padding: 2px;
-  background-color: #111111;
-  border: 1px solid #ffffff;
 }
 
 .infobox-table {
   width: 100%;
   padding: 0;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
 }
 
 .infobox-header {
   padding: 0.1em;
-  color: #ffffff;
-  background-color: #13473f;
   font-size: 130%;
   text-align: center;
-}
-
-.infobox-section {
-  background-color: #dddddd;
 }
 
 .infobox-centered {
@@ -173,9 +176,60 @@
 .infobox-spacer {
   height: 0.5em;
 }
+/*end Infobox*/
+/* theme specific */
+/*everything light theme specific below here*/
+.theme-fandomdesktop-light .ambox{
+background-color: #dddddd;
+}
 
+.theme-fandomdesktop-light .infobox {
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
 
+.theme-fandomdesktop-light .infobox-table {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
 
+.theme-fandomdesktop-light .infobox-header {
+  color: #ffffff;
+  background-color: #13473f;
+}
+
+.theme-fandomdesktop-light.infobox-section {
+  background-color: #dddddd;
+}
+/*everything dark theme specific below here */
+.theme-fandomdesktop-dark {
+	--theme-page-text-color: #88E9FF;
+	--theme-page-text-color--hover: #69B5C6;
+	--theme-page-text-color--rgb: 136, 233, 255;
+}
+
+.theme-fandomdesktop-dark .ambox{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.theme-fandomdesktop-dark .infobox {
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
+
+.theme-fandomdesktop-dark .infobox-table {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.theme-fandomdesktop-dark .infobox-header {
+  color: #ffffff;
+  background-color: #13473f;
+}
+
+.theme-fandomdesktop-dark .infobox-section {
+  background-color: #dddddd;
+}
 /* -------------------------- */
 /* "ARKITEXURE"-STYLE INFOBOX */
 /* -------------------------- */
