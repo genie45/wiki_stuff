@@ -84,6 +84,10 @@ cursor: pointer;
 font-family: FontAwesome;
 }
 /*end copy to clipboard*/
+/* Hide mw-empty-elt in tabbers */
+.tabber .mw-empty-elt {
+  display: none;
+}
 /* Ambox style */
 .ambox {
   max-width: 80%;
@@ -363,6 +367,171 @@ font-family: FontAwesome;
 }
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
+/* Navbox template style */
+table.navbox {
+  clear: both;
+  font-size: 88%;
+  margin: 1em 0;
+  padding: 1px;
+  font-size: 90%;
+  width: 100%;
+}
+
+/* Hide mw-empty-elt in navboxes (FD fix) */
+.navbox .mw-empty-elt {
+display: none;
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+  margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.navbox-group {
+font-weight: bold;
+padding-left: 1em;
+padding-right: 1em;
+white-space: nowrap;
+text-align: center;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbox-list {
+border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.navbox-subgroup > tbody > tr {
+display:flex;
+align-items:stretch;
+}
+
+.navbox-subgroup .navbox-group {
+display:flex;
+align-items:center;
+justify-content:center;
+flex-basis:10em;
+flex-grow:1;
+flex-shrink:0;
+white-space:normal;
+}
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+font-weight: bold;
+font-size: 120%;
+
+}
+
+table.navbox .navbox-title .mw-collapsible-toggle {
+font-weight: normal;
+}
+
+/* Level 2 styling */
+.collapseButton {
+  font-weight: normal;
+  width: auto;
+}
+
+.navbox .collapseButton {
+  width: 6em;
+}
+
+.navbar {
+  font-size: 88%;
+  font-weight: normal;
+}
+
+.navbox .navbar {
+  font-size: 100%;
+}
+
+table.collapsed tr.collapsible {
+  display: none;
+}
+/* End of Navbox styling */
+/* Template:Navbar */
+.va-navbar{
+  position:absolute;
+  padding-left:.5em;
+}
+/* NavBox Creatures */
+/*color settings can be found in the theme specific sections*/
+.navbox-creature-item{
+  display: inline-block;
+  margin: 2px;
+  overflow: hidden;
+  vertical-align:middle;
+  width:50px;
+  text-align:center
+}
+
+/* Do not set any negative bottom margin on Nav creatures to avoid a scrollbar. */
+.navbox.navbox-creature {
+	margin-bottom: 0;
+}
+/*end NavBox Creatures*/
+/* Template:Photo */
+.photo-nav, .photo-nav a:link, .photo-nav a:visited{
+  color: #fff !important;
+  font-weight:bold;
+  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+}
+
+.photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
+  color: #000 !important;
+}
+
+.photo-gallery img{
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+}
+
+.photo-gallery img:hover{
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+.photo-nav li:hover img{
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+li.photo-bg{
+       margin: 8px 6px; 
+       padding:5px; 
+       position:relative; 
+       display:inline-block; 
+       width:200px;
+       min-height:152px; 
+       vertical-align:top; 
+       text-align:center; 
+       background:#fff; 
+       border:1px solid #fff; 
+       box-shadow:0 0 8px #333; 
+       /* For IE 7 */ zoom:1; *display:inline;
+}
+
+div.photo-text{
+       position:relative; 
+       top:4px; 
+       padding:6px 0 6px 0; 
+       font-size:16px;
+}
+/*end Template:Photo*/
+
 /* theme specific */
 /*everything light theme specific below here*/
 .theme-fandomdesktop-light .ambox{
@@ -408,6 +577,82 @@ background-color: #dddddd;
 .theme-fandomdesktop-light .info-X2-50 {
   background:#fff;
 }
+/*light theme navbox specific*/
+.theme-fandomdesktop-light table.navbox {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #000;
+}
+
+.theme-fandomdesktop-light .navbox-title,
+.theme-fandomdesktop-light table.navbox th {
+  color: #c4ded6;
+  background: #13473f;
+}
+
+.theme-fandomdesktop-light .navbox-title a,
+.theme-fandomdesktop-light div#content .navbox-title a.external {
+  color: #70C0B6;
+}
+
+.theme-fandomdesktop-light .navbox-abovebelow,
+.theme-fandomdesktop-light .navbox-group,
+.theme-fandomdesktop-light .navbox-subgroup .navbox-title {
+background-color: #eaecf0;
+color: #222;
+border: 1px solid #a2a9b1;
+}
+/*light theme NavBox Creatures specific*/
+.theme-fandomdesktop-light .navbox-creature-item div{
+  background-color: white;
+  border-radius: 100px;
+}
+
+.theme-fandomdesktop-light .creature_roster li:hover > div {
+  box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-white {
+  background-color:white;
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-yellow {
+  background-color:#fffbd1;
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-brown {
+  background-color:#ffe6d1;
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-purple {
+  background-color:#edd1ff;
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-orange {
+  background-color:#ffe1b7;
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-grey {
+  background-color:#d6d6d6
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-green {
+  background-color:#cdffc9
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-cyan {
+  background-color:#c2f6ff
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-pink {
+  background-color:#ffc2f3
+}
+
+.theme-fandomdesktop-light .navbox-creature-item .nav-red {
+  background-color:#ffd1d1
+}
+
+
+
 /*everything dark theme specific below here */
 .theme-fandomdesktop-dark {
 	--theme-page-text-color: #88E9FF;
@@ -467,235 +712,81 @@ background-color: #dddddd;
 .theme-fandomdesktop-dark .info-X2-50 {
   background:#6e92c036;
 }
-/* Navbox template style */
-table.navbox {
-    clear: both;
-    font-size: 88%;
-    margin: 1em 0;
-    padding: 1px;
-    background: rgba(0, 0, 0, 0);
-    border: 1px solid #000;
-    font-size: 90%;
-    width: 100%;
+/*dark theme navbox specific*/
+.theme-fandomdesktop-dark table.navbox {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #000;
 }
 
-/* Hide mw-empty-elt in navboxes (FD fix) */
-.navbox .mw-empty-elt {
-	display: none;
+.theme-fandomdesktop-dark .navbox-title,
+.theme-fandomdesktop-dark table.navbox th {
+  color: #c4ded6;
+  background: #13473f;
 }
 
-/* Border between adjacent navboxes */
-table.navbox + table.navbox {
-    margin-top: -1px;
+.theme-fandomdesktop-dark .navbox-title a,
+.theme-fandomdesktop-dark div#content .navbox-title a.external {
+  color: #70C0B6;
 }
 
-.navbox-title,
-.navbox-abovebelow,
-table.navbox th {
-    padding-left: 1em;
-    padding-right: 1em;
-    text-align: center;
+.theme-fandomdesktop-dark .navbox-abovebelow,
+.theme-fandomdesktop-dark .navbox-group,
+.theme-fandomdesktop-dark .navbox-subgroup .navbox-title {
+background-color: #eaecf0;
+color: #222;
+border: 1px solid #a2a9b1;
+}
+/*dark theme NavBox Creatures specific*/
+.theme-fandomdesktop-dark .navbox-creature-item div {
+	background-color: #2d74be;
 }
 
-.navbox-group {
-  font-weight: bold;
-  padding-left: 1em;
-  padding-right: 1em;
-  white-space: nowrap;
-  text-align: center;
+.theme-fandomdesktop-dark .creature_roster li:hover > div {
+  box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
+} 
+
+.theme-fandomdesktop-dark .navbox-creature-item .nav-white {
+  background-color:#D5F2F2;
 }
 
-/* Base background */
-.navbox, .navbox-subgroup {
-    background: rgba(255, 255, 255, 0.2);
+.theme-fandomdesktop-dark .navbox-creature-item .nav-yellow {
+  background-color:#E5DFAC;
 }
 
-.navbox-list {
-  border-bottom:1px solid rgba(0,0,0,0.1);
+.theme-fandomdesktop-dark .navbox-creature-item .nav-brown {
+  background-color:#e5c6ac;
 }
 
-.navbox-subgroup > tbody > tr {
-  display:flex;
-  align-items:stretch;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-purple {
+  background-color:#CEACE5;
 }
 
-.navbox-subgroup .navbox-group {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-basis:10em;
-  flex-grow:1;
-  flex-shrink:0;
-  white-space:normal;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-orange {
+  background-color:#FAD6A5;
 }
 
-/* Level 1 color */
-.navbox-title,
-table.navbox th {
-	font-weight: bold;
-	font-size: 120%;
-	color: #c4ded6;
-	background: #13473f;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-grey {
+  background-color:#C4C4C4
 }
 
-table.navbox .navbox-title .mw-collapsible-toggle {
-  font-weight: normal;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-green {
+  background-color:#a6ffa9
 }
 
-.navbox-title a,
-div#content .navbox-title a.external {
-	color: #70C0B6;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-cyan {
+  background-color:#86e0f0
 }
 
-/* Level 2 styling */
-.navbox-abovebelow,
-.navbox-group,
-.navbox-subgroup .navbox-title {
-	background-color: #eaecf0;
-	color: #222;
-	border: 1px solid #a2a9b1;
-}
- 
-.collapseButton {
-    font-weight: normal;
-    width: auto;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-pink {
+  background-color:#ffb0eb
 }
 
-.navbox .collapseButton {
-    width: 6em;
-}
- 
-.navbar {
-    font-size: 88%;
-    font-weight: normal;
+.theme-fandomdesktop-dark .navbox-creature-item .nav-red {
+  background-color:#e5acb1
 }
 
-.navbox .navbar {
-    font-size: 100%;
-}
- 
-table.collapsed tr.collapsible {
-    display: none;
-}
-/* End of Navbox styling */
 
-/* Template:Navbar */
-.va-navbar{
-  position:absolute;
-  padding-left:.5em;
-}
 
-/* NavBox Creatures */
-.navbox-creature-item{
-  display: inline-block;
-  margin: 2px;
-  overflow: hidden;
-  vertical-align:middle;
-  width:50px;
-  text-align:center
-}
-
-.navbox-creature-item div{
-  background-color: white;
-  border-radius: 100px;
-}
-
-.creature_roster li:hover > div {
-  box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
-}
-
-.navbox-creature-item .nav-white {
-  background-color:white;
-}
-
-.navbox-creature-item .nav-yellow {
-  background-color:#fffbd1;
-}
-
-.navbox-creature-item .nav-brown {
-  background-color:#ffe6d1;
-}
-
-.navbox-creature-item .nav-purple {
-  background-color:#edd1ff;
-}
-
-.navbox-creature-item .nav-orange {
-  background-color:#ffe1b7;
-}
-
-.navbox-creature-item .nav-grey {
-  background-color:#d6d6d6
-}
-
-.navbox-creature-item .nav-green {
-  background-color:#cdffc9
-}
-
-.navbox-creature-item .nav-cyan {
-  background-color:#c2f6ff
-}
-
-.navbox-creature-item .nav-pink {
-  background-color:#ffc2f3
-}
-
-.navbox-creature-item .nav-red {
-  background-color:#ffd1d1
-}
-
-/* Do not set any negative bottom margin on Nav creatures to avoid a scrollbar. */
-.navbox.navbox-creature {
-	margin-bottom: 0;
-}
-
-/* Template:Photo */
-.photo-nav, .photo-nav a:link, .photo-nav a:visited{
-  color: #fff !important;
-  font-weight:bold;
-  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
-}
-
-.photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
-  color: #000 !important;
-}
-
-.photo-gallery img{
-  -webkit-filter: opacity(.8);
-  filter: opacity(.8);
-}
-
-.photo-gallery img:hover{
-  -webkit-filter: opacity(1);
-  filter: opacity(1);
-}
-
-.photo-nav li:hover img{
-  -webkit-filter: brightness(120%);
-  filter: brightness(120%);
-}
-
-li.photo-bg{
-       margin: 8px 6px; 
-       padding:5px; 
-       position:relative; 
-       display:inline-block; 
-       width:200px;
-       min-height:152px; 
-       vertical-align:top; 
-       text-align:center; 
-       background:#fff; 
-       border:1px solid #fff; 
-       box-shadow:0 0 8px #333; 
-       /* For IE 7 */ zoom:1; *display:inline;
-}
-
-div.photo-text{
-       position:relative; 
-       top:4px; 
-       padding:6px 0 6px 0; 
-       font-size:16px;
-}
 
 .redish-background{
 	background-color:#d6baba;
