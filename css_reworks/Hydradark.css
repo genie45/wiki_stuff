@@ -1372,13 +1372,13 @@ table.status-effect-backg {
 .photo-gallery img {
 	-webkit-filter: opacity(.8);
 	filter: opacity(.8);
-	opacity(.9);
+	opacity:(.9);
 }
 
 .photo-gallery img:hover {
 	-webkit-filter: opacity(1);
 	filter: opacity(1);
-	opacity(1);
+	opacity:(1);
 }
 
 .photo-nav li:hover img {
