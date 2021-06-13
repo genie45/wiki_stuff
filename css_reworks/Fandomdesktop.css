@@ -3,7 +3,7 @@
 /*to find stuff specific to dark / light skin search for dark or light as they are further down the page*/
 /*everything that effects both skins*/
 /*import custom font that doesnt look ugly*/
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400&family=Montserrat:wght@400&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 div#content {
 	    font-family: 'Montserrat', sans-serif;
@@ -193,18 +193,18 @@ font-family: FontAwesome;
 
 /* arkitexure rounded borders */
 .info-arkitex {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
   float:center;
 }
 .info-arkitex-left {
-  border-radius: 10px 0 0 10px;
-  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 2px 0 0 2px;
+  -webkit-border-radius: 2px 0 0 2px;
   float:left;
 }
 .info-arkitex-right {
-  border-radius: 0 10px 10px 0;
-  -webkit-border-radius: 0 10px 10px 0;
+  border-radius: 0 2px 2px 0;
+  -webkit-border-radius: 0 2px 2px 0;
   float:right;
 }
 
@@ -221,7 +221,7 @@ font-family: FontAwesome;
 /* arkitexure individual module (sub-container) */
 .info-module {
   display:inline-block;
-  width:98%;
+  width: 100%;
   text-align:right;
   margin:0;
   padding:4px 4px 0 4px;
@@ -615,7 +615,20 @@ table.dossier-background{
 .gray {
   background-color:#E6E6E6;
 }
-
+/*Loottables siderail*/
+.loottable {
+  padding-left: calc(1em - 5px);
+  border-left: 5px solid #5EA8D0;
+}
+.loottable-color-red {
+  border-left-color: #D94F5D;
+}
+.loottable-color-yellow {
+  border-left-color: #D9DB59;
+}
+.loottable-color-green {
+ border-left-color: #49C11E;
+}
 
 /* theme specific */
 /*everything light theme specific below here*/
@@ -648,14 +661,27 @@ background-color: #dddddd;
   border:2px solid #44685e;
 }
 
-.theme-fandomdesktop-light .info-module,
-.theme-fandomdesktop-light .info-unit,
+.theme-fandomdesktop-light .info-module {
+  background-color: #9dc1b7;
+}
+
+.theme-fandomdesktop-light .infobox-header {
+	border-bottom: 3px solid #13473f;
+	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;	
+	color: #ffffff;
+}
+
+.theme-fandomdesktop-light .infobox-section {
+ 	border-bottom: 3px solid #13473f;
+	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
+	color: #ffffff;
+}
+
 .theme-fandomdesktop-light .info-X2-25,
 .theme-fandomdesktop-light .info-X2-40 {
   background:#edf3eb;
 }
 
-.theme-fandomdesktop-light .info-X1-100,
 .theme-fandomdesktop-light .info-X2-75,
 .theme-fandomdesktop-light .info-X2-60,
 .theme-fandomdesktop-light .info-X3-33, 
@@ -913,6 +939,230 @@ border: 1px solid #a2a9b1;
 	--theme-page-text-color--rgb: 136, 233, 255;
 }
 /*dark theme ambox specific*/
+/* used on the community portal */
+.theme-fandomdesktop-dark .feature {
+  border: 1px solid rgba(200, 200, 200, 0.2);
+  border-radius: 5px; padding: 10px;
+}
+
+.theme-fandomdesktop-dark .page {
+position: relative;
+border: 1px solid #7FE7FF;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
+color: #88E9FF;
+}
+/* End base framework */
+/* Links */
+.theme-fandomdesktop-dark .pseudo-link {
+	color: var(--theme-link-color);
+}
+
+.theme-fandomdesktop-dark .pseudo-link:hover {
+  color: var(--theme-link-color--hover);
+  text-decoration: underline;
+}
+
+.theme-fandomdesktop-dark .jslink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.theme-fandomdesktop-dark div#content a.new {
+	color: #E51616;
+}
+/* End links */
+/* Sidebar */
+.theme-fandomdesktop-dark div#mw-panel div.portal,
+.theme-fandomdesktop-dark div#mw-panel div.portal div.body {
+	background-image: none;
+}
+
+.theme-fandomdesktop-dark .skin-hydradark div#mw-panel div.portal h3,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal h3 a,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal h3 a:visited,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav div.portal h3 a,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav div.portal h3 a:visited,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal.collapsed h3 a,
+.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.theme-fandomdesktop-dark .skin-hydradark #mw-panel.collapsible-nav .portal.collapsed h3 {
+	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/3/37/Sidebar_collapsed.png");
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.theme-fandomdesktop-dark .skin-hydradark #mw-panel.collapsible-nav .portal h3 {
+	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/7/72/Sidebar_expanded.png");
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.theme-fandomdesktop-dark .skin-hydradark div#mw-panel div.portal div.body {
+  background-image:url(https://static.wikia.nocookie.net/breach_gamepedia_en/images/a/a7/Underline.png/revision/latest);
+}
+
+.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a,
+.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:link,
+.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:visited,
+.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:hover {
+	color: #ffffff;
+	font-weight:bold;
+	text-shadow:-2px -2px 0px #000, 0 0 1px #000;
+}
+
+.theme-fandomdesktop-dark div#mw-panel div#p-socialProfiles.portal .body {
+	margin: auto;
+}
+
+.theme-fandomdesktop-dark .socialSidebar {
+	width: auto;
+	max-width: 100%;
+}
+/* end sidebar */
+/* Vector tabs */
+.theme-fandomdesktop-dark div.vectorTabs {
+	background: none;
+	height: 1.6em;
+}
+
+.theme-fandomdesktop-dark #left-navigation {
+	margin-left: 10.75em;
+}
+
+.theme-fandomdesktop-dark div#mw-head div.vectorTabs ul li a,
+.theme-fandomdesktop-dark div#mw-head div.vectorTabs ul li.new a,
+.theme-fandomdesktop-dark h3#p-sharing-label span,
+.theme-fandomdesktop-dark h3#p-cactions-label span {
+	color: #B1F4F0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.theme-fandomdesktop-dark div.vectorTabs li span,
+.theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
+	border: 1px solid #7FE7FF;
+	border-bottom: 0;
+	margin: auto 3px;
+	padding: 2px;
+	padding-top: 5px;
+	background-color: #0A130F;
+}
+
+.theme-fandomdesktop-dark div.vectorTabs li.selected span {
+	background-color: #1F5F73;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu h3 span,
+.theme-fandomdesktop-dark div.vectorTabs span a {
+	padding-top: 0;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu h3 span {
+	padding-top: 0.7em;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu h3 a {
+	height: 1.3em;
+}
+
+.theme-fandomdesktop-dark h3#p-sharing-label span,
+.theme-fandomdesktop-dark h3#p-cactions-label span {
+	margin-top: -0.5em;
+}
+
+.theme-fandomdesktop-dark div.vectorTabs span,
+.theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
+	height: 1.3em;
+	background-image: none;
+}
+
+.theme-fandomdesktop-dark div.vectorTabs span,
+.theme-fandomdesktop-dark div.vectorTabs ul,
+.theme-fandomdesktop-dark div.vectorTabs ul li,
+.theme-fandomdesktop-dark div.vectorTabs ul li.selected {
+	background: none;
+}
+
+.theme-fandomdesktop-dark #p-search {
+	margin-right: 10px;
+}
+
+.theme-fandomdesktop-dark div#right-navigation div#simpleSearch {
+	border: 1px solid #7FE7FF;
+	border-bottom: 0;
+	color: #fff;
+	padding-top: 2px;
+	padding-bottom: 4.5px;
+}
+
+.theme-fandomdesktop-dark div#simpleSearch #searchInput {
+	padding-left: 10px;
+}
+
+.theme-fandomdesktop-dark div#simpleSearch #searchInput::placeholder {
+	color: hsla(0, 0%, 100%, .7);
+}
+
+.theme-fandomdesktop-dark div.vectorTabs li.mw-watchlink span {
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu div.menu {
+	top: 1.15em;
+	padding-top: 0.6em;
+	border: 0;
+	background: 0;
+	margin-left: 2px;
+}
+
+.theme-fandomdesktop-dark #p-cactions div.menu ul {
+	margin-right: 2px;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu div.menu ul,
+.theme-fandomdesktop-dark div.vectorMenu div.menu div#socialIconImages {
+	border: 1px solid #000;
+	color: #88E9FF !important;
+	background-color: #021d31;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu div.menu a {
+	color: #F6F6F6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.theme-fandomdesktop-dark div.vectorMenu div.menu li:hover {
+	background: #3191b9fc !important;
+	color: #ddd !important;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.theme-fandomdesktop-dark div.vectorMenu div.menu a:hover {
+	text-decoration: none;
+}
+
+.theme-fandomdesktop-dark div#p-sharing .menu {
+	margin-left: 20px;
+	min-width: 0px;
+	width: 48px;
+}
+
+.theme-fandomdesktop-dark div#simpleSearch {
+	margin-top: -0.5em;
+	background: #0A130F;
+}
+
+.theme-fandomdesktop-dark div#mw-head li#ca-watch a,
+.theme-fandomdesktop-dark div#mw-head li#ca-unwatch a {
+	padding-top: 1.7em;
+	color: transparent
+}
+/* End Vector Tabs */
 .theme-fandomdesktop-dark .ambox{
 	background-color: rgba(0,0,0,0.3);
 }
@@ -943,8 +1193,8 @@ border: 1px solid #a2a9b1;
 }
 /*dark theme arkitexure specific*/
 .theme-fandomdesktop-dark .info-framework {
-  background:#68a090;
-  border:2px solid #44685e;
+	background: #021d31d6;
+	border: 1px solid #7FE7FF;
 }
 
 .theme-fandomdesktop-dark .info-module {
@@ -952,13 +1202,11 @@ border: 1px solid #a2a9b1;
 	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
 }
 
-.theme-fandomdesktop-dark .info-unit,
 .theme-fandomdesktop-dark .info-X2-25,
 .theme-fandomdesktop-dark .info-X2-40 {
   background:#2d74bea6;
 }
 
-.theme-fandomdesktop-dark .info-X1-100,
 .theme-fandomdesktop-dark .info-X2-75,
 .theme-fandomdesktop-dark .info-X2-60,
 .theme-fandomdesktop-dark .info-X3-33, 
@@ -971,23 +1219,37 @@ border: 1px solid #a2a9b1;
   border: 1px solid #000;
 }
 
-.theme-fandomdesktop-dark .navbox-title,
-.theme-fandomdesktop-dark table.navbox th {
-  color: #c4ded6;
-  background: #13473f;
-}
 
 .theme-fandomdesktop-dark .navbox-title a,
 .theme-fandomdesktop-dark div#content .navbox-title a.external {
-  color: #70C0B6;
+  color: #7f9dff;
 }
 
 .theme-fandomdesktop-dark .navbox-abovebelow,
 .theme-fandomdesktop-dark .navbox-group,
 .theme-fandomdesktop-dark .navbox-subgroup .navbox-title {
-background-color: #eaecf0;
-color: #222;
+background-color: #252525a4;
+color: #7FE7FF;
 border: 1px solid #a2a9b1;
+}
+.theme-fandomdesktop-dark .navbox-list {
+  border-bottom:1px solid rgba(0,0,0,0.5);
+  color: #88E9FF;
+}
+.theme-fandomdesktop-dark .navbox-title,
+.theme-fandomdesktop-dark table.navbox th {
+  font-weight: bold;
+  font-size: 120%;
+  color: #88E9FF;
+  background: #2768A5;
+}
+
+.theme-fandomdesktop-dark .navbox-abovebelow,
+.theme-fandomdesktop-dark .navbox-group,
+.theme-fandomdesktop-dark .navbox-subgroup .navbox-title {
+  background-color: rgba(0,0,0,0.75);
+  color: #80E7FF;
+  border: 1px solid #3F737F;
 }
 /*dark theme NavBox Creatures specific*/
 .theme-fandomdesktop-dark .navbox-creature-item div {
