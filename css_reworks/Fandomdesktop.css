@@ -144,6 +144,13 @@ font-family: FontAwesome;
   text-align: center;
 }
 
+.infobox-section {
+	border-radius: 0.3em;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
 .infobox-centered {
   text-align: center;
 }
@@ -177,62 +184,8 @@ font-family: FontAwesome;
   height: 0.5em;
 }
 /*end Infobox*/
-/* theme specific */
-/*everything light theme specific below here*/
-.theme-fandomdesktop-light .ambox{
-background-color: #dddddd;
-}
-
-.theme-fandomdesktop-light .infobox {
-  background-color: #111111;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-light .infobox-table {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-light .infobox-header {
-  color: #ffffff;
-  background-color: #13473f;
-}
-
-.theme-fandomdesktop-light.infobox-section {
-  background-color: #dddddd;
-}
-/*everything dark theme specific below here */
-.theme-fandomdesktop-dark {
-	--theme-page-text-color: #88E9FF;
-	--theme-page-text-color--hover: #69B5C6;
-	--theme-page-text-color--rgb: 136, 233, 255;
-}
-
-.theme-fandomdesktop-dark .ambox{
-	background-color: rgba(0,0,0,0.3);
-}
-
-.theme-fandomdesktop-dark .infobox {
-  background-color: #111111;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-dark .infobox-table {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-dark .infobox-header {
-  color: #ffffff;
-  background-color: #13473f;
-}
-
-.theme-fandomdesktop-dark .infobox-section {
-  background-color: #dddddd;
-}
-/* -------------------------- */
 /* "ARKITEXURE"-STYLE INFOBOX */
-/* -------------------------- */
+/* used for creature and other more custom infoboxes */
 
 /* arkitexure rounded borders */
 .info-arkitex {
@@ -256,8 +209,6 @@ background-color: #dddddd;
   float:right;
   width:410px;
   max-width:100%;
-  background:#68a090;
-  border:2px solid #44685e;
   margin:0 0 8px 8px;
   padding:5px 5px 0 5px;
   overflow:hidden;
@@ -268,7 +219,6 @@ background-color: #dddddd;
   display:inline-block;
   width:98%;
   text-align:right;
-  background:#9dc1b7;
   margin:0;
   padding:4px 4px 0 4px;
   overflow:hidden;
@@ -281,7 +231,6 @@ background-color: #dddddd;
   text-align:center;
   margin:0;
   padding:0;
-  background:#9dc1b7;
   overflow:hidden;
 }
 .info-unit-row {
@@ -298,14 +247,12 @@ background-color: #dddddd;
   align-items:left;
   font-size:11px;
 }
-
 /* arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
   display:inline-block;
   width:calc(100% - 8px);
   margin:1px;
   padding:5px 2px 5px 2px;
-  background:#fff;
 }
 .info-masthead {
   display:flex;
@@ -337,7 +284,6 @@ background-color: #dddddd;
   max-height:52px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#edf3eb;
 }
 
 /* arkitexure cell, intended for two total columns, 75% width */
@@ -348,7 +294,6 @@ background-color: #dddddd;
   width:75%;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#fff;
   min-height:40px;
   height:auto;
   font-size:24px;
@@ -361,7 +306,6 @@ background-color: #dddddd;
   height:37px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#edf3eb;
   text-align:right;
 }
 /* arkitexure cell, intended for two total columns, 60% width */
@@ -371,7 +315,6 @@ background-color: #dddddd;
   min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#fff;
   text-align:left;
 }
 
@@ -382,7 +325,6 @@ background-color: #dddddd;
   min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#fff;
   text-align:center;
 }
 
@@ -401,7 +343,6 @@ background-color: #dddddd;
   min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
-  background:#fff;
   text-align:center;
 }
 
@@ -422,7 +363,110 @@ background-color: #dddddd;
 }
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
+/* theme specific */
+/*everything light theme specific below here*/
+.theme-fandomdesktop-light .ambox{
+background-color: #dddddd;
+}
 
+.theme-fandomdesktop-light .infobox {
+  background-color: #111111;
+  border: 1px solid #ffffff;
+}
+
+.theme-fandomdesktop-light .infobox-table {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.theme-fandomdesktop-light .infobox-header {
+  color: #ffffff;
+  background-color: #13473f;
+}
+
+.theme-fandomdesktop-light .infobox-section {
+  background-color: #dddddd;
+}
+
+/*light theme arkitexure specific*/
+.theme-fandomdesktop-light .info-framework {
+  background:#68a090;
+  border:2px solid #44685e;
+}
+
+.theme-fandomdesktop-light .info-module,
+.theme-fandomdesktop-light .info-unit,
+.theme-fandomdesktop-light .info-X2-25,
+.theme-fandomdesktop-light .info-X2-40 {
+  background:#edf3eb;
+}
+
+.theme-fandomdesktop-light .info-X1-100,
+.theme-fandomdesktop-light .info-X2-75,
+.theme-fandomdesktop-light .info-X2-60,
+.theme-fandomdesktop-light .info-X3-33, 
+.theme-fandomdesktop-light .info-X2-50 {
+  background:#fff;
+}
+/*everything dark theme specific below here */
+.theme-fandomdesktop-dark {
+	--theme-page-text-color: #88E9FF;
+	--theme-page-text-color--hover: #69B5C6;
+	--theme-page-text-color--rgb: 136, 233, 255;
+}
+/*dark theme ambox specific*/
+.theme-fandomdesktop-dark .ambox{
+	background-color: rgba(0,0,0,0.3);
+}
+/*dark theme infobox specific*/
+.theme-fandomdesktop-dark .infobox {
+  background-color: #0000;
+  border: 1px solid #7FE7FF;
+}
+
+.theme-fandomdesktop-dark .infobox-table {
+  background-color: #021d31d6;
+}
+
+.theme-fandomdesktop-dark .infobox-header {
+	border-bottom: 3px solid #235361;
+	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;	
+	color: #88E9FF;
+}
+
+.theme-fandomdesktop-dark .infobox-section {
+ 	border-bottom: 3px solid #235361;
+	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
+	color: #88E9FF;
+}
+
+.theme-fandomdesktop-dark .infobox-table {
+  background-color: #021d31d6;
+}
+/*dark theme arkitexure specific*/
+.theme-fandomdesktop-dark .info-framework {
+  background:#68a090;
+  border:2px solid #44685e;
+}
+
+.theme-fandomdesktop-dark .info-module {
+  border-bottom: 3px solid #235361;
+	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
+}
+
+.theme-fandomdesktop-dark .info-unit,
+.theme-fandomdesktop-dark .info-X2-25,
+.theme-fandomdesktop-dark .info-X2-40 {
+  background:#2d74bea6;
+}
+
+.theme-fandomdesktop-dark .info-X1-100,
+.theme-fandomdesktop-dark .info-X2-75,
+.theme-fandomdesktop-dark .info-X2-60,
+.theme-fandomdesktop-dark .info-X3-33, 
+.theme-fandomdesktop-dark .info-X2-50 {
+  background:#6e92c036;
+}
 /* Navbox template style */
 table.navbox {
     clear: both;
