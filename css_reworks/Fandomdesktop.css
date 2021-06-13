@@ -485,9 +485,7 @@ table.collapsed tr.collapsible {
 /*end NavBox Creatures*/
 /* Template:Photo */
 .photo-nav, .photo-nav a:link, .photo-nav a:visited{
-  color: #fff !important;
   font-weight:bold;
-  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
 }
 
 .photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
@@ -497,11 +495,13 @@ table.collapsed tr.collapsible {
 .photo-gallery img{
   -webkit-filter: opacity(.8);
   filter: opacity(.8);
+  opacity:(.9);
 }
 
 .photo-gallery img:hover{
   -webkit-filter: opacity(1);
   filter: opacity(1);
+  opacity:(1);
 }
 
 .photo-nav li:hover img{
@@ -518,9 +518,6 @@ li.photo-bg{
        min-height:152px; 
        vertical-align:top; 
        text-align:center; 
-       background:#fff; 
-       border:1px solid #fff; 
-       box-shadow:0 0 8px #333; 
        /* For IE 7 */ zoom:1; *display:inline;
 }
 
@@ -531,6 +528,94 @@ div.photo-text{
        font-size:16px;
 }
 /*end Template:Photo*/
+/* Tiles (Template:Tile) */
+.tile_container {
+  margin: 4px 0px 8px 8px;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.tile_inner {
+  position:relative;
+  top:6px;
+  left:0;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/* Image-specific tweak to get it to display with a height of 75px */
+.tile_inner img[src*="PS.svg"] {
+  height: 75px;
+}
+
+/* Restore pre-FD centered captions in FP Quick Game Basics */
+#fpbasics .gallerybox .gallerytext {
+	text-align: center;
+}
+/*Template:Dossier & Template:Quote*/
+table.dossier-background{
+	border-radius:0.5em;
+	border-left-width:1em;
+	margin-bottom:1em;
+}
+.dossier-cite-left, .quote-left{
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: top;
+}
+
+.dossier-cite-right, .quote-right{
+	font-size: 3.3em; 
+	font-family: 'Times New Roman',serif; 
+	font-weight: bold; 
+	padding: 4px 2px 2px; 
+	width: 0.5em; 
+	vertical-align: bottom;
+}
+/*Template:Explorer Note*/
+.explorer-note{
+	display:inline-block;
+	vertical-align:top;
+	width:47%;
+	margin:1em;
+}
+
+.explorer-note-main{
+	border-radius:0.25em;
+	border-left-width:1em;
+}
+/*styling for kibble tables*/
+.kibble-table{
+	text-align:center;
+	font-size:.9em;
+  border-left-width: 0.5em ;
+  border-bottom-width: 0.5em;
+	float:left;
+	margin:0 .5em .5em 0;
+}
+
+.kibble-table-new{
+	text-align:left;
+	font-size:.9em;
+  border-left-width: 0.5em ;
+  border-bottom-width: 0.5em;
+	padding: .5em;
+	margin:0 .5em .5em 0;
+}
+/* used by some templates for graying table cells */
+.gray {
+  background-color:#E6E6E6;
+}
+
 
 /* theme specific */
 /*everything light theme specific below here*/
@@ -650,9 +735,177 @@ border: 1px solid #a2a9b1;
 .theme-fandomdesktop-light .navbox-creature-item .nav-red {
   background-color:#ffd1d1
 }
+/*light theme Template:Photo specific*/
+.theme-fandomdesktop-light .photo-nav,
+.theme-fandomdesktop-light .photo-nav a:link,
+.theme-fandomdesktop-light .photo-nav a:visited {
+  color: #fff !important;
+  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+}
 
+.theme-fandomdesktop-light li.photo-bg {
+  background:#fff; 
+  border:1px solid #fff; 
+  box-shadow:0 0 8px #333; 
+}
 
+.theme-fandomdesktop-light .redish-background{
+	background-color:#d6baba;
+}
+/*light theme Tiles (Template:Tiles)*/
+.theme-fandomdesktop-light .tile_container{
+  background: -webkit-linear-gradient(white, lightgray);
+  background: -o-linear-gradient(white, lightgray);
+  background: -moz-linear-gradient(white, lightgray);
+  background: linear-gradient(white, lightgray);
+  border: 1px solid black;
+}
 
+.theme-fandomdesktop-light .tile_container:hover{
+  background: #fff;
+}
+/* [[Template:PaintRegions]] */
+.theme-fandomdesktop-light .paintregion {
+  border:1px solid #a2a9b1;
+	background: white;
+	background: -webkit-linear-gradient(white,lightgray);
+	background: -o-linear-gradient(white,lightgray);
+	background: -moz-linear-gradient(white,lightgray);
+	background: linear-gradient(white,lightgray);
+}
+/*ExplorerNote changelog table fix*/
+.theme-fandomdesktop-light .explorernot-change-tableend{
+	background: #dddddd !important;
+}
+/*status effect styling*/
+.theme-fandomdesktop-light table.status-effect-backg{
+	text-align:left;
+	margin-top:1em;
+	margin-bottom:1em;
+	border:1px solid black; 
+	background:white; 
+	background: -webkit-linear-gradient(white, lightgray); 
+	background: -o-linear-gradient(white, lightgray); 
+	background: -moz-linear-gradient(white, lightgray);
+	background: linear-gradient(white, lightgray);
+}
+/* Patch Notes */
+.theme-fandomdesktop-light .PN-normal{
+  background: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+}
+/*Template:Dossier & Template:Quote*/
+.theme-fandomdesktop-light table.dossier-background{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+	color:#3c2a09
+}
+
+.theme-fandomdesktop-light .dossier-cite-left, 
+.theme-fandomdesktop-light .quote-left{
+	color: #7d5f2a;
+}
+.theme-fandomdesktop-light .dossier-cite-right, 
+.theme-fandomdesktop-light .quote-right{
+  color: #7d5f2a;
+}
+/*Template:Explorer Note*/
+.theme-fandomdesktop-light .explorer-note-main{
+	background:#f0e1c2;
+	border:2px solid #7d5f2a;
+}
+/*styling for kibble tables*/
+.theme-fandomdesktop-light .kibble-table{
+	border-left: solid #ccc;
+	border-bottom: solid #ccc;
+	background-color: #fff;;
+}
+
+.theme-fandomdesktop-light .kibble-table-new{
+	border-left: solid #ccc;
+	border-bottom: solid #ccc;
+	background-color: #fff;;
+}
+/* Used by [[Table of Tekgrams]] and [[Template:CreatureTableRow]] */
+.theme-fandomdesktop-light .cell-green {
+  background-color:#90EE90 !important;
+}
+
+.theme-fandomdesktop-light .cell-yellow {
+  background-color:#FFD700 !important;
+}
+
+.theme-fandomdesktop-light .cell-pink {
+  background-color:#e3a4a4 !important;
+}
+
+.theme-fandomdesktop-light .cell-grey {
+  background-color:#BDBDBD !important;
+}
+
+.theme-fandomdesktop-light .ctc-notice {
+  display:inline-block; 
+  border:1px solid black; 
+  background:lightgray; 
+  padding:10px;
+}
+/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+.theme-fandomdesktop-light .text-white {
+  color:#666
+}
+
+.theme-fandomdesktop-light .text-green {
+  color:#060
+}
+
+.theme-fandomdesktop-light .text-blue {
+  color:#006
+}
+
+.theme-fandomdesktop-light .text-purple {
+  color:#606
+}
+
+.theme-fandomdesktop-light .text-yellow {
+  color:#660
+}
+
+.theme-fandomdesktop-light .text-red {
+  color:#600
+}
+
+.theme-fandomdesktop-light .text-cyan {
+  color:#699
+}
+
+.theme-fandomdesktop-light .text-orange {
+  color:#820
+}
+/* Coloring for [[Template:Mission]] */
+.theme-fandomdesktop-light .mission {
+  border:1px solid #a2a9b1;
+  background: #f8f9fa;
+}
+
+.theme-fandomdesktop-light .mission-dif-gamma {
+  color:#48BF15;
+}
+
+.theme-fandomdesktop-light .mission-dif-beta {
+  color:#17B5D8;
+}
+
+.theme-fandomdesktop-light .mission-dif-alpha {
+  color:#D85847;
+}
+/* End Template:Mission coloring; */
+/* Used by [[Template:HoverText]] */
+.theme-fandomdesktop-light .hover-text {
+  cursor:help;
+  border-bottom:1px dotted #397d75;
+}
 /*everything dark theme specific below here */
 .theme-fandomdesktop-dark {
 	--theme-page-text-color: #88E9FF;
@@ -784,235 +1037,240 @@ border: 1px solid #a2a9b1;
 .theme-fandomdesktop-dark .navbox-creature-item .nav-red {
   background-color:#e5acb1
 }
-
-
-
-
-.redish-background{
-	background-color:#d6baba;
+/*dark theme Template:Photo specific*/
+.theme-fandomdesktop-dark .photo-nav,
+.theme-fandomdesktop-dark .photo-nav a:link,
+.theme-fandomdesktop-dark .photo-nav a:visited {
+	color: black !important;
+	text-shadow: 1px 1px 4px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
 }
 
-/* Tiles (Template:Tile) */
-.tile_container {
-  margin: 4px 0px 8px 8px;
-  padding: 0;
-  position: relative;
-  display: inline-block;
-  width: 105px;
-  height: 105px;
-  vertical-align: middle;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 15px;
-  background: -webkit-linear-gradient(white, lightgray);
-  background: -o-linear-gradient(white, lightgray);
-  background: -moz-linear-gradient(white, lightgray);
-  background: linear-gradient(white, lightgray);
+.theme-fandomdesktop-dark li.photo-bg {
+	background: #c4c4c4;
+	border: 1px solid #b7b7b7;
+	box-shadow: 0 0 8px #333;
 }
 
-.tile_container:hover{
-  background: #fff;
+.theme-fandomdesktop-dark .redish-background{
+	background-color:#cf4c4c8a;
+}
+/*dark theme Tiles (Template:Tile) */
+.theme-fandomdesktop-dark .tile_container {
+	background: #021d31;
+	color: #88E9FF;
+	border: 1px solid #7FE7FF;
 }
 
-.tile_inner {
-  position:relative;
-  top:6px;
-  left:0;
-  font-size:14px;
-  font-weight:bold;
+.theme-fandomdesktop-dark .tile_container:hover {
+	background: #3191b9fc;
+	color: #ddd;
+	border-color: #7FE7FF;
 }
-
-/* Image-specific tweak to get it to display with a height of 75px */
-.tile_inner img[src*="PS.svg"] {
-  height: 75px;
-}
-
-/* Restore pre-FD centered captions in FP Quick Game Basics */
-#fpbasics .gallerybox .gallerytext {
-	text-align: center;
-}
-
 /* [[Template:PaintRegions]] */
-.paintregion {
-  border:1px solid #a2a9b1;
-	background: white;
-	background: -webkit-linear-gradient(white,lightgray);
-	background: -o-linear-gradient(white,lightgray);
-	background: -moz-linear-gradient(white,lightgray);
-	background: linear-gradient(white,lightgray);
+.theme-fandomdesktop-dark .paintregion {
+	border:1px solid #7FE7FF;
+	background:#2d74bea6;
 }
-
 /*ExplorerNote changelog table fix*/
-.explorernot-change-tableend{
-	background: #dddddd !important;
+.theme-fandomdesktop-dark .explorernot-change-tableend {
+	background: #262729ab !important;
+	color: #88E9FF;
 }
-
 /*status effect styling*/
-.status-effect-backg{
-	text-align:left;
+.theme-fandomdesktop-dark table.status-effect-backg {
+	text-align: left;
 	margin-top:1em;
 	margin-bottom:1em;
-	border:1px solid black; 
-	background:white; 
-	background: -webkit-linear-gradient(white, lightgray); 
-	background: -o-linear-gradient(white, lightgray); 
-	background: -moz-linear-gradient(white, lightgray);
-	background: linear-gradient(white, lightgray);
+	border: 1px solid #7FE7FF;
+	background: #6e92c06b;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
+	background: -o-linear-gradient(#6e92c06b, #828af38c);
+	background: -moz-linear-gradient(#6e92c06b, #828af38c);
+	background: linear-gradient(#6e92c06b, #828af38c);
+	color: #88E9FF;
 }
-
 /* Patch Notes */
-.PN-normal{
-  background: #f2f2f2;
-  font-weight: bold;
-  text-align: center;
-  width: 35px;
+.theme-fandomdesktop-dark .PN-normal {
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
 }
-
 /*Template:Dossier & Template:Quote*/
-table.dossier-background{
-	background:#f0e1c2;
-	border:2px solid #7d5f2a;
-	border-radius:0.5em;
-	border-left-width:1em;
-	margin-bottom:1em;
-	color:#3c2a09
-}
-.dossier-cite-left, .quote-left{
-	color: #7d5f2a;
-	font-size: 3.3em; 
-	font-family: 'Times New Roman',serif; 
-	font-weight: bold; 
-	padding: 4px 2px 2px; 
-	width: 0.5em; 
-	vertical-align: top;
+.theme-fandomdesktop-dark table.dossier-background{
+	background:#6e92c036;
+	border:2px solid #2d74bea6;
+	color:#88E9FF !important;
 }
 
-.dossier-cite-right, .quote-right{
-	color: #7d5f2a;
-	font-size: 3.3em; 
-	font-family: 'Times New Roman',serif; 
-	font-weight: bold; 
-	padding: 4px 2px 2px; 
-	width: 0.5em; 
-	vertical-align: bottom;
+.theme-fandomdesktop-dark .dossier-cite-left, 
+.theme-fandomdesktop-dark .quote-left{
+	color: #2d74bed9;
 }
 
+.theme-fandomdesktop-dark .dossier-cite-right, 
+.theme-fandomdesktop-dark .quote-right{
+	color: #2d74bed9;
+}
 /*Template:Explorer Note*/
-.explorer-note{
-	display:inline-block;
-	vertical-align:top;
-	width:47%;
-	margin:1em;
+.theme-fandomdesktop-dark .explorer-note{
+	color: #88E9FF !important;
 }
 
-.explorer-note-main{
-	background:#f0e1c2;
-	border:2px solid #7d5f2a;
-	border-radius:0.5em;
-	border-left-width:1em;
+.theme-fandomdesktop-dark .explorer-note-main{
+	border:2px solid #2d74bea6;
+	background: #00000040
 }
-
 /*styling for kibble tables*/
-.kibble-table{
-	text-align:center;
-	font-size:.9em;
-	border:1px solid #ccc;
-	background-color:#fff;
-	float:left;
-	margin:0 .5em .5em 0;
-}
-.kibble-table-new{
-	text-align:left;
-	font-size:.9em;
-	border:1px solid #ccc;
-	background-color:#fff;
-	padding: .5em;
-	margin:0 .5em .5em 0;
+.theme-fandomdesktop-dark .kibble-table{
+	border-left: solid #2d74bea6;
+	border-bottom: solid #2d74bea6;
+	background-color: #6e92c036;
 }
 
-/* used by some templates for graying table cells */
-.gray {
-  background-color:#E6E6E6;
+.theme-fandomdesktop-dark .kibble-table-new{
+	border-left: solid #2d74bea6;
+	border-bottom: solid #2d74bea6;
+	background-color: #6e92c036;
+}
+/* Used by [[Table of Tekgrams]] and [[CreatureTableRow]] */
+.theme-fandomdesktop-dark .cell-green {
+  background-color:#004C07 !important;
 }
 
-/* Used by [[Table of Tekgrams]] and [[Template:CreatureTableRow]] */
-.cell-green {
-  background-color:#90EE90 !important;
+.theme-fandomdesktop-dark .cell-yellow {
+  background-color:#7F6A00 !important;
 }
 
-.cell-yellow {
-  background-color:#FFD700 !important;
+.theme-fandomdesktop-dark .cell-pink {
+  background-color:#7F0000 !important;
 }
 
-.cell-pink {
-  background-color:#e3a4a4 !important;
+.theme-fandomdesktop-dark .cell-grey {
+  background-color:#454545 !important;
 }
 
-.cell-grey {
-  background-color:#BDBDBD !important;
-}
-
-.ctc-notice{
+.theme-fandomdesktop-dark .ctc-notice {
   display:inline-block; 
-  border:1px solid black; 
-  background:lightgray; 
+  border:1px dashed yellow; 
+  background:#0000007a; 
   padding:10px;
+}
+/* Tweak for illegible css code highlighting */
+.theme-fandomdesktop-dark .mw-highlight .nc,
+.theme-fandomdesktop-dark .mw-highlight .nn {
+  color:#8E8ECC;
 }
 
 /* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
-.text-white {
-  color:#666
+.theme-fandomdesktop-dark .text-white {
+  color:#FFFFFF
 }
 
-.text-green {
-  color:#060
+.theme-fandomdesktop-dark .text-green {
+  color:#0F0
 }
 
-.text-blue {
-  color:#006
+.theme-fandomdesktop-dark .text-blue {
+  color:#0059FF
 }
 
-.text-purple {
-  color:#606
+.theme-fandomdesktop-dark .text-purple {
+  color:#F0F
 }
 
-.text-yellow {
-  color:#660
+.theme-fandomdesktop-dark .text-yellow {
+  color:#FF0
 }
 
-.text-red {
-  color:#600
+.theme-fandomdesktop-dark .text-red {
+  color:#F00
 }
 
-.text-cyan {
-  color:#699
+.theme-fandomdesktop-dark .text-cyan {
+  color:#0FF
 }
 
-.text-orange {
-  color:#820
+.theme-fandomdesktop-dark .text-orange {
+  color:#F90
+}
+/* Narrow width skin-specific tweaks */
+@media screen and (max-width:720px) {
+  .theme-fandomdesktop-dark div#right-navigation div#simpleSearch {
+    border-bottom:1px solid #7FE7FF;
+  }
+  
+  .theme-fandomdesktop-dark div.vectorTabs li span,
+  .theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
+    margin:0;
+  }
+  
+  .theme-fandomdesktop-dark div#mw-navigation div#mw-panel {
+    border: 1px solid #7FE7FF;
+    border-left:0;
+    background-color: rgba(4,36,48,0.95);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
+  }
+}
+/* Coloring for [[Template:Mission]] */
+.theme-fandomdesktop-dark .mission {
+  border:2px solid #00cefa;
+  background: #003E4C;
+  color:#BCEEFA;
+}
+
+.theme-fandomdesktop-dark .mission-dif-gamma {
+  color:#4edb17;
+}
+
+.theme-fandomdesktop-dark .mission-dif-beta {
+  color:#19cff9;
+}
+
+.theme-fandomdesktop-dark .mission-dif-alpha {
+  color:#f76450;
+}
+
+.theme-fandomdesktop-dark .mission-dif-none {
+  color:#BCEEFA;
+}
+
+/* Used by [[Template:HoverText]] */
+.theme-fandomdesktop-dark .hover-text {
+  cursor:help;
+  border-bottom:1px dotted #4FB5FF;
 }
 
 /* Coloring for [[Template:Mission]] */
-.mission {
-  border:1px solid #a2a9b1;
-  background: #f8f9fa;
+.theme-fandomdesktop-dark .mission {
+  border:2px solid #00cefa;
+  background: #003E4C;
+  color:#BCEEFA;
 }
 
-.mission-dif-gamma {
-  color:#48BF15;
+.theme-fandomdesktop-dark .mission-dif-gamma {
+  color:#4edb17;
 }
 
-.mission-dif-beta {
-  color:#17B5D8;
+.theme-fandomdesktop-dark .mission-dif-beta {
+  color:#19cff9;
 }
 
-.mission-dif-alpha {
-  color:#D85847;
+.theme-fandomdesktop-dark .mission-dif-alpha {
+  color:#f76450;
 }
-/* End Template:Mission coloring; */
 
-/* Used by [[Template:HoverText]] */
-.hover-text {
-  cursor:help;
-  border-bottom:1px dotted #397d75;
+.theme-fandomdesktop-dark .mission-dif-none {
+  color:#BCEEFA;
+}
+/* Styling for collapsible toggle */
+.theme-fandomdesktop-dark .mw-collapsible-toggle.mw-collapsible-toggle-expanded a, 
+.theme-fandomdesktop-dark .mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
+    color: #4FB5FF;
+}
+/* Invert [[File:PS.svg]] colors for better visibility */
+.theme-fandomdesktop-dark img[src*="/PS.svg/"] {
+  -webkit-filter:
+    invert(100%);
+  filter:
+    invert(100%);
 }
