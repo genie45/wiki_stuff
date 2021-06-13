@@ -644,27 +644,21 @@ background-color: #dddddd;
   border: 1px solid #ffffff;
 }
 
-.theme-fandomdesktop-light .infobox-header {
-  color: #ffffff;
-  background-color: #13473f;
-}
-
 .theme-fandomdesktop-light .info-framework {
   background:#68a090;
   border:2px solid #44685e;
 }
 
-
 .theme-fandomdesktop-light .infobox-header,
 .theme-fandomdesktop-light .infobox-section {
- 	border-bottom: 3px solid #9dc1b7;
-	border-image: linear-gradient(to right, transparent 1%, #9dc1b7 15%, #9dc1b7 85%, transparent 99%) 1;
+ 	border-bottom: 3px solid #13473f;
+	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
 	color: #000;
 }
 
 .theme-fandomdesktop-light .info-module {
-  border-bottom: 3px solid #9dc1b7;
-	border-image: linear-gradient(to right, transparent 1%, #9dc1b7 15%, #9dc1b7 85%, transparent 99%) 1;
+  border-bottom: 3px solid #13473f;
+	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
 }
 
 .theme-fandomdesktop-light .info-X2-25,
