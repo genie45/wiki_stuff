@@ -3,8 +3,6 @@
 /*to find stuff specific to dark / light skin search for dark or light as they are further down the page*/
 /*everything that effects both skins*/
 /*import custom font that doesnt look ugly*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-
 div#content {
 	    font-family: 'Montserrat', sans-serif;
 }
@@ -635,7 +633,7 @@ table.dossier-background{
 .theme-fandomdesktop-light .ambox{
 background-color: #dddddd;
 }
-
+/*light theme arkitexure specific*/
 .theme-fandomdesktop-light .infobox {
   background-color: #111111;
   border: 1px solid #ffffff;
@@ -651,30 +649,22 @@ background-color: #dddddd;
   background-color: #13473f;
 }
 
-.theme-fandomdesktop-light .infobox-section {
-  background-color: #dddddd;
-}
-
-/*light theme arkitexure specific*/
 .theme-fandomdesktop-light .info-framework {
   background:#68a090;
   border:2px solid #44685e;
 }
 
-.theme-fandomdesktop-light .info-module {
-  background-color: #9dc1b7;
-}
 
-.theme-fandomdesktop-light .infobox-header {
-	border-bottom: 3px solid #13473f;
-	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;	
-	color: #ffffff;
-}
-
+.theme-fandomdesktop-light .infobox-header,
 .theme-fandomdesktop-light .infobox-section {
- 	border-bottom: 3px solid #13473f;
-	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
-	color: #ffffff;
+ 	border-bottom: 3px solid #9dc1b7;
+	border-image: linear-gradient(to right, transparent 1%, #9dc1b7 15%, #9dc1b7 85%, transparent 99%) 1;
+	color: #000;
+}
+
+.theme-fandomdesktop-light .info-module {
+  border-bottom: 3px solid #9dc1b7;
+	border-image: linear-gradient(to right, transparent 1%, #9dc1b7 15%, #9dc1b7 85%, transparent 99%) 1;
 }
 
 .theme-fandomdesktop-light .info-X2-25,
@@ -1176,12 +1166,7 @@ color: #88E9FF;
   background-color: #021d31d6;
 }
 
-.theme-fandomdesktop-dark .infobox-header {
-	border-bottom: 3px solid #235361;
-	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;	
-	color: #88E9FF;
-}
-
+.theme-fandomdesktop-dark .infobox-header,
 .theme-fandomdesktop-dark .infobox-section {
  	border-bottom: 3px solid #235361;
 	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
