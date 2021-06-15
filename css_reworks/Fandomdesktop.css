@@ -4,7 +4,8 @@
 /*everything that effects both skins*/
 /*import custom font that doesnt look ugly*/
 div#content {
-	    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 /*end custom font*/
 /*hex background on content*/
@@ -199,11 +200,14 @@ font-family: FontAwesome;
   border-radius: 2px 0 0 2px;
   -webkit-border-radius: 2px 0 0 2px;
   float:left;
+  display: block;
 }
 .info-arkitex-right {
   border-radius: 0 2px 2px 0;
   -webkit-border-radius: 0 2px 2px 0;
   float:right;
+  align-self: stretch;
+  display: block;
 }
 
 /* arkitexure full container */
@@ -238,7 +242,7 @@ font-family: FontAwesome;
 .info-unit-row {
   display:flex;
   flex-direction:row;
-  align-items:top;
+  align-items:flex-start;
   width:100%;
   padding:0;
   margin:0;
@@ -251,7 +255,6 @@ font-family: FontAwesome;
 }
 /* arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
-  display:inline-block;
   width:calc(100% - 8px);
   margin:1px;
   padding:5px 2px 5px 2px;
@@ -281,9 +284,6 @@ font-family: FontAwesome;
   align-items:center;
   justify-content:center;
   width:25%;
-  min-height:52px;
-  height:52px;
-  max-height:52px;
   margin:1px;
   padding:5px 8px 5px 8px;
 }
@@ -296,25 +296,20 @@ font-family: FontAwesome;
   width:75%;
   margin:1px;
   padding:5px 8px 5px 8px;
-  min-height:40px;
   height:auto;
   font-size:24px;
 }
 
 /* arkitexure cell, intended for two total columns, 40% width */
 .info-X2-40 {
-  display:inline-block;
   width:40%;
-  height:37px;
   margin:1px;
   padding:5px 8px 5px 8px;
   text-align:right;
 }
 /* arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
-  display:inline-block;
   width:60%;
-  min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
   text-align:left;
@@ -322,9 +317,7 @@ font-family: FontAwesome;
 
 /* arkitexure cell, intended for three total columns, 33% width */
 .info-X3-33 {
-  display:inline-block;
   width:33.33%;
-  min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
   text-align:center;
@@ -340,9 +333,7 @@ font-family: FontAwesome;
 
 /* arkitexure cell, intended for two total columns, 50% width */
 .info-X2-50 {
-  display:inline-block;
   width:50%;
-  min-height:24px;
   margin:1px;
   padding:5px 8px 5px 8px;
   text-align:center;
@@ -352,6 +343,7 @@ font-family: FontAwesome;
   text-align:center;
   padding:0 8px 0 8px;
   background:none;
+  font-weight:500;
 }
 
 /* arkitexure spawn map tabber */
@@ -508,22 +500,21 @@ table.collapsed tr.collapsible {
 }
 
 li.photo-bg{
-       margin: 8px 6px; 
-       padding:5px; 
-       position:relative; 
-       display:inline-block; 
-       width:200px;
-       min-height:152px; 
-       vertical-align:top; 
-       text-align:center; 
-       /* For IE 7 */ zoom:1; *display:inline;
+  margin: 8px 6px; 
+  padding:5px; 
+  position:relative; 
+  display:inline-block; 
+  min-height:152px; 
+  vertical-align:top; 
+  text-align:center; 
+  /* For IE 7 */ zoom:1; *display:inline;
 }
 
 div.photo-text{
-       position:relative; 
-       top:4px; 
-       padding:6px 0 6px 0; 
-       font-size:16px;
+  position:relative; 
+  top:4px; 
+  padding:6px 0 6px 0; 
+  font-size:16px;
 }
 /*end Template:Photo*/
 /* Tiles (Template:Tile) */
@@ -627,9 +618,19 @@ table.dossier-background{
 .loottable-color-green {
  border-left-color: #49C11E;
 }
+.adminlist-background{
+	float: right;
+	padding: 0.5em;
+}
+
 
 /* theme specific */
 /*everything light theme specific below here*/
+.theme-fandomdesktop-light .adminlist-background{
+	background-color: #c0cfc9;
+	border: black solid 1px;
+}
+
 .theme-fandomdesktop-light .ambox{
 background-color: #dddddd;
 }
@@ -645,7 +646,7 @@ background-color: #dddddd;
 }
 
 .theme-fandomdesktop-light .info-framework {
-  background:#68a090;
+  background:#c0cfc9;
   border:2px solid #44685e;
 }
 
@@ -662,13 +663,14 @@ background-color: #dddddd;
 }
 
 .theme-fandomdesktop-light .info-X2-25,
+.theme-fandomdesktop-light .info-X3-33.info-unit-caption,
 .theme-fandomdesktop-light .info-X2-40 {
   background:#edf3eb;
 }
 
 .theme-fandomdesktop-light .info-X2-75,
 .theme-fandomdesktop-light .info-X2-60,
-.theme-fandomdesktop-light .info-X3-33, 
+.theme-fandomdesktop-light .info-X3-33,
 .theme-fandomdesktop-light .info-X2-50 {
   background:#fff;
 }
@@ -922,6 +924,12 @@ border: 1px solid #a2a9b1;
 	--theme-page-text-color--hover: #69B5C6;
 	--theme-page-text-color--rgb: 136, 233, 255;
 }
+
+.theme-fandomdesktop-dark .adminlist-background{
+	background-color: #021d31d6;
+	border:  1px solid #7FE7FF;
+}
+
 /*dark theme ambox specific*/
 /* used on the community portal */
 .theme-fandomdesktop-dark .feature {
@@ -1182,6 +1190,7 @@ color: #88E9FF;
 }
 
 .theme-fandomdesktop-dark .info-X2-25,
+.theme-fandomdesktop-dark .info-X3-33.info-unit-caption,
 .theme-fandomdesktop-dark .info-X2-40 {
   background:#2d74bea6;
 }
