@@ -623,7 +623,6 @@ table.dossier-background{
 	padding: 0.5em;
 }
 
-
 /* theme specific */
 /*everything light theme specific below here*/
 .theme-fandomdesktop-light .adminlist-background{
@@ -694,7 +693,7 @@ background-color: #dddddd;
 .theme-fandomdesktop-light .navbox-abovebelow,
 .theme-fandomdesktop-light .navbox-group,
 .theme-fandomdesktop-light .navbox-subgroup .navbox-title {
-background-color: #eaecf0;
+background-color: #ffffffb0;
 color: #222;
 border: 1px solid #a2a9b1;
 }
@@ -778,12 +777,8 @@ border: 1px solid #a2a9b1;
 }
 /* [[Template:PaintRegions]] */
 .theme-fandomdesktop-light .paintregion {
-  border:1px solid #a2a9b1;
-	background: white;
-	background: -webkit-linear-gradient(white,lightgray);
-	background: -o-linear-gradient(white,lightgray);
-	background: -moz-linear-gradient(white,lightgray);
-	background: linear-gradient(white,lightgray);
+  background: #EDF3EB;
+	border: 0.3em inset #C0CFC9;
 }
 /*ExplorerNote changelog table fix*/
 .theme-fandomdesktop-light .explorernot-change-tableend{
@@ -928,6 +923,12 @@ border: 1px solid #a2a9b1;
 .theme-fandomdesktop-dark .adminlist-background{
 	background-color: #021d31d6;
 	border:  1px solid #7FE7FF;
+}
+/*Source Editor visual fixes*/
+.theme-fandomdesktop-light .CodeMirror
+{
+	background-color: whitesmoke;
+	color: black;
 }
 
 /*dark theme ambox specific*/
@@ -1318,8 +1319,8 @@ border: 1px solid #a2a9b1;
 }
 /* [[Template:PaintRegions]] */
 .theme-fandomdesktop-dark .paintregion {
-	border:1px solid #7FE7FF;
-	background:#2d74bea6;
+	background: #1D558C;
+	border: 0.3em inset #4E99C1; 
 }
 /*ExplorerNote changelog table fix*/
 .theme-fandomdesktop-dark .explorernot-change-tableend {
@@ -1523,4 +1524,13 @@ border: 1px solid #a2a9b1;
     invert(100%);
   filter:
     invert(100%);
+}
+/*Source Editor visual fixes*/
+.theme-fandomdesktop-dark .CodeMirror{
+	background-color: black;
+	color: whitesmoke;
+}
+
+.theme-fandomdesktop-dark .cm-mw-ext3-ground{
+	background-color: #c234c442;
 }
