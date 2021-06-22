@@ -1,14 +1,14 @@
 /* [[de:MediaWiki:Fandomdesktop.css]] * [[es:MediaWiki:Fandomdesktop.css]] * [[fr:MediaWiki:Fandomdesktop.css]] * [[it:MediaWiki:Fandomdesktop.css]] * [[ja:MediaWiki:Fandomdesktop.css]] * [[pl:MediaWiki:Fandomdesktop.css]] * [[pt-br:MediaWiki:Fandomdesktop.css]] * [[ru:MediaWiki:Fandomdesktop.css]] * [[th:มีเดียวิกิ:Fandomdesktop.css]] */
 /* CSS placed here will affect users of the FandomDesktop skin */
-/*to find stuff specific to dark / light skin search for dark or light as they are further down the page*/
-/*everything that effects both skins*/
-/*import custom font that doesnt look ugly*/
+/* To find stuff specific to dark / light skin search for dark or light as they are further down the page */
+
+/* Everything that affects both themes */
+/* Import custom font that doesnt look ugly */
 div#content {
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	font-size: 14px;
 }
-/*end custom font*/
-/*hex background on content*/
+/* Hex background on content */
 main.page__main {
 	background: rgba(var(--theme-page-background-color--rgb), 0.95);
 } 
@@ -24,16 +24,62 @@ main.page__main::before {
 	z-index: -1;
 	opacity: 0.7;
 }
-/*end hex background*/
+
 /* For elements which only display in the mobile view */
 .mobileonly {
-  display: none;
+	display: none;
+}
+
+/* Light theme colors */
+.theme-fandomdesktop-light {
+    /* Ambox */
+    --ark-ambox-background-color: #ddd;
+    /* Legacy infobox */
+    --ark-infobox-background-color: #111;
+    --ark-infobox-border-color: #fff;
+    /* Arkitexure */
+    --ark-arkitex-background-color: #c0cfc9;
+    --ark-arkitex-border-color: #44685e;
+    --ark-arkitex-accent-color: #13473f;
+    /* PaintRegion */
+	--ark-paintregion-background-color: #EDF3EB;
+	--ark-paintregion-border-color: #C0CFC9;
+    /* Template:Dossier & Template:Quote */
+    --ark-cite-quote-color: #7d5f2a;
+	--ark-dossier-background-color: #f0e1c2;
+	--ark-dossier-border-color: #7d5f2a;
+	--ark-dossier-text-color: #3c2a09;
+}
+
+/* Dark theme colors */
+.theme-fandomdesktop-dark {
+    /* Text color */
+	--theme-page-text-color: #88E9FF;
+	--theme-page-text-color--hover: #69B5C6;
+	--theme-page-text-color--rgb: 136, 233, 255;
+    /* Ambox */
+    --ark-ambox-background-color: rgba(0,0,0,0.3);
+    /* Legacy infobox */
+    --ark-infobox-background-color: #000;
+    --ark-infobox-border-color: #7FE7FF;
+    /* Arkitexure */
+    --ark-arkitex-background-color: #021d31d6;
+    --ark-arkitex-border-color: #7FE7FF;
+    --ark-arkitex-accent-color: #235361;
+    /* PaintRegion */
+	--ark-paintregion-background-color: #1D558C;
+	--ark-paintregion-border-color: #4E99C1;
+    /* Template:Dossier & Template:Quote */
+    --ark-cite-quote-color: #2d74bed9;
+	--ark-dossier-background-color: #6e92c036;
+	--ark-dossier-border-color: #2d74bea6;
+	--ark-dossier-text-color: #88E9FF;
 }
 
 /* Restore pre-FD table header text centering */
 .wikitable > tr > th, .wikitable > * > tr > th {
-text-align: center;
-background-color: var(--custom-table-header-background);
+	text-align: center;
+	background-color: var(--custom-table-header-background);
 }
 
 /* Restore pre-FD Hydra/Vector table paddings. */
@@ -41,80 +87,78 @@ background-color: var(--custom-table-header-background);
 .article-table tr th,
 .wikitable tr td,
 .wikitable tr th {
-padding: 0.2em 0.4em;
+	padding: 0.2em 0.4em;
 }
 
 /* Make pseudo-heading padding closer to H4 */
 .page-content dl {
-  margin: 2px 0 6px;
+	margin: 2px 0 6px;
 }
 
 /* Used by Template:FP heading */
 .fpheading {
-border: 3px solid #4F6D68;
-border-radius: 0.3em;
-text-align: center;
-color: var(--theme-page-text-color);
-font-size: 130%;
-margin-bottom: 5px;
-padding: 2px;
+	border: 3px solid #4F6D68;
+	border-radius: 0.3em;
+	text-align: center;
+	color: var(--theme-page-text-color);
+	font-size: 130%;
+	margin-bottom: 5px;
+	padding: 2px;
 }
-/*end Template:Header */
 
 /* Front page font color (overiding Common.css) */
 .fpbox {
-color: var(--theme-page-text-color);
+	color: var(--theme-page-text-color);
 }
 
 
-/* copy to clipboard */
+/* Copy to clipboard */
 .copy-clipboard {
-background-color: white;
-color: black;
-font-family: Courier,monospace;
-padding: 0.2em;
+	background-color: white;
+	color: black;
+	font-family: Courier,monospace;
+	padding: 0.2em;
 }
 
 .copy-clipboard button {
-padding: 0 0 0 1em;
-border: none;
-background: none;
-cursor: pointer;
-font-family: FontAwesome;
+	padding: 0 0 0 1em;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-family: FontAwesome;
 }
-/*end copy to clipboard*/
 /* Hide mw-empty-elt in tabbers */
 .tabber .mw-empty-elt {
-  display: none;
+	display: none;
 }
 /* Ambox style */
 .ambox {
-  max-width: 80%;
-  margin: 1em auto;
-  border: 1px solid #999999;
-  border-collapse: collapse;
-  border-left-style: solid;
-  border-left-width: 10px;
+	max-width: 80%;
+	margin: 1em auto;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 10px;
 }
 
 .ambox-icon {
-  width: 60px;
-  padding: 2px 0 2px 0.5em;
-  text-align: center;
+	width: 60px;
+	padding: 2px 0 2px 0.5em;
+	text-align: center;
 }
 
 .ambox-DLC-icon {
-  width: 115px;
-  padding: 2px 0 2px 0.5em;
-  text-align: center;
+	width: 115px;
+	padding: 2px 0 2px 0.5em;
+	text-align: center;
 }
 
 .ambox-type {
-  padding: 0.25em 0.5em;
+	padding: 0.25em 0.5em;
 }
 
 .ambox-info {
-  margin-top: 0.5em; font-size: smaller;
+	margin-top: 0.5em; font-size: smaller;
 }
 
 .ambox-blue { border-left-color: #0000aa; }
@@ -125,26 +169,27 @@ font-family: FontAwesome;
 .ambox-yellow { border-left-color: #aaaa00; }
 .ambox-cyan { border-left-color: #00ABA2; }
 .ambox-orange { border-left-color: #ffa500; }
-/*end Ambox*/
 /* Infobox style */
 .infobox {
-  float: right;
-  width: 23em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-bottom: 0.5em;
-  padding: 2px;
+	float: right;
+	width: 23em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	padding: 2px;
+	background-color: var(--ark-infobox-background-color);
+	border: 1px solid var(--ark-infobox-border-color);
 }
 
 .infobox-table {
-  width: 100%;
-  padding: 0;
+	width: 100%;
+	padding: 0;
 }
 
 .infobox-header {
-  padding: 0.1em;
-  font-size: 130%;
-  text-align: center;
+	padding: 0.1em;
+	font-size: 130%;
+	text-align: center;
 }
 
 .infobox-section {
@@ -155,675 +200,642 @@ font-family: FontAwesome;
 }
 
 .infobox-centered {
-  text-align: center;
+	text-align: center;
 }
 
 .infobox-centered img {
-  max-width:100%;
-  height:auto;
+	max-width:100%;
+	height:auto;
 }
 
 .infobox .slideboxlightshow {
-  max-width:calc(23em - 4px);
-  height:auto;
+	max-width:calc(23em - 4px);
+	height:auto;
 }
 
 .infobox .slideboxlightshow a,
 .infobox .slideboxlightshow img {
-  max-width:100%;
+	max-width:100%;
 }
 
 .infobox-row {
-  vertical-align: top;
+	vertical-align: top;
 }
 
 .infobox-row-name {
-  text-align: left;
-  white-space: nowrap;
-  font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+	font-weight: bold;
 }
 
 .infobox-spacer {
-  height: 0.5em;
+	height: 0.5em;
 }
-/*end Infobox*/
+
+/* Arkitexure and Infobox shared */
+.infobox-header,
+.infobox-section,
+.info-module {
+    border-bottom: 3px solid var(--ark-arkitex-accent-color);
+    border-image: linear-gradient(to right, transparent 1%, var(--ark-arkitex-accent-color) 15%, var(--ark-arkitex-accent-color) 85%, transparent 99%) 1;
+}
+
 /* "ARKITEXURE"-STYLE INFOBOX */
 /* used for creature and other more custom infoboxes */
-
-/* arkitexure rounded borders */
+/* Arkitexure rounded borders */
 .info-arkitex {
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  float:center;
+	border-radius: 2px;
+	float:center;
 }
 .info-arkitex-left {
-  border-radius: 2px 0 0 2px;
-  -webkit-border-radius: 2px 0 0 2px;
-  float:left;
-  display: block;
+	border-radius: 2px 0 0 2px;
+	float:left;
+	display: block;
 }
 .info-arkitex-right {
-  border-radius: 0 2px 2px 0;
-  -webkit-border-radius: 0 2px 2px 0;
-  float:right;
-  align-self: stretch;
-  display: block;
+	border-radius: 0 2px 2px 0;
+	float:right;
+	align-self: stretch;
+	display: block;
 }
 
-/* arkitexure full container */
+/* Arkitexure full container */
 .info-framework {
-  float:right;
-  width:410px;
-  max-width:100%;
-  margin:0 0 8px 8px;
-  padding:5px 5px 0 5px;
-  overflow:hidden;
+	float:right;
+	width:410px;
+	max-width:100%;
+	margin:0 0 8px 8px;
+	padding:5px 5px 0 5px;
+	overflow:hidden;
+	background: var(--ark-arkitex-background-color);
+	border: 2px solid var(--ark-arkitex-border-color);
 }
 
-/* arkitexure individual module (sub-container) */
+/* Arkitexure individual module (sub-container) */
 .info-module {
-  display:inline-block;
-  width: 100%;
-  text-align:right;
-  margin:0;
-  padding:4px 4px 0 4px;
-  overflow:hidden;
+	display:inline-block;
+	width: 100%;
+	text-align:right;
+	margin:0;
+	padding:4px 4px 0 4px;
+	overflow:hidden;
 }
 
-/* arkitexure "sub-module" component */
+/* Hide bottom separator if this is the last Arkitexure module */
+.info-module:last-child {
+	border-bottom: none;
+}
+
+/* Arkitexure "sub-module" component */
 .info-unit {
-  display:inline-block;
-  width:100%;
-  text-align:center;
-  margin:0;
-  padding:0;
-  overflow:hidden;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	margin:0;
+	padding:0;
+	overflow:hidden;
 }
 .info-unit-row {
-  display:flex;
-  flex-direction:row;
-  align-items:flex-start;
-  width:100%;
-  padding:0;
-  margin:0;
-  overflow:hidden;
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	width:100%;
+	padding:0;
+	margin:0;
+	overflow:hidden;
 }
 .info-unit-comment {
-  display:flex;
-  align-items:left;
-  font-size:11px;
+	display:flex;
+	align-items:left;
+	font-size:11px;
 }
-/* arkitexure cell, intended for one total column, 100% width */
+/* Arkitexure cell, intended for one total column, 100% width */
 .info-X1-100 {
-  width:calc(100% - 8px);
-  margin:1px;
-  padding:5px 2px 5px 2px;
+	width:calc(100% - 8px);
+	margin:1px;
+	padding:5px 2px 5px 2px;
 }
 .info-masthead {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-height:38px;
-  height:auto;
-  font-size:24px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:38px;
+	height:auto;
+	font-size:24px;
 }
 
 .info-column {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
 
 .info-sound-div {
-  margin:5px 0 -5px 0;
+	margin:5px 0 -5px 0;
 }
 
-/* arkitexure cell, intended for two total columns, 25% width */
+/* Arkitexure cell, intended for two total columns, 25% width */
 .info-X2-25 {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:25%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:25%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
 }
 
-/* arkitexure cell, intended for two total columns, 75% width */
+/* Arkitexure cell, intended for two total columns, 75% width */
 .info-X2-75 {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:75%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
-  height:auto;
-  font-size:24px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:75%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
+	height:auto;
+	font-size:24px;
 }
 
-/* arkitexure cell, intended for two total columns, 40% width */
+/* Arkitexure cell, intended for two total columns, 40% width */
 .info-X2-40 {
-  width:40%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
-  text-align:right;
+	width:40%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
+	text-align:right;
 }
-/* arkitexure cell, intended for two total columns, 60% width */
+/* Arkitexure cell, intended for two total columns, 60% width */
 .info-X2-60 {
-  width:60%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
-  text-align:left;
+	width:60%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
+	text-align:left;
 }
 
-/* arkitexure cell, intended for three total columns, 33% width */
+/* Arkitexure cell, intended for three total columns, 33% width */
 .info-X3-33 {
-  width:33.33%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
-  text-align:center;
+	width:33.33%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
+	text-align:center;
 }
 
 /* Infobox creature: lower line height on release dates */
 @media only screen and (min-width:1500px) {
-    .info-arkitex .info-X3-33 .mw-formatted-date {
-	    display: block;
-        line-height: 1.5;
-    }
+	.info-arkitex .info-X3-33 .mw-formatted-date {
+		display: block;
+		line-height: 1.5;
+	}
 }
 
-/* arkitexure cell, intended for two total columns, 50% width */
+/* Arkitexure cell, intended for two total columns, 50% width */
 .info-X2-50 {
-  width:50%;
-  margin:1px;
-  padding:5px 8px 5px 8px;
-  text-align:center;
+	width:50%;
+	margin:1px;
+	padding:5px 8px 5px 8px;
+	text-align:center;
 }
 
 .info-unit-caption {
-  text-align:center;
-  padding:0 8px 0 8px;
-  background:none;
-  font-weight:500;
+	text-align:center;
+	padding:0 8px 0 8px;
+	background:none;
+	font-weight:500;
 }
 
-/* arkitexure spawn map tabber */
+/* Arkitexure spawn map tabber */
 .info-spawn .tabber {
-  display:inline-block;
+	display:inline-block;
 }
 
 /* Hide mw-empty-elt in spawn map tabbers */
 .info-spawn .tabber .mw-empty-elt {
-    display: none;
+	display: none;
 }
 
 /* END "ARKITEXURE"-STYLE INFOBOX */
 /* Navbox template style */
 table.navbox {
-  clear: both;
-  font-size: 88%;
-  margin: 1em 0;
-  padding: 1px;
-  font-size: 90%;
-  width: 100%;
+	clear: both;
+	font-size: 88%;
+	margin: 1em 0;
+	padding: 1px;
+	font-size: 90%;
+	width: 100%;
 }
 
 /* Hide mw-empty-elt in navboxes (FD fix) */
 .navbox .mw-empty-elt {
-display: none;
+	display: none;
 }
 
 /* Border between adjacent navboxes */
 table.navbox + table.navbox {
-  margin-top: -1px;
+	margin-top: -1px;
 }
 
 .navbox-title,
 .navbox-abovebelow,
 table.navbox th {
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
 }
 
 .navbox-group {
-font-weight: bold;
-padding-left: 1em;
-padding-right: 1em;
-white-space: nowrap;
-text-align: center;
+	font-weight: bold;
+	padding-left: 1em;
+	padding-right: 1em;
+	white-space: nowrap;
+	text-align: center;
 }
 
 /* Base background */
 .navbox, .navbox-subgroup {
-  background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
 }
 
 .navbox-list {
-border-bottom:1px solid rgba(0,0,0,0.1);
+	border-bottom:1px solid rgba(0,0,0,0.1);
 }
 
 .navbox-subgroup > tbody > tr {
-display:flex;
-align-items:stretch;
+	display:flex;
+	align-items:stretch;
 }
 
 .navbox-subgroup .navbox-group {
-display:flex;
-align-items:center;
-justify-content:center;
-flex-basis:10em;
-flex-grow:1;
-flex-shrink:0;
-white-space:normal;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-basis:10em;
+	flex-grow:1;
+	flex-shrink:0;
+	white-space:normal;
 }
 
 /* Level 1 color */
 .navbox-title,
 table.navbox th {
-font-weight: bold;
-font-size: 120%;
-
+	font-weight: bold;
+	font-size: 120%;
+	
 }
 
 table.navbox .navbox-title .mw-collapsible-toggle {
-font-weight: normal;
+	font-weight: normal;
 }
 
 /* Level 2 styling */
 .collapseButton {
-  font-weight: normal;
-  width: auto;
+	font-weight: normal;
+	width: auto;
 }
 
 .navbox .collapseButton {
-  width: 6em;
+	width: 6em;
 }
 
 .navbar {
-  font-size: 88%;
-  font-weight: normal;
+	font-size: 88%;
+	font-weight: normal;
 }
 
 .navbox .navbar {
-  font-size: 100%;
+	font-size: 100%;
 }
 
 table.collapsed tr.collapsible {
-  display: none;
+	display: none;
 }
-/* End of Navbox styling */
 /* Template:Navbar */
 .va-navbar{
-  position:absolute;
-  padding-left:.5em;
+	position:absolute;
+	padding-left:.5em;
 }
-/* NavBox Creatures */
-/*color settings can be found in the theme specific sections*/
+/* Nav Creatures */
+/* Color settings can be found in the theme specific sections */
 .navbox-creature-item{
-  display: inline-block;
-  margin: 2px;
-  overflow: hidden;
-  vertical-align:middle;
-  width:50px;
-  text-align:center
+	display: inline-block;
+	margin: 2px;
+	overflow: hidden;
+	vertical-align:middle;
+	width:50px;
+	text-align:center
 }
 
 /* Do not set any negative bottom margin on Nav creatures to avoid a scrollbar. */
 .navbox.navbox-creature {
 	margin-bottom: 0;
 }
-/*end NavBox Creatures*/
 /* Template:Photo */
 .photo-nav, .photo-nav a:link, .photo-nav a:visited{
-  font-weight:bold;
+	font-weight:bold;
 }
 
 .photo-gallery, .photo-gallery a:link, .photo-gallery a:visited{
-  color: #000 !important;
+	color: #000 !important;
 }
 
 .photo-gallery img{
-  -webkit-filter: opacity(.8);
-  filter: opacity(.8);
-  opacity:(.9);
+	opacity: .8;
 }
 
-.photo-gallery img:hover{
-  -webkit-filter: opacity(1);
-  filter: opacity(1);
-  opacity:(1);
+.photo-gallery img:hover {
+	opacity: 1;
 }
 
-.photo-nav li:hover img{
-  -webkit-filter: brightness(120%);
-  filter: brightness(120%);
+.photo-nav li:hover img {
+	filter: brightness(120%);
 }
 
 li.photo-bg{
-  margin: 8px 6px; 
-  padding:5px; 
-  position:relative; 
-  display:inline-block; 
-  min-height:152px; 
-  vertical-align:top; 
-  text-align:center; 
-  /* For IE 7 */ zoom:1; *display:inline;
+	margin: 8px 6px; 
+	padding:5px; 
+	position:relative; 
+	display:inline-block; 
+	min-height:152px; 
+	vertical-align:top; 
+	text-align:center; 
+	/* For IE 7 */ zoom:1; *display:inline;
 }
 
 div.photo-text{
-  position:relative; 
-  top:4px; 
-  padding:6px 0 6px 0; 
-  font-size:16px;
+	position:relative; 
+	top:4px; 
+	padding:6px 0 6px 0; 
+	font-size:16px;
 }
-/*end Template:Photo*/
 /* Tiles (Template:Tile) */
 .tile_container {
-  margin: 4px 0px 8px 8px;
-  padding: 0;
-  position: relative;
-  display: inline-block;
-  width: 105px;
-  height: 105px;
-  vertical-align: middle;
-  text-align: center;
-  border-radius: 15px;
+	margin: 4px 0px 8px 8px;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+	width: 105px;
+	height: 105px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 15px;
 }
 
 .tile_inner {
-  position:relative;
-  top:6px;
-  left:0;
-  font-size:14px;
-  font-weight:bold;
+	position:relative;
+	top:6px;
+	left:0;
+	font-size:14px;
+	font-weight:bold;
 }
 
 /* Image-specific tweak to get it to display with a height of 75px */
 .tile_inner img[src*="PS.svg"] {
-  height: 75px;
+	height: 75px;
 }
 
 /* Restore pre-FD centered captions in FP Quick Game Basics */
 #fpbasics .gallerybox .gallerytext {
 	text-align: center;
 }
-/*Template:Dossier & Template:Quote*/
-table.dossier-background{
-	border-radius:0.5em;
-	border-left-width:1em;
-	margin-bottom:1em;
+/* [[Template:PaintRegions]] */
+.paintregion {
+	background: var(--ark-paintregion-background-color);
+	border: 0.3em inset var(--ark-paintregion-border-color); 
 }
-.dossier-cite-left, .quote-left{
+/* Template:Dossier & Template:Quote */
+table.dossier-background {
+	border-radius: 0.5em;
+	border-left-width: 1em;
+	margin-bottom: 1em;
+	background: var(--ark-dossier-background-color);
+	border: 2px solid var(--ark-dossier-border-color);
+	color: var(--ark-dossier-text-color);
+}
+.dossier-cite-left, .quote-left,
+.dossier-cite-right, .quote-right { 
 	font-size: 3.3em; 
 	font-family: 'Times New Roman',serif; 
 	font-weight: bold; 
 	padding: 4px 2px 2px; 
-	width: 0.5em; 
-	vertical-align: top;
+	width: 0.5em;
+	color: var(--ark-cite-quote-color);
 }
 
-.dossier-cite-right, .quote-right{
-	font-size: 3.3em; 
-	font-family: 'Times New Roman',serif; 
-	font-weight: bold; 
-	padding: 4px 2px 2px; 
-	width: 0.5em; 
+.dossier-cite-left, .quote-left {
+	vertical-align: top;
+}
+.dossier-cite-right, .quote-right {
 	vertical-align: bottom;
 }
-/*Template:Explorer Note*/
-.explorer-note{
+
+/* Template:Explorer Note */
+.explorer-note {
 	display:inline-block;
 	vertical-align:top;
 	width:47%;
 	margin:1em;
 }
 
-.explorer-note-main{
-	border-radius:0.25em;
-	border-left-width:1em;
+.explorer-note-main {
+	border-radius: 0.25em;
+	border-left-width: 1em;
 }
-/*styling for kibble tables*/
-.kibble-table{
-	text-align:center;
-	font-size:.9em;
-  border-left-width: 0.5em ;
-  border-bottom-width: 0.5em;
-	float:left;
-	margin:0 .5em .5em 0;
+/* Styling for kibble tables */
+.kibble-table {
+	text-align: center;
+	font-size: .9em;
+	border-left-width: 0.5em;
+	border-bottom-width: 0.5em;
+	float: left;
+	margin: 0 .5em .5em 0;
 }
 
-.kibble-table-new{
+.kibble-table-new {
 	text-align:left;
 	font-size:.9em;
-  border-left-width: 0.5em ;
-  border-bottom-width: 0.5em;
+	border-left-width: 0.5em ;
+	border-bottom-width: 0.5em;
 	padding: .5em;
 	margin:0 .5em .5em 0;
 }
-/* used by some templates for graying table cells */
+/* Used by some templates for graying table cells */
 .gray {
-  background-color:#E6E6E6;
+	background-color:#E6E6E6;
 }
-/*Loottables siderail*/
+/* Loottables siderail */
 .loottable {
-  padding-left: calc(1em - 5px);
-  border-left: 5px solid #5EA8D0;
+	padding-left: calc(1em - 5px);
+	border-left: 5px solid #5EA8D0;
 }
 .loottable-color-red {
-  border-left-color: #D94F5D;
+	border-left-color: #D94F5D;
 }
 .loottable-color-yellow {
-  border-left-color: #D9DB59;
+	border-left-color: #D9DB59;
 }
 .loottable-color-green {
- border-left-color: #49C11E;
+	border-left-color: #49C11E;
 }
 .adminlist-background{
 	float: right;
 	padding: 0.5em;
 }
 
-/* theme specific */
-/*everything light theme specific below here*/
+/* Theme-specific */
+/* Everything light theme specific below this line */
 .theme-fandomdesktop-light .adminlist-background{
 	background-color: #c0cfc9;
 	border: black solid 1px;
 }
 
-.theme-fandomdesktop-light .ambox{
-background-color: #dddddd;
+.ambox {
+	background-color: var(--ark-ambox-background-color);
 }
-/*light theme arkitexure specific*/
-.theme-fandomdesktop-light .infobox {
-  background-color: #111111;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-light .infobox-table {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-}
-
-.theme-fandomdesktop-light .info-framework {
-  background:#c0cfc9;
-  border:2px solid #44685e;
+/* Arkitexure specific theming */
+.infobox-table {
+	background-color: var(--ark-infobox-background-color);
+	border: 1px solid var(--ark-infobox-background-color);
 }
 
 .theme-fandomdesktop-light .infobox-header,
 .theme-fandomdesktop-light .infobox-section {
- 	border-bottom: 3px solid #13473f;
-	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
-	color: #000;
-}
-
-.theme-fandomdesktop-light .info-module {
-  border-bottom: 3px solid #13473f;
-	border-image: linear-gradient(to right, transparent 1%, #13473f 15%, #13473f 85%, transparent 99%) 1;
+    color: #000;
 }
 
 .theme-fandomdesktop-light .info-X2-25,
 .theme-fandomdesktop-light .info-X3-33.info-unit-caption,
 .theme-fandomdesktop-light .info-X2-40 {
-  background:#edf3eb;
+	background:#edf3eb;
 }
 
 .theme-fandomdesktop-light .info-X2-75,
 .theme-fandomdesktop-light .info-X2-60,
 .theme-fandomdesktop-light .info-X3-33,
 .theme-fandomdesktop-light .info-X2-50 {
-  background:#fff;
+	background:#fff;
 }
-/*light theme navbox specific*/
+/* Light theme navbox specific */
 .theme-fandomdesktop-light table.navbox {
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid #000;
+	background: rgba(0, 0, 0, 0);
+	border: 1px solid #000;
 }
 
 .theme-fandomdesktop-light .navbox-title,
 .theme-fandomdesktop-light table.navbox th {
-  color: #c4ded6;
-  background: #13473f;
+	color: #c4ded6;
+	background: #c0cfc9;
 }
 
 .theme-fandomdesktop-light .navbox-title a,
 .theme-fandomdesktop-light div#content .navbox-title a.external {
-  color: #70C0B6;
+	color: #70C0B6;
 }
 
 .theme-fandomdesktop-light .navbox-abovebelow,
 .theme-fandomdesktop-light .navbox-group,
 .theme-fandomdesktop-light .navbox-subgroup .navbox-title {
-background-color: #ffffffb0;
-color: #222;
-border: 1px solid #a2a9b1;
+	background-color: #ffffffb0;
+	color: #222;
+	border: 1px solid #a2a9b1;
 }
-/*light theme NavBox Creatures specific*/
+/* Light theme NavBox Creatures specific */
 .theme-fandomdesktop-light .navbox-creature-item div{
-  background-color: white;
-  border-radius: 100px;
+	background-color: white;
+	border-radius: 100px;
 }
 
 .theme-fandomdesktop-light .creature_roster li:hover > div {
-  box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
+	box-shadow:inset 0 0 3px rgba(170, 170, 204, 0.5), inset 0 0 4px rgba(17,17,17,0.5);
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-white {
-  background-color:white;
+	background-color:white;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-yellow {
-  background-color:#fffbd1;
+	background-color:#fffbd1;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-brown {
-  background-color:#ffe6d1;
+	background-color:#ffe6d1;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-purple {
-  background-color:#edd1ff;
+	background-color:#edd1ff;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-orange {
-  background-color:#ffe1b7;
+	background-color:#ffe1b7;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-grey {
-  background-color:#d6d6d6
+	background-color:#d6d6d6
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-green {
-  background-color:#cdffc9
+	background-color:#cdffc9
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-cyan {
-  background-color:#c2f6ff
+	background-color:#c2f6ff
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-pink {
-  background-color:#ffc2f3
+	background-color:#ffc2f3
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-red {
-  background-color:#ffd1d1
+	background-color:#ffd1d1
 }
-/*light theme Template:Photo specific*/
+/* Light theme Template:Photo specific */
 .theme-fandomdesktop-light .photo-nav,
 .theme-fandomdesktop-light .photo-nav a:link,
 .theme-fandomdesktop-light .photo-nav a:visited {
-  color: #fff !important;
-  text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
+	color: #fff !important;
+	text-shadow: 1px 1px 4px black, 0 0 1em teal, 0 0 0.2em black;
 }
 
 .theme-fandomdesktop-light li.photo-bg {
-  background:#fff; 
-  border:1px solid #fff; 
-  box-shadow:0 0 8px #333; 
+	background:#fff; 
+	border:1px solid #fff; 
+	box-shadow:0 0 8px #333; 
 }
 
 .theme-fandomdesktop-light .redish-background{
 	background-color:#d6baba;
 }
-/*light theme Tiles (Template:Tiles)*/
+/* Light theme Tiles (Template:Tiles) */
 .theme-fandomdesktop-light .tile_container{
-  background: -webkit-linear-gradient(white, lightgray);
-  background: -o-linear-gradient(white, lightgray);
-  background: -moz-linear-gradient(white, lightgray);
-  background: linear-gradient(white, lightgray);
-  border: 1px solid black;
+	background: linear-gradient(white, lightgray);
+	border: 1px solid black;
 }
 
 .theme-fandomdesktop-light .tile_container:hover{
-  background: #fff;
+	background: #fff;
 }
-/* [[Template:PaintRegions]] */
-.theme-fandomdesktop-light .paintregion {
-  background: #EDF3EB;
-	border: 0.3em inset #C0CFC9;
-}
-/*ExplorerNote changelog table fix*/
+/* ExplorerNote changelog table fix */
 .theme-fandomdesktop-light .explorernot-change-tableend{
 	background: #dddddd !important;
 }
-/*status effect styling*/
+/* Status effect styling */
 .theme-fandomdesktop-light table.status-effect-backg{
 	text-align:left;
 	margin-top:1em;
 	margin-bottom:1em;
-	border:1px solid black; 
-	background:white; 
-	background: -webkit-linear-gradient(white, lightgray); 
-	background: -o-linear-gradient(white, lightgray); 
-	background: -moz-linear-gradient(white, lightgray);
-	background: linear-gradient(white, lightgray);
+	background: #EDF3EB;
+	border: 0.3em inset #C0CFC9;
 }
 /* Patch Notes */
 .theme-fandomdesktop-light .PN-normal{
-  background: #f2f2f2;
-  font-weight: bold;
-  text-align: center;
-  width: 35px;
+	background: #f2f2f2;
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
 }
-/*Template:Dossier & Template:Quote*/
-.theme-fandomdesktop-light table.dossier-background{
-	background:#f0e1c2;
-	border:2px solid #7d5f2a;
-	color:#3c2a09
-}
-
-.theme-fandomdesktop-light .dossier-cite-left, 
-.theme-fandomdesktop-light .quote-left{
-	color: #7d5f2a;
-}
-.theme-fandomdesktop-light .dossier-cite-right, 
-.theme-fandomdesktop-light .quote-right{
-  color: #7d5f2a;
-}
-/*Template:Explorer Note*/
+/* Template:Explorer Note */
 .theme-fandomdesktop-light .explorer-note-main{
 	background:#f0e1c2;
 	border:2px solid #7d5f2a;
 }
-/*styling for kibble tables*/
+/* Styling for kibble tables */
 .theme-fandomdesktop-light .kibble-table{
 	border-left: solid #ccc;
 	border-bottom: solid #ccc;
@@ -837,89 +849,85 @@ border: 1px solid #a2a9b1;
 }
 /* Used by [[Table of Tekgrams]] and [[Template:CreatureTableRow]] */
 .theme-fandomdesktop-light .cell-green {
-  background-color:#90EE90 !important;
+	background-color:#90EE90 !important;
 }
 
 .theme-fandomdesktop-light .cell-yellow {
-  background-color:#FFD700 !important;
+	background-color:#FFD700 !important;
 }
 
 .theme-fandomdesktop-light .cell-pink {
-  background-color:#e3a4a4 !important;
+	background-color:#e3a4a4 !important;
 }
 
 .theme-fandomdesktop-light .cell-grey {
-  background-color:#BDBDBD !important;
+	background-color:#BDBDBD !important;
 }
 
 .theme-fandomdesktop-light .ctc-notice {
-  display:inline-block; 
-  border:1px solid black; 
-  background:lightgray; 
-  padding:10px;
+	display:inline-block; 
+	border:1px solid black; 
+	background:lightgray; 
+	padding:10px;
 }
 /* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
 .theme-fandomdesktop-light .text-white {
-  color:#666
+	color:#666
 }
 
 .theme-fandomdesktop-light .text-green {
-  color:#060
+	color:#060
 }
 
 .theme-fandomdesktop-light .text-blue {
-  color:#006
+	color:#006
 }
 
 .theme-fandomdesktop-light .text-purple {
-  color:#606
+	color:#606
 }
 
 .theme-fandomdesktop-light .text-yellow {
-  color:#660
+	color:#660
 }
 
 .theme-fandomdesktop-light .text-red {
-  color:#600
+	color:#600
 }
 
 .theme-fandomdesktop-light .text-cyan {
-  color:#699
+	color:#699
 }
 
 .theme-fandomdesktop-light .text-orange {
-  color:#820
+	color:#820
 }
 /* Coloring for [[Template:Mission]] */
 .theme-fandomdesktop-light .mission {
-  border:1px solid #a2a9b1;
-  background: #f8f9fa;
+	border:1px solid #a2a9b1;
+	background: #f8f9fa;
 }
 
 .theme-fandomdesktop-light .mission-dif-gamma {
-  color:#48BF15;
+	color:#48BF15;
 }
 
 .theme-fandomdesktop-light .mission-dif-beta {
-  color:#17B5D8;
+	color:#17B5D8;
 }
 
 .theme-fandomdesktop-light .mission-dif-alpha {
-  color:#D85847;
+	color:#D85847;
 }
 /* End Template:Mission coloring; */
 /* Used by [[Template:HoverText]] */
 .theme-fandomdesktop-light .hover-text {
-  cursor:help;
-  border-bottom:1px dotted #397d75;
-}
-/*everything dark theme specific below here */
-.theme-fandomdesktop-dark {
-	--theme-page-text-color: #88E9FF;
-	--theme-page-text-color--hover: #69B5C6;
-	--theme-page-text-color--rgb: 136, 233, 255;
+	cursor:help;
+	border-bottom:1px dotted #397d75;
 }
 
+
+/* Everything dark theme specific below this line */
 .theme-fandomdesktop-dark .adminlist-background{
 	background-color: #021d31d6;
 	border:  1px solid #7FE7FF;
@@ -931,18 +939,18 @@ border: 1px solid #a2a9b1;
 	color: black;
 }
 
-/*dark theme ambox specific*/
-/* used on the community portal */
+/* Dark theme ambox */
+/* Used on the community portal */
 .theme-fandomdesktop-dark .feature {
-  border: 1px solid rgba(200, 200, 200, 0.2);
-  border-radius: 5px; padding: 10px;
+	border: 1px solid rgba(200, 200, 200, 0.2);
+	border-radius: 5px; padding: 10px;
 }
 
 .theme-fandomdesktop-dark .page {
-position: relative;
-border: 1px solid #7FE7FF;
-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
-color: #88E9FF;
+	position: relative;
+	border: 1px solid #7FE7FF;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
+	color: #88E9FF;
 }
 /* End base framework */
 /* Links */
@@ -951,344 +959,134 @@ color: #88E9FF;
 }
 
 .theme-fandomdesktop-dark .pseudo-link:hover {
-  color: var(--theme-link-color--hover);
-  text-decoration: underline;
+	color: var(--theme-link-color--hover);
+	text-decoration: underline;
 }
 
 .theme-fandomdesktop-dark .jslink:hover {
-    text-decoration: underline;
-    cursor: pointer;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .theme-fandomdesktop-dark div#content a.new {
 	color: #E51616;
 }
 /* End links */
-/* Sidebar */
-.theme-fandomdesktop-dark div#mw-panel div.portal,
-.theme-fandomdesktop-dark div#mw-panel div.portal div.body {
-	background-image: none;
-}
-
-.theme-fandomdesktop-dark .skin-hydradark div#mw-panel div.portal h3,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal h3 a,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal h3 a:visited,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav div.portal h3 a,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav div.portal h3 a:visited,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal.collapsed h3 a,
-.theme-fandomdesktop-dark #mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
-	color: #ffffff;
-	font-weight: bold;
-}
-
-.theme-fandomdesktop-dark .skin-hydradark #mw-panel.collapsible-nav .portal.collapsed h3 {
-	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/3/37/Sidebar_collapsed.png");
-	background-position: left;
-	background-repeat: no-repeat;
-}
-
-.theme-fandomdesktop-dark .skin-hydradark #mw-panel.collapsible-nav .portal h3 {
-	background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/7/72/Sidebar_expanded.png");
-	background-position: left;
-	background-repeat: no-repeat;
-}
-
-.theme-fandomdesktop-dark .skin-hydradark div#mw-panel div.portal div.body {
-  background-image:url(https://static.wikia.nocookie.net/breach_gamepedia_en/images/a/a7/Underline.png/revision/latest);
-}
-
-.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a,
-.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:link,
-.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:visited,
-.theme-fandomdesktop-dark div#mw-panel div.portal div.body ul li a:hover {
-	color: #ffffff;
-	font-weight:bold;
-	text-shadow:-2px -2px 0px #000, 0 0 1px #000;
-}
-
-.theme-fandomdesktop-dark div#mw-panel div#p-socialProfiles.portal .body {
-	margin: auto;
-}
-
-.theme-fandomdesktop-dark .socialSidebar {
-	width: auto;
-	max-width: 100%;
-}
-/* end sidebar */
-/* Vector tabs */
-.theme-fandomdesktop-dark div.vectorTabs {
-	background: none;
-	height: 1.6em;
-}
-
-.theme-fandomdesktop-dark #left-navigation {
-	margin-left: 10.75em;
-}
-
-.theme-fandomdesktop-dark div#mw-head div.vectorTabs ul li a,
-.theme-fandomdesktop-dark div#mw-head div.vectorTabs ul li.new a,
-.theme-fandomdesktop-dark h3#p-sharing-label span,
-.theme-fandomdesktop-dark h3#p-cactions-label span {
-	color: #B1F4F0;
-	font-size: 0.8em;
-	font-weight: bold;
-}
-
-.theme-fandomdesktop-dark div.vectorTabs li span,
-.theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
-	border: 1px solid #7FE7FF;
-	border-bottom: 0;
-	margin: auto 3px;
-	padding: 2px;
-	padding-top: 5px;
-	background-color: #0A130F;
-}
-
-.theme-fandomdesktop-dark div.vectorTabs li.selected span {
-	background-color: #1F5F73;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu h3 span,
-.theme-fandomdesktop-dark div.vectorTabs span a {
-	padding-top: 0;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu h3 span {
-	padding-top: 0.7em;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu h3 a {
-	height: 1.3em;
-}
-
-.theme-fandomdesktop-dark h3#p-sharing-label span,
-.theme-fandomdesktop-dark h3#p-cactions-label span {
-	margin-top: -0.5em;
-}
-
-.theme-fandomdesktop-dark div.vectorTabs span,
-.theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
-	height: 1.3em;
-	background-image: none;
-}
-
-.theme-fandomdesktop-dark div.vectorTabs span,
-.theme-fandomdesktop-dark div.vectorTabs ul,
-.theme-fandomdesktop-dark div.vectorTabs ul li,
-.theme-fandomdesktop-dark div.vectorTabs ul li.selected {
-	background: none;
-}
-
-.theme-fandomdesktop-dark #p-search {
-	margin-right: 10px;
-}
-
-.theme-fandomdesktop-dark div#right-navigation div#simpleSearch {
-	border: 1px solid #7FE7FF;
-	border-bottom: 0;
-	color: #fff;
-	padding-top: 2px;
-	padding-bottom: 4.5px;
-}
-
-.theme-fandomdesktop-dark div#simpleSearch #searchInput {
-	padding-left: 10px;
-}
-
-.theme-fandomdesktop-dark div#simpleSearch #searchInput::placeholder {
-	color: hsla(0, 0%, 100%, .7);
-}
-
-.theme-fandomdesktop-dark div.vectorTabs li.mw-watchlink span {
-	padding-top: 3px;
-	padding-bottom: 4px;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu div.menu {
-	top: 1.15em;
-	padding-top: 0.6em;
-	border: 0;
-	background: 0;
-	margin-left: 2px;
-}
-
-.theme-fandomdesktop-dark #p-cactions div.menu ul {
-	margin-right: 2px;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu div.menu ul,
-.theme-fandomdesktop-dark div.vectorMenu div.menu div#socialIconImages {
-	border: 1px solid #000;
-	color: #88E9FF !important;
-	background-color: #021d31;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu div.menu a {
-	color: #F6F6F6;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.theme-fandomdesktop-dark div.vectorMenu div.menu li:hover {
-	background: #3191b9fc !important;
-	color: #ddd !important;
-	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.theme-fandomdesktop-dark div.vectorMenu div.menu a:hover {
-	text-decoration: none;
-}
-
-.theme-fandomdesktop-dark div#p-sharing .menu {
-	margin-left: 20px;
-	min-width: 0px;
-	width: 48px;
-}
-
-.theme-fandomdesktop-dark div#simpleSearch {
-	margin-top: -0.5em;
-	background: #0A130F;
-}
-
-.theme-fandomdesktop-dark div#mw-head li#ca-watch a,
-.theme-fandomdesktop-dark div#mw-head li#ca-unwatch a {
-	padding-top: 1.7em;
-	color: transparent
-}
-/* End Vector Tabs */
-.theme-fandomdesktop-dark .ambox{
-	background-color: rgba(0,0,0,0.3);
-}
-/*dark theme infobox specific*/
-.theme-fandomdesktop-dark .infobox {
-  background-color: #0000;
-  border: 1px solid #7FE7FF;
-}
+/* Dark theme infobox */
 
 .theme-fandomdesktop-dark .infobox-table {
-  background-color: #021d31d6;
+	background-color: #021d31d6;
 }
 
 .theme-fandomdesktop-dark .infobox-header,
 .theme-fandomdesktop-dark .infobox-section {
- 	border-bottom: 3px solid #235361;
-	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
 	color: #88E9FF;
 }
 
 .theme-fandomdesktop-dark .infobox-table {
-  background-color: #021d31d6;
+	background-color: #021d31d6;
 }
-/*dark theme arkitexure specific*/
-.theme-fandomdesktop-dark .info-framework {
-	background: #021d31d6;
-	border: 1px solid #7FE7FF;
-}
-
-.theme-fandomdesktop-dark .info-module {
-  border-bottom: 3px solid #235361;
-	border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
-}
+/* Dark theme Arkitexure specific */
 
 .theme-fandomdesktop-dark .info-X2-25,
 .theme-fandomdesktop-dark .info-X3-33.info-unit-caption,
 .theme-fandomdesktop-dark .info-X2-40 {
-  background:#2d74bea6;
+	background:#2d74bea6;
 }
 
 .theme-fandomdesktop-dark .info-X2-75,
 .theme-fandomdesktop-dark .info-X2-60,
 .theme-fandomdesktop-dark .info-X3-33, 
 .theme-fandomdesktop-dark .info-X2-50 {
-  background:#6e92c036;
+	background:#6e92c036;
 }
-/*dark theme navbox specific*/
+/* Dark theme navbox specific */
 .theme-fandomdesktop-dark table.navbox {
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid #000;
+	background: rgba(0, 0, 0, 0);
+	border: 1px solid #000;
 }
 
 
 .theme-fandomdesktop-dark .navbox-title a,
 .theme-fandomdesktop-dark div#content .navbox-title a.external {
-  color: #7f9dff;
+	color: #7f9dff;
 }
 
 .theme-fandomdesktop-dark .navbox-abovebelow,
 .theme-fandomdesktop-dark .navbox-group,
 .theme-fandomdesktop-dark .navbox-subgroup .navbox-title {
-background-color: #252525a4;
-color: #7FE7FF;
-border: 1px solid #a2a9b1;
+	background-color: #252525a4;
+	color: #7FE7FF;
+	border: 1px solid #a2a9b1;
 }
 .theme-fandomdesktop-dark .navbox-list {
-  border-bottom:1px solid rgba(0,0,0,0.5);
-  color: #88E9FF;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+	color: #88E9FF;
 }
 .theme-fandomdesktop-dark .navbox-title,
 .theme-fandomdesktop-dark table.navbox th {
-  font-weight: bold;
-  font-size: 120%;
-  color: #88E9FF;
-  background: #2768A5;
+	font-weight: bold;
+	font-size: 120%;
+	color: #88E9FF;
+	background: #2768A5;
 }
 
 .theme-fandomdesktop-dark .navbox-abovebelow,
 .theme-fandomdesktop-dark .navbox-group,
 .theme-fandomdesktop-dark .navbox-subgroup .navbox-title {
-  background-color: rgba(0,0,0,0.75);
-  color: #80E7FF;
-  border: 1px solid #3F737F;
+	background-color: rgba(0,0,0,0.75);
+	color: #80E7FF;
+	border: 1px solid #3F737F;
 }
-/*dark theme NavBox Creatures specific*/
+/* Dark theme [[Template:Nav Creatures]] */
 .theme-fandomdesktop-dark .navbox-creature-item div {
 	background-color: #2d74be;
 }
 
 .theme-fandomdesktop-dark .creature_roster li:hover > div {
-  box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
+	box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
 } 
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-white {
-  background-color:#D5F2F2;
+	background-color:#D5F2F2;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-yellow {
-  background-color:#E5DFAC;
+	background-color:#E5DFAC;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-brown {
-  background-color:#e5c6ac;
+	background-color:#e5c6ac;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-purple {
-  background-color:#CEACE5;
+	background-color:#CEACE5;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-orange {
-  background-color:#FAD6A5;
+	background-color:#FAD6A5;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-grey {
-  background-color:#C4C4C4
+	background-color:#C4C4C4
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-green {
-  background-color:#a6ffa9
+	background-color:#a6ffa9
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-cyan {
-  background-color:#86e0f0
+	background-color:#86e0f0
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-pink {
-  background-color:#ffb0eb
+	background-color:#ffb0eb
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-red {
-  background-color:#e5acb1
+	background-color:#e5acb1
 }
-/*dark theme Template:Photo specific*/
+/* Dark theme Template:Photo */
 .theme-fandomdesktop-dark .photo-nav,
 .theme-fandomdesktop-dark .photo-nav a:link,
 .theme-fandomdesktop-dark .photo-nav a:visited {
@@ -1302,10 +1100,10 @@ border: 1px solid #a2a9b1;
 	box-shadow: 0 0 8px #333;
 }
 
-.theme-fandomdesktop-dark .redish-background{
+.theme-fandomdesktop-dark .redish-background {
 	background-color:#cf4c4c8a;
 }
-/*dark theme Tiles (Template:Tile) */
+/* Dark theme Tiles (Template:Tile) */
 .theme-fandomdesktop-dark .tile_container {
 	background: #021d31;
 	color: #88E9FF;
@@ -1317,28 +1115,18 @@ border: 1px solid #a2a9b1;
 	color: #ddd;
 	border-color: #7FE7FF;
 }
-/* [[Template:PaintRegions]] */
-.theme-fandomdesktop-dark .paintregion {
-	background: #1D558C;
-	border: 0.3em inset #4E99C1; 
-}
-/*ExplorerNote changelog table fix*/
+/* ExplorerNote changelog table fix */
 .theme-fandomdesktop-dark .explorernot-change-tableend {
 	background: #262729ab !important;
 	color: #88E9FF;
 }
-/*status effect styling*/
+/* Status effect styling */
 .theme-fandomdesktop-dark table.status-effect-backg {
 	text-align: left;
 	margin-top:1em;
 	margin-bottom:1em;
-	border: 1px solid #7FE7FF;
-	background: #6e92c06b;
-	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
-	background: -o-linear-gradient(#6e92c06b, #828af38c);
-	background: -moz-linear-gradient(#6e92c06b, #828af38c);
-	background: linear-gradient(#6e92c06b, #828af38c);
-	color: #88E9FF;
+	background: #1D558C;
+	border: 0.3em inset #4E99C1; 
 }
 /* Patch Notes */
 .theme-fandomdesktop-dark .PN-normal {
@@ -1346,23 +1134,7 @@ border: 1px solid #a2a9b1;
 	text-align: center;
 	width: 35px;
 }
-/*Template:Dossier & Template:Quote*/
-.theme-fandomdesktop-dark table.dossier-background{
-	background:#6e92c036;
-	border:2px solid #2d74bea6;
-	color:#88E9FF !important;
-}
-
-.theme-fandomdesktop-dark .dossier-cite-left, 
-.theme-fandomdesktop-dark .quote-left{
-	color: #2d74bed9;
-}
-
-.theme-fandomdesktop-dark .dossier-cite-right, 
-.theme-fandomdesktop-dark .quote-right{
-	color: #2d74bed9;
-}
-/*Template:Explorer Note*/
+/* Template:Explorer Note */
 .theme-fandomdesktop-dark .explorer-note{
 	color: #88E9FF !important;
 }
@@ -1371,7 +1143,8 @@ border: 1px solid #a2a9b1;
 	border:2px solid #2d74bea6;
 	background: #00000040
 }
-/*styling for kibble tables*/
+
+/* Styling for kibble tables */
 .theme-fandomdesktop-dark .kibble-table{
 	border-left: solid #2d74bea6;
 	border-bottom: solid #2d74bea6;
@@ -1383,154 +1156,116 @@ border: 1px solid #a2a9b1;
 	border-bottom: solid #2d74bea6;
 	background-color: #6e92c036;
 }
+
 /* Used by [[Table of Tekgrams]] and [[CreatureTableRow]] */
 .theme-fandomdesktop-dark .cell-green {
-  background-color:#004C07 !important;
+	background-color:#004C07 !important;
 }
 
 .theme-fandomdesktop-dark .cell-yellow {
-  background-color:#7F6A00 !important;
+	background-color:#7F6A00 !important;
 }
 
 .theme-fandomdesktop-dark .cell-pink {
-  background-color:#7F0000 !important;
+	background-color:#7F0000 !important;
 }
 
 .theme-fandomdesktop-dark .cell-grey {
-  background-color:#454545 !important;
+	background-color:#454545 !important;
 }
 
 .theme-fandomdesktop-dark .ctc-notice {
-  display:inline-block; 
-  border:1px dashed yellow; 
-  background:#0000007a; 
-  padding:10px;
+	display:inline-block; 
+	border:1px dashed yellow; 
+	background:#0000007a; 
+	padding:10px;
 }
+
 /* Tweak for illegible css code highlighting */
 .theme-fandomdesktop-dark .mw-highlight .nc,
 .theme-fandomdesktop-dark .mw-highlight .nn {
-  color:#8E8ECC;
+	color:#8E8ECC;
 }
 
 /* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
 .theme-fandomdesktop-dark .text-white {
-  color:#FFFFFF
+	color:#FFFFFF
 }
 
 .theme-fandomdesktop-dark .text-green {
-  color:#0F0
+	color:#0F0
 }
 
 .theme-fandomdesktop-dark .text-blue {
-  color:#0059FF
+	color:#0059FF
 }
 
 .theme-fandomdesktop-dark .text-purple {
-  color:#F0F
+	color:#F0F
 }
 
 .theme-fandomdesktop-dark .text-yellow {
-  color:#FF0
+	color:#FF0
 }
 
 .theme-fandomdesktop-dark .text-red {
-  color:#F00
+	color:#F00
 }
 
 .theme-fandomdesktop-dark .text-cyan {
-  color:#0FF
+	color:#0FF
 }
 
 .theme-fandomdesktop-dark .text-orange {
-  color:#F90
+	color:#F90
 }
-/* Narrow width skin-specific tweaks */
-@media screen and (max-width:720px) {
-  .theme-fandomdesktop-dark div#right-navigation div#simpleSearch {
-    border-bottom:1px solid #7FE7FF;
-  }
-  
-  .theme-fandomdesktop-dark div.vectorTabs li span,
-  .theme-fandomdesktop-dark div#mw-head div.vectorMenu h3 {
-    margin:0;
-  }
-  
-  .theme-fandomdesktop-dark div#mw-navigation div#mw-panel {
-    border: 1px solid #7FE7FF;
-    border-left:0;
-    background-color: rgba(4,36,48,0.95);
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
-  }
-}
+
 /* Coloring for [[Template:Mission]] */
 .theme-fandomdesktop-dark .mission {
-  border:2px solid #00cefa;
-  background: #003E4C;
-  color:#BCEEFA;
+	border:2px solid #00cefa;
+	background: #003E4C;
+	color:#BCEEFA;
 }
 
 .theme-fandomdesktop-dark .mission-dif-gamma {
-  color:#4edb17;
+	color:#4edb17;
 }
 
 .theme-fandomdesktop-dark .mission-dif-beta {
-  color:#19cff9;
+	color:#19cff9;
 }
 
 .theme-fandomdesktop-dark .mission-dif-alpha {
-  color:#f76450;
+	color:#f76450;
 }
 
 .theme-fandomdesktop-dark .mission-dif-none {
-  color:#BCEEFA;
+	color:#BCEEFA;
 }
 
 /* Used by [[Template:HoverText]] */
 .theme-fandomdesktop-dark .hover-text {
-  cursor:help;
-  border-bottom:1px dotted #4FB5FF;
+	cursor:help;
+	border-bottom:1px dotted #4FB5FF;
 }
 
-/* Coloring for [[Template:Mission]] */
-.theme-fandomdesktop-dark .mission {
-  border:2px solid #00cefa;
-  background: #003E4C;
-  color:#BCEEFA;
-}
-
-.theme-fandomdesktop-dark .mission-dif-gamma {
-  color:#4edb17;
-}
-
-.theme-fandomdesktop-dark .mission-dif-beta {
-  color:#19cff9;
-}
-
-.theme-fandomdesktop-dark .mission-dif-alpha {
-  color:#f76450;
-}
-
-.theme-fandomdesktop-dark .mission-dif-none {
-  color:#BCEEFA;
-}
 /* Styling for collapsible toggle */
 .theme-fandomdesktop-dark .mw-collapsible-toggle.mw-collapsible-toggle-expanded a, 
 .theme-fandomdesktop-dark .mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
-    color: #4FB5FF;
+	color: #4FB5FF;
 }
+
 /* Invert [[File:PS.svg]] colors for better visibility */
 .theme-fandomdesktop-dark img[src*="/PS.svg/"] {
-  -webkit-filter:
-    invert(100%);
-  filter:
-    invert(100%);
+	filter:	invert(100%);
 }
+
 /*Source Editor visual fixes*/
-.theme-fandomdesktop-dark .CodeMirror{
+.theme-fandomdesktop-dark .CodeMirror {
 	background-color: black;
 	color: whitesmoke;
 }
 
-.theme-fandomdesktop-dark .cm-mw-ext3-ground{
+.theme-fandomdesktop-dark .cm-mw-ext3-ground {
 	background-color: #c234c442;
 }
