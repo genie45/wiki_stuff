@@ -3,7 +3,7 @@
 /* To find stuff specific to dark / light skin search for dark or light as they are further down the page */
 
 /* Everything that affects both themes */
-/* Import custom font that doesnt look ugly */
+/* Import custom font that doesn't look ugly */
 div#content {
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	font-size: 14px;
@@ -49,6 +49,11 @@ main.page__main::before {
 	--ark-dossier-background-color: #f0e1c2;
 	--ark-dossier-border-color: #7d5f2a;
 	--ark-dossier-text-color: #3c2a09;
+	/* Template:Mission, Module:LootTable */
+	--ark-difficulty-gamma: #48BF15;
+	--ark-difficulty-beta: #17B5D8;
+	--ark-difficulty-alpha: #D85847;
+	--ark-difficulty-none: #BCEEFA;
 }
 
 /* Dark theme colors */
@@ -74,12 +79,16 @@ main.page__main::before {
 	--ark-dossier-background-color: #6e92c036;
 	--ark-dossier-border-color: #2d74bea6;
 	--ark-dossier-text-color: #88E9FF;
+	/* Template:Mission, Module:LootTable */
+	--ark-difficulty-gamma: #4edb17;
+	--ark-difficulty-beta: #19cff9;
+	--ark-difficulty-alpha: #f76450;
+	--ark-difficulty-none: #BCEEFA;
 }
 
 /* Restore pre-FD table header text centering */
 .wikitable > tr > th, .wikitable > * > tr > th {
 	text-align: center;
-	background-color: var(--custom-table-header-background);
 }
 
 /* Restore pre-FD Hydra/Vector table paddings. */
@@ -90,9 +99,22 @@ main.page__main::before {
 	padding: 0.2em 0.4em;
 }
 
+/* Fix issues with tables with spanning rows/columns */
+.article-table tr td:first-child,
+.article-table tr th:first-child,
+.wikitable tr td:first-child,
+.wikitable tr th:first-child {
+    border: 1px solid var(--theme-border-color);
+}
+
 /* Make pseudo-heading padding closer to H4 */
 .page-content dl {
 	margin: 2px 0 6px;
+}
+
+/* Fix the "document contains errors" warning text color in dark theme */
+.oo-ui-messageDialog-message {
+	color: var(--theme-page-text-color);
 }
 
 /* Used by Template:FP heading */
@@ -110,7 +132,6 @@ main.page__main::before {
 .fpbox {
 	color: var(--theme-page-text-color);
 }
-
 
 /* Copy to clipboard */
 .copy-clipboard {
@@ -184,6 +205,8 @@ main.page__main::before {
 .infobox-table {
 	width: 100%;
 	padding: 0;
+	background-color: var(--ark-infobox-background-color);
+	border: 1px solid var(--ark-infobox-background-color);
 }
 
 .infobox-header {
@@ -527,6 +550,13 @@ table.collapsed tr.collapsible {
 .navbox.navbox-creature {
 	margin-bottom: 0;
 }
+
+/* Template:Mission */
+.mission-dif-gamma { color: var(--ark-difficulty-gamma); }
+.mission-dif-beta {	color: var(--ark-difficulty-beta); }
+.mission-dif-alpha { color: var(--ark-difficulty-alpha); }
+.mission-dif-none { color: var(--ark-difficulty-none); }
+
 /* Template:Photo */
 .photo-nav, .photo-nav a:link, .photo-nav a:visited{
 	font-weight:bold;
@@ -660,28 +690,29 @@ table.dossier-background {
 .gray {
 	background-color:#E6E6E6;
 }
-/* Loottables siderail */
+/* Module:LootTable */
 .loottable {
 	padding-left: calc(1em - 5px);
-	border-left: 5px solid #5EA8D0;
+	border-left: 5px solid var(--ark-difficulty-none);
 }
 .loottable-color-red {
-	border-left-color: #D94F5D;
+	border-left-color: var(--ark-difficulty-alpha);
 }
 .loottable-color-yellow {
-	border-left-color: #D9DB59;
+	border-left-color: var(--ark-difficulty-beta);
 }
 .loottable-color-green {
-	border-left-color: #49C11E;
+	border-left-color: var(--ark-difficulty-gamma);
 }
-.adminlist-background{
+/* Admin list */
+.adminlist-background {
 	float: right;
 	padding: 0.5em;
 }
 
 /* Theme-specific */
 /* Everything light theme specific below this line */
-.theme-fandomdesktop-light .adminlist-background{
+.theme-fandomdesktop-light .adminlist-background {
 	background-color: #c0cfc9;
 	border: black solid 1px;
 }
@@ -690,10 +721,6 @@ table.dossier-background {
 	background-color: var(--ark-ambox-background-color);
 }
 /* Arkitexure specific theming */
-.infobox-table {
-	background-color: var(--ark-infobox-background-color);
-	border: 1px solid var(--ark-infobox-background-color);
-}
 
 .theme-fandomdesktop-light .infobox-header,
 .theme-fandomdesktop-light .infobox-section {
@@ -721,7 +748,7 @@ table.dossier-background {
 .theme-fandomdesktop-light .navbox-title,
 .theme-fandomdesktop-light table.navbox th {
 	color: #c4ded6;
-	background: #c0cfc9;
+	background: #13473f;
 }
 
 .theme-fandomdesktop-light .navbox-title a,
@@ -906,18 +933,6 @@ table.dossier-background {
 .theme-fandomdesktop-light .mission {
 	border:1px solid #a2a9b1;
 	background: #f8f9fa;
-}
-
-.theme-fandomdesktop-light .mission-dif-gamma {
-	color:#48BF15;
-}
-
-.theme-fandomdesktop-light .mission-dif-beta {
-	color:#17B5D8;
-}
-
-.theme-fandomdesktop-light .mission-dif-alpha {
-	color:#D85847;
 }
 /* End Template:Mission coloring; */
 /* Used by [[Template:HoverText]] */
@@ -1224,22 +1239,6 @@ table.dossier-background {
 .theme-fandomdesktop-dark .mission {
 	border:2px solid #00cefa;
 	background: #003E4C;
-	color:#BCEEFA;
-}
-
-.theme-fandomdesktop-dark .mission-dif-gamma {
-	color:#4edb17;
-}
-
-.theme-fandomdesktop-dark .mission-dif-beta {
-	color:#19cff9;
-}
-
-.theme-fandomdesktop-dark .mission-dif-alpha {
-	color:#f76450;
-}
-
-.theme-fandomdesktop-dark .mission-dif-none {
 	color:#BCEEFA;
 }
 
