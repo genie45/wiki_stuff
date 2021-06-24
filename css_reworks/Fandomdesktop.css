@@ -709,6 +709,10 @@ table.dossier-background {
 	float: right;
 	padding: 0.5em;
 }
+/*Map Template fixes*/
+.full-container {
+	background: var(--ark-dossier-background-color);
+}
 
 /* Theme-specific */
 /* Everything light theme specific below this line */
