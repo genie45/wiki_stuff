@@ -46,11 +46,13 @@ main.page__main::before {
     /* PaintRegion */
 	--ark-paintregion-background-color: #EDF3EB;
 	--ark-paintregion-border-color: #C0CFC9;
-    /* Template:Dossier & Template:Quote */
+    /* Template:DossierText & Template:Quote */
     --ark-cite-quote-color: #7d5f2a;
 	--ark-dossier-background-color: #e1d8c494;
 	--ark-dossier-border-color: #7d5f2a;
 	--ark-dossier-text-color: #3c2a09;
+	--ark-dossiernote-background-color: #f7eedf;
+	--ark-dossiernote-border-color: #7d5f2a;
 	/* Template:Mission, Module:LootTable */
 	--ark-difficulty-gamma: #48BF15;
 	--ark-difficulty-beta: #17B5D8;
@@ -78,11 +80,13 @@ main.page__main::before {
     /* PaintRegion */
 	--ark-paintregion-background-color: #1D558C;
 	--ark-paintregion-border-color: #4E99C1;
-    /* Template:Dossier & Template:Quote */
+    /* Template:DossierText & Template:Quote */
     --ark-cite-quote-color: #2d74bed9;
 	--ark-dossier-background-color: #6e92c036;
 	--ark-dossier-border-color: #2d74bea6;
 	--ark-dossier-text-color: #88E9FF;
+	--ark-dossiernote-background-color: #1a3b4d;
+	--ark-dossiernote-border-color: #2d74be;
 	/* Template:Mission, Module:LootTable */
 	--ark-difficulty-gamma: #4edb17;
 	--ark-difficulty-beta: #19cff9;
@@ -109,6 +113,11 @@ main.page__main::before {
 .wikitable tr td:first-child,
 .wikitable tr th:first-child {
     border: 1px solid var(--theme-border-color);
+}
+
+/* Remove top margin from the first paragraph in the page */
+.page-content > #mw-content-text > .mw-parser-output > p:first-of-type {
+	margin-top: 0;
 }
 
 /* Make pseudo-heading padding closer to H4 */
@@ -417,6 +426,7 @@ main.page__main::before {
 	margin:1px;
 	padding:5px 8px 5px 8px;
 	text-align:center;
+	align-self: stretch;
 }
 
 /* Infobox creature: lower line height on release dates */
@@ -483,8 +493,8 @@ table.navbox th {
 
 .navbox-group {
 	font-weight: bold;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	white-space: nowrap;
 	text-align: center;
 }
@@ -507,7 +517,7 @@ table.navbox th {
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	flex-basis:10em;
+	flex-basis:11em;
 	flex-grow:1;
 	flex-shrink:0;
 	white-space:normal;
@@ -642,13 +652,15 @@ div.photo-text{
 #fpbasics .gallerybox .gallerytext {
 	text-align: center;
 }
+
 /* [[Template:PaintRegions]] */
 .paintregion {
 	background: var(--ark-paintregion-background-color);
 	border: 0.3em inset var(--ark-paintregion-border-color); 
 }
-/* Template:Dossier & Template:Quote */
-table.dossier-background {
+
+/* Template:DossierText */
+.dossier-background {
 	border-radius: 0.5em;
 	border-left-width: 1em;
 	margin-bottom: 1em;
@@ -656,6 +668,35 @@ table.dossier-background {
 	border: 2px solid var(--ark-dossier-border-color);
 	color: var(--ark-dossier-text-color);
 }
+
+.dossier-text {
+	display: flow-root;
+	padding: 0.4em;
+}
+.dossier-text .dossier-cite-left {
+	margin-right: 0.2em;
+}
+.dossier-text-note {
+    background: var(--ark-dossiernote-background-color);
+    margin: -1.3em 0.3em 1em;
+    padding: 0.3em 0.5em;
+    border: 2px solid var(--ark-dossiernote-border-color);
+    border-radius: 0.2em;
+    width: 100%;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.2);
+}
+body.is-content-expanded .dossier-text-note {
+	float: right;
+    max-width: 235px;
+    margin-bottom: 0;
+}
+
+/* Template:DossierText predictable paragraph margin */
+.dossier-text p {
+	margin: 0 0 1em;
+}
+
+/* Template:DossierText & Template:Quote cite signs */
 .dossier-cite-left, .quote-left,
 .dossier-cite-right, .quote-right { 
 	font-size: 3.3em; 
@@ -732,21 +773,21 @@ table.dossier-background {
 .full-container {
 	background: var(--ark-dossier-background-color);
 }
-
-/*Tabbers fixes*/
-.wds-tabs__wrapper.with-bottom-border{
-	background: var(--ark-arkitex-background-color);
-	border-top: 2px solid var( --ark-arkitex-border-color);
-	border-left: 2px solid var( --ark-arkitex-border-color);
-	border-right: 2px solid var( --ark-arkitex-border-color);
+/* Tabbers with Arkitexure infoboxes */	
+.infobox-tabber .wds-tabs__wrapper.with-bottom-border,
+.info-framework .wds-tabs__wrapper.with-bottom-border{
+	background: var(--ark-arkitex-right-color);
+	border-top: 2px solid var(--ark-arkitex-border-color);
+	border-left: 2px solid var(--ark-arkitex-border-color);
+	border-right: 2px solid var(--ark-arkitex-border-color);
+	border-radius: 2px;
 }
 
-.wds-tabs__tab.wds-is-current{
+.infobox-tabber .wds-tabs__tab.wds-is-current,
+.info-framework .wds-tabs__tab.wds-is-current{
 	background: var(--ark-arkitex-left-color);
 }
-
-/* Tabbers with Arkitexure infoboxes */
-	 	
+ 	
 .infobox-tabber {
 	max-width: 410px;	
 }
@@ -1270,4 +1311,8 @@ table.dossier-background {
 
 .theme-fandomdesktop-dark .cm-mw-ext3-ground {
 	background-color: #c234c442;
+}
+/*math fixes for dark theme*/
+.theme-fandomdesktop-dark img.mwe-math-fallback-image-inline{
+	filter: invert(100%);
 }
