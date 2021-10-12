@@ -66,26 +66,79 @@ main.page__main::before {
     --ark-dossiernote-border-color: #7d5f2a;
     /* Module:LootTable */
     --ark-loottable-background-color: #ced5d29a;
+    --ark-loottable-header-color: #b3ccce80;
+    --ark-loottable-bar-color: var(--theme-accent-color);
     /* Difficulty level colors */
     --ark-difficulty-gamma: #48BF15;
     --ark-difficulty-beta: #17B5D8;
     --ark-difficulty-alpha: #D85847;
     --ark-difficulty-none: #BCEEFA;
     /* Template:Mission */
-    --ark-mission-background-color: #f8f9fa;
+    --ark-mission-background-color: #e6e8e8bb;
     /* Template:HoverNote */
     --ark-hovertext-text-color: var(--theme-accent-color);
     /* Kibble tables */
     --ark-kibbletable-border-color: #ccc;
     --ark-kibbletable-background-color: #fff;
+    /* Scrollable background */
+	--ark-header-background-image: url(https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/f/fd/Site-background-light-top.png/revision/latest);
 }
+
+/** Light theme background **/
+/* Force the document to 100% height of the viewport at minimum,
+   to fix background cut-off in editor and short pages */
+body.theme-fandomdesktop-light, .theme-fandomdesktop-light .main-container {
+	min-height: 100vh;
+}
+/* Custom scrolling body background & header font fixes */
+.theme-fandomdesktop-light {
+	background-image: var(--theme-body-background-image);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.theme-fandomdesktop-light .main-container {
+	position: relative;
+}
+.theme-fandomdesktop-light .fandom-community-header__background {
+	background-image: var(--ark-header-background-image);
+    position: absolute;
+	inset: 0 0 0 -66px; /* negating global nav width */
+	height: auto;
+	width: auto;
+    background-position: center 0;
+    background-size: 2560px; /* image width */
+	max-height: 4028px; /* image height */
+}
+.theme-fandomdesktop-light .fandom-community-header__background::before {
+	display: none;
+}
+/* Header background for visibility on light theme */
+.theme-fandomdesktop-light .fandom-community-header {
+	background: linear-gradient(to bottom, rgba(var(--theme-page-background-color--rgb), 0.05), rgba(var(--theme-page-background-color--rgb), 0.8)),
+				radial-gradient(farthest-side at left bottom, rgba(var(--theme-page-background-color--rgb), 0.90) 5%, rgba(var(--theme-page-background-color--rgb), 0.05)) 5%,
+				radial-gradient(farthest-side at right bottom, rgba(var(--theme-page-background-color--rgb), 0.90) 5%, rgba(var(--theme-page-background-color--rgb), 0.05)) 5%;
+	padding: 8px 10px 12px;
+	border-radius: 3px 3px 0 0;
+}
+.theme-fandomdesktop-light .community-header-wrapper {
+    height: 168px; /* 148px + 12px + 8px */
+}
+.theme-fandomdesktop-light .page {
+    margin-top: 0;
+}
+.theme-fandomdesktop-light .community-header-wrapper.wds-is-hidden ~ .page,
+.theme-fandomdesktop-light.ve-active .page {
+    margin-top: 50px;
+}
+/** END Light theme background **/
 
 /* Dark theme colors */
 .theme-fandomdesktop-dark {
     /* Text color */
-    --theme-page-text-color: #88E9FF;
-    --theme-page-text-color--hover: #69B5C6;
-    --theme-page-text-color--rgb: 136, 233, 255;
+    --theme-page-text-color: #A0DDEC;
+    --theme-page-text-color--hover: #88E9FF;
+    --theme-page-text-color--rgb: 160, 221, 236;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     /* Table of Contents */
@@ -118,6 +171,7 @@ main.page__main::before {
     --ark-dossiernote-border-color: #2d74be;
     /* Module:LootTable */
     --ark-loottable-background-color: #021e289a;
+    --ark-loottable-header-color: #0b58599a;
     /* Difficulty level colors */
     --ark-difficulty-gamma: #4edb17;
     --ark-difficulty-beta: #19cff9;
@@ -141,8 +195,8 @@ body {
 }
 
 /* Restore pre-FD table header text centering */
-.wikitable>tr>th,
-.wikitable>*>tr>th {
+.wikitable > tr > th,
+.wikitable > * > tr > th {
     text-align: center;
 }
 
@@ -162,31 +216,62 @@ body {
     border: 1px solid var(--theme-border-color);
 }
 
-/* Remove top margin from the first paragraph in the page */
-.page-content>#mw-content-text>.mw-parser-output>p:first-of-type {
-    margin-top: 0;
+/* Nested list margin fix */
+.page-content ol > li > ol,
+.page-content ol > li > ul,
+.page-content ul > li > ol,
+.page-content ul > li > ul {
+    margin: 0.3em 0 0.3em 1.6em;
 }
 
 /* Make pseudo-heading padding closer to H4 */
 .page-content dl {
     margin: 2px 0 6px;
 }
-
-/* Sane-ish paragraph margins after pseudo-headings */
 .page-content dl+p {
     margin: 0 0 1.2em;
 }
 
-/* Reduce the awful paragraph margins after 07/07/2021 */
-.page-content p {
-    margin-top: 1em;
-    margin-bottom: 1em;
+/* Reduce paragraph (and list) margins */
+.mw-parser-output > p, .mw-parser-output p {
+    margin: 0 0 14px;
+}
+.page-content p + ol, .page-content p + ul, .page-content section + ol, .page-content section + ul {
+    margin-top: -7px;
+}
+.page-content p + p {
+    margin-top: 14px;
+}
+.page-content ol, .page-content ul {
+    margin: 6px 0 9px 18px;
+}
+
+/* Fix lists in tabbers with mw-empty-elt disabled */
+.wds-tab__content > .mw-empty-elt:first-child + ul {
+    margin-top: 7px;
+}
+
+/* Make ~12/08/2021 Fandom changes apply to code blocks */
+.mw-parser-output p + pre {
+	margin-top: -6px;
+}
+.mw-parser-output pre + p {
+	margin-top: 14px;
 }
 
 /* Make self-links bold */
 .mw-selflink.selflink {
     font-weight: bold;
-    color: var(--theme-page-dynamic-color-1);
+    color: inherit;
+}
+
+/* Template:tocright */
+.tocright {
+	float: right;
+	padding-left: 1.4em;
+}
+body:not(.is-content-expanded) .page-content .tocright {
+	max-width: 22em;
 }
 
 /* Fix the "document contains errors" warning text color in dark theme */
@@ -194,9 +279,10 @@ body {
     color: var(--theme-page-text-color);
 }
 
-/* Table of contents background */
+/* Table of contents background and margins */
 #content #toc {
     background: var(--ark-toc-background-color);
+	margin: 16px auto 16px 0;
 }
 
 /* <pre> word line breaking */
@@ -236,6 +322,41 @@ body {
     font-family: FontAwesome;
 }
 
+/* Make spacing seem more consistent for page indicators around the rest of the UI.
+   Excluding mod namespace, since the mod indicator has different requirements. */
+body:not(.ns-10004) .page-header__indicators {
+    margin-bottom: 0.5em;
+    margin-top: -6px;
+}
+
+/* Page status indicators */
+.mw-indicator a.image:first-child:last-child img {
+    vertical-align: middle;
+}
+#mw-indicator-mod > a:last-child {
+	font-size: 24px;
+	line-height: 32px;
+	vertical-align: top;
+	font-weight: 200
+}
+.indicator-dlc {
+    vertical-align: text-bottom;
+    padding-left: 2px;
+}
+/* Split platform exclusivity and DLC indicators with a vertical line */
+.mw-indicator[id^="mw-indicator-DLC"] + .mw-indicator[id^="mw-indicator-zPlatform"] {
+    border-left: 2px solid rgba(var(--theme-page-dynamic-color-2--rgb), 0.4);
+    padding-left: 6px;
+}
+/* Downsize DLC indicators in narrow view */
+body:not(.is-content-expanded) .mw-indicator[id^="mw-indicator-DLC"] {
+  font-size: 12px;
+}
+body:not(.is-content-expanded) .mw-indicator[id^="mw-indicator-DLC"] img {
+  height: 14px;
+  width: 14px;
+}
+
 /*Achievement styling*/
 .achieve_container {
     width: 600px;
@@ -246,12 +367,57 @@ body {
 }
 
 .achieve_container .achieve_name {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    font-size: 1.25em;
     color: var(--theme-page-text-color);
 }
+
+.achieve_icon {
+    width: 64px;
+    height: 64px;
+    vertical-align: top;
+}
+
+.achieve_avail {
+    display: inline-block;
+    height: 0px;
+    margin-right: 5px;
+}
+
+.achieve_unavail {
+    display: inline-block;
+    height: 0px;
+    margin-right: 5px;
+    overflow: wrap;
+}
+
+.gray_circle {
+    display: block;
+    position: relative;
+    top: -19px;
+    background: lightgray;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
 
 /* Hide mw-empty-elt in tabbers */
 .tabber .mw-empty-elt {
     display: none;
+}
+
+/* Float & margin on interactive region maps */
+.interactive-regionmap-table {
+	float: right;
+	clear: right;
+	margin-left: 1em;
+}
+
+body:not(.is-content-expanded) .narrow-no-float {
+	float: none;
 }
 
 /* Limit size of interactive region maps when not in narrow view */
@@ -291,6 +457,11 @@ div.magnify a {
     border-left-style: solid;
     border-left-width: 10px;
     background-color: var(--ark-ambox-background-color);
+}
+
+/* Remove top margin above first ambox in the article */
+.mw-parser-output > .ambox:first-child {
+	margin-top: 0;
 }
 
 .ambox-icon {
@@ -449,6 +620,7 @@ div.magnify a {
 .info-X2-75,
 .info-X2-60,
 .info-X3-33,
+.info-X4-25,
 .info-X2-50 {
     background: var(--ark-arkitex-right-color);
 }
@@ -579,6 +751,15 @@ div.magnify a {
     align-self: stretch;
 }
 
+/* Arkitexure cell, intended for four total columns, 25% width */
+.info-X4-25 {
+    width: 25%;
+    margin: 1px;
+    padding: 5px 8px 5px 8px;
+    text-align: center;
+    align-self: stretch;
+}
+
 /* Infobox creature: lower line height on release dates */
 @media only screen and (min-width:1500px) {
     .info-arkitex .info-X3-33 .mw-formatted-date {
@@ -607,14 +788,17 @@ div.magnify a {
     display: inline-block;
 }
 
-/* Expanded Template:SpawningMap tabbers */
-.spawningMap>.wds-tabber .wds-tabs {
+/* Reskinned compact-ish Template:SpawningMap, Template:LootTable and .structureSelector tabbers */
+.spawningMap>.wds-tabber .wds-tabs,
+.structureSelector .wds-tabber .wds-tabs {
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: hidden;
 }
 
-.spawningMap>.wds-tabber .wds-tabs__tab-label {
+.spawningMap>.wds-tabber .wds-tabs__tab-label,
+.loottable .wds-tabber .wds-tabber .wds-tabs__tab-label,
+.structureSelector .wds-tabber .wds-tabs__tab-label {
     height: 30px;
     letter-spacing: 0;
     margin: 0 8px;
@@ -877,9 +1061,28 @@ div.photo-text {
     height: 75px;
 }
 
+/* Lower paragraph margins in patch notes on main page */
+#fp-4 .fpbody .mw-collapsible + p {
+    margin-top: 1em;
+}
+
+#fp-4 .fpbody p:first-child i {
+    display: inline-block;
+    margin-bottom: 0.6em;
+}
+
+#fp-4 .fpbody p {
+    margin: 0.3em;
+}
+
 /* Restore pre-FD centered captions in FP Quick Game Basics */
 #fpbasics .gallerybox .gallerytext {
     text-align: center;
+}
+
+/*fix for captions on gallery not centered*/
+.gallerytext p {
+	text-align: center;
 }
 
 /* [[Template:PaintRegions]] */
@@ -991,28 +1194,82 @@ html.is-content-expanded .dossier-text-note {
 
 /* Used by some templates for graying table cells */
 .gray {
-    background-color: #E6E6E6;
+    background-color: #0000003A;
 }
 
 /* Module:LootTable */
 .loottable {
-    padding: 1em;
-    padding-left: calc(1em - 5px);
     background: var(--ark-loottable-background-color);
-    border-left: 5px solid var(--ark-difficulty-none);
+    border: 2px solid var(--ark-loottable-bar-color);
     border-radius: 2px;
+	border-left-width: 6px;
+	display: flex;
+	align-items: stretch;
 }
 
-.loottable-color-red {
-    border-left-color: var(--ark-difficulty-alpha);
+.loottable-leftbar {
+    background: var(--ark-loottable-bar-color);
+    padding: 2px;
 }
 
-.loottable-color-yellow {
-    border-left-color: var(--ark-difficulty-beta);
+.loottable > div:last-child {
+	flex-grow: 1;
 }
 
-.loottable-color-green {
-    border-left-color: var(--ark-difficulty-gamma);
+.loottable > div:last-child > dl:first-child,
+.loottable > div:last-child > .tabber > .wds-tabs__wrapper {
+	background: var(--ark-loottable-header-color);
+}
+
+.loottable > div:last-child > dl:first-child {
+	padding: 1em 1em 0;
+	margin: 0;
+}
+
+.loottable .wds-tab__content .wds-tab__content {
+    padding: 0 1.5em 0 calc(1.5em - 5px);
+}
+
+.loottable .wds-tabber .wds-tabber .wds-tabs {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.loottable .wds-tab__content > h3.with-separator {
+	border-top: 3px solid var(--ark-arkitex-accent-color);
+    padding: 1em 1em 0;
+    margin: 0 -1em 0.5em;
+}
+
+/* Template:AttackInfo */
+.dino-attacks {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px 8px;
+}
+.dino-attack-info {
+	width: 900px;
+	margin: 0;
+}
+body:not(.is-content-expanded) .dino-attack-info {
+	width: 100%;
+}
+.dino-attack-info th {
+	width: 150px;
+}
+.dino-attack-info ul b {
+    font-weight: 600;
+}
+.dino-attack-species-label {
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 16px;
+	margin: 4px 12px -4px;
+}
+.dino-attack-species-label > a:last-child {
+	vertical-align: middle;
 }
 
 /* Admin list */
@@ -1027,25 +1284,24 @@ html.is-content-expanded .dossier-text-note {
 }
 
 /* Tabbers with Arkitexure infoboxes */
+.structureSelector .wds-tabs__wrapper.with-bottom-border,
 .infobox-tabber .wds-tabs__wrapper.with-bottom-border,
 .info-framework .wds-tabs__wrapper.with-bottom-border {
     background: var(--ark-arkitex-right-color);
     border-radius: 2px;
 }
 
+.structureSelector .wds-tabs__wrapper.with-bottom-border,
 .infobox-tabber .wds-tabs__wrapper.with-bottom-border {
     border-top: 2px solid var(--ark-arkitex-border-color);
     border-left: 2px solid var(--ark-arkitex-border-color);
     border-right: 2px solid var(--ark-arkitex-border-color);
 }
 
+.structureSelector .wds-tabs__tab.wds-is-current,
 .infobox-tabber .wds-tabs__tab.wds-is-current,
 .info-framework .wds-tabs__tab.wds-is-current {
     background: var(--ark-arkitex-left-color);
-}
-
-.infobox-tabber {
-    max-width: 410px;
 }
 
 /* Theme-specific */
@@ -1092,23 +1348,23 @@ html.is-content-expanded .dossier-text-note {
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-grey {
-    background-color: #d6d6d6
+    background-color: #d6d6d6;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-green {
-    background-color: #cdffc9
+    background-color: #cdffc9;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-cyan {
-    background-color: #c2f6ff
+    background-color: #c2f6ff;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-pink {
-    background-color: #ffc2f3
+    background-color: #ffc2f3;
 }
 
 .theme-fandomdesktop-light .navbox-creature-item .nav-red {
-    background-color: #ffd1d1
+    background-color: #ffd1d1;
 }
 
 /* Light theme Template:Photo specific */
@@ -1242,7 +1498,6 @@ html.is-content-expanded .dossier-text-note {
     position: relative;
     border: 1px solid #7FE7FF;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
-    color: #88E9FF;
 }
 
 /* End base framework */
@@ -1311,23 +1566,23 @@ html.is-content-expanded .dossier-text-note {
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-grey {
-    background-color: #C4C4C4
+    background-color: #C4C4C4;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-green {
-    background-color: #a6ffa9
+    background-color: #a6ffa9;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-cyan {
-    background-color: #86e0f0
+    background-color: #86e0f0;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-pink {
-    background-color: #ffb0eb
+    background-color: #ffb0eb;
 }
 
 .theme-fandomdesktop-dark .navbox-creature-item .nav-red {
-    background-color: #e5acb1
+    background-color: #e5acb1;
 }
 
 /* Dark theme Template:Photo */
@@ -1475,4 +1730,117 @@ html.is-content-expanded .dossier-text-note {
 /* Math fixes for dark theme */
 .theme-fandomdesktop-dark img.mwe-math-fallback-image-inline {
     filter: invert(100%);
+}
+
+/** List styles for ARK Additions (courtesy of User:Emptylord) **/
+
+/* (1) table-list */
+.tlist ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.tlist li {
+    margin: 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+.tlist.twrap li {
+    white-space: normal;
+}
+
+.fluidcolumn_4 li { width: 20em; }
+.fluidcolumn_8 li { width: 10em; }
+
+.multicolumn_8 li { width:12.5%; }
+.multicolumn_5 li { width:20.0%; }
+.multicolumn_4 li { width:25.0%; }
+.multicolumn_3 li { width:33.3%; }
+.multicolumn_2 li { width:50.0%; }
+
+/* (2) horizontal list */
+.hlist dl {
+    line-height: 1.5em;
+}
+.hlist dl,
+.hlist ol,
+.hlist ul {
+    margin: 0;
+}
+.hlist dd,
+.hlist dt,
+.hlist li {
+    display: inline;
+    margin: 0;
+}
+/* Display nested lists inline */
+.hlist dl dl,
+.hlist ol ol,
+.hlist ul ul {
+    display: inline;
+}
+/* Nowrap list items */
+.hlist dd,
+.hlist dt,
+.hlist li {
+    white-space: nowrap;
+}
+/* But allow parent list items to be wrapped */
+.hlist dd dl,
+.hlist dt dl,
+.hlist li ol,
+.hlist li ul {
+    white-space: normal;
+}
+/* Generate interpuncts */
+.hlist dt:after {
+    content: ":";
+}
+.hlist dd:after,
+.hlist li:after {
+    content: " ·";
+    font-weight: bold;
+}
+.hlist dd:last-child:after,
+.hlist dt:last-child:after,
+.hlist li:last-child:after {
+    content: none;
+}
+/* Add parens around nested lists */
+.hlist dl dl dd:first-child:before,
+.hlist ol ol li:first-child:before,
+.hlist ul ul li:first-child:before {
+    content: "(";
+}
+.hlist dl dl dd:last-child:after,
+.hlist ol ol li:last-child:after,
+.hlist ul ul li:last-child:after {
+    content: ")";
+    font-weight: normal;
+}
+/* Put numbers in ordered lists */
+.hlist.hnum ol li {
+    counter-increment: level1;
+}
+.hlist.hnum ol li:before {
+    content: counter(level1) " ";
+}
+.hlist.hnum ol ol li {
+    counter-increment: level2;
+}
+.hlist.hnum ol ol li:first-child:before {
+    content: "(" counter(level2) " ";
+}
+.hlist.hnum ol ol li:before {
+    content: counter(level2) " ";
+}
+ 
+/* (3) plain lists */
+.plainlist ul {
+    line-height: inherit;
+    list-style: none none;
+    margin: 0;
+}
+.plainlist ul li {
+    margin-bottom: 0;
 }
