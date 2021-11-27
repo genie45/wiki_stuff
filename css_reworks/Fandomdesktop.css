@@ -224,27 +224,17 @@ body {
     margin: 0.3em 0 0.3em 1.6em;
 }
 
-/* Make pseudo-heading padding closer to H4 */
-.page-content dl {
-    margin: 2px 0 6px;
-}
-.page-content dl+p {
-    margin: 0 0 1.2em;
-}
+/* Make definition list heading padding closer to H4 */
+.page-content dl { margin: 2px 0 6px; }
+.page-content dl+p { margin: 0 0 1.2em; }
 
 /* Reduce paragraph (and list) margins */
-.mw-parser-output > p, .mw-parser-output p {
-    margin: 0 0 14px;
-}
+.page-content p { margin: 0 0 12px; }
 .page-content p + ol, .page-content p + ul, .page-content section + ol, .page-content section + ul {
     margin-top: -7px;
 }
-.page-content p + p {
-    margin-top: 14px;
-}
-.page-content ol, .page-content ul {
-    margin: 6px 0 9px 18px;
-}
+.page-content p + p { margin-top: 12px; }
+.page-content ol, .page-content ul { margin: 6px 0 9px 18px; }
 
 /* Fix lists in tabbers with mw-empty-elt disabled */
 .wds-tab__content > .mw-empty-elt:first-child + ul {
@@ -252,12 +242,8 @@ body {
 }
 
 /* Make ~12/08/2021 Fandom changes apply to code blocks */
-.mw-parser-output p + pre {
-	margin-top: -6px;
-}
-.mw-parser-output pre + p {
-	margin-top: 14px;
-}
+.mw-parser-output p + pre { margin-top: -6px; }
+.mw-parser-output pre + p { margin-top: 14px; }
 
 /* Make self-links bold */
 .mw-selflink.selflink {
@@ -274,9 +260,9 @@ body:not(.is-content-expanded) .page-content .tocright {
 	max-width: 22em;
 }
 
-/* Fix the "document contains errors" warning text color in dark theme */
-.oo-ui-messageDialog-message {
-    color: var(--theme-page-text-color);
+/* Fix a Fandom JS bug that causes ToC icon to duplicate on a hook used by RailModule */
+.toctitle > h2 > .wds-icon + .wds-icon {
+    display: none;
 }
 
 /* Table of contents background and margins */
@@ -286,9 +272,7 @@ body:not(.is-content-expanded) .page-content .tocright {
 }
 
 /* <pre> word line breaking */
-.page-content pre {
-    white-space: pre-wrap;
-}
+.page-content pre { white-space: pre-wrap; }
 
 /* Used by Template:FP heading */
 .fpheading {
@@ -343,8 +327,10 @@ body:not(.ns-10004) .page-header__indicators {
     vertical-align: text-bottom;
     padding-left: 2px;
 }
-/* Split platform exclusivity and DLC indicators with a vertical line */
-.mw-indicator[id^="mw-indicator-DLC"] + .mw-indicator[id^="mw-indicator-zPlatform"] {
+/* Split platform exclusivity, event and DLC indicators with a vertical line */
+.mw-indicator[id^="mw-indicator-DLC"] + .mw-indicator[id^="mw-indicator-zPlatform"],
+#mw-indicator-EventContent + .mw-indicator[id^="mw-indicator-zPlatform"],
+#mw-indicator-EventContent + .mw-indicator[id^="mw-indicator-DLC"] {
     border-left: 2px solid rgba(var(--theme-page-dynamic-color-2--rgb), 0.4);
     padding-left: 6px;
 }
@@ -798,11 +784,22 @@ div.magnify a {
 
 .spawningMap>.wds-tabber .wds-tabs__tab-label,
 .loottable .wds-tabber .wds-tabber .wds-tabs__tab-label,
-.structureSelector .wds-tabber .wds-tabs__tab-label {
+.structureSelector .wds-tabber .wds-tabs__tab-label,
+.railModule .wds-tabber .wds-tabs__tab-label {
     height: 30px;
     letter-spacing: 0;
     margin: 0 8px;
     font-size: 13px;
+}
+
+/* Official server rates rail module */
+.railModule .wds-tabber .wds-tabs {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.railModule .wds-tabber .wds-tab__content {
+    border: 1px solid var(--theme-accent-color);
+    padding: 0 0.5em 7px;
 }
 
 /* Cleaner Template:SpawningMap tabber borders in Arkitex */
@@ -817,6 +814,13 @@ div.magnify a {
 
 .info-spawn>.tabber .spawningMap .wds-tabs__wrapper.with-bottom-border {
     border-bottom: none;
+}
+
+/* Notice label for SpawningMaps in the infobox */
+.info-spawningmap-event {
+	padding: 0.2em;
+	background: var(--ark-arkitex-right-color);
+	border-bottom: 1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.25);
 }
 
 /* Center spawning maps in wikitables */
@@ -1240,6 +1244,14 @@ html.is-content-expanded .dossier-text-note {
 	border-top: 3px solid var(--ark-arkitex-accent-color);
     padding: 1em 1em 0;
     margin: 0 -1em 0.5em;
+}
+
+.loottable-frame {
+	border: 1px solid rgba(var(--theme-accent-color--rgb),0.5);
+    padding: 0.25em 0.8em;
+    margin: 0 0 0.2em;
+    background: #ffffff10;
+    border-radius: 2px;
 }
 
 /* Template:AttackInfo */
