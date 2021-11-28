@@ -1,0 +1,232 @@
+{
+	"blank": {
+	  "game": "",
+	  "dlc": "",
+	  "variants": "",
+	  "releasedate": "Unreleased",
+	  "releaseversion": "",
+	  "xboxreleasedate": "Unreleased",
+	  "xboxreleaseversion": "",
+	  "psreleasedate": "Unreleased",
+	  "psreleaseversion": "",
+	  "mobilereleasedate": "Unreleased",
+	  "mobilereleaseversion": "",
+	  "switchreleasedate": "Unreleased",
+	  "switchreleaseversion": "",
+	  "egsreleasedate": "Unreleased",
+	  "egsreleaseversion": "",
+	  "stadiareleasedate": "Unreleased",
+	  "stadiareleaseversion": "",
+	  "baseclass": "",
+	  "baseblueprintpath": "",
+	  "class": "",
+	  "blueprintpath": "",
+	  "dossier":{
+		"commonname": "",
+		"dossierimage": "Dossier.png",
+		"soundfile": "File.ogg",
+		"categories": "",
+		"species": "",
+		"time": "",
+		"group": "",
+		"temperament": "",
+		"diet": ""
+	  },
+	  "taming": {
+		"torporimmune": "",
+		"canbetamed": "",
+		"rideable": "",
+		"equipment": "",
+		"uniquecostumes": "",
+		"canmountonhumans": "",
+		"nonviolenttame": "",
+		"knockouttame": "",
+		"ballowmountedweaponry": "",
+		"levelrequirement": "",
+		"tameineffectivenessbyaffinity": "",
+		"tameaffinitybase": "",
+		"tameaffinityperlevel": "",
+		"torpor1": "",
+		"torporincrease": "",
+		"foodconsumptionbase": "",
+		"foodconsumptionmult": "",
+		"torpordepletionps0": "",
+		"wakeaffinitymult": "",
+		"wakefooddeplmult": ""
+	  },
+	  "tamingfood": {
+		"kibble": "",
+		"mobilekibble": "",
+		"favoritefood": "",
+		"primitiveplusfood": ""
+	  },
+	  "breeding": {
+		"egg": "",
+		"mintemp": "",
+		"maxtemp": "",
+		"incubationtime": "",
+		"gestationtime": "",
+		"maturationtime": "",
+		"mintimebetweenmating": "",
+		"maxtimebetweenmating": ""
+	  },
+	  "stats": {
+		"baselevel": "",
+		"cansuffocate": "",
+		"statgainispercent": "",
+		"health": "",
+		"healthwildlevel": "",
+		"healthtamedlevel": "",
+		"healthtamedmult": "",
+		"healthtamedadd": "",
+		"stamina": "",
+		"staminawildlevel": "",
+		"staminatamedlevel": "",
+		"staminatamedmult": "",
+		"staminatamedadd": "",
+		"torpor": "",
+		"torporwildlevel": "",
+		"torportamedmult": "",
+		"torportamedadd": "",
+		"oxygen": "",
+		"oxygenwildlevel": "",
+		"oxygentamedlevel": "",
+		"oxygentamedmult": "",
+		"oxygentamedadd": "",
+		"food": "",
+		"foodwildlevel": "",
+		"foodtamedlevel": "",
+		"foodtamedmult": "",
+		"foodtamedadd": "",
+		"weight": "",
+		"weightwildlevel": "",
+		"weighttamedlevel": "",
+		"weighttamedmult": "",
+		"weighttamedadd": "",
+		"melee": "",
+		"meleewildlevel": "",
+		"meleetamedlevel": "",
+		"meleetamedmult": "",
+		"meleetamedadd": "",
+		"speed": "",
+		"speedwildlevel": "",
+		"speedtamedlevel": "",
+		"speedtamedmult": "",
+		"speedtamedadd": "",
+		"walkspeed": "",
+		"riddenwalkspeed": "",
+		"walkingstaminaconsumptionrate": "",
+		"untamedrunspeed": "",
+		"tamedrunspeed": "",
+		"tamedriddenrunspeed": "",
+		"runningstaminaconsumptionrate": "",
+		"swimspeed": "",
+		"untamedrunswimspeed": "",
+		"tamedrunswimspeed": "",
+		"tamedriddenrunswimspeed": "",
+		"swimmingstaminaconsumptionrate": "",
+		"riddenswimspeed": "",
+		"flyspeed": "",
+		"flyriddenspeed": "",
+		"untamedrunflyspeed": "",
+		"tamedrunflyspeed": "",
+		"tamedriddenrunflyspeed": "",
+		"flyingstaminaconsumptionrate": ""
+	  },
+	  "grabweightthreshold": "",
+	  "dragweight": "",
+	  "mass": "",
+	  "fecessize": "",
+	  "canbecloned": "",
+	  "radiationimmune": "",
+	  "immobilizedby": "",
+	  "candamage": "",
+	  "carryableby": "",
+	  "candragcreatureswhileflying": "",
+	  "candragcreatures": "",
+	  "passengerweightmultiplier": "",
+	  "mounteddinoweightmultiplier": "",
+	  "meleebase": "",
+	  "attacks": {
+		"1": {
+		  "name": "",
+		  "description": "",
+		  "staminacost": "",
+		  "attackrange": "",
+		  "minattackrange": "",
+		  "activateattackrange": "",
+		  "melee": {
+			"damage": "",
+			"torpormultiplier": "",
+			"torpor": "",
+			"statusvalues": {
+			  "stamina": {
+				"duration": "",
+				"damagemultiplier": "",
+				"amount": ""
+			  },
+			  "torpidity": {
+				"duration": "",
+				"damagemultiplier": "",
+				"amount": ""
+			  }
+			}
+		  },
+		  "projectile": {
+			"projectilelife": "",
+			"impact": {
+			  "damage": "",
+			  "impulse": "",
+			  "torpormultiplier": "",
+			  "torpor": "",
+			  "raidtorpormultiplier": "",
+			  "raidtorpor": "",
+			  "statusvalues": {
+				"stamina": {
+				  "duration": "",
+				  "damagemultiplier": "",
+				  "amount": ""
+				},
+				"torpidity": {
+				  "duration": "",
+				  "damagemultiplier": "",
+				  "amount": ""
+				}
+			  }
+			},
+			"explosion": {
+			  "damage": "",
+			  "impulse": "",
+			  "radius": "",
+			  "torpormultiplier": "",
+			  "torpor": "",
+			  "raidtorpormultiplier": "",
+			  "raidtorpor": "",
+			  "statusvalues": {
+				"stamina": {
+				  "duration": "",
+				  "damagemultiplier": "",
+				  "amount": ""
+				},
+				"torpidity": {
+				  "duration": "",
+				  "damagemultiplier": "",
+				  "amount": ""
+				}
+			  }
+			}
+		  }
+		}
+	  },
+	  "killxpbase": "",
+	  "teamname": "",
+	  "chancetodroploot": "",
+	  "lootitems": "",
+	  "canbeharvestedfor": "",
+	  "bonedamageadjusters": {
+		"head": "",
+		"neck": ""
+	  },
+	  "harvests": ""
+	}
+  }
