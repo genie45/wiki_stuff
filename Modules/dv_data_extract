@@ -13,14 +13,6 @@
             "levelreq": 15,
             "tameineffectivenessbyaffinity": ,
             "tameaffinitybase": ,
-            "tameaffinityperlevel": ,
-            "torpor1": ,
-            "torporincrease": ,
-            "torpordepletionps0": ,
-            "foodconsumptionbase": ,
-            "foodconsumptionmult": ,
-            "wakeaffinitymult": , 
-            "wakefooddeplmult"
         },
         "breeding": {
             "egg": = , 
@@ -34,7 +26,6 @@
 
         },
         "cloning": {
-            "canclone": false,
             "BaseCost": ,
             "LevelCost": ,
             "BaseTime": ,
