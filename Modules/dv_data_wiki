@@ -36,16 +36,24 @@
             "candamage": ["",""],
             "carryableby": ["",""],
             "immobilizedby": ["",""],
+            "candrag": ["",""],
             "radiationimmun": false,
             "specialloot": ["",""],
-            "chancetodroploot": 1
+            "chancetodroploot": 1,
+            "torporimmune": false,
+            "canbetame": false,
+            "rideable": false,
+            "saddle": ["",""],
+            "costumes": ["",""],
+            "mountonhumans": "yes, shoulder, no as options",
+            "mountedweaponry": false,
         },
         "dossier":{
             "species": "",
             "time": "",
             "temperament": "from actual dossier",
             "diet": "from actual dossier"
-        },        
+        },
         "colorregion": {
             "0": {
                 "name": "",

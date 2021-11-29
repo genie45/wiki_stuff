@@ -1,0 +1,44 @@
+{
+    "blank": {
+        "grabweightthreshold": ,
+        "dragweight": ,
+        "mass": ,
+        "taming": {
+            "kibble": "",
+            "favoritefood": "",
+            "mobilekibble": "",
+            "primplusfood": "",
+            "nonviolent": false,
+            "knockout": false,
+            "levelreq": 15,
+            "tameineffectivenessbyaffinity": ,
+            "tameaffinitybase": ,
+            "tameaffinityperlevel": ,
+            "torpor1": ,
+            "torporincrease": ,
+            "torpordepletionps0": ,
+            "foodconsumptionbase": ,
+            "foodconsumptionmult": ,
+            "wakeaffinitymult": , 
+            "wakefooddeplmult"
+        },
+        "breeding": {
+            "egg": = , 
+            "mintemp": = ,
+            "maxtemp": = , 
+            "incubationtime": = , 
+            "gestationtime": = , 
+            "maturationtime": = , 
+            "mintimebetweenmating": = ,
+            "maxtimebetweenmating": = 
+
+        },
+        "cloning": {
+            "canclone": false,
+            "BaseCost": ,
+            "LevelCost": ,
+            "BaseTime": ,
+            "LevelTime":
+        }
+    }
+}
