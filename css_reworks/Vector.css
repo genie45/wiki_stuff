@@ -1,0 +1,1000 @@
+/* [[de:MediaWiki:Hydradark.css]] * [[es:MediaWiki:Hydradark.css]] * [[fr:MediaWiki:Hydradark.css]] * [[it:MediaWiki:Hydradark.css]] * [[ja:MediaWiki:Hydradark.css]] * [[pl:MediaWiki:Hydradark.css]] * [[pt-br:MediaWiki:Hydradark.css]] * [[ru:MediaWiki:Hydradark.css]] */
+/* CSS placed here will affect users of the Vector skin */
+:root {
+	--content-text-color: #ebebeb;
+}
+#mw-panel .portal h3,
+h1, h2, h3, h4, h5, h6 { color: #fff; }
+
+.editOptions { 
+	background-color: transparent;
+	color: inherit;
+}
+
+/* used on the community portal */
+.feature {
+    background: rgba(200, 200, 200, 0.05);
+    border: 1px solid rgba(200, 200, 200, 0.2);
+    border-radius: 5px; padding: 10px;
+}
+
+/* Base framework */
+body {
+	background: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) no-repeat; /*[[File:Bg dark.jpg]]*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #0b1212;
+}
+
+#mw-page-base {
+	background: transparent;
+	height: 350px;
+}
+
+#mw-head-base {
+	height: 4.3em;
+}
+div.content-wrapper { 
+	padding-right: 40px;	
+}
+
+div#content {
+	position: relative;
+	background-color: #313232;
+	color: var(--content-text-color);
+	border-color: #080808;
+	border-image-slice: 600 600 1 600;
+    border-image-width: 300px;
+    border-image-outset: 20px;
+    border-image-repeat: stretch;
+    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png); /* [[File:Border frame.png]] */
+    box-shadow: 25px 25px 15px #000, -25px 25px 15px #000;
+}
+
+div#content::before {
+	position: absolute;
+	top: -255px;
+	left: 50%;
+	content: '';
+	background: url(https://ark.wiki.gg/images/6/60/Logo_frame.png) repeat; /*[[File:Logo frame.png]]*/
+	width: 662px;
+	height: 267px;
+	margin-left: -331px;
+	background-size: contain;
+}
+
+.content-body { padding: 100px 5px; }
+
+div#footer {
+	margin-top: 4em;
+	margin-bottom: 2em;
+	background-color: rgba(14,14,14,0.9);
+	border-radius: 10px 0 0 10px;
+}
+
+#footer ul li { color: #fff; }
+
+#pageWrapper {
+	margin-right: 10px;
+}
+
+fieldset {
+	border-color: #000;
+}
+
+.oo-ui-panelLayout-framed {
+	border: 1px solid #000;
+}
+
+#p-logo {
+	position: absolute;
+    top: -270px;
+    left: 50vw;
+    z-index: 10;
+    margin-left: calc((450px / -2) + 3.2em);
+    width: 450px;
+    height: 260px;
+}
+
+#p-logo a {
+  background-size: contain;
+  width: 450px;
+  height: 260px;
+}
+
+/* End base framework */
+
+/* Front page (FP) styles */
+.fpbox {
+	color: var(--content-text-color);
+}
+/* end front page tweaks */
+
+/* Links */
+a,
+a:visited,
+div#footer a,
+div#content a.extiw,
+div#content a.extiw:visited,
+div#content a.external,
+div#content a.external:visited,
+#mw-indicator-mw-helplink a,
+.pseudo-link,
+.jslink,
+label.toctogglelabel {
+	color: #4FB5FF;
+}
+
+.jslink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+div#content a.new {
+	color: #E51616;
+}
+
+/* End links */
+
+/* Sidebar */
+div#mw-panel div.portal,
+div#mw-panel div.portal div.body {
+	background-image: none;
+}
+
+.skin-vector div#mw-panel div.portal h3,
+#mw-panel.collapsible-nav .portal h3 a,
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav div.portal h3 a,
+#mw-panel.collapsible-nav div.portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:link,
+div#mw-panel div.portal div.body ul li a:visited,
+div#mw-panel div.portal div.body ul li a:hover {
+	color: #ffffff;
+	font-weight:bold;
+	text-shadow:-2px -2px 0px #000, 0 0 1px #000;
+}
+
+div#mw-panel div#p-socialProfiles.portal .body {
+	margin: auto;
+}
+
+#mw-panel { 
+	position: absolute;
+	top: 350px;
+	z-index: 11;
+}
+/* end sidebar */
+
+#mw-head {
+	top: 350px;
+	z-index: 10;
+}
+
+#left-navigation {
+	margin-left: 13em;
+}
+#right-navigation {
+	margin-right: 5em;
+}
+
+.vectorTabs,
+.vectorTabs ul,
+.vectorTabs li,
+.vectorTabs li.selected,
+.vectorTabs span,
+#mw-head .vectorMenu h3 {
+	background: none;
+}
+
+
+.vectorMenu h3 span,
+.vectorTabs li a { 
+	color: var(--content-text-color); 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.vectorTabs li { position:relative; }
+
+.vectorMenu:hover h3 span,
+.vectorTabs li a:hover,
+.vectorTabs li.selected a,
+.vectorTabs li.selected a:visited { color: #9acd32; }
+
+.vectorTabs li:not(:last-child)::after {
+	content: '\25cb';
+	font-size: 0.8125em;
+    color: #228083;
+    position: relative;
+    top: -12px;
+}
+
+@keyframes tabHover {
+	from { 
+		width: 0%;	
+	}
+	to {
+		width: 95%;
+	}
+}
+.vectorTabs li:hover::before { 
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	animation-duration: 1s;
+	animation-name: tabHover;
+	animation-fill-mode: forwards;
+	border-bottom: 3px solid #228083;
+}
+.vectorTabs li.selected:hover::before { 
+	border-color: #9acd32;
+}
+
+.vectorMenu .menu {
+	background-color: rgba(49,50,50,.95);
+	border-color: #3c3e40;
+}
+.vectorMenu li a { color: #4FB5FF; }
+.vectorMenu h3 span:after { filter: invert(1); }
+
+#simpleSearch {
+	background: none;
+    border-color: #5a5a5a;
+}
+
+.navbox-creature-item div {
+	background-color: #2d74be;
+}
+
+.creature_roster li:hover > div {
+  box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
+} 
+
+.navbox-creature-item .nav-white {
+  background-color:#D5F2F2;
+}
+
+.navbox-creature-item .nav-yellow {
+  background-color:#E5DFAC;
+}
+
+.navbox-creature-item .nav-brown {
+  background-color:#e5c6ac;
+}
+
+.navbox-creature-item .nav-purple {
+  background-color:#CEACE5;
+}
+
+.navbox-creature-item .nav-orange {
+  background-color:#FAD6A5;
+}
+
+.navbox-creature-item .nav-grey {
+  background-color:#C4C4C4
+}
+
+.navbox-creature-item .nav-green {
+  background-color:#a6ffa9
+}
+
+.navbox-creature-item .nav-cyan {
+  background-color:#86e0f0
+}
+
+.navbox-creature-item .nav-pink {
+  background-color:#ffb0eb
+}
+
+.navbox-creature-item .nav-red {
+  background-color:#e5acb1
+}
+
+/* Tabber */
+.tabber.tabberlive {
+	border-color: #7FE7FF;
+        overflow-y: auto;
+}
+
+ul.tabbernav {
+	border-color: #7FE7FF;
+}
+
+ul.tabbernav li a:link {
+	font-size: 12px !important;
+	background-color: #021d31 ;
+	color: var(--content-text-color);
+	border-color: #7FE7FF;
+}
+ul.tabbernav li a:hover,
+ul.tabbernav li.tabberactive a:hover {
+	background: #3191b9fc !important;
+	color: #ddd !important;
+	border-color: #7FE7FF;
+}
+ul.tabbernav li.tabberactive a {
+	color: var(--content-text-color) !important;
+	background-color: #2d74befa;
+	border-color: #7FE7FF;
+}
+ul.tabbernav li a {
+	margin-left: 1px;
+	background-color: #021d31;
+	color: var(--content-text-color);
+	border-color: #7FE7FF;
+}
+ul.tabbernav li {
+	display: inline-block;
+	padding-top:0;
+	margin-top: 0.55em;
+}
+
+.tabberNoTabberNav ul.tabbernav {
+	display: none;
+}
+
+.tabber .tabbertab {
+	border-color: #7FE7FF;
+}
+
+.infobox-tabber {
+  width:calc(25.3em + 6px);
+}
+
+/* Image-specific tweak to get it to display with a height of 75px */
+.tile_inner img[src*="PS.svg"] {
+  height: 75px;
+}
+
+
+/* Survivor Profile Table (Template:DTile) */
+.dtile a:link,
+.dtile a:visited,
+.dtile_dlc a:link,
+.dtile_dlc a:visited {
+	color: #a8b9ba !important;
+}
+
+.dtile img {
+	-webkit-filter: invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+	filter: invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
+}
+
+.dtile_dlc img {
+	-webkit-filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+	filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/*ExplorerNote changelog table fix*/
+.explorernot-change-tableend {
+	background: #262729ab !important;
+	color: var(--content-text-color);
+}
+
+
+/*Toc styling*/
+div#toc,
+div.toc,
+div.mw-warning {
+	background-color: #6e92c036;
+	border-color: #7FE7FF;
+}
+
+
+/*Diff styling*/
+table.diff,
+td.diff-otitle,
+td.diff-ntitle {
+  background-color:rgba(0,0,0,0.3)
+}
+
+.mw-plusminus-pos {
+    color:#00A500;
+}
+
+.mw-plusminus-neg {
+    color:#C60000;
+}
+
+td.diff-deletedline {
+	background-color: #440000;
+	border: none;
+}
+
+td.diff-deletedline .diffchange {
+	background: none;
+	color: #e62444;
+}
+
+td.diff-addedline {
+	background-color: #004400;
+	border: none;
+}
+
+td.diff-addedline .diffchange {
+	background: none;
+	color: #bfd959;
+}
+
+#pagehistory li {
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+}
+
+#pagehistory li.selected {
+    background-color: #01060c;
+    background-image: none;
+    color: var(--content-text-color);
+    border: 1px dashed rgba(0, 0, 0, 0.6);
+    padding: 3px;
+}
+
+td.diff-context {
+	background-color: #6e92c036;
+	color:#e0e0e0;
+}
+
+/* Preferences */
+.client-js div#preferences {
+  background:rgba(0,0,0,0.2);
+  border:1px solid #7f7f7f;
+  margin-top:1px;
+}
+
+.client-js #preftoc,
+.client-js #preftoc li,
+.client-js #preftoc li a,
+.client-js #preftoc li {
+  background-image: none;
+  background-color: transparent;
+  color:#bfbfbf;
+  font-size:1em;
+}
+
+.client-js #preftoc li a:active {
+  font-size:1em;
+}
+
+.client-js ul#preftoc {
+  margin-left:-0.1em;
+  margin-bottom:5px;
+}
+
+.client-js #preftoc li.selected a {
+  background-image: none;
+  color: #fff;
+  text-decoration:none;
+}
+
+.client-js #preftoc li.selected {
+  border:0;
+  padding-right:0;
+}
+
+.client-js #preftoc li:not(.selected) a:hover {
+  color:#fff;
+  text-decoration:none;
+  text-shadow:5px 5px 1px rgba(0,0,0,0.25);
+}
+
+.skin-vector #preferences legend {
+  color: #fff;
+}
+
+.skin-vector #preferences fieldset.prefsection fieldset {
+  border-color:#7f7f7f;
+}
+
+.client-js .htmlform-tip {
+  color:#BFBFBF;
+}
+/* End Preferences */
+
+/* tablepager styling */
+.skin-vector table.TablePager td {
+  border:1px solid #000;
+}
+
+.skin-vector table.TablePager tr th {
+  background-color: rgba(0,0,0,0.75);
+  color: #80E7FF;
+  border:1px solid #3F737F;
+}
+
+.skin-vector table.TablePager tbody tr td {
+  background-color:rgba(0,0,0,0.3)
+}
+
+.skin-vector table.TablePager tbody tr:hover td {
+  background:rgba(75,75,75,0.2);
+}
+/* end tablepager styling */
+
+/* wikitable styling */
+table.wikitable {
+  border:1px solid #7f7f7f;
+  background-color:rgba(0,0,0,0.2);
+}
+
+table.wikitable tbody tr th
+table.wikitable > tr > th,
+table.wikitable > * > tr > th {
+  background-color: rgba(0,0,0,0.75);
+  color: var(--content-text-color);
+  border:1px solid #3F737F;
+}
+
+table.wikitable tbody tr td {
+  border:1px solid #000;
+  color: var(--content-text-color);
+}
+/* End wikitable styling */
+
+/* search styling */
+.skin-vector div.mw-search-profile-tabs {
+  background-color: rgba(0,0,0,0.75);
+  color: #80E7FF;
+  border:1px solid #3F737F;
+}
+
+.skin-vector fieldset#mw-searchoptions {
+  border:1px solid #3F737F;
+  background-color:rgba(0,0,0,0.2);
+}
+
+.skin-vector .mw-search-profile-tabs .search-types {
+  padding-left:0;
+}
+
+.skin-vector div#content .mw-search-profile-tabs .search-types ul li a {
+  color:var(--content-text-color);
+  border-right: 1px solid #7f7f7f;
+}
+
+.skin-vector div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
+  color:#4FB5FF;
+}
+
+.skin-vector .mw-search-profile-tabs ul li.current {
+  background-color: rgba(64,64,64,0.1);
+  text-shadow:none;
+}
+
+.skin-vector .mw-search-profile-tabs ul li:last-child {
+  border-bottom:0;
+}
+
+/* end search styling */
+
+
+/* Editor Styling */
+div.wikiEditor-ui .wikiEditor-ui-view {
+  border:1px solid #7FE7FF;
+}
+
+div.wikiEditor-ui {
+    background: transparent;
+    border:0;
+}
+
+div.wikiEditor-ui-buttons {
+    background-color: transparent;
+    border-top:0;
+    margin-right: 5px;
+}
+
+div.wikiEditor-ui-controls,
+div.wikiEditor-ui-tabs {
+  background-color: transparent;
+  border:0;
+  margin-bottom:0.5px;
+}
+
+div.wikiEditor-ui-tabs div {
+  font-weight:bold;
+	background-color: #0A130F;
+	border: 1px solid #7FE7FF;
+  border-bottom:0;
+  margin-right:5px;
+}
+
+#content div.wikiEditor-ui-tabs div a {
+  background-color:transparent;
+  color: #B1F4F0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div.wikiEditor-ui-tabs div:not(.current):hover {
+  background-color:rgba(0,0,0,0.25);
+}
+
+div.wikiEditor-ui-tabs div.current {
+  border-bottom:0;
+  background-color:#1F5F73;
+  padding-bottom:1px;
+}
+
+div.wikiEditor-ui-toolbar {
+  background:rgba(0,0,0,0.25);
+}
+
+div.wikiEditor-ui-toolbar .group {
+  border-right: 1px solid #7FE7FF; 
+}
+
+div.wikiEditor-ui-toolbar .group-search {
+   border-left: 1px solid #7FE7FF;
+   border-right: none;
+}
+
+.tab {
+   border-color: transparent;
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a,
+div.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+   color: #E0E0E0;
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a.current,
+div.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+   color: #ffffff;
+}
+
+#content div.wikiEditor-ui-toolbar .group .tool-select .label,
+#content div.wikiEditor-ui-toolbar .menu .options a.option {
+   color: #000000;
+}
+
+div.wikiEditor-ui-toolbar .sections .section {
+  background:transparent;
+  border-top: 1px solid #7FE7FF;
+}
+
+div.wikiEditor-ui-toolbar .booklet .index div {
+  color: #fff;
+}
+
+div.wikiEditor-ui-toolbar .booklet .index .current {
+  background-color:rgba(64,64,64,0.5);
+  color: #f7f7f7;
+}
+
+div.wikiEditor-ui-toolbar .booklet .pages {
+  background-color:#0A130F;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span {
+  border: 1px solid #3F737F;
+  color: #e5e5e5;
+  background:transparent;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span:hover {
+  background-color:#3F737F;
+}
+
+div.wikiEditor-ui-toolbar .page-table td {
+    border-top: 1px solid #7f7f7f;
+    color: #e5e5e5;
+}
+
+div.wikiEditor-preview-contents,
+div.wikiEditor-preview-loading,
+div.wikiEditor-ui-toolbar div.oo-ui-widget {
+    background-color: transparent;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+  color:#e6e6e6;
+}
+
+div.editOptions {  
+  background-color: transparent;
+  border:none;
+}
+
+div#wpTextbox0 {
+  background-color:#C3DFE5 !important;
+}
+/* End Editor Styling */
+
+/* thumnbail tweaks */
+div.thumbinner {
+  background-color:rgba(48,101,116,0.2);
+  border:2px solid rgba(48,101,116,0.75);
+  border-image:linear-gradient(-45deg, rgba(48,101,116,0.1), rgba(48,101,116,0.8)) 1;
+}
+
+li.gallerybox div.thumb {
+  background-color:rgba(48,101,116,0.2);
+  border:2px solid rgba(48,101,116,0.75);
+  border-image:linear-gradient(-45deg, rgba(48,101,116,0.1), rgba(48,101,116,0.8)) 1;
+}
+/* end thumbnail tweaks */
+
+/* Category bar and filetoc */
+#catlinks,
+ul#filetoc {
+ background-color:rgba(0,0,0,0.75);
+ border:1px solid #3F737F;
+}
+/* end Category bar */
+
+/*status effect styling*/
+table.status-effect-backg {
+	text-align: left;
+	margin-top:1em;
+	margin-bottom:1em;
+	border: 1px solid #7FE7FF;
+	background: #6e92c06b;
+	background: -webkit-linear-gradient(#6e92c06b, #828af38c);
+	background: -o-linear-gradient(#6e92c06b, #828af38c);
+	background: -moz-linear-gradient(#6e92c06b, #828af38c);
+	background: linear-gradient(#6e92c06b, #828af38c);
+	color: var(--content-text-color);
+}
+
+
+/* Patch Notes */
+.PN-normal {
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
+}
+
+
+/* Template:Photo*/
+.photo-nav,
+.photo-nav a:link,
+.photo-nav a:visited {
+	color: black !important;
+	font-weight: bold;
+	text-shadow: 1px 1px 4px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
+}
+
+.photo-gallery,
+.photo-gallery a:link,
+.photo-gallery a:visited {
+	color: #000 !important;
+}
+
+.photo-gallery img {
+	-webkit-filter: opacity(.8);
+	filter: opacity(.8);
+	opacity(.9);
+}
+
+.photo-gallery img:hover {
+	-webkit-filter: opacity(1);
+	filter: opacity(1);
+	opacity(1);
+}
+
+.photo-nav li:hover img {
+	-webkit-filter: brightness(120%);
+	filter: brightness(120%);
+}
+
+li.photo-bg {
+	margin: 8px 6px;
+	padding: 5px;
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	min-height: 152px;
+	vertical-align: top;
+	text-align: center;
+	background: #c4c4c4;
+	border: 1px solid #b7b7b7;
+	box-shadow: 0 0 8px #333;
+	/* For IE 7 */
+	zoom: 1;
+	*display: inline;
+}
+
+div.photo-text {
+	position: relative;
+	top: 4px;
+	padding: 6px 0 6px 0;
+	font-size: 16px;
+}
+
+
+.redish-background{
+	background-color:#cf4c4c8a;
+}
+
+/*Template:Explorer Note*/
+.explorer-note{
+	display:inline-block;
+	vertical-align:top;
+	width:47%;
+	margin:1em;
+	color: var(--content-text-color) !important;
+}
+
+.explorer-note-main{
+	border:2px solid #2d74bea6;
+	border-radius:0.25em;
+	border-left-width:1em;
+	background: #00000040
+}
+
+/*styling for kibble tables*/
+.kibble-table{
+	text-align: center;
+	font-size: .9em;
+	border-left: solid #2d74bea6;
+	border-left-width: 0.5em ;
+	border-bottom: solid #2d74bea6;
+	border-bottom-width: 0.5em;
+	background-color: #6e92c036;
+	float: left;
+	margin: 0 .5em .5em 0;
+}
+.kibble-table-new{
+	text-align: left;
+        font-size: .9em;
+	border-left: solid #2d74bea6;
+	border-left-width: 0.5em ;
+	border-bottom: solid #2d74bea6;
+	border-bottom-width: 0.5em;
+	background-color: #6e92c036;
+	padding: .5em;
+	margin: 0 .5em .5em 0;
+}
+
+
+/* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
+.fakeh2 {
+  font-size: 1.5em;
+  margin-top:1em;
+  line-height:1.3;
+  margin-bottom:0.25em;
+  padding:0;
+  color:#e0e0e0;
+  border-bottom:1px solid #505050;
+  overflow:hidden;
+}
+
+/* used by some templates for graying table cells */
+.gray {
+  background-color:#262626;
+}
+
+/*Admin noticeboard header adminlist styling*/
+.adminlist-background{
+	float: right; 
+	width: 300px; 
+	margin-left: 20px; 
+	margin-bottom: 20px; 
+	padding-right: 5px; 
+	padding-left: 5px; 
+	background: #0A130F; 
+	border: 1px solid #7FE7FF; 
+	font-family: Tahoma, Arial, sans-serif;
+  font-size: 80%;
+}
+
+/* Used on [[Beacon IDs]] */
+.beacon-caption {
+  color:#000;
+}
+
+/* Used by [[Template:WildStatCalc]], used on most creature pages */
+#wildStatCalc tr[style^="background-color:"] {
+  color:#000;
+}
+
+#wildStatCalc a {
+  color:#2F6E99;
+}
+
+/* Used by [[Table of Tekgrams]] and [[CreatureTableRow]] */
+.cell-green {
+  background-color:#004C07 !important;
+}
+
+.cell-yellow {
+  background-color:#7F6A00 !important;
+}
+
+.cell-pink {
+  background-color:#7F0000 !important;
+}
+
+.cell-grey {
+  background-color:#454545 !important;
+}
+
+.ctc-notice{
+  display:inline-block; 
+  border:1px dashed yellow; 
+  background:#0000007a; 
+  padding:10px;
+}
+
+/* Tweak for illegible css code highlighting */
+.mw-highlight .nc,
+.mw-highlight .nn {
+  color:#8E8ECC;
+}
+
+/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+.text-white {
+  color:#FFFFFF
+}
+
+.text-green {
+  color:#0F0
+}
+
+.text-blue {
+  color:#0059FF
+}
+
+.text-purple {
+  color:#F0F
+}
+
+.text-yellow {
+  color:#FF0
+}
+
+.text-red {
+  color:#F00
+}
+
+.text-cyan {
+  color:#0FF
+}
+
+.text-orange {
+  color:#F90
+}
+
+/* Narrow width skin-specific tweaks */
+@media screen and (max-width:720px) {
+  
+  div#mw-navigation div#mw-panel {
+    border: 1px solid #7FE7FF;
+    border-left:0;
+    background-color: rgba(4,36,48,0.95);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
+  }
+}
+
+/* Styling for collapsible toggle */
+.mw-collapsible-toggle.mw-collapsible-toggle-expanded a, 
+.mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
+    color: #4FB5FF;
+}
+
+/* Invert [[File:PS.svg]] colors for better visibility */
+img[src*="/PS.svg/"] {
+  -webkit-filter:
+    invert(100%);
+  filter:
+    invert(100%);
+}
+
+/* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
+table { display: table; white-space: initial; }
