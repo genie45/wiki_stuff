@@ -2348,6 +2348,9 @@ div.mw-warning {
 	background-color: var(--toc-background-color);
 	border-color: var(--content-border-color);
 }
+.tocnumber {
+    color: #cecece;
+}
 
 
 /*Diff styling*/
