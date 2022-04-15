@@ -2104,7 +2104,7 @@ div#mw-panel div.portal div.body ul li a:link,
 div#mw-panel div.portal div.body ul li a:visited {
 	color: #ffffff;
 	font-weight:bold;
-	text-shadow:-2px -2px 0px #000, 0 0 1px #000;
+	text-shadow:-2px -2px 0px #0007, 0 0 1px #000;
 }
 div#mw-panel div.portal div.body ul li a:hover {
     color: var(--content-text-link-color);
