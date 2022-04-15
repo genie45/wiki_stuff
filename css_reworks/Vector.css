@@ -57,6 +57,8 @@ body, .theme-dark {
    --content-text-color: #ebebeb;
    --content-background-color: #313332;
    --content-text-link-color: #9acd32;
+   --content-border-color: #658a19;
+   --toc-background-color: #4a4d4b;
    /* Ambox */
    --ark-ambox-background-color: #0000004D;
    /* Template:Navbox */
@@ -2342,8 +2344,8 @@ ul.tabbernav li {
 div#toc,
 div.toc,
 div.mw-warning {
-	background-color: #6e92c036;
-	border-color: #7FE7FF;
+	background-color: var(--toc-background-color);
+	border-color: var(--content-border-color);
 }
 
 
