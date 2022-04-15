@@ -59,6 +59,7 @@ body, .theme-dark {
    --content-text-link-color: #9acd32;
    --content-border-color: #658a19;
    --toc-background-color: #4a4d4b;
+   --tabber-border-color: var(--ark-arkitex-border-color);
    /* Ambox */
    --ark-ambox-background-color: #0000004D;
    /* Template:Navbox */
@@ -2260,36 +2261,36 @@ div#mw-panel div#p-socialProfiles.portal .body {
 
 /* Tabber */
 .tabber.tabberlive {
-	border-color: #7FE7FF;
-        overflow-y: auto;
+	border-color: var(--tabber-border-color);
+    overflow-y: auto;
 }
 
 ul.tabbernav {
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 
 ul.tabbernav li a:link {
 	font-size: 12px !important;
 	background-color: #021d31 ;
 	color: var(--content-text-color);
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li a:hover,
 ul.tabbernav li.tabberactive a:hover {
 	background: #3191b9fc !important;
 	color: #ddd !important;
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li.tabberactive a {
 	color: var(--content-text-color) !important;
 	background-color: #2d74befa;
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li a {
 	margin-left: 1px;
 	background-color: #021d31;
 	color: var(--content-text-color);
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li {
 	display: inline-block;
@@ -2302,7 +2303,7 @@ ul.tabbernav li {
 }
 
 .tabber .tabbertab {
-	border-color: #7FE7FF;
+	border-color: var(--tabber-border-color);
 }
 
 /* Image-specific tweak to get it to display with a height of 75px */
