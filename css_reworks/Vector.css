@@ -747,7 +747,7 @@ img.fpWideImage {
     float: right;
     margin-left: 1em;
     margin-bottom: 0.5em;
-    max-width: 410px;
+    max-width: 320px;
     border: 2px solid var(--ark-arkitex-border-color);
 }
 .infobox-tabber ul.tabbernav,
