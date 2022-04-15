@@ -571,7 +571,7 @@ table .number { text-align: right; }
     box-shadow: 0 2px 5px #4a5153;
     background: #1d2526;
     margin: 5px;
-    padding: 8px 12px;
+    padding: 8px 1.25em;
     border-radius: 2px;
     overflow: auto;
 }
@@ -579,6 +579,7 @@ table .number { text-align: right; }
     border: none;
     box-shadow: none;
     background: transparent;
+    padding: 6px 10px;
 }
 .fpbox .mainheading {
     border: none;
@@ -608,6 +609,9 @@ table .number { text-align: right; }
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.fpbox .fpbody > ul {
+    margin-left: 0;
 }
 
 /* Welcome box */
