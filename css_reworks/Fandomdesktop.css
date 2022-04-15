@@ -139,6 +139,7 @@ body.theme-fandomdesktop-light, .theme-fandomdesktop-light .main-container {
     --theme-page-text-color: #A0DDEC;
     --theme-page-text-color--hover: #88E9FF;
     --theme-page-text-color--rgb: 160, 221, 236;
+    --theme-community-header-color: #d9e3ea;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     /* Table of Contents */
@@ -208,14 +209,6 @@ body {
     padding: 0.2em 0.4em;
 }
 
-/* Fix issues with tables with spanning rows/columns */
-.article-table tr td:first-child,
-.article-table tr th:first-child,
-.wikitable tr td:first-child,
-.wikitable tr th:first-child {
-    border: 1px solid var(--theme-border-color);
-}
-
 /* Nested list margin fix */
 .page-content ol > li > ol,
 .page-content ol > li > ul,
@@ -257,8 +250,16 @@ body {
 	padding-left: 1.4em;
 }
 body:not(.is-content-expanded) .page-content .tocright {
-	max-width: 22em;
+    max-width: 325px;
 }
+body:not(.is-content-expanded) .page-content .tocright .toctitle {
+    min-width: 300px !important;
+}
+
+/* Make ToCs float to the right on pages with no infobox */
+#content .mw-parser-output > #toc { float: right; clear: right; margin-left: 1.4em; }
+#content .mw-parser-output .info-framework ~ #toc,
+#content .mw-parser-output .infobox-tabber ~ #toc { float: none; clear: none; margin-left: 0; }
 
 /* Fix a Fandom JS bug that causes ToC icon to duplicate on a hook used by RailModule */
 .toctitle > h2 > .wds-icon + .wds-icon {
@@ -389,12 +390,6 @@ body:not(.is-content-expanded) .mw-indicator[id^="mw-indicator-DLC"] img {
     width: 30px;
 }
 
-
-/* Hide mw-empty-elt in tabbers */
-.tabber .mw-empty-elt {
-    display: none;
-}
-
 /* Float & margin on interactive region maps */
 .interactive-regionmap-table {
 	float: right;
@@ -503,7 +498,7 @@ div.magnify a {
     border-left-color: #ffa500;
 }
 
-/* Infobox style */
+/* Old infobox style */
 .infobox {
     float: right;
     width: 23em;
@@ -581,7 +576,6 @@ div.magnify a {
 /* Arkitexure rounded borders */
 .info-arkitex {
     border-radius: 2px;
-    float: center;
 }
 
 .info-arkitex-left {
@@ -662,6 +656,11 @@ div.magnify a {
     display: flex;
     align-items: left;
     font-size: 11px;
+}
+
+/* Suppress list margins for item lists inside cells */
+.info-arkitex .info-unit-row ul.itemlist {
+  margin: 0;
 }
 
 /* Arkitexure cell, intended for one total column, 100% width */
@@ -847,12 +846,6 @@ div#content .navbox-title a.external {
 .theme-fandomdesktop-dark .navbox-list {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     color: #88E9FF;
-}
-
-
-/* Hide mw-empty-elt in navboxes (FD fix) */
-.navbox .mw-empty-elt {
-    display: none;
 }
 
 /* Border between adjacent navboxes */
@@ -1079,14 +1072,9 @@ div.photo-text {
     margin: 0.3em;
 }
 
-/* Restore pre-FD centered captions in FP Quick Game Basics */
-#fpbasics .gallerybox .gallerytext {
+/* Restore pre-FD centered captions in galleries */
+.gallerybox .gallerytext p {
     text-align: center;
-}
-
-/*fix for captions on gallery not centered*/
-.gallerytext p {
-	text-align: center;
 }
 
 /* [[Template:PaintRegions]] */
@@ -1124,8 +1112,7 @@ div.photo-text {
     box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-body.is-content-expanded .dossier-text-note,
-html.is-content-expanded .dossier-text-note {
+body.is-content-expanded .dossier-text-note {
     float: right;
     max-width: 235px;
     margin-bottom: 0;
@@ -1314,6 +1301,15 @@ body:not(.is-content-expanded) .dino-attack-info {
 .infobox-tabber .wds-tabs__tab.wds-is-current,
 .info-framework .wds-tabs__tab.wds-is-current {
     background: var(--ark-arkitex-left-color);
+}
+
+/* Pseudo Links */
+.pseudo-link {
+    color: var(--theme-link-color);
+}
+.pseudo-link:hover {
+    color: var(--theme-link-color--hover);
+    text-decoration: underline;
 }
 
 /* Theme-specific */
@@ -1513,15 +1509,6 @@ body:not(.is-content-expanded) .dino-attack-info {
 }
 
 /* End base framework */
-/* Links */
-.theme-fandomdesktop-dark .pseudo-link {
-    color: var(--theme-link-color);
-}
-
-.theme-fandomdesktop-dark .pseudo-link:hover {
-    color: var(--theme-link-color--hover);
-    text-decoration: underline;
-}
 
 .theme-fandomdesktop-dark .jslink:hover {
     text-decoration: underline;
