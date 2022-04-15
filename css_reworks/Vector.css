@@ -1893,18 +1893,20 @@ table.collapsed tr.collapsible {
 }
 /* Grid layout (1 column on small screens, 2 on medium, 3 on high) */
 .dino-attacks {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dino-attacks > .dino-attack-info {
+    flex: 1 1 100%;
 }
 @media screen and (min-width: 1350px) {
-    .dino-attacks {
-        grid-template-columns: repeat(2, 1fr);
+    .dino-attacks > .dino-attack-info {
+        flex-basis: 49%;
     }
 }
-@media screen and (min-width: 2070px) {
-    .dino-attacks {
-        grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 1800px) {
+    .dino-attacks > .dino-attack-info {
+        flex-basis: 32.5%;
     }
 }
 /* #endregion */
