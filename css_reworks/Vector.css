@@ -2942,8 +2942,9 @@ div.photo-text {
 		z-index: 1;
 	}
 	div#right-navigation {
-		margin-right: 0;
+		margin-right: 15px;
 		z-index: 1;
+        width: unset;
 	}
 	#p-search {
 		position: absolute;
@@ -2979,4 +2980,11 @@ pre, .mw-code {
     border-color: #525354;
 }
 
-#mw-indicator-mw-helplink a { filter: invert(1) hue-rotate(180deg); }
+#mw-indicator-mw-helplink a { 
+    filter: invert(1) hue-rotate(180deg); 
+}
+
+.games-showcase-header {
+   position: relative;
+   top: 90px;
+}
