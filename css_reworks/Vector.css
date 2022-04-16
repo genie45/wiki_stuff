@@ -60,12 +60,14 @@ body, .theme-dark {
    --content-border-color: #658a19;
    --toc-background-color: #4a4d4b;
    --tabber-border-color: var(--ark-arkitex-border-color);
+   --sidenav-header-background: var(--ark-navbox-title-background-color);
+   --sidenav-header-text-color: var(--ark-navbox-title-text-color);
    /* Ambox */
    --ark-ambox-background-color: #0000004D;
    /* Template:Navbox */
-   --ark-navbox-title-text-color: #88E9FF;
+   --ark-navbox-title-text-color: #202020;
    --ark-navbox-title-link-color: #7f9dff;
-   --ark-navbox-title-background-color: #2768A5;
+   --ark-navbox-title-background-color: #e5e5e5;
    --ark-navboxgroup-title-background-color: #000000C0;
    --ark-navboxgroup-title-text-color: #80E7FF;
    --ark-navboxgroup-title-border-color: #3F737F;
@@ -115,8 +117,8 @@ body, .theme-dark {
 
 /** Left side navigation adjustments **/
 #mw-panel > div h3{
-    background: #e5e5e5;
-    color: #202020 !important;
+    background: var(--sidenav-header-background);
+    color: var(--sidenav-header-text-color) !important;
     border-radius: 2px;
 }
 
