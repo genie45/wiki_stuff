@@ -63,6 +63,8 @@ body, .theme-dark {
    --sidenav-header-background: #e5e5e5;
    --sidenav-header-text-color: #202020;
    --content-default-link-color: #9acd32;
+   --fp-heading-text-color: var(--content-text-color);
+   --fp-heading-border-color: #749ca4;
    /* Ambox */
    --ark-ambox-background-color: #0000004D;
    /* Template:Navbox */
@@ -558,11 +560,11 @@ table .number { text-align: right; }
 
 /* [[Template:FP heading] */
 .fpheading {
-    border-bottom: 3px solid #235361;
-    border-image: linear-gradient(to right, transparent 1%, #235361 15%, #235361 85%, transparent 99%) 1;
+    border-bottom: 3px solid var(--fp-heading-border-color);
+    border-image: linear-gradient(to right, transparent 1%, var(--fp-heading-border-color) 15%, var(--fp-heading-border-color) 85%, transparent 99%) 1;
     border-radius: 0.3em;
     text-align: center;
-    color: #88E9FF;
+    color: var(--fp-heading-text-color);
     font-size: 130%;
     margin-bottom: 5px;
     padding: 2px;
@@ -2150,7 +2152,7 @@ div#mw-panel div#p-socialProfiles.portal .body {
 .vectorMenu h3 span,
 .vectorTabs li a ,
 .vectorMenu li a {
-	color: var(--content-text-color) !important;
+	color: var(--content-text-color);
 	text-transform: uppercase;
 	text-decoration: none;
 }
