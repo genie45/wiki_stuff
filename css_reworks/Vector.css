@@ -60,14 +60,15 @@ body, .theme-dark {
    --content-border-color: #658a19;
    --toc-background-color: #4a4d4b;
    --tabber-border-color: var(--ark-arkitex-border-color);
-   --sidenav-header-background: var(--ark-navbox-title-background-color);
-   --sidenav-header-text-color: var(--ark-navbox-title-text-color);
+   --sidenav-header-background: #e5e5e5;
+   --sidenav-header-text-color: #202020;
+   --content-default-link-color: #9acd32;
    /* Ambox */
    --ark-ambox-background-color: #0000004D;
    /* Template:Navbox */
-   --ark-navbox-title-text-color: #202020;
+   --ark-navbox-title-text-color: var(--ark-arkitex-left-color);
    --ark-navbox-title-link-color: #7f9dff;
-   --ark-navbox-title-background-color: #e5e5e5;
+   --ark-navbox-title-background-color: ;
    --ark-navboxgroup-title-background-color: #000000C0;
    --ark-navboxgroup-title-text-color: #80E7FF;
    --ark-navboxgroup-title-border-color: #3F737F;
@@ -76,7 +77,7 @@ body, .theme-dark {
    --ark-infobox-border-color: #7FE7FF;
    /* Arkitexure */
    --ark-arkitex-background-color: #535353;
-   --ark-arkitex-border-color: #9acd32;
+   --ark-arkitex-border-color: var(--content-default-link-color);
    --ark-arkitex-accent-color: #b6f33b;
    --ark-arkitex-left-color: #3d3e3d;
    --ark-arkitex-right-color: #232821;
@@ -2162,7 +2163,9 @@ div#mw-panel div#p-socialProfiles.portal .body {
 .vectorTabs li.selected a:visited,
 .vectorMenu li a:hover,
 .vectorMenu li.selected a,
-.vectorMenu li.selected a:hover{ color: #9acd32; }
+.vectorMenu li.selected a:hover{ 
+    color: var(--content-default-link-color); 
+}
 
 .vectorTabs li:not(:last-child)::after
  {
@@ -2201,7 +2204,7 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	background-color: rgba(49,50,50,.95);
 	border-color: #3c3e40;
 }
-.vectorMenu li a { color: #4FB5FF; }
+.vectorMenu li a { color: var(--content-default-link-color); }
 .vectorMenu h3 span:after { filter: invert(1); }
 
 #simpleSearch {
@@ -2527,7 +2530,7 @@ table.wikitable tbody tr td {
 }
 
 .skin-vector div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
-  color:#4FB5FF;
+  color: var(--content-default-link-color);
 }
 
 .skin-vector .mw-search-profile-tabs ul li.current {
@@ -2864,7 +2867,7 @@ div.photo-text {
 }
 
 #wildStatCalc a {
-  color:#2F6E99;
+  color: var(--content-default-link-color);
 }
 
 /* Used by [[Table of Tekgrams]] and [[CreatureTableRow]] */
@@ -2964,7 +2967,7 @@ div.photo-text {
 /* Styling for collapsible toggle */
 .mw-collapsible-toggle.mw-collapsible-toggle-expanded a,
 .mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
-    color: #4FB5FF;
+    color: var(--content-default-link-color);
 }
 
 /* Invert [[File:PS.svg]] colors for better visibility */
