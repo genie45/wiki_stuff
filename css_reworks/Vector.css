@@ -71,7 +71,7 @@ body, .theme-dark {
    /* Template:Navbox */
    --ark-navbox-title-text-color: var(--content-text-color);
    --ark-navbox-title-link-color: var(--content-default-link-color);
-   --ark-navbox-title-background-color: var(--ark-arkitex-right-color);
+   --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
    --ark-navboxgroup-title-background-color: #2c2c2c;
    --ark-navboxgroup-title-text-color: var(--content-default-link-color);
    --ark-navboxgroup-title-border-color: #94c436;
