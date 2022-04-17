@@ -85,8 +85,8 @@ body, .theme-dark {
    --ark-arkitex-left-color: #3d3e3d;
    --ark-arkitex-right-color: #232821;
    /* PaintRegion */
-   --ark-paintregion-background-color: #1D558C;
-   --ark-paintregion-border-color: #4E99C1;
+   --ark-paintregion-background-color: #756f6f;
+   --ark-paintregion-border-color: var(--content-border-color);
    /* Template:DossierText & Template:Quote */
    --ark-cite-quote-color: #2d74bed9;
    --ark-dossier-background-color: #6e92c036;
