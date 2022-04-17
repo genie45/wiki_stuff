@@ -633,19 +633,18 @@ table .number { text-align: right; }
     flex: 1 1 650px;
 }
 #fpwelcomelinks {
-    flex: 2 1 400px;
+    flex: 2 1 435px;
     padding: 8px 5px;
-    max-width: 700px;
+    max-width: 720px;
 }
 #fpwelcomelinks > ul {
-    margin:0;
-    margin-top:8px;
-    padding:0;
-    width:100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 90px);
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px
 }
 #fpwelcomelinks .tile_container {
     display: block;
