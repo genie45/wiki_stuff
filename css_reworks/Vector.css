@@ -62,6 +62,7 @@ body, .theme-dark {
    --tabber-border-color: var(--ark-arkitex-border-color);
    --sidenav-header-background: #e5e5e5;
    --sidenav-header-text-color: #202020;
+   --sidenav-background-color: #3d3e3d50;
    --content-default-link-color: #9acd32;
    --fp-heading-text-color: var(--content-text-color);
    --fp-heading-border-color: #749ca4;
@@ -2073,9 +2074,8 @@ div#content a.new {
 /* End links */
 
 /* Sidebar */
-div#mw-panel div.portal,
-div#mw-panel div.portal div.body {
-	background-image: none;
+div#mw-panel div.portal {
+	background: var(--sidenav-background-color);
 }
 
 .skin-vector div#mw-panel div.portal h3,
