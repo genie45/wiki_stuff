@@ -1938,6 +1938,22 @@ table.collapsed tr.collapsible {
 }
 /* #endregion */
 
+/* #region Element animator (.animated) */
+#content .animated > *:not(.animated-active),
+#content .animated > .animated-subframe > *:not(.animated-active) {
+    display: none
+}
+#content span.animated,
+#content span.animated.animated-visible > *,
+#content span.animated.animated-visible > .animated-subframe > * {
+    display: inline-block;
+}
+#content div.animated.animated-visible > *,
+#content div.animated.animated-visible > .animated-subframe > * {
+    display: block;
+}
+/* #endregion */
+
 
 
 #mw-panel .portal h3,
