@@ -8,6 +8,18 @@
 .theme-light {
     --theme-accent-color: #005c62; /* temp while waiting for skin */
     --theme-accent-color--rgb: 0, 92, 98; /* temp while waiting for skin */
+    --content-text-color: #000;
+    --content-background-color: #DBE0E0;
+    --content-text-link-color: #5c8607;
+    --content-border-color: #658a19;
+    --toc-background-color: #4a4d4b;
+    --tabber-border-color: var(--ark-arkitex-border-color);
+    --sidenav-header-background: #e5e5e5;
+    --sidenav-header-text-color: #202020;
+    --sidenav-background-color: #3d3e3d50;
+    --content-default-link-color: #9acd32;
+    --fp-heading-text-color: var(--content-text-color);
+    --fp-heading-border-color: #749ca4;
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
@@ -2038,7 +2050,7 @@ div#content {
     border-image-outset: 15px;
     border-image-repeat: stretch;
     border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png); /* [[File:Border frame.png]] */
-    box-shadow: 25px 25px 15px #000, -25px 25px 15px #000;
+    box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
     min-height: 600px;
     margin-right: 40px;
 }
