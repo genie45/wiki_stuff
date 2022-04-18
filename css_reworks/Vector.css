@@ -1,7 +1,7 @@
 /* [[de:MediaWiki:Vector.css]] * [[es:MediaWiki:Vector.css]] * [[fr:MediaWiki:Vector.css]] * [[it:MediaWiki:Vector.css]] * [[ja:MediaWiki:Vector.css]] * [[pl:MediaWiki:Vector.css]] * [[pt-br:MediaWiki:Vector.css]] * [[ru:MediaWiki:Vector.css]] * [[th:MediaWiki:Vector.css]] */
 /* CSS placed here will affect users of the Vector skin */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* #region Theme variables */
 /* Light */
@@ -2041,6 +2041,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #0b1212;
+    font-family: Inter, Helvetica, Arial, sans-serif
 }
 
 #mw-page-base {
