@@ -2566,61 +2566,56 @@ td.diff-context {
 }
 /* end tablepager styling */
 
-/* wikitable styling */
-table.wikitable {
-  border:1px solid #7f7f7f;
-  background-color:rgba(0,0,0,0.2);
+/* #region Tables */
+.wikitable {
+    border: 1px solid var(--table-border-color);
+    background-color: var(--table-background-color);
+    color: var(--content-text-color);
 }
-
 table.wikitable tbody tr th
 table.wikitable > tr > th,
 table.wikitable > * > tr > th {
-  background-color: rgba(0,0,0,0.75);
-  color: var(--content-text-color);
-  border:1px solid #3F737F;
+    background-color: var(--table-heading-background-color);
+    border: 1px solid var(--table-border-color);
+    color: inherit
 }
-
+table.wikitable tr td,
+table.wikitable tr th {
+    padding: 0.2em 0.5em;
+}
 table.wikitable tbody tr td {
-  border:1px solid #000;
-  color: var(--content-text-color);
+    border: 1px solid var(--table-border-color);
 }
-/* End wikitable styling */
+/* #endregion */
 
-/* search styling */
-.skin-vector div.mw-search-profile-tabs {
-  background-color: rgba(0,0,0,0.75);
-  color: #80E7FF;
-  border:1px solid #3F737F;
+/* #region Special:Search */
+div.mw-search-profile-tabs {
+    background-color: var(--table-heading-background-color);
+    color: #80E7FF;
+    border:1px solid var(--table-border-color);
 }
-
-.skin-vector fieldset#mw-searchoptions {
-  border:1px solid #3F737F;
-  background-color:rgba(0,0,0,0.2);
+fieldset#mw-searchoptions {
+    border: 1px solid var(--table-border-color);
+    background-color: var(--table-background-color);
 }
-
-.skin-vector .mw-search-profile-tabs .search-types {
-  padding-left:0;
+.mw-search-profile-tabs .search-types {
+    padding-left:0;
 }
-
-.skin-vector div#content .mw-search-profile-tabs .search-types ul li a {
-  color:var(--content-text-color);
-  border-right: 1px solid #7f7f7f;
+div#content .mw-search-profile-tabs .search-types ul li a {
+    color:var(--content-text-color);
+    border-right: 1px solid #7f7f7f;
 }
-
-.skin-vector div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
-  color: var(--content-default-link-color);
+div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
+    color: var(--content-default-link-color);
 }
-
-.skin-vector .mw-search-profile-tabs ul li.current {
-  background-color: rgba(64,64,64,0.1);
-  text-shadow:none;
+.mw-search-profile-tabs ul li.current {
+    background-color: rgba(64,64,64,0.1);
+    text-shadow:none;
 }
-
-.skin-vector .mw-search-profile-tabs ul li:last-child {
-  border-bottom:0;
+.mw-search-profile-tabs ul li:last-child {
+    border-bottom:0;
 }
-
-/* end search styling */
+/* #endregion */
 
 
 /* Editor Styling */
