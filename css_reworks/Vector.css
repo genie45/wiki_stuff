@@ -64,65 +64,76 @@
 }
 /* Dark */
 body, .theme-dark {
-   --theme-accent-color: #0d6f70; /* temp while waiting for skin */
-   --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
-   --content-text-color: #ebebeb;
-   --content-background-color: #313332;
-   --content-text-link-color: #9acd32;
-   --content-border-color: #658a19;
-   --toc-background-color: #4a4d4b;
-   --tabber-border-color: var(--ark-arkitex-border-color);
-   --sidenav-header-background: #e5e5e5;
-   --sidenav-header-text-color: #202020;
-   --sidenav-background-color: #3d3e3d50;
-   --content-default-link-color: #9acd32;
-   --content-default-link-color--rgb: 154, 205, 50;
-   --fp-heading-text-color: var(--content-text-color);
-   --fp-heading-border-color: #749ca4;
-   /* Ambox */
-   --ark-ambox-background-color: #0000004D;
-   /* Template:Navbox */
-   --ark-navbox-title-text-color: var(--content-text-color);
-   --ark-navbox-title-link-color: var(--content-default-link-color);
-   --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
-   --ark-navboxgroup-title-background-color: #2c2c2c;
-   --ark-navboxgroup-title-text-color: var(--content-default-link-color);
-   --ark-navboxgroup-title-border-color: #94c436;
-   /* Legacy infobox */
-   --ark-infobox-background-color: #000;
-   --ark-infobox-border-color: #7FE7FF;
-   /* Arkitexure */
-   --ark-arkitex-background-color: #535353;
-   --ark-arkitex-border-color: var(--content-default-link-color);
-   --ark-arkitex-accent-color: #b6f33b;
-   --ark-arkitex-left-color: #3d3e3d;
-   --ark-arkitex-right-color: #232821;
-   /* PaintRegion */
-   --ark-paintregion-background-color: #756f6f;
-   --ark-paintregion-border-color: var(--content-border-color);
-   /* Template:DossierText & Template:Quote */
-   --ark-cite-quote-color: #2d74bed9;
-   --ark-dossier-background-color: #6e92c036;
-   --ark-dossier-border-color: #2d74bea6;
-   --ark-dossier-text-color: #88E9FF;
-   --ark-dossiernote-background-color: #1a3b4d;
-   --ark-dossiernote-border-color: #2d74be;
-   /* Module:LootTable */
-   --ark-loottable-background-color: #021e289a;
-   --ark-loottable-header-color: #0b58599a;
-   /* Difficulty level colors */
-   --ark-difficulty-gamma: #4edb17;
-   --ark-difficulty-beta: #19cff9;
-   --ark-difficulty-alpha: #f76450;
-   --ark-difficulty-none: #BCEEFA;
-   /* Template:Mission */
-   --ark-mission-background-color: #003E4C;
-   --ark-mission-text-color: #BCEEFA;
-   /* Template:HoverNote */
-   --ark-hovertext-text-color: #4FB5FF;
-   /* Kibble tables */
-   --ark-kibbletable-border-color: #2d74bea6;
-   --ark-kibbletable-background-color: #6e92c036;
+    --theme-accent-color: #0d6f70; /* temp while waiting for skin */
+    --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
+    --content-background-color: #313332;
+    --content-background-color--rgb: 49, 51, 50;
+    --content-text-color: #ebebeb;
+    --content-text-link-color: #9acd32;
+    --content-border-color: #658a19;
+    --content-default-link-color: #9acd32;
+    --content-default-link-color--rgb: 154, 205, 50;
+    /* Sidebar */
+    --sidenav-header-background: #e5e5e5;
+    --sidenav-header-text-color: #202020;
+    --sidenav-background-color: #3d3e3d50;
+    /* Table of contents */
+    --toc-background-color: #4a4d4b;
+    /* Tabbers */
+    --tabber-border-color: var(--ark-arkitex-border-color);
+    /* Tables */
+    --table-background-color: var(--content-background-color);
+    --table-border-color: #3d555e;
+    --table-heading-background-color: #2a454f;
+    /* Frontpage */
+    --fp-heading-text-color: var(--content-text-color);
+    --fp-heading-border-color: #749ca4;
+    --fp-box-background-color: #1d2526;
+    /* OOUI buttons */
+    --ooui-button-text-color--primary: #000;
+    --ooui-button-text-color--secondary: var(--content-text-link-color);
+    --ooui-button-background-color--primary: var(--content-default-link-color);
+    /* Ambox */
+    --ark-ambox-background-color: #0000004D;
+    /* Template:Navbox */
+    --ark-navbox-title-text-color: var(--content-text-color);
+    --ark-navbox-title-link-color: var(--content-default-link-color);
+    --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
+    --ark-navboxgroup-title-background-color: #2c2c2c;
+    --ark-navboxgroup-title-text-color: var(--content-default-link-color);
+    --ark-navboxgroup-title-border-color: #94c436;
+    /* Arkitexure */
+    --ark-arkitex-background-color: #535353;
+    --ark-arkitex-border-color: var(--content-default-link-color);
+    --ark-arkitex-accent-color: #b6f33b;
+    --ark-arkitex-left-color: #3d3e3d;
+    --ark-arkitex-right-color: #232821;
+    /* PaintRegion */
+    --ark-paintregion-background-color: #756f6f;
+    --ark-paintregion-border-color: var(--content-border-color);
+    /* Template:DossierText & Template:Quote */
+    --ark-cite-quote-color: #2d74bed9;
+    --ark-dossier-background-color: #6e92c036;
+    --ark-dossier-border-color: #2d74bea6;
+    --ark-dossier-text-color: #88E9FF;
+    --ark-dossiernote-background-color: #1a3b4d;
+    --ark-dossiernote-border-color: #2d74be;
+    /* Module:LootTable */
+    --ark-loottable-background-color: #021e289a;
+    --ark-loottable-header-color: #0b58599a;
+    /* Difficulty level colors */
+    --ark-difficulty-gamma: #4edb17;
+    --ark-difficulty-beta: #19cff9;
+    --ark-difficulty-alpha: #f76450;
+    --ark-difficulty-none: #BCEEFA;
+    /* Template:Mission */
+    --ark-mission-background-color: #003E4C;
+    --ark-mission-text-color: #BCEEFA;
+    /* Template:HoverNote */
+    --ark-hovertext-text-color: #4FB5FF;
+    /* Kibble tables */
+    --ark-kibbletable-border-color: #2d74bea6;
+    --ark-kibbletable-background-color: #6e92c036;
 }
 /* #endregion */
 
@@ -588,7 +599,8 @@ table .number { text-align: right; }
 .fpbox {
     border: 1px solid #749ca4;
     box-shadow: 0 2px 5px #4a5153;
-    background: #1d2526;
+    background: var(--fp-box-background-color);
+    color: var(--content-text-color);
     margin: 5px;
     padding: 8px 1.25em;
     border-radius: 2px;
@@ -1082,11 +1094,11 @@ div.photo-text {
 
 /* #region [[Template:MapLocations]] */
 .mapLocations {
-    background-color: var(--theme-page-background-color);
+    background-color: var(--content-background-color);
     border-collapse: collapse;
 }
 .mapLocations td {
-    border: 1px solid var(--theme-border-color);
+    border: 1px solid var(--content-border-color);
     padding: 0.2em 0.4em;
 }
 /* #endregion */
@@ -2108,12 +2120,6 @@ fieldset {
 
 /* End base framework */
 
-/* Front page (FP) styles */
-.fpbox {
-	color: var(--content-text-color);
-}
-/* end front page tweaks */
-
 /* Links */
 a,
 a:visited,
@@ -2280,7 +2286,9 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	background: none;
     border-color: #5a5a5a;
 }
-
+#simpleSearch:hover, #simpleSearch:active {
+    border-color: var(--content-border-color);
+}
 #simpleSearch input{
 	color: var(--content-text-color);
 }
@@ -2764,8 +2772,8 @@ li.gallerybox div.thumb {
 /* Category bar and filetoc */
 #catlinks,
 ul#filetoc {
- background-color:rgba(0,0,0,0.75);
- border:1px solid #3F737F;
+    background-color:rgba(0,0,0,0.5);
+    border:1px solid var(--content-border-color);
 }
 /* end Category bar */
 
@@ -3067,10 +3075,15 @@ pre, .mw-code, code {
     background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 fill='%23fff' viewBox=%220 0 12 12%22%3E%3Cpath d=%22M10.085 2.943L6.05 6.803l-3.947-3.86L1.05 3.996l5 5 5-5z%22/%3E%3C/svg%3E");
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
-    color: var(--content-text-link-color);
+    color: var(--ooui-button-text-color--secondary);
 }
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet {
-    color: var(--content-default-link-color);
+    color: var(--ooui-button-background-color--primary);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+    color: var(--ooui-button-text-color--primary);
+    border-color: var(--ooui-button-background-color--primary);
+    background: var(--ooui-button-background-color--primary);
 }
 
 .games-showcase-header {
