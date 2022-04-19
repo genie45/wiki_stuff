@@ -2244,7 +2244,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     color: var(--content-default-link-color); 
 }
 .vectorTabs li:not(:last-child)::after {
-	content: '\25cb';
+	content: '\007C';
 	font-size: 0.8125em;
     color: #228083;
     position: relative;
