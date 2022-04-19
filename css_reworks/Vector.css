@@ -2272,7 +2272,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 /* #region Article title area (indicators, language switcher) */
 .content-body > main {
     display: grid;
-    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
+    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] minmax(0,auto) [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
     grid-template-rows: [heading-start] auto [heading-end content-start] auto [content-end];
 }
 .mw-body .mw-indicators {
