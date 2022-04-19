@@ -2670,17 +2670,12 @@ table.status-effect-backg {
 	color: var(--content-text-color);
 }
 
-
 /* Patch Notes */
 .PN-normal {
 	font-weight: bold;
 	text-align: center;
 	width: 35px;
 }
-
-
-
-
 
 /* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
 .fakeh2 {
@@ -2693,8 +2688,6 @@ table.status-effect-backg {
   border-bottom:1px solid #505050;
   overflow:hidden;
 }
-
-
 
 /* Used on [[Beacon IDs]] */
 .beacon-caption {
@@ -2863,8 +2856,6 @@ pre, .mw-code, code {
     border-color: #525354;
 }
 
-
-
 /* #region Editor */
 div.wikiEditor-ui .wikiEditor-ui-view {
     border:1px solid #7FE7FF;
@@ -2993,3 +2984,9 @@ div#wpTextbox0 {
     background-color:#C3DFE5 !important;
 }
 /* #endregion */
+/**Metadata infobox on File pages**/
+.mw_metadata{
+    color: var(--sidenav-header-text-color);
+    background: var(--sidenav-header-background)
+}
+
