@@ -2806,6 +2806,55 @@ pre, .mw-code, code {
 }
 
 
+/* #region Responsive Vector layout on grid */
+/* #region Article title area (indicators, language switcher) */
+.content-body > main {
+    display: grid;
+    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
+    grid-template-rows: [heading-start] auto [heading-end content-start] auto [content-end];
+}
+.mw-body .mw-indicators {
+    grid-column: indicator-left / indicator-right;
+    grid-row: heading-start / heading-end;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#p-lang-btn {
+    grid-column: interwikis-left / interwikis-right;
+    grid-row: heading-start / heading-end;
+    align-self: center;
+}
+#firstHeading {
+    grid-column: heading-left / heading-right;
+    grid-row: heading-start / heading-end;
+    margin-bottom: 2px;
+    border-bottom: none;
+}
+
+#bodyContent {
+    grid-column: content-left / content-right;
+    grid-row: content-start / content-end;
+    display: flex;
+    flex-direction: column;
+}
+  
+#contentSub:empty {
+    margin: 0;
+}
+  
+#mw-content-text {
+    border-top: 1px solid #a2a9b1;
+    padding-top: 6px;
+}
+  
+.rootpage-ARK_Survival_Evolved_Wiki #mw-content-text {
+    border-top: none;
+    padding-top: 0;
+}
+/* #endregion */
+/* #endregion */
+
 /* #region Editor */
 div.wikiEditor-ui .wikiEditor-ui-view {
     border:1px solid #7FE7FF;
