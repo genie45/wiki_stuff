@@ -66,6 +66,7 @@
 body, .theme-dark {
     --theme-accent-color: #0d6f70; /* temp while waiting for skin */
     --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
+    --page-background-color: #0b1212;
     --content-background-color: #2b2d2c;
     --content-background-color--rgb: 43, 45, 44;
     --content-text-color: #ebebeb;
@@ -2013,23 +2014,26 @@ table.collapsed tr.collapsible {
 
 /* #region Interwiki dropdown */
 #p-lang-btn {
+    grid-column: interwikis-left / interwikis-right;
+    grid-row: heading-start / heading-end;
+    align-self: center;
 	margin-left: 5px;
 }
 #p-lang-btn:hover label,
 #p-lang-btn-checkbox:checked + label {
-  background-color: rgba(var(--content-default-link-color--rgb), 0.15);
+    background-color: rgba(var(--content-default-link-color--rgb), 0.15);
 }
 #p-lang-btn .menu li {
-  margin: 0.2em 0.5em;
+    margin: 0.2em 0.5em;
 }
 #p-lang-btn .menu li:hover {
-  background-color: rgba(var(--content-default-link-color--rgb), 0.25);
-  border-radius: 2px;
+    background-color: rgba(var(--content-default-link-color--rgb), 0.25);
+    border-radius: 2px;
 }
 #p-lang-btn .menu li a {
-  text-transform: none;
-  font-size: 0.875em;
-  color: var(--content-text-color);
+    text-transform: none;
+    font-size: 0.875em;
+    color: var(--content-text-color);
 }
 #p-lang-btn-label::before,
 #p-lang-btn-label::after {
@@ -2051,33 +2055,39 @@ table.collapsed tr.collapsible {
 /* #endregion */
 
 
-#mw-panel .portal h3,
-h1, h2, h3, h4, h5, h6 { color: #fff; }
-
-.editOptions {
-	background-color: transparent;
-	color: inherit;
-}
-
-
-/* Base framework */
+/* #region Vector skinning */
 body {
-	background: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) no-repeat; /*[[File:Bg dark.jpg]]*/
+	background: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/ no-repeat var(--page-background-color); 
 	background-size: cover;
 	background-attachment: fixed;
-	background-color: #0b1212;
     font-family: Inter, Helvetica, Arial, sans-serif
 }
-
+/* #region Push down content area to make space for the frame border */
 #mw-page-base {
 	background: transparent;
 	height: 350px;
 }
-
 #mw-head-base {
 	height: 4.3em;
 }
-
+/* #endregion */
+/* #region Logo */
+#p-logo {
+	position: absolute;
+    top: -270px;
+    left: 50vw;
+    z-index: 10;
+    margin-left: calc(-225px + 3.3em);
+    width: 450px;
+    height: 260px;
+}
+#p-logo a {
+    background-size: contain;
+    width: 450px;
+    height: 260px;
+}
+/* #endregion */
+/* #region Content area (& frame border) */
 div#content {
 	position: relative;
 	background-color: var(--content-background-color);
@@ -2087,12 +2097,11 @@ div#content {
     border-image-width: 300px;
     border-image-outset: 15px;
     border-image-repeat: stretch;
-    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png); /* [[File:Border frame.png]] */
+    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png); /*[[File:Border frame.png]]*/
     box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
     min-height: 600px;
     margin-right: 40px;
 }
-
 div#content::before {
 	position: absolute;
 	top: -250px;
@@ -2104,9 +2113,9 @@ div#content::before {
 	margin-left: -331px;
 	background-size: contain;
 }
-
 .content-body { padding: 85px 5px 0 5px; }
-
+/* #endregion */
+/* #region Footer */
 div#footer {
 	margin-top: 4em;
 	margin-bottom: 2em;
@@ -2114,72 +2123,43 @@ div#footer {
 	background-color: rgba(var(--content-background-color--rgb), 0.8);
 	border-radius: 2px;
 }
-
 #footer ul li { color: #fff; }
+/* #endregion */
 
-#pageWrapper {
-	margin-right: 10px;
-}
-
-fieldset {
-	border-color: #000;
-}
-
-.oo-ui-panelLayout-framed {
-	border: 1px solid #000;
-}
-
-#p-logo {
-	position: absolute;
-    top: -270px;
-    left: 50vw;
-    z-index: 10;
-    margin-left: calc(-225px + 3.3em);
-    width: 450px;
-    height: 260px;
-}
-
-#p-logo a {
-  background-size: contain;
-  width: 450px;
-  height: 260px;
-}
-
-/* End base framework */
-
-/* Links */
-a,
-a:visited,
+/* #region Links */
+a, a:visited,
 div#footer a,
-div#content a.extiw,
-div#content a.extiw:visited,
-div#content a.external,
-div#content a.external:visited,
+div#content a.extiw, div#content a.extiw:visited,
+div#content a.external, div#content a.external:visited,
 #mw-indicator-mw-helplink a,
 .pseudo-link,
 .jslink,
 label.toctogglelabel {
 	color: var(--content-text-link-color);
 }
-
 .jslink:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
 div#content a.new {
 	color: #E51616;
 }
+/* #endregion */
+/* #region Headings */
+#mw-panel .portal h3,
+h1, h2, h3, h4, h5, h6 { color: #fff; }
+/* #endregion */
 
-/* End links */
-
-/* Sidebar */
+/* #region Sidebar */
+#mw-panel {
+	position: absolute;
+	top: 350px;
+	z-index: 11;
+}
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
 }
-
-.skin-vector div#mw-panel div.portal h3,
+div#mw-panel div.portal h3,
 #mw-panel.collapsible-nav .portal h3 a,
 #mw-panel.collapsible-nav .portal h3 a:visited,
 #mw-panel.collapsible-nav div.portal h3 a,
@@ -2189,21 +2169,18 @@ div#mw-panel div.portal {
 	color: #ffffff;
 	font-weight: bold;
 }
-
-.skin-vector #mw-panel .portal h3 {
+#mw-panel .portal h3 {
 	background-image: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
 	background-position: left;
 	background-repeat: no-repeat;
 	padding-left: 1.5em;
 	cursor: pointer;
 }
-
-.skin-vector #mw-panel .portal.collapsed h3 {
+#mw-panel .portal.collapsed h3 {
 	background-image: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
 	background-position: left;
 	background-repeat: no-repeat;
 }
-
 div#mw-panel div.portal div.body ul li a,
 div#mw-panel div.portal div.body ul li a:link,
 div#mw-panel div.portal div.body ul li a:visited {
@@ -2215,23 +2192,12 @@ div#mw-panel div.portal div.body ul li a:hover {
     color: var(--content-text-link-color);
     text-decoration: none;
 }
-
-div#mw-panel div#p-socialProfiles.portal .body {
-	margin: auto;
-}
-
-#mw-panel {
-	position: absolute;
-	top: 350px;
-	z-index: 11;
-}
-/* end sidebar */
-
+/* #endregion */
+/* #region Content navigation head */
 #mw-head {
 	top: 340px;
 	z-index: 10;
 }
-
 #left-navigation {
 	margin-left: 13em;
 }
@@ -2247,8 +2213,6 @@ div#mw-panel div#p-socialProfiles.portal .body {
 #mw-head .vectorMenu h3 {
 	background: none;
 }
-
-
 .vectorMenu h3 span,
 .vectorTabs li a ,
 .vectorMenu li a {
@@ -2256,21 +2220,17 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	text-transform: uppercase;
 	text-decoration: none;
 }
-
 .vectorTabs li { position:relative; }
-
 .vectorMenu:hover h3 span,
 .vectorTabs li a:hover,
 .vectorTabs li.selected a,
 .vectorTabs li.selected a:visited,
 .vectorMenu li a:hover,
 .vectorMenu li.selected a,
-.vectorMenu li.selected a:hover{ 
+.vectorMenu li.selected a:hover { 
     color: var(--content-default-link-color); 
 }
-
-.vectorTabs li:not(:last-child)::after
- {
+.vectorTabs li:not(:last-child)::after {
 	content: '\25cb';
 	font-size: 0.8125em;
     color: #228083;
@@ -2300,13 +2260,75 @@ div#mw-panel div#p-socialProfiles.portal .body {
 .vectorTabs li.selected:hover::before {
 	border-color: #9acd32;
 }
-
 .vectorMenu .menu {
 	background-color: rgba(49,50,50,.95);
 	border-color: #3c3e40;
 }
 .vectorMenu li a { color: var(--content-default-link-color); }
 .vectorMenu h3 span:after { filter: invert(1); }
+/* #endregion */
+
+/* #region Responsive grid layout */
+/* #region Article title area (indicators, language switcher) */
+.content-body > main {
+    display: grid;
+    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
+    grid-template-rows: [heading-start] auto [heading-end content-start] auto [content-end];
+}
+.mw-body .mw-indicators {
+    grid-column: indicator-left / indicator-right;
+    grid-row: heading-start / heading-end;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#firstHeading {
+    grid-column: heading-left / heading-right;
+    grid-row: heading-start / heading-end;
+    margin-bottom: 2px;
+    border-bottom: none; /* Moved onto #mw-content-text, see below */
+}
+#bodyContent {
+    grid-column: content-left / content-right;
+    grid-row: content-start / content-end;
+    display: flex;
+    flex-direction: column;
+}
+/* Border below the title heading (as in this setup #firstHeading does not span for the entire length) */
+#mw-content-text {
+    border-top: 1px solid #a2a9b1;
+    padding-top: 6px;
+}
+#contentSub:empty {
+    margin: 0;
+}
+/* Remove the title border from main page */
+.rootpage-ARK_Survival_Evolved_Wiki #mw-content-text {
+    border-top: none;
+    padding-top: 0;
+}
+/* #endregion */
+/* #endregion */
+
+/* #endregion */
+
+
+.editOptions {
+	background-color: transparent;
+	color: inherit;
+}
+
+
+
+fieldset {
+	border-color: #000;
+}
+
+.oo-ui-panelLayout-framed {
+	border: 1px solid #000;
+}
+
+
 
 #simpleSearch {
 	background: none;
@@ -2806,54 +2828,6 @@ pre, .mw-code, code {
 }
 
 
-/* #region Responsive Vector layout on grid */
-/* #region Article title area (indicators, language switcher) */
-.content-body > main {
-    display: grid;
-    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
-    grid-template-rows: [heading-start] auto [heading-end content-start] auto [content-end];
-}
-.mw-body .mw-indicators {
-    grid-column: indicator-left / indicator-right;
-    grid-row: heading-start / heading-end;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-#p-lang-btn {
-    grid-column: interwikis-left / interwikis-right;
-    grid-row: heading-start / heading-end;
-    align-self: center;
-}
-#firstHeading {
-    grid-column: heading-left / heading-right;
-    grid-row: heading-start / heading-end;
-    margin-bottom: 2px;
-    border-bottom: none;
-}
-
-#bodyContent {
-    grid-column: content-left / content-right;
-    grid-row: content-start / content-end;
-    display: flex;
-    flex-direction: column;
-}
-  
-#contentSub:empty {
-    margin: 0;
-}
-  
-#mw-content-text {
-    border-top: 1px solid #a2a9b1;
-    padding-top: 6px;
-}
-  
-.rootpage-ARK_Survival_Evolved_Wiki #mw-content-text {
-    border-top: none;
-    padding-top: 0;
-}
-/* #endregion */
-/* #endregion */
 
 /* #region Editor */
 div.wikiEditor-ui .wikiEditor-ui-view {
