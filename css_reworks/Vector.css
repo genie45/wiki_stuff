@@ -104,9 +104,9 @@ body, .theme-dark {
     --ark-navboxgroup-title-text-color: var(--content-text-color);
     --ark-navboxgroup-title-border-color: #94c436;
     /* Arkitexure */
-    --ark-arkitex-background-color: #535353;
-    --ark-arkitex-border-color: var(--content-default-link-color);
-    --ark-arkitex-accent-color: #b6f33b;
+	--ark-arkitex-background-color: #535353;
+    --ark-arkitex-border-color: var(--sidenav-header-background);
+    --ark-arkitex-accent-color: lightgrey;
     --ark-arkitex-left-color: #3d3e3d;
     --ark-arkitex-right-color: #232821;
     /* PaintRegion */
@@ -1465,7 +1465,7 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 
 /* #region [[Template:Arkitexure]]: used for creature and other more custom infoboxes */
 .info-arkitex {
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .info-framework, .info-framework * {
     box-sizing: border-box;
@@ -1493,7 +1493,7 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     padding: 4px 4px 0 4px;
     overflow: hidden;
     border-bottom: 3px solid var(--ark-arkitex-accent-color);
-    border-image: linear-gradient(to right, transparent 1%, var(--ark-arkitex-accent-color) 15%, var(--ark-arkitex-accent-color) 85%, transparent 99%) 1;
+	border-radius: 0px;
 }
 
 /* Hide bottom separator if this is the last Arkitexure module */
