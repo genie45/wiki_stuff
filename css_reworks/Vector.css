@@ -2244,11 +2244,11 @@ div#mw-panel div.portal div.body ul li a:hover {
     color: var(--content-default-link-color); 
 }
 .vectorTabs li:not(:last-child)::after {
-	content: '\007C';
+	content: '\25cb';
 	font-size: 0.8125em;
-    color: #228083;
+    color: var(--content-text-color);
     position: relative;
-    top: -12px;
+    top: -0.775em;
 }
 
 @keyframes tabHover {
