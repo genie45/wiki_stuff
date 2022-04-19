@@ -2989,4 +2989,6 @@ div#wpTextbox0 {
     color: var(--sidenav-header-text-color);
     background: var(--sidenav-header-background)
 }
-
+.mw_metadata a{
+    color: var(--sidenav-header-text-color)
+}
