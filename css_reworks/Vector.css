@@ -2980,6 +2980,7 @@ div#wpTextbox0 {
     background-color:#C3DFE5 !important;
 }
 /* #endregion */
+
 /**Metadata infobox on File pages**/
 .mw_metadata{
     color: var(--sidenav-header-text-color);
@@ -2988,3 +2989,7 @@ div#wpTextbox0 {
 .mw_metadata a{
     color: var(--sidenav-header-text-color)
 }
+
+/** Off-center icons **/
+.vectorTabs #ca-watch.icon a { padding-top: 3.325em }
+#pt-userpage a { background-position: left 0.5em }
