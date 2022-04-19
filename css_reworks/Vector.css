@@ -66,8 +66,8 @@
 body, .theme-dark {
     --theme-accent-color: #0d6f70; /* temp while waiting for skin */
     --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
-    --content-background-color: #313332;
-    --content-background-color--rgb: 49, 51, 50;
+    --content-background-color: #2b2d2c;
+    --content-background-color--rgb: 43, 45, 44;
     --content-text-color: #ebebeb;
     --content-text-link-color: #9acd32;
     --content-border-color: #658a19;
@@ -78,7 +78,7 @@ body, .theme-dark {
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
     /* Table of contents */
-    --toc-background-color: #4a4d4b;
+    --toc-background-color: #424442;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
     /* Tables */
