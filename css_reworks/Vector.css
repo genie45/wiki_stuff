@@ -138,12 +138,6 @@ body, .theme-dark {
 }
 /* #endregion */
 
-/** Article title heading **/
-.mw-body h1, .mw-body-content h1 {
-    font-size: 2.2em;
-    padding: 0.1em 0 0 0.4em;
-}
-
 /** Left side navigation adjustments **/
 #mw-panel > div h3 {
     background: var(--sidenav-header-background);
@@ -2160,6 +2154,13 @@ div#content a.new {
 /* #region Headings */
 #mw-panel .portal h3,
 h1, h2, h3, h4, h5, h6 { color: #fff; }
+
+#firstHeading {
+    font-size: 2.2em;
+    /* Break words to prevent overflow. Vector doesn't do that by default. */
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
 /* #endregion */
 
 /* #region Sidebar */
@@ -2294,17 +2295,17 @@ div#mw-panel div.portal div.body ul li a:hover {
     align-items: center;
     gap: 4px;
 }
-#firstHeading {
-    grid-column: heading-left / heading-right;
-    grid-row: heading-start / heading-end;
-    margin-bottom: 2px;
-    border-bottom: none; /* Moved onto #mw-content-text, see below */
-}
 #bodyContent {
     grid-column: content-left / content-right;
     grid-row: content-start / content-end;
     display: flex;
     flex-direction: column;
+}
+#firstHeading {
+    grid-column: heading-left / heading-right;
+    grid-row: heading-start / heading-end;
+    margin-bottom: 2px;
+    border-bottom: none; /* Moved onto #mw-content-text, see below */
 }
 /* Border below the title heading (as in this setup #firstHeading does not span for the entire length) */
 #mw-content-text {
@@ -2319,7 +2320,30 @@ div#mw-panel div.portal div.body ul li a:hover {
     border-top: none;
     padding-top: 0;
 }
+
+@media screen and (max-width: 1290px) {
+    .content-body > main {
+        grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] minmax(0,auto) [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
+        grid-template-rows: [before-heading] auto [heading-start] auto [heading-end content-start] auto [content-end];
+    }
+    .mw-body .mw-indicators {
+        grid-column: heading-left / heading-right;
+        grid-row: before-heading;
+    }
+    #firstHeading {
+        grid-column: heading-left / indicator-right;
+        grid-row: heading-start / heading-end;
+    }
+}
 /* #endregion */
+/* #endregion */
+
+/* #region Other narrow width tweaks */
+@media screen and (max-width: 970px) {
+    #firstHeading {
+        font-size: 2em
+    }
+}
 /* #endregion */
 
 /* #endregion */
