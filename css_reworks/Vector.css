@@ -2084,7 +2084,7 @@ body {
 /* #region Content area (& frame border) */
 div#content {
 	position: relative;
-	background-color: rgba(var(--content-background-color--rgb),0.97);
+	background-color: rgba(var(--content-background-color--rgb),0.96);
 	color: var(--content-text-color);
 	border-color: #080808;
 	border-image-slice: 630 600 5 600;
