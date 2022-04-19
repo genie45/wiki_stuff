@@ -144,7 +144,7 @@ body, .theme-dark {
 }
 
 /** Left side navigation adjustments **/
-#mw-panel > div h3{
+#mw-panel > div h3 {
     background: var(--sidenav-header-background);
     color: var(--sidenav-header-text-color) !important;
     border-radius: 2px;
@@ -190,7 +190,12 @@ ul {
 /** For elements which only display in the mobile view **/
 .mobileonly { display: none !important; }
 
-/* #region [[ARK Survival Evolved Wiki:Community portal]]: sections */
+/* #region [[ARK Survival Evolved Wiki:Community portal]] & Noticeboard */
+.feature {
+    background: rgba(200, 200, 200, 0.05);
+    border: 1px solid rgba(200, 200, 200, 0.2);
+    border-radius: 5px; padding: 10px;
+}
 .cpbox {
     display: flex;
     flex-direction: row-reverse;
@@ -208,6 +213,18 @@ ul {
     width: calc(67% - 10px);
     margin: 5px;
     flex-grow: 1;
+}
+.adminlist-background{
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: #0A130F;
+	border: 1px solid #7FE7FF;
+	font-family: Tahoma, Arial, sans-serif;
+    font-size: 80%;
 }
 /* #endregion */
 
@@ -252,9 +269,26 @@ table .number { text-align: right; }
     z-index: 1;
 }
 
-/** Allow limiting of which header levels are shown in a TOC; <div class="toclimit-3">, for instance, will limit to showing
-    ==headings== and ===headings=== but no further (as long as there are no =headings= on the page, which there shouldn't be
-    according to the MoS). */
+/* #region Table of Contents, category list, file ToC */
+div#toc,
+div.toc,
+div.mw-warning {
+	background-color: var(--toc-background-color);
+	border-color: var(--content-border-color);
+}
+.tocnumber {
+    color: #cecece;
+}
+#catlinks,
+ul#filetoc {
+    background-color: var(--table-heading-background-color);
+    color: #80E7FF;
+    border: 1px solid var(--table-border-color);
+}
+
+/* Allow limiting of which header levels are shown in a TOC; <div class="toclimit-3">, for instance, will limit to showing
+   ==headings== and ===headings=== but no further (as long as there are no =headings= on the page, which there shouldn't be
+   according to the MoS). */
 .toclimit-2 .toclevel-1 ul,
 .toclimit-3 .toclevel-2 ul,
 .toclimit-4 .toclevel-3 ul,
@@ -264,52 +298,17 @@ table .number { text-align: right; }
     display: none;
 }
 
-/** [[Template:Tocright]] **/
+/* [[Template:Tocright]] */
 .tocright {
     float: right;
     padding-left: 1.4em;
 }
 
-/** Make ToCs float to the right on pages with no infobox **/
+/* Make ToCs float to the right on pages with no infobox */
 #content .mw-parser-output > #toc { float: right; clear: right; margin-left: 1.4em; }
 #content .mw-parser-output .info-framework ~ #toc,
 #content .mw-parser-output .infobox-tabber ~ #toc,
 #content .mw-parser-output .structureSelector ~ #toc { float: none; clear: none; margin-left: 0; }
-
-/* #region Creature Region Map */
-.cr-region-map-map img{
-    filter: sepia(60%) grayscale(30%);
-}
-.cr-region-map-marker{
-    font-size: 12px;
-    font-weight: bold;
-    position: absolute;
-    border-radius: 2px;
-}
-.cr-region-map-markercave{
-    border: 1px solid black;
-}
-.cr-region-map-cl-very-common{
-    background-color: hsl(120,100%,60%);
-}
-.cr-region-map-cl-common{
-    background-color: hsl(78,100%,60%);
-}
-.cr-region-map-cl-uncommon{
-    background-color: hsl(60,100%,63.3%);
-}
-.cr-region-map-cl-very-uncommon{
-    background-color: hsl(48,100%,63.3%);
-}
-.cr-region-map-cl-rare{
-    background-color: hsl(30,100%,56.7%);
-}
-.cr-region-map-cl-very-rare{
-    background-color: hsl(0,100%,56.7%);
-}
-.cr-region-map-cl-unknown{
-    background-color: #ccc;
-}
 /* #endregion */
 
 /** Three-colored tables: red, green, gray **/
@@ -877,7 +876,22 @@ th span.short { display: none; }
 }
 /* #endregion */
 
-/* #region [[Template:Nav creatures]]: grid filtering */
+/* #region [[Template:Nav creatures]] */
+.navbox-creature-item {
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 50px;
+    text-align: center
+}
+.navbox-creature-item div {
+	background-color: #2d74be;
+}
+.creature_roster li:hover > div {
+    box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
+}
+/* Grid */
 .creature_roster {
     line-height: 0; /* Kills any vertical spacing between rows */
     margin: 0 !important;
@@ -889,6 +903,37 @@ th span.short { display: none; }
     display: inline-block;
     margin: 0;
     overflow: hidden;
+}
+/* Coloring */
+.navbox-creature-item .nav-white {
+    background-color:#D5F2F2;
+}
+.navbox-creature-item .nav-yellow {
+    background-color:#E5DFAC;
+}
+.navbox-creature-item .nav-brown {
+    background-color:#e5c6ac;
+}
+.navbox-creature-item .nav-purple {
+    background-color:#CEACE5;
+}
+.navbox-creature-item .nav-orange {
+    background-color:#FAD6A5;
+}
+.navbox-creature-item .nav-grey {
+    background-color:#C4C4C4
+}
+.navbox-creature-item .nav-green {
+    background-color:#a6ffa9
+}
+.navbox-creature-item .nav-cyan {
+    background-color:#86e0f0
+}
+.navbox-creature-item .nav-pink {
+    background-color:#ffb0eb
+}
+.navbox-creature-item .nav-red {
+    background-color:#e5acb1
 }
 /* #endregion */
 
@@ -1734,20 +1779,6 @@ table.collapsed tr.collapsible {
     padding-left: .5em;
 }
 
-/** [[Template:Nav Creatures]] **/
-.navbox-creature-item {
-    display: inline-block;
-    margin: 2px;
-    overflow: hidden;
-    vertical-align: middle;
-    width: 50px;
-    text-align: center
-}
-/* Do not set any negative bottom margin on Nav creatures to avoid a scrollbar */
-.navbox.navbox-creature {
-    margin-bottom: 0;
-}
-
 /* #region [[Template:DossierText]] */
 .dossier-background {
     border-radius: 0.5em;
@@ -1815,6 +1846,7 @@ table.collapsed tr.collapsible {
     vertical-align: top;
     width: 47%;
     margin: 1em;
+	color: var(--content-text-color) !important;
 }
 .explorer-note-main {
     border-radius: 0.25em;
@@ -1981,7 +2013,6 @@ table.collapsed tr.collapsible {
 
 /* #region Interwiki dropdown */
 #p-lang-btn {
-	float: right;
 	margin-left: 5px;
 }
 #p-lang-btn:hover label,
@@ -2028,12 +2059,6 @@ h1, h2, h3, h4, h5, h6 { color: #fff; }
 	color: inherit;
 }
 
-/* used on the community portal */
-.feature {
-    background: rgba(200, 200, 200, 0.05);
-    border: 1px solid rgba(200, 200, 200, 0.2);
-    border-radius: 5px; padding: 10px;
-}
 
 /* Base framework */
 body {
@@ -2261,8 +2286,7 @@ div#mw-panel div#p-socialProfiles.portal .body {
 		width: 95%;
 	}
 }
-.vectorTabs li:hover::before
-{
+.vectorTabs li:hover::before {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -2295,55 +2319,8 @@ div#mw-panel div#p-socialProfiles.portal .body {
 	color: var(--content-text-color);
 }
 
-.navbox-creature-item div {
-	background-color: #2d74be;
-}
 
-.creature_roster li:hover > div {
-  box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
-}
-
-.navbox-creature-item .nav-white {
-  background-color:#D5F2F2;
-}
-
-.navbox-creature-item .nav-yellow {
-  background-color:#E5DFAC;
-}
-
-.navbox-creature-item .nav-brown {
-  background-color:#e5c6ac;
-}
-
-.navbox-creature-item .nav-purple {
-  background-color:#CEACE5;
-}
-
-.navbox-creature-item .nav-orange {
-  background-color:#FAD6A5;
-}
-
-.navbox-creature-item .nav-grey {
-  background-color:#C4C4C4
-}
-
-.navbox-creature-item .nav-green {
-  background-color:#a6ffa9
-}
-
-.navbox-creature-item .nav-cyan {
-  background-color:#86e0f0
-}
-
-.navbox-creature-item .nav-pink {
-  background-color:#ffb0eb
-}
-
-.navbox-creature-item .nav-red {
-  background-color:#e5acb1
-}
-
-/* Tabber */
+/* #region Tabbers */
 .tabber.tabberlive {
 	border-color: var(--tabber-border-color);
     overflow-y: auto;
@@ -2389,6 +2366,7 @@ ul.tabbernav li {
 .tabber .tabbertab {
 	border-color: var(--tabber-border-color);
 }
+/* #endregion */
 
 /* Image-specific tweak to get it to display with a height of 75px */
 .tile_inner img[src*="PS.svg"] {
@@ -2424,24 +2402,11 @@ ul.tabbernav li {
 	color: var(--content-text-color);
 }
 
-
-/*Toc styling*/
-div#toc,
-div.toc,
-div.mw-warning {
-	background-color: var(--toc-background-color);
-	border-color: var(--content-border-color);
-}
-.tocnumber {
-    color: #cecece;
-}
-
-
-/*Diff styling*/
+/* #region Special:History & diffs */
 table.diff,
 td.diff-otitle,
 td.diff-ntitle {
-  background-color:rgba(0,0,0,0.3)
+    background-color:rgba(0,0,0,0.3)
 }
 
 .mw-plusminus-pos {
@@ -2490,6 +2455,7 @@ td.diff-context {
 	background-color: #6e92c036;
 	color:#e0e0e0;
 }
+/* #endregion */
 
 /* Preferences */
 .client-js div#preferences {
@@ -2593,7 +2559,7 @@ table.wikitable tbody tr td {
 div.mw-search-profile-tabs {
     background-color: var(--table-heading-background-color);
     color: #80E7FF;
-    border:1px solid var(--table-border-color);
+    border: 1px solid var(--table-border-color);
 }
 fieldset#mw-searchoptions {
     border: 1px solid var(--table-border-color);
@@ -2618,140 +2584,6 @@ div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
 }
 /* #endregion */
 
-
-/* Editor Styling */
-div.wikiEditor-ui .wikiEditor-ui-view {
-  border:1px solid #7FE7FF;
-}
-
-div.wikiEditor-ui {
-    background: transparent;
-    border:0;
-}
-
-div.wikiEditor-ui-buttons {
-    background-color: transparent;
-    border-top:0;
-    margin-right: 5px;
-}
-
-div.wikiEditor-ui-controls,
-div.wikiEditor-ui-tabs {
-  background-color: transparent;
-  border:0;
-  margin-bottom:0.5px;
-}
-
-div.wikiEditor-ui-tabs div {
-  font-weight:bold;
-	background-color: #0A130F;
-	border: 1px solid #7FE7FF;
-  border-bottom:0;
-  margin-right:5px;
-}
-
-#content div.wikiEditor-ui-tabs div a {
-  background-color:transparent;
-  color: #B1F4F0;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-div.wikiEditor-ui-tabs div:not(.current):hover {
-  background-color:rgba(0,0,0,0.25);
-}
-
-div.wikiEditor-ui-tabs div.current {
-  border-bottom:0;
-  background-color:#1F5F73;
-  padding-bottom:1px;
-}
-
-div.wikiEditor-ui-toolbar {
-  background:rgba(0,0,0,0.25);
-}
-
-div.wikiEditor-ui-toolbar .group {
-  border-right: 1px solid #7FE7FF;
-}
-
-div.wikiEditor-ui-toolbar .group-search {
-   border-left: 1px solid #7FE7FF;
-   border-right: none;
-}
-
-.tab {
-   border-color: transparent;
-}
-
-div.wikiEditor-ui-toolbar .tabs span.tab a,
-div.wikiEditor-ui-toolbar .tabs span.tab a:visited {
-   color: #E0E0E0;
-}
-
-div.wikiEditor-ui-toolbar .tabs span.tab a.current,
-div.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
-   color: #ffffff;
-}
-
-#content div.wikiEditor-ui-toolbar .group .tool-select .label,
-#content div.wikiEditor-ui-toolbar .menu .options a.option {
-   color: #000000;
-}
-
-div.wikiEditor-ui-toolbar .sections .section {
-  background:transparent;
-  border-top: 1px solid #7FE7FF;
-}
-
-div.wikiEditor-ui-toolbar .booklet .index div {
-  color: #fff;
-}
-
-div.wikiEditor-ui-toolbar .booklet .index .current {
-  background-color:rgba(64,64,64,0.5);
-  color: #f7f7f7;
-}
-
-div.wikiEditor-ui-toolbar .booklet .pages {
-  background-color:#0A130F;
-}
-
-div.wikiEditor-ui-toolbar .page-characters div span {
-  border: 1px solid #3F737F;
-  color: #e5e5e5;
-  background:transparent;
-}
-
-div.wikiEditor-ui-toolbar .page-characters div span:hover {
-  background-color:#3F737F;
-}
-
-div.wikiEditor-ui-toolbar .page-table td {
-    border-top: 1px solid #7f7f7f;
-    color: #e5e5e5;
-}
-
-div.wikiEditor-preview-contents,
-div.wikiEditor-preview-loading,
-div.wikiEditor-ui-toolbar div.oo-ui-widget {
-    background-color: transparent;
-}
-
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
-  color:#e6e6e6;
-}
-
-div.editOptions { 
-  background-color: transparent;
-  border:none;
-}
-
-div#wpTextbox0 {
-  background-color:#C3DFE5 !important;
-}
-/* End Editor Styling */
-
 /* thumnbail tweaks */
 div.thumbinner {
   background-color:rgba(48,101,116,0.2);
@@ -2765,14 +2597,6 @@ li.gallerybox div.thumb {
   border-image:linear-gradient(-45deg, rgba(48,101,116,0.1), rgba(48,101,116,0.8)) 1;
 }
 /* end thumbnail tweaks */
-
-/* Category bar and filetoc */
-#catlinks,
-ul#filetoc {
-    background-color:rgba(0,0,0,0.5);
-    border:1px solid var(--content-border-color);
-}
-/* end Category bar */
 
 /*status effect styling*/
 table.status-effect-backg {
@@ -2797,106 +2621,7 @@ table.status-effect-backg {
 }
 
 
-/* Template:Photo*/
-.photo-nav,
-.photo-nav a:link,
-.photo-nav a:visited {
-	color: black !important;
-	font-weight: bold;
-	text-shadow: 1px 1px 4px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
-}
 
-.photo-gallery,
-.photo-gallery a:link,
-.photo-gallery a:visited {
-	color: #000 !important;
-}
-
-.photo-gallery img {
-	-webkit-filter: opacity(.8);
-	filter: opacity(.8);
-	opacity(.9);
-}
-
-.photo-gallery img:hover {
-	-webkit-filter: opacity(1);
-	filter: opacity(1);
-	opacity(1);
-}
-
-.photo-nav li:hover img {
-	-webkit-filter: brightness(120%);
-	filter: brightness(120%);
-}
-
-li.photo-bg {
-	margin: 8px 6px;
-	padding: 5px;
-	position: relative;
-	display: inline-block;
-	width: 200px;
-	min-height: 152px;
-	vertical-align: top;
-	text-align: center;
-	background: #c4c4c4;
-	border: 1px solid #b7b7b7;
-	box-shadow: 0 0 8px #333;
-	/* For IE 7 */
-	zoom: 1;
-	*display: inline;
-}
-
-div.photo-text {
-	position: relative;
-	top: 4px;
-	padding: 6px 0 6px 0;
-	font-size: 16px;
-}
-
-
-.redish-background{
-	background-color:#cf4c4c8a;
-}
-
-/*Template:Explorer Note*/
-.explorer-note{
-	display:inline-block;
-	vertical-align:top;
-	width:47%;
-	margin:1em;
-	color: var(--content-text-color) !important;
-}
-
-.explorer-note-main{
-	border:2px solid #2d74bea6;
-	border-radius:0.25em;
-	border-left-width:1em;
-	background: #00000040
-}
-
-/*styling for kibble tables*/
-.kibble-table{
-	text-align: center;
-	font-size: .9em;
-	border-left: solid #2d74bea6;
-	border-left-width: 0.5em ;
-	border-bottom: solid #2d74bea6;
-	border-bottom-width: 0.5em;
-	background-color: #6e92c036;
-	float: left;
-	margin: 0 .5em .5em 0;
-}
-.kibble-table-new{
-	text-align: left;
-        font-size: .9em;
-	border-left: solid #2d74bea6;
-	border-left-width: 0.5em ;
-	border-bottom: solid #2d74bea6;
-	border-bottom-width: 0.5em;
-	background-color: #6e92c036;
-	padding: .5em;
-	margin: 0 .5em .5em 0;
-}
 
 
 /* fake <h2> - looks identical but no edit link and doesn't show up in the ToC */
@@ -2911,103 +2636,84 @@ div.photo-text {
   overflow:hidden;
 }
 
-/* used by some templates for graying table cells */
-.gray {
-  background-color:#262626;
-}
 
-/*Admin noticeboard header adminlist styling*/
-.adminlist-background{
-	float: right;
-	width: 300px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	padding-right: 5px;
-	padding-left: 5px;
-	background: #0A130F;
-	border: 1px solid #7FE7FF;
-	font-family: Tahoma, Arial, sans-serif;
-  font-size: 80%;
-}
 
 /* Used on [[Beacon IDs]] */
 .beacon-caption {
   color:#000;
 }
 
-/* Used by [[Template:WildStatCalc]], used on most creature pages */
+/* #region [[Template:WildStats]] */
 #wildStatCalc tr[style^="background-color:"] {
-  color:#000;
+    color:#000;
 }
-
 #wildStatCalc a {
-  color: var(--content-default-link-color);
+    color: var(--content-default-link-color);
 }
+/* #endregion */
 
-/* Used by [[Table of Tekgrams]] and [[CreatureTableRow]] */
-.cell-green {
-  background-color:#004C07 !important;
-}
 
-.cell-yellow {
-  background-color:#7F6A00 !important;
-}
-
-.cell-pink {
-  background-color:#7F0000 !important;
-}
-
-.cell-grey {
-  background-color:#454545 !important;
-}
-
-.ctc-notice{
-  display:inline-block;
-  border:1px dashed yellow;
-  background:#0000007a;
-  padding:10px;
+.ctc-notice {
+    display: inline-block;
+    border: 1px dashed yellow;
+    background: #0000007a;
+    padding: 10px;
 }
 
 /* Tweak for illegible css code highlighting */
 .mw-highlight .nc,
 .mw-highlight .nn {
-  color:#8E8ECC;
+    color: #8E8ECC;
 }
 
-/* Used by [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox item section mod]], and [[Template:Infobox purchase section]] */
+/* #region Theme-aware coloring */
+.gray {
+    background-color: #262626;
+}
+.redish-background{
+	background-color: #cf4c4c8a;
+}
+/* [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox purchase section]] */
 .text-white {
-  color:#FFFFFF
+    color: #FFFFFF
 }
-
 .text-green {
-  color:#0F0
+    color: #0F0
 }
-
 .text-blue {
-  color:#0059FF
+    color: #0059FF
 }
-
 .text-purple {
-  color:#F0F
+    color: #F0F
 }
-
 .text-yellow {
-  color:#FF0
+    color: #FF0
 }
-
 .text-red {
-  color:#F00
+    color: #F00
 }
-
 .text-cyan {
-  color:#0FF
+    color: #0FF
 }
-
 .text-orange {
-  color:#F90
+    color: #F90
 }
+/* [[Table of Tekgrams]], [[CreatureTableRow]] */
+.cell-green {
+    background-color: #004C07;
+}
+.cell-yellow {
+    background-color: #7F6A00;
+}
+.cell-pink {
+    background-color: #7F0000;
+}
+.cell-grey {
+    background-color: #454545;
+}
+/* #endregion */
 
-/* Narrow width skin-specific tweaks */
+/* #region Narrow width skin-specific tweaks */
 @media screen and (max-width:720px) {
 	#mw-page-base { height: 275px; }
 	div#p-logo {
@@ -3037,40 +2743,39 @@ div.photo-text {
 	}
 	div#content { margin-right: 0; }
 }
+/* #endregion
 
 /* Styling for collapsible toggle */
+
 .mw-collapsible-toggle.mw-collapsible-toggle-expanded a,
 .mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
     color: var(--content-default-link-color);
 }
 
-/* Invert [[File:PS.svg]] colors for better visibility */
+/** Invert [[File:PS.svg]] colors for better visibility **/
 img[src*="/PS.svg/"] {
-  -webkit-filter:
-    invert(100%);
-  filter:
-    invert(100%);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
+/* #region wiki.gg provided CSS fixes */
+/* Upper advertisement overlaps with #mw-head */
+.games-showcase-header {
+    position: relative;
+    top: 90px;
+}
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
-table { display: table; white-space: initial; }
+table {
+    display: table;
+    white-space: initial;
+}
+/* #endregion */
 
+/* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { background-color: transparent; }
 .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget { background-color: #fff; }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button { color: #000; }
-
-pre, .mw-code, code {
-	color: #fff;
-    background-color: #202020;
-    border-color: #525354;
-}
-
-#mw-indicator-mw-helplink a { 
-    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 fill='%23fff' viewBox=%220 0 20 20%22%3E %3Cpath d=%22M10 0a10 10 0 1 0 10 10A10 10 0 0 0 10 0zm1 16H9v-2h2zm2.71-7.6a2.64 2.64 0 0 1-.33.74 3.16 3.16 0 0 1-.48.55l-.54.48c-.21.18-.41.35-.58.52a2.54 2.54 0 0 0-.47.56A2.3 2.3 0 0 0 11 12a3.79 3.79 0 0 0-.11 1H9.08a8.9 8.9 0 0 1 .07-1.25 3.28 3.28 0 0 1 .25-.9 2.79 2.79 0 0 1 .41-.67 4 4 0 0 1 .58-.58c.17-.16.34-.3.51-.44a3 3 0 0 0 .43-.44 1.83 1.83 0 0 0 .3-.55 2 2 0 0 0 .11-.72 2.06 2.06 0 0 0-.17-.86 1.71 1.71 0 0 0-1-.9 1.7 1.7 0 0 0-.5-.1 1.77 1.77 0 0 0-1.53.68 3 3 0 0 0-.5 1.82H6.16a4.74 4.74 0 0 1 .28-1.68 3.56 3.56 0 0 1 .8-1.29 3.88 3.88 0 0 1 1.28-.83A4.59 4.59 0 0 1 10.18 4a4.44 4.44 0 0 1 1.44.23 3.51 3.51 0 0 1 1.15.65 3.08 3.08 0 0 1 .78 1.06 3.54 3.54 0 0 1 .29 1.45 3.39 3.39 0 0 1-.13 1.01z%22/%3E %3C/svg%3E");
-}
-.oo-ui-indicator-down {
-    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 fill='%23fff' viewBox=%220 0 12 12%22%3E%3Cpath d=%22M10.085 2.943L6.05 6.803l-3.947-3.86L1.05 3.996l5 5 5-5z%22/%3E%3C/svg%3E");
-}
+/* #endregion */
+/* #region OOUI elements */
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--secondary);
 }
@@ -3082,8 +2787,150 @@ pre, .mw-code, code {
     border-color: var(--ooui-button-background-color--primary);
     background: var(--ooui-button-background-color--primary);
 }
-
-.games-showcase-header {
-   position: relative;
-   top: 90px;
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button { color: #000; }
+/* #endregion */
+/* #region Built-in MediaWiki and OOUI icons, dark mode */
+#mw-indicator-mw-helplink a { 
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 fill='%23fff' viewBox=%220 0 20 20%22%3E %3Cpath d=%22M10 0a10 10 0 1 0 10 10A10 10 0 0 0 10 0zm1 16H9v-2h2zm2.71-7.6a2.64 2.64 0 0 1-.33.74 3.16 3.16 0 0 1-.48.55l-.54.48c-.21.18-.41.35-.58.52a2.54 2.54 0 0 0-.47.56A2.3 2.3 0 0 0 11 12a3.79 3.79 0 0 0-.11 1H9.08a8.9 8.9 0 0 1 .07-1.25 3.28 3.28 0 0 1 .25-.9 2.79 2.79 0 0 1 .41-.67 4 4 0 0 1 .58-.58c.17-.16.34-.3.51-.44a3 3 0 0 0 .43-.44 1.83 1.83 0 0 0 .3-.55 2 2 0 0 0 .11-.72 2.06 2.06 0 0 0-.17-.86 1.71 1.71 0 0 0-1-.9 1.7 1.7 0 0 0-.5-.1 1.77 1.77 0 0 0-1.53.68 3 3 0 0 0-.5 1.82H6.16a4.74 4.74 0 0 1 .28-1.68 3.56 3.56 0 0 1 .8-1.29 3.88 3.88 0 0 1 1.28-.83A4.59 4.59 0 0 1 10.18 4a4.44 4.44 0 0 1 1.44.23 3.51 3.51 0 0 1 1.15.65 3.08 3.08 0 0 1 .78 1.06 3.54 3.54 0 0 1 .29 1.45 3.39 3.39 0 0 1-.13 1.01z%22/%3E %3C/svg%3E");
 }
+.oo-ui-indicator-down {
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 fill='%23fff' viewBox=%220 0 12 12%22%3E%3Cpath d=%22M10.085 2.943L6.05 6.803l-3.947-3.86L1.05 3.996l5 5 5-5z%22/%3E%3C/svg%3E");
+}
+/* #endregion */
+
+/** <pre>, <code> **/
+pre, .mw-code, code {
+	color: #fff;
+    background-color: #202020;
+    border-color: #525354;
+}
+
+
+/* #region Editor */
+div.wikiEditor-ui .wikiEditor-ui-view {
+    border:1px solid #7FE7FF;
+}
+
+div.wikiEditor-ui {
+    background: transparent;
+    border:0;
+}
+
+div.wikiEditor-ui-buttons {
+    background-color: transparent;
+    border-top:0;
+    margin-right: 5px;
+}
+
+div.wikiEditor-ui-controls,
+div.wikiEditor-ui-tabs {
+    background-color: transparent;
+    border:0;
+    margin-bottom:0.5px;
+}
+
+div.wikiEditor-ui-tabs div {
+    font-weight:bold;
+    background-color: #0A130F;
+    border: 1px solid #7FE7FF;
+    border-bottom:0;
+    margin-right:5px;
+}
+
+#content div.wikiEditor-ui-tabs div a {
+    background-color:transparent;
+    color: #B1F4F0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.wikiEditor-ui-tabs div:not(.current):hover {
+    background-color:rgba(0,0,0,0.25);
+}
+
+div.wikiEditor-ui-tabs div.current {
+    border-bottom:0;
+    background-color:#1F5F73;
+    padding-bottom:1px;
+}
+
+div.wikiEditor-ui-toolbar {
+    background:rgba(0,0,0,0.25);
+}
+
+div.wikiEditor-ui-toolbar .group {
+    border-right: 1px solid #7FE7FF;
+}
+
+div.wikiEditor-ui-toolbar .group-search {
+   border-left: 1px solid #7FE7FF;
+   border-right: none;
+}
+
+.tab {
+   border-color: transparent;
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a,
+div.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+   color: #E0E0E0;
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a.current,
+div.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+   color: #ffffff;
+}
+
+#content div.wikiEditor-ui-toolbar .group .tool-select .label,
+#content div.wikiEditor-ui-toolbar .menu .options a.option {
+   color: #000000;
+}
+
+div.wikiEditor-ui-toolbar .sections .section {
+    background:transparent;
+    border-top: 1px solid #7FE7FF;
+}
+
+div.wikiEditor-ui-toolbar .booklet .index div {
+    color: #fff;
+}
+
+div.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color:rgba(64,64,64,0.5);
+    color: #f7f7f7;
+}
+
+div.wikiEditor-ui-toolbar .booklet .pages {
+  background-color:#0A130F;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span {
+    border: 1px solid #3F737F;
+    color: #e5e5e5;
+    background:transparent;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span:hover {
+    background-color:#3F737F;
+}
+
+div.wikiEditor-ui-toolbar .page-table td {
+    border-top: 1px solid #7f7f7f;
+    color: #e5e5e5;
+}
+
+div.wikiEditor-preview-contents,
+div.wikiEditor-preview-loading,
+div.wikiEditor-ui-toolbar div.oo-ui-widget {
+    background-color: transparent;
+}
+
+div.editOptions { 
+    background-color: transparent;
+    border:none;
+}
+
+div#wpTextbox0 {
+    background-color:#C3DFE5 !important;
+}
+/* #endregion */
