@@ -1486,7 +1486,8 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 
 /* Individual module (sub-container) */
 .info-module {
-    display: inline-block;
+    display: block;
+    padding: 7px 4px 1px 4px;
     width: 100%;
     text-align: right;
     margin: 0;
@@ -1494,6 +1495,9 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     overflow: hidden;
     border-bottom: 3px solid var(--ark-arkitex-accent-color);
 	border-radius: 0px;
+}
+.info-module:first-child {
+    padding-top: 3px;
 }
 
 /* Hide bottom separator if this is the last Arkitexure module */
