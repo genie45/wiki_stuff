@@ -23,6 +23,8 @@
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #7ba428;
     --content-default-link-color--rgb: 123, 164, 40;
+    --topmenu-background-color: 101, 138, 25;
+    --topmenu-border-color: #0b1212; 
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
@@ -32,6 +34,10 @@
 	--toc-number-color: #4a4d4b;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
+    --tabber-background-color: #997433;
+    --tabber-background-hover-color: #7d5f2a;
+    --tabber-text-hover-color: #fff;
+    --tabber-background-active-color: #c69c53;
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -101,6 +107,8 @@ body, .theme-dark {
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #9acd32;
     --content-default-link-color--rgb: 154, 205, 50;
+    --topmenu-background-color: 49,50,50;
+    --topmenu-border-color: #3c3e40;
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
@@ -110,6 +118,10 @@ body, .theme-dark {
     --toc-number-color: #cecece;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
+    --tabber-background-color: #5e8118;
+    --tabber-background-hover-color: #7dac20;
+    --tabber-text-hover-color: #000;
+    --tabber-background-active-color: #8dc224;
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -2336,8 +2348,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 	border-color: #9acd32;
 }
 .vectorMenu .menu {
-	background-color: rgba(49,50,50,.95);
-	border-color: #3c3e40;
+	background-color: rgba(var(--topmenu-background-color),.95);
+	border-color: var(--topmenu-border-color);
 }
 .vectorMenu li a { color: var(--content-default-link-color); }
 .vectorMenu h3 span:after { filter: invert(1); }
@@ -2648,24 +2660,24 @@ ul.tabbernav {
 
 ul.tabbernav li a:link {
 	font-size: 12px !important;
-	background-color: #021d31 ;
+	background-color: var(--tabber-background-color) ;
 	color: var(--content-text-color);
 	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li a:hover,
 ul.tabbernav li.tabberactive a:hover {
-	background: #3191b9fc !important;
-	color: #ddd !important;
+	background: var(--tabber-background-hover-color)!important;
+	color: (var(--tabber-text-hover-color) !important;
 	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li.tabberactive a {
 	color: var(--content-text-color) !important;
-	background-color: #2d74befa;
+	background-color: var(--tabber-background-active-color);
 	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li a {
 	margin-left: 1px;
-	background-color: #021d31;
+	background-color: var(--tabber-background-color);
 	color: var(--content-text-color);
 	border-color: var(--tabber-border-color);
 }
