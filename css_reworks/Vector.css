@@ -9,7 +9,7 @@
 
 /* #region Theme variables */
 /* Light */
-.theme-light{
+body, .theme-light{
 	--theme-accent-color: #005c62; /* temp while waiting for skin */
     --theme-accent-color--rgb: 0, 92, 98; /* temp while waiting for skin */
     --page-background-color: #0b1212;
@@ -85,7 +85,6 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #ccc;
     --ark-kibbletable-background-color: #fff;
-}
 }
 /* Dark */
 body, .theme-dark {
