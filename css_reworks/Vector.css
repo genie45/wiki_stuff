@@ -673,8 +673,8 @@ ul#filetoc {
 }
 #fpwelcomelinks .tile_container {
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 40px;
+    height: 40px;
 }
 
 @media screen and (max-width: 1375px) {
