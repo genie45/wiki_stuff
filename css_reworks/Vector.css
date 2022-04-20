@@ -706,6 +706,38 @@ ul#filetoc {
     }
 }
 
+/* Platform box */
+#fp-platform-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 1;
+}
+.fp-platform-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+}
+.fp-platform-flex * {
+    vertical-align: middle;
+}
+.fp-platform-flex > div {
+    margin-left: 4px;
+}
+.fp-platform-flex > div > * {
+    display: block;
+}
+.fp-platform-flex a.external {
+    background: none;
+} 
+.fp-platform-flex strong {
+    margin-top: 3px;
+    font-size: 1.125em;
+}
+
 /* Other */
 .fpimagelist ul {
     list-style-type: none;
