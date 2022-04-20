@@ -71,6 +71,7 @@ body, .theme-dark {
     --theme-accent-color: #0d6f70; /* temp while waiting for skin */
     --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
     --page-background-color: #0b1212;
+    --page-background-color--rgb: 11, 18, 18;
     --content-background-color: #2b2d2c;
     --content-background-color--rgb: 43, 45, 44;
     --content-text-color: #ebebeb;
@@ -3002,13 +3003,27 @@ pre, .mw-code, code {
 }
 
 /* #region Wikitext Editor */
-div.wikiEditor-ui .wikiEditor-ui-view {
-    border:1px solid #7FE7FF;
+.mw-editform #wpTextbox1 {
+    background: rgba(var(--page-background-color--rgb), 0.5);
+    color: var(--content-text-color);
 }
-
-div.wikiEditor-ui {
-    background: transparent;
-    border:0;
+div.wikiEditor-ui .wikiEditor-ui-view,
+.wikiEditor-ui .wikiEditor-ui-top {
+    border-color: var(--content-border-color);
+}
+div.wikiEditor-ui-toolbar {
+    background: var(--table-heading-background-color);
+}
+.wikiEditor-ui-toolbar .tool.oo-ui-iconElement {
+    filter:invert(1);
+}
+.tool.oo-ui-buttonElement-frameless,
+.wikiEditor-ui-toolbar .tab {
+    padding: 0.3em;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.wikiEditor-ui-buttons {
