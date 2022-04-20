@@ -2942,6 +2942,7 @@ img[src*="/PS.svg/"] {
 .games-showcase-header {
     position: relative;
     top: 90px;
+    margin-bottom: 25px;
 }
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
 table {
