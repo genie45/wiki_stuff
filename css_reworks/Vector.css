@@ -2341,6 +2341,126 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
 }
 /* #endregion */
+/* #region Mobile (720px) body grid (inspired by Terraria) */
+@media screen and (max-width: 720px) {
+    :root {
+        --netbar-height: 90px;
+        --wiki-logo-height: 120px;
+        --wiki-logo-width: 300px;
+        --wiki-logo-top-offset: 100px;
+        --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-top-offset) - var(--netbar-height)) * 2);
+        --search-height: 35px;
+        --search-top-offset: calc(-100px - var(--wiki-logo-height) / 2 - var(--search-height) / 2);
+    }
+    body {
+        display: grid;
+        grid-template-columns:
+            [body-left aside-left content-left] auto
+            [aside-right content-right body-right];
+        grid-template-rows:
+            [body-start] var(--netbar-height)
+            [page-start logo-start] var(--wiki-logo-height)
+            [logo-end aside-start] auto
+            [aside-end nav-start] 0fr
+            [nav-end content-start] 1fr
+            [content-end footer-start] 0fr
+            [footer-end] auto
+            [page-end] 0fr
+            [body-end];
+    }
+    body > .content-wrapper, #mw-navigation {
+        display: contents;
+    }
+    div#p-logo {
+        margin-left: 0;
+        left: 0;
+        height: var(--wiki-logo-height);
+        top: var(--wiki-logo-top-offset);
+    }
+    #p-logo a {
+        height: var(--wiki-logo-height);
+    }
+    div#content {
+        margin-top: 0;
+    }
+    #mw-panel {
+        grid-column: aside-left/aside-right;
+        grid-row: aside-start/aside-end;
+    }
+    div#mw-navigation div#mw-panel {
+        display: flex;
+        width: auto;
+        overflow: visible;
+        margin-top: var(--wiki-logo-layout-bottom-gap);
+    }
+    #mw-panel .portal, #mw-panel #p-logo + .portal {
+        position: relative;
+    }
+    #mw-panel #p-logo + .portal .body, #mw-panel .portal .body {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 50;
+        width: max-content;
+        border-top: 0;
+        min-width: 8em;
+    }
+    #mw-panel #p-logo + .portal.expanded .body, #mw-panel .portal.expanded .body, #mw-panel #p-logo + .portal:hover .body, #mw-panel .portal:hover .body {
+        display: block;
+    }
+    #mw-panel #p-logo + .portal h3 {
+        display: block;
+    }
+    #mw-panel .portal h3 {
+        background-position: right;
+        padding-left: 0;
+        padding-right: 1.5em;
+    }
+    #mw-panel #p-logo + .portal h3, #mw-panel .portal h3 {
+        font-size: 12px;
+        padding: 8px 6px;
+    }
+    #mw-panel #p-logo + .portal h3, #mw-panel .portal h3 {
+        margin: 0;
+    }
+    #mw-panel .portal, #mw-panel #p-logo + .portal {
+        margin: 0;
+        margin-left: 0px;
+    }
+    div#content {
+        grid-column: content-left/content-right;
+        grid-row: content-start/content-end;
+        min-height: unset;
+        box-shadow: 0 10px 12px #0008;
+    }
+    #footer {
+        grid-column: content-left/content-right;
+        grid-row: footer-start/footer-end;
+    }
+    body > footer {
+        grid-column: body-left/body-right;
+        grid-row: page-end/body-end;
+    }
+    #mw-head #p-search {
+        position: absolute;
+        top: var(--search-top-offset);
+        right: 0;
+    }
+    #mw-head {
+        grid-column: content-left/content-right;
+        grid-row: nav-start/nav-end;
+        top: 320px;
+    }
+    #mw-page-base {
+        height: 250px;
+        background: linear-gradient(to right, #0009 0, #0009 var(--wiki-logo-width), transparent 100%);
+    }
+    .content-body {
+        padding-top: 60px;
+    }
+}
+/* #endregion */
 /* #endregion */
 
 /* #region Narrow width tweaks */
