@@ -3161,3 +3161,7 @@ div#wpTextbox0 {
 /** Off-center icons **/
 .vectorTabs #ca-watch.icon a { padding-top: 3.325em }
 #pt-userpage a { background-position: left 0.5em }
+
+div.gallerytext {
+    padding: 2px;
+}
