@@ -9,39 +9,59 @@
 
 /* #region Theme variables */
 /* Light */
-.theme-light {
-    --theme-accent-color: #005c62; /* temp while waiting for skin */
+.theme-light{
+	--theme-accent-color: #005c62; /* temp while waiting for skin */
     --theme-accent-color--rgb: 0, 92, 98; /* temp while waiting for skin */
+    --page-background-color: #0b1212;
+    --page-background-color--rgb: 11, 18, 18;
+    --content-background-color: #d8dada;
+    --content-background-color--rgb: 216, 218, 218;
     --content-text-color: #000;
-    --content-background-color: #DBE0E0;
-    --content-text-link-color: #5c8607;
-    --content-border-color: #658a19;
-    --toc-background-color: #4a4d4b;
-    --tabber-border-color: var(--ark-arkitex-border-color);
+	--content-header-color: #353333;
+    --content-text-link-color: #537906;
+    --content-border-color: #aaa;
+    --content-border-color--rgb: 101, 138, 25;
+    --content-default-link-color: #7ba428;
+    --content-default-link-color--rgb: 123, 164, 40;
+    /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
-    --content-default-link-color: #9acd32;
+    /* Table of contents */
+    --toc-background-color: #cecece;
+	--toc-number-color: #4a4d4b;
+    /* Tabbers */
+    --tabber-border-color: var(--ark-arkitex-border-color);
+    /* Tables */
+    --table-background-color: var(--content-background-color);
+    --table-border-color: #3d555e;
+    --table-heading-background-color: #b2b9af;
+    /* Frontpage */
     --fp-heading-text-color: var(--content-text-color);
-    --fp-heading-border-color: #749ca4;
+    --fp-heading-border-color: #bbba59;
+    --fp-box-background-color: #dddbd1;
+    /* OOUI buttons */
+    --ooui-button-text-color--primary: #000;
+    --ooui-button-text-color--secondary: var(--content-text-link-color);
+    --ooui-button-background-color--primary: var(--content-default-link-color);
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
-    --ark-navbox-title-text-color: #c4ded6;
-    --ark-navbox-title-link-color: #70C0B6;
-    --ark-navbox-title-background-color: #13473f;
+    --ark-navbox-title-text-color: var(--content-text-color);
+    --ark-navbox-title-link-color: var(--content-default-link-color);
+    --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
     --ark-navboxgroup-title-background-color: #ffffffb0;
-    --ark-navboxgroup-title-text-color: #222;
+    --ark-navboxgroup-title-text-color: var(--content-text-color);
     --ark-navboxgroup-title-border-color: #a2a9b1;
     /* Arkitexure */
-    --ark-arkitex-background-color: #c0cfc9;
-    --ark-arkitex-border-color: #44685e;
-    --ark-arkitex-accent-color: #13473f;
+	--ark-arkitex-background-color: #c0cfc9;
+    --ark-arkitex-border-color: var(--sidenav-header-background);
+    --ark-arkitex-accent-color: whitesmoke;
     --ark-arkitex-left-color: #EDF3EB;
     --ark-arkitex-right-color: #fff;
-    /* Template:PaintRegion */
+    /* PaintRegion */
     --ark-paintregion-background-color: #EDF3EB;
-    --ark-paintregion-border-color: #C0CFC9;
+    --ark-paintregion-border-color: var(--content-border-color);
     /* Template:DossierText & Template:Quote */
     --ark-cite-quote-color: #7d5f2a;
     --ark-dossier-background-color: #e1d8c494;
@@ -66,6 +86,7 @@
     --ark-kibbletable-border-color: #ccc;
     --ark-kibbletable-background-color: #fff;
 }
+}
 /* Dark */
 body, .theme-dark {
     --theme-accent-color: #0d6f70; /* temp while waiting for skin */
@@ -75,6 +96,7 @@ body, .theme-dark {
     --content-background-color: #2b2d2c;
     --content-background-color--rgb: 43, 45, 44;
     --content-text-color: #ebebeb;
+    --content-header-color: #fff;
     --content-text-link-color: #9acd32;
     --content-border-color: #658a19;
     --content-border-color--rgb: 101, 138, 25;
@@ -86,6 +108,7 @@ body, .theme-dark {
     --sidenav-background-color: #3d3e3d50;
     /* Table of contents */
     --toc-background-color: #424442;
+    --toc-number-color: #cecece;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
     /* Tables */
@@ -278,7 +301,7 @@ div.mw-warning {
 	border-color: var(--content-border-color);
 }
 .tocnumber {
-    color: #cecece;
+    color: var(--toc-number-color);
 }
 #catlinks,
 ul#filetoc {
@@ -2162,8 +2185,7 @@ div#content a.new {
 }
 /* #endregion */
 /* #region Headings */
-#mw-panel .portal h3,
-h1, h2, h3, h4, h5, h6 { color: #fff; }
+#mw-panel .portal h3, h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 
 #firstHeading {
     font-size: 2.2em;
@@ -2181,9 +2203,6 @@ h1, h2, h3, h4, h5, h6 { color: #fff; }
 }
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
-}
-#mw-panel #p-logo + .portal h3 {
-    display: none;
 }
 div#mw-panel div.portal h3,
 #mw-panel.collapsible-nav .portal h3 a,
@@ -2997,9 +3016,6 @@ table {
 .oo-ui-indicator-down {
     background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 fill='%23fff' viewBox=%220 0 12 12%22%3E%3Cpath d=%22M10.085 2.943L6.05 6.803l-3.947-3.86L1.05 3.996l5 5 5-5z%22/%3E%3C/svg%3E");
 }
-.mw-content-ltr .redirectText li:first-child {
-    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2247%22 height=%2220%22 viewBox=%220 0 47 20%22%3E %3Cpath fill=%22none%22 stroke=%22%23fff%22 stroke-miterlimit=%2210%22 stroke-width=%222%22 d=%22M14.98 2.5V11c0 1.04 1.02 1.98 2.02 1.98h6l3 .02%22/%3E %3Cpath fill=%22%23fff%22 d=%22M23.48 9.5l.02 7L30 13z%22/%3E %3C/svg%3E");
-}
 /* #endregion */
 
 /** <pre>, <code> **/
@@ -3164,7 +3180,3 @@ div#wpTextbox0 {
 /** Off-center icons **/
 .vectorTabs #ca-watch.icon a { padding-top: 3.325em }
 #pt-userpage a { background-position: left 0.5em }
-
-div.gallerytext {
-    padding: 2px;
-}
