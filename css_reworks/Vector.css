@@ -34,10 +34,10 @@
 	--toc-number-color: #4a4d4b;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
-    --tabber-background-color: #997433;
-    --tabber-background-hover-color: #7d5f2a;
+    --tabber-background-color: #bb9553;
+    --tabber-background-hover-color: #d7a752;
     --tabber-text-hover-color: #fff;
-    --tabber-background-active-color: #c69c53;
+    --tabber-background-active-color: #eacb97;
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -2996,8 +2996,8 @@ table.status-effect-backg {
     color: var(--content-default-link-color);
 }
 
-/** Invert [[File:PS.svg]] colors for better visibility **/
-img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
+/** Invert [[File:PS.svg]] colors for better visibility only for light theme **/
+.theme-light img[src*="/PS.svg/"],.theme-light img[src*="/Xbox_Series.svg/"] {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
