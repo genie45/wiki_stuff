@@ -2182,6 +2182,9 @@ h1, h2, h3, h4, h5, h6 { color: #fff; }
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
 }
+#mw-panel #p-logo + .portal h3 {
+    display: none;
+}
 div#mw-panel div.portal h3,
 #mw-panel.collapsible-nav .portal h3 a,
 #mw-panel.collapsible-nav .portal h3 a:visited,
