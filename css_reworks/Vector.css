@@ -2982,7 +2982,7 @@ table.status-effect-backg {
 }
 
 /** Invert [[File:PS.svg]] colors for better visibility **/
-img[src*="/PS.svg/"] {
+img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
