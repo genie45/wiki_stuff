@@ -71,10 +71,10 @@
 	--toc-number-color: #4a4d4b;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
-    --tabber-background-color: #bb9553;
-    --tabber-background-hover-color: #d7a752;
-    --tabber-text-hover-color: #fff;
-    --tabber-background-active-color: #eacb97;
+    --tabber-background-color: #d7a752;
+    --tabber-background-hover-color: #eacb97;
+    --tabber-text-hover-color: #ffffff;
+    --tabber-background-active-color: #bb9553; 
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -160,10 +160,10 @@ body, .theme-dark {
     --toc-number-color: #cecece;
     /* Tabbers */
     --tabber-border-color: var(--ark-arkitex-border-color);
-    --tabber-background-color: #5e8118;
-    --tabber-background-hover-color: #7dac20;
+    --tabber-background-color: #7dac20;
+    --tabber-background-hover-color: #8dc224;
     --tabber-text-hover-color: #000;
-    --tabber-background-active-color: #8dc224;
+    --tabber-background-active-color: #5e8118;
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
