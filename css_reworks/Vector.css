@@ -683,7 +683,7 @@ ul#filetoc {
 #fpwelcome {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 #fpwelcometext {
@@ -696,6 +696,7 @@ ul#filetoc {
 #fpplatformlinks {
     flex: 1 1;
     padding: 8px 5px;
+    max-width: 900px;
     max-width: max-content;
 }
 #fpsociallinks {
