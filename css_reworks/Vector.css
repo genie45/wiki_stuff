@@ -1509,7 +1509,6 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     width: 100%;
     text-align: right;
     margin: 0;
-    padding: 4px 4px 0 4px;
     overflow: hidden;
     border-bottom: 3px solid var(--ark-arkitex-accent-color);
 	border-radius: 0px;
