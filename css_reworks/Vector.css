@@ -1109,6 +1109,14 @@ div.photo-text {
 }
 .attack .attack-name { word-wrap: break-word; }
 .attack-container + .attack-container { margin-top:-15px; }
+.attack-container {
+    clear: both;
+    position: relative;
+}
+.attack-container > div {
+    overflow-x: auto;
+    white-space: nowrap;
+}
 /* #endregion */
 
 /* #region [[Template:Mission]] */
