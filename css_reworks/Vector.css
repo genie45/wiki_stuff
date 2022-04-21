@@ -14,10 +14,24 @@
     --wiki-logo-left-margin: calc(-225px + 3.3em);
     --wiki-logo-layout-bottom-gap: 0;
 }
+@media screen and (max-width: 1500px) {
+    :root {
+        --wiki-logo-height: 173px;
+        --wiki-logo-width: 300px;
+        --wiki-logo-top-offset: -170px;
+        --wiki-logo-left-margin: calc(-150px + 3.3em);
+    }
+}
+@media screen and (max-width: 1040px) {
+    :root {
+        --wiki-logo-height: 160px;
+        --wiki-logo-top-offset: -190px;
+    }
+}
 @media screen and (max-width: 720px) {
     :root {
         --netbar-height: 90px;
-        --wiki-logo-height: 120px;
+        --wiki-logo-height: 120px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
         --wiki-logo-top-offset: 100px;
         --wiki-logo-left-margin: 0;
@@ -2414,19 +2428,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 	}
 	#mw-page-base { height: 250px; }
 	#mw-panel { top: 250px; }
-	#p-logo {
-		margin-left: calc(-150px + 3.3em);
-		width: 300px;
-		height: 173px;
-		top: -170px;
-	}
-	#p-logo a {
-		width: 300px;
-		height: 173px;
-	}
 	#mw-head { top: 240px; }
 }
-
 
 @media screen and (max-width: 1040px) {
 	div#content::before {
@@ -2435,13 +2438,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 	#mw-page-base { height: 250px; }
 	#mw-head { top: 240px; }
 	#mw-panel { top: 250px; }
-	#p-logo { 
-		height: 160px; 
-		top: -190px;
-	}
 	#p-logo a {
 		background-image: var(--wiki-logo-horizontal);
-		height: 160px;
 	}
 }
 
@@ -2463,9 +2461,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 @media screen and (max-width:720px) {
 	#mw-page-base { height: 200px; }
 	div#p-logo {
-		display:block;
-		top: 105px;
-		margin-left: calc((300px / -2) - 1.5em);
+		display: block;
 	}
 	div#mw-navigation div#mw-panel {
     	border: 1px solid #7FE7FF;
@@ -2560,7 +2556,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         display: contents;
     }
     div#p-logo {
-        margin-left: var(--wiki-logo-left-margin);
         left: 0;
     }
     div#content {
@@ -2657,7 +2652,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         background: linear-gradient(to right, #0009 0, #0009 var(--wiki-logo-width), transparent 100%);
     }
     .content-body {
-        padding-top: 60px;
+        padding-top: 75px;
     }
     #mw-head #p-search {
         top: 0;
@@ -2665,7 +2660,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         width: 100%;
         margin: 0;
         position: absolute;
-        top: -27px;
+        top: -37px;
         left: 0;
         right: 0;
         padding: 0 2em;
@@ -2703,7 +2698,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
     #mw-head {
         position: relative!important;
-        top: 42px;
+        top: 50px;
     }
     #mw-head {
         grid-column: content-left / content-right;
@@ -2734,6 +2729,13 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
     div#content {
         margin-top: -40px;
+    }
+    .vectorTabs span,
+    #right-navigation .vectorMenu h3{
+        font-size: 80%;
+    }
+    .vectorTabs ul {
+        display: flex;
     }
 }
 /* #endregion */
