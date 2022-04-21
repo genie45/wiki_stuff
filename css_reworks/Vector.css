@@ -2659,6 +2659,82 @@ div#mw-panel div.portal div.body ul li a:hover {
     .content-body {
         padding-top: 60px;
     }
+    #mw-head #p-search {
+        top: 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: -27px;
+        left: 0;
+        right: 0;
+        padding: 0 2em;
+        z-index: 50;
+    }
+    div#simpleSearch {
+        width: auto;
+    }
+    #simpleSearch {
+        margin: 0 auto;
+        width: 15em;
+        padding: 0;
+        height: auto;
+        transition: none;
+        display: grid;
+        grid-template-columns: 1fr 0fr;
+        grid-template-rows: 1fr;
+        align-content: stretch;
+        justify-content: stretch;
+        min-width: 5em;
+        max-width: 20em;
+    }
+    #simpleSearch #searchInput {
+        width: 100%;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+        padding: 3px 5px;
+        border-right: 0;
+        word-wrap: break-word;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+    #mw-head {
+        position: relative!important;
+        top: 42px;
+    }
+    #mw-head {
+        grid-column: content-left / content-right;
+        grid-row: nav-start / nav-end;
+    }
+    #mw-head {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 1em;
+    }
+    div#left-navigation,
+    div#right-navigation{
+        position: static;
+    }
+    #mw-head #left-navigation, #mw-head #right-navigation {
+        float: none;
+        flex: 1 1 auto;
+        margin: 0;
+        margin-right: 0px;
+        display: flex;
+        align-items: flex-end;
+        width: 50%;
+    }
+    #mw-head #right-navigation {
+        justify-content: flex-end;
+    }
+    div#content {
+        margin-top: -40px;
+    }
 }
 /* #endregion */
 /* #endregion */
