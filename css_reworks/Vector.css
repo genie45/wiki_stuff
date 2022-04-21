@@ -1512,10 +1512,20 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     height: 100%;
 }
 @media screen and (max-width: 1335px) {
-  .interactive-regionmap {
-    max-width: 400px;
-    max-height: 400px;
-  }
+    .interactive-regionmap {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .interactive-regionmap-table {
+        float: none;
+        margin: 0 auto;
+    }
+    .interactive-regionmap {
+        max-width: calc(100vw - 0.8em - 2px);
+        max-height: auto;
+    }
 }
 /* SVG */
 .svgRegion { fill:transparent; }
@@ -1733,6 +1743,14 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 /* Spawn map tabber */
 .info-spawn>.tabber {
     display: inline-block;
+}
+
+/* Narrow width fixes */
+@media screen and (max-width: 720px) {
+    .info-framework {
+        float: none;
+        margin: 0 auto 1.5em;
+    }
 }
 /* #endregion */
 
@@ -2126,6 +2144,10 @@ table.collapsed tr.collapsible {
 
 
 /* #region Vector skinning */
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
 body {
 	background: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/ no-repeat var(--page-background-color); 
 	background-size: cover;
@@ -2248,7 +2270,7 @@ div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
 }
 #mw-panel #p-logo + .portal h3 {
-    display: none;
+    display: block;
 }
 div#mw-panel div.portal h3,
 #mw-panel.collapsible-nav .portal h3 a,
@@ -2667,7 +2689,7 @@ ul.tabbernav li a:link {
 ul.tabbernav li a:hover,
 ul.tabbernav li.tabberactive a:hover {
 	background: var(--tabber-background-hover-color)!important;
-	color: (var(--tabber-text-hover-color) !important;
+	color: var(--tabber-text-hover-color) !important;
 	border-color: var(--tabber-border-color);
 }
 ul.tabbernav li.tabberactive a {
@@ -2997,10 +3019,15 @@ table.status-effect-backg {
 }
 
 /** Invert [[File:PS.svg]] colors for better visibility only for light theme **/
-.theme-light img[src*="/PS.svg/"],.theme-light img[src*="/Xbox_Series.svg/"] {
+img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
+.theme-light img[src*="/PS.svg/"], .theme-light img[src*="/Xbox_Series.svg/"] {
+    -webkit-filter: none;
+    filter: none;
+}
+
 
 /* #region wiki.gg provided CSS fixes */
 /* Upper advertisement overlaps with #mw-head */
