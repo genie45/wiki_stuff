@@ -694,13 +694,15 @@ ul#filetoc {
 }
 #fpsociallinks,
 #fpplatformlinks {
+    flex: 1 1;
     padding: 8px 5px;
+    max-width: max-content;
 }
 #fpsociallinks {
-    flex: 1 1 270px;
+    flex-basis: 270px;
 }
 #fpplatformlinks {
-    flex: 2 1 435px;
+    flex-basis: 435px;
 }
 
 @media screen and (max-width: 1375px) {
