@@ -3,9 +3,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* #region Shared variables */
 :root {
-	--logo-horiz: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png);
+    --netbar-height: 35px;
+    --page-background-image: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
+	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo_horiz.png]]*/;
+    --wiki-logo-height: 260px;
+    --wiki-logo-width: 450px;
+    --wiki-logo-top-offset: -270px;
+    --wiki-logo-left-margin: calc(-225px + 3.3em);
+    --wiki-logo-layout-bottom-gap: 0;
 }
+@media screen and (max-width: 720px) {
+    :root {
+        --netbar-height: 90px;
+        --wiki-logo-height: 120px;
+        --wiki-logo-width: 300px;
+        --wiki-logo-top-offset: 100px;
+        --wiki-logo-left-margin: 0;
+        --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-top-offset) - var(--netbar-height)) * 2);
+        --search-height: 35px;
+        --search-top-offset: calc(-100px - var(--wiki-logo-height) / 2 - var(--search-height) / 2);
+    }
+}
+/* #endregion */
 
 /* #region Theme variables */
 /* Light */
@@ -23,8 +44,10 @@
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #7ba428;
     --content-default-link-color--rgb: 123, 164, 40;
-    --topmenu-background-color: 101, 138, 25;
-    --topmenu-border-color: #0b1212; 
+    --topmenu-background-color--rgb: 101, 138, 25;
+    --topmenu-border-color: #0b1212;
+    /* Assets */
+    --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23222%22/%3E %3C/svg%3E");
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
@@ -91,6 +114,9 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #ccc;
     --ark-kibbletable-background-color: #fff;
+    /* Theme toggle */
+    --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23fff'%3E%3Cpath d='M18.1 5.1c0 .3-.1.6-.3.9l-1.4 1.4-.9-.8 2.2-2.2c.3.1.4.4.4.7zm-.5 5.3h3.2c0 .3-.1.6-.4.9s-.5.4-.8.4h-2v-1.3zm-6.2-5V2.2c.3 0 .6.1.9.4s.4.5.4.8v2h-1.3zm6.4 11.7c-.3 0-.6-.1-.8-.3l-1.4-1.4.8-.8 2.2 2.2c-.2.2-.5.3-.8.3zM6.2 4.9c.3 0 .6.1.8.3l1.4 1.4-.8.9-2.2-2.3c.2-.2.5-.3.8-.3zm5.2 11.7h1.2v3.2c-.3 0-.6-.1-.9-.4s-.4-.5-.4-.8l.1-2zm-7-6.2h2v1.2H3.2c0-.3.1-.6.4-.9s.5-.3.8-.3zM6.2 16l1.4-1.4.8.8-2.2 2.2c-.2-.2-.3-.5-.3-.8s.1-.6.3-.8z'/%3E%3Ccircle cx='12' cy='11' r='4'/%3E%3C/svg%3E") /* MW's OOUI sun icon */;
+    --theme-toggle-icon-size: 150% 150%;
 }
 /* Dark */
 body, .theme-dark {
@@ -107,8 +133,10 @@ body, .theme-dark {
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #9acd32;
     --content-default-link-color--rgb: 154, 205, 50;
-    --topmenu-background-color: 49,50,50;
+    --topmenu-background-color--rgb: 49,50,50;
     --topmenu-border-color: #3c3e40;
+    /* Assets */
+    --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
@@ -175,6 +203,9 @@ body, .theme-dark {
     /* Kibble tables */
     --ark-kibbletable-border-color: #2d74bea6;
     --ark-kibbletable-background-color: #6e92c036;
+    /* Theme toggle */
+    --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */;
+    --theme-toggle-icon-size: contain;
 }
 /* #endregion */
 
@@ -201,24 +232,14 @@ body, .theme-dark {
     appearance: none;
     width: 16px;
     height: 16px;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */ center center;
-    background-size: contain;
-}
-#theme-switcher:checked {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23fff'%3E%3Cpath d='M18.1 5.1c0 .3-.1.6-.3.9l-1.4 1.4-.9-.8 2.2-2.2c.3.1.4.4.4.7zm-.5 5.3h3.2c0 .3-.1.6-.4.9s-.5.4-.8.4h-2v-1.3zm-6.2-5V2.2c.3 0 .6.1.9.4s.4.5.4.8v2h-1.3zm6.4 11.7c-.3 0-.6-.1-.8-.3l-1.4-1.4.8-.8 2.2 2.2c-.2.2-.5.3-.8.3zM6.2 4.9c.3 0 .6.1.8.3l1.4 1.4-.8.9-2.2-2.3c.2-.2.5-.3.8-.3zm5.2 11.7h1.2v3.2c-.3 0-.6-.1-.9-.4s-.4-.5-.4-.8l.1-2zm-7-6.2h2v1.2H3.2c0-.3.1-.6.4-.9s.5-.3.8-.3zM6.2 16l1.4-1.4.8.8-2.2 2.2c-.2-.2-.3-.5-.3-.8s.1-.6.3-.8z'/%3E%3Ccircle cx='12' cy='11' r='4'/%3E%3C/svg%3E") /* MW's OOUI sun icon */;
-    background-size: 150% 150%;
+    background: var(--theme-toggle-icon) center center;
+    background-size: var(--theme-toggle-icon-size);
 }
 /* #endregion */
 
 /* #region Bulletpoint fixes */
 ul {
-    list-style-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
-}
-.theme-light ul {
-    list-style-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23222%22/%3E %3C/svg%3E")
-}
-.theme-light .toc ul {
-    list-style: none;
+    list-style-image: var(--list-bulletpoint-image);
 }
 /* #endregion */
 
@@ -2159,7 +2180,7 @@ html, body {
     min-height: 100vh;
 }
 body {
-	background: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/ no-repeat var(--page-background-color); 
+	background: var(--page-background-image) no-repeat var(--page-background-color); 
 	background-size: cover;
 	background-attachment: fixed;
     font-family: Inter, Helvetica, Arial, sans-serif
@@ -2176,17 +2197,17 @@ body {
 /* #region Logo */
 #p-logo {
 	position: absolute;
-    top: -270px;
+    top: var(--wiki-logo-top-offset);
     left: 50vw;
     z-index: 10;
-    margin-left: calc(-225px + 3.3em);
-    width: 450px;
-    height: 260px;
+    margin-left: var(--wiki-logo-left-margin);
+    width: var(--wiki-logo-width);
+    height: var(--wiki-logo-height);
 }
 #p-logo a {
     background-size: contain;
-    width: 450px;
-    height: 260px;
+    width: var(--wiki-logo-width);
+    height: var(--wiki-logo-height);
 }
 /* #endregion */
 /* #region Content area (& frame border) */
@@ -2378,7 +2399,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 	border-color: #9acd32;
 }
 .vectorMenu .menu {
-	background-color: rgba(var(--topmenu-background-color),.95);
+	background-color: rgba(var(--topmenu-background-color--rgb), .95);
 	border-color: var(--topmenu-border-color);
 }
 .vectorMenu li a { color: var(--content-default-link-color); }
@@ -2425,7 +2446,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 		top: -190px;
 	}
 	#p-logo a {
-		background-image: var(--logo-horiz);
+		background-image: var(--wiki-logo-horizontal);
 		height: 160px;
 	}
 }
@@ -2525,15 +2546,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 /* #endregion */
 /* #region Mobile (720px) body grid (inspired by Terraria) */
 @media screen and (max-width: 720px) {
-    :root {
-        --netbar-height: 90px;
-        --wiki-logo-height: 120px;
-        --wiki-logo-width: 300px;
-        --wiki-logo-top-offset: 100px;
-        --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-top-offset) - var(--netbar-height)) * 2);
-        --search-height: 35px;
-        --search-top-offset: calc(-100px - var(--wiki-logo-height) / 2 - var(--search-height) / 2);
-    }
     body {
         display: grid;
         grid-template-columns:
@@ -2554,13 +2566,8 @@ div#mw-panel div.portal div.body ul li a:hover {
         display: contents;
     }
     div#p-logo {
-        margin-left: 0;
+        margin-left: var(--wiki-logo-left-margin);
         left: 0;
-        height: var(--wiki-logo-height);
-        top: var(--wiki-logo-top-offset);
-    }
-    #p-logo a {
-        height: var(--wiki-logo-height);
     }
     div#content {
         margin-top: 0;
