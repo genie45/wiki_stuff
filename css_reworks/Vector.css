@@ -274,8 +274,7 @@ ul#filetoc {
 /* Make ToCs float to the right on pages with no infobox */
 #content .mw-parser-output > #toc { float: right; clear: right; margin-left: 1.4em; }
 #content .mw-parser-output .info-framework ~ #toc,
-#content .mw-parser-output .infobox-tabber ~ #toc,
-#content .mw-parser-output .structureSelector ~ #toc { float: none; clear: none; margin-left: 0; }
+#content .mw-parser-output .infobox-tabber ~ #toc { float: none; clear: none; margin-left: 0; }
 /* #endregion */
 
 /** Three-colored tables: red, green, gray **/
@@ -770,19 +769,14 @@ img.fpWideImage {
 /* #endregion */
 
 /* #region Tweaks for infobox tabbers */
-/* structureSelector, infobox-tabber-big classes are deprecated; use infobox-tabber */
-.mw-parser-output > .infobox-tabber,
-.mw-parser-output > .structureSelector,
-.mw-parser-output > .infobox-tabber-big {
+.mw-parser-output > .infobox-tabber {
     float: right;
     margin-left: 1em;
     margin-bottom: 0.5em;
     max-width: 320px;
     border: 2px solid var(--ark-arkitex-border-color);
 }
-.infobox-tabber ul.tabbernav,
-.infobox-tabber-big ul.tabbernav,
-.structureSelector ul.tabbernav {
+.infobox-tabber ul.tabbernav {
     padding: 0;
     padding-bottom: 4px;
     display: flex;
@@ -790,25 +784,17 @@ img.fpWideImage {
     align-items: center;
     flex-wrap: wrap;
 }
-.infobox-tabber ul.tabbernav li a,
-.infobox-tabber-big ul.tabbernav li a,
-.structureSelector ul.tabbernav li a {
+.infobox-tabber ul.tabbernav li a {
     border: none;
 }
-.infobox-tabber .tabbertab,
-.infobox-tabber-big .tabbertab,
-.structureSelector .tabbertab {
+.infobox-tabber .tabbertab {
     padding: 0;
     border: none;
 }
-.infobox-tabber .tabbertab .tabbernav,
-.infobox-tabber-big .tabbertab .tabbernav,
-.structureSelector .tabbertab .tabbernav {
+.infobox-tabber .tabbertab .tabbernav {
     border-top: 1px solid var(--ark-arkitex-border-color);
 }
-.infobox-tabber .info-framework,
-.infobox-tabber-big .info-framework,
-.structureSelector .info-framework {
+.infobox-tabber .info-framework {
     border: none;
     margin: 0;
     border-top: 2px solid var(--ark-arkitex-border-color);
