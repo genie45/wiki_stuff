@@ -10,7 +10,7 @@
 	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo_horiz.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
-    --wiki-logo-top-offset: -270px;
+    --wiki-logo-top-offset: calc(-1 * var(--wiki-logo-height));
     --wiki-logo-left-margin: calc(-225px + 3.3em);
     --wiki-logo-layout-bottom-gap: 0;
 }
