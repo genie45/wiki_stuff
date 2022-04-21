@@ -124,8 +124,8 @@ body, .theme-dark {
     --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
     --page-background-color: #0b1212;
     --page-background-color--rgb: 11, 18, 18;
-    --content-background-color: #2b2d2c;
-    --content-background-color--rgb: 43, 45, 44;
+    --content-background-color: #272828;
+    --content-background-color--rgb: 39, 40, 40;
     --content-text-color: #ebebeb;
     --content-header-color: #fff;
     --content-text-link-color: #9acd32;
