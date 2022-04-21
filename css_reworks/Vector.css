@@ -2401,6 +2401,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 .vectorMenu .menu {
 	background-color: rgba(var(--topmenu-background-color--rgb), .95);
 	border-color: var(--topmenu-border-color);
+    top: 100%;
 }
 .vectorMenu li a { color: var(--content-default-link-color); }
 .vectorMenu h3 span:after { filter: invert(1); }
