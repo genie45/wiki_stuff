@@ -179,9 +179,9 @@ body, .theme-dark {
 /* #endregion */
 
 /** Left side navigation adjustments **/
-#mw-panel > div h3 {
-    background: var(--sidenav-header-background);
-    color: var(--sidenav-header-text-color) !important;
+#mw-navigation #mw-panel > div h3 {
+    background-color: var(--sidenav-header-background);
+    color: var(--sidenav-header-text-color);
     border-radius: 2px;
 }
 
@@ -692,24 +692,15 @@ ul#filetoc {
     max-width: 650px;
     flex: 1 1 650px;
 }
-#fpwelcomelinks {
-    flex: 2 1 435px;
+#fpsociallinks,
+#fpplatformlinks {
     padding: 8px 5px;
-    max-width: 720px;
 }
-#fpwelcomelinks > ul {
-    margin: 0;
-    margin-top: 8px;
-    padding: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#fpsociallinks {
+    flex: 1 1 270px;
 }
-#fpwelcomelinks .tile_container {
-    display: block;
-    width: 40px;
-    height: 40px;
+#fpplatformlinks {
+    flex: 2 1 435px;
 }
 
 @media screen and (max-width: 1375px) {
@@ -718,8 +709,15 @@ ul#filetoc {
     }
 }
 
-/* Platform box */
-#fp-platform-links {
+/* Welcome box links */
+#fpsociallinks {
+    width: max-content;
+    padding-right: 1em;
+}
+#fpsociallinks .fp-icon-flex {
+    margin: 0 4px;
+}
+.fp-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -727,25 +725,25 @@ ul#filetoc {
     font-size: 12px;
     line-height: 1;
 }
-.fp-platform-flex {
+.fp-icon-flex {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 6px;
 }
-.fp-platform-flex * {
+.fp-icon-flex * {
     vertical-align: middle;
 }
-.fp-platform-flex > div {
+.fp-icon-flex > div {
     margin-left: 4px;
 }
-.fp-platform-flex > div > * {
+.fp-icon-flex > div > * {
     display: block;
 }
-.fp-platform-flex a.external {
+.fp-icon-flex a.external {
     background: none;
 } 
-.fp-platform-flex strong {
+.fp-icon-flex strong {
     margin-top: 3px;
     font-size: 1.125em;
 }
@@ -1517,14 +1515,23 @@ ul.groups-legend > li:first-child { margin-top: 0; }
         max-height: 400px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .interactive-regionmap-table {
         float: none;
         margin: 0 auto;
+        width: 100%;
     }
     .interactive-regionmap {
-        max-width: calc(100vw - 0.8em - 2px);
-        max-height: auto;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+    }
+    @supports (aspect-ratio: auto) {
+        .interactive-regionmap {
+            aspect-ratio: 1/1;
+            padding-bottom: 0;
+            height: auto;
+        }
     }
 }
 /* SVG */
@@ -2291,15 +2298,13 @@ div#mw-panel div.portal h3,
 }
 #mw-panel .portal.collapsed h3 {
 	background-image: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
-	background-position: left;
-	background-repeat: no-repeat;
 }
 div#mw-panel div.portal div.body ul li a,
 div#mw-panel div.portal div.body ul li a:link,
 div#mw-panel div.portal div.body ul li a:visited {
 	color: #ffffff;
-	font-weight:bold;
-	text-shadow:-2px -2px 0px #0007, 0 0 1px #000;
+	font-weight: bold;
+	text-shadow: -2px -2px 0px #0007, 0 0 1px #000;
 }
 div#mw-panel div.portal div.body ul li a:hover {
     color: var(--content-text-link-color);
@@ -2457,7 +2462,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 	}
 	div#content { margin-right: 0; }
 	.content-wrapper { padding: 50px 1px 0; }
-	body #footer { margin-right: 0; }
 }
 /* #endregion */
 
@@ -2571,15 +2575,27 @@ div#mw-panel div.portal div.body ul li a:hover {
     #mw-panel .portal, #mw-panel #p-logo + .portal {
         position: relative;
     }
+    div#mw-navigation div#mw-panel .portal {
+        width: auto;
+    }
     #mw-panel #p-logo + .portal .body, #mw-panel .portal .body {
         display: none;
         position: absolute;
         left: 0;
-        top: 100%;
+        top: calc(100% - 0.3em);
         z-index: 50;
         width: max-content;
         border-top: 0;
         min-width: 8em;
+        background: rgba(4,36,48,0.95);
+        margin: 0;
+        font-size: 16px;
+    }
+    #mw-panel .portal .body ul {
+        padding: 4px;
+    }
+    #mw-panel .portal .body ul a {
+        padding: 6px 8px;
     }
     #mw-panel #p-logo + .portal.expanded .body, #mw-panel .portal.expanded .body, #mw-panel #p-logo + .portal:hover .body, #mw-panel .portal:hover .body {
         display: block;
@@ -2587,14 +2603,14 @@ div#mw-panel div.portal div.body ul li a:hover {
     #mw-panel #p-logo + .portal h3 {
         display: block;
     }
-    #mw-panel .portal h3 {
-        background-position: right;
-        padding-left: 0;
-        padding-right: 1.5em;
-    }
-    #mw-panel #p-logo + .portal h3, #mw-panel .portal h3 {
+    #mw-panel #p-logo + .portal h3, #mw-navigation #mw-panel .portal h3 {
         font-size: 12px;
-        padding: 8px 6px;
+        font-weight: 400;
+        padding: 4px 6px;
+        background-position: right;
+        padding-right: 18px;
+        background-color: transparent;
+        color: #fff;
     }
     #mw-panel #p-logo + .portal h3, #mw-panel .portal h3 {
         margin: 0;
@@ -2602,6 +2618,9 @@ div#mw-panel div.portal div.body ul li a:hover {
     #mw-panel .portal, #mw-panel #p-logo + .portal {
         margin: 0;
         margin-left: 0px;
+    }
+    div#mw-navigation div#mw-panel #p-lang {
+        display: none;
     }
     div#content {
         grid-column: content-left/content-right;
@@ -2612,6 +2631,8 @@ div#mw-panel div.portal div.body ul li a:hover {
     #footer {
         grid-column: content-left/content-right;
         grid-row: footer-start/footer-end;
+        margin: 0;
+        padding: 2em 0.75em 1em;
     }
     body > footer {
         grid-column: body-left/body-right;
