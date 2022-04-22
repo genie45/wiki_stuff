@@ -610,17 +610,14 @@ div#mw-panel div.portal div.body ul li a:hover {
     div#mw-navigation div#mw-panel {
         grid-column: aside-left/aside-right;
         grid-row: aside-start/aside-end;
-        overflow-x: auto;
         display: flex;
         width: auto;
         overflow: visible;
+        overflow-x: auto;
         margin-top: var(--wiki-logo-layout-bottom-gap);
     }
     #mw-panel .portal, #mw-panel #p-logo + .portal {
         position: relative;
-    }
-    div#mw-navigation div#mw-panel .portal {
-        width: auto;
     }
     #mw-panel #p-logo + .portal .body, #mw-panel .portal .body {
         display: none;
@@ -704,7 +701,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         padding: 0 2em;
         z-index: 50;
     }
-    #simpleSearch {
+    #p-search div#simpleSearch {
         margin: 0 auto;
         width: 15em;
         padding: 0;
