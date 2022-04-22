@@ -2564,6 +2564,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     #mw-panel {
         grid-column: aside-left/aside-right;
         grid-row: aside-start/aside-end;
+        overflow-x: auto;
     }
     div#mw-navigation div#mw-panel {
         display: flex;
@@ -2618,9 +2619,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         margin: 0;
         margin-left: 0px;
     }
-    div#mw-navigation div#mw-panel #p-lang {
-        display: none;
-    }
     div#content {
         grid-column: content-left/content-right;
         grid-row: content-start/content-end;
@@ -2642,11 +2640,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         top: var(--search-top-offset);
         right: 0;
     }
-    #mw-head {
-        grid-column: content-left/content-right;
-        grid-row: nav-start/nav-end;
-        top: 320px;
-    }
     #mw-page-base {
         height: 250px;
         background: linear-gradient(to right, #0009 0, #0009 var(--wiki-logo-width), transparent 100%);
@@ -2665,9 +2658,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         right: 0;
         padding: 0 2em;
         z-index: 50;
-    }
-    div#simpleSearch {
-        width: auto;
     }
     #simpleSearch {
         margin: 0 auto;
@@ -2697,25 +2687,19 @@ div#mw-panel div.portal div.body ul li a:hover {
         -webkit-appearance: none;
     }
     #mw-head {
-        position: relative!important;
-        top: 50px;
-    }
-    #mw-head {
         grid-column: content-left / content-right;
         grid-row: nav-start / nav-end;
-    }
-    #mw-head {
+        position: relative!important;
+        top: 50px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
         padding: 0 1em;
     }
-    div#left-navigation,
-    div#right-navigation{
+    #mw-head div#left-navigation,
+    #mw-head div#right-navigation {
         position: static;
-    }
-    #mw-head #left-navigation, #mw-head #right-navigation {
         float: none;
         flex: 1 1 auto;
         margin: 0;
