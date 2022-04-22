@@ -3340,3 +3340,20 @@ div#wpTextbox0 {
 div.gallerytext {
     padding: 2px;
 }
+
+/* #region Mobile adjustments */
+@media screen and (max-width: 720px) {
+    /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
+    .navbox {
+        display: none;
+    }
+
+    /* Table of Contents */
+    #content .mw-parser-output #toc {
+        display: block;
+        float: none;
+        margin: 2em 0;
+        padding: 9px;
+    }
+}
+/* #endregion */
