@@ -2552,21 +2552,17 @@ div#mw-panel div.portal div.body ul li a:hover {
             [page-end] 0fr
             [body-end];
     }
-    body > .content-wrapper, #mw-navigation {
+    body > .content-wrapper,
+    #mw-navigation {
         display: contents;
     }
     div#p-logo {
         left: 0;
     }
-    div#content {
-        margin-top: 0;
-    }
-    #mw-panel {
+    div#mw-navigation div#mw-panel {
         grid-column: aside-left/aside-right;
         grid-row: aside-start/aside-end;
         overflow-x: auto;
-    }
-    div#mw-navigation div#mw-panel {
         display: flex;
         width: auto;
         overflow: visible;
@@ -2624,6 +2620,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         grid-row: content-start/content-end;
         min-height: unset;
         box-shadow: 0 10px 12px #0008;
+        margin-top: -40px;
     }
     #footer {
         grid-column: content-left/content-right;
@@ -2710,9 +2707,6 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
     #mw-head #right-navigation {
         justify-content: flex-end;
-    }
-    div#content {
-        margin-top: -40px;
     }
     .vectorTabs span,
     #right-navigation .vectorMenu h3{
@@ -3030,8 +3024,9 @@ table.status-effect-backg {
 }
 
 /* #region [[Template:WildStats]] */
-#wildStatCalc tr[style^="background-color:"] {
-    color:#000;
+#wildStatCalc tr[style^="background-color:"],
+#wildStatCalc tr[style^="background-color:"] a {
+    color: #000;
 }
 #wildStatCalc a {
     color: var(--content-default-link-color);
