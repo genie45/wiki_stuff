@@ -13,6 +13,8 @@
     --wiki-logo-top-offset: calc(-1 * var(--wiki-logo-height));
     --wiki-logo-left-margin: calc(-225px + 3.3em);
     --wiki-logo-layout-bottom-gap: 0;
+    --sidebar-toggle-icon--open: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
+    --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
 }
 @media screen and (max-width: 1500px) {
     :root {
@@ -38,6 +40,8 @@
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-top-offset) - var(--netbar-height)) * 2);
         --search-height: 35px;
         --search-top-offset: calc(-100px - var(--wiki-logo-height) / 2 - var(--search-height) / 2);
+        --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
+        --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
     }
 }
 /* #endregion */
@@ -369,14 +373,14 @@ div#mw-panel div.portal h3,
 	font-weight: bold;
 }
 #mw-panel .portal h3 {
-	background-image: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
+	background-image: var(--sidebar-toggle-icon--open);
 	background-position: left;
 	background-repeat: no-repeat;
 	padding-left: 1.5em;
 	cursor: pointer;
 }
 #mw-panel .portal.collapsed h3 {
-	background-image: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
+	background-image: var(--sidebar-toggle-icon--collapsed);
 }
 div#mw-panel div.portal div.body ul li a,
 div#mw-panel div.portal div.body ul li a:link,
