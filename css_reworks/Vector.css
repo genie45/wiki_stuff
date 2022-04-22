@@ -1922,6 +1922,9 @@ table.collapsed tr.collapsible {
 .dossier-text p {
     margin: 0 0 1em;
 }
+.dossier-text .dossier-cite-left + div {
+    flex: 1;
+}
 .dossier-text-note {
     background: var(--ark-dossiernote-background-color);
     margin: -1.3em 0.3em 1em;
