@@ -517,7 +517,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 	}
 	div#mw-navigation div#mw-panel {
     	border: 1px solid #7FE7FF;
-    	border-left:0;
+    	border-left: 0;
+        border-right: 0;
     	background-color: rgba(4,36,48,0.95);
     	box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
 	}
@@ -3358,6 +3359,42 @@ div.gallerytext {
         float: none;
         margin: 2em 0;
         padding: 9px;
+    }
+
+    /* Fix table overflows */
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    .tabbertab {
+        overflow-x: auto;
+    }
+    .achieve_container {
+        width: auto;
+    }
+
+    /* overflow breaks everything, i'm too drained to deal with this rn. */
+    #mw-panel .portal .body li {
+        padding: .55em 0;
+    }
+    div#mw-navigation div#mw-panel {
+        overflow-x: clip;
+    }
+    #p-Technical_lists, #p-lang {
+        display: none !important;
+    }
+    #right-navigation .vectorMenu h3 span {
+        padding-top: 0.5em;
+    }
+    #right-navigation .vectorMenu h3 span::after {
+        top: 0.5em;
+    }
+    #right-navigation .vectorMenu .vectorMenuCheckbox {
+        z-index: 50;
+    }
+    #mw-portal #p-tb .body {
+        right: 0;
+        left: unset;
     }
 }
 /* #endregion */
