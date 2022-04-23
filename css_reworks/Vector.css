@@ -1275,12 +1275,12 @@ ul#filetoc {
 #fpwelcometext {
     text-align: center;
     padding: 8px 5px;
-    max-width: 670px;
+    max-width: 650px;
     flex: 1 1 650px;
 }
 @media screen and (min-width: 2040px) {
     #fpwelcometext {
-        max-width: 670px;
+        max-width: 850px;
     }
 }
 #fpsociallinks,
