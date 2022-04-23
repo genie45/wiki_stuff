@@ -239,6 +239,9 @@ body {
 	background-attachment: fixed;
     font-family: Inter, Helvetica, Arial, sans-serif
 }
+.mw-body h1, .mw-body-content h1, .mw-body-content h2 {
+    font-family: Inter, linux libertine, georgia, times, serif;
+}
 /* #region Push down content area to make space for the frame border */
 #mw-page-base {
 	background: transparent;
