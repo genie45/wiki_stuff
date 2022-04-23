@@ -2749,13 +2749,8 @@ table.collapsed tr.collapsible {
 
 
 fieldset {
-	border-color: #000;
+	border-color: var(--content-border-color);
 }
-
-.oo-ui-panelLayout-framed {
-	border: 1px solid #000;
-}
-
 
 
 #simpleSearch {
@@ -3331,21 +3326,21 @@ div.editOptions {
 }
 
 /* #region Syntax highlighting */
-.cm-mw-template {
+.theme-dark .cm-mw-template {
     color: #e7b8ff;
 }
-.cm-mw-template-argument-name {
+.theme-dark .cm-mw-template-argument-name {
     color: #aa6aca;
 }
-.cm-mw-template-bracket,
-.cm-mw-template-name {
+.theme-dark .cm-mw-template-bracket,
+.theme-dark .cm-mw-template-name {
     color: #ce58f9;
 }
-.cm-mw-link-pagename {
+.theme-dark .cm-mw-link-pagename {
     color: #6a93e6;
 }
-.cm-mw-parserfunction-name,
-.cm-mw-parserfunction-bracket {
+.theme-dark .cm-mw-parserfunction-name,
+.theme-dark .cm-mw-parserfunction-bracket {
     color: #dd5858;
 }
 /* #endregion */
