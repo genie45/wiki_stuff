@@ -574,8 +574,16 @@ div#mw-panel div.portal div.body ul li a:hover {
 
 @media screen and (max-width: 1290px) {
     .content-body > main {
-        grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] minmax(0,auto) [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
-        grid-template-rows: [before-heading] auto [heading-start] auto [heading-end content-start] auto [content-end];
+        grid-template-columns:
+            [content-left heading-left] minmax(0,1fr)
+            [heading-right indicator-left] minmax(0,auto)
+            [indicator-right interwikis-left] minmax(0,auto)
+            [interwikis-right content-right];
+        grid-template-rows:
+            [before-heading] auto
+            [heading-start] auto
+            [heading-end content-start] auto
+            [content-end];
     }
     .mw-body .mw-indicators {
         grid-column: heading-left / heading-right;
@@ -611,6 +619,9 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
     div#p-logo {
         left: 0;
+    }
+    div#mw-navigation div#mw-panel .portal {
+        width: unset;
     }
     div#mw-navigation div#mw-panel {
         grid-column: aside-left/aside-right;
@@ -672,7 +683,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         box-shadow: 0 10px 12px #0008;
         margin-top: -40px;
     }
-    #footer {
+    div#footer {
         grid-column: content-left/content-right;
         grid-row: footer-start/footer-end;
         margin: 0;
@@ -742,7 +753,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding: 0 1em;
+        padding: 0 0.5em;
     }
     #mw-head div#left-navigation,
     #mw-head div#right-navigation {
