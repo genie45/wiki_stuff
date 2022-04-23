@@ -3207,6 +3207,9 @@ pre, .mw-code, code {
     background: rgba(var(--page-background-color--rgb), 0.5);
     color: var(--content-text-color);
 }
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid var(--content-text-color);
+}
 div.wikiEditor-ui .wikiEditor-ui-view,
 .wikiEditor-ui .wikiEditor-ui-top {
     border-color: var(--content-border-color);
