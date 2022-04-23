@@ -486,6 +486,13 @@ div#mw-panel div.portal div.body ul li a:hover {
 	#mw-head { top: 240px; }
 }
 
+@media screen and (max-width: 1280px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
 @media screen and (max-width: 1040px) {
 	div#content::before {
 		display: none;
@@ -1640,15 +1647,6 @@ div.photo-text {
 }
 /* #endregion */
 
-/** Used for tables that are too wide, and slip under ads or offscreen **/
-.widetable {
-    overflow-x: auto;
-    margin-top: 1em;
-}
-.widetable > table {
-    margin-top: 0;
-}
-
 /** [[Template:ItemList]]: Do not break items between columns (was an issue on Firefox, cause another browser does not seem to
     follow recommendations often) **/
 .itemlist > li {
@@ -2624,7 +2622,7 @@ table.collapsed tr.collapsible {
 /* #region [[Template:AttackInfo]] */
 .dino-attack-info {
     width: 100%;
-    margin: 0;
+    margin: 0.25em;
     white-space: initial; /* workaround static sizes being ignored on table elements due to wiki.gg css */
 }
 .dino-attack-info th {
@@ -2960,6 +2958,21 @@ table.wikitable tr th {
 }
 table.wikitable tbody tr td {
     border: 1px solid var(--table-border-color);
+}
+.mw-datatable td {
+    background-color: inherit;
+}
+.mw-datatable tr:hover td {
+    background-color: #fff2;
+}
+
+/* Used for tables that are too wide, and slip under ads or offscreen */
+.widetable {
+    overflow-x: auto;
+    margin-top: 1em;
+}
+.widetable > table {
+    margin-top: 0;
 }
 /* #endregion */
 
@@ -3370,6 +3383,10 @@ div.gallerytext {
     padding: 2px;
 }
 
+.tabbertab {
+    overflow-x: auto;
+}
+
 /* #region Mobile adjustments */
 @media screen and (max-width: 720px) {
     /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
@@ -3388,9 +3405,6 @@ div.gallerytext {
     /* Fix table overflows */
     table {
         display: block;
-        overflow-x: auto;
-    }
-    .tabbertab {
         overflow-x: auto;
     }
     .achieve_container {
