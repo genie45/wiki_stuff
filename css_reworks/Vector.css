@@ -1267,6 +1267,11 @@ ul#filetoc {
     max-width: 670px;
     flex: 1 1 650px;
 }
+@media screen and (min-width: 2040px) {
+    #fpwelcometext {
+        max-width: 670px;
+    }
+}
 #fpsociallinks,
 #fpplatformlinks {
     flex: 1 1;
