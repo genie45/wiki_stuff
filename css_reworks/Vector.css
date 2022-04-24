@@ -601,12 +601,15 @@ div#mw-panel div.portal div.body ul li a:hover {
             [heading-end content-start] auto
             [content-end];
     }
+    .mw-body #p-lang-btn {
+        grid-row: before-heading;
+    }
     .mw-body .mw-indicators {
         grid-column: heading-left / heading-right;
         grid-row: before-heading;
     }
     #firstHeading {
-        grid-column: heading-left / indicator-right;
+        grid-column: heading-left / content-right;
         grid-row: heading-start / heading-end;
     }
 }
@@ -685,7 +688,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         background-color: transparent;
         color: #fff;
     }
-    #mw-panel #p-logo + .portal h3, #mw-panel .portal h3 {
+    #mw-panel #p-logo + .portal h3, #mw-navigation #mw-panel > div h3 {
         margin: 0;
     }
     #mw-panel .portal, #mw-panel #p-logo + .portal {
@@ -719,7 +722,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
     }
     .content-body {
-        padding-top: 75px;
+        padding-top: 85px;
     }
     #mw-head #p-search {
         top: 0;
@@ -764,7 +767,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         grid-column: content-left / content-right;
         grid-row: nav-start / nav-end;
         position: relative!important;
-        top: 50px;
+        top: 45px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
