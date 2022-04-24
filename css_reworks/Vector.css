@@ -1328,7 +1328,7 @@ ul#filetoc {
 }
 #fpwelcometext {
     text-align: center;
-    padding: 8px 5px;
+    padding: 8px 5px 8px 0;
     max-width: 650px;
     flex: 1 1 650px;
 }
@@ -1340,14 +1340,15 @@ ul#filetoc {
 #fpsociallinks,
 #fpplatformlinks {
     flex: 1 1;
-    padding: 8px 5px;
     max-width: 900px;
     max-width: max-content;
 }
 #fpsociallinks {
+    padding: 8px 7px 8px 0;
     flex-basis: 270px;
 }
 #fpplatformlinks {
+    padding: 8px 0;
     flex-basis: 435px;
 }
 
@@ -1610,6 +1611,9 @@ th span.short { display: none; }
 }
 .navbox-creature-item .nav-yellow {
     background-color:#E5DFAC;
+}
+.navbox-creature-item .nav-lime {
+    background-color:#CEF294;
 }
 .navbox-creature-item .nav-brown {
     background-color:#e5c6ac;
