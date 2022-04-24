@@ -245,6 +245,7 @@ body {
 }
 .mw-body h1, .mw-body-content h1, .mw-body-content h2 {
     font-family: Inter, linux libertine, georgia, times, serif;
+    letter-spacing: -0.6px;
 }
 /* #region Push down content area to make space for the frame border */
 #mw-page-base {
