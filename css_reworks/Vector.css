@@ -3438,3 +3438,11 @@ div.gallerytext {
     }
 }
 /* #endregion */
+
+/** [[Special:CreateAccount]] statistics **/
+#bodyContent .mw-number-text h3 {
+    color: #fff;
+}
+.mw-number-text {
+    color: #cecece;
+}
