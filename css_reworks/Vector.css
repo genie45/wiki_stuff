@@ -64,6 +64,8 @@
     --content-default-link-color--rgb: 123, 164, 40;
     --topmenu-background-color--rgb: 101, 138, 25;
     --topmenu-border-color: #0b1212;
+    --code-background-color: #bbc1c1;
+    --code-border-color: #aaacae;
     /* Assets */
     --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23222%22/%3E %3C/svg%3E");
     /* Sidebar */
@@ -153,6 +155,8 @@ body, .theme-dark {
     --content-default-link-color--rgb: 154, 205, 50;
     --topmenu-background-color--rgb: 49,50,50;
     --topmenu-border-color: #3c3e40;
+    --code-background-color: #202020;
+    --code-border-color: #525354;
     /* Assets */
     --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
     /* Sidebar */
@@ -3212,9 +3216,9 @@ table {
 
 /** <pre>, <code> **/
 pre, .mw-code, code {
-	color: #fff;
-    background-color: #202020;
-    border-color: #525354;
+	color: var(--content-text-color);
+    background-color: var(--code-background-color);
+    border-color: var(--code-border-color);
 }
 
 /* #region Wikitext Editor */
@@ -3389,11 +3393,6 @@ div.gallerytext {
 
 /* #region Mobile adjustments */
 @media screen and (max-width: 950px) {
-    /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
-    .navbox {
-        display: none;
-    }
-
     /* Table of Contents */
     #content .mw-parser-output #toc {
         display: block;
@@ -3403,6 +3402,11 @@ div.gallerytext {
     }
 }
 @media screen and (max-width: 720px) {
+    /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
+    .navbox {
+        display: none;
+    }
+
     /* Fix table overflows */
     .achieve_container {
         width: auto;
