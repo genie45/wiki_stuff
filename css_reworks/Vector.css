@@ -562,6 +562,10 @@ div#mw-panel div.portal div.body ul li a:hover {
     align-items: center;
     gap: 4px;
 }
+#p-lang-btn {
+    grid-column: interwikis-left / interwikis-right;
+    grid-row: heading-start / heading-end;
+}
 #bodyContent {
     grid-column: content-left / content-right;
     grid-row: content-start / content-end;
@@ -601,9 +605,6 @@ div#mw-panel div.portal div.body ul li a:hover {
             [heading-end content-start] auto
             [content-end];
     }
-    .mw-body #p-lang-btn {
-        grid-row: before-heading;
-    }
     .mw-body .mw-indicators {
         grid-column: heading-left / heading-right;
         grid-row: before-heading;
@@ -611,6 +612,21 @@ div#mw-panel div.portal div.body ul li a:hover {
     #firstHeading {
         grid-column: heading-left / content-right;
         grid-row: heading-start / heading-end;
+    }
+}
+@media screen and (max-width: 720px) {
+    #firstHeading {
+        text-align: center;
+    }
+    #mw-content-text {
+        padding-top: 1em;
+    }
+    .mw-body #p-lang-btn {
+        grid-row: before-heading;
+        grid-column: indicator-left / interwikis-right;
+    }
+    .mw-body .mw-indicators + #p-lang-btn {
+        grid-column: interwikis-left / interwikis-right;
     }
 }
 /* #endregion */
@@ -2710,8 +2726,6 @@ table.collapsed tr.collapsible {
 
 /* #region Interwiki dropdown */
 #p-lang-btn {
-    grid-column: interwikis-left / interwikis-right;
-    grid-row: heading-start / heading-end;
     align-self: center;
 	margin-left: 5px;
 }
