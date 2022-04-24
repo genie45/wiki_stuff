@@ -10,9 +10,10 @@
 	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo_horiz.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
-    --wiki-logo-top-offset: calc(-1 * var(--wiki-logo-height));
+    --wiki-logo-top-offset: calc(-1 * var(--wiki-logo-height) + 25px);
     --wiki-logo-left-margin: calc(-225px + 3.3em);
     --wiki-logo-layout-bottom-gap: 0;
+    --sidebar-top-offset: 325px;
     --sidebar-toggle-icon--open: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
 }
@@ -20,14 +21,15 @@
     :root {
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
-        --wiki-logo-top-offset: -170px;
-        --wiki-logo-left-margin: calc(-150px + 3.3em);
+        --wiki-logo-top-offset: -160px;
+        --wiki-logo-left-margin: calc(-150px + 3.9em);
+        --sidebar-top-offset: 230px;
     }
 }
 @media screen and (max-width: 1040px) {
     :root {
         --wiki-logo-height: 160px;
-        --wiki-logo-top-offset: -190px;
+        --wiki-logo-top-offset: -170px;
     }
 }
 @media screen and (max-width: 720px) {
@@ -356,19 +358,27 @@ div#content a.new {
 /* #region Sidebar */
 #mw-panel {
 	position: absolute;
-	top: 350px;
+	top: var(--sidebar-top-offset);
 	z-index: 11;
 }
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
 }
+#mw-panel #p-logo + .portal {
+    margin-top: 0;
+}
 #mw-panel #p-logo + .portal h3 {
     display: block;
+    margin-top: 0;
 }
 #mw-navigation #mw-panel > div h3 {
     background-color: var(--sidenav-header-background);
     color: var(--sidenav-header-text-color);
     border-radius: 2px;
+    margin: 0.5em 0.5em 0;
+}
+#mw-panel .portal .body {
+    background-image: none;
 }
 div#mw-panel div.portal h3,
 #mw-panel.collapsible-nav .portal h3 a,
@@ -487,7 +497,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 		margin-left: -220px;
 	}
 	#mw-page-base { height: 250px; }
-	#mw-panel { top: 250px; }
 	#mw-head { top: 240px; }
 }
 
@@ -497,7 +506,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 	}
 	#mw-page-base { height: 250px; }
 	#mw-head { top: 240px; }
-	#mw-panel { top: 250px; }
 	#p-logo a {
 		background-image: var(--wiki-logo-horizontal);
 	}
