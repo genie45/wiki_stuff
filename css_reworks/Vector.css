@@ -716,7 +716,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     }
     #mw-page-base {
         height: 250px;
-        background: linear-gradient(to right, #0009 0, #0009 var(--wiki-logo-width), transparent 100%);
+        background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
     }
     .content-body {
         padding-top: 75px;
