@@ -486,13 +486,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 	#mw-head { top: 240px; }
 }
 
-@media screen and (max-width: 1280px) {
-    table {
-        display: block;
-        overflow-x: auto;
-    }
-}
-
 @media screen and (max-width: 1040px) {
 	div#content::before {
 		display: none;
@@ -2974,6 +2967,13 @@ table.wikitable tbody tr td {
 .widetable > table {
     margin-top: 0;
 }
+/* Switch to widetable behaviour below 1280px */
+@media screen and (max-width: 1280px) {
+    #content table {
+        display: block;
+        overflow-x: auto;
+    }
+}
 /* #endregion */
 
 /* #region Special:Search */
@@ -3388,7 +3388,7 @@ div.gallerytext {
 }
 
 /* #region Mobile adjustments */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
     /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
     .navbox {
         display: none;
@@ -3401,12 +3401,9 @@ div.gallerytext {
         margin: 2em 0;
         padding: 9px;
     }
-
+}
+@media screen and (max-width: 720px) {
     /* Fix table overflows */
-    table {
-        display: block;
-        overflow-x: auto;
-    }
     .achieve_container {
         width: auto;
     }
