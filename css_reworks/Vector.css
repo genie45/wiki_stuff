@@ -783,7 +783,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         grid-column: content-left / content-right;
         grid-row: nav-start / nav-end;
         position: relative!important;
-        top: 45px;
+        top: 50px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
