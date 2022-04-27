@@ -3416,7 +3416,8 @@ div.editOptions {
 .theme-dark .cm-mw-template {
     color: #e7b8ff;
 }
-.theme-dark .cm-mw-template-argument-name {
+.theme-dark .cm-mw-template-argument-name,
+.theme-dark .mw-highlight .nv {
     color: #aa6aca;
 }
 .theme-dark .cm-mw-template-bracket,
@@ -3427,8 +3428,13 @@ div.editOptions {
     color: #6a93e6;
 }
 .theme-dark .cm-mw-parserfunction-name,
-.theme-dark .cm-mw-parserfunction-bracket {
+.theme-dark .cm-mw-parserfunction-bracket,
+.theme-dark .mw-highlight .nf {
     color: #dd5858;
+}
+.theme-dark .mw-content-ltr.mw-highlight-lines pre,
+.theme-dark .mw-content-ltr.content .mw-highlight-lines pre {
+    box-shadow: inset 2.75em 0 0 #0006;
 }
 /* #endregion */
 
