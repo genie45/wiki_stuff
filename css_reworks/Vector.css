@@ -117,11 +117,12 @@
     --toc-background-color: #cecece;
 	--toc-number-color: #4a4d4b;
     /* Tabbers */
-    --tabber-border-color: var(--ark-arkitex-border-color);
-    --tabber-background-color: #d7a752;
-    --tabber-background-hover-color: #eacb97;
-    --tabber-text-hover-color: #ffffff;
-    --tabber-background-active-color: #bb9553; 
+    --tabber-shadow-color: var(--ark-arkitex-border-color);
+    --tabber-shadow-active-color: var(--sidenav-header-text-color);;
+    --tabber-shadow-hover-color: #eacb97;
+    --tabber-background-hover-color: #eacc97a2;
+    --tabber-text-hover-color: #363636;
+    --tabber-background-active-color: #bb955391; 
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #7f8d93;
@@ -208,11 +209,12 @@ body, .theme-dark {
     --toc-background-color: #424442;
     --toc-number-color: #cecece;
     /* Tabbers */
-    --tabber-border-color: var(--ark-arkitex-border-color);
-    --tabber-background-color: #7dac20;
-    --tabber-background-hover-color: #8dc224;
+    --tabber-shadow-color: var(--ark-arkitex-border-color);
+    --tabber-shadow-active-color: var(--sidenav-header-text-color);
+    --tabber-shadow-hover-color: #8dc224;
+    --tabber-background-hover-color: #8dc22488;
     --tabber-text-hover-color: #000;
-    --tabber-background-active-color: #5e8118;
+    --tabber-background-active-color: #5e811896;
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -2890,50 +2892,33 @@ fieldset {
 }
 
 /* #region Tabbers */
-.tabber.tabberlive {
-	border-color: var(--tabber-border-color);
+.tabber.tabber--live {
     overflow-y: auto;
 }
 
-ul.tabbernav {
+.tabbernav {
 	border-color: var(--tabber-border-color);
 }
 
-ul.tabbernav li a:link {
+.tabber__tab  a:link {
 	font-size: 12px !important;
-	background-color: var(--tabber-background-color) ;
 	color: var(--content-text-color);
-	border-color: var(--tabber-border-color);
+	box-shadow: inset 0 -2px 0 0 var(--tabber-border-color);
 }
-ul.tabbernav li a:hover,
-ul.tabbernav li.tabberactive a:hover {
-	background: var(--tabber-background-hover-color)!important;
-	color: var(--tabber-text-hover-color) !important;
-	border-color: var(--tabber-border-color);
+.tabber__tab:hover,
+.tabber__tab--active:hover {
+	background: var(--tabber-background-hover-color);
+	color: var(--tabber-text-hover-color) ;
+	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-hover-color);
 }
-ul.tabbernav li.tabberactive a {
-	color: var(--content-text-color) !important;
-	background-color: var(--tabber-background-active-color);
-	border-color: var(--tabber-border-color);
-}
-ul.tabbernav li a {
-	margin-left: 1px;
-	background-color: var(--tabber-background-color);
+.tabber__tab--active, .tabber__tab--active:visited {
 	color: var(--content-text-color);
-	border-color: var(--tabber-border-color);
+    background: var(--tabber-background-active-color);
+	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-active-color);
 }
-ul.tabbernav li {
-	display: inline-block;
-	padding-top:0;
-	margin-top: 0.55em;
-}
-
-.tabberNoTabberNav ul.tabbernav {
-	display: none;
-}
-
-.tabber .tabbertab {
-	border-color: var(--tabber-border-color);
+.tabber__tab {
+	color: var(--content-text-color);
+	box-shadow: inset 0 -2px 0 0 var(--tabber-border-color);
 }
 /* #endregion */
 
