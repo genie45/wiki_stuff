@@ -5,48 +5,87 @@
 
 /* #region Shared variables */
 :root {
+    /* wiki.gg */
     --netbar-height: 35px;
+    /* Body */
     --page-background-image: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
+    /* Logo */
 	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo_horiz.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
-    --wiki-logo-top-offset: calc(-1 * var(--wiki-logo-height) + 25px);
-    --wiki-logo-left-margin: calc(-225px + 3.3em);
+    --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
+    --wiki-logo-offset--left: calc(50vw - 0.4 * var(--wiki-logo-width));
     --wiki-logo-layout-bottom-gap: 0;
-    --sidebar-top-offset: 325px;
+    /* Grid layout */
+    --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
+    --layout-sidespace--left: 8px;
+    --layout-sidespace--right: 20px;
+    --layout-column-gap: 8px;
+    /* Sidebar (mw-panel) */
+    --sidebar-width: 160px;
+    --sidebar-to-content-margin: 0;
     --sidebar-toggle-icon--open: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
+    /* Page content */
+    --content-horizontal-margin: 1.5em;
+    /* Page navigation (mw-head) */
+    --content-navigation-height: 50px;
+    --content-navigation-top-offset: 43px;
+    --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
+  
 }
 @media screen and (max-width: 1500px) {
     :root {
+        /* Logo */
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
-        --wiki-logo-top-offset: -160px;
-        --wiki-logo-left-margin: calc(-150px + 3.9em);
-        --sidebar-top-offset: 230px;
+        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
+        --wiki-logo-offset--left: calc(50vw - 0.31 * var(--wiki-logo-width));
+        /* Page navigation (mw-head) */
+        --content-navigation-top-offset: 27px;
     }
 }
 @media screen and (max-width: 1040px) {
     :root {
+        /* Logo */
         --wiki-logo-height: 160px;
-        --wiki-logo-top-offset: -170px;
+        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
+        --wiki-logo-offset--left: calc(50vw - 50%);
     }
 }
 @media screen and (max-width: 720px) {
     :root {
+        /* wiki.gg */
         --netbar-height: 90px;
+        /* Logo */
         --wiki-logo-height: 120px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
-        --wiki-logo-top-offset: 100px;
-        --wiki-logo-left-margin: 0;
-        --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-top-offset) - var(--netbar-height)) * 2);
+        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
+        --wiki-logo-offset--left: 0;
+        --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
+        /* Grid layout */
+        --layout-content-top-offset: calc(var(--wiki-logo-height) + 0px);
+        --layout-sidespace--left: 0;
+        --layout-sidespace--right: 0;
+        --layout-column-gap: 0;
+        /* Search */
         --search-height: 35px;
-        --search-top-offset: calc(-100px - var(--wiki-logo-height) / 2 - var(--search-height) / 2);
+        --search-top-offset: 0;
+        /* Sidebar / toolbar */
+        --toolbar-height: 38px;
+        --sidebar-to-content-margin: 0;
         --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
         --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
+        /* Page content */
+        --content-horizontal-margin: 1.3em;
+        --content-top-margin: calc(var(--toolbar-height) + 5px);
+        /* Page navigation (mw-head) */
+        --content-navigation-top-offset: calc(var(--search-height) + 20px);
+        --content-navigation-margin: 0 8px 0 8px;
     }
 }
 /* #endregion */
+
 
 /* #region Theme variables */
 /* Light */
@@ -234,37 +273,202 @@ body, .theme-dark {
 /* #endregion */
 
 
-/* #region Vector skinning */
+/* #region Vector grid layout */
 html, body {
     height: auto;
     min-height: 100vh;
 }
 body {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:
+        [body-left] var(--layout-sidespace--left)
+        [aside-left] var(--sidebar-width)
+        [aside-right content-left] minmax(0,1fr)
+        [content-right] var(--layout-sidespace--right)
+        [body-right];
+    grid-template-rows:
+        [body-start] var(--netbar-height)
+        [page-start logo-start] var(--layout-content-top-offset)
+        [nav-start content-start] auto
+        [content-end footer-start] 0fr
+        [footer-end] auto
+        [page-end] 0fr
+        [body-end];
+    column-gap: var(--layout-column-gap);
+}
+body > .content-wrapper, #mw-navigation {
+    display: contents;
+}
+#mw-page-base {
+    grid-column: content-left / content-right;
+    grid-row: nav-start / footer-end;
+    height: 100%;
+}
+#mw-head-base {
+    grid-column: content-left/content-right;
+    grid-row: page-start/nav-start;
+	height: var(--wiki-logo-height);
+    margin: 0;
+}
+#mw-head {
+    grid-column: content-left/content-right;
+    grid-row: nav-start/content-start;
+    position: relative;
+    top: var(--content-navigation-top-offset);
+    height: max-content;
+	z-index: 10;
+    box-sizing: border-box;
+}
+#mw-panel {
+    grid-column: aside-left/aside-right;
+    grid-row: nav-start/content-end;
+    width: unset;
+    position: relative;
+	top: var(--sidebar-top-offset);
+	z-index: 11;
+}
+div#content {
+    grid-column: content-left/content-right;
+    grid-row: nav-start/content-end;
+    margin: 0;
+    margin-top: var(--content-top-margin);
+}
+.content-body > main {
+    display: grid;
+    grid-template-columns:
+        [content-left heading-left] minmax(0,1fr)
+        [heading-right indicator-left] minmax(0,auto)
+        [indicator-right interwikis-left] minmax(0,auto)
+        [interwikis-right content-right];
+    grid-template-rows:
+        [sitenotice] auto
+        [before-heading] auto
+        [heading-start] auto
+        [heading-end content-start] auto
+        [content-end];
+}
+#siteNotice {
+    grid-row: sitenotice;
+    grid-column: content-left / content-right;
+}
+.mw-body .mw-indicators {
+    grid-column: indicator-left / indicator-right;
+    grid-row: heading-start / heading-end;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#p-lang-btn {
+    grid-column: interwikis-left / interwikis-right;
+    grid-row: heading-start / heading-end;
+}
+#firstHeading {
+    grid-column: heading-left / heading-right;
+    grid-row: heading-start / heading-end;
+}
+#bodyContent {
+    grid-column: content-left / content-right;
+    grid-row: content-start / content-end;
+    display: flex;
+    flex-direction: column;
+}
+#footer {
+    grid-column: content-left/content-right;
+    grid-row: footer-start/footer-end;
+}
+#wikigg-footer {
+    grid-column: body-left/body-right;
+    grid-row: page-end/body-end;
+}
+
+/* #region 1290px */
+@media screen and (max-width: 1290px) {
+    .mw-body .mw-indicators {
+        grid-column: heading-left / heading-right;
+        grid-row: before-heading;
+    }
+    #firstHeading {
+        grid-column: heading-left / content-right;
+    }
+}
+/* #endregion */
+/* #region 720px */
+@media screen and (max-width: 720px) {
+    body {
+        grid-template-columns:
+            [body-left aside-left content-left] auto
+            [aside-right content-right body-right];
+    }
+    .mw-body #p-lang-btn {
+        grid-row: before-heading;
+        grid-column: indicator-left / interwikis-right;
+    }
+    .mw-body .mw-indicators + #p-lang-btn {
+        grid-column: interwikis-left / interwikis-right;
+    }
+    #mw-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 0.5em;
+        padding-top: var(--search-height);
+        margin-top: var(--toolbar-top-margin);
+    }
+    #mw-head div#left-navigation,
+    #mw-head div#right-navigation {
+        position: static;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    #mw-head #left-navigation {
+        margin-right: 0;
+    }
+    #mw-head #right-navigation {
+        justify-content: flex-end;
+        margin-left: 0;
+    }
+}
+/* #endregion */
+/* #endregion */
+
+@media screen and (max-width: 720px) {
+    #firstHeading {
+        text-align: center;
+    }
+    #mw-content-text {
+        padding-top: 1em;
+    }
+}
+
+/* #region Vector skinning */
+body {
 	background: var(--page-background-image) no-repeat var(--page-background-color); 
 	background-size: cover;
 	background-attachment: fixed;
+}
+/* #region Typography */
+body {
     font-family: Inter, Helvetica, Arial, sans-serif
 }
 .mw-body h1, .mw-body-content h1, .mw-body-content h2 {
     font-family: Inter, linux libertine, georgia, times, serif;
     letter-spacing: -0.6px;
 }
+/* #endregion */
 /* #region Push down content area to make space for the frame border */
 #mw-page-base {
 	background: transparent;
-	height: 350px;
-}
-#mw-head-base {
-	height: 4.3em;
 }
 /* #endregion */
 /* #region Logo */
 #p-logo {
 	position: absolute;
-    top: var(--wiki-logo-top-offset);
-    left: 50vw;
+    top: var(--wiki-logo-offset--top);
+    left: var(--wiki-logo-offset--left);
     z-index: 10;
-    margin-left: var(--wiki-logo-left-margin);
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
@@ -273,8 +477,29 @@ body {
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
+@media screen and (max-width: 1040px) {
+	#p-logo a {
+		background-image: var(--wiki-logo-horizontal);
+	}
+}
+@media screen and (max-width: 720px) {
+    #mw-head-base {
+        background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
+    }
+}
 /* #endregion */
-/* #region Content area (& frame border) */
+/* #region Content area (& hex, frame border) */
+.content-body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: url(https://ark.wiki.gg/images/b/b7/Hex_grid.png) /*[[File:Hex grid.png]]*/ repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
 div#content {
 	position: relative;
 	background-color: rgba(var(--content-background-color--rgb),0.98);
@@ -284,44 +509,57 @@ div#content {
     border-image-width: 300px;
     border-image-outset: 15px;
     border-image-repeat: stretch;
-    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png); /*[[File:Border frame.png]]*/
+    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png) /*[[File:Border frame.png]]*/; 
     box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
     min-height: 600px;
-    margin-right: 40px;
 }
 div#content::before {
 	position: absolute;
 	top: -250px;
 	left: 50%;
 	content: '';
-	background: url(https://ark.wiki.gg/images/6/60/Logo_frame.png) repeat; /*[[File:Logo frame.png]]*/
+	background: url(https://ark.wiki.gg/images/6/60/Logo_frame.png) /*[[File:Logo frame.png]]*/ repeat;
 	width: 662px;
 	height: 267px;
 	margin-left: -331px;
 	background-size: contain;
 }
 .content-body { padding: 85px 5px 0 5px; }
+@media screen and (max-width: 1500px) {
+	div#content {
+		border-image-width: 200px;
+		border-image-outset: 10px;
+	}
+	div#content::before {
+		top: -167px;
+		width: 441px;
+		height: 178px;
+		margin-left: -220px;
+	}
+}
+@media screen and (max-width: 1040px) {
+	div#content::before {
+		display: none;
+	}
+}
+@media screen and (max-width: 720px) {
+    div#content {
+        box-shadow: 0 10px 12px #0008;
+    }
+}
 /* #endregion */
 /* #region Footer */
 #footer {
-	margin-top: 4em;
-	margin-bottom: 2em;
-    margin-right: 40px;
+	margin: 0 0 2em 0;
 	background-color: rgba(var(--content-background-color--rgb), 0.8);
 	border-radius: 2px;
 }
 #footer ul li { color: #fff; }
-.content-body::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    content: "";
-    background: url(https://ark.wiki.gg/images/b/b7/Hex_grid.png) repeat;
-    /*[[File:Hex grid.png]]*/
-    z-index: -1;
-    opacity: 0.7;
+@media screen and (max-width: 720px) {
+    #footer {
+        margin: 0;
+        padding: 2em 0.75em 1em;
+    }
 }
 /* #endregion */
 
@@ -371,14 +609,14 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     overflow-wrap: break-word;
     word-break: break-word;
 }
+@media screen and (max-width: 970px) {
+    #firstHeading {
+        font-size: 2em;
+    }
+}
 /* #endregion */
 
 /* #region Sidebar */
-#mw-panel {
-	position: absolute;
-	top: var(--sidebar-top-offset);
-	z-index: 11;
-}
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
 }
@@ -433,17 +671,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 /* #endregion */
 /* #region Content navigation head */
-#mw-head {
-	top: 340px;
-	z-index: 10;
-}
-#left-navigation {
-	margin-left: 13em;
-}
-#right-navigation {
-	margin-right: 5em;
-}
-
 .vectorTabs,
 .vectorTabs ul,
 .vectorTabs li,
@@ -510,52 +737,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 /* #endregion */
 
 /* #region Narrow width tweaks */
-@media screen and (max-width: 1500px) {
-	div#content {
-		border-image-width: 200px;
-		border-image-outset: 10px;
-	}
-	div#content::before {
-		top: -167px;
-		width: 441px;
-		height: 178px;
-		margin-left: -220px;
-	}
-	#mw-page-base { height: 250px; }
-	#mw-head { top: 240px; }
-}
-
-@media screen and (max-width: 1040px) {
-	div#content::before {
-		display: none;
-	}
-	#mw-page-base { height: 250px; }
-	#mw-head { top: 240px; }
-	#p-logo a {
-		background-image: var(--wiki-logo-horizontal);
-	}
-}
-
-@media screen and (max-width: 970px) {
-    #firstHeading {
-        font-size: 2em;
-    }
-}
-@media screen and (max-width:736px) {
-	div#right-navigation {
-		z-index: 1;
-		margin-right: 1em;
-	}
-	#p-search {
-		position: absolute;
-		top: -2em;
-	}
-}
 @media screen and (max-width:720px) {
-	#mw-page-base { height: 200px; }
-	div#p-logo {
-		display: block;
-	}
 	div#mw-navigation div#mw-panel {
     	border: 1px solid #7FE7FF;
     	border-left: 0;
@@ -563,49 +745,26 @@ div#mw-panel div.portal div.body ul li a:hover {
     	background-color: rgba(4,36,48,0.95);
     	box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
 	}
-	#mw-head { top: 325px; }
-	div#left-navigation {
-		margin-left: 20px;
-		z-index: 1;
-	}
-	div#content { margin-right: 0; }
-	.content-wrapper { padding: 50px 1px 0; }
 }
 /* #endregion */
 
 /* #region Responsive grid layout */
+/* #region Body */
+.mw-body {
+    padding: 1.25em var(--content-horizontal-margin) 1.5em;
+}
+#left-navigation,
+#right-navigation {
+    margin: var(--content-navigation-margin);
+}
+#mw-panel .portal {
+    margin-left: 0;
+}
+/* #endregion */
 /* #region Article title area (indicators, language switcher) */
-.content-body > main {
-    display: grid;
-    grid-template-columns: [content-left heading-left] minmax(0,1fr) [heading-right indicator-left] minmax(0,auto) [indicator-right interwikis-left] minmax(0,auto) [interwikis-right content-right];
-    grid-template-rows: [sitenotice] auto [heading-start] auto [heading-end content-start] auto [content-end];
-}
-.mw-body .mw-indicators {
-    grid-column: indicator-left / indicator-right;
-    grid-row: heading-start / heading-end;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-#p-lang-btn {
-    grid-column: interwikis-left / interwikis-right;
-    grid-row: heading-start / heading-end;
-}
-#bodyContent {
-    grid-column: content-left / content-right;
-    grid-row: content-start / content-end;
-    display: flex;
-    flex-direction: column;
-}
 #firstHeading {
-    grid-column: heading-left / heading-right;
-    grid-row: heading-start / heading-end;
     margin-bottom: 2px;
     border-bottom: none; /* Moved onto #mw-content-text, see below */
-}
-#siteNotice {
-    grid-row: sitenotice;
-    grid-column: content-left / content-right;
 }
   
 /* Border below the title heading (as in this setup #firstHeading does not span for the entire length) */
@@ -613,8 +772,9 @@ div#mw-panel div.portal div.body ul li a:hover {
     border-top: 1px solid #a2a9b1;
     padding-top: 6px;
 }
-#contentSub:empty {
-    margin: 0;
+#contentSub:empty,
+#contentSub2:empty {
+    display: none;
 }
 /* Remove the title border from main page */
 .rootpage-ARK_Survival_Evolved_Wiki #mw-content-text {
@@ -622,80 +782,35 @@ div#mw-panel div.portal div.body ul li a:hover {
     padding-top: 0;
 }
 
-@media screen and (max-width: 1290px) {
-    .content-body > main {
-        grid-template-columns:
-            [content-left heading-left] minmax(0,1fr)
-            [heading-right indicator-left] minmax(0,auto)
-            [indicator-right interwikis-left] minmax(0,auto)
-            [interwikis-right content-right];
-        grid-template-rows:
-            [before-heading] auto
-            [heading-start] auto
-            [heading-end content-start] auto
-            [content-end];
-    }
-    .mw-body .mw-indicators {
-        grid-column: heading-left / heading-right;
-        grid-row: before-heading;
-    }
-    #firstHeading {
-        grid-column: heading-left / content-right;
-        grid-row: heading-start / heading-end;
-    }
-}
-@media screen and (max-width: 720px) {
-    #firstHeading {
-        text-align: center;
-    }
-    #mw-content-text {
-        padding-top: 1em;
-    }
-    .mw-body #p-lang-btn {
-        grid-row: before-heading;
-        grid-column: indicator-left / interwikis-right;
-    }
-    .mw-body .mw-indicators + #p-lang-btn {
-        grid-column: interwikis-left / interwikis-right;
-    }
-}
 /* #endregion */
-/* #region Mobile (720px) body grid (inspired by Terraria) */
+/* #region Toolbar (720px) */
 @media screen and (max-width: 720px) {
-    body {
-        display: grid;
-        grid-template-columns:
-            [body-left aside-left content-left] auto
-            [aside-right content-right body-right];
-        grid-template-rows:
-            [body-start] var(--netbar-height)
-            [page-start logo-start] var(--wiki-logo-height)
-            [logo-end aside-start] auto
-            [aside-end nav-start] 0fr
-            [nav-end content-start] 1fr
-            [content-end footer-start] 0fr
-            [footer-end] auto
-            [page-end] 0fr
-            [body-end];
-    }
-    body > .content-wrapper,
-    #mw-navigation {
-        display: contents;
-    }
-    div#p-logo {
-        left: 0;
-    }
-    div#mw-navigation div#mw-panel .portal {
-        width: unset;
+    #mw-head #p-search {
+        position: absolute;
+        top: var(--search-top-offset);
+        right: 0;
+        top: 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: unset;
+        right: 0;
+        padding: 0 2em;
+        z-index: 50;
+        height: var(--search-height);
     }
     div#mw-navigation div#mw-panel {
+        box-sizing: border-box;
         grid-column: aside-left/aside-right;
-        grid-row: aside-start/aside-end;
+        grid-row: nav-start/content-end;
         display: flex;
         width: auto;
+        height: var(--toolbar-height);
         overflow: visible;
-        overflow-x: auto;
-        margin-top: var(--wiki-logo-layout-bottom-gap);
+        overflow-x: clip;
+        margin-top: 0;
     }
     #mw-panel .portal, #mw-panel #p-logo + .portal {
         position: relative;
@@ -728,7 +843,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     #mw-panel #p-logo + .portal h3, #mw-navigation #mw-panel .portal h3 {
         font-size: 12px;
         font-weight: 400;
-        padding: 4px 6px;
+        padding: 6px;
         background-position: right;
         padding-right: 18px;
         background-color: transparent;
@@ -741,50 +856,25 @@ div#mw-panel div.portal div.body ul li a:hover {
         margin: 0;
         margin-left: 0px;
     }
-    div#content {
-        grid-column: content-left/content-right;
-        grid-row: content-start/content-end;
-        min-height: unset;
-        box-shadow: 0 10px 12px #0008;
-        margin-top: -40px;
-    }
-    div#footer {
-        grid-column: content-left/content-right;
-        grid-row: footer-start/footer-end;
-        margin: 0;
-        padding: 2em 0.75em 1em;
-    }
-    body > footer {
-        grid-column: body-left/body-right;
-        grid-row: page-end/body-end;
-    }
-    #mw-head #p-search {
-        position: absolute;
-        top: var(--search-top-offset);
+    #p-cactions .vector-menu-content.body {
         right: 0;
+        left: unset;
     }
-    #mw-page-base {
-        height: 250px;
-        background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
-    }
-    .content-body {
-        padding-top: 85px;
-    }
-    #mw-head #p-search {
-        top: 0;
+    #mw-head div#left-navigation,
+    #mw-head div#right-navigation {
+        position: static;
         box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        position: absolute;
-        top: -37px;
-        left: 0;
-        right: 0;
-        padding: 0 2em;
-        z-index: 50;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 0.5em;
+    }
+    #mw-head #right-navigation {
+        justify-content: flex-end;
     }
     #p-search div#simpleSearch {
         margin: 0 auto;
-        width: 15em;
+        width: 20em;
         padding: 0;
         height: auto;
         transition: none;
@@ -793,8 +883,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         grid-template-rows: 1fr;
         align-content: stretch;
         justify-content: stretch;
-        min-width: 5em;
-        max-width: 20em;
     }
     #simpleSearch #searchInput {
         width: 100%;
@@ -804,35 +892,9 @@ div#mw-panel div.portal div.body ul li a:hover {
         line-height: 16px;
         text-align: left;
         padding: 3px 5px;
-        border-right: 0;
         word-wrap: break-word;
         appearance: none;
         -webkit-appearance: none;
-    }
-    #mw-head {
-        grid-column: content-left / content-right;
-        grid-row: nav-start / nav-end;
-        position: relative!important;
-        top: 50px;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        padding: 0 0.5em;
-    }
-    #mw-head div#left-navigation,
-    #mw-head div#right-navigation {
-        position: static;
-        float: none;
-        flex: 1 1 auto;
-        margin: 0;
-        margin-right: 0px;
-        display: flex;
-        align-items: flex-end;
-        width: 50%;
-    }
-    #mw-head #right-navigation {
-        justify-content: flex-end;
     }
     .vectorTabs span,
     #right-navigation .vectorMenu h3{
@@ -2881,7 +2943,7 @@ ul.tabbernav li {
 }
 
 
-/* Survivor Profile Table (Template:DTile) */
+/* #region Survivor Profile Table (Template:DTile) */
 .dtile a:link,
 .dtile a:visited,
 .dtile_dlc a:link,
@@ -2898,6 +2960,7 @@ ul.tabbernav li {
 	-webkit-filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
 	filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
 }
+/* #endregion */
 
 .pointer {
 	cursor: pointer;
