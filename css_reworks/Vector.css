@@ -2975,10 +2975,19 @@ fieldset {
     background: var(--tabber-background-active-color);
 	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-active-color);
 }
+
+.tabber__tab:visited,
 .tabber__tab {
 	color: var(--content-text-color);
 	box-shadow: inset 0 -2px 0 0 var(--tabber-border-color);
 }
+
+.theme-dark .tabber__header__prev:after, 
+.theme-dark .tabber__header__next:after {
+	filter: invert(1);
+}
+.tabber__header__next:after { right: 0; }
+
 /* #endregion */
 
 /* Image-specific tweak to get it to display with a height of 75px */
@@ -3635,10 +3644,3 @@ div.drilldown-filters-wrapper {
 .theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 .theme-dark .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
-
-.theme-dark .tabber__header__prev:after, 
-.theme-dark .tabber__header__next:after {
-	filter: invert(1);
-}
-.tabber__header__next:after { right: 0; }
-.tabber__tab { color: var(--content-text-link-color); }
