@@ -931,6 +931,41 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 /* #endregion */
 
+/* #region Sidebar toggle */
+#nav-content-size-toggle {
+    width:20px;
+    height:20px;
+    align-self:center;
+    margin-left:-5px;
+    margin-right: 4px;
+    position:relative;
+    border-radius:3px;
+    cursor:pointer;
+    flex:0 0 auto;
+    margin-top: 0.65em;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A") center center no-repeat;
+}
+.is-content-area-expanded #nav-content-size-toggle {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
+}  
+@media screen and (min-width:721px) {
+    :root {
+        --sidebar-width: 0;
+    }
+    .is-content-area-expanded #mw-panel > * {
+        display:none;
+    }
+    .is-content-area-expanded #mw-panel #p-logo {
+        display:block
+    }
+}
+@media screen and (max-width: 720px) {
+    #nav-content-size-toggle {
+        display: none;
+    }
+}
+/* #endregion */
+
 /* #region Bulletpoint fixes */
 ul {
     list-style-image: var(--list-bulletpoint-image);
