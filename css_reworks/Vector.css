@@ -2854,16 +2854,18 @@ table.collapsed tr.collapsible {
 #p-lang-btn-checkbox:checked + label {
     background-color: rgba(var(--content-default-link-color--rgb), 0.15);
 }
-#p-lang-btn .menu li {
+#p-lang-btn .vector-menu-content li {
     margin: 0.2em 0.5em;
 }
-#p-lang-btn .menu li:hover {
+#p-lang-btn .vector-menu-content {
+    padding: 0.2em 0;
+}
+#p-lang-btn .vector-menu-content li:hover {
     background-color: rgba(var(--content-default-link-color--rgb), 0.25);
     border-radius: 2px;
 }
 #p-lang-btn .menu li a {
     text-transform: none;
-    font-size: 0.875em;
     color: var(--content-text-color);
 }
 #p-lang-btn-label::before,
