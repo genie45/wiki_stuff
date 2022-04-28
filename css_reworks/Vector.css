@@ -40,7 +40,7 @@
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
-        --wiki-logo-offset--left: calc(50vw - 0.31 * var(--wiki-logo-width));
+        --wiki-logo-offset--left: calc(50vw - 0.3325 * var(--wiki-logo-width));
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: 27px;
     }
@@ -321,6 +321,25 @@ body > .content-wrapper, #mw-navigation {
     height: max-content;
 	z-index: 10;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: var(--content-navigation-margin)
+}
+#mw-head #left-navigation,
+#mw-head #right-navigation {
+    box-sizing: border-box;
+    float: none;
+    flex: 1 1 auto;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+#mw-head #left-navigation {
+    justify-content: flex-start;
+}
+#mw-head #right-navigation {
+    justify-content: flex-end;
 }
 #mw-panel {
     grid-column: aside-left/aside-right;
@@ -410,27 +429,11 @@ div#content {
         grid-column: interwikis-left / interwikis-right;
     }
     #mw-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        padding: 0 0.5em;
-        padding-top: var(--search-height);
-        margin-top: var(--toolbar-top-margin);
+        padding: var(--search-height) 0.5em 0;
     }
     #mw-head div#left-navigation,
     #mw-head div#right-navigation {
         position: static;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    #mw-head #left-navigation {
-        margin-right: 0;
-    }
-    #mw-head #right-navigation {
-        justify-content: flex-end;
-        margin-left: 0;
     }
 }
 /* #endregion */
@@ -754,10 +757,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 /* #region Body */
 .mw-body {
     padding: 1.25em var(--content-horizontal-margin) 1.5em;
-}
-#left-navigation,
-#right-navigation {
-    margin: var(--content-navigation-margin);
 }
 #mw-panel .portal {
     margin-left: 0;
