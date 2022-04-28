@@ -1723,6 +1723,10 @@ table.valign-table > * > tr > td { vertical-align: top !important; }
 .mw-parser-output a.external.free { word-break: break-all; }
 
 /* #region [[Template:Photo]] */
+.photo-nav {
+    margin: 0;
+}
+
 .photo-nav,
 .photo-nav a:link,
 .photo-nav a:visited {
@@ -1755,6 +1759,9 @@ li.photo-bg {
     min-height: 152px;
     vertical-align: top;
     text-align: center;
+    background: #c4c4c4;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0 0 8px #3337;
 }
 
 div.photo-text {
