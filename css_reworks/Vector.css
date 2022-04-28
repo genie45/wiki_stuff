@@ -949,13 +949,13 @@ div#mw-panel div.portal div.body ul li a:hover {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
 }  
 @media screen and (min-width:721px) {
-    :root {
+    body.is-content-area-expanded {
         --sidebar-width: 0;
     }
-    .is-content-area-expanded #mw-panel > * {
+    body.is-content-area-expanded #mw-panel > * {
         display:none;
     }
-    .is-content-area-expanded #mw-panel #p-logo {
+    body.is-content-area-expanded #mw-panel #p-logo {
         display:block
     }
 }
