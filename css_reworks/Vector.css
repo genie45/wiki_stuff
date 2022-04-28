@@ -1820,6 +1820,9 @@ div.photo-text {
     margin: 0.2em;
     border-radius: 2px;
     padding: 0.7em;
+    border: 1px solid var(--theme-accent-color);
+    background: var(--ark-mission-background-color);
+    color: var(--ark-mission-text-color, inherit);
 }
 .mission-description {
     height: 100%;
@@ -1831,6 +1834,19 @@ div.photo-text {
 .mission-dif-none {
     font-size: larger;
     font-weight: bolder;
+}
+
+.mission-dif-gamma {
+    color: var(--ark-difficulty-gamma);
+}
+.mission-dif-beta {
+    color: var(--ark-difficulty-beta);
+}
+.mission-dif-alpha {
+    color: var(--ark-difficulty-alpha);
+}
+.mission-dif-none {
+    color: var(--ark-difficulty-none);
 }
 /* #endregion */
 
