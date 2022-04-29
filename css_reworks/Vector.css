@@ -1833,10 +1833,7 @@ div.photo-text {
 .attack-container {
     clear: both;
     position: relative;
-}
-.attack-container > div {
     overflow-x: auto;
-    white-space: nowrap;
 }
 /* #endregion */
 
@@ -3379,6 +3376,10 @@ table {
 .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
     background: var(--content-background-color);
     color: #fff;
+}
+/* Forms */
+.mw-htmlform-ooui .mw-htmlform-matrix tbody tr:nth-child(2n) td {
+    background-color: #fff4;
 }
 /* #endregion */
 /* #region Built-in MediaWiki and OOUI icons, dark mode */
