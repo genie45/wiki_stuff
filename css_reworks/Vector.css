@@ -3359,18 +3359,18 @@ table {
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--secondary);
 }
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet {
+    color: var(--ooui-button-background-color--primary);
+}
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet,
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive,
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive,
 .mw-ui-button.mw-ui-quiet:focus,
 .mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus,
-.mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus {
-    background: rgba(var(--content-default-link-color--rgb),0.15);
-    color: var(--ooui-button-background-color--primary);
-}
+.mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus,
 input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
-.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover,
-.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus {
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover {
+    background: rgba(var(--content-default-link-color--rgb),0.15);
     color: var(--ooui-button-background-color--primary-hover);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
