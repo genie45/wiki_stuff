@@ -228,6 +228,7 @@ body, .theme-dark {
     --ooui-button-text-color--primary: #000;
     --ooui-button-text-color--secondary: var(--content-text-link-color);
     --ooui-button-background-color--primary: var(--content-default-link-color);
+    --ooui-button-background-color--primary-hover: #98c63b;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     /* Template:Navbox */
@@ -2883,10 +2884,6 @@ table.collapsed tr.collapsible {
     align-self: center;
 	margin-left: 5px;
 }
-#p-lang-btn:hover label,
-#p-lang-btn-checkbox:checked + label {
-    background-color: rgba(var(--content-default-link-color--rgb), 0.15);
-}
 #p-lang-btn .vector-menu-content li {
     margin: 0.2em 0.5em;
 }
@@ -3362,8 +3359,19 @@ table {
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--secondary);
 }
-.mw-ui-button.mw-ui-progressive.mw-ui-quiet {
+input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet,
+input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive,
+input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive,
+.mw-ui-button.mw-ui-quiet:focus,
+.mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus,
+.mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus {
+    background: rgba(var(--content-default-link-color--rgb),0.15);
     color: var(--ooui-button-background-color--primary);
+}
+input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover,
+.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus {
+    color: var(--ooui-button-background-color--primary-hover);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--primary);
@@ -3374,6 +3382,7 @@ table {
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
     color: #000;
 }
+ 
 /* Tab layout */
 .client-js div#preferences,
 .mw-prefs-buttons,
@@ -3405,6 +3414,10 @@ table {
 }
 .mw-content-ltr .redirectText li:first-child {
     background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2247%22 height=%2220%22 viewBox=%220 0 47 20%22%3E %3Cpath fill=%22none%22 stroke=%22%23fff%22 stroke-miterlimit=%2210%22 stroke-width=%222%22 d=%22M14.98 2.5V11c0 1.04 1.02 1.98 2.02 1.98h6l3 .02%22/%3E %3Cpath fill=%22%23fff%22 d=%22M23.48 9.5l.02 7L30 13z%22/%3E %3C/svg%3E");
+}
+.theme-dark.client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable),
+.theme-dark .jquery-tablesorter th.headerSort {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='9' viewBox='0 0 21 9'%3E%3Cpath d='m14.5 5-4 4-4-4zm0-1-4-4-4 4z' fill='%23fff'/%3E%3C/svg%3E%0A");
 }
 /* #endregion */
 
