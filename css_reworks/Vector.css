@@ -3566,6 +3566,10 @@ div.editOptions {
 .theme-dark .mw-content-ltr.content .mw-highlight-lines pre {
     box-shadow: inset 2.75em 0 0 #0006;
 }
+.theme-dark .CodeMirror-gutters {
+    background-color: #0006;
+    border-right: none;
+}
 /* #endregion */
 
 /* #endregion */
