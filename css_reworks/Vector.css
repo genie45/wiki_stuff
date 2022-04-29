@@ -1387,7 +1387,6 @@ ul#filetoc {
     margin: 5px;
     padding: 8px 1.25em;
     border-radius: 2px;
-    overflow: auto;
 }
 .fpbox.plain {
     border: none;
