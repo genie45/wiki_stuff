@@ -171,6 +171,7 @@
     --ark-difficulty-none: #BCEEFA;
     /* Template:Mission */
     --ark-mission-background-color: #e6e8e8bb;
+    --ark-mission-text-color: var(--content-text-color);
     /* Template:HoverNote */
     --ark-hovertext-text-color: var(--theme-accent-color);
     /* Kibble tables */
