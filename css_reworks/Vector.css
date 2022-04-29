@@ -2984,17 +2984,6 @@ fieldset {
 }
 .tabber__header__next:after { right: 0; }
 
-/* Backporting commit 4665737 from StarCitizenTools/mediawiki-extensions-TabberNeue. Fixes vertical scroll lock-ups on Chrome
-   and relatives. */
-.tabber__panel {
-    /* REMOVED */
-	block-size: unset;
-	overflow-y: unset;
-	overscroll-behavior-y: unset;
-	scroll-snap-align: unset;
-	/* ADDED [need !important] */
-	height: max-content !important;
-}
 /* #endregion */
 
 /* Image-specific tweak to get it to display with a height of 75px */
