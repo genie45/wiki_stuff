@@ -14,12 +14,12 @@
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
-    --wiki-logo-offset--left: calc(50vw - 0.4 * var(--wiki-logo-width));
+    --wiki-logo-offset--left-coeff: 0.405;
     --wiki-logo-layout-bottom-gap: 0;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
-    --layout-sidespace--left: 8px;
-    --layout-sidespace--right: 20px;
+    --layout-sidespace--left: 12px;
+    --layout-sidespace--right: 26px;
     --layout-column-gap: 8px;
     /* Sidebar (mw-panel) */
     --sidebar-width: 160px;
@@ -28,11 +28,21 @@
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
     /* Page content */
     --content-horizontal-margin: 1.5em;
+    --content-body-top-margin: 80px;
     /* Page navigation (mw-head) */
     --content-navigation-height: 50px;
     --content-navigation-top-offset: 43px;
     --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
-  
+}
+body {
+    /* Putting on <body> so it can be affected by .is-content-area-expanded */
+    --wiki-logo-offset--left: calc(50vw - var(--wiki-logo-offset--left-coeff) * var(--wiki-logo-width));
+}
+@media screen and (min-width: 721px) {
+    body.is-content-area-expanded {
+        --sidebar-width: 0;
+        --wiki-logo-offset--left-coeff: 0.584;
+    }
 }
 @media screen and (max-width: 1500px) {
     :root {
@@ -40,9 +50,14 @@
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
-        --wiki-logo-offset--left: calc(50vw - 0.3325 * var(--wiki-logo-width));
+        --wiki-logo-offset--left-coeff: 0.345;
+        /* Page content */
+        --content-body-top-margin: 65px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: 27px;
+    }
+    body.is-content-area-expanded {
+        --wiki-logo-offset--left-coeff: 0.615;
     }
 }
 @media screen and (max-width: 1040px) {
@@ -50,7 +65,6 @@
         /* Logo */
         --wiki-logo-height: 160px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
-        --wiki-logo-offset--left: calc(50vw - 50%);
     }
 }
 @media screen and (max-width: 720px) {
@@ -61,7 +75,6 @@
         --wiki-logo-height: 120px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
-        --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) + 0px);
@@ -79,9 +92,14 @@
         /* Page content */
         --content-horizontal-margin: 1.3em;
         --content-top-margin: calc(var(--toolbar-height) + 5px);
+        --content-body-top-margin: 85px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: calc(var(--search-height) + 20px);
         --content-navigation-margin: 0 8px 0 8px;
+    }
+    body,
+    body.is-content-area-expanded {
+        --wiki-logo-offset--left: 0;
     }
 }
 /* #endregion */
@@ -531,7 +549,7 @@ div#content::before {
 	margin-left: -331px;
 	background-size: contain;
 }
-.content-body { padding: 85px 5px 0 5px; }
+.content-body { padding: var(--content-body-top-margin) 5px 0 5px; }
 @media screen and (max-width: 1500px) {
 	div#content {
 		border-image-width: 200px;
@@ -937,25 +955,19 @@ div#mw-panel div.portal div.body ul li a:hover {
 
 /* #region Sidebar toggle */
 #nav-content-size-toggle {
-    width:20px;
-    height:20px;
-    align-self:center;
-    margin-left:-5px;
+    width: 20px;
+    height: 20px;
+    align-self: center;
     margin-right: 4px;
-    position:relative;
-    border-radius:3px;
-    cursor:pointer;
-    flex:0 0 auto;
+    cursor: pointer;
+    flex: 0 0 auto;
     margin-top: 0.65em;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A") center center no-repeat;
 }
 .is-content-area-expanded #nav-content-size-toggle {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
-}  
+}
 @media screen and (min-width:721px) {
-    body.is-content-area-expanded {
-        --sidebar-width: 0;
-    }
     body.is-content-area-expanded #mw-panel > * {
         display:none;
     }
