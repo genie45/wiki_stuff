@@ -1246,18 +1246,13 @@ ul#filetoc {
 /* #endregion */
 
 /* #region Copy to clipboard */
-.copy-clipboard {
-    background-color: white;
-    color: black;
-    font-family: Courier, monospace;
-    padding: 0.2em;
-}
 .copy-clipboard button {
     padding: 0 0 0 1em;
     border: none;
     background: none;
     cursor: pointer;
     font-family: FontAwesome;
+    color: #fff;
 }
 /* #endregion */
 
