@@ -1325,18 +1325,19 @@ ul#filetoc {
 #fp-container {
     display: grid;
     grid-template-areas: "a" "b" "c" "d" "e";
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
+    column-gap: 6px;
 }
 @media screen and (min-width: 990px) {
     #fp-container {
         grid-template-areas: "a a" "b b" "d c" "d c" "e e";
-        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 @media screen and (min-width: 1350px) {
     #fp-container {
         grid-template-areas: "a a a" "b c d" "e c d";
-        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 #fpwelcome { grid-area: a; }
