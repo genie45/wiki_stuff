@@ -341,16 +341,12 @@ body > .content-wrapper, #mw-navigation {
     height: max-content;
 	z-index: 10;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: block;
     padding: var(--content-navigation-margin)
 }
 #mw-head #left-navigation,
 #mw-head #right-navigation {
     box-sizing: border-box;
-    float: none;
-    flex: 1 1 auto;
     margin: 0;
     display: flex;
     align-items: flex-end;
@@ -454,6 +450,8 @@ div#content {
     #mw-head div#left-navigation,
     #mw-head div#right-navigation {
         position: static;
+        box-sizing: border-box;
+        padding: 0 0.5em;
     }
 }
 /* #endregion */
@@ -883,18 +881,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         right: 0;
         left: unset;
     }
-    #mw-head div#left-navigation,
-    #mw-head div#right-navigation {
-        position: static;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        padding: 0 0.5em;
-    }
-    #mw-head #right-navigation {
-        justify-content: flex-end;
-    }
     #p-search div#simpleSearch {
         margin: 0 auto;
         width: 20em;
@@ -957,11 +943,10 @@ div#mw-panel div.portal div.body ul li a:hover {
 #nav-content-size-toggle {
     width: 20px;
     height: 20px;
-    align-self: center;
-    margin-right: 4px;
     cursor: pointer;
-    flex: 0 0 auto;
-    margin-top: 0.65em;
+    float: left;
+    margin-top: 0.9em;
+    margin-right: 4px;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A") center center no-repeat;
 }
 .is-content-area-expanded #nav-content-size-toggle {
@@ -1497,7 +1482,7 @@ ul#filetoc {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 6px;
+    margin: 7px 6px 0;
 }
 .fp-icon-flex * {
     vertical-align: middle;
