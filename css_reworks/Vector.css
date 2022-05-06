@@ -1767,7 +1767,7 @@ table.valign-table > * > tr > td { vertical-align: top !important; }
 .mw-parser-output a.external.free { word-break: break-all; }
 
 /* #region [[Template:Photo]] */
-.photo-nav {
+ul.photo-nav {
     margin: 0;
 }
 
@@ -1806,6 +1806,7 @@ li.photo-bg {
     background: #c4c4c4;
     border: 1px solid #b7b7b7;
     box-shadow: 0 0 8px #3337;
+    color: #112;
 }
 
 div.photo-text {
@@ -3668,6 +3669,6 @@ div.drilldown-filters-wrapper {
 	color: var(--content-header-color);
 }
 .theme-dark .mw-datatable th,
-.theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background: #202020; }
+.theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background-color: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 .theme-dark .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
