@@ -1326,7 +1326,7 @@ ul#filetoc {
     display: grid;
     grid-template-areas: "a" "b" "c" "d" "e";
     grid-template-columns: 1fr;
-    column-gap: 6px;
+    column-gap: 10px;
 }
 @media screen and (min-width: 990px) {
     #fp-container {
@@ -1348,11 +1348,8 @@ ul#filetoc {
 
 .fp-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     overflow: hidden;
-}
-.fp-section > .fpbox {
-    width: calc(100% - 2px);
 }
 .fp3col {
     display: flex;
@@ -1377,13 +1374,17 @@ ul#filetoc {
 }
 /* Boxes */
 .fpbox {
+    width: 100%;
     border: 1px solid #749ca4;
     box-shadow: 0 2px 5px #4a5153;
     background: var(--fp-box-background-color);
     color: var(--content-text-color);
-    margin: 5px;
+    margin: 5px 0;
     padding: 8px 1.25em;
     border-radius: 2px;
+}
+.fp-section > .fpbox:last-child {
+    flex-grow: 1;
 }
 .fpbox.plain {
     border: none;
