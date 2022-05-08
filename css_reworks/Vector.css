@@ -94,7 +94,7 @@ body {
         --content-top-margin: calc(var(--toolbar-height) + 5px);
         --content-body-top-margin: 85px;
         /* Page navigation (mw-head) */
-        --content-navigation-top-offset: calc(var(--search-height) + 20px);
+        --content-navigation-top-offset: calc(var(--search-height) + var(--search-spacing--bottom) + 18px);
         --content-navigation-margin: 0 8px 0 8px;
     }
     body,
@@ -445,7 +445,7 @@ div#content {
         grid-column: interwikis-left / interwikis-right;
     }
     #mw-head {
-        padding: var(--search-height) 0.5em 0;
+        padding: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
     }
     #mw-head div#left-navigation,
     #mw-head div#right-navigation {
@@ -821,6 +821,9 @@ div#mw-panel div.portal div.body ul li a:hover {
         padding: 0 2em;
         z-index: 50;
         height: var(--search-height);
+    }
+    #p-search #searchform {
+        margin: 0;
     }
     div#mw-navigation div#mw-panel {
         box-sizing: border-box;
