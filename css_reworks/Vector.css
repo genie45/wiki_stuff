@@ -19,8 +19,8 @@
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
     --layout-sidespace--left: 12px;
-    --layout-sidespace--right: 26px;
-    --layout-column-gap: 8px;
+    --layout-sidespace--right: 18px;
+    --layout-column-gap: 16px;
     /* Sidebar (mw-panel) */
     --sidebar-width: 160px;
     --sidebar-to-content-margin: 0;
