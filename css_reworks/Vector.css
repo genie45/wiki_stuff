@@ -1056,6 +1056,9 @@ table .number { text-align: right; }
 }
 
 /* #region Table of Contents, category list, file ToC */
+#toc {
+    max-width: 395px;
+}
 div#toc,
 div.toc,
 div.mw-warning {
@@ -2676,10 +2679,13 @@ table.collapsed tr.collapsible {
 }
 /* #endregion */
 
-/* #region [[Template:DossierText]] & [[Template:Quote]] cite signs */
+/* #region [[Template:DossierText]] & [[Template:Quote]] cite */
+.mw-parser-output > .quote:first-child {
+    display: inline-block;
+}
 .dossier-cite-left,
-.quote-left,
 .dossier-cite-right,
+.quote-left,
 .quote-right {
     font-size: 3.3em;
     font-family: 'Times New Roman', serif;
@@ -3601,6 +3607,10 @@ div.gallerytext {
         margin: 2em 0;
         padding: 9px;
     }
+    #content .mw-parser-output .tocright {
+        float: none;
+        padding-left: 0;
+    }
 }
 @media screen and (max-width: 720px) {
     /* Hide [[Template:Navbox]] like Wikipedia does; those tables would be a pain to fix right */
@@ -3611,6 +3621,28 @@ div.gallerytext {
     /* Fix table overflows */
     .achieve_container {
         width: auto;
+    }
+
+    /* Thumbnails */
+    div.thumb, div.tright {
+        margin: .5em calc(-1 * var(--content-horizontal-margin)) 1.3em;
+    }
+    .thumbinner {
+        width: auto!important;
+        max-width: max-content;
+    }
+    .thumbimage {
+        width: auto !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+
+    /* Floating thumbnails */
+    div.tright {
+        float: none;
+    }
+    div.tright .thumbinner {
+        margin: 0 auto;
     }
 
     /* overflow breaks everything, i'm too drained to deal with this rn. */
