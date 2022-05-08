@@ -14,12 +14,12 @@
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
-    --wiki-logo-offset--left-coeff: 0.405;
+    --wiki-logo-offset--left-coeff: 0.424;
     --wiki-logo-layout-bottom-gap: 0;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
-    --layout-sidespace--left: 12px;
-    --layout-sidespace--right: 18px;
+    --layout-sidespace--left: 16px;
+    --layout-sidespace--right: 30px;
     --layout-column-gap: 16px;
     /* Sidebar (mw-panel) */
     --sidebar-width: 160px;
@@ -41,7 +41,7 @@ body {
 @media screen and (min-width: 721px) {
     body.is-content-area-expanded {
         --sidebar-width: 0;
-        --wiki-logo-offset--left-coeff: 0.584;
+        --wiki-logo-offset--left-coeff: 0.6;
     }
 }
 @media screen and (max-width: 1500px) {
@@ -50,14 +50,14 @@ body {
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
-        --wiki-logo-offset--left-coeff: 0.345;
+        --wiki-logo-offset--left-coeff: 0.374;
         /* Page content */
         --content-body-top-margin: 65px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: 27px;
     }
     body.is-content-area-expanded {
-        --wiki-logo-offset--left-coeff: 0.615;
+        --wiki-logo-offset--left-coeff: 0.637;
     }
 }
 @media screen and (max-width: 1040px) {
@@ -83,7 +83,7 @@ body {
         --layout-column-gap: 0;
         /* Search */
         --search-height: 35px;
-        --search-top-offset: 0;
+        --search-spacing--bottom: 8px;
         /* Sidebar / toolbar */
         --toolbar-height: 38px;
         --sidebar-to-content-margin: 0;
@@ -945,8 +945,7 @@ div#mw-panel div.portal div.body ul li a:hover {
     height: 20px;
     cursor: pointer;
     float: left;
-    margin-top: 0.9em;
-    margin-right: 4px;
+    margin: 0.9em 4px 0 6px;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A") center center no-repeat;
 }
 .is-content-area-expanded #nav-content-size-toggle {
