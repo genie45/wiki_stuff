@@ -18,8 +18,8 @@
     --wiki-logo-layout-bottom-gap: 0;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
-    --layout-sidespace--left: 16px;
-    --layout-sidespace--right: 30px;
+    --layout-sidespace--left: 14px;
+    --layout-sidespace--right: 34px;
     --layout-column-gap: 16px;
     /* Sidebar (mw-panel) */
     --sidebar-width: 160px;
@@ -60,6 +60,17 @@ body {
         --wiki-logo-offset--left-coeff: 0.637;
     }
 }
+@media screen and (max-width: 1330px) {
+    :root {
+        /* Logo */
+        --wiki-logo-offset--left-coeff: 0.33;
+        /* Grid layout */
+        --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
+        --layout-sidespace--left: 2px;
+        --layout-sidespace--right: 16px;
+        --layout-column-gap: 16px;
+    }
+}
 @media screen and (max-width: 1040px) {
     :root {
         /* Logo */
@@ -83,7 +94,7 @@ body {
         --layout-column-gap: 0;
         /* Search */
         --search-height: 35px;
-        --search-spacing--bottom: 8px;
+        --search-spacing--bottom: 6px;
         /* Sidebar / toolbar */
         --toolbar-height: 38px;
         --sidebar-to-content-margin: 0;
@@ -94,8 +105,8 @@ body {
         --content-top-margin: calc(var(--toolbar-height) + 5px);
         --content-body-top-margin: 85px;
         /* Page navigation (mw-head) */
-        --content-navigation-top-offset: calc(var(--search-height) + var(--search-spacing--bottom) + 18px);
-        --content-navigation-margin: 0 8px 0 8px;
+        --content-navigation-top-offset: calc(var(--search-height) + 26px);
+        --content-navigation-margin: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
     }
     body,
     body.is-content-area-expanded {
@@ -443,9 +454,6 @@ div#content {
     }
     .mw-body .mw-indicators + #p-lang-btn {
         grid-column: interwikis-left / interwikis-right;
-    }
-    #mw-head {
-        padding: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
     }
     #mw-head div#left-navigation,
     #mw-head div#right-navigation {
