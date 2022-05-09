@@ -2175,7 +2175,7 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 /* #endregion */
 
 /* #region [[Template:ARKCode]] */
-#ARKCodeVisualization{
+#ARKCodeVisualization {
     background-color:black;
     min-width: 10em;
     min-height: 27em;
@@ -2206,13 +2206,23 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     vertical-align: middle;
     padding-left: 2px;
 }
+@media screen and (max-width: 1600px) {
+    .indicator-label-mid {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .indicator-label-low {
+        display: none;
+    }
+}
 /* Split platform exclusivity, event and DLC indicators with a vertical line */
 .mw-indicator[id^="mw-indicator-DLC"] + .mw-indicator[id^="mw-indicator-zPlatform"],
 #mw-indicator-EventContent + .mw-indicator[id^="mw-indicator-zPlatform"],
 #mw-indicator-EventContent + .mw-indicator[id^="mw-indicator-DLC"] {
     border-left: 2px solid rgba(230, 230, 230, 0.4);
-    padding-left: 6px;
-    margin-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: 0.2em;
 }
 /* Downsize DLC indicators */
 .mw-indicator[id^="mw-indicator-DLC"] {
