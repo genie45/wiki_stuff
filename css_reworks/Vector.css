@@ -3619,10 +3619,6 @@ div.gallerytext {
     padding: 2px;
 }
 
-.tabbertab {
-    overflow-x: auto;
-}
-
 /* #region Mobile adjustments */
 @media screen and (max-width: 950px) {
     /* Table of Contents */
