@@ -3353,10 +3353,16 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
 
 /* #region wiki.gg provided CSS fixes */
 /* Upper advertisement overlaps with #mw-head */
-.games-showcase-header {
+div.games-showcase-header {
     position: relative;
-    top: 90px;
-    margin-bottom: 25px;
+    top: calc(var(--content-navigation-top-offset) + var(--content-navigation-height) - 1em);
+    margin: 0.5em;
+}
+@media screen and (max-width: 720px) {
+    div.games-showcase-header {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
 }
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
 table {
