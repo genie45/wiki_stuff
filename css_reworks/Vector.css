@@ -2060,20 +2060,19 @@ body .map-notice, .theme-dark .map-notice {
 .map-legend tr.no-icon td:first-child { text-align: left; width: auto; }
 /* Map legend: checkboxes */
 .map-legend input[type=checkbox] + label {
-    color: #3c0000;
-    text-shadow: 0 0 0.05em lightsalmon;
+    margin-left: 0.3em;
+}
+.map-legend input[type=checkbox] + label {
+    color: #b70303;
 }
 .map-legend input[type=checkbox]:checked + label {
-    color: #003c00;
-    text-shadow: 0 0 0.1em lightgreen;
-}
-body .map-legend input[type="checkbox"]:checked + label, .theme-dark .map-legend input[type="checkbox"]:checked + label {
     color: #05bb25;
-    text-shadow: 0 0 0.3em darkgreen;
 }
-body .map-legend input[type="checkbox"]:checked + label, .theme-dark .map-legend input[type="checkbox"] + label {
-    color: #b70303;
-    text-shadow: 0 0 0.3em darkred;
+.theme-light .map-legend input[type="checkbox"] + label {
+    color: #3c0000;
+}
+.theme-light .map-legend input[type="checkbox"]:checked + label {
+    color: #003c00;
 }
 /* Map legend: spawn map extension */
 .map-legend-container > button, .map-legend-container > select { width: 100%; }
