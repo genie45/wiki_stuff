@@ -61,10 +61,8 @@ body {
         /* Logo */
         --wiki-logo-offset--left-part: 0px;
         /* Grid layout */
-        --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
         --layout-sidespace--left: 2px;
         --layout-sidespace--right: 16px;
-        --layout-column-gap: 16px;
     }
 }
 @media screen and (max-width: 1040px) {
@@ -97,7 +95,7 @@ body {
         --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
         --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
         /* Page content */
-        --content-horizontal-margin: 1.3em;
+        --content-horizontal-margin: 0.6em;
         --content-top-margin: calc(var(--toolbar-height) + 5px);
         --content-body-top-margin: 85px;
         /* Page navigation (mw-head) */
