@@ -14,7 +14,7 @@
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
-    --wiki-logo-offset--left-coeff: 0.413;
+    --wiki-logo-offset--left-part: -0.25em;
     --wiki-logo-layout-bottom-gap: 0;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
@@ -36,12 +36,12 @@
 }
 body {
     /* Putting on <body> so it can be affected by .is-content-area-expanded */
-    --wiki-logo-offset--left: calc(50vw - var(--wiki-logo-offset--left-coeff) * var(--wiki-logo-width));
+    --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
+                                   - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
 }
 @media screen and (min-width: 721px) {
     body.is-content-area-expanded {
         --sidebar-width: 0;
-        --wiki-logo-offset--left-coeff: 0.6;
     }
 }
 @media screen and (max-width: 1500px) {
@@ -50,20 +50,16 @@ body {
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
-        --wiki-logo-offset--left-coeff: 0.374;
         /* Page content */
         --content-body-top-margin: 65px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: 27px;
     }
-    body.is-content-area-expanded {
-        --wiki-logo-offset--left-coeff: 0.637;
-    }
 }
 @media screen and (max-width: 1330px) {
     :root {
         /* Logo */
-        --wiki-logo-offset--left-coeff: 0.33;
+        --wiki-logo-offset--left-part: 0px;
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
         --layout-sidespace--left: 2px;
@@ -498,7 +494,7 @@ body {
 #p-logo {
 	position: absolute;
     top: var(--wiki-logo-offset--top);
-    left: var(--wiki-logo-offset--left);
+    margin-left: var(--wiki-logo-offset--left);
     z-index: 10;
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
