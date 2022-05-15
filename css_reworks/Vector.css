@@ -3441,6 +3441,9 @@ pre, .mw-code, code {
     background-color: var(--code-background-color);
     border-color: var(--code-border-color);
 }
+code {
+    word-wrap: break-word;
+}
 
 /* #region Wikitext Editor */
 .mw-editform #wpTextbox1,
