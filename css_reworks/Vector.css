@@ -3714,3 +3714,12 @@ div.drilldown-filters-wrapper {
 .theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background-color: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 .theme-dark .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
+
+/* #region Math */
+.mwe-math-fallback-image-inline {
+    filter: invert(1);
+}
+.theme-light .mwe-math-fallback-image-inline {
+    filter: none;
+}
+/* #endregion */
