@@ -320,7 +320,7 @@ body {
         [page-start logo-start] var(--layout-content-top-offset)
         [nav-start content-start] auto
         [content-end footer-start] 0fr
-        [footer-end] auto
+        [footer-end] 0fr
         [page-end] 0fr
         [body-end];
     column-gap: var(--layout-column-gap);
@@ -462,6 +462,33 @@ div#content {
     }
 }
 /* #endregion */
+/* wiki.gg footer overflows the body due to unwrapping flex; reflow it */
+@media screen and (max-width: 600px) {
+    footer#wikigg-footer {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        grid-template-rows: auto auto;
+        align-items: center;
+        justify-items: start;
+        padding: 3px 0 3px 10px;
+    }
+    footer#wikigg-footer .footer-middle {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    footer#wikigg-footer .footer-right {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align:left;
+        margin: 0;
+    }
+    footer#wikigg-footer .footer-left {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align:left;
+        margin: 0;
+    }
+}
 /* #endregion */
 
 @media screen and (max-width: 720px) {
