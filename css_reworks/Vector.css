@@ -3395,6 +3395,10 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
 
 
 /* #region wiki.gg provided CSS fixes */
+/* Hide privacy policy link from footer - wiki.gg footer links the correct one */
+#footer-places-privacy {
+	display: none;
+}
 /* Upper advertisement overlaps with #mw-head */
 div.games-showcase-header {
     position: relative;
