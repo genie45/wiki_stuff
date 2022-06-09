@@ -2527,10 +2527,6 @@ ul.groups-legend > li:first-child { margin-top: 0; }
         line-height: 1.5;
     }
 }
-/* Spawn map tabber */
-.info-spawn>.tabber {
-    display: inline-block;
-}
 
 /* Narrow width fixes */
 @media screen and (max-width: 720px) {
@@ -2538,6 +2534,29 @@ ul.groups-legend > li:first-child { margin-top: 0; }
         float: none;
         margin: 0 auto 1.5em;
     }
+}
+
+/* Cleaner Template:SpawningMap tabber borders in Arkitex */
+.info-spawn > .tabber,
+.info-spawn > .spawningMap > .tabber {
+    border: 2px solid var(--ark-arkitex-border-color);
+}
+.info-spawn > .tabber > .tabber__header .tabber__tab {
+    padding: 6px 12px;
+}
+.info-spawn .spawningMap .tabber__tab {
+    padding: 3px 8px;
+}
+.info-spawn .spawningMap .tabber__header .tabber__tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Notice label for SpawningMaps in the infobox */
+.info-spawningmap-event {
+	padding: 0.2em;
+	background: var(--ark-arkitex-right-color);
+	border-bottom: 1px solid var(--ark-arkitex-border-color);
 }
 /* #endregion */
 
