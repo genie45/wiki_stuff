@@ -302,8 +302,11 @@ html, .theme-dark {
 
 /* #region Vector grid layout */
 html, body {
-    height: auto;
+    height: 100%;
     min-height: 100vh;
+}
+body {
+    height: auto;
 }
 body {
     box-sizing: border-box;
@@ -389,6 +392,7 @@ div#content {
         [heading-start] auto
         [heading-end content-start] auto
         [content-end];
+    row-gap: 3px;
 }
 #siteNotice {
     grid-row: sitenotice;
@@ -428,6 +432,9 @@ div#content {
 @media screen and (max-width: 1290px) {
     .mw-body .mw-indicators {
         grid-column: heading-left / heading-right;
+        grid-row: before-heading;
+    }
+    #p-lang-btn {
         grid-row: before-heading;
     }
     #firstHeading {
