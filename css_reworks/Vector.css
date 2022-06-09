@@ -3387,6 +3387,26 @@ table {
 .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget { background-color: #fff; }
 /* #endregion */
 /* #region OOUI elements */
+/* Flagged widgets */
+.oo-ui-widget.oo-ui-flaggedElement-warning,
+.oo-ui-widget.oo-ui-flaggedElement-error,
+.oo-ui-widget.oo-ui-flaggedElement-notice {
+    color: #000;
+    --content-text-link-color: #7ca626;
+}
+/* Modals */
+.oo-ui-windowManager-modal > .oo-ui-dialog {
+    background-color: #0007;
+}
+.oo-ui-windowManager-modal.oo-ui-windowManager-floating > .oo-ui-dialog > .oo-ui-window-frame {
+    border-color: var(--content-border-color);
+    background-color: var(--content-background-color);
+    color: var(--content-text-color);
+}
+.oo-ui-messageDialog-title,
+.oo-ui-messageDialog-message {
+    color: var(--content-text-color);
+}
 /* Buttons */
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--secondary);
@@ -3414,7 +3434,6 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
     color: #000;
 }
- 
 /* Tab layout */
 .client-js div#preferences,
 .mw-prefs-buttons,
