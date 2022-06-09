@@ -74,8 +74,6 @@ body {
 }
 @media screen and (max-width: 720px) {
     :root {
-        /* wiki.gg */
-        --netbar-height: 90px;
         /* Logo */
         --wiki-logo-height: 120px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
