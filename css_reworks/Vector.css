@@ -3838,3 +3838,28 @@ div.drilldown-filters-wrapper {
     font-weight: normal;
 }
 /* #endregion */
+/* #region DataMap styling */
+.datamap-container {
+    background: var(--content-background-color);
+    box-shadow: -1px -1px 20px #0006;
+}
+.datamap-container-top {
+    background: var(--tabber-background-hover-color);
+}
+.datamap-container-content {
+    padding: 1px;
+}
+.datamap-container-legend {
+    padding: 12px 16px 16px;
+	background-color: var(--toc-background-color);
+}
+.leaflet-container {
+    background: #0b0b0b4d;
+}
+.datamap-container-legend .oo-ui-checkboxInputWidget {
+    line-height: 18px;
+}
+.datamap-container-legend .oo-ui-labelElement-label {
+    vertical-align: middle;
+}
+/* #endregion */
