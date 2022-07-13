@@ -15,6 +15,8 @@
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
     --wiki-logo-offset--left-part: -4px;
+    --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
+                                   - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --wiki-logo-layout-bottom-gap: 0;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
@@ -33,16 +35,6 @@
     --content-navigation-height: 50px;
     --content-navigation-top-offset: 43px;
     --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
-}
-body {
-    /* Putting on <body> so it can be affected by .is-content-area-expanded */
-    --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
-                                   - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
-}
-@media screen and (min-width: 721px) {
-    body.is-content-area-expanded {
-        --sidebar-width: 0;
-    }
 }
 @media screen and (max-width: 1500px) {
     :root {
@@ -65,6 +57,28 @@ body {
         --layout-sidespace--right: 16px;
     }
 }
+@media screen and (max-width: 1100px) {
+    :root {
+        /* Logo */
+        --wiki-logo-offset--left-part: calc( var(--wiki-logo-width) / -4 );
+        /* Grid layout */
+        --layout-content-top-offset: calc(var(--wiki-logo-height) + 0px);
+        --layout-sidespace--left: 24px;
+        --layout-sidespace--right: 24px;
+        --layout-column-gap: 0px;
+        /* Sidebar / toolbar */
+        --toolbar-height: 38px;
+        --sidebar-to-content-margin: 0;
+        --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
+        --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
+        /* Page content */
+        --content-horizontal-margin: 0.6em;
+        --content-top-margin: calc(var(--toolbar-height) + 10px);
+        --content-body-top-margin: 85px;
+        /* Page navigation (mw-head) */
+        --content-navigation-top-offset: calc(27px + var(--content-top-margin));
+    }
+}
 @media screen and (max-width: 1040px) {
     :root {
         /* Logo */
@@ -75,34 +89,22 @@ body {
 @media screen and (max-width: 720px) {
     :root {
         /* Logo */
-        --wiki-logo-height: 120px; /* downsizing a tiny bit */
+        --wiki-logo-height: 140px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
+        --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
         /* Grid layout */
-        --layout-content-top-offset: calc(var(--wiki-logo-height) + 0px);
         --layout-sidespace--left: 0;
         --layout-sidespace--right: 0;
-        --layout-column-gap: 0;
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
-        /* Sidebar / toolbar */
-        --toolbar-height: 38px;
-        --sidebar-to-content-margin: 0;
-        --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
-        --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
         /* Page content */
-        --content-horizontal-margin: 0.6em;
         --content-top-margin: calc(var(--toolbar-height) + 5px);
-        --content-body-top-margin: 85px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: calc(var(--search-height) + 26px);
         --content-navigation-margin: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
-    }
-    body,
-    body.is-content-area-expanded {
-        --wiki-logo-offset--left: 0;
     }
 }
 /* #endregion */
@@ -124,8 +126,8 @@ body {
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #7ba428;
     --content-default-link-color--rgb: 123, 164, 40;
-    --topmenu-background-color--rgb: 101, 138, 25;
-    --topmenu-border-color: #0b1212;
+    --articlenav-background-color: #dde1d6e6;
+    --articlenav-border-color: #0b1212;
     --code-background-color: #bbc1c1;
     --code-border-color: #aaacae;
     /* Assets */
@@ -217,8 +219,9 @@ html, .theme-dark {
     --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #9acd32;
     --content-default-link-color--rgb: 154, 205, 50;
-    --topmenu-background-color--rgb: 49,50,50;
-    --topmenu-border-color: #3c3e40;
+    --articlenav-background-color: #313232e6;
+    --articlenav-border-color: #3c3e40;
+    --articlenav-border-color--tiny: #a3a7ab;
     --code-background-color: #202020;
     --code-border-color: #525354;
     /* Assets */
@@ -227,6 +230,9 @@ html, .theme-dark {
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
+    --toolbar-background-color: #607c26ce;
+    --toolbar-list-background-color: #66783dfa;
+    --toolbar-border-color: #234064;
     /* Table of contents */
     --toc-background-color: #424442;
     --toc-number-color: #cecece;
@@ -440,6 +446,28 @@ div#content {
     }
 }
 /* #endregion */
+/* #region 1100px */
+@media screen and (max-width: 1100px) {
+    body {
+        grid-template-columns:
+            [body-left] var(--layout-sidespace--left)
+            [aside-left] var(--sidebar-width)
+            [aside-right content-left] minmax(0,1fr)
+            [content-right] var(--layout-sidespace--right)
+            [body-right];
+        grid-template-columns:
+            [body-left] var(--layout-sidespace--left)
+            [aside-left content-left] auto
+            [aside-right content-right body-right] var(--layout-sidespace--right);
+    }
+    #mw-head div#left-navigation,
+    #mw-head div#right-navigation {
+        position: static;
+        box-sizing: border-box;
+        padding: 0 0.5em;
+    }
+}
+/* #endregion */
 /* #region 720px */
 @media screen and (max-width: 720px) {
     body {
@@ -454,15 +482,9 @@ div#content {
     .mw-body .mw-indicators + #p-lang-btn {
         grid-column: interwikis-left / interwikis-right;
     }
-    #mw-head div#left-navigation,
-    #mw-head div#right-navigation {
-        position: static;
-        box-sizing: border-box;
-        padding: 0 0.5em;
-    }
 }
 /* #endregion */
-/* wiki.gg footer overflows the body due to unwrapping flex; reflow it */
+/* #region wiki.gg footer overflows the body due to unwrapping flex; reflow it */
 @media screen and (max-width: 600px) {
     footer#wikigg-footer {
         display: grid;
@@ -489,6 +511,7 @@ div#content {
         margin: 0;
     }
 }
+/* #endregion */
 /* #endregion */
 
 @media screen and (max-width: 720px) {
@@ -534,10 +557,13 @@ body {
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1100px) {
 	#p-logo a {
 		background-image: var(--wiki-logo-horizontal);
 	}
+    #mw-head-base {
+        background: radial-gradient(circle at center, #0008 0, #0006 calc(var(--wiki-logo-width) / 2.1), #0004 calc(var(--wiki-logo-width) / 1.3), transparent 100%);
+    }
 }
 @media screen and (max-width: 720px) {
     #mw-head-base {
@@ -594,10 +620,14 @@ div#content::before {
 		margin-left: -220px;
 	}
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1100px) {
 	div#content::before {
 		display: none;
 	}
+    /* If we ever choose to use the logo frame for tablet displays */
+    /*div#content::before {
+        transform: scale(125%) translateY(-12px);
+    }*/
 }
 @media screen and (max-width: 720px) {
     div#content {
@@ -784,26 +814,14 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 .vectorMenu .menu,
 .vector-menu-dropdown .vector-menu-content {
-	background-color: rgba(var(--topmenu-background-color--rgb), .95);
-	border-color: var(--topmenu-border-color);
+	background-color: var(--articlenav-background-color);
+	border-color: var(--articlenav-border-color);
     top: 100%;
 }
 .vectorMenu li a { color: var(--content-default-link-color); }
 .vectorMenu h3 span:after,
 .vector-menu-dropdown h3:after {
 	filter: invert(1);
-}
-/* #endregion */
-
-/* #region Narrow width tweaks */
-@media screen and (max-width:720px) {
-	div#mw-navigation div#mw-panel {
-    	border: 1px solid #7FE7FF;
-    	border-left: 0;
-        border-right: 0;
-    	background-color: rgba(4,36,48,0.95);
-    	box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
-	}
 }
 /* #endregion */
 
@@ -838,26 +856,10 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 
 /* #endregion */
-/* #region Toolbar (720px) */
-@media screen and (max-width: 720px) {
-    #mw-head #p-search {
-        position: absolute;
-        top: var(--search-top-offset);
-        right: 0;
-        top: 0;
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        position: absolute;
-        top: 0;
-        left: unset;
-        right: 0;
-        padding: 0 2em;
-        z-index: 50;
-        height: var(--search-height);
-    }
-    #p-search #searchform {
-        margin: 0;
+/* #region Toolbar (1100px) */
+@media screen and (max-width: 1100px) {
+    div#mw-panel div.portal {
+        background: none;
     }
     div#mw-navigation div#mw-panel {
         box-sizing: border-box;
@@ -868,29 +870,15 @@ div#mw-panel div.portal div.body ul li a:hover {
         height: var(--toolbar-height);
         overflow: visible;
         overflow-x: clip;
-        margin-top: 0;
+        margin: 0 -4px;
+        padding: 0 .5em;
+    	border: 1px solid var(--toolbar-border-color);
+    	background-color: var(--toolbar-background-color);
+    	box-shadow: inset 0 0 10px #000a;
     }
-    #mw-panel .portal, #mw-panel #p-logo + .portal {
+    #mw-panel .portal,
+    #mw-panel #p-logo + .portal {
         position: relative;
-    }
-    #mw-panel #p-logo + .portal .body, #mw-panel .portal .body {
-        display: none;
-        position: absolute;
-        left: 0;
-        top: calc(100% - 0.3em);
-        z-index: 50;
-        width: max-content;
-        border-top: 0;
-        min-width: 8em;
-        background: rgba(4,36,48,0.95);
-        margin: 0;
-        font-size: 16px;
-    }
-    #mw-panel .portal .body ul {
-        padding: 4px;
-    }
-    #mw-panel .portal .body ul a {
-        padding: 6px 8px;
     }
     #mw-panel #p-logo + .portal.expanded .body, #mw-panel .portal.expanded .body, #mw-panel #p-logo + .portal:hover .body, #mw-panel .portal:hover .body {
         display: block;
@@ -918,9 +906,71 @@ div#mw-panel div.portal div.body ul li a:hover {
         right: 0;
         left: unset;
     }
+    .vectorTabs span,
+    #right-navigation .vectorMenu h3{
+        font-size: 80%;
+    }
+    .vectorTabs ul {
+        display: flex;
+    }
+    /* Dropdowns */
+    #mw-panel #p-logo + .portal .body,
+    #mw-panel .portal .body {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: calc(100% - 0em);
+        z-index: 50;
+        width: max-content;
+        min-width: 8em;
+        margin: 0;
+        font-size: 16px;
+        background: var(--toolbar-list-background-color);
+    	border: 1px solid var(--toolbar-border-color);
+        border-top: none;
+        box-shadow: 0 3px 10px #0002;
+    }
+    #mw-panel .portal .body ul {
+        padding: 4px;
+    }
+    #mw-panel .portal .body li {
+        padding: .55em 0;
+    }
+    #mw-panel .portal .body ul a {
+        padding: 6px 8px;
+    }
+}
+/* #endregion */
+/* #region Toolbar (720px) */
+@media screen and (max-width: 720px) {
+	div#mw-navigation div#mw-panel {
+    	border-left: 0;
+        border-right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    #mw-head #p-search {
+        position: absolute;
+        top: var(--search-top-offset);
+        right: 0;
+        top: 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: unset;
+        right: 0;
+        padding: 0 2em;
+        z-index: 50;
+        height: var(--search-height);
+    }
+    #p-search #searchform {
+        margin: 0;
+    }
     #p-search div#simpleSearch {
         margin: 0 auto;
-        width: 20em;
+        width: 100%;
         padding: 0;
         height: auto;
         transition: none;
@@ -942,9 +992,9 @@ div#mw-panel div.portal div.body ul li a:hover {
         appearance: none;
         -webkit-appearance: none;
     }
-    .vectorTabs span,
-    #right-navigation .vectorMenu h3{
-        font-size: 80%;
+}
+/* #endregion */
+/* #endregion */
     }
     .vectorTabs ul {
         display: flex;
@@ -973,33 +1023,6 @@ div#mw-panel div.portal div.body ul li a:hover {
     height: 16px;
     background: var(--theme-toggle-icon) center center;
     background-size: var(--theme-toggle-icon-size);
-}
-/* #endregion */
-
-/* #region Sidebar toggle */
-#nav-content-size-toggle {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    float: left;
-    margin: 0.9em 4px 0 6px;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A") center center no-repeat;
-}
-.is-content-area-expanded #nav-content-size-toggle {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
-}
-@media screen and (min-width:721px) {
-    body.is-content-area-expanded #mw-panel > * {
-        display:none;
-    }
-    body.is-content-area-expanded #mw-panel #p-logo {
-        display:block
-    }
-}
-@media screen and (max-width: 720px) {
-    #nav-content-size-toggle {
-        display: none;
-    }
 }
 /* #endregion */
 
@@ -3756,14 +3779,8 @@ div.gallerytext {
     }
 
     /* overflow breaks everything, i'm too drained to deal with this rn. */
-    #mw-panel .portal .body li {
-        padding: .55em 0;
-    }
     div#mw-navigation div#mw-panel {
         overflow-x: clip;
-    }
-    #p-Technical_lists, #p-lang {
-        display: none !important;
     }
     #right-navigation .vectorMenu h3 span {
         padding-top: 0.5em;
