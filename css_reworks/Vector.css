@@ -2171,7 +2171,7 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     background-color: #666;
     border: 1px solid black;
 }
- .map-legend .crate, .map-container .dots.crate > div,
+.map-legend .crate, .map-container .dots.crate > div,
 .map-legend .crateCave, .map-container .dots.crateCave > div,
 .map-legend .crateDungeon, .map-container .dots.crateDungeon > div,
 .map-legend .crateSurface, .map-container .dots.crateSurface > div {
@@ -2309,7 +2309,6 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     margin-left: 1em;
 }
 
-/* [[Template:Interactive Regionmap]] */
 .interactive-regionmap {
     --size: 600px;
     position: relative;
@@ -2365,7 +2364,7 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 .svgRegion:hover text { opacity: 1; }
 /* #endregion */
 
-/* #region [[Template:Arkitexure]]: used for creature and other more custom infoboxes */
+/* #region [[Template:Arkitexure]] */
 .info-arkitex {
     border-radius: 5px;
 }
@@ -2698,13 +2697,13 @@ table.navbox .navbox-title .mw-collapsible-toggle {
 table.collapsed tr.collapsible {
     display: none;
 }
-/* #endregion */
 
 /** [[Template:Navbar]] **/
 .va-navbar {
     position: absolute;
     padding-left: .5em;
 }
+/* #endregion */
 
 /* #region [[Template:DossierText]] */
 .dossier-background {
@@ -3052,7 +3051,7 @@ fieldset {
 
 /* Image-specific tweak to get it to display with a height of 75px */
 .tile_inner img[src*="PS.svg"] {
-  height: 75px;
+    height: 75px;
 }
 
 
