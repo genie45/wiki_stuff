@@ -3156,26 +3156,6 @@ td.diff-context {
 }
 /* #endregion */
 
-/* tablepager styling */
-.skin-vector table.TablePager td {
-  border:1px solid #000;
-}
-
-.skin-vector table.TablePager tr th {
-  background-color: rgba(0,0,0,0.75);
-  color: #80E7FF;
-  border:1px solid #3F737F;
-}
-
-.skin-vector table.TablePager tbody tr td {
-  background-color:rgba(0,0,0,0.3)
-}
-
-.skin-vector table.TablePager tbody tr:hover td {
-  background:rgba(75,75,75,0.2);
-}
-/* end tablepager styling */
-
 /* #region Tables */
 .wikitable,
 table.mw-abuselog-details {
