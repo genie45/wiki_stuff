@@ -3072,60 +3072,50 @@ fieldset {
 }
 
 /* #region Special:History & diffs */
-table.diff,
-td.diff-otitle,
-td.diff-ntitle {
+.theme-dark table.diff,
+.theme-dark td.diff-otitle,
+.theme-dark td.diff-ntitle {
     background-color:rgba(0,0,0,0.3)
 }
-
-.mw-plusminus-pos {
+.theme-dark .mw-plusminus-pos {
     color:#00A500;
 }
-
-.mw-plusminus-neg {
+.theme-dark .mw-plusminus-neg {
     color:#C60000;
 }
-
-td.diff-deletedline {
+.theme-dark td.diff-deletedline {
 	background-color: #440000;
 	border: none;
 }
-
-td.diff-deletedline .diffchange {
+.theme-dark td.diff-deletedline .diffchange {
 	background: none;
 	color: #e62444;
 }
-
-td.diff-addedline {
+.theme-dark td.diff-addedline {
 	background-color: #004400;
 	border: none;
 }
-
-td.diff-addedline .diffchange {
+.theme-dark td.diff-addedline .diffchange {
 	background: none;
 	color: #bfd959;
 }
-
-#pagehistory li {
+.theme-dark td.diff-context {
+	background-color: #6e92c036;
+	color:#e0e0e0;
+}
+.theme-dark #pagehistory li {
     background-color: transparent;
     border: none;
     padding: 3px;
 }
-
-#pagehistory li.selected {
+.theme-dark #pagehistory li.selected {
     background-color: #01060c;
     background-image: none;
     color: var(--content-text-color);
     border: 1px dashed rgba(0, 0, 0, 0.6);
     padding: 3px;
 }
-
-td.diff-context {
-	background-color: #6e92c036;
-	color:#e0e0e0;
-}
-
-.updatedmarker {
+.theme-dark .updatedmarker {
     color: #000;
 }
 /* #endregion */
