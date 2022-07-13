@@ -1661,27 +1661,6 @@ img.fpWideImage {
 }
 /* #endregion */
 
-/* #region Tweaks for tables within tabbers */
-.table-tabber {
-    margin: 1em 0;
-}
-.table-tabber .tabbernav {
-    border-bottom: 0;
-    margin-bottom: 2px;
-}
-.table-tabber .tabbertab {
-    padding: 0;
-    border: 0;
-}
-.table-tabber .tabbertab > table {
-    margin: 0;
-}
-.table-tabber .tabbertab > p:first-child,
-.table-tabber .tabbertab > p:last-child {
-    display: none;
-}
-/* #endregion */
-
 /* #region [[Template:Color]] */
 .color-container {
     display: flex;
