@@ -2989,24 +2989,15 @@ fieldset {
 }
 
 /* #region Tabbers */
-.tabber.tabber--live {
-    overflow-y: auto;
-}
-
-.tabbernav {
-	border-color: var(--tabber-border-color);
-}
-
 .tabber__tab  a:link {
 	font-size: 12px !important;
 	color: var(--content-text-color);
-	box-shadow: inset 0 -2px 0 0 var(--tabber-border-color);
 }
 .tabber__tab:hover,
 .tabber__tab--active:hover {
 	background: var(--tabber-background-hover-color);
 	color: var(--tabber-text-hover-color) ;
-	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-hover-color);
+	box-shadow: none;
 }
 .tabber__tab--active, .tabber__tab--active:visited {
 	color: var(--content-text-color);
@@ -3030,6 +3021,18 @@ fieldset {
 .tabber__panel {
 	overflow-y: auto;
 	scroll-snap-align: start;
+}
+
+/* Floating presets */
+.tabber-floating-400 {
+    float: right;
+    clear: right;
+    margin: 5px;
+    width: 100%;
+    border: 1px solid var(--tabber-background-active-color);
+}
+.tabber-floating-400 {
+    max-width: 400px;
 }
 /* #endregion */
 
