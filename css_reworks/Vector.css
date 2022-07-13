@@ -3477,7 +3477,7 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout option {
     border-color: var(--content-border-color);
 }
-.oo-ui-tabSelectWidget {
+.oo-ui-tabSelectWidget-framed {
     background: rgba(var(--content-border-color--rgb), 0.4);
 }
 .oo-ui-tabOptionWidget {
@@ -3490,6 +3490,10 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 /* Forms */
 .mw-htmlform-ooui .mw-htmlform-matrix tbody tr:nth-child(2n) td {
     background-color: #fff4;
+}
+/* Popups */
+.oo-ui-popupWidget-popup {
+  background-color: var(--content-background-color);
 }
 /* #endregion */
 /* #region Built-in MediaWiki and OOUI icons, dark mode */
@@ -3783,6 +3787,8 @@ div.drilldown-filters-wrapper {
 	background: none;
 	color: var(--content-header-color);
 }
+.cargo-pagevalues-tableinfo { background: none; }
+
 .theme-dark .mw-datatable th,
 .theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background-color: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
