@@ -1,5 +1,5 @@
 # Wikistuff
->this is a selection of files used on the ark.gamepedia.com
+>this is a selection of files used on previously ark.gamepedia.com now ark.wiki.gg
 ## calculators 
 >this is a selection of widgets used on the wiki currently mostly calculators 
 ## site reworks
