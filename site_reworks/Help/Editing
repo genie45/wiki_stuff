@@ -1,0 +1,156 @@
+__NOTOC____NOEDITSECTION__
+This page provides a brief overview over common wiki syntax.
+
+== Editing syntax ==
+=== Anywhere in a line: ===
+{| class="wikitable"
+! Description
+! Input
+! Result
+|-
+| Italic text
+| <code><nowiki>''italic''</nowiki></code>
+| ''italic''
+|-
+| Bold text
+| <code><nowiki>'''bold'''</nowiki></code>
+| '''bold'''
+|-
+| Strike-through
+| <code><nowiki><del>strike</del></nowiki></code>
+| <del>strike</del>
+|-
+| Underline
+| <code><nowiki><ins>underline</ins></nowiki></code>
+| <ins>underline</ins>
+|-
+| Superscript
+| <code><nowiki><sup>superscript</sup></nowiki></code>
+| <sup>superscript</sup>
+|-
+| Subscript
+| <code><nowiki><sub>subscript</sub></nowiki></code>
+| <sub>subscript</sub>
+|-
+| Internal page link (within wiki)
+: With display text
+| <code><nowiki>[[Name of target page]]</nowiki></code>
+<code><nowiki>[[Name of target page|Display text]]</nowiki></code>
+| [[Name of target page]]
+[[Name of target page|Display text]]
+|-
+| Internal image link
+| <code><nowiki>[[:File:Site-logo.png]]</nowiki></code>
+| [[:File:Site-logo.png]]
+|-
+| Internal category link
+| <code><nowiki>[[:Category:Terraria files]]</nowiki></code>
+| [[:Category:Terraria files]]
+|-
+| Internal subsection link
+| <code><nowiki>[[Name of target page#Name of subsection]]</nowiki></code>
+| [[Name of target page#Name of subsection]]
+|-
+| External page link (off-wiki)
+: With display text
+: URL shown
+| <code><nowiki>[https://survivetheark.com]</nowiki></code>
+<code><nowiki>[https://survivetheark.com Display text]</nowiki></code><br/>
+<code><nowiki>https://survivetheark.com</nowiki></code>
+| [https://survivetheark.com]
+[https://survivetheark.com Display text]<br/>
+https://survivetheark.com
+|-
+| Signing comments
+(for talk pages)
+| <code><nowiki>~~~~</nowiki></code>
+| [[User:{{CURRENTUSER}}|{{CURRENTUSER}}]] ([[User talk:{{CURRENTUSER}}|talk]]) {{CURRENTTIME}}, {{CURRENTDAY2}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} (UTC)
+|-
+| Image link with text
+| <code><nowiki>{{ItemLink|Metal Pickaxe}}</nowiki></code>
+| {{ItemLink|Metal Pickaxe}}
+|-
+| Image resized
+| <code><nowiki>[[File:Site-logo.png]]</nowiki></code>
+<code><nowiki>[[File:Site-logo.png|75px]]</nowiki></code>
+| [[File:Site-logo.png]]<br/>[[File:Site-logo.png|75px]]
+|-
+| Image thumbnail with caption
+(defaults to right side of page)
+| <code><nowiki>[[File:Site-logo.png|thumb|Caption Text]]</nowiki></code>
+| [[File:Site-logo.png|thumb|Caption Text]]
+|-
+| Image with different landing page
+| <code><nowiki>[[File:Site-logo.png|link=Dirt Block]]</nowiki></code>
+| [[File:Site-logo.png|link=Dirt Block]]
+|}
+
+=== Only at the beginning of a line: ===
+{| class="wikitable"
+! Description
+! Input
+! Result
+|-
+| Headings
+(a table of contents is created<br/>
+with four or more of these)
+|
+<code>= First tier =</code><br/>
+<code>== Second tier ==</code><br/>
+<code>=== Third tier ===</code><br/>
+<code>==== Fourth tier ====</code><br/>
+<code>===== Fifth tier =====</code><br/>
+<code>====== Sixth tier ======</code><br/>
+|
+= First tier =
+== Second tier ==
+=== Third tier ===
+==== Fourth tier ====
+===== Fifth tier =====
+====== Sixth tier ======
+|-
+| Numbered list
+|
+<code># Point one</code><br/>
+<code># Point two</code><br/>
+<code># Point three</code><br/>
+<code>## Point three subpoint one</code><br/>
+<code># Point four</code>
+|
+# Point one
+# Point two
+# Point three
+## Point three subpoint one
+# Point four
+|-
+| Bullet list
+|
+<code>* First point</code><br/>
+<code>* Second point</code><br/>
+<code>* Third point</code><br/>
+<code>** Third point, first subpoint</code><br/>
+<code>* Fourth point</code>
+|
+* First point
+* Second point
+* Third point
+** Third point, first subpoint
+* Fourth point
+|-
+| Indented lines or paragraphs
+|
+<code>No indent</code><br/>
+<code>: First indent</code><br/>
+<code>:: Second indent</code><br/>
+<code>::: and so on</code>
+|
+No indent
+: First indent
+:: Second indent
+::: and so on
+|}
+
+== See also ==
+{{Help}}
+
+[[Category:Help]]

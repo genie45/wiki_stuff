@@ -1,0 +1,38 @@
+Any registered user, including you, can '''create new articles''' here at the ARK Wiki! You should probably create a link to the article in a related page; linking to a page is enough to "create" the page! New pages can also be started by following a link to a non-existent page, which  likewise launches the edit page.
+
+* Search to see whether someone has written a similar or same page before you start one yourself. Choose the title carefully.
+* While creating the page and before saving it, check the ''"What links here"'' link on the creation page. Align the new content with existing links, or change the new title, or fix the other links.
+* If nothing points here, the page is isolated.  Links to it will need to be added on other pages. You can make your contributions accordingly.
+
+== From the search box ==
+If you search for a page that doesn't exist (using the search box and "{{int:go}}" button at the upper left of the page), then the following line will appear: 
+
+'''Create the page "New page" on this wiki!'''
+
+It will be above any search results should any appear. Simply click on the link to open the new page for editing.
+
+== From a link ==
+Following a links to a page that doesn't exist will open it for editing. On some wikis, you might not be able to create a new page unless you are logged in. 
+
+New page links typically look different from links to existing pages. Depending on settings, a different color or a question mark is used. (Sometimes links to new pages are called "red links", the display option of one of the settings). Links to non-existent pages are created with <nowiki>[[New page name]]</nowiki> from the wiki editor. (In this case, the empty page "New page name" would be created).
+
+Links to non-existing pages are common. They are typically created in preparation for creating the page and/or to encourage other people to do so. Links are not only convenient for navigation, but also make people aware of the new page (those who read a related page and also those who [[Help:Watchlist|watch]] the related page). New page links are not really broken as long as the name correctly identifies the intended content. (A new page link with a "wrong" or misspelled name, or that duplicates content found under another name is "broken", but in a different sense.) 
+
+Of course, you can also create the link yourself, in a related page, index page or your user page. However, it may be better to wait with creating links until after creating the new page, especially if the new link replaces one to an existing page. In this case, create the link but press Preview, instead of Save. From preview area, clicking the new link will create the new page (without updating the referring page).
+
+== Starting a page through the URL ==
+Using the browser address bar to enter an URL to a new page is another way to start the new page process. Easier still is editing the pagename part of a URL for an existing page. Using the URL for the new page displays the default "no article" message. The default page has the usual ''"Edit this page"'' link, which can be used to begin adding content.
+
+== Special notes ==
+=== New pages and blank pages ===
+A '''new page''' is distinguished from a '''blank page''': the latter has a page history. Creating a new page is just like editing a blank page, but links to blank pages will not be red.
+
+=== Category pages ===
+Categories and '''category pages''' are technically separate, and a category can exist without a page. When you open a category page that doesn't exist, you may see that pages are already in the associated category. The main use of category pages is to put categories within more general categories, as categorizing the category page will categorize the category too. This allows the wiki community to create a hierarchy of categories.
+
+Please note that category pages are ''not'' meant for presenting content like on regular pages. They only contain a short description about the category, categorizations of the category itself, and links to other languages.
+
+=== File pages ===
+Image files and '''file pages''' are also technically separate, but typically a link to a file page will not be red unless the image is missing. File pages are useful for categorizing images, showing license information, and a description of the image.
+
+[[Category:Help]]
