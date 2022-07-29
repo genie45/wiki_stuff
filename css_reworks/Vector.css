@@ -2306,7 +2306,7 @@ body .map-notice, .theme-dark .map-notice {
     margin-left: 0.3em;
 }
 .map-legend input[type=checkbox] + label {
-    color: #b70303;
+    color: #f5aaaa;
 }
 .map-legend input[type=checkbox]:checked + label {
     color: #05bb25;
