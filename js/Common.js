@@ -134,7 +134,8 @@ mw.loader.using('skins.vector.legacy.js', function() {
 
 
 // #region Push is-steam-overlay class onto root node for Steam's overlay browsers due to a layout bug in Chrome 84
-if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1 ) {
+if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
+    && window.location.search.substr( 1 ).split( '&' ).indexOf( 'steambrowserhack=0' ) < 0 ) {
     document.documentElement.classList.add( 'is-steam-overlay' );
 }
 // #endregion
