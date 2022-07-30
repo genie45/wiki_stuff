@@ -3595,14 +3595,20 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
 }
 /* Upper advertisement overlaps with #mw-head */
 div.games-showcase-header {
+    --top-offset: 1em;
     position: relative;
-    top: calc(var(--content-navigation-top-offset) + var(--content-navigation-height) - 1em);
+    top: calc(var(--content-navigation-height) + var(--top-offset));
     margin: 0.5em;
+}
+@media screen and (max-width: 1500px) {
+    div.games-showcase-header {
+        --top-offset: 0.5em;
+        margin-bottom: 1em;
+    }
 }
 @media screen and (max-width: 720px) {
     div.games-showcase-header {
-        margin-top: 0;
-        margin-bottom: 1em;
+        --top-offset: 2em;
     }
 }
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
