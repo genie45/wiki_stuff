@@ -133,6 +133,13 @@ mw.loader.using('skins.vector.legacy.js', function() {
 // #endregion
 
 
+// #region Push is-steam-overlay class onto root node for Steam's overlay browsers due to a layout bug in Chrome 84
+if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1 ) {
+    document.documentElement.classList.add( 'is-steam-overlay' );
+}
+// #endregion
+
+
 /* Fires when DOM is ready */
 $(function(){
     // #region Make sidebar sections collapsible
