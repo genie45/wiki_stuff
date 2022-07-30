@@ -428,6 +428,14 @@ div#content {
     grid-row: page-end/body-end;
 }
 
+/* #region Steam web browser hack (Chrome 84), requires JS */
+.is-steam-overlay .content-body > main {
+    display: block;
+}
+.is-steam-overlay #p-lang-btn {
+    float: right;
+}
+/* #endregion */
 /* #region 1290px */
 @media screen and (max-width: 1290px) {
     .mw-body .mw-indicators {
