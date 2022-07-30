@@ -2448,6 +2448,11 @@ ul.groups-legend > li:first-child { margin-top: 0; }
     vertical-align: middle;
     padding-left: 2px;
 }
+@media screen and (max-width: 1750px) {
+    .indicator-label-high {
+        display: none;
+    }
+}
 @media screen and (max-width: 1600px) {
     .indicator-label-mid {
         display: none;
