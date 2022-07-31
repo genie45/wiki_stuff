@@ -30,7 +30,7 @@
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
     /* Page content */
     --content-horizontal-margin: 1.5em;
-    --content-body-top-margin: 80px;
+    --content-body-top-margin: 70px;
     /* Page navigation (mw-head) */
     --content-navigation-height: 50px;
     --content-navigation-top-offset: 43px;
@@ -43,7 +43,7 @@
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
         /* Page content */
-        --content-body-top-margin: 65px;
+        --content-body-top-margin: 60px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: 27px;
     }
@@ -60,9 +60,11 @@
 @media screen and (max-width: 1100px) {
     :root {
         /* Logo */
+        --wiki-logo-height: 140px;
+        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left-part: calc( var(--wiki-logo-width) / -4 );
         /* Grid layout */
-        --layout-content-top-offset: calc(var(--wiki-logo-height) + 0px);
+        --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
         --layout-sidespace--left: 24px;
         --layout-sidespace--right: 24px;
         --layout-column-gap: 0px;
@@ -74,33 +76,27 @@
         /* Page content */
         --content-horizontal-margin: 0.6em;
         --content-top-margin: calc(var(--toolbar-height) + 10px);
-        --content-body-top-margin: 85px;
+        --content-body-top-margin: 55px;
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: calc(27px + var(--content-top-margin));
-    }
-}
-@media screen and (max-width: 1040px) {
-    :root {
-        /* Logo */
-        --wiki-logo-height: 160px;
-        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
     }
 }
 @media screen and (max-width: 720px) {
     :root {
         /* Logo */
-        --wiki-logo-height: 140px; /* downsizing a tiny bit */
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
         /* Grid layout */
+        --layout-content-top-offset: var(--wiki-logo-height);
         --layout-sidespace--left: 0;
         --layout-sidespace--right: 0;
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
         /* Page content */
+        --content-body-top-margin: 85px;
         --content-top-margin: calc(var(--toolbar-height) + 5px);
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: calc(var(--search-height) + 26px);
@@ -432,6 +428,14 @@ div#content {
     grid-row: page-end/body-end;
 }
 
+/* #region Steam web browser hack (Chrome 84), requires JS */
+.is-steam-overlay .content-body > main {
+    display: block;
+}
+.is-steam-overlay #p-lang-btn {
+    float: right;
+}
+/* #endregion */
 /* #region 1290px */
 @media screen and (max-width: 1290px) {
     .mw-body .mw-indicators {
@@ -2310,7 +2314,7 @@ body .map-notice, .theme-dark .map-notice {
     margin-left: 0.3em;
 }
 .map-legend input[type=checkbox] + label {
-    color: #b70303;
+    color: #f5aaaa;
 }
 .map-legend input[type=checkbox]:checked + label {
     color: #05bb25;
@@ -2451,6 +2455,11 @@ ul.groups-legend > li:first-child { margin-top: 0; }
 .indicator-dlc {
     vertical-align: middle;
     padding-left: 2px;
+}
+@media screen and (max-width: 1750px) {
+    .indicator-label-high {
+        display: none;
+    }
 }
 @media screen and (max-width: 1600px) {
     .indicator-label-mid {
@@ -3599,14 +3608,20 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
 }
 /* Upper advertisement overlaps with #mw-head */
 div.games-showcase-header {
+    --top-offset: 1em;
     position: relative;
-    top: calc(var(--content-navigation-top-offset) + var(--content-navigation-height) - 1em);
+    top: calc(var(--content-navigation-height) + var(--top-offset));
     margin: 0.5em;
+}
+@media screen and (max-width: 1500px) {
+    div.games-showcase-header {
+        --top-offset: 0.5em;
+        margin-bottom: 1em;
+    }
 }
 @media screen and (max-width: 720px) {
     div.games-showcase-header {
-        margin-top: 0;
-        margin-bottom: 1em;
+        --top-offset: 2em;
     }
 }
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
