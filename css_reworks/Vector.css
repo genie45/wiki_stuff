@@ -3636,7 +3636,8 @@ table {
 /* #endregion */
 
 /* #region [[Special:RecentChanges]] filters */
-.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { background-color: transparent; }
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
+.mw-changeslist-legend { background-color: transparent; }
 .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget { background-color: #fff; }
 /* #endregion */
 /* #region OOUI elements */
