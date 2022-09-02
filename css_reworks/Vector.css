@@ -2213,6 +2213,9 @@ div.photo-text {
 	color: inherit;
     opacity: 0.8;
 }
+.datamap-container .leaflet-marker-icon {
+	filter: drop-shadow(0 0 2px #fff);
+}
 .leaflet-container a {
 	color: var(--content-text-link-color)
 }
@@ -2226,11 +2229,8 @@ div.photo-text {
 .datamap-container .datamap-popup-subtitle {
   color: #bbb;
 }
-.datamap-popup-content ul + .datamap-popup-image {
-  margin-top: 0.5em;
-}
-.datamap-popup-content ul {
-  margin-left: 1em;
+.datamap-marker-link-button {
+	filter: invert(1) brightness(55%)
 }
 .map-notice ~ .tabber .tabber__tab {
   padding: 0.7em 1em;
@@ -2241,7 +2241,7 @@ div.photo-text {
   background: var(--tabber-background-active-color);
 }
 /* Scroll animation may be laggy on some devices */
-.map-notice ~ .tabber__section {
+.map-notice ~ .tabber .tabber__section {
     scroll-behavior: revert;
 }
 /* #endregion */
