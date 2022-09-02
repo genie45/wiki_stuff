@@ -3272,12 +3272,6 @@ fieldset {
 }
 .tabber__header__next:after { right: 0; }
 
-/* 8ab7b83 backport for tabs going out of bounds */
-.tabber__panel {
-	overflow-y: auto;
-	scroll-snap-align: start;
-}
-
 /* Floating presets */
 .tabber-floating-400 {
     float: right;
