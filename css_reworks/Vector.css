@@ -1956,6 +1956,9 @@ th span.short { display: none; }
 .navbox-creature-item .nav-red {
     background-color:#e5acb1
 }
+.navbox-creature-item .nav-yellowish {
+    background-color:#c0a264
+}
 /* #endregion */
 
 /** Vertical-align table cells **/
