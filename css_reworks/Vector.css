@@ -14,7 +14,7 @@
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
-    --wiki-logo-offset--left-part: -4px;
+    --wiki-logo-offset--left-part: 4px;
     --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
                                    - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --wiki-logo-layout-bottom-gap: 0;
@@ -51,7 +51,7 @@
 @media screen and (max-width: 1330px) {
     :root {
         /* Logo */
-        --wiki-logo-offset--left-part: 0px;
+        --wiki-logo-offset--left-part: 8px;
         /* Grid layout */
         --layout-sidespace--left: 2px;
         --layout-sidespace--right: 16px;
@@ -372,6 +372,7 @@ body > .content-wrapper, #mw-navigation {
     position: relative;
 	top: var(--sidebar-top-offset);
 	z-index: 11;
+    padding-left: 0;
 }
 div#content {
     grid-column: content-left/content-right;
