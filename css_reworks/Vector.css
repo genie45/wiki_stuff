@@ -685,12 +685,12 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 .mw-body-content h2 {
   font-size: 24px;
-  margin: 18px 0 10px;
+  margin: 22px 0 10px;
   padding: 4px 0;
 }
 .mw-body-content h3 {
   font-size: 17px;
-  margin: 8px 0 6px;
+  margin: 12px 0 6px;
 }
 .mw-body-content h4 {
   font-size: 16px;
@@ -707,6 +707,15 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     #firstHeading {
         font-size: 2em;
     }
+}
+/* #endregion */
+/* #region List tweaks */
+.mw-content-ltr li {
+    margin-bottom: .15em;
+}
+.mw-content-ltr ul > li > ul,
+.mw-content-ltr ol > li > ol {
+    margin-bottom: .5em;
 }
 /* #endregion */
 
