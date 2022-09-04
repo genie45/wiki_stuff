@@ -18,6 +18,7 @@
     --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
                                    - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --wiki-logo-layout-bottom-gap: 0;
+    --mw-head-base-height-offset: 0px;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
     --layout-sidespace--left: 14px;
@@ -51,7 +52,7 @@
 @media screen and (max-width: 1330px) {
     :root {
         /* Logo */
-        --wiki-logo-offset--left-part: 8px;
+        --wiki-logo-offset--left-part: 9px;
         /* Grid layout */
         --layout-sidespace--left: 2px;
         --layout-sidespace--right: 16px;
@@ -63,6 +64,7 @@
         --wiki-logo-height: 140px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left-part: calc( var(--wiki-logo-width) / -4 );
+        --mw-head-base-height-offset: -9px;
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
         --layout-sidespace--left: 24px;
@@ -88,6 +90,7 @@
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
+        --mw-head-base-height-offset: 0px;
         /* Grid layout */
         --layout-content-top-offset: var(--wiki-logo-height);
         --layout-sidespace--left: 0;
@@ -338,7 +341,7 @@ body > .content-wrapper, #mw-navigation {
 #mw-head-base {
     grid-column: content-left/content-right;
     grid-row: page-start/nav-start;
-	height: var(--wiki-logo-height);
+	height: calc(var(--wiki-logo-height) + var(--mw-head-base-height-offset));
     margin: 0;
 }
 #mw-head {
