@@ -722,9 +722,8 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 /* #region Sidebar */
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
-}
-#mw-panel #p-logo + .portal {
-    margin-top: 0;
+    margin: 0 .6em 0 0;
+    padding-bottom: .4em;
 }
 #mw-panel #p-logo + .portal h3 {
     display: block;
@@ -843,9 +842,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 /* #region Body */
 .mw-body {
     padding: 1.25em var(--content-horizontal-margin) 1.5em;
-}
-#mw-panel .portal {
-    margin-left: 0;
 }
 /* #endregion */
 /* #region Article title area (indicators, language switcher) */
