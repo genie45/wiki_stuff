@@ -1,0 +1,52 @@
+
+.datamap-container {
+    background: var(--content-background-color);
+}
+.datamap-container-top {
+    background: var(--tabber-background-hover-color);
+}
+.datamap-container .datamap-container-content .datamap-container-legend {
+	background-color: var(--toc-background-color);
+}
+.leaflet-container {
+    background: #0b0b0b4d;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--content-background-color);
+  color: var(--content-text-color);
+}
+.datamap-container .datamap-popup-coordinates {
+	color: inherit;
+    opacity: 0.8;
+}
+.datamap-container .leaflet-marker-icon {
+	filter: drop-shadow(0 0 2px #fff);
+}
+.leaflet-container a {
+	color: var(--content-text-link-color)
+}
+.datamap-container .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
+  background: var(--toc-background-color);
+  color: inherit;
+}
+.datamap-container .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
+    border-bottom-color: transparent;
+}
+.datamap-container .datamap-popup-subtitle {
+  color: #bbb;
+}
+.datamap-marker-link-button {
+	filter: invert(1) brightness(55%)
+}
+.map-notice ~ .tabber .tabber__tab {
+  padding: 0.7em 1em;
+  font-size: 110%;
+  background: #52711550;
+}
+.map-notice ~ .tabber .tabber__tab--active {
+  background: var(--tabber-background-active-color);
+}
+/* Scroll animation may be laggy on some devices */
+.map-notice ~ .tabber .tabber__section {
+    scroll-behavior: revert;
+}
