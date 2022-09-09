@@ -367,3 +367,7 @@ $(function(){
 
 });
 /* End DOM ready */
+
+
+// Signal to other modules that English site module has been loaded
+mw.loader.state( { 'en:site': 'ready' } );
