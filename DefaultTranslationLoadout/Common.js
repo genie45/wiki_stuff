@@ -16,5 +16,5 @@
 
 /* ↓ GLOBAL JS FROM ENGLISH WIKI ↓ */
 mw.loader.state( { 'en:site': 'loading' } );
-mw.loader.load( '/load.php?lang=en&modules=site&only=scripts&skin=vector' );
+mw.loader.load( '/load.php?lang=en&modules=site&only=scripts&skin=vector' + ( mw.config.get( 'debug' ) ? '&debug=1' : '' ) );
 /* ↓ INTERNAL TRANSLATION WIKI JS ↓ */
