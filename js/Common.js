@@ -165,7 +165,7 @@ if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
 
 
 /* Fires when DOM is ready */
-$(function() {
+$(function(){
     // #region Make sidebar sections collapsible
     $("#mw-panel .portal").each(function(index, el){
         var $el = $(el);
@@ -306,11 +306,11 @@ $(function() {
     // #endregion
 
     // #region Load our other scripts conditionally
-    arkConditionalModules.forEach(function (req) {
-        if (document.querySelectorAll(req[0]).length > 0) {
-            arkImportArticles(req[1])
+    arkConditionalModules.forEach( function ( req ) {
+        if ( ( req.length < 3 || req[2] ) && document.querySelectorAll(req[0]).length > 0 ) {
+            arkImportArticles( req[1] );
         }
-    });
+    } );
     // #endregion
 
     // #region Element animator - cycles through a set of elements on a timer (modified from minecraft.gamepedia.com)
