@@ -1,0 +1,8 @@
+/* [[de:MediaWiki:Common.css]] * [[en:MediaWiki:Common.css]] * [[es:MediaWiki:Common.css]] * [[fr:MediaWiki:Common.css]]
+ * [[it:MediaWiki:Common.css]] * [[ja:MediaWiki:Common.css]] * [[pl:MediaWiki:Common.css]] * [[pt-br:MediaWiki:Common.css]]
+ * [[ru:MediaWiki:Common.css]] * [[th:MediaWiki:Common.css]] */
+
+/* ↓ GLOBAL CSS FROM ENGLISH WIKI ↓ */
+@import url(/load.php?lang=en&modules=site.styles&only=styles&skin=vector);
+/* ↓ INTERNAL TRANSLATION WIKI CSS ↓ */
+@import url(/de/load.php?lang=de&modules=MediaWiki:Local.css&skin=vector&only=styles);
