@@ -91,7 +91,16 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
 		currentTheme = name;
 		document.documentElement.classList.add('theme-' + currentTheme);
 	}
-	setThemeClass(localStorage.getItem(storageKey) || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches && altTheme || defaultTheme));
+    mw.loader.using('mediawiki.user').then(function(){
+        setThemeClass(function() {
+            if(mw.user.isAnon()){
+                return (localStorage.getItem(storageKey) || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches && altTheme || defaultTheme));
+            }
+            else{
+                return (mw.user.options.get("gadget-Light") == "1") ? altTheme : defaultTheme;
+            }
+        }());
+    });
 	
 	// create button
 	$(function () {
@@ -103,6 +112,16 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
 				var newTheme = this.checked ? altTheme : defaultTheme;
 				setThemeClass(newTheme);
 				localStorage.setItem(storageKey, newTheme);
+                mw.loader.using('mediawiki.api').then(function() {
+                    var api = new mw.Api();
+                    api.post({
+                        "action": "options",
+                        "format": "json",
+                        "optionname": "gadget-Light",
+                        "optionvalue": (newTheme === altTheme) ? '1' : '0',
+                        "token": mw.user.tokens.get("csrfToken")
+                    });
+                });
 			});
 	
 		// add button
