@@ -195,6 +195,16 @@ $(function(){
         }
     });
     // #endregion
+    
+    // #region Site notice for browser extension
+    {
+	    mw.config.values.wgSiteNoticeId = 2;
+    	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
+    	var snContent = 'We\'ve launched a browser extension that redirects from the old wiki to help you switch:<br/>'
+    		+ '<b>Get it for:</b> <a rel="nofollow" class="external text" href="https://chrome.google.com/webstore/detail/ark-wiki-redirection/ohdjjkijdejbbalchmpllknbelokjndh">Chrome/Edge/Brave</a> | <a rel="nofollow" class="external text" href="https://addons.mozilla.org/en-GB/firefox/addon/ark-wiki-redirection/">Firefox</a> | Opera (soon)';
+    	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
+    }
+    // #endregion
 
     // #region Interwiki dropdown
     {
@@ -295,7 +305,7 @@ $(function(){
     }
     // #endregion
 
-    // #region Redirect to language version if url contains query string iwredirect (for Dododex)
+    // #region Redirect to language version if url contains querystring iwredirect (for Dododex)
     var match = location.search.match(/iwredirect=([^;&]*)/);
     if (match && match[1]) {
         var $langlink = $('.interlanguage-link-target[hreflang="' + encodeURIComponent(match[1]) + '"]');
@@ -329,18 +339,8 @@ $(function(){
           return $nextFrame.addClass('animated-active');
         };
 
-        // Set the name of the hidden property
-        var hidden; 
-        if (typeof document.hidden !== 'undefined') {
-          hidden = 'hidden';
-        } else if (typeof document.msHidden !== 'undefined') {
-          hidden = 'msHidden';
-        } else if (typeof document.webkitHidden !== 'undefined') {
-          hidden = 'webkitHidden';
-        }
-
         setInterval(function() {
-            if (hidden && document[hidden]) {
+            if (document.hidden) {
                 return;
             }
             $content.find('.animated').each(function() {
