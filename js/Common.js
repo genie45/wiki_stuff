@@ -142,7 +142,7 @@ if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
 
 
 /* Fires when DOM is ready */
-$(function(){
+$(function() {
     // #region Make sidebar sections collapsible
     $("#mw-panel .portal").each(function(index, el){
         var $el = $(el);
@@ -272,7 +272,7 @@ $(function(){
     }
     // #endregion
 
-    // #region Redirect to language version if url contains querystring iwredirect (for Dododex)
+    // #region Redirect to language version if url contains query string iwredirect (for Dododex)
     var match = location.search.match(/iwredirect=([^;&]*)/);
     if (match && match[1]) {
         var $langlink = $('.interlanguage-link-target[hreflang="' + encodeURIComponent(match[1]) + '"]');

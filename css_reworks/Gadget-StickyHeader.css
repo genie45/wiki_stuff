@@ -1,0 +1,176 @@
+:root {
+    --sticky-header-height: 50px;
+    --sticky-search-border-radius: 4px;
+    --sticky-button-border-radius: 8px;
+    --sticky-header-background-color: rgba(90, 123, 22, 0.98);
+}
+
+.theme-light {
+    --sticky-header-background-color: rgba(101, 138, 25, 0.98);
+}
+
+@media screen and (max-width: 720px) {
+    :root {
+        --sticky-header-height: 40px;
+        --sticky-search-border-radius: 0;
+        --sticky-button-border-radius: 0;
+    }
+}
+
+
+#ark-sticky-header {
+    position: fixed;
+    height: var(--sticky-header-height);
+    top: calc(-1 * var(--sticky-header-height));
+    left: 0;
+    right: 0;
+    background: #181d4d;
+    z-index: 20;
+    color: #fff;
+    display: flex;
+    box-shadow: 0 3px 12px 0 #0000004a;
+    align-items: center;
+    padding: 0 1em;
+    background: var(--sticky-header-background-color);
+    transition: transform .3s, background .1s;
+}
+
+.is-sticky-header-visible #ark-sticky-header {
+    transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
+}
+  
+#ark-sticky-header > *:not(.sticky-search-box) {
+    flex-grow: 1;
+    flex-basis: 80%;
+}
+  
+#ark-sticky-header > .sticky-wiki-name {
+    font-size: 108%;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-right: 0.75em;
+}
+
+#ark-sticky-header > .sticky-wiki-name a {
+    color: #fff;
+}
+
+#ark-sticky-header > .sticky-wiki-name span {
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+  
+#ark-sticky-header > .sticky-search-box {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#ark-sticky-header > .sticky-search-box > #p-search {
+    margin: 0;
+    width: 100%;
+    background: #fff6;
+    border-radius: var(--sticky-search-border-radius);
+}
+  
+#ark-sticky-header > .sticky-search-box form {
+    margin: 0;
+}
+  
+#ark-sticky-header > .sticky-search-box #simpleSearch {
+    width: 100%;
+    max-width: unset;
+}
+  
+#ark-sticky-header > .sticky-search-box #searchInput {
+    height: 36px;
+    padding-left: 0.8em;
+    font-size: 0.85em;
+    color: #222;
+    border-color: #313131;
+    border-radius: var(--sticky-search-border-radius);
+}
+  
+#ark-sticky-header > .sticky-search-box input::placeholder {
+    color: #333e;
+}
+
+#ark-sticky-header > .sticky-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ark-sticky-header .sticky-buttons a {
+    color: #222;
+    padding: 0 0.5em;
+    border: 1px solid #222;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-width: 0;
+    background-color: #fff4;
+}
+
+#ark-sticky-header .sticky-buttons a:hover,
+#ark-sticky-header .sticky-buttons a:focus {
+    background-color: #a2bb6f;
+}
+
+#ark-sticky-header .sticky-buttons .with-icon {
+    padding: 0 0.3em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 30px;
+}
+
+#ark-sticky-header .sticky-buttons a:first-child {
+    border-left-width: 1px;
+    border-top-left-radius: var(--sticky-button-border-radius);
+    border-bottom-left-radius: var(--sticky-button-border-radius);
+}
+#ark-sticky-header .sticky-buttons a:last-child {
+    border-top-right-radius: var(--sticky-button-border-radius);
+    border-bottom-right-radius: var(--sticky-button-border-radius);
+}
+
+#ark-sticky-header #sticky-edit {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M4 2v16h4v-2H6V4h3.994v4H14v1h2V7.01L11 2z' /%3E%3Cpath d='M13.339 10a.641.641 0 0 0-.643.643v.418a3.536 3.536 0 0 0-1.064.44l-.291-.291a.64.64 0 0 0-.91 0l-.226.228a.641.641 0 0 0 0 .909l.293.293a3.536 3.536 0 0 0-.437 1.056h-.418A.641.641 0 0 0 9 14.34v.322c0 .356.286.643.643.643h.418a3.536 3.536 0 0 0 .44 1.064l-.296.297a.641.641 0 0 0 0 .91l.227.227a.642.642 0 0 0 .909 0l.3-.3a3.536 3.536 0 0 0 1.055.437v.418c0 .357.287.643.643.643h.322a.641.641 0 0 0 .643-.643v-.418a3.536 3.536 0 0 0 1.056-.436l.3.299a.642.642 0 0 0 .908 0l.228-.228a.641.641 0 0 0 0-.909l-.298-.299a3.536 3.536 0 0 0 .441-1.062h.418A.641.641 0 0 0 18 14.66v-.322a.641.641 0 0 0-.643-.643h-.418a3.536 3.536 0 0 0-.436-1.056l.293-.293a.641.641 0 0 0 0-.91l-.228-.227a.642.642 0 0 0-.909 0l-.292.292a3.536 3.536 0 0 0-1.063-.441v-.418A.641.641 0 0 0 13.66 10zm.161 2.5a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z' /%3E%3C/svg%3E");
+}
+#ark-sticky-header #sticky-history {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M10 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z'/%3E%3Cpath d='M9.984 4.986A1 1 0 0 0 9 6v5h3a1 1 0 1 0 0-2h-1V6a1 1 0 0 0-1.016-1.014z'/%3E%3C/svg%3E");
+}
+#ark-sticky-header #sticky-talk {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M5.391 15.575c.553 1.556-.098 2.537-.942 3.425 3.262-.731 3.243-2.134 3.77-3.425zm10.366-3.933c-.553 1.557.098 2.538.942 3.426-3.262-.732-3.242-2.134-3.769-3.426z'/%3E%3Cpath d='M7.768 7.146c-3.202 0-5.798 2.035-5.797 4.545 0 2.51 2.596 4.544 5.797 4.543 3.2 0 5.794-2.034 5.795-4.543 0-2.51-2.595-4.544-5.795-4.545zm-.022 2.247c2.01 0 3.64 1.034 3.639 2.308-.001 1.274-1.63 2.306-3.639 2.307-2.01 0-3.64-1.033-3.64-2.307-.001-1.275 1.629-2.309 3.64-2.308z'/%3E%3Cpath d='M12.473 2.727c-3.604 0-6.525 2.149-6.526 4.8l2.104-.017c.001-1.392 1.974-2.52 4.406-2.52 2.433 0 4.407 1.128 4.408 2.52 0 1.393-1.973 2.522-4.408 2.521l.016 2.3c3.603-.001 6.524-2.152 6.523-4.804 0-2.65-2.92-4.8-6.523-4.8z'/%3E%3C/svg%3E");
+}
+
+
+@media screen and (max-width: 720px) {
+    #ark-sticky-header {
+        padding-right: 0;
+    }
+    #ark-sticky-header > .sticky-wiki-name,
+    #ark-sticky-header > .sticky-buttons {
+        flex-basis: unset;
+    }
+    #ark-sticky-header > .sticky-wiki-name span {
+        position: absolute;
+        top: -50px;
+        font-size: 1px;
+    }
+    #ark-sticky-header > .sticky-search-box #searchInput {
+        height: var(--sticky-header-height);
+        border-bottom: none;
+        border-top: none;
+    }
+    #ark-sticky-header .sticky-buttons {
+        display: none;
+    }
+    #ark-sticky-header .sticky-buttons a {
+        padding: 0 0.5em;
+        height: var(--sticky-header-height);
+    }
+    #ark-sticky-header .sticky-buttons a:first-child {
+        border-left-width: 0;
+    }
+}
