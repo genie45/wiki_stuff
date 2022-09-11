@@ -58,7 +58,7 @@
         --layout-sidespace--right: 16px;
     }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     :root {
         /* Logo */
         --wiki-logo-height: 140px;
@@ -454,8 +454,8 @@ div#content {
     }
 }
 /* #endregion */
-/* #region 1100px */
-@media screen and (max-width: 1100px) {
+/* #region 1200px */
+@media screen and (max-width: 1200px) {
     body {
         grid-template-columns:
             [body-left] var(--layout-sidespace--left)
@@ -565,7 +565,7 @@ body {
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 	#p-logo a {
 		background-image: var(--wiki-logo-horizontal);
 	}
@@ -628,7 +628,7 @@ div#content::before {
 		margin-left: -220px;
 	}
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 	div#content::before {
 		display: none;
 	}
@@ -877,8 +877,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 
 /* #endregion */
-/* #region Toolbar (1100px) */
-@media screen and (max-width: 1100px) {
+/* #region Toolbar (1200px) */
+@media screen and (max-width: 1200px) {
     div#mw-panel div.portal {
         background: none;
     }
