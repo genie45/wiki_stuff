@@ -3416,6 +3416,12 @@ div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
 }
 /* #endregion */
 
+/* #region Gallery tweaks */
+.mw-content-ltr ul.gallery {
+  margin: .3em 0 0;
+}
+/* #endregion */
+
 /* thumnbail tweaks */
 div.thumbinner {
   background-color:rgba(48,101,116,0.2);
