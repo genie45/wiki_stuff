@@ -3483,6 +3483,41 @@ table.status-effect-backg {
 }
 /* #endregion */
 
+/* #region [[Template:CurrentOfficialServerRates]] */
+.live-server-rates {
+  position: relative;
+  border: 1px solid var(--content-border-color);
+  padding: 0 0em;
+}
+.live-server-rates .tabber__tab {
+  font-size: 13px;
+  padding: 0.5em 0.7em;
+  font-weight: 600;
+}
+.live-server-rates .tabber__tab--active {
+  color: var(--content-default-link-color);
+  background: transparent;
+}
+.live-server-rates .tabber__header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--content-border-color);
+}
+.live-server-rates-status {
+  position: absolute;
+  inset: 0 0 0 0;
+  background: rgba(var(--content-border-color--rgb), 0.9);
+  font-size: 120%;
+  font-weight: 600;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1em;
+}
+.live-server-rates-status + .tabber {
+  filter: blur(2px);
+}
+/* #endregion */
+
 
 .ctc-notice {
     display: inline-block;
