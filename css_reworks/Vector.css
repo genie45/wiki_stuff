@@ -722,6 +722,14 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 /* #endregion */
 
+/* #region Site notice */
+.mw-dismissable-notice {
+    background: #0002;
+    border: 1px solid var(--content-border-color);
+    padding: 0.5em 1em 0;
+}
+/* #endregion */
+
 /* #region Sidebar */
 div#mw-panel div.portal {
 	background: var(--sidenav-background-color);
