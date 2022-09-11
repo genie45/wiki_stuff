@@ -1888,11 +1888,6 @@ img.fpWideImage {
 }
 .color-square span {
     font-size: 0.9em;
-    background: inherit;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    filter: contrast(400) grayscale(1) invert(1) contrast(400);
 }
 /* #endregion */
 
