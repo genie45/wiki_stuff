@@ -727,6 +727,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     background: #0002;
     border: 1px solid var(--content-border-color);
     padding: 0.5em 1em 0;
+    margin-bottom: 0.6em;
 }
 /* #endregion */
 
