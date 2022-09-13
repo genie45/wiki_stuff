@@ -94,6 +94,7 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
 		}
 		currentTheme = name;
 		document.documentElement.classList.add('theme-' + currentTheme);
+		document.documentElement.classList.add('theme-notexttt');
 	}
     mw.loader.using('mediawiki.user').then(function(){
         setThemeClass(function() {
@@ -108,7 +109,7 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
 	
 	// create button
 	$(function () {
-		var $toggle = $('<li id="p-themes" class="mw-list-item">');
+		var $toggle = $('<li id="p-themes" class="notexttt mw-list-item">');
 		var $toggleChild = $('<input type="checkbox" id="theme-switcher">')
 			.attr('title', I18n('Label'))
 			.prop('checked', currentTheme != defaultTheme)
