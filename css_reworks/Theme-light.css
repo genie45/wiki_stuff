@@ -96,9 +96,8 @@ html {
 }
 /* #endregion */
 
-/* #region Invert PS and Xbox icons */
+/* #region Do not invert PS and Xbox icons */
 img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
-    -webkit-filter: none;
     filter: none;
 }
 /* #endregion */

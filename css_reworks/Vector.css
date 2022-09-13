@@ -1196,6 +1196,36 @@ ul {
 }
 /* #endregion */
 
+/* #region wiki.gg provided CSS fixes */
+/* Hide privacy policy link from footer - wiki.gg footer links the correct one */
+#footer-places-privacy {
+	display: none;
+}
+/* Upper advertisement overlaps with #mw-head */
+div.games-showcase-header {
+    --top-offset: 1em;
+    position: relative;
+    top: calc(var(--content-navigation-height) + var(--top-offset));
+    margin: 0.5em;
+}
+@media screen and (max-width: 1500px) {
+    div.games-showcase-header {
+        --top-offset: 0.5em;
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 720px) {
+    div.games-showcase-header {
+        --top-offset: 2em;
+    }
+}
+/* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
+table {
+    display: table;
+    white-space: initial;
+}
+/* #endregion */
+
 /** For elements which only display in the mobile view **/
 .mobileonly { display: none !important; }
 
@@ -3218,12 +3248,6 @@ fieldset {
 }
 /* #endregion */
 
-/* Image-specific tweak to get it to display with a height of 75px */
-.tile_inner img[src*="PS.svg"] {
-    height: 75px;
-}
-
-
 /* #region Survivor Profile Table (Template:DTile) */
 .dtile a:link,
 .dtile a:visited,
@@ -3550,35 +3574,11 @@ table.status-effect-backg {
     color: var(--content-default-link-color);
 }
 
-/* #region wiki.gg provided CSS fixes */
-/* Hide privacy policy link from footer - wiki.gg footer links the correct one */
-#footer-places-privacy {
-	display: none;
+/** Invert [[File:PS.svg]] colors for better visibility on dark theme **/
+img[src*="/PS.svg/"],
+img[src*="/Xbox_Series.svg/"] {
+    filter: invert(100%);
 }
-/* Upper advertisement overlaps with #mw-head */
-div.games-showcase-header {
-    --top-offset: 1em;
-    position: relative;
-    top: calc(var(--content-navigation-height) + var(--top-offset));
-    margin: 0.5em;
-}
-@media screen and (max-width: 1500px) {
-    div.games-showcase-header {
-        --top-offset: 0.5em;
-        margin-bottom: 1em;
-    }
-}
-@media screen and (max-width: 720px) {
-    div.games-showcase-header {
-        --top-offset: 2em;
-    }
-}
-/* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
-table {
-    display: table;
-    white-space: initial;
-}
-/* #endregion */
 
 /* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
