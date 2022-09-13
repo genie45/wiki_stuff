@@ -9,8 +9,10 @@
     --netbar-height: 35px;
     /* Body */
     --page-background-image: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
-    /* Logo */
-	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo_horiz.png]]*/;
+    /* Frame and logo */
+    --content-border-frame: url(https://ark.wiki.gg/images/f/fd/Border_frame.png) /*[[File:Border frame.png]]*/;
+    --wiki-logo-frame: url(https://ark.wiki.gg/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
+	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo horiz.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
@@ -467,6 +469,7 @@ body {
     height: var(--wiki-logo-height);
 }
 #p-logo a {
+    background-image: none;
     background-size: contain;
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
@@ -495,10 +498,35 @@ body {
 @media screen and (max-width: 720px) {
     #mw-head-base {
         background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
+        height: unset;
     }
 }
 /* #endregion */
 /* #region Content area (& hex, frame border) */
+div#content {
+	position: relative;
+	background-color: rgba(var(--content-background-color--rgb), 0.98);
+	color: var(--content-text-color);
+	border-color: #080808;
+	border-image-slice: 630 600 5 600;
+    border-image-width: 300px;
+    border-image-outset: 15px;
+    border-image-repeat: stretch;
+    border-image-source: var(--content-border-frame); 
+    box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
+    min-height: 600px;
+}
+div#content::before {
+	position: absolute;
+	top: -250px;
+	left: 50%;
+	content: '';
+	background: var(--wiki-logo-frame) repeat;
+	width: 662px;
+	height: 267px;
+	margin-left: -331px;
+	background-size: contain;
+}
 .content-body::before {
     position: absolute;
     top: 0;
@@ -509,30 +537,6 @@ body {
     background: url(https://ark.wiki.gg/images/b/b7/Hex_grid.png) /*[[File:Hex grid.png]]*/ repeat;
     z-index: -1;
     opacity: 0.7;
-}
-div#content {
-	position: relative;
-	background-color: rgba(var(--content-background-color--rgb),0.98);
-	color: var(--content-text-color);
-	border-color: #080808;
-	border-image-slice: 630 600 5 600;
-    border-image-width: 300px;
-    border-image-outset: 15px;
-    border-image-repeat: stretch;
-    border-image-source: url(https://ark.wiki.gg/images/f/fd/Border_frame.png) /*[[File:Border frame.png]]*/; 
-    box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
-    min-height: 600px;
-}
-div#content::before {
-	position: absolute;
-	top: -250px;
-	left: 50%;
-	content: '';
-	background: url(https://ark.wiki.gg/images/6/60/Logo_frame.png) /*[[File:Logo frame.png]]*/ repeat;
-	width: 662px;
-	height: 267px;
-	margin-left: -331px;
-	background-size: contain;
 }
 .content-body { padding: var(--content-body-top-margin) 5px 0 5px; }
 @media screen and (max-width: 1500px) {
