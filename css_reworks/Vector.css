@@ -109,104 +109,10 @@
 /* #endregion */
 
 
-/* #region Theme variables */
-/* Light */
-.theme-light.theme-notexttt {
-	--theme-accent-color: #005c62; /* temp while waiting for skin */
-    --theme-accent-color--rgb: 0, 92, 98; /* temp while waiting for skin */
-    --page-background-color: #b8cac4;
-    --page-background-color--rgb: 204, 200, 206;
-    --content-background-color: #d8dada;
-    --content-background-color--rgb: 216, 218, 218;
-    --content-text-color: #000;
-	--content-header-color: #353333;
-    --content-text-link-color: #537906;
-    --content-border-color: #aaa;
-    --content-border-color--rgb: 101, 138, 25;
-    --content-default-link-color: #7ba428;
-    --content-default-link-color--rgb: 123, 164, 40;
-    --articlenav-background-color: #dde1d6e6;
-    --articlenav-border-color: #0b1212;
-    --code-background-color: #bbc1c1;
-    --code-border-color: #aaacae;
-    /* Assets */
-    --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23222%22/%3E %3C/svg%3E");
-    /* Sidebar */
-    --sidenav-header-background: #e5e5e5;
-    --sidenav-header-text-color: #202020;
-    --sidenav-background-color: #3d3e3d50;
-    /* Table of contents */
-    --toc-background-color: #cecece;
-	--toc-number-color: #4a4d4b;
-    /* Tabbers */
-    --tabber-shadow-color: var(--ark-arkitex-border-color);
-    --tabber-shadow-active-color: var(--sidenav-header-text-color);;
-    --tabber-shadow-hover-color: #eacb97;
-    --tabber-background-hover-color: #eacc97a2;
-    --tabber-text-hover-color: #363636;
-    --tabber-background-active-color: #bb955391; 
-    /* Tables */
-    --table-background-color: var(--content-background-color);
-    --table-border-color: #7f8d93;
-    --table-heading-background-color: #b2b9af;
-    /* Frontpage */
-    --fp-heading-text-color: var(--content-text-color);
-    --fp-heading-border-color: #bbba59;
-    --fp-box-background-color: #dddbd1;
-    /* OOUI buttons */
-    --ooui-button-text-color--primary: #000;
-    --ooui-button-text-color--secondary: var(--content-text-link-color);
-    --ooui-button-background-color--primary: var(--content-default-link-color);
-    /* Ambox */
-    --ark-ambox-background-color: #ddd;
-    /* Template:Navbox */
-    --ark-navbox-title-text-color: var(--content-text-color);
-    --ark-navbox-title-link-color: var(--content-default-link-color);
-    --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
-    --ark-navboxgroup-title-background-color: #ffffffb0;
-    --ark-navboxgroup-title-text-color: var(--content-text-color);
-    --ark-navboxgroup-title-border-color: #a2a9b1;
-    /* Arkitexure */
-	--ark-arkitex-background-color: #c0cfc9;
-    --ark-arkitex-border-color: var(--sidenav-header-background);
-    --ark-arkitex-accent-color: whitesmoke;
-    --ark-arkitex-left-color: #EDF3EB;
-    --ark-arkitex-right-color: #fff;
-    /* PaintRegion */
-    --ark-paintregion-background-color: #EDF3EB;
-    --ark-paintregion-border-color: var(--content-border-color);
-    /* Template:DossierText & Template:Quote */
-    --ark-cite-quote-color: #7d5f2a;
-    --ark-dossier-background-color: #e1d8c494;
-    --ark-dossier-border-color: #7d5f2a;
-    --ark-dossier-text-color: #3c2a09;
-    --ark-dossiernote-background-color: #f7eedf;
-    --ark-dossiernote-border-color: #7d5f2a;
-    /* Module:LootTable */
-    --ark-loottable-background-color: #ced5d29a;
-    --ark-loottable-header-color: #b3ccce80;
-    --ark-loottable-bar-color: var(--theme-accent-color);
-    /* Difficulty level colors */
-    --ark-difficulty-gamma: #48BF15;
-    --ark-difficulty-beta: #17B5D8;
-    --ark-difficulty-alpha: #D85847;
-    --ark-difficulty-none: #BCEEFA;
-    /* Template:Mission */
-    --ark-mission-background-color: #e6e8e8bb;
-    --ark-mission-text-color: var(--content-text-color);
-    /* Template:HoverNote */
-    --ark-hovertext-text-color: var(--theme-accent-color);
-    /* Kibble tables */
-    --ark-kibbletable-border-color: #ccc;
-    --ark-kibbletable-background-color: #fff;
-    /* Theme toggle */
-    --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23fff'%3E%3Cpath d='M18.1 5.1c0 .3-.1.6-.3.9l-1.4 1.4-.9-.8 2.2-2.2c.3.1.4.4.4.7zm-.5 5.3h3.2c0 .3-.1.6-.4.9s-.5.4-.8.4h-2v-1.3zm-6.2-5V2.2c.3 0 .6.1.9.4s.4.5.4.8v2h-1.3zm6.4 11.7c-.3 0-.6-.1-.8-.3l-1.4-1.4.8-.8 2.2 2.2c-.2.2-.5.3-.8.3zM6.2 4.9c.3 0 .6.1.8.3l1.4 1.4-.8.9-2.2-2.3c.2-.2.5-.3.8-.3zm5.2 11.7h1.2v3.2c-.3 0-.6-.1-.9-.4s-.4-.5-.4-.8l.1-2zm-7-6.2h2v1.2H3.2c0-.3.1-.6.4-.9s.5-.3.8-.3zM6.2 16l1.4-1.4.8.8-2.2 2.2c-.2-.2-.3-.5-.3-.8s.1-.6.3-.8z'/%3E%3Ccircle cx='12' cy='11' r='4'/%3E%3C/svg%3E") /* MW's OOUI sun icon */;
-    --theme-toggle-icon-size: 150% 150%;
-}
-/* Dark */
-html, .theme-dark {
-    --theme-accent-color: #0d6f70; /* temp while waiting for skin */
-    --theme-accent-color--rgb: 13, 111, 112; /* temp while waiting for skin */
+/* #region Default (dark) theme variables */
+html {
+    --theme-accent-color: #0d6f70;
+    --theme-accent-color--rgb: 13, 111, 112;
     --page-background-color: #0b1212;
     --page-background-color--rgb: 11, 18, 18;
     --content-background-color: #272828;
@@ -1065,12 +971,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         display: block;
         font-size: 0;
     }
-    .theme-light div.vector-menu-tabs li.selected a,
-    .theme-light div.vector-menu-tabs li.selected a:visited,
-    .theme-light body div.vector-menu-tabs li a,
-    .theme-light body #right-navigation div.vector-menu-dropdown h3 span {
-        border-color: #000;
-    }
     div.vector-menu-tabs li.selected a,
     div.vector-menu-tabs li.selected a:visited,
     div.vector-menu-tabs li a,
@@ -1091,10 +991,6 @@ div#mw-panel div.portal div.body ul li a:hover {
         margin:0.7em 20px 0 0;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M4 2v16h4v-2H6V4h3.994v4H14v1h2V7.01L11 2z' /%3E%3Cpath d='M13.339 10a.641.641 0 0 0-.643.643v.418a3.536 3.536 0 0 0-1.064.44l-.291-.291a.64.64 0 0 0-.91 0l-.226.228a.641.641 0 0 0 0 .909l.293.293a3.536 3.536 0 0 0-.437 1.056h-.418A.641.641 0 0 0 9 14.34v.322c0 .356.286.643.643.643h.418a3.536 3.536 0 0 0 .44 1.064l-.296.297a.641.641 0 0 0 0 .91l.227.227a.642.642 0 0 0 .909 0l.3-.3a3.536 3.536 0 0 0 1.055.437v.418c0 .357.287.643.643.643h.322a.641.641 0 0 0 .643-.643v-.418a3.536 3.536 0 0 0 1.056-.436l.3.299a.642.642 0 0 0 .908 0l.228-.228a.641.641 0 0 0 0-.909l-.298-.299a3.536 3.536 0 0 0 .441-1.062h.418A.641.641 0 0 0 18 14.66v-.322a.641.641 0 0 0-.643-.643h-.418a3.536 3.536 0 0 0-.436-1.056l.293-.293a.641.641 0 0 0 0-.91l-.228-.227a.642.642 0 0 0-.909 0l-.292.292a3.536 3.536 0 0 0-1.063-.441v-.418A.641.641 0 0 0 13.66 10zm.161 2.5a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z' /%3E%3C/svg%3E");
         filter: invert(1);
-    }
-    .theme-light div.vector-menu-tabs li a::before,
-    .theme-light div.vector-menu-dropdown h3 span::before {
-        filter: none;
     }
     /* #region Icons */
     #ca-edit a::before {
@@ -2362,12 +2258,6 @@ body .map-notice, .theme-dark .map-notice {
 }
 .map-legend input[type=checkbox]:checked + label {
     color: #05bb25;
-}
-.theme-light .map-legend input[type="checkbox"] + label {
-    color: #3c0000;
-}
-.theme-light .map-legend input[type="checkbox"]:checked + label {
-    color: #003c00;
 }
 /* Map legend: spawn map extension */
 .map-legend-container > button, .map-legend-container > select { width: 100%; }
@@ -3656,17 +3546,6 @@ table.status-effect-backg {
     color: var(--content-default-link-color);
 }
 
-/** Invert [[File:PS.svg]] colors for better visibility only for light theme **/
-img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-}
-.theme-light img[src*="/PS.svg/"], .theme-light img[src*="/Xbox_Series.svg/"] {
-    -webkit-filter: none;
-    filter: none;
-}
-
-
 /* #region wiki.gg provided CSS fixes */
 /* Hide privacy policy link from footer - wiki.gg footer links the correct one */
 #footer-places-privacy {
@@ -4071,9 +3950,6 @@ div.drilldown-filters-wrapper {
 /* #region Math */
 .mwe-math-fallback-image-inline {
     filter: invert(1);
-}
-.theme-light .mwe-math-fallback-image-inline {
-    filter: none;
 }
 /* #endregion */
 
