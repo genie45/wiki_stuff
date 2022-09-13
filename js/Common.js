@@ -64,8 +64,11 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
     [ '#creature-grid', [ 'MediaWiki:CreatureGridFiltering.js' ] ],
     // Common Data page fetch function if a wild stats calculator, spawn map or an interactive region map are present.
     // Separate request for cache efficiency (load once, not every time for a combination).
-    [ '#wildStatCalc, .data-map-container[data-spawn-data-page-name], .interactive-regionmap, .datamap-container-content',
+    [ '#wildStatCalc, .data-map-container[data-spawn-data-page-name], .interactive-regionmap, .datamap-container-content, '
+    + '.live-server-rates',
         [ 'en:MediaWiki:DataFetch.js' ] ],
+    // Official server rates module
+    [ '.live-server-rates', [ 'en:MediaWiki:ServerRates.js' ] ],
     // Wild creature stats calculator
     [ '#wildStatCalc', [ 'MediaWiki:WildCreatureStats.js' ] ],
     // Interactive region map
