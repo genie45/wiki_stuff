@@ -1806,8 +1806,9 @@ img.fpWideImage {
 /* Hide paragraphs with only a line break after a box */
 .fpbox + p > br { display: none; }
 /* Force minimum height for the Twitter feed */
-#fptweets {
-    min-height: calc(425px + 2.3em);
+#fptweets .twitter-timeline.twitter-timeline-rendered {
+    width: 100% !important;
+    min-height: 400px;
 }
 /* #endregion */
 
