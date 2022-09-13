@@ -85,6 +85,11 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
 
 // #region Theme toggle (with tweaks contributed from the UnderMine wiki at https://undermine.wiki.gg)
 (function(window) {
+	if ( mw.config.get('wgUserName') && mw.config.get('wgThemeToggleDefault') !== null ) {
+		console.log('Skipping theme switching via site JS; Extension:ThemeToggle is loaded');
+		return;
+	}
+	
 	var currentTheme = null, defaultTheme = 'dark', altTheme = 'light', storageKey = 'skin-theme';
     var I18n = arkCreateI18nInterface('ThemeToggle', {
         en: { Label: 'Click to toggle the theme' }
