@@ -111,7 +111,7 @@
 
 /* #region Theme variables */
 /* Light */
-.theme-light {
+.theme-light.theme-notexttt {
 	--theme-accent-color: #005c62; /* temp while waiting for skin */
     --theme-accent-color--rgb: 0, 92, 98; /* temp while waiting for skin */
     --page-background-color: #b8cac4;
@@ -1218,8 +1218,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 
 /* #endregion */
 
-/* #region Theme switcher */
-header#wikigg-header #p-personal li#p-themes {
+/* #region Legacy theme switcher */
+.theme-notexttt header#wikigg-header #p-personal li#p-themes {
     all: unset;
     border-right: 1px solid #333;
     padding: 0 0.5em;
@@ -1228,7 +1228,7 @@ header#wikigg-header #p-personal li#p-themes {
     background: inherit;
     list-style: none;
 }
-#theme-switcher {
+.theme-notexttt #theme-switcher {
     display: block;
     -webkit-appearance: none;
     appearance: none;
