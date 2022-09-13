@@ -20,7 +20,16 @@
     --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
                                    - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --wiki-logo-layout-bottom-gap: 0;
-    --mw-head-base-height-offset: 0px;
+    /* Logo background */
+	--head-background-image--desktop: url(https://ark.wiki.gg/images/0/0d/Head_dinos_banner.png)
+        /*[[File:Head dinos banner.png]]*/;
+	--head-background-image--mobile: url(https://ark.wiki.gg/images/6/65/Head_dinos_banner_mobile.png)
+        /*[[File:Head dinos banner mobile.png]]*/;
+	--head-layout-offset: calc(var(--layout-sidespace--right) + var(--layout-column-gap));
+    --head-shadow-settings: none;
+    --head-background-settings: var(--head-background-image--desktop) calc(50% + 0.4 * var(--head-layout-offset)) -13px
+        / 907px 360px no-repeat;
+    --head-height-offset: 0px;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 11px);
     --layout-sidespace--left: 14px;
@@ -249,8 +258,6 @@ body > .content-wrapper, #mw-navigation {
 #mw-head-base {
     grid-column: content-left/content-right;
     grid-row: page-start/nav-start;
-	height: calc(var(--wiki-logo-height) + var(--mw-head-base-height-offset));
-    margin: 0;
 }
 #mw-head {
     grid-column: content-left/content-right;
@@ -480,24 +487,16 @@ body {
 	}
 }
 /* #endregion */
-/* #region Dinosaurs and shadows behind logo */
+/* #region Dinosaurs behind logo */
 #mw-head-base {
-	--right-layout-side: calc(var(--layout-sidespace--right) - var(--layout-column-gap));
-    --dino-background: url(https://ark.wiki.gg/images/0/0d/Head_dinos_banner.png) calc(50% + 0.4 * var(--right-layout-side)) -13px / 907px 360px no-repeat;
-    background: var(--dino-background);
+    margin: 0 calc(-1 * var(--head-layout-offset));
     height: 360px;
-    margin: 0 calc(-1 * var(--right-layout-side));
     z-index: -1;
-}
-@media screen and (max-width: 1200px) {
-    #mw-head-base {
-        background: radial-gradient(circle at center, #0008 0, #0006 calc(var(--wiki-logo-width) / 2.1),
-                #0004 calc(var(--wiki-logo-width) / 1.3), transparent 100%), var(--dino-background);
-    }
+    background: var(--head-shadow-settings), var(--head-background-settings);
 }
 @media screen and (max-width: 720px) {
-    #mw-head-base {
-        background: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
+    html #mw-head-base {
+        margin: unset;
         height: unset;
     }
 }
