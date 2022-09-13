@@ -2879,9 +2879,8 @@ div#content .navbox-title a.external {
     color: var(--ark-navbox-title-link-color);
 }
 
-body .navbox-list, .theme-dark .navbox-list {
+body .navbox-list {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    color: #88E9FF;
 }
 
 /* Border between adjacent navboxes */
