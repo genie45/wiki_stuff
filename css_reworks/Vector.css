@@ -167,11 +167,6 @@ html {
     --fp-heading-text-color: var(--content-text-color);
     --fp-heading-border-color: #749ca4;
     --fp-box-background-color: #1d2526;
-    /* OOUI buttons */
-    --ooui-button-text-color--primary: #000;
-    --ooui-button-text-color--secondary: var(--content-text-link-color);
-    --ooui-button-background-color--primary: var(--content-default-link-color);
-    --ooui-button-background-color--primary-hover: #98c63b;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     /* Template:Navbox */
@@ -216,6 +211,17 @@ html {
     /* Theme toggle */
     --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */;
     --theme-toggle-icon-size: contain;
+    /* OOUI buttons */
+    --ooui-button-text-color--primary: #000;
+    --ooui-button-text-color--secondary: var(--content-text-link-color);
+    --ooui-button-background-color--primary: var(--content-default-link-color);
+    --ooui-button-background-color--primary-hover: #98c63b;
+    --ooui-icon-filter--normal: invert(1);
+    --ooui-icon-filter--required: invert(1);
+    --ooui-icon-filter--destructive: none;
+    --ooui-icon-filter--error: none;
+    --ooui-icon-filter--alert: none;
+    --ooui-icon-filter--success: none;
 }
 /* #endregion */
 
@@ -3326,14 +3332,13 @@ fieldset {
 /* #endregion */
 
 /* #region [[Special:Preferences]] */
-.client-js div#preferences {
-    background:rgba(0,0,0,0.2);
-    border:1px solid #7f7f7f;
-    margin-top:1px;
+div#preferences {
+    border: 1px solid #7f7f7f;
+    margin-top: 1px;
 }
 .mw-prefs-buttons {
     padding: 1em 1.2em;
-    background: #1c1e1c;
+    background: transparent;
 }
 /* #endregion */
 
@@ -3583,14 +3588,63 @@ img[src*="/Xbox_Series.svg/"] {
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
 .mw-changeslist-legend { background-color: transparent; }
 .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget { background-color: #fff; }
+.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+    background-color: var(--ark-navboxgroup-title-background-color);
+}
 /* #endregion */
+
 /* #region OOUI elements */
-/* Flagged widgets */
+/* Icons */
+.oo-ui-iconElement-icon {
+    filter: var(--ooui-icon-filter--normal);
+}
+.oo-ui-iconElement-icon.oo-ui-image-destructive {
+    filter: var(--ooui-icon-filter--destructive);
+}
+.oo-ui-iconElement-icon.oo-ui-image-success {
+    filter: var(--ooui-icon-filter--success);
+}
+.oo-ui-iconElement-icon.oo-ui-icon-error {
+    filter: var(--ooui-icon-filter--error);
+}
+.oo-ui-iconElement-icon.oo-ui-icon-alert {
+    filter: var(--ooui-icon-filter--alert);
+}
+.oo-ui-indicator-required {
+    filter: var(--ooui-icon-filter--required);
+}
+/* Message widgets */
 .oo-ui-widget.oo-ui-flaggedElement-warning,
 .oo-ui-widget.oo-ui-flaggedElement-error,
 .oo-ui-widget.oo-ui-flaggedElement-notice {
+    color: var(--content-text-color);
+}
+.oo-ui-widget.oo-ui-flaggedElement-warning {
+    color: #fc3;
+}
+.oo-ui-messageWidget.oo-ui-flaggedElement-success:not(.oo-ui-messageWidget-block) {
+    color: #30b799;
+}
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-notice {
+    border-color: rgba(var(--content-border-color--rgb), 0.5);
+    background-color: #202222;
+    color: var(--content-text-color);
+}
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-error {
+    background-color: #5e4746;
+    color: #fee;
+}
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-warning {
+    background-color: #625a4d;
+    color: #fff9e6;
+}
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success {
+    background-color: #253330;
+}
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+    background-color: rgba(var(--content-border-color--rgb), 0.6);
     color: #000;
-    --content-text-link-color: #7ca626;
+    border-color: var(--content-border-color);
 }
 /* Modals */
 .oo-ui-windowManager-modal > .oo-ui-dialog {
@@ -3606,11 +3660,28 @@ img[src*="/Xbox_Series.svg/"] {
     color: var(--content-text-color);
 }
 /* Buttons */
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+    background-color: #343737;
+    color: var(--content-text-color);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+    opacity: 0.5;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    color: var(--content-text-color);
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    color: var(--content-text-color); /* TODO: different tone needed */
+}
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--secondary);
 }
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet {
     color: var(--ooui-button-background-color--primary);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    border-color: rgba(var(--content-border-color--rgb), 0.7);
 }
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet,
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive,
@@ -3620,7 +3691,7 @@ input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive,
 .mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus,
 input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover {
-    background: rgba(var(--content-default-link-color--rgb),0.15);
+    background: rgba(var(--content-default-link-color--rgb), 0.15);
     color: var(--ooui-button-background-color--primary-hover);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
@@ -3628,9 +3699,41 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
     border-color: var(--ooui-button-background-color--primary);
     background: var(--ooui-button-background-color--primary);
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
-.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
-    color: #000;
+/* Inputs */
+.oo-ui-textInputWidget .oo-ui-inputWidget-input,
+.oo-ui-textInputWidget.oo-ui-widget-disabled .oo-ui-inputWidget-input,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle,
+.oo-ui-dropdownWidget.oo-ui-widget-disabled .oo-ui-dropdownWidget-handle,
+.oo-ui-dropdownInputWidget.oo-ui-widget-disabled {
+    background-color: #343737;
+    color: #fff;
+    border-color: rgba(var(--content-border-color--rgb), 0.7);
+}
+.oo-ui-textInputWidget.oo-ui-widget-disabled .oo-ui-inputWidget-input,
+.oo-ui-dropdownWidget.oo-ui-widget-disabled .oo-ui-dropdownWidget-handle {
+    opacity: 0.5;
+    -webkit-text-fill-color: unset;
+    text-shadow: none;
+}
+.oo-ui-textInputWidget.oo-ui-widget-disabled > .oo-ui-labelElement-label {
+    text-shadow: none;
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input[readonly]:not(.oo-ui-pendingElement-pending) {
+    background-color: #2f2f2f;
+    color: #aaa;
+}
+/* Multiselect widget */
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled {
+    background-color: #343737;
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined {
+    background-color: #444848;
+}
+.oo-ui-tagMultiselectWidget-handle {
+    border-color: rgba(var(--content-border-color--rgb), 0.7);
+}
+.oo-ui-tagMultiselectWidget-handle .oo-ui-tagMultiselectWidget-group > input {
+    color: var(--content-text-color);
 }
 /* Tab layout */
 .client-js div#preferences,
@@ -3640,14 +3743,26 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
     border-color: var(--content-border-color);
 }
 .oo-ui-tabSelectWidget-framed {
-    background: rgba(var(--content-border-color--rgb), 0.4);
+    background: transparent;
+    box-shadow: inset 0 -1px 0 0 #a2a9b1;
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
+    background-color: var(--tabber-background-active-color);
+    color: var(--content-text-color);
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget-selected:hover,
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover {
+    background-color: var(--tabber-background-hover-color);
+    color: var(--content-text-color);
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
+    border-bottom-color: transparent;
 }
 .oo-ui-tabOptionWidget {
-    color: #ccc;
+    color: var(--content-text-color);
 }
 .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
     background: var(--content-background-color);
-    color: #fff;
 }
 /* Forms */
 .mw-htmlform-ooui .mw-htmlform-matrix tbody tr:nth-child(2n) td {
