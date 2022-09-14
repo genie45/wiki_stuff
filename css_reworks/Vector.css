@@ -3511,6 +3511,28 @@ table.status-effect-backg {
 }
 /* #endregion */
 
+/* #region Translation banners */
+.translation-banner {
+    display: block;
+    position: fixed;
+    left: calc(50% + var(--sidebar-width) / 2);
+    width: 60vw;
+    max-width: 650px;
+    transform: translateX(-50%);
+    z-index: 20;
+    bottom: 50px;
+    border-radius: 8px;
+    padding: 1.7em 1.5em;
+    font-size: 105%;
+    box-sizing: border-box;
+    background: #171717 right center / contain no-repeat;
+    box-shadow: 0 3px 12px 0 #0000004a;
+}
+.translation-banner[lang=fr] {
+    background-image: url(https://cdn.discordapp.com/attachments/788207682598731786/1016798660266307696/unknown.png);
+}
+/* #endregion */
+
 
 .ctc-notice {
     display: inline-block;

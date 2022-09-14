@@ -231,7 +231,7 @@ $(function(){
         });
         
         if (!mw.config.get('wgIsMainPage') && mw.config.get('wgIsArticle')) {
-            var $sidebarInterwikis = $('#p-lang > .body > ul > li.interlanguage-link');
+            var $sidebarInterwikis = $('#p-lang > .vector-menu-content > ul > li.interlanguage-link');
             if ($sidebarInterwikis.length > 0) {
                 var $menu = $('<ul class="vector-menu-content-list menu">');
                 $('<div id="p-lang-btn" class="mw-portlet mw-portlet-lang vectorMenu vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation">')
@@ -374,6 +374,26 @@ $(function(){
     });
     // #endregion
 
+    // #region Translation banners
+    if ( arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
+        var prefLanguage = ( navigator.languages ? navigator.languages[0] : ( navigator.language || navigator.userLanguage ) )
+            .toLowerCase().substr( 0, 2 );
+        var bannerText = ( {
+            fr: 'Cet article est aussi disponible en Français: cliquez ici pour le lire'
+        } )[prefLanguage];
+        var link = $( '#p-lang > .vector-menu-content > ul > li.interlanguage-link > a[hreflang='+prefLanguage+']' )
+            .attr( 'href' );
+        if ( bannerText && link ) {
+            $( '<a class="translation-banner">' )
+                .attr( {
+                    lang: prefLanguage,
+                    href: link
+                } )
+                .text( bannerText )
+                .appendTo( 'body' );
+        }
+    }
+    // #endregion
 });
 /* End DOM ready */
 
