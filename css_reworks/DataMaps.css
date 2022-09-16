@@ -1,3 +1,27 @@
+/* #region Notice */
+.map-notice {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0.5em;
+    border: 1px solid var(--content-border-color);
+    border-radius: 8px;
+    font-size: 110%;
+    background: var(--ark-arkitex-right-color);
+    margin-bottom: 1em;
+}
+  
+.map-notice-image {
+    width: 100px;
+    height: 100px;
+    background: url(/images/thumb/c/cc/Note.png/100px-Note.png);
+}
+  
+.map-notice a {
+    font-weight: bold;
+}
+/* #endregion */  
+
 .datamap-container {
     background: var(--content-background-color);
 }
