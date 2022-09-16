@@ -1,0 +1,11 @@
+.theme-dark-blue {
+    --content-background-color: rgb(3, 30, 40);
+    --content-background-color--rgb: 4,36,48; /*3, 30, 40;*/
+    --content-text-color: #a0ddec;
+    --content-text-link-color: #36c5cc;
+    --content-default-link-color: #52e4eb;
+    --content-default-link-color--rgb: 82, 228, 235;
+    --content-border-color: #7fe7ff;
+    --content-border-color--rgb: 127, 231, 255;
+    --content-header-color: var(--content-text-color);
+}
