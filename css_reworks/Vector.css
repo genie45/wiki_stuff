@@ -1143,57 +1143,6 @@ div#mw-panel div.portal div.body ul li a:hover {
     background-size: var(--theme-toggle-icon-size);
 }
 /* #endregion */
-/* #region Extension:ThemeToggle backport */
-:not(.theme-notexttt) body #p-personal li#p-themes {
-    border-right: 1px solid #333;
-    padding: 0 .5em;
-    margin-right: 0;
-    position: relative;
-    background: transparent;
-    list-style: none
-}
-:not(.theme-notexttt) body #p-personal li#p-themes:hover {
-    background: #0b1040
-}
-:not(.theme-notexttt) body #p-personal li#p-themes .vector-menu-heading {
-    color: #fff;
-    font-size: inherit;
-    padding-top: 0.5em;
-    padding-left: 8px;
-    padding-right: 1.84615385em;
-    margin-bottom: .3em;
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-:not(.theme-notexttt) body #p-personal li#p-themes .vector-menu-heading::after {
-    top: 5px;
-    filter: invert(1)
-}
-:not(.theme-notexttt) body #p-personal li#p-themes .vector-menu-content {
-    top: 100%;
-    border-radius: 0 0 6px 6px;
-    background: inherit;
-    border-color: #3c3e40
-}
-:not(.theme-notexttt) body #p-personal li#p-themes ul {
-    flex-direction: column;
-    padding: 0.5em 0.3em 0.4em;
-    align-items: flex-start;
-    gap: 0.25em
-}
-:not(.theme-notexttt) body #p-personal li#p-themes ul li {
-    width: 100%;
-    border-radius: 4px
-}
-:not(.theme-notexttt) body #p-personal li#p-themes ul li:hover {
-    background: #fff3
-}
-:not(.theme-notexttt) body #p-personal li#p-themes ul li a {
-    padding: 0.25em 0.5em;
-    text-decoration: none
-}
-/* #endregion */
 
 /* #region Bulletpoint fixes */
 ul {
