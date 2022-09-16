@@ -1,52 +1,108 @@
-
 .datamap-container {
     background: var(--content-background-color);
 }
 .datamap-container-top {
     background: var(--tabber-background-hover-color);
 }
-.datamap-container .datamap-container-content .datamap-container-legend {
-	background-color: var(--toc-background-color);
+.datamap-container .oo-ui-tabSelectWidget-framed {
+    background: rgba(var(--content-border-color--rgb), 0.4);
+    box-shadow: none;
 }
-.leaflet-container {
+.datamap-container .datamap-container-content .datamap-container-legend {
+    background-color: var(--toc-background-color);
+}
+.datamap-holder.leaflet-container {
     background: #0b0b0b4d;
 }
-.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  background: var(--content-background-color);
-  color: var(--content-text-color);
+.datamap-holder .leaflet-popup-content-wrapper, .datamap-holder .leaflet-popup-tip {
+    background: var(--content-background-color);
+    color: var(--content-text-color);
 }
-.datamap-container .datamap-popup-coordinates {
-	color: inherit;
+.datamap-holder .datamap-popup .datamap-popup-coordinates {
+    color: inherit;
     opacity: 0.8;
 }
 .datamap-container .leaflet-marker-icon {
-	filter: drop-shadow(0 0 2px #fff);
+    filter: drop-shadow(0 0 2px #fff);
 }
 .leaflet-container a {
-	color: var(--content-text-link-color)
+    color: var(--content-text-link-color)
 }
 .datamap-container .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
-  background: var(--toc-background-color);
-  color: inherit;
+    background: var(--toc-background-color);
+    color: inherit;
 }
 .datamap-container .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
     border-bottom-color: transparent;
 }
 .datamap-container .datamap-popup-subtitle {
-  color: #bbb;
+    color: #bbb;
 }
 .datamap-marker-link-button {
-	filter: invert(1) brightness(55%)
+    filter: invert(1) brightness(55%)
 }
 .map-notice ~ .tabber .tabber__tab {
-  padding: 0.7em 1em;
-  font-size: 110%;
-  background: #52711550;
+    padding: 0.7em 1em;
+    font-size: 110%;
+    background: #52711550;
 }
 .map-notice ~ .tabber .tabber__tab--active {
-  background: var(--tabber-background-active-color);
+    background: var(--tabber-background-active-color);
 }
 /* Scroll animation may be laggy on some devices */
 .map-notice ~ .tabber .tabber__section {
     scroll-behavior: revert;
+}
+/* Spawn maps */
+.datamap-csm-legend-rect {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    box-shadow: 0 0 1px 1px #0002;
+    width: 16px;
+    height: 16px
+}
+.datamap-csm-rarities {
+    margin: 6px 0 6px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px 4px;
+}
+.datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-labelElement, .datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline {
+    margin-top: 0;
+}
+.datamap-csm-rarities .oo-ui-fieldLayout {
+    font-size: 94%
+}
+.datamap-container-legend,
+.datamap-container-legend > .oo-ui-menuLayout,
+.datamap-container-legend > .oo-ui-menuLayout > .oo-ui-menuLayout-content > .oo-ui-layout {
+    display: flex;
+    flex-direction: column;
+}
+.datamap-container-legend .oo-ui-indexLayout-stackLayout { height: 100% }
+.datamap-csm-groups .oo-ui-panelLayout-padded { padding: 6px 7px }
+.datamap-csm-groups > .oo-ui-panelLayout-padded.oo-ui-panelLayout-framed { margin: 6px 0; padding: 6px 7px }
+.datamap-csm-groups > .oo-ui-layout > ul { margin: 4px 0 -6px; list-style: none }
+.datamap-csm-groups ul .oo-ui-panelLayout-padded.oo-ui-panelLayout-framed { margin: 6px 0 }
+.datamap-csm-groups > .oo-ui-layout > .oo-ui-fieldLayout .oo-ui-labelElement-label { font-weight: 500 }
+.datamap-csm-groups .is-detail { display: none }
+.datamap-csm-legend.with-details .is-detail { display: block }
+.datamap-container-legend > .oo-ui-menuLayout,
+.datamap-container-legend > .oo-ui-menuLayout > .oo-ui-menuLayout-content {
+    flex-grow: 1;
+}
+.datamap-container-legend .oo-ui-indicatorElement-indicator.oo-ui-indicator-down { filter: invert(1) }
+.datamap-csm-legend .csm-is-hidden ul { display: none; }
+.datamap-csm-legend > .oo-ui-comboBoxInputWidget { margin-top: 4px; }
+.datamap-csm-groups ul ul { font-size: 95%; }
+.datamap-csm-legend {
+    min-height: 300px;
+}
+.oo-ui-csm-last-matched-item {
+    border-bottom: 2px double #0003;
+    margin-bottom: 0.3em;
 }
