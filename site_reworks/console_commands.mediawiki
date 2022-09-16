@@ -1,37 +1,39 @@
 {{tocright}}
 {{Tile Nav Entity IDs}}
-{{Ambox|color=blue|icon=Note.png|type=Missing Content|info=This page list most console commands known, if you know more about a specific one or one not listed feel free to edit it or notify us on the [[Talk:Console_Commands|Talk Page]].}}
-The commands found here can be entered in the console. This allows to do actions that aren't allowed otherwise, e.g. cheating. The console can be opened by pressing {{Key|TAB}} (on the PC/keyboard) or by entering the pause screen, and simultaneously pressing {{xbox|LB}}, {{xbox|RB}}, {{xbox|X}} and {{xbox|Y}} on the Xbox, or {{ps4|L1}}, {{ps4|R1}}, {{ps4|Square}} and {{ps4|Triangle}} on PlayStation. Alternativly works just pressing {{Key|TAB}} if you have Keyboard & Mouse mode active on consoles.
+{{Ambox|color=blue|icon=Note.png|type=Missing Content|info=This page lists most console commands known. If you know more about a specific one or one that is not listed, feel free to edit it or notify us on the [[Talk:Console Commands|Talk Page]].}}
+The commands found here can be entered in the console. This allows to do actions that aren't allowed otherwise, e.g. cheating.
+
+The console can be opened:
+* on PC by pressing {{Key|TAB}},
+* on Stadia by pressing {{Key|`}},
+* or on consoles by entering the pause screen, and simultaneously pressing {{xbox|LB}}, {{xbox|RB}}, {{xbox|X}} and {{xbox|Y}} on the Xbox, or {{ps4|L1}}, {{ps4|R1}}, {{ps4|Square}} and {{ps4|Triangle}} on PlayStation,
+or by pressing  {{Switch|Y}} {{Switch|X}} ,{{Switch|R}} ,{{Switch|L}} ,{{Switch|ZR}} ,{{Switch|ZL}} at the same time on switch.
+* or on consoles with Keyboard & Mouse mode active by pressing {{Key|TAB}}.
 
 == Usage ==
 Some of these commands are not available until you have authenticated yourself with the <code>enablecheats</code> command.
 
 Commands marked with Y in the cheat column need to be prefixed with <code>admincheat</code> if used on a multiplayer server. In single-player mode you neither need any <code>cheat</code> or <code>admincheat</code> before the command nor do you need to enable cheats.
 
-Commands that target the creature / entity in your crosshairs are marked with "Target" in the target column, and commands that affect the current player are marked with "Self". These commands cannot be used in the remote console. Console commands are not case sensitive.
+Commands that target the creature / entity in your crosshair are marked with "Target" in the target column, and commands that affect the current player are marked with "Self". These commands cannot be used in the remote console. Console commands are not case-sensitive.
 
 Boolean parameters can be specified as either the keywords "true" or "false" or the numbers 1 or 0 (or 1.0 / 0.0) respectively. 
 
-Any distances used in these commands are in [[Game Units]], i.e. roughly one centimeter.
+Any distances used in these commands are in [[game units]], i.e. roughly one centimeter.
 
 You can concatenate multiple commands in one line using a vertical bar <code>|</code>. For example: <code>LeaveMeAlone | Fly</code>
 
 All commands can be run through <code>[[Console Commands#ShowMyAdminManager|ShowMyAdminManager]]</code>
 
-=== Video ===
-{{#ev:twitchvod|277921270|500||||autoplay=false}}
-
 == Commands ==
 {{ConsoleCommand
-|name = EnableCheats
-|arg1 = Password
-|type1 = String
-|note1 = Server administrator password
-|target = Self
-|added = 0.0 (UE1)
-|description = Enable server administrator commands for the current player. The password provided should match the server's <code>ServerAdminPassword</code> option (see [[Server Configuration]]). In single player games you don't need this command, see the introduction above.
-|example = enablecheats pass123
-|consoleCompatible = No
+|name = AddEquipmentDurability
+|cheat = yes
+|arg1 = amount
+|type1 = float
+|note1 = amount of durability/water/energy to add.
+|description = add specific amount of durability/water/energy to items in hotbar and equipped armor.
+|example = cheat addequipmentdurability 99999
 }}
 
 {{ConsoleCommand
@@ -41,8 +43,6 @@ All commands can be run through <code>[[Console Commands#ShowMyAdminManager|Show
 |type1 = String
 |note1 = Type of weather. Possible values: see below. Mind the quotation marks necessary for commands with space between words.
 |description = Starts and stops weather.
-
-
 ;The Island
 :<code>starttime</code>, <code>stoptime</code>, <code>heatwave</code>, <code>coldfront</code>, <code>makeitrain</code>, <code>fogitup</code>
 ;[[Scorched Earth]]
@@ -56,9 +56,102 @@ All commands can be run through <code>[[Console Commands#ShowMyAdminManager|Show
 ;[[Valguero]]
 :<code>SpawnRainbow</code>, <code>TestNorthernLights</code><sup>1</sup>
 <sup>1</sup> After activating the Auroras on [[Valguero]] using the command, Auroras will cease to appear.
-
 |example = cheat ce start_superheat
 |consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+| name = DCMSet
+| cheat = yes
+| arg1 = property
+| type1 = String
+| arg2 = value
+| type2 = Integer
+| note1 = 
+| description = Sets a property on the Day Cycle Manager.
+On [[Genesis: Part 2]] for first argument of value "skybox" this command changes current asteroid configuration:
+* 0: Ambergris
+* 1: Crystal
+* 2: Sulfur
+* 3: Element Shards
+* 4: Obsidian
+* 5: Oil
+* 6: Element Dust
+* 7: Black Pearls
+| example = dcmset skybox 0
+}}
+
+{{ConsoleCommand
+|name = DisableSpectator
+|cheat = yes
+|target = Self
+|description = quits spectatormode (as the character is killed when enable spectating, the respawn menu is displayed)
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = EnableCheats
+|arg1 = Password
+|type1 = String
+|note1 = Server administrator password
+|target = Self
+|added = 0.0 (UE1)
+|description = Enable server administrator commands for the current player. The password provided should match the server's <code>ServerAdminPassword</code> option (see [[Server configuration]]). In single player games you don't need this command, see the introduction above.
+|example = enablecheats pass123
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand|-
+|name = EnableSpectator
+|cheat = yes
+|target = Self
+|added = [[191.0]]
+|description = Mode spectator (will destroy inventory, leave all your stuff at safe place first)<br/>
+;Special Keybindungs while in Spectator:
+<table class="wikitable">
+<tr><th>Key</th><th>Description</th></tr>
+<tr><td>{{Key|CTRL}} + {{Key|M}}</td><td>Toggle floating player huds for the entire map (helpful to spot where everyone is)</td></tr>
+<tr><td>{{Key|CTRL}} + {{Key|P}}</td><td>Toggle Only Show Nearby Floating Huds</td></tr>
+<tr><td>{{Key|CTRL}} + {{Key|N}}</td><td>Display a list of players to jump to</td></tr>
+<tr><td>{{Key|LMB}}</td><td>Attach to the player in front of you</td></tr>
+<tr><td>{{Key|LMB}} or {{Key|RMB}}</td><td>Click to cycle attached player</td></tr>
+<tr><td>{{Key|Spacebar}}</td><td>Detach from a player</td></tr>
+<tr><td>{{Key|Shift}}</td><td>Fly Fast</td></tr>
+<tr><td>{{Key|CTRL}}</td><td>Fly Slow</td></tr>
+<tr><td>{{Key|Mousewheel}}</td><td>Adjust fly speed</td></tr>
+<tr><td>{{Key|Shift}} + {{Key|F1}} ... {{Key|F10}}</td><td>Save camera positions</td></tr>
+<tr><td>{{Key|F1}} ... {{Key|F10}}</td><td>Teleport to saved camera postions</td></tr>
+</table>
+<code>[[#StopSpectating|stopspectating]]</code> for leaving
+See also [[Admin Spectator]]
+|example = cheat EnableSpectator
+|consoleCompatible = Partial - Many features of spectating do not work on consoles. You can fly around and lock to a player, however you cannot unlock the camera from the player or save camera positions. Additionally you cannot view a player list.
+}}
+
+{{ConsoleCommand
+|name = FindMutagenDrops
+|cheat = yes
+|description = Prints locations of nearby spawned [[Mutagen Bulbs]] to the console.
+'''Only works on [[Genesis: Part 2]].'''
+|example = cheat FindMutagenDrops
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = ForceGiveBuff
+|cheat = yes
+|target = Self
+|description = This Command allows you to put Status Effects on your self or the dino your riding use the Admin Blink Rifle (Inspect Mode) or PC/Mouse And KeyBoard for console and type in ListMyBuffs to find the Buff ID's.
+|example = cheat ForceGiveBuff Buff_NamelessPreggers 1 (1 to enable 0 to disable the effect)
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = ForceMutagenSpawn
+|cheat = yes
+|description = Forces nearest Mutagen Bulb to spawn?
+|consoleCompatible = Yes
+|example = cheat ForceMutagenSpawn
 }}
 
 {{ConsoleCommand
@@ -70,6 +163,18 @@ All commands can be run through <code>[[Console Commands#ShowMyAdminManager|Show
 |description = Runs a game-mode specific command / trigger. For example, to start the game in the SoTF mod game mode, run:
 |example = cheat gamecommand startgame
 |consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = GetEgg
+|cheat = yes
+|arg1 = NumMutationsToAdd
+|type1 = Integer[32]
+|note1 = The number of random mutations.
+|target = Target
+|description = This Command will allow you to spawn a fertilized egg from the targeted egg laying dino to your feet. Warning! Picking up the fertilized egg will result in the dino going hostile to you.
+|example = cheat GetEgg 5
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -100,6 +205,33 @@ To give items to another player, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]
 }}
 
 {{ConsoleCommand
+|name = HatchEgg
+|cheat = yes
+|target = Target
+|added = [[297.17]]
+|description = Despite the name of the command, it doesn't actually hatch the egg you are looking at but only set its incubating progress to 0% meaning that you still need the appropriate [[Incubation|temperature]] for it to properly hatch. If the temperature is not adequate, the egg will have the "broken icon" and you won't be able to consume it after performing this command.
+}}
+
+{{ConsoleCommand
+|name = ListActiveHordeEvents
+|cheat = yes
+|added = 286.103
+|description = Lists all current active [[Orbital Supply Drop]] and [[Element Node]] in the extended console (you can access it by using {{Key|TAB}} a second time).<br/>
+NOTE: This command will only work on [[Extinction]]
+|example = cheat ListActiveHordeEvents
+|consoleCompatible = No
+}}
+
+{{ConsoleCommand
+|name = Open
+|cheat = yes
+|arg1 = IP:Port
+|type1 = Group of integers:Integer
+|note1 = Server IP and game port (7777, not query port 27015).
+|description = join specific server by IP:Port (server domain name instead IP not work). If you need to specify password, use <?Password> at the end: IP:Port?Password (not checked information!).
+}}
+
+{{ConsoleCommand
 |name = PlayersOnly
 |cheat = yes
 |added = 0.0 (UE1)
@@ -109,86 +241,52 @@ To give items to another player, use <code>[[#GiveItemToPlayer|GiveItemToPlayer]
 }}
 
 {{ConsoleCommand
+|name = previewmode
+|cheat =
+|added =
+|description = Changes graphics when executed.
+|example = previewmode
+|ConsoleCommand = Yes
+}}
+
+{{ConsoleCommand
 |name = PrintColors
 |description = Prints the [[Color IDs]].
 |consoleCompatible = Unknown
 }}
 
 {{ConsoleCommand
-|name = StartNearestHorde
-|cheat = yes
-|added = 286.103
-|arg1 = Type
-|type1 = String
-|note1 = <code>Crate</code> for [[Orbital Supply Drop (Extinction)|Orbital Supply Drop]] or <code>Element</code> for [[Element Node (Extinction)|Element Node]]
-|arg2 = Difficulty
-|type2 = Integer
-|note2 = available numbers are 1-4 with 1 being easy and 4 legendary difficulty
-|description = Spawns a Orbital Supply Drop or Element Node at the nearest location to you. It can take a moment before you see anything happening.<br/>
-NOTE: This command will only work on [[Extinction]]
-|example = cheat StartNearestHorde Crate 2
+|name = r.shadowquality
+|arg1 = shadow quality
+|type1 = float
+|note1 =Changes shadow settings. 0-off to 5-epic.
+|arg2 = ?
+|type2 = float
+|note2 = Seems to affect shadows, not sure what it does though
+|description = Sets shadow quality depending on the number given
+|cheat =
+|target = 
+|example = Cheat r.shadowquality 0 1
+|consoleCompatible = Yes (Only on Xbox)
 }}
 
 {{ConsoleCommand
-|name = ListActiveHordeEvents
+|name = RemoveAllWorldBuffs
 |cheat = yes
-|added = 286.103
-|description = Lists all current active [[Orbital Supply Drop (Extinction)|Orbital Supply Drop]] and [[Element Node (Extinction)|Element Node]] in the extended console (you can acces it by using {{Key|TAB}} a second time).<br/>
-NOTE: This command will only work on [[Extinction]]
-|example = cheat ListActiveHordeEvents
-|consoleCompatible = No
-}}
-
-{{ConsoleCommand
-|name = ScriptCommand
-|cheat = yes
-|added = 197.x
-|arg1 = CommandString
-|type1 = String
-|note1 = Command string.
-|description = Runs a game mode specific command / script. These can be implemented by mod authors. Currently, there are no official game modes that use custom scripts.
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = Slomo
-|cheat = yes
-|added = 0.0 (UE2)
-|arg1 = SpeedMult
-|type1 = Float
-|note1 = Speed multiplier
-|description = Sets the game speed multiplier. Change back to 1 to set back to normal.
+|description = Remove all world buffs at map Genesis: Part 2.
 |consoleCompatible = Yes
+|example = cheat RemoveAllWorldBuffs
 }}
 
-{{ConsoleCommand|-
-|name = EnableSpectator
+{{ConsoleCommand
+|name = RepairArea
 |cheat = yes
-|target = Self
-|added = [[191.0]]
-|description = Mode spectator (will destroy inventory, leave all your stuff at safe place first)<br/>
-;Special Keybindungs while in Spectator:
-
-<table class="wikitable">
-<tr><th>Key</th><th>Description</th></tr>
-<tr><td>{{Key|CTRL}} + {{Key|M}}</td><td>Toggle floating player huds for the entire map (helpful to spot where everyone is)</td></tr>
-<tr><td>{{Key|CTRL}} + {{Key|P}}</td><td>Toggle Only Show Nearby Floating Huds</td></tr>
-<tr><td>{{Key|CTRL}} + {{Key|N}}</td><td>Display a list of players to jump to</td></tr>
-<tr><td>{{Key|LMB}}</td><td>Attach to the player in front of you</td></tr>
-<tr><td>{{Key|LMB}} or {{Key|RMB}}</td><td>Click to cycle attached player</td></tr>
-<tr><td>{{Key|Spacebar}}</td><td>Detach from a player</td></tr>
-<tr><td>{{Key|Shift}}</td><td>Fly Fast</td></tr>
-<tr><td>{{Key|CTRL}}</td><td>Fly Slow</td></tr>
-<tr><td>{{Key|Mousewheel}}</td><td>Adjust fly speed</td></tr>
-<tr><td>{{Key|Shift}} + {{Key|F1}} ... {{Key|F10}}</td><td>Save camera positions</td></tr>
-<tr><td>{{Key|F1}} ... {{Key|F10}}</td><td>Teleport to saved camera postions</td></tr>
-</table>
-
-<code>[[#StopSpectating|stopspectating]]</code> for leaving
-
-See also [[Admin Spectator]]
-|example = cheat EnableSpectator
-|consoleCompatible = Partial - Many features of spectating do not work on consoles. You can fly around and lock to a player, however you cannot unlock the camera from the player or save camera positions. Additionally you cannot view a player list.
+|description = Repairs all structures in given radius around player. Only seems to work on structures that have been damaged since last server/session restart? Can be used to repair bugged resource nodes (for example to resolve bug of stop spawning of metal in single player and non-dedicated/temporary servers)?
+|arg1 = Radius
+|type1 = Integer?
+|note1 = Radius in UE units. For example foundation length is ~300.
+|consoleCompatible = Unknown
+|example = cheat RepairArea 2000000
 }}
 
 {{ConsoleCommand
@@ -203,6 +301,27 @@ See also [[Admin Spectator]]
 }}
 
 {{ConsoleCommand
+|name = ScriptCommand
+|cheat = yes
+|added = 197.x
+|arg1 = CommandString
+|type1 = String
+|note1 = Command string.
+|description = Runs a game mode specific command / script. These can be implemented by mod authors. Currently, there are no official game modes that use custom scripts.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SetDifficultyValue
+|cheat = yes
+|arg1 = Command
+|arg2 = Value
+|description = This command will allow you to change the max level of wild dino spawns make sure you do DestroyWildDinos to allow the High Level Dino's to spawn in.
+|example = cheat SetDifficultyValue 12
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
 |name = SetShowAllPlayers
 |cheat = yes
 |arg1 = Enable
@@ -213,11 +332,29 @@ See also [[Admin Spectator]]
 }}
 
 {{ConsoleCommand
-|name = DisableSpectator
+|name = Slomo
 |cheat = yes
-|target = Self
-|description = quits spectatormode (as the character is killed when enable spectating, the respawn menu is displayed)
+|added = 0.0 (UE2)
+|arg1 = SpeedMult
+|type1 = Float
+|note1 = Speed multiplier
+|description = Sets the game speed multiplier. Change back to 1 to set back to normal.
 |consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = StartNearestHorde
+|cheat = yes
+|added = 286.103
+|arg1 = Type
+|type1 = String
+|note1 = <code>Crate</code> for [[Orbital Supply Drop]] or <code>Element</code> for [[Element Node]]
+|arg2 = Difficulty
+|type2 = Integer
+|note2 = available numbers are 1-4 with 1 being easy and 4 legendary difficulty
+|description = Spawns a Orbital Supply Drop or Element Node at the nearest location to you. It can take a moment before you see anything happening.<br/>
+NOTE: This command will only work on [[Extinction]]
+|example = cheat StartNearestHorde Crate 2
 }}
 
 {{ConsoleCommand
@@ -231,14 +368,6 @@ See also [[Admin Spectator]]
 |cheat = yes
 |target = world
 |description = Toggles floating damage numbers on the server
-}}
-
-{{ConsoleCommand
-|name = HatchEgg
-|cheat = yes
-|target = Target
-|added = [[297.17]]
-|description = Despite the name of the command, it doesn't actually hatch the egg you are looking at but only set its incubating progress to 0% meaning that you still need the appropriate [[Incubation|temperature]] for it to properly hatch. If the temperature is not adequate, the egg will have the "broken icon" and you won't be able to consume it after performing this command.
 }}
 
 == Server Managment Commands==
@@ -289,6 +418,7 @@ Xbox/playstation use cheat BanPlayer myname84937593
 |cheat = yes
 |description = Adds a message to the specified tribe's Tribelog
 |example = cheat tribemessage 12358748 Hello my friends
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -336,7 +466,7 @@ TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergam
 |type1 = Integer[32]
 |note1 = use [[#setcheatplayer|setcheatplayer 1]] and look at a tribe structure to see the TeamID which is the TribeID
 |description = prints a list of every player of a specified tribe with both PlayerID and SteamID in the console and in a special ingame chat window
-|consoleCompatible = No
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -371,8 +501,8 @@ TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergam
 |name = ServerChatTo
 |cheat = yes
 |arg1 = SteamID
-|type1 = Integer[64]
-|note1 = Player's SteamID
+|type1 = String
+|note1 = Player's SteamID wrapped in double quotes.
 |arg2 = MessageText
 |type2 = String
 |note2 = Message
@@ -410,6 +540,19 @@ TheIsland?RCONEnabled=true?RCONServerGameLogBuffer=600?listen -server -servergam
 |note1 = Pause game?
 |description = Pauses _EVERYTHING_ game related.
 |consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = SetDay
+|added = [[319.14]]
+|syntax = <code>'''<day>'''</code>
+|cheat = yes
+|arg1 = Day
+|type1 = Integer
+|note1 = The day number to set. (Min: 0, Max: 2147483647)
+|description = Sets the current day number.
+|example = cheat setday 1
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -539,7 +682,7 @@ Example output:
 |target = Target
 |description = Instantly kills the targeted structure or dinosaur, leaving behind a corpse.
 
-Actually it deals a large amount of damage that is sufficient to kill non-boss entities. You may need to execute the command twice or more on bosses.
+Deals approximately 10000000 damage that is sufficient enough to kill non-boss entities. notably, this command factors in any damage reduction. You may need to execute the command twice or more on bosses.
 
 To eliminate an entity without leaving behind a corpse, use the <code>[[#DestroyMyTarget|DestroyMyTarget]]</code> command.
 |consoleCompatible = Yes
@@ -576,7 +719,7 @@ To eliminate an entity without leaving behind a corpse, use the <code>[[#Destroy
 |note1 = Player's in-game UE4 ID
 |description = Kills the specified player in game<br/>
 |example = Cheat KillPlayer 915874562
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -621,6 +764,7 @@ To eliminate an entity without leaving behind a corpse, use the <code>[[#Destroy
 |target = Target
 |added = [[252.4]]
 |description = Changes ownership of all structures of the tribe the player is currently looking at to the tribe of player.
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -666,6 +810,14 @@ To eliminate an entity without leaving behind a corpse, use the <code>[[#Destroy
 |example = cheat LevelUpTarget MeleeDamageMultiplier 25
 }}
 
+{{ConsoleCommand
+|name = ForceUpdateDynamicConfig
+|cheat = yes
+|description = Force an update of the dynamic config. See [[Server configuration]] for details.
+|example = cheat forceupdatedynamicconfig
+|consoleCompatible = No
+}}
+
 == Teleportation Commands==
 {{ConsoleCommand
 |name = Teleport
@@ -690,7 +842,7 @@ See also [[#SetPlayerPos|SetPlayerPos]], [[#TPCoords|TPCoords]]
 To teleport yourself to the other player, use the <code>[[#TeleportToPlayer|TeleportToPlayer]]</code> command.
 
 To specify a player to teleport by their player name, use the <code>[[#TeleportPlayerNameToMe|TeleportPlayerNameToMe]]</code> command.
-|consoleCompatible = No
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -703,7 +855,7 @@ To specify a player to teleport by their player name, use the <code>[[#TeleportP
 |description = Teleports the player specified by their name to the current player.
 
 To specify a player to teleport by their in-game id, use the <code>[[#TeleportPlayerIDToMe|TeleportPlayerIDToMe]]</code> command.
-|consoleCompatible = No
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -749,7 +901,7 @@ A short version is <code>TPName</code>
 |arg1 = locationname
 |type1 = String
 |note1 = check table to see which location name works 
-|description = Lets you teleport to defined locations quickly, the example will teleport you to the red obelisk on any DLC map.<br>
+|description = Lets you teleport to defined locations quickly, the example will teleport you to the red obelisk on any DLC map.<br/>
 <table class="wikitable">
     <tr><th>Location Name</th><th>Map</th><th>Location</th></tr>
     <!--THE ISLAND-->
@@ -812,7 +964,7 @@ A short version is <code>TPName</code>
 |description = Moves the player's character to the specified GPS position instantly.
 
 See also [[#Teleport|Teleport]], [[#SetPlayerPos|SetPlayerPos]]
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -836,6 +988,8 @@ See also [[#Teleport|Teleport]], [[#SetPlayerPos|SetPlayerPos]]
 |note5 = Defines the pitch of the camera
 |description = Does the same as [[#SetPlayerPos|SetPlayerPos]] but lets you set a yaw and pitch for a specified view too
 |example = cheat spi -371471 -408636 -13584 -173.80 -12.91
+|consoleCompatible = Yes
+
 }}
 
 {{ConsoleCommand
@@ -892,10 +1046,35 @@ See also [[#Teleport|Teleport]], [[#TPCoords|TPCoords]], [http://jdimensional.co
 |arg1 = Type
 |type1 = String
 |note1 = [[Creature IDs|Type]] to destroy
+|arg2 = exact match
+|type2 = Bool
+|note2 = Defaults to true.
 |cheat = yes
-|description = Destroys all creatures of the specified type, both wild and tamed.
-Also destroys specified structures.
-|example = cheat DestroyAll Ankylo_Character_BP_C
+|description = Destroys all entities (like creatures, structures) of the specified type. 
+|example = cheat DestroyAll Ankylo_Character_BP_C 1
+|consoleCompatible = Yes
+}}
+
+;DestroyAllEggs
+ cheat destroyall DroppedItemGeneric_FertilizedEgg_RockDrake_NoPhysics_C 0
+ cheat destroyall DroppedItemGeneric_FertilizedEgg_NoPhysicsWyvern_C 0
+ cheat destroyall DroppedItemGeneric_FertilizedEgg_NoPhysicsDeinonychus_C 0
+ cheat destroyall DroppedItemGeneric_FertilizedEgg_NoPhysicsCherufe_C 0
+ cheat destroyall DroppedItemGeneric_FertilizedEgg_NoPhysicsCrystalWyvern_C 0
+
+''These commands will only destroy wild-spawned eggs. The trailing 0 is necessary for these specific examples as individual fertilized eggs have unique IDs (e.g. C_1, C_2 and C_3).''
+
+{{ConsoleCommand
+|name = DestroyWildDinoClasses
+|arg1 = ClassName
+|type1 = FString
+|note1 = [[Creature IDs|Type]] to destroy
+|arg2 = bExactMatch
+|type2 = Bool
+|note2 = 
+|cheat = yes
+|description = Destroys all wild creatures of the specified Class.
+|example = cheat DestroyWildDinoClasses "Ankylo_Character_BP_C" 1
 |consoleCompatible = Yes
 }}
 
@@ -903,8 +1082,22 @@ Also destroys specified structures.
 |name = DestroyAllEnemies
 |cheat = yes
 |description = Destroys all non-player creatures on the map, including tamed creatures. This does not prevent new ones from spawning as usual.
+|consoleCompatible = Yes
 |example = cheat destroyallenemies
-|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DestroyFoliage
+|arg1 = Radius
+|type1 = float
+|note1 = radius in UE units for command.
+|arg2 = PutFoliageResourcesInInventory
+|type2 = Bool
+|note2 =
+|cheat = yes
+|description = Destroys all foliage and resource nodes in radius
+|consoleCompatible = No
+|example = admincheat DestroyFoliage 1000 1
 }}
 
 {{ConsoleCommand
@@ -923,7 +1116,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |cheat = yes
 |added = [[207.0]]
 |description = Destroys all structures owned by all players on the map.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -931,7 +1124,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |cheat = yes
 |target = Target
 |added = [[226.4]]
-|description = Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at. Unclaimed dinos are in their own separate tribe, so using this command while targeting an unclaimed dino will destroy all unclaimed dinos and leave the tamed and wild dinos alone. This can be useful if config settings for breeding are very fast and a tribe or player leaves a pair of dinos to breed unchecked, crippling the performance of the singleplayer game or server by causing endlessly increasing lag/stutter from thousands of unclaimed dinos walking around freely.
+|description = Will destroy all dinos on the ARK, based on the Tribe owner (or player owner) of the thing that you are currently looking at. Unclaimed dinos are in their own separate tribe, so using this command while targeting an unclaimed dino will destroy all unclaimed dinos and leave the tamed and wild dinos alone. This can be useful if config settings for breeding are very fast and a tribe or player leaves a pair of dinos to breed unchecked, crippling the performance of the singleplayer game or server by causing endlessly increasing lag/stutter from thousands of unclaimed dinos walking around freely. This will also destroy motorboats owned by the tribe.
 |consoleCompatible = Yes
 }}
 
@@ -943,7 +1136,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |type1 = Integer[32]
 |note1 = Id of tribe to destroy
 |description = Will destroy a tribe.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -954,7 +1147,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |type1 = Integer[32]
 |note1 = Id of tribe to destroy all tames
 |description = Will destroy all tames in a tribe.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -965,7 +1158,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |type1 = Integer[32]
 |note1 = Id of tribe to destroy all players
 |description = Will destroy all players in a tribe.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -976,7 +1169,7 @@ To kill an entity and leave a corpse, use the <code>[[#Kill|Kill]]</code> comman
 |type1 = Integer[32]
 |note1 = Id of tribe to destroy all structures
 |description = Will destroy all structures in a tribe.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1022,7 +1215,21 @@ A shortcut to this command is <code>LessThan</code> (added in [[298.3]]).
 |example = cheat destroywilddinos
 }}
 
-== Tribe Managment Commands==
+{{ConsoleCommand
+|name = DestroyActors
+|arg1 = Type
+|type1 = String
+|note1 = classname of actors to destroy
+|arg2 = exact match
+|type2 = Bool
+|note2 = 
+|cheat = yes
+|description = Destroys all actors of the specified type.
+|example = cheat DestroyActors ? 1
+|consoleCompatible = Yes
+}}
+
+== Tribe Management Commands==
 {{ConsoleCommand
 |name = ForcePlayerToJoinTargetTribe
 |arg1 = PlayerID
@@ -1056,6 +1263,7 @@ Known to have problems if there are currently no longer members in the tribe, bu
 |cheat = yes
 |target = Self
 |description = Lets you join a targeted Tribe this command is a shortcut for <code>[[Console Commands#ForcePlayerToJoinTargetTribe|ForcePlayerToJoinTargetTribe]] 0</code>
+|consoleCompatible = Yes
 |example = 
 }}
 
@@ -1131,7 +1339,7 @@ See also <code>[[#ForcePlayerToJoinTargetTribe|ForcePlayerToJoinTargetTribe]]</c
 |description = Sets yourself in [[Creative Mode]]. The command can be abbreviated as <code>GCM</code>.
 
 See also <code>[[#GiveCreativeModeToTarget|GiveCreativeModeToTarget]]</code>, <code>[[#GiveCreativeModeToPlayer|GiveCreativeModeToPlayer]]</code>
-|example = cheat GiveCreativeMode<br>cheat gcm
+|example = cheat GiveCreativeMode<br/>cheat gcm
 |consoleCompatible = Yes
 }}
 
@@ -1142,7 +1350,7 @@ See also <code>[[#GiveCreativeModeToTarget|GiveCreativeModeToTarget]]</code>, <c
 |description = Sets the target you are visiting in [[Creative Mode]]. The command can be abbreviated as <code>GCMT</code>.
 
 See also <code>[[#GiveCreativeMode|GiveCreativeMode]]</code>, <code>[[#GiveCreativeModeToPlayer|GiveCreativeModeToPlayer]]</code>
-|example = cheat GiveCreativeModeToTarget<br>cheat GCMT
+|example = cheat GiveCreativeModeToTarget<br/>cheat GCMT
 |consoleCompatible = Yes
 }}
 
@@ -1177,12 +1385,49 @@ See also <code>[[#GiveCreativeMode|GiveCreativeMode]]</code>, <code>[[#GiveCreat
 |description = Adds the specified number of experience points to the player (or the currently mounted dinosaur if the player is mounted).
 To give another player experience, use the <code>GiveExpToPlayer</code> command.
 
-This command is affected by the XPMultiplier setting and the hardcoded multiplier of 2 since [[253.0]]. I.e. the amount you will get is the value of the argument HowMuch × 2 × your XPMultiplier setting value.
+This command is affected by the XPMultiplier setting and the hardcoded multiplier of 4 since [[313.5]]. I.e. the amount you will get is the value of the argument HowMuch × 4 × your XPMultiplier setting value.
 
 |example = cheat addexperience 1000 0 1
 |consoleCompatible = Yes
 }}
 
+{{ConsoleCommand
+|name=AddChibiExp
+|arg1=HowMuch
+|type1=Float
+|note1=Amount to add
+|cheat=yes
+|target = Self
+|description = Adds the specified number of experience points to the command-executing player's currently equipped [[Chibi-Pet]].
+}}
+
+{{ConsoleCommand
+|name=AddChibiExpToPlayer
+|arg1=PlayerID
+|type1 = Integer[32]
+|note1 = Player's in-game UE4 ID
+|arg2=HowMuch
+|type2=Float
+|note2=Amount to add
+|cheat=yes
+|description = Adds the specified number of experience points to the target player. If no Chibi is equipped then XP will be applied to the player.
+}}
+
+{{ConsoleCommand
+|name = DebugAllowvrMissionTeleport
+|target = Self
+|description = Allows teleport in Genesis: Part 1 to the final boss without completing missions.
+|consoleCompatible = Yes
+|cheat=Yes}}
+
+{{ConsoleCommand
+|name = forcecompleteactivemission 0
+|target = Self
+|description = Completes the current mission successfully on Genesis Part 1 and Part 2. ''This does unfortunately put you at the top of the scoreboard in most cases.''
+|consoleCompatible = Yes
+|cheat=Yes}}
+
+admincheat forcecompleteactivemission 0
 {{ConsoleCommand
 |name = UnlockEngram
 |cheat = yes
@@ -1192,7 +1437,7 @@ This command is affected by the XPMultiplier setting and the hardcoded multiplie
 |note1 = a [[Item IDs|blueprint path]]
 |description = Unlocks Tekgram (Tek Engrams)
 |example = cheat UnlockEngram "Blueprint'/Game/PrimalEarth/...something'"
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1255,7 +1500,7 @@ See also <code>[[#LeaveMeAlone|LeaveMeAlone]]</code>.
 |target = Self
 |added = 0.0 (UE1)
 |description = Activates "fly mode", permitting the player character to move freely in any direction without physics or gravity being applied.
-Use the <code>[[#Walk|walk]]</code> command to disable the mode.<br>
+Use the <code>[[#Walk|walk]]</code> command to disable the mode.<br/>
 If the command is issued while mounted (or the player mounts a tame while in "fly" mode) the animal cannot be moved straight up and down via the keys, but can be made to "fly" by either walking off a cliff, or by pointing the cursor up while moving forward (or point down to descend). Currently, the flying command does not work while mounted on Megalania
 
 See also <code>[[#Ghose|Ghost]]</code>
@@ -1292,7 +1537,7 @@ See also <code>[[#Ghose|Ghost]]</code>
 |target = Self
 |description = Unlocks ''all'' crafting recipes for the player character. May lag a little.
 |example = cheat giveengrams
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1310,10 +1555,10 @@ See also <code>[[#Ghose|Ghost]]</code>
 |note1 = Player's in-game UE4 ID<br />can be found by looking at the implant of a player 
 |arg2 = partial name
 |type2 = String
-|note2 = significant part of the Blueprint that can be found here: [[Item_IDs]]
+|note2 = significant part of the Blueprint that can be found here: [[Item IDs]]
 |cheat = yes
-|description =  provide the partial string of a tek engram to give them to players, works similar to [[#GFI|GFI]]<br>
-Tekgrams unlocked this way will stay even after a relog and server restart. <br> Using the example will unlock almost all Tekengrams
+|description =  provide the partial string of a tek engram to give them to players, works similar to [[#GFI|GFI]]<br/>
+Tekgrams unlocked this way will stay even after a relog and server restart. <br/> Using the example will unlock almost all Tekengrams
 |example = cheat GiveTekengramsTo 125785415 tek}}
 
 {{ConsoleCommand
@@ -1333,7 +1578,9 @@ Tekgrams unlocked this way will stay even after a relog and server restart. <br>
 |note4 = <code>1</code>: player only; <code>0</code>: share with tribe
 |description = Gives the specified player the specified amount of experience points.
 To easily give yourself experience, use the <code>[[#AddExperience|AddExperience]]</code> command.
-|consoleCompatible = Unknown
+
+This command is affected by the XPMultiplier setting and the hardcoded multiplier of 4 since [[313.5]]. I.e. the amount you will get is the value of the argument HowMuch × 4 × your XPMultiplier setting value.
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1412,7 +1659,7 @@ To give items to another player, use <code>[[#GiveItemNumToPlayer|GiveItemNumToP
 To specify items by their item number, use <code>[[#GiveItemNumToPlayer|GiveItemNumToPlayer]]</code>.
 
 To give items to yourself, use <code>[[#GiveItemNum|GiveItemNum]]</code>.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1439,7 +1686,7 @@ To specify items by their blueprint path, use <code>[[#GiveItemToPlayer|GiveItem
 
 To give items to yourself, use <code>[[#GiveItemNum|GiveItemNum]]</code>.
 |example = cheat GiveItemNumToPlayer 1234567890 1 1 0 0
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1585,7 +1832,7 @@ See also <code>[[#GMBuff|GMBuff]]</code>
 |description = Opens or closes the in-game menu (when you hit the escape key).
 
 To specifically show the in-game menu, use the <code>[[#ShowInGameMenu|ShowInGameMenu]]</code> command.
-|consoleCompatible = Unknown
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -1596,7 +1843,7 @@ To specifically show the in-game menu, use the <code>[[#ShowInGameMenu|ShowInGam
 |note1 = Map's Name
 |description = Loads the map specified by its name. (not sure if a file path is accepted)
 |example = cheat OpenMap TheIsland
-|consoleCompatible = Unknown
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -1604,7 +1851,7 @@ To specifically show the in-game menu, use the <code>[[#ShowInGameMenu|ShowInGam
 |cheat = yes
 |arg1 = CommandName
 |type1 = String
-|note1 = possible values:<br>Ascend1 (for Gamma)<br>Ascend2 (for Beta)<br>Ascend3 (for Alpha)
+|note1 = possible values:<br/>Ascend1 (for Gamma)<br/>Ascend2 (for Beta)<br/>Ascend3 (for Alpha)<br/>AbAscend1 (for Aberration's Gamma)<br/>AbAscend2 (for Aberration's Beta)<br/>AbAscend3 (for Aberration's Alpha)<br/>EXTAscend1 (for Extinction's Gamma)<br/>EXTAscend2 (for Extinction's Beta)<br/>EXTAscend3 (for Extinction's Alpha)<br/>Genascend1 (for Genesis: Part 1's Gamma)<br/>Genascend2 (for Genesis: Part 1's Beta)<br/>Genascend3 (for Genesis: Part 1's Alpha)<br/>Gen2Ascend1 (for Genesis: Part 2' Gamma)<br/>Gen2Ascend2 (for Genesis: Part 2' Beta)<br/>Gen2Ascend3 (for Genesis: Part 2' Alpha)
 |description = Currently used to give the player the ascension effect.
 |example = cheat playercommand Ascend1
 |consoleCompatible = Yes
@@ -1726,7 +1973,7 @@ To simply toggle between god mode states, use the command <code>[[#God|God]]</co
 |type2 = Float
 |note2 = ...
 |description = Setting a value between -1.0 and 1.0 will adjust the targeted player area. Standard value is 0.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1741,14 +1988,14 @@ To simply toggle between god mode states, use the command <code>[[#God|God]]</co
 |type2 = Float
 |note2 = For eyes: 0 is yellow-ish, 0.4 is green-blue-ish, 0.5 is green 0.7 is orange, 0.8 is red
 |description = Changes the color of various parts of the body. Does ''not'' use [[Color IDs]], but a percentage of the slider seen at character creation.
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
 |name = ShowInGameMenu
 |target = Self
 |description = Displays the in-game menu (same as when you hit the escape key).
-|consoleCompatible = Unknown
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -1772,8 +2019,8 @@ To simply toggle between god mode states, use the command <code>[[#God|God]]</co
 |name = Suicide
 |target = Self
 |added = 0.0 (UE2)
-|description = Kills yourself. Does the same thing as hurting yourself (see <code>[[#HurtMe|HurtMe]]</code> command) for your current health, so it will not work if you are invincible. Was originally part of the game when it came out, but it was removed in a later patch. Since then it was re-added.
-|consoleCompatible = Unknown
+|description = Kills yourself. Does the same thing as hurting yourself (see <code>[[#HurtMe|HurtMe]]</code> command) for your current health, so it will not work if you are invincible. Was originally part of the game when it came out, but it was removed in a later patch. Since then it was re-added. This does not work on console due to word moderation.
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -1810,6 +2057,8 @@ To simply toggle between god mode states, use the command <code>[[#God|God]]</co
 |added = [[281.107]]
 |description = Sets all stats to maximum once ,like [[Console Commands#InfiniteStats|InfiniteStats]]
 |example = Cheat RefillStats
+|consoleCompatible = Yes
+
 }}
 
 {{ConsoleCommand
@@ -1922,7 +2171,7 @@ Tier is a required integer and should be one of the following:
 |added = [[298.3]]
 |description = Unlock Alpha [[Overseer]] and Alpha [[Rockwell]] ascensions for the player matching the given ID. While the player will unlock the levels and the tekgrams associated with the ascensions, his implant won't change until his character is uploaded then downloaded back and/or the current server save is wiped.
 |example = cheat MaxAscend 0
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1942,19 +2191,21 @@ Tier is a required integer and should be one of the following:
 <table class="wikitable">
     <tr><th>BossName Value</th><th>Boss Name</th></tr>
     <tr><td><code>Guardian</code></td><td>[[Overseer]]</td>
-    <tr><td><code>Rockwell</code></td><td>[[Rockwell]]</td>
     <tr><td><code>Uberspider</code></td><td>[[Broodmother Lysrix]]</td>
     <tr><td><code>Megapithecus</code></td><td>[[Megapithecus]]</td>
     <tr><td><code>Dragon</code></td><td>[[Dragon]]</td>
     <tr><td><code>Manticore</code></td><td>[[Manticore]]</td>
+    <tr><td><code>Rockwell</code></td><td>[[Rockwell]]</td>
     <tr><td><code>King Titan</code></td><td>[[King Titan]]</td>
     <tr><td><code>IceKaiju</code></td><td>[[Ice Titan]]</td>
     <tr><td><code>ForestKaiju</code></td><td>[[Forest Titan]]</td>
     <tr><td><code>DesertKaiju</code></td><td>[[Desert Titan]]</td>
+    <tr><td><code>VrMainBoss</code></td><td>[[Corrupted Master Controller]]</td>
+    <tr><td><code>Gen2Rockwell </code></td><td>[[Rockwell Prime]]</td>
 </table>
-It is currently impossible to unlock the modded variants of these bosses thus making it impossible to unlock the mod-specific Tekgrams such as the [[Tek Light (Ragnarok)]], [[Tek Shield (Ragnarok)]], etc. with that command.
+It is currently impossible to unlock the modded variants of these bosses thus making it impossible to unlock the mod-specific Tekgrams such as the [[Tek Light]], [[Tek Shield]], etc. with that command.
 |example = cheat DefeatBoss 0 "King Titan" 2
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -1965,6 +2216,7 @@ It is currently impossible to unlock the modded variants of these bosses thus ma
 |cheat = yes
 |added = [[298.3]]
 |description = Unlock all the bosses of alpha difficulty for the player matching the given ID.
+|consoleCompatible = Yes
 |example = cheat DefeatAllBosses 0
 Would be the equivalence of individually running the [[#DefeatBoss|DefeatBoss]] command for all the available bosses with a difficulty of 2.
 }}
@@ -1974,7 +2226,7 @@ Would be the equivalence of individually running the [[#DefeatBoss|DefeatBoss]] 
 |target = Self
 |cheat = yes
 |added = [[279.224]]
-|description = Unlock all the explorer notes for the player issuing the command. Your client might freeze for a while after performing this command.
+|description = Unlock all the Explorer Notes and Fjordur Runes for every ark for the player issuing the command. Your client might freeze for a while after performing this command.
 |example = cheat GiveAllExplorerNotes
 }}
 
@@ -1986,7 +2238,7 @@ Would be the equivalence of individually running the [[#DefeatBoss|DefeatBoss]] 
 |target = Self
 |cheat = yes
 |added = [[279.224]]
-|description = Unlock the note matching the specified index.
+|description = Unlock the note matching the specified index.<br/>As of [[310.94]], the player issuing that command must be standing next to an actual "Explorer Note" to unlock the notes that aren't "Creature Dossier".
 |example = cheat GiveExplorerNote 17
 Would unlock the [[#Carnotaurus|Carnotaurus]] dossier for the player issuing the command.
 }}
@@ -2001,6 +2253,19 @@ Would unlock the [[#Carnotaurus|Carnotaurus]] dossier for the player issuing the
 |description = Adds the specified amount of hexagons to the player issuing the command.
 
 |example = cheat AddHexagons 1000
+|consoleCompatible = Yes
+}}
+
+{{ConsoleCommand
+|name = InfiniteWeight
+|cheat = yes
+|target = Self
+|added = [[310.62]]
+|description = Toggle infinite weight. However, your character will still be limited to 299 slots of inventory (300, minus your implant).
+
+If used while riding a creature, it will be able to move around while encumbered but you won't be able to transfer to its inventory more than the usual 2x its current max weight.
+
+An alias of this command is <code>DeepPockets</code>.
 |consoleCompatible = Unknown
 }}
 
@@ -2039,6 +2304,7 @@ See also <code>[[#ForceTame|ForceTame]]</code>.
 |cheat = yes
 |target = Target
 |description = Dumps the stats for the dino you are riding or looking at to the cheat console output. Same data as the [[Admin Blink Rifle]]'s inspect mode.
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -2075,7 +2341,7 @@ See also <code>[[#DoTame|DoTame]]</code>
 |note3 = height above the player
 |description = Spawns a mix of sheep and dodos above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
 |example = Cheat RainCritters 10 500 25
-|consoleCompatible = yes
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -2091,7 +2357,7 @@ See also <code>[[#DoTame|DoTame]]</code>
 |note3 = height above the player
 |description = Spawns a mix of trikes and parasaurs above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
 |example = Cheat RainDinos 10 500 25
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 |added = [[281.107]]
 }}
 
@@ -2108,7 +2374,7 @@ See also <code>[[#DoTame|DoTame]]</code>
 |note3 = height above the player
 |description = Spawns a mix of rexes and allos above the player, cannot change the creatures as it's hard coded into the game.<br/>Similar to SpawnActorSpread.<br/>Default numbers are 30 300 200
 |example = Cheat RainDanger 10 500 25
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 |added = [[281.107]]
 }}
 
@@ -2121,18 +2387,27 @@ See also <code>[[#DoTame|DoTame]]</code>
 |arg2 = Tamed
 |type2 = Boolean
 |note2 = <code>true</code> or 1: tamed, <code>false</code> or 0: wild
-|description = Spawn a creature of the specified type with a random level in front of the player character.
+|arg3 = level
+|type3 = float
+|note3 = Give creature a specific level, set to 0 for random
+|description = Spawn a creature of the specified type in front of the player character. For tames, it is '''necessary''' to put the creature in and out of a cryopod after spawning to get the correct stat values.
 
 The NamePart has to be unique enough to specify the desired creature. E.g. "mega" is part of a lot of creature Entity IDs and is not suitable to specify what you want, but "Griff" is significant enough to address a Griffin.
 
 For a list of all Entity IDs see [[Creature IDs]].
 
-See also [[#GMSummon|GMSummon]], [[#Summon|Summon]], [[#SpawnDino|SpawnDino]]
-|example = cheat sdf dodo 1
+See also [[#GMSummon|GMSummon]], [[#Summon|Summon]], [[#SpawnDino|SpawnDino]], [[#SDFRide|SDFRide]]
+|example = cheat sdf dodo 1 192
 |consoleCompatible = Yes
-}}
+}}{{ConsoleCommand|name=SDFRide|cheat=Yes|arg1=NamePart|arg2=Tamed|arg4=level|type1=String|type2=Boolean|type4=Float|note1=significant part of a creature's Entity ID (without _C)|note2=<code>true</code> or 1: tamed, <code>false</code> or 0: wild|note4=Give creature a specific level, set to 0 for random|description=Similar to [[#SDF|SDF]] except you control as either a Wild or Tamed Dino but you cannot access the creature's inventory by yourself
 
-{{ConsoleCommand
+The NamePart has to be unique enough to specify the desired creature. E.g. "mega" is part of a lot of creature Entity IDs and is not suitable to specify what you want, but "Griff" is significant enough to address a Griffin.
+
+'''Note''': this command has started spawning in creatures with unstable melee and/or health stats.  You can spawn the creature in, note the health and or melee then cryo the creature.  When you throw the creature out you may find that one or both stats have changed.
+
+For a list of all Entity IDs see [[Creature IDs]].
+
+See also [[#GMSummon|GMSummon]], [[#Summon|Summon]], [[#SpawnDino|SpawnDino]],[[#ForceTame|ForceTame]], [[#SDF|SDF]]|consoleCompatible=unknown|example=cheat sdfride trilobite 1 150}}{{ConsoleCommand
 |name = SetBabyAge
 |cheat = yes
 |target = Target
@@ -2174,6 +2449,23 @@ See also <code>[[#SetBabyAge|SetBabyAge]]</code>
 }}
 
 {{ConsoleCommand
+|name  = SetStatOnTarget
+|cheat = yes
+|target = Target
+|arg1 = StatName
+|type1 = string (without quotes)
+|note1 = Possible values are Health, Stamina, Torpidity, Oxygen, Food, Weight, Speed, Torpidity<br/>
+Food and Torpidity is capped at the current max stat value.<br/>
+The current values of speed is not updated in the inventory but are in effect until a levelup.<br/>
+The needed parameter value of the damage stat is currently unknown.
+|arg2 = stat value
+|type2 = integer
+|note2 = For multiplier stats (speed, damage, craftingSpeed), 1 represents 100 %.
+|description = Changes the current value on the set stat. It will not change the max value, when the stat value is recalculated the value will be reset, e.g. after a level up or for HP if the creature is damaged.
+|example = cheat SetStatOnTarget Speed 5
+}}
+
+{{ConsoleCommand
 |name = TransferImprints
 |cheat = yes
 |arg1 = oldPlayerID
@@ -2185,9 +2477,21 @@ See also <code>[[#SetBabyAge|SetBabyAge]]</code>
 |arg3 = NewImprinterName
 |type3 = String
 |note3 =
+|consoleCompatible = Yes
 |description = Transfers all dinos that are imprinted on the oldPlayerId to the newPlayerId. If the newPlayerId is online or located it will use that player's name otherwise it will use NewImprinterName.
 }}
 
+{{ConsoleCommand
+|name = SetTamingEffectivenessModifier
+|cheat = yes
+|target = Target
+|arg1 = tameEff
+|type1 = Float
+|note1 = Value of taming effectiveness from 0 to 1.0. Value 1.0 corresponds to 100 %
+|description = Set value taming effectivenes for dino that is being tamed now.
+|example = cheat SetTamingEffectivenessModifier 1.0
+|consoleCompatible = Yes
+}}
 
 {{ConsoleCommand
 |name = SetTargetDinoColor
@@ -2224,7 +2528,7 @@ See also <code>[[#SetBabyAge|SetBabyAge]]</code>
 
 See also <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#Summon|Summon]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
 |example = cheat spawnactor "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'" 500 0 0
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -2290,7 +2594,7 @@ See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnActorSpread|Spaw
 
 See also <code>[[#SpawnActor|SpawnActor]]</code>, <code>[[#SpawnActorSpread|SpawnActorSpread]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>, <code>[[#SummonTamed|SummonTamed]]</code>, <code>[[#GMSummon|GMSummon]]</code>
 |example = cheat summon Ankylo_Character_BP_C
-|consoleCompatible = Unknown
+|consoleCompatible = Yes
 }}
 
 {{ConsoleCommand
@@ -2337,6 +2641,7 @@ See also <code>[[#Summon|Summon]]</code>, <code>[[#SpawnDino|SpawnDino]]</code>
 |type2 = Integer[32]
 |note2 = number of dinos to spawn. Use 0 to spawn the full set.
 |description = Spawns a set of dinos in the specified tier, fully set up with reasonably optimized stats and saddles.<br/>
+|consoleCompatible = Yes
 Tier is a required argument and should be one of the following:
 <table class="wikitable">
 <tr><th>Tier</th><th>contains</th></tr> 
@@ -2345,14 +2650,91 @@ Tier is a required argument and should be one of the following:
 <tr><td><code>2</code></td><td>{{ItemLink|Rex}}, {{ItemLink|Spino}}, {{ItemLink|Paracer}}, {{ItemLink|Therizinosaur}}</td></tr>
 <tr><td><code>3</code></td><td>1 normal {{ItemLink|Rex}} and 1 with {{ItemLink|Rex Tek Saddle}}, {{ItemLink|Daeodon}}, {{ItemLink|Yutyrannus}}, {{ItemLink|Therizinosaur}}</td></tr>
 <tr><td><code>Flyers</code></td><td>{{ItemLink|Pteranodon}}, {{ItemLink|Tapejara}} with {{ItemLink|Tapejara Tek Saddle}}, {{ItemLink|Argentavis}}, {{ItemLink|Quetzal}}</td></tr>
-<tr><td><code>Mek</code></td><td>{{ItemLink|Mek|quantity=3}}s, one with each module - {{ItemLink|M.S.C.M. (Extinction)}}, {{ItemLink|M.R.L.M. (Extinction)}}, {{ItemLink|M.D.S.M. (Extinction)}}, {{ItemLink|Element}} and ammo for each</td></tr>
-<tr><td><code>SiegeMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.S.C.M. (Extinction)}}, {{ItemLink|Element}}, {{ItemLink|Cannon Shell (Extinction)}}</td></tr>
-<tr><td><code>MissleMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.R.L.M. (Extinction)}}, {{ItemLink|Element}}, {{ItemLink|Rocket Pod (Extinction)}}</td></tr>
-<tr><td><code>ShieldMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.D.S.M. (Extinction)}}, {{ItemLink|Element}}</td></tr>
+<tr><td><code>Mek</code></td><td>{{ItemLink|Mek|quantity=3}}s, one with each module - {{ItemLink|M.S.C.M.}}, {{ItemLink|M.R.L.M.}}, {{ItemLink|M.D.S.M.}}, {{ItemLink|Element}} and ammo for each</td></tr>
+<tr><td><code>SiegeMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.S.C.M.}}, {{ItemLink|Element}}, {{ItemLink|Cannon Shell}}</td></tr>
+<tr><td><code>MissleMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.R.L.M.}}, {{ItemLink|Element}}, {{ItemLink|Rocket Pod}}</td></tr>
+<tr><td><code>ShieldMek</code></td><td>{{ItemLink|Mek}}, {{ItemLink|M.D.S.M.}}, {{ItemLink|Element}}</td></tr>
 <tr><td><code>Argent</code></td><td>one really good {{ItemLink|Argentavis}}</td></tr>
 <tr><td><code>Extinction</code></td><td>{{ItemLink|Enforcer}}, {{ItemLink|Gasbags}}, {{ItemLink|Snow Owl}}, {{ItemLink|Gacha}}, {{ItemLink|Managarmr}}, {{ItemLink|Velonasaur}}</td></tr>
 </table>
 |example = cheat GiveDinoSet Mek 0
+}}
+
+{{ConsoleCommand
+|name = SpawnExactDino
+|cheat = yes
+|arg1 = DinoBlueprintPath
+|type1 = String
+|note1 = <span style="background:darkred;font-weight:bold;color:white">If there is a typo in the blueprint path the game will crash!</span><br/>
+[[Creature IDs|Blueprint path]]
+|arg2 = SaddleBlueprintPath
+|type2 = String
+|note2 = [[Item IDs|Blueprint path]]<br/>
+To spawn the creature without saddle pass an empty string (<code>""</code>)
+|arg3 = SaddleQuality
+|type3 = float
+|note3 = Quality of the equipped saddle
+|arg4 = BaseLevel
+|type4 = Integer[32]
+|note4 = Level of the spawned Dino.<br/>
+If the level is not the sum of <code>BaseStats</code> + 1, the creature stats may be broken.
+|arg5 = ExtraLevels
+|type5 = Integer[32]
+|note5 = Sum of the domesticated levels<br/>
+If the value is not the sum of <code>AddedStats</code>, the creature stats may be broken.
+|arg6 = BaseStats
+|type6 = String
+|note6 = Comma separated string with the base levels<br/>
+The order is health, stamina, oxygen, food, weight, melee damage, movement speed, crafting skill<br/>
+The set levels will only be visible after putting the creature in and out of a [[crypod]].<br/>
+Syntax example: <code>"0,0,0,0,0,0,0,0"</code>
+|arg7 = AddedStats
+|type7 = String
+|note7 = Comma separated string with the domesticated levels<br/>
+The order is health, stamina, oxygen, food, weight, melee damage, movement speed, crafting skill<br/>
+The set levels will only be visible after putting the creature in and out of a [[crypod]].<br/>
+Syntax example: <code>"0,0,0,0,0,0,0,0"</code><br/>
+|arg8 = DinoName
+|type8 = String
+|arg9 = Cloned
+|type9 = Integer[8]
+|arg10 = Neutered
+|type10 = Integer[8]
+|arg11 = TamedOn
+|type11 = String
+|arg12 = UploadedFrom
+|type12 = String
+|arg13 = ImprinterName
+|type13 = String
+|note13 = If left empty, there will be no imprint
+|arg14 = ImprinterPlayerID
+|type14 = Integer[32]
+|arg15 = ImprintQuality
+|type15 = float
+|arg16 = Colors
+|type16 = String
+|note16 = Comma separated string with the [[Color IDs|color ids]]<br/>
+Syntax example: <code>"0,0,0,0,0,0"</code><br/>
+The colors will appear if the creature was put in and out of a [[cryopod]].<br/>
+If an empty string (<code>""</code>) is passed, the colors will be randomly taken from the natural occuring colors of that species.
+|arg17 = DinoID
+|type17 = Integer[64]
+|note17 = If <code>0</code> is passed, the game will roll the id.
+|arg18 = Exp
+|type18 = Integer[64]
+|arg19 = spawnDistance
+|type19 = float
+|arg20 = YOffset
+|type20 = float
+|arg21 = ZOffset
+|type21 = float
+|description = 
+<span style="background:darkred;font-weight:bold;color:white">Warning: This command will crash your game if there's a typo in one of the blueprint paths. The creature must be put in and out of a [[cryopod]] or it will display wrong stat values and colors. Only use this command if you cannot use any of the stable alternatives like [[#Summon|Summon]] or [[#SpawnDino|SpawnDino]].</span>
+Make sure to follow the requirements of the spawn commands (e.g. the sum of the <code>ExtraLevels</code> needs to be the value of <code>ExtraLevels</code>). It is necessary to put the creature in and out of a cryopod after spawning to get the correct stat values and colors - without doing so, the creature will have random colors and display wrong stat values.<br/>Spawns a fully set up dino with the specified saddle, specified base and domesticated levels, colors.<br/>
+This cheat tends to be long and cumbersome - you might want to write them in notepad and copy-paste them into the game when needed<br/>
+Note that some parameters like SaddleBlueprintPath and DinoStats are string arguments, so if you don't want to use them, you should use <code>""</code> (the empty string)<br/>
+The tool provided by [https://arkutils.netlify.app/tools/spawnexact ArkUtils] may be used to generate a command.
+|example = cheat SpawnExactDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'" "" 1 1 0 "0,0,0,0,0,0,0,0" "0,0,0,0,0,0,0,0" "Raptor" 0 0 "" "" "" 0 0 "" 0 0 0 20 20
 }}
 
 {{ConsoleCommand
@@ -2365,14 +2747,14 @@ Tier is a required argument and should be one of the following:
 |type2 = String
 |note2 = [[Item IDs|Blueprint path]]
 |arg3 = SaddleQuality
-|type3 = Integer[32]
+|type3 = float
 |note3 = Quality of the equipped saddle
 |arg4 = DinoLevel
 |type4 = Integer[32]
 |note4 = Level of the spawned Dino
 |arg5 = DinoStats
 |type5 = String
-|note5 = DinoStats is a string that contains a comma separated list of base stats to give the dino<<br/>
+|note5 = DinoStats is a string that contains a comma separated list of domesticated levels to give the creature<br/>
 base stats are: <code>Health</code>, <code>Stamina</code>, <code>Torpidity</code>, <code>Oxygen</code>, <code>Food</code>, <code>Water</code>, <code>Temperature</code>, <code>Weight</code>, <code>MeleeDamageMultiplier</code>, <code>SpeedMultiplier</code>, <code>TemperatureFortitude</code>, <code>CraftingSpeedMultiplier</code><br/>
 Syntax example: <code>"Health=30,MeleeDamageMultiplier=20,Weight=10"</code>
 |arg6 = SpawnDistance
@@ -2384,7 +2766,9 @@ Syntax example: <code>"Health=30,MeleeDamageMultiplier=20,Weight=10"</code>
 |arg8 = ZOffset
 |type8 = float
 |note8 = Height at which the Dino will be spawned 
-|description = Spawns a fully set up dino with the specified saddle, level, and base stats<br/>
+|description = Spawns a fully set up dino with the specified saddle, tamed at Level with random base stats, and preapplied levels to the selected stats up to {{SpeciesMaxDomesticatedLevel}} total levels.<br/>
+The spawned creature will be tamed, regarding achievements this counts as taming it.<br/>
+|consoleCompatible = Yes
 This cheat tends to be long and cumbersome - you might want to write them in notepad and copy-paste them into the game when needed<br/>
 Note that SaddleBlueprintPath and DinoStats are string arguments, so if you don't want to use them, you should use <code>""</code> (the empty string)
 |example = cheat SpawnSetupDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'" "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'" 1 80 "Health=30,MeleeDamageMultiplier=20,Weight=10" 500 500 0
@@ -2402,6 +2786,7 @@ Note that SaddleBlueprintPath and DinoStats are string arguments, so if you don'
 |cheat = yes
 |target = Target
 |description = Clears the cryo-sickness status of the tame you are looking at and wakes it up.
+|consoleCompatible = Yes
 |added = [[297.17]]
 }}
 
@@ -2485,6 +2870,13 @@ If you're riding a dino, these cheats will apply to that dino. Otherwise they wi
 |cheat = yes
 |description = Constantly refills inflation to keep it at maximum (toggle)
 |example = cheat Dino InfiniteGas
+}}
+
+{{ConsoleCommand
+|name = Dino TitanMode
+|cheat = yes
+|description = Multiplies the inflation by 10x
+|example = cheat Dino TitanMode
 }}
 
 ;'''Mek'''
@@ -2618,7 +3010,7 @@ Only the [https://udn.epicgames.com/Three/StatsDescriptions.html#Standalone%20St
 <tr><td>Unit</td><td>Displays the time spent for the current frame on the CPU, the time spent in the game thread, the time spent in the render thread, and the time spent for the current frame on the GPU. The GPU frame time is only displayed if the time spent is greater than 0 (e.g. the GPU is actually being used / does exist).</td></tr>
 <tr><td>UnitGraph</td><td>Normally graphs the information in the "stat unit" command in UE4 games, but the graph is apparently also disabled. Color codes the labels in the "stat unit" command output.</td></tr>
 </table>
-|consoleCompatible = Unknown
+|consoleCompatible = No
 }}
 
 {{ConsoleCommand
@@ -2661,8 +3053,15 @@ Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>Sho
 |consoleCompatible = Unknown
 }}
 
-== unknown ==
-;commands that seem to be available but no info on how to us them:
+== Unknown ==
+Commands that seem to be available but no info on how to use them:
+{{ConsoleCommand
+|name = AddItemToAllClustersInventory
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
 {{ConsoleCommand
 |name = AutoCycle
 |arg1 = Duration
@@ -2676,6 +3075,13 @@ Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>Sho
 |name = DoRestartLevel
 |cheat = yes
 |description = Unknown? Appears to trigger an internal map restart.
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
+|name = DupeLastItem
+|cheat = yes
+|description = Unknown?
 |consoleCompatible = Unknown
 }}
 
@@ -2700,9 +3106,12 @@ Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>Sho
 }}
 
 {{ConsoleCommand
-|name = TestSteamRefreshItems
+|name = PrintActorLocation
 |cheat = yes
-|description = Unknown?
+|arg1 = ActorName
+|type1 = FString
+|note1 = 
+|description = ?
 |consoleCompatible = Unknown
 }}
 
@@ -2721,49 +3130,14 @@ Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>Sho
 }}
 
 {{ConsoleCommand
+|name = TestSteamRefreshItems
+|cheat = yes
+|description = Unknown?
+|consoleCompatible = Unknown
+}}
+
+{{ConsoleCommand
 |name = VisualizeClass
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = VisualizeWorld
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = VisualizeWorldGeo
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = PrintActorLocation
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = AddItemToAllClustersInventory
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = UnlockAchievement
-|cheat = yes
-|description = Unknown?
-|consoleCompatible = Unknown
-}}
-
-{{ConsoleCommand
-|name = TeleportToActorLocation
 |cheat = yes
 |description = Unknown?
 |consoleCompatible = Unknown
@@ -2774,5 +3148,11 @@ Prefix the value in the first column with <code>ShowDebug</code>, e.g. <code>Sho
 
 {{Nav technical}}
 [[Category:Guides]]
-{{MissingTranslations|pl|it|de|es|pt-br|fr}}
 [[Category:Servers]]
+[[de:Konsolenbefehle]]
+[[fr:Commandes de Console]]
+[[ja:Console Commands]]
+[[pt-br:Comandos de Console]]
+[[ru:Консольные Команды]]
+[[th:คอนโซลคำสั่ง]]
+{{MissingTranslations|es|it|pl}}

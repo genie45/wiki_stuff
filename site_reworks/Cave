@@ -1,0 +1,473 @@
+There are two types of '''caves''' that can be found in ARK: Progression Caves and Resources Caves, the latter caves being found underwater on The Island and most regions of Ragnarok. Some are easy to explore, others extremely difficult. If you survive the  dangers of the caves, however, they each contain a variety of resources to obtain.
+
+==Progression Caves==
+<tabber>
+  The Island=
+    <ul class="photo-nav">
+      {{ Photo | CaveC.jpg |
+	   | caption/link = Central Cave
+	   | icon         = Artifact_Of_The_Clever.png
+	  }}
+      {{ Photo | CaveNW.jpg |
+	   | caption/link = North West Cave
+	   | icon         = Artifact_Of_The_Skylord.png
+	  }}
+      {{ Photo | CaveLS.jpg |
+	   | caption/link = Lower South Cave
+	   | icon         = Artifact_Of_The_Hunter.png
+	  }}
+      {{ Photo | CaveNE.jpg |
+	   | caption/link = North East Cave
+	   | icon         = Artifact_Of_The_Devourer.png
+	  }}
+      {{ Photo | CaveUS.jpg |
+	   | caption/link = Upper South Cave
+	   | icon         = Artifact_Of_The_Pack.png
+	  }}
+      {{ Photo | Lava Cave.jpg |
+	   | caption/link = Lava Cave
+	   | icon         = Artifact_Of_The_Massive.png
+	  }}
+      {{ Photo | CaveSwamp.jpg |
+	   | caption/link = Swamp Cave
+	   | icon         = Artifact_Of_The_Immune.png
+	  }}
+      {{ Photo | CaveSnow.jpg |
+	   | caption/link = Snow Cave
+	   | icon         = Artifact_Of_The_Strong.png
+	  }}
+      {{ Photo | The Caverns of Lost Hope.jpg |
+	   | caption/link = The Caverns of Lost Hope
+	   | icon         = Artifact_Of_The_Cunning.png
+	  }}
+      {{ Photo | The Caverns of Lost Faith.jpg |
+	   | caption/link = The Caverns of Lost Faith
+	   | icon         = Artifact_Of_The_Brute.png
+	  }}
+      {{ Photo | Tek Cave Inside2.jpg |
+	   | caption/link = Tek Cave
+	   | icon         = Overseer.png
+	  }}
+    </ul>
+
+===Locations===
+
+{{MapLocations|mapsize=400|float=right|text=Difficulty: Green = Standard; Red = Hard<br/>Cyan = Standard Underwater; Blue = Hard Underwater.|
+19.3,19.0,,green,North West Cave|
+14.7,85.4,,green,North East Cave|
+41.5,46.9,,green,Central Cave|
+68.2,56.2,,green,Upper South Cave|
+80.3,53.5,,green,Lower South Cave|
+70.6,86.1,,green,Lava Cave|
+62.7,37.3,,red,Swamp Cave|
+29.1,31.8,,red,Snow Cave|
+53.7,10.4,,cyan,The Caverns of Lost Faith|
+45.9,88.9,,blue,The Caverns of Lost Hope|
+43.1,39.1,,orange,Tek Cave}}
+
+{{#lst:Coordinates|cave_table}}
+
+===Creatures===
+Note that the ''Hard Caves'' spawn creatures at extremely high levels (often exceeding 250), and that these creatures are untameable. Creatures within The Caverns of Lost Faith are also untameable, but spawn at standard levels.
+
+; Terrestrial Entrances
+{{ItemList|columnWidth=15em|Angler|Arthropluera|Dilophosaur|Direwolf|Dung Beetle|Kairuku|Megalania|Megalosaurus|Meganeura|Onyc|Phiomia|Piranha|Sarco|Scorpion|Spider|Titanoboa|Trilobite|Yeti}}
+
+; Underwater Entrances
+{{ItemList|columnWidth=15em|Achatina|Angler|Araneo|Cnidaria|Coelacanth|Dung Beetle|Dunkleosteus|Eurypterid|Ichthyosaurus|Manta|Megalodon|Mosasaurus|Onyc|Piranha|Pulmonoscorpius|Sabertooth Salmon|Trilobite|Tusoteuthis}}
+
+{{clear}}
+|-|
+  The Center=
+    <ul class="photo-nav">
+      {{ Photo | South East Cave (The Center).jpg |
+	   | caption/link = Jungle Cave
+	   | icon         = Artifact_Of_The_Immune.png
+	  }}
+      {{ Photo | North Ice Cave Room2a.jpg |
+	   | caption = North Ice Cave
+	   | link = North Ice Cave (The Center)
+	   | icon         = Artifact_Of_The_Clever.png
+	   | icon2        = Artifact_Of_The_Devourer.png
+	  }}
+      {{ Photo | South Ice Cave TC.jpg |
+	   | caption/link = South Ice Cave
+	   | icon         = Artifact_Of_The_Skylord.png
+	  }}
+      {{ Photo | West Lava Cave (The Center).jpg |
+	   | caption/link = Lava Oasis Cave
+	   | icon         = Artifact_Of_The_Hunter.png
+	  }}
+      {{ Photo | LavaCave (The Center).jpg |
+	   | caption/link = LavaCave
+	   | icon         = Artifact_Of_The_Massive.png
+	   | icon2        = Artifact_Of_The_Strong.png
+	  }}
+      {{ Photo | SE Trench TC.jpg |
+	   | caption/link = Southeastern Trench
+	   | icon         = Artifact_Of_The_Brute.png
+	  }}
+      {{ Photo | The Center Cave Inside.jpg |
+	   | caption/link = The Center Cave
+           | icon         = Artifact_Of_The_Devious.png
+	  }}
+      {{ Photo | Cliffside Cavern (The Center).jpg |
+	   | caption/link = Cliffside Cavern
+	   | icon         = Artifact_Of_The_Cunning.png
+	  }}
+      {{ Photo | UW TC.jpg |
+	   | caption/link = Underground World
+	   | icon         = Artifact_Of_The_Pack.png
+	  }}
+    </ul>
+===Locations===
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:The Center Topographic Map.jpg|thumb|400px|Difficulty: Green = Standard; Red = Hard; Gray = unknown difficulty; Cyan = Standard Underwater]]
+{{Dynamic_coordinate|11.2|67.4|gray|LavaCave}}
+{{Dynamic_coordinate|15.8|50.5|gray|Lava Oasis Cave}}
+{{Dynamic_coordinate|18.7|29.7|gray|North Ice Cave}}
+{{Dynamic_coordinate|60.0|22.5|gray|South Ice Cave}}
+{{Dynamic_coordinate|70.1|92.3|cyan|Southeastern Trench}}
+{{Dynamic_coordinate|54.2|62.7|green|Jungle Cave}}
+{{Dynamic_coordinate|52.5|67.7|green|Jungle Cave}}
+{{Dynamic_coordinate|45.0|64.0|green|Jungle Cave}}
+{{Dynamic_coordinate|50.8|71.3|green|Jungle Cave}}
+{{Dynamic_coordinate|35.9|34.4|gray|The Center Cave}}
+{{Dynamic_coordinate|40.3|31.1|gray|The Center Cave}}
+{{Dynamic_coordinate|36.4|35.0|gray|The Center Cave}}
+{{Dynamic_coordinate|36.0|2.0|gray|Cliffside Cavern}}
+{{Dynamic_coordinate|58.1|12.8|gray|Cliffside Cavern}}
+{{Dynamic_coordinate|21.0|13.5|gray|Cliffside Cavern}}
+{{Dynamic_coordinate|34.7|65.8|gray|Underground World}}
+{{Dynamic_coordinate|34.2|53.0|gray|Underground World}}
+{{Dynamic_coordinate|53.6|53.9|gray|Underground World}}
+{{Dynamic_coordinate|32.7|64.1|gray|Underground World}}
+{{Dynamic_coordinate|44.2|58.0|gray|Underground World}}
+{{Dynamic_coordinate|66.1|51.7|gray|Underground World}}
+</div>
+
+{{#lst:Coordinates|center_cave_table}}
+====Jungle Cave====
+{{#lst:Coordinates|center_jungle_cave_table}}
+====The Center Cave====
+{{#lst:Coordinates|center_the_center_cave_table}}
+====Cliffside Cavern====
+{{#lst:Coordinates|center_cliffside_cavern_table}}
+====Underground World====
+{{#lst:Coordinates|center_underground_world_table}}
+===Creatures===
+:''Missing.''
+
+===Small Caves===
+----
+{{MapLocations|map=The Center|mapsize=350|text=Small Cave Locations|float=right|29.7,54.0|26.1,64.7|26.8,65.8|26.4,67.0|29.1,61.3|29.9,63.1|35.1,67.4|33.5,52.3|33.3,50.0|38.5,64.3|40.3,60.9|40.9,57.9|42.6,56.6|46.9,14.0|89.4,38.5|96.9,38.6|82.5,53.5|94.2,68.7}}
+
+{{#lst:Coordinates|center_small_caves_table}}
+
+{{clear}}
+|-|
+
+  Scorched Earth=
+    <ul class="photo-nav">
+      {{ Photo | Grave of the Tyrants Interior ScE.jpg |
+	   | caption      = Grave of the Tyrants
+           | link         = Grave of the Tyrants (Scorched Earth)
+	   | icon         = Artifact_of_the_Crag.png
+	  }}
+      {{ Photo | The Old Tunnels Catacomb ScE.jpg |
+	   | caption      = Old Tunnels
+           | link         = Old Tunnels (Scorched Earth)
+	   | icon         = Artifact_of_the_Gatekeeper.png
+	  }}
+      {{ Photo | Ruins of Nosti Void ScE.jpg |
+	   | caption      = Ruins of Nosti
+           | link         = Ruins of Nosti (Scorched Earth)
+	   | icon         = Artifact_of_the_Destroyer.png
+	  }}
+    </ul>
+===Locations===
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:Scorched Earth Topographic Map.jpg|thumb|400px|Green = Standard Difficulty]]
+{{Dynamic_coordinate|24|24|green|Grave of the Tyrants}}
+{{Dynamic_coordinate|58|45|green|Old Tunnels}}
+{{Dynamic_coordinate|82|77|green|Ruins of Nosti}}
+</div>
+
+{{#lst:Coordinates|scorchedearth_cave_table}}
+
+{{clear}}
+
+===Creatures===
+{{ItemList|Achatina|Araneo|Arthropluera|Direwolf|Mantis|Megalosaurus|Onyc|Pulmonoscorpius|Raptor|Rubble Golem|Sabertooth|Titanoboa}}
+
+Note that Achatina spawn as high-levelled varients, similar to the creatures found within The Island's Swamp and Snow caves. Unlike The Island however, these Achatina are tameable.
+
+{{clear}}
+|-|
+  Ragnarok=
+
+This page only lists the Dungeons and important Caves of [[Ragnarok]]. For a list of all caves in Ragnarok please visit this page: [[Caves (Ragnarok)]]
+
+    <ul class="photo-nav">
+      {{ Photo | The Monkey's Puzzle (Ragnarok).jpg |
+	   | caption      = The Monkey's Puzzle
+           | link         = The Monkey's Puzzle (Ragnarok)
+	   | icon         = Artifact of the Strong.png
+	  }}
+      {{ Photo | Fallen Redwood Cave (Ragnarok).jpg |
+	   | caption      = Fallen Redwood Cave
+           | link         = Fallen Redwood Cave (Ragnarok)
+	   | icon         = Artifact of the Brute.png
+	  }}
+      {{ Photo | Carnivorous Caverns (Ragnarok).jpg |
+	   | caption      = Carnivorous Caverns
+           | link         = Carnivorous Caverns (Ragnarok)
+	   | icon         = Artifact of the Cunning.png
+	   | icon2        = Artifact of the Immune.png
+	  }}
+      {{ Photo | Ragnarok Jungle Dungeon.jpg |
+	   | caption      = Jungle Dungeon
+           | link         = Jungle Dungeon (Ragnarok)
+	   | icon         = Artifact of the Hunter.png
+           | icon2        = Lava Elemental.png
+	  }}
+      {{ Photo | Ragnarok Frozen Dungeon.jpg |
+	   | caption      = Frozen Dungeon
+           | link         = Frozen Dungeon (Ragnarok)
+	   | icon         = Artifact of the Pack.png
+           | icon2        = Iceworm Queen.png
+	  }}
+      {{ Photo | Life's Labyrinth (Ragnarok).jpg |
+	   | caption      = Life's Labyrinth
+           | link         = Life's Labyrinth (Ragnarok)
+	   | icon         = Artifact of the Skylord.png
+           | icon2        = Artifact of the Devious.png
+           | icon3        = Artifact of the Massive.png
+           | icon4        = Artifact of the Clever.png
+           | icon5        = Spirit Dire Bear.png
+           | icon6        = Spirit Direwolf.png
+	  }}
+    </ul>
+===Locations===
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:Ragnarok Topographic Map.jpg|thumb|400px|Green = Standard; Red = Hard; Gray = unknown difficulty]]
+{{Dynamic_coordinate|18.7|27.8|green|Jungle Dungeon}}
+{{Dynamic_coordinate|30.9|37.8|green|Frozen Dungeon}}
+{{Dynamic_coordinate|51.6|77.5|red|Life's Labyrinth}}
+{{Dynamic_coordinate|24.6|25.0|gray|The Monkey's Puzzle}}
+{{Dynamic_coordinate|36.0|77.0|gray|Fallen Redwood Cave}}
+{{Dynamic_coordinate|17.7|42.4|gray|Carnivorous Caverns}}
+</div>
+
+{{#lst:Coordinates|ragnarok_cave_table}}
+
+===Creatures===
+{{ItemList|Achatina|Araneo|Arthropluera|Dire Bear|Iceworm|Kairuku|Lava Elemental|Onyc|Pulmonoscorpius|Titanoboa}}
+
+Note that all creatures inside these caves are high-leveled, untameable variants, similar to the creatures found within The Island's Swamp and Snow caves.
+
+{{clear}}
+|-|
+   Aberration=
+    <ul class="photo-nav">
+      {{ Photo | Old Railway Cave (Aberration).jpg |
+	   | caption      = Old Railway Cave
+           | link         = Old Railway Cave (Aberration)
+           | icon         = Artifact of the Depths (Aberration).png
+	  }}
+      {{ Photo | Hidden Grotto (Aberration).jpg |
+	   | caption      = Hidden Grotto
+           | link         = Hidden Grotto (Aberration)
+	   | icon         = Artifact of the Shadows (Aberration).png
+	  }}
+      {{ Photo | Elemental Vault (Aberration).jpg |
+	   | caption      = Elemental Vault
+	   | link         = Elemental Vault (Aberration)
+	   | icon         = Artifact of the Stalker (Aberration).png
+	  }}
+   </ul>
+===Locations===
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:Aberration Map.jpg|thumb|400px|Green = Standard; Red = Hard; gray = unknown difficulty]]
+{{Dynamic_coordinate|48.3|27.2|green|Old Railway Cave}}
+{{Dynamic_coordinate|55.2|65.9|red|Hidden Grotto}}
+{{Dynamic_coordinate|82.4|48.2|red|Elemental Vault}}
+</div>
+
+{{#lst:Coordinates|aberration_cave_table}}
+
+{{clear}}
+
+===Creatures===
+{{ItemList|Aberrant Achatina|Aberrant Anglerfish|Aberrant Arthropluera|Aberrant Baryonyx|Aberrant Beelzebufo|Aberrant Carnotaurus|Aberrant Cnidaria|Aberrant Dimetrodon|Aberrant Diplocaulus|Aberrant Dung Beetle|Aberrant Electrophorus|Aberrant Megalosaurus|Aberrant Pulmonoscorpius|Aberrant Raptor|Aberrant Salmon|Aberrant Titanoboa|Alpha Karkinos|Featherlight|Glowbug|Glowtail|Karkinos|Lamprey|Nameless|Ravager|Seeker}}
+{{clear}}
+|-|
+   Extinction=
+''Despite having a large cave opening, dinosaurs classified as flying cannot be mounted within the cave. There are exceptions to this limitation however.''
+    <ul class="photo-nav">
+      {{ Photo | Desert_Cave_(Extinction).jpg |
+	   | caption      = Desert Cave
+           | link         = Desert Cave (Extinction)
+           | icon         = Artifact of Chaos (Extinction).png
+           | icon2        = Desert Titan.png
+	  }}
+      {{ Photo | Extinction Forest Cave middle section.jpg |
+	   | caption      = Forest Cave
+           | link         = Forest Cave (Extinction)
+	   | icon         = Artifact of Growth (Extinction).png
+           | icon2        = Forest Titan.png
+	  }}
+      {{ Photo | Ice cave 4.jpg |
+	   | caption      = Ice Cave
+	   | link         = Ice Cave (Extinction)
+	   | icon         = Artifact of the Void (Extinction).png
+           | icon2        = Ice Titan.png
+	  }}
+   </ul>
+===Locations===
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:Extinction Topographic Map.jpg|thumb|400px|Green = Standard; Red = Hard; gray = unknown difficulty]]
+{{Dynamic_coordinate|87.4|70.4|green|Desert Cave}}
+{{Dynamic_coordinate|11.8|39.3|red|Forest Cave}}
+{{Dynamic_coordinate|20.3|62.2|red|Ice Cave}}
+</div>
+
+{{#lst:Coordinates|extinction_cave_table}}
+
+{{clear}}
+
+===Creatures===
+{{ItemList|Allosaurus|Arthropluera|Direwolf|Kaprosuchus|Megalosaurus|Microraptor|Onyc|Polar Bear|Polar Purlovia|Purlovia|Rex|Rubble Golem|Terror Bird|Therizinosaur|Titanoboa|Yeti|Yutyrannus}}
+{{clear}}
+|-|
+   Valguero=
+    <ul class="photo-nav">
+      {{ Photo | Valguero 7.jpg |
+	   | caption      = The Great Trench
+           | link         = The Great Trench (Valguero)
+           | icon         = Artifact of the Skylord.png
+	  }}
+      {{ Photo | The_Lair_(Valguero).jpg |
+	   | caption      = The Lair
+           | link         = The Lair (Valguero)
+           | icon         = Artifact of the Strong.png
+           | icon2        = Artifact of the Immune.png
+           | icon3        = Artifact of the Pack.png
+           | icon4        = Broodmother.png
+	  }}
+      {{ Photo | The_Lost_Temple_(Valguero).jpg |
+	   | caption      = The Lost Temple
+           | link         = The Lost Temple (Valguero)
+           | icon         = Artifact of the Brute.png
+           | icon2        = Artifact of the Devourer.png
+	  }}
+      {{ Photo | The_Unknown_(Valguero).jpg |
+	   | caption = The Unknown
+	   | link = The Unknown (Valguero)
+           | icon = Artifact of the Gatekeeper (Scorched Earth).png
+	  }}
+   </ul>
+===Locations===<!--
+<div id="container" style="position:relative; float:right; width:410px; height:410px; margin-bottom: calc(30px + 1em);">[[File:Valguero Topographic Map.jpg|thumb|400px|Difficulty: Green = Standard; Red = Hard; Gray = unknown difficulty; Cyan = Standard Underwater; Blue = Hard Underwater.]]
+</div>
+
+{{#lst:Coordinates|valguero_cave_table}}
+
+{{clear}}-->
+</tabber>
+
+==Resource Caves==
+<tabber>
+The Island=
+Cavern: A cave, or a chamber in a cave, typically a large one.
+----
+There are currently 12 Resource Caves on The Island, and are all found underwater. These caves can often be difficult to find, but often contain a dense collection of {{ItemLink|Silica Pearls}} and {{ItemLink|Oil}}, although the latter of which provide less oil than nodes found elsewhere in the game. The only indication of the position from the surface is a small flow of bubbles, appearing as a thin white line. On lower graphics settings, a grey box can be seen on the ocean floor from the surface around the cave's entrance.
+
+The entrances to the resource caves also appears to be a spawn location for pairs of {{ItemLink|Plesiosaur}}s, who tend to linger in the area, as well as a singular {{ItemLink|Mosasaurus}}, which in turn tend to linger near to the {{ItemLink|Plesiosaur}}s.
+
+{{MapLocations|mapsize=350|text=Resource Cave Locations|float=right|16.0,10.4|10.2,21.8|10.5,39.9|08.0,90.1|36.2,91.1|50.1,11.1|52.8,91.8|83.3,10.0|90.9,13.6|90.1,36.7|90.7,71.4|87.1,90.2}}
+
+{{#lst:Coordinates|resource_cave_table}}
+
+===Creatures===
+{{ItemList|Eurypterid}}
+
+===Resources===
+{{ItemList|Crystal|Oil|Silica Pearls}}
+
+{{clear}}
+|-|
+Valguero=
+<ul class="photo-nav">
+{{ Photo | The_Abyss_(Valguero).jpg |
+| caption = The Abyss
+| link = The Abyss (Valguero)
+}}
+{{ Photo | The_Emerald_Forest_(Valguero).jpg |
+| caption = The Emerald Forest
+| link = The Emerald Forest (Valguero)
+}}
+</ul>
+
+===Creatures===
+{{ItemList|}}
+
+===Resources===
+{{ItemList|}}
+</tabber>
+
+==Tips==
+{{outdated}}
+===Surface Caves===
+''These are general cave tips. For tips on specific caves, please visit their individual pages.''
+* Take {{ItemLink|Stimberry}} or better yet {{ItemLink|Stimulant}}s and {{ItemLink|Water Jar}}s or if you are a high enough level {{ItemLink|Canteen}}. Some progression caves require multiple {{ItemLink|Canteen}}s.
+* [[Hide Armor|Hide]] or [[Fur Armor|Fur]] armor is helpful for many, but not all caves. [[Chitin Armor|Chitin]] or [[Flak Armor|Metal (Flak)]] is great if you have an available Smithy.
+* Set up a small base at the beginning of a cave with a {{ItemLink|Simple Bed}} and a chest with tools, weapons, armor, a {{ItemLink|Smithy}} and a {{ItemLink|Refining Forge}}. If possible, in single player you can use a {{ItemLink|Argentavis}} as a smithy IN the cave. Or on multiplayer you can use a {{ItemLink|Castoroides}}
+* Most of the creatures found in caves are non-tamable (mostly {{ItemLink|Achatina}}), except for a few cases or caves such as {{ItemLink|Megalosaurus}}, {{ItemLink|Dung Beetle}} or {{ItemLink|Glowtail}}.
+** Because there are no {{ItemLink|Achatina}} spawns outside of caves in [[Scorched Earth]] , caves are the only place you can tame them in. They do however provide higher max tame levels, meaning you won't have to feed them as much as when they were tamed on other maps.
+* {{ItemLink|Grappling Hook}}s are useful for avoiding creatures, getting a good vantage point, and to not have to bring foundations and ceilings to bridge gaps. However, not all caves will permit its uses.
+* In some caves that are very tough, one may use a {{ItemLink|Auto Turret}} on wild creatures to clear the cave to make it easier. However, be mindful as some respawn area will immediately respawn creatures the instant the area is brought to [[stasis]].
+* Flyers brought into the cave under any method will not be mountable, even with saddle. Oddly, Climbers can still climb upwards.
+* Aberration {{ItemLink|Climbing Pick}}s and {{ItemLink|Glider Suit}} are also a big help even though all caves can be traversed without these.
+* {{ItemLink|Cryopod}} allows bringing of creatures into previously inaccessible area due to the opening of the caves. However, some creatures that are too big to fit inside will not be released out of the cryopod. This includes areas whereby the size are strictly fittable only for survivors and smaller.
+*Bringing a Parasaur and using its turret mode can be very helpful in identifying enemies and potential tames. For example, Megalania can be hard to spot without turret mode, and Dung Beetles may accidentally be killed if not identified first through turret mode.
+**Bring a friend if trying this so you can identify enemies on the move. A Parasaur is also very weak, so an escort is needed.
+**Since a Parasaur is a pack animal, it can also help bring out the valuable Crystal and Obsidian.
+
+===Underwater Caves===
+* {{ItemLink|Lazarus Chowder}} will supply you Oxygen while underwater for a certain amount of seconds, to allow you to dive for longer times, making it easier to find the entrance. A {{ItemLink|SCUBA Tank}} or a powered {{ItemLink|Tek Helmet}} could also help with this, then no oxygen is ever needed! Though, the {{ItemLink|SCUBA Tank}} will slowly lose durabillity as it's in use, and element, for the {{ItemLink|Tek Helmet}}.
+* Riding a {{ItemLink|Megalodon}} can help against other Sharks and allows you very quick movement in the water. They are also a good way to spot the bubbles from the surface. It is advised to bring it with a pack, as wild Megalodon are never seen alone in underwater caves and with a pack boost, will easily shred even the most resilient of Megalodon.
+** Alternatively using a {{ItemLink|Plesiosaur}} or {{ItemLink|Ichthyosaurus}} will allow you to travel much faster than a [[Megalodon]]. A tamed [[Plesiosaur]] can fairly easily take on a wild [[Megalodon]] and an [[Ichthyosaurus]] can easily outrun any wild animals. Be wary of any {{ItemLink|Mosasaurus}} nearby if you are bringing Icthyosaurus.
+*If you have a Tribemate with a {{ItemLink|Pteranodon}}, {{ItemLink|Argentavis}} or {{ItemLink|Tropeognathus}}, they can transport you directly to the location of the cave and drop you down, avoiding most of the swim, and with that, most of the [[Megalodon]]s on the way to the cave. Once finished the [[Pteranodon]], [[Argentavis]] or [[Tropeognathus]] can pick you up again from the water surface. This is also a very resource friendly method, as it allows you to go down with minimum armor and weapons, as fighting can be reduced to a minimum. That way, the loss of dying is less of a setback. This method does, however, require you to have found the entrance beforehand.
+* Riding a [[Sarco]] allows you to use a single mount as they can move quick both in water and on the ground. Moreover, it's faster than a [[Megalodon]], has near instant stamina regeneration under water and can fit in most underwater caves, making it safer while gathering resources. Be wary of any [[Tusoteuthis]] that spawns within the cave, as their range can grab onto the Sarco.
+* [[Eurypterid]]s can spawn in groups (3-5 at once) in even small underwater caves as of patch 246. Be prepared to deal with their stings!
+* {{ItemLink|Cryopod}} allows bringing of creatures into previously inaccessible area due to the opening of the caves. However, some creatures that are too big to fit inside will not be released out of the cryopod. Care for the Cryo Cooldown though (due to possible constant uses), as wild dinos inside the caves that are aggressive will still attack dino under Cryo Sickness, which will result in a swift death due to damage multiplier towards dino under that state.
+* {{ItemLink|Megachelon}} can give constant oxygen to land creatures that excels under water and requires to be constantly underwater, but does not have infinite oxygen (Good example is {{ItemLink|Baryonyx}}. However, due to their sheer size, are only limited at certain areas underwater within the underwater cave, even with Cryopods.
+* {{ItemLink|Bloodstalker}} swims fast for a land creature while submerged, but is incredibly frail (cannot attack underwater) and has lower oxygen that most other creature.
+
+==Notes==
+* There is a large flat faced rock that looks like it could be a cave entrance on the South haven island cliff face. Could be another cave in the future.
+* Building a base in an underwater cave will stop [[:Category:Resources|resource]] spawning in that cave.
+* In the [[North Ice Cave (The Center)|North Ice Cave]] on [[The Center]], one of the two parts (the part with the [[Artifact of the Devourer]]) of the cave's crystal nodes are invisible (can still be farmed normally with a pick).
+** This is especially detrimental when trying to get to one of the places that spawns a loot crate, which is along a long, thin corridor that is littered with spiders, wolves, sabertooths, and Yetis (possibly one of the most concentrated areas of aggressive creatures in the game).
+** These nodes can block movement, bullets, arrows, etc. but can be helpful as it blocks some creatures against walls, while other nodes can act as walls, allowing you to be unseen as long as it is between you and a creature.
+* When holding {{key|H}}, {{xbox|windows}}, or {{ps4|Touch Pad}}, you can see that each cave has its own location. The Tek Cave is “The Belly of the Beast.” The South East cave is “Lava Cave.”
+* In [[Aberration]], there was supposedly a [[Teeming Caverns - Entrance (Aberration)|fourth cave]] planned, but was eventually scrapped after the DLC is released. The names still exist in the database, however. This makes it the first and only official cave to not be implemented into the official DLC map.
+*A [[Managarmr]] can pounce into the pearl cave and easily wipe your base so build smart and survive.
+{{Nav Locations}}
+{{Nav Locations The Center}}
+{{Nav Locations Scorched Earth}}
+{{Nav Locations Ragnarok}}
+{{Nav Locations Aberration}}
+{{Nav Locations Extinction}}
+{{Nav Locations Valguero}}
+{{Nav Gameplay Mechanics}}
+[[Category:Gameplay mechanics]]
+
+[[Category:Locations]]
+
+[[de:Höhlen]]
+[[es:Cuevas]]
+[[fr:Grottes]]
+[[it:Caverne]]
+[[ja:洞窟]]
+[[pt-br:Cavernas]]
+[[ru:Пещеры]]
+[[zh:Caves]]
+[[th:Caves]]
+{{MissingTranslations|pl}}
