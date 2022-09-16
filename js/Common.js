@@ -74,7 +74,7 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
     // Interactive region map
     [ '.interactive-regionmap', [ 'en:MediaWiki:RegionMaps.js' ] ],
     // Data map scripts
-    [ '.data-map-container', [ 'en:MediaWiki:ResourceMaps.js', 'en:MediaWiki:SpawnMaps.js' ] ],
+    [ '.data-map-container', [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js', 'en:MediaWiki:SpawnMaps.js' ] ],
     [ '.datamap-container-content', [ 'en:MediaWiki:CreatureSpawnDataMaps.js' ] ],
     // Load ext.ark.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
     [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.js' ], !arkIsEnglishWiki ],

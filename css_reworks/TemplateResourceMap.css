@@ -1,0 +1,175 @@
+/* #region [[Template:ResourceMap]] */
+/* Notice */
+.mw-parser-output > .map-notice {
+    padding: 5px;
+    border-radius: 15px;
+    width: 1060px;
+    max-width: 100%;
+    overflow: auto;
+    display: block;
+}
+body .map-notice, .theme-dark .map-notice {
+    border:1px dashed #7FE7FF;
+    background: linear-gradient(#6e92c06b,#828af38c);
+}
+.top-notice-image {
+    position: relative;
+    top: -100px;
+    height: 0;
+    z-index: 1;
+}
+.top-notice-text {
+    vertical-align: middle;
+    white-space: normal;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.top-notice-text a { font-weight: bold; }
+.map-notice {
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    background: linear-gradient(white, lightyellow);
+}
+.map-legend-container .map-notice {
+    padding: 10px;
+    width: 210px;
+}
+/* Data map layout */
+.data-map-container {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #000;
+    background: var(--ark-dossier-background-color);
+}
+.data-map-container .data-map-needs-js { display: none; }
+.data-map-container .resourcemap { width: 100%; height: 100%; }
+.data-map-container .resourcemaptable { margin: 0 }
+.map-legend-container {
+    display: inline-block;
+    padding-right: 10px;
+    float: left;
+    max-width: 225px;
+}
+.map-container { position: relative; }
+/* Map legend */
+.map-legend .legend {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.map-legend td:first-child {
+    width: 25px;
+    text-align: center;
+}
+.map-legend tr.no-icon td:first-child { text-align: left; width: auto; }
+/* Map legend: checkboxes */
+.map-legend input[type=checkbox] + label {
+    margin-left: 0.3em;
+}
+.map-legend input[type=checkbox] + label {
+    color: #f5aaaa;
+}
+.map-legend input[type=checkbox]:checked + label {
+    color: #05bb25;
+}
+/* Map legend: spawn map extension */
+.map-legend-container > button, .map-legend-container > select { width: 100%; }
+.map-legend-container .details-toggle { display: block; }
+ul.groups-legend, ul.groups-legend ul { list-style: none; }
+.map-legend-container .groups-legend { margin: 0; }
+ul.groups-legend > li {
+    border: 1px solid #222;
+    margin-top: 0.3em;
+}
+ul.groups-legend > li:first-child { margin-top: 0; }
+/* Markers */
+.map-legend .dots {
+    text-align: right;
+    vertical-align: top;
+}
+.map-container > .dots {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0 100% 100% 0;
+}
+.map-container .dot, .map-container .dots > div {
+    position: absolute;
+    line-height: 0;
+    padding: 0;
+    border-radius: 50%;
+    z-index: 5;
+    box-sizing: border-box;
+}
+.map-container .square {
+    position: absolute;
+    background-color: rgba(255,0,0,0.7);
+    border-radius: 5px;
+    border: 2px solid black;
+    z-index: 5;
+    box-sizing: border-box;
+}
+.map-container .point {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255,0,0,0.7);
+    border: 1px solid black;
+    z-index: 5;
+    box-sizing: border-box;
+}
+/* Responsiveness */
+@media only screen and (max-width: 1300px) {
+    table.map-legend tr {
+        display: inline-block;
+        width: 13em;
+    }
+    .map-legend-container { max-width: unset; display: block; float: none; }
+    .map-legend tr.no-icon { display: block; }
+}
+@media only screen and (min-height: 700px) {
+    .resourcemaptable { position: sticky; top: 0; }
+}
+/* #endregion */
+
+/* #region [[Template:ResourceMap]] manual marker styling */
+.hide-cave .cave { display: none; }
+.map-container .cave.dots > div {
+    border-style: double;
+    border-width: 2px;
+}
+.map-legend .legend, .map-container .dots > div {
+    width: 7px;
+    height: 7px;
+    background-color: #666;
+    border: 1px solid black;
+}
+.map-legend .crate, .map-container .dots.crate > div,
+.map-legend .crateCave, .map-container .dots.crateCave > div,
+.map-legend .crateDungeon, .map-container .dots.crateDungeon > div,
+.map-legend .crateSurface, .map-container .dots.crateSurface > div {
+    background-color: unset;
+    border: none;
+    background-size: 100% 100%;
+    border-radius: 0;
+}
+.map-legend .crate, .map-legend .crateSurface { background-image: url(/images/3/31/PieBPYR.svg); }
+.map-legend .crateDungeon { background-image: url(/images/2/24/PieYR.svg); }
+.map-legend .crateCave { background-image: url(/images/7/78/PiePYR.svg); }
+/* [[MediaWiki:SpawnMaps.js]]: cave + untamability overlay */
+.map-container .square.cave {
+    border-width: 4px;
+}
+.map-container .square.untameable::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    background: repeating-linear-gradient( 45deg, #000, #000 5px, transparent 5px, transparent 10px );
+}
+/* #endregion */
