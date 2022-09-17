@@ -8,9 +8,9 @@
     overflow: auto;
     display: block;
 }
-body .map-notice, .theme-dark .map-notice {
-    border:1px dashed #7FE7FF;
-    background: linear-gradient(#6e92c06b,#828af38c);
+body .map-notice {
+    border:1px dashed var(--trm-map-notice-border-color);
+    background: var(--trm-map-notice-background-color);
 }
 .top-notice-image {
     position: relative;
@@ -28,8 +28,6 @@ body .map-notice, .theme-dark .map-notice {
 .map-notice {
     display: inline-block;
     margin-bottom: 10px;
-    border: 1px solid #000;
-    background: linear-gradient(white, lightyellow);
 }
 .map-legend-container .map-notice {
     padding: 10px;
@@ -39,8 +37,8 @@ body .map-notice, .theme-dark .map-notice {
 .data-map-container {
     display: inline-block;
     padding: 5px;
-    border: 1px solid #000;
-    background: var(--ark-dossier-background-color);
+    border: 1px solid var(--trm-map-container-border-color);
+    background: var(--trm-map-container-background-color);
 }
 .data-map-container .data-map-needs-js { display: none; }
 .data-map-container .resourcemap { width: 100%; height: 100%; }
@@ -70,10 +68,10 @@ body .map-notice, .theme-dark .map-notice {
     margin-left: 0.3em;
 }
 .map-legend input[type=checkbox] + label {
-    color: #f5aaaa;
+    color: var(--trm-map-checkbox-unchecked-color);
 }
 .map-legend input[type=checkbox]:checked + label {
-    color: #05bb25;
+    color: var(--trm-map-checkbox-checked-color);
 }
 /* Map legend: spawn map extension */
 .map-legend-container > button, .map-legend-container > select { width: 100%; }
@@ -81,7 +79,7 @@ body .map-notice, .theme-dark .map-notice {
 ul.groups-legend, ul.groups-legend ul { list-style: none; }
 .map-legend-container .groups-legend { margin: 0; }
 ul.groups-legend > li {
-    border: 1px solid #222;
+    border: 1px solid var(--trm-map-spawninfo-border-color);
     margin-top: 0.3em;
 }
 ul.groups-legend > li:first-child { margin-top: 0; }
