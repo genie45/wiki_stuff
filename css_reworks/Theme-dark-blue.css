@@ -1,3 +1,7 @@
+/* [[de:MediaWiki:Theme-dark-blue.css]] * [[es:MediaWiki:Theme-dark-blue.css]] * [[fr:MediaWiki:Theme-dark-blue.css]] * [[it:MediaWiki:Theme-dark-blue.css]] * [[ja:MediaWiki:Theme-dark-blue.css]] * [[pl:MediaWiki:Theme-dark-blue.css]] * [[pt-br:MediaWiki:Theme-dark-blue.css]] * [[ru:MediaWiki:Theme-dark-blue.css]] * [[th:MediaWiki:Theme-dark-blue.css]] */
+/* CSS placed here will affect users with the "dark-blue" theme enabled */
+
+/* #region Theme variables */
 .theme-dark-blue {
     --content-background-color: rgb(3, 30, 40);
     --content-background-color--rgb: 4,36,48; /*3, 30, 40;*/

@@ -1,8 +1,8 @@
-/* [[de:MediaWiki:Theme-amoled.css]] * [[es:MediaWiki:Theme-amoled.css]] * [[fr:MediaWiki:Theme-amoled.css]] * [[it:MediaWiki:Theme-amoled.css]] * [[ja:MediaWiki:Theme-amoled.css]] * [[pl:MediaWiki:Theme-amoled.css]] * [[pt-br:MediaWiki:Theme-amoled.css]] * [[ru:MediaWiki:Theme-amoled.css]] * [[th:MediaWiki:Theme-amoled.css]] */
-/* CSS placed here will affect users with the "amoled" theme enabled */
+/* [[de:MediaWiki:Theme-legacy.css]] * [[es:MediaWiki:Theme-legacy.css]] * [[fr:MediaWiki:Theme-legacy.css]] * [[it:MediaWiki:Theme-legacy.css]] * [[ja:MediaWiki:Theme-legacy.css]] * [[pl:MediaWiki:Theme-legacy.css]] * [[pt-br:MediaWiki:Theme-legacy.css]] * [[ru:MediaWiki:Theme-legacy.css]] * [[th:MediaWiki:Theme-legacy.css]] */
+/* CSS placed here will affect users with the "legacy" theme enabled */
 
 /* #region Theme variables */
-.theme-amoled{
+.theme-legacy{
     --theme-accent-color: #0d6f70;
     --theme-accent-color--rgb: 13, 111, 112;
     --page-background-color: #0b1212;

@@ -216,7 +216,6 @@ html {
     --ooui-button-text-color--secondary: var(--content-text-link-color);
     --ooui-button-background-color--primary: var(--content-default-link-color);
     --ooui-button-background-color--primary-hover: #98c63b;
-
     --ooui-icon-filter--normal: invert(1);
     --ooui-icon-filter--required: invert(1);
     --ooui-icon-filter--destructive: none;
