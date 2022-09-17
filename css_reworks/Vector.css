@@ -211,17 +211,37 @@ html {
     /* Theme toggle */
     --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */;
     --theme-toggle-icon-size: contain;
-    /* OOUI buttons */
+    /* OOUI */
     --ooui-button-text-color--primary: #000;
     --ooui-button-text-color--secondary: var(--content-text-link-color);
     --ooui-button-background-color--primary: var(--content-default-link-color);
     --ooui-button-background-color--primary-hover: #98c63b;
+
     --ooui-icon-filter--normal: invert(1);
     --ooui-icon-filter--required: invert(1);
     --ooui-icon-filter--destructive: none;
     --ooui-icon-filter--error: none;
     --ooui-icon-filter--alert: none;
     --ooui-icon-filter--success: none;
+    --ooui-widget-disabled-opacity: 0.5;
+    --ooui-button-background-color--framed: #343737;
+    --ooui-button-background-color--quiet: var(--ooui-button-background-color--primary) /* TODO: merge */;
+    --ooui-button-background-color--quiet-hover: rgba(var(--content-default-link-color--rgb), 0.15);
+    --ooui-button-background-color--progressive-hover: #b2dd5b;
+    --ooui-button-border-color: #709720;
+    --ooui-button-text-color--hover: #000;
+    --ooui-button-text-color--framed: var(--content-text-color);
+    --ooui-button-text-color--frameless: var(--content-text-color);
+    --ooui-button-text-color--frameless-hover: var(--content-text-color); /* TODO: different tone needed */
+    --ooui-button-text-color--progressive: var(--ooui-button-text-color--secondary) /* TODO: merge */;
+    --ooui-button-text-color--quiet-hover: var(--ooui-button-background-color--primary-hover) /* TODO: merge */;
+    --ooui-input-background-color: #343737;
+    --ooui-input-background-color--readonly: #2f2f2f;
+    --ooui-input-border-color: rgba(var(--content-border-color--rgb), 0.7);
+    --ooui-input-text-color: #fff;
+    --ooui-input-text-color--readonly: #aaa;
+    --ooui-tag-input-background-color: var(--ooui-input-background-color);
+    --ooui-tag-input-background-color--outlined: #444848;
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -3439,6 +3459,9 @@ img[src*="/Xbox_Series.svg/"] {
 .oo-ui-indicator-required {
     filter: var(--ooui-icon-filter--required);
 }
+.oo-ui-checkboxInputWidget > .oo-ui-iconElement-icon {
+    filter: none;
+}
 /* Message widgets */
 .oo-ui-widget.oo-ui-flaggedElement-warning {
     color: #fc3;
@@ -3484,36 +3507,39 @@ img[src*="/Xbox_Series.svg/"] {
 /* Buttons */
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
-    background-color: #343737;
-    color: var(--content-text-color);
+    background-color: var(--ooui-button-background-color--framed);
+    color: var(--ooui-button-text-color--framed);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
-    opacity: 0.5;
+    opacity: var(--ooui-widget-disabled-opacity);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
-    color: var(--content-text-color);
+    color: var(--ooui-button-text-color--frameless);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
-    color: var(--content-text-color); /* TODO: different tone needed */
+    color: var(--ooui-button-text-color--frameless-hover);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
-    color: var(--ooui-button-text-color--secondary);
+    color: var(--ooui-button-text-color--progressive);
 }
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet {
-    color: var(--ooui-button-background-color--primary);
+    color: var(--ooui-button-background-color--quiet);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
-    border-color: #709720;
+    border-color: var(--ooui-button-border-color);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
     color: var(--content-text-color);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-comboBoxInputWidget-dropdownButton > .oo-ui-buttonElement-button {
-    border-color: rgba(var(--content-border-color--rgb), 0.7);
+    border-color: var(--ooui-input-border-color);
 }
-.oo-ui-checkboxInputWidget > .oo-ui-iconElement-icon {
-    filter: none;
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    background-color: var(--ooui-button-background-color--progressive-hover);
+    border-color: var(--ooui-button-border-color);
+    color: var(--ooui-button-text-color--hover);
 }
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet,
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive,
@@ -3523,8 +3549,8 @@ input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-destructive,
 .mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus,
 input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover {
-    background: rgba(var(--content-default-link-color--rgb), 0.15);
-    color: var(--ooui-button-background-color--primary-hover);
+    background: var(--ooui-button-background-color--quiet-hover);
+    color: var(--ooui-button-text-color--quiet-hover);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
     color: var(--ooui-button-text-color--primary);
@@ -3537,13 +3563,13 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle,
 .oo-ui-dropdownWidget.oo-ui-widget-disabled .oo-ui-dropdownWidget-handle,
 .oo-ui-dropdownInputWidget.oo-ui-widget-disabled {
-    background-color: #343737;
-    color: #fff;
-    border-color: rgba(var(--content-border-color--rgb), 0.7);
+    background-color: var(--ooui-input-background-color);
+    color: var(--ooui-input-text-color);
+    border-color: var(--ooui-input-border-color);
 }
 .oo-ui-textInputWidget.oo-ui-widget-disabled .oo-ui-inputWidget-input,
 .oo-ui-dropdownWidget.oo-ui-widget-disabled .oo-ui-dropdownWidget-handle {
-    opacity: 0.5;
+    opacity: var(--ooui-widget-disabled-opacity);
     -webkit-text-fill-color: unset;
     text-shadow: none;
 }
@@ -3551,21 +3577,33 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
     text-shadow: none;
 }
 .oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input[readonly]:not(.oo-ui-pendingElement-pending) {
-    background-color: #2f2f2f;
-    color: #aaa;
+    background-color: var(--ooui-input-background-color--readonly);
+    color: var(--ooui-input-text-color--readonly);
 }
 /* Multiselect widget */
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled {
-    background-color: #343737;
+.oo-ui-tagMultiselectWidget-handle,
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
+.oo-ui-tagMultiselectWidget.oo-ui-widget-disabled .oo-ui-tagMultiselectWidget-handle {
+    background-color: var(--ooui-tag-input-background-color);
+    border-color: var(--ooui-input-border-color);
 }
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined {
-    background-color: #444848;
+    background-color: var(--ooui-tag-input-background-color--outlined);
 }
-.oo-ui-tagMultiselectWidget-handle {
-    border-color: rgba(var(--content-border-color--rgb), 0.7);
+.oo-ui-tagMultiselectWidget.oo-ui-widget-disabled .oo-ui-tagMultiselectWidget-handle {
+    opacity: var(--ooui-widget-disabled-opacity);
 }
 .oo-ui-tagMultiselectWidget-handle .oo-ui-tagMultiselectWidget-group > input {
     color: var(--content-text-color);
+}
+/* File select widget */
+.oo-ui-selectFileWidget.oo-ui-widget-enabled.oo-ui-selectFileWidget-dropTarget {
+    background-color: transparent;
+}
+.oo-ui-selectFileWidget.oo-ui-widget-disabled.oo-ui-selectFileWidget-dropTarget,
+.oo-ui-selectFileWidget.oo-ui-selectFileInputWidget-empty.oo-ui-widget-disabled.oo-ui-selectFileWidget-dropTarget {
+    background-color: transparent;
+    opacity: var(--ooui-widget-disabled-opacity)
 }
 /* Tab layout */
 .client-js div#preferences,
