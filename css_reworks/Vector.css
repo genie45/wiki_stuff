@@ -222,6 +222,20 @@ html {
     --ooui-icon-filter--error: none;
     --ooui-icon-filter--alert: none;
     --ooui-icon-filter--success: none;
+    /* DataMaps */
+    --datamaps-notice-border-color: var(--content-border-color);
+    --datamaps-notice-background-color: var(--ark-arkitex-right-color);
+    --datamaps-container-background-color: var(--content-background-color);
+    --datamaps-container-top-background-color: var(--tabber-background-hover-color);
+    --datamaps-container-select-background--rgb: var(--content-border-color--rgb);
+    --datamaps-container-legend-background-color: var(--toc-background-color);
+    --datamaps-container-legend-selected-background-color: var(--toc-background-color);
+    --datamaps-popup-background-color: var(--content-background-color);
+    --datamaps-popup-text-color: var(--content-text-color);
+    --datamaps-popup-text-link-color: var(content-text-link-color);
+    --datamaps-popup-subtitle-text-color: #bbb;
+    --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
+    --datamaps-tabber-background-color: #52711550;    
 }
 /* #endregion */
 
@@ -2955,18 +2969,14 @@ table.collapsed tr.collapsible {
 }
 /* #endregion */
 
-
 .editOptions {
 	background-color: transparent;
 	color: inherit;
 }
 
-
-
 fieldset {
 	border-color: var(--content-border-color);
 }
-
 
 #simpleSearch {
 	background: none;
@@ -3199,7 +3209,7 @@ div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
 }
 /* #endregion */
 
-/* thumnbail tweaks */
+/* #region thumnbail tweaks */
 div.thumbinner {
   background-color:rgba(48,101,116,0.2);
   border:2px solid rgba(48,101,116,0.75);
@@ -3211,9 +3221,9 @@ li.gallerybox div.thumb {
   border:2px solid rgba(48,101,116,0.75);
   border-image:linear-gradient(-45deg, rgba(48,101,116,0.1), rgba(48,101,116,0.8)) 1;
 }
-/* end thumbnail tweaks */
+/* #endregion thumbnail tweaks */
 
-/*status effect styling*/
+/* #region status effect styling*/
 table.status-effect-backg {
 	text-align: left;
 	margin-top:1em;
@@ -3226,6 +3236,7 @@ table.status-effect-backg {
 	background: linear-gradient(#6e92c06b, #828af38c);
 	color: var(--content-text-color);
 }
+/* #endregion */
 
 /* Patch Notes */
 .PN-normal {
@@ -3367,17 +3378,19 @@ table.status-effect-backg {
 }
 /* #endregion */
 
-/** Styling for collapsible toggle **/
+/* #region Styling for collapsible toggle **/
 .mw-collapsible-toggle.mw-collapsible-toggle-expanded a,
 .mw-collapsible-toggle.mw-collapsible-toggle-collapsed a {
     color: var(--content-default-link-color);
 }
+/* #endregion */
 
-/** Invert [[File:PS.svg]] colors for better visibility on dark theme **/
+/* #region Invert [[File:PS.svg]] colors for better visibility on dark theme */
 img[src*="/PS.svg/"],
 img[src*="/Xbox_Series.svg/"] {
     filter: invert(100%);
 }
+/* #endregion */
 
 /* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
@@ -3587,7 +3600,7 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 }
 /* #endregion */
 
-/** <pre>, <code> **/
+/* #region <pre>, <code> */
 pre, .mw-code, code {
 	color: var(--content-text-color);
     background-color: var(--code-background-color);
@@ -3596,6 +3609,7 @@ pre, .mw-code, code {
 code {
     word-wrap: break-word;
 }
+/* #endregion <pre>, <code> */
 
 /* #region Wikitext Editor */
 .mw-editform #wpTextbox1,
@@ -3756,7 +3770,7 @@ div.editOptions {
 
 /* #endregion */
 
-/**Metadata infobox on File pages**/
+/* #region Metadata infobox on File pages */
 .mw_metadata{
     color: var(--sidenav-header-text-color);
     background: var(--sidenav-header-background)
@@ -3764,14 +3778,16 @@ div.editOptions {
 .mw_metadata a{
     color: var(--sidenav-header-text-color)
 }
+/* #endregion Metadat infobox */
 
-/** Off-center icons **/
+/* #region Off-center icons */
 .vector-menu-tabs .mw-watchlink.icon a { padding-top: 3.325em }
 .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-userpage a { background-position: left 0.5em }
 
 div.gallerytext {
     padding: 2px;
 }
+/* #endregion off-center icons */
 
 /* #region Mobile adjustments */
 @media screen and (max-width: 950px) {
@@ -3840,7 +3856,7 @@ div.gallerytext {
 }
 /* #endregion */
 
-/** [[Special:CreateAccount]] statistics **/
+/* #region [[Special:CreateAccount]] statistics */
 #bodyContent .mw-number-text h3 {
     color: #fff;
 }
@@ -3862,6 +3878,8 @@ div.drilldown-filters-wrapper {
 .theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background-color: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 .theme-dark .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
+
+/* #endregion [[Special:CreateAccount]] */
 
 /* #region Math */
 .mwe-math-fallback-image-inline {
