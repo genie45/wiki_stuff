@@ -235,7 +235,23 @@ html {
     --datamaps-popup-text-link-color: var(content-text-link-color);
     --datamaps-popup-subtitle-text-color: #bbb;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
-    --datamaps-tabber-background-color: #52711550;    
+    --datamaps-tabber-background-color: #52711550;
+    /* StickyHeader */
+    --sticky-header-height: 50px;
+    --sticky-search-border-radius: 4px;
+    --sticky-button-border-radius: 8px;
+    --sticky-header-background-color: rgba(90, 123, 22, 0.98);
+    --sticky-header-shadow-color: #0000004a;
+    --sticky-header-text-color: #fff;
+    --sticky-header-link-color: #fff;
+    --sticky-search-background-color: #fff6;
+    --sticky-search-text-color: #222;
+    --sticky-search-border-color: #313131;
+    --sticky-search-placeholder-text-color: #333e;
+    --sticky-button-text-color: #222;
+    --sticky-button-border-color: #222;
+    --sticky-button-background-color: #fff4;
+    --sticky-button-hover-background-color: #a2bb6f;
 }
 /* #endregion */
 
@@ -425,6 +441,17 @@ div#content {
     .mw-body .mw-indicators + #p-lang-btn {
         grid-column: interwikis-left / interwikis-right;
     }
+    :root {
+        --sticky-header-height: 40px;
+        --sticky-search-border-radius: 0;
+        --sticky-button-border-radius: 0;
+    }
+    #firstHeading {
+        text-align: center;
+    }
+    #mw-content-text {
+        padding-top: 1em;
+    }
 }
 /* #endregion */
 /* #region wiki.gg footer overflows the body due to unwrapping flex; reflow it */
@@ -456,15 +483,6 @@ div#content {
 }
 /* #endregion */
 /* #endregion */
-
-@media screen and (max-width: 720px) {
-    #firstHeading {
-        text-align: center;
-    }
-    #mw-content-text {
-        padding-top: 1em;
-    }
-}
 
 /* #region Vector skinning */
 body {

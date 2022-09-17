@@ -1,34 +1,13 @@
-:root {
-    --sticky-header-height: 50px;
-    --sticky-search-border-radius: 4px;
-    --sticky-button-border-radius: 8px;
-    --sticky-header-background-color: rgba(90, 123, 22, 0.98);
-}
-
-.theme-light {
-    --sticky-header-background-color: rgba(101, 138, 25, 0.98);
-}
-
-@media screen and (max-width: 720px) {
-    :root {
-        --sticky-header-height: 40px;
-        --sticky-search-border-radius: 0;
-        --sticky-button-border-radius: 0;
-    }
-}
-
-
 #ark-sticky-header {
     position: fixed;
     height: var(--sticky-header-height);
     top: calc(-1 * var(--sticky-header-height));
     left: 0;
     right: 0;
-    background: #181d4d;
     z-index: 20;
-    color: #fff;
+    color: var(--sticky-header-text-color);
     display: flex;
-    box-shadow: 0 3px 12px 0 #0000004a;
+    box-shadow: 0 3px 12px 0 var(--sticky-header-shadow-color);
     align-items: center;
     padding: 0 1em;
     background: var(--sticky-header-background-color);
@@ -52,7 +31,7 @@
 }
 
 #ark-sticky-header > .sticky-wiki-name a {
-    color: #fff;
+    color: var(--sticky-header-link-color);
 }
 
 #ark-sticky-header > .sticky-wiki-name span {
@@ -68,7 +47,7 @@
 #ark-sticky-header > .sticky-search-box > #p-search {
     margin: 0;
     width: 100%;
-    background: #fff6;
+    background: var(--sticky-search-background-color);
     border-radius: var(--sticky-search-border-radius);
 }
   
@@ -85,13 +64,13 @@
     height: 36px;
     padding-left: 0.8em;
     font-size: 0.85em;
-    color: #222;
-    border-color: #313131;
+    color: var(--sticky-search-text-color);
+    border-color: var(--sticky-search-border-color);
     border-radius: var(--sticky-search-border-radius);
 }
   
 #ark-sticky-header > .sticky-search-box input::placeholder {
-    color: #333e;
+    color: var(--sticky-search-placeholder-text-color);
 }
 
 #ark-sticky-header > .sticky-buttons {
@@ -100,20 +79,20 @@
 }
 
 #ark-sticky-header .sticky-buttons a {
-    color: #222;
+    color: var(--sticky-button-text-color);
     padding: 0 0.5em;
-    border: 1px solid #222;
+    border: 1px solid var(--sticky-button-border-color);
     height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-left-width: 0;
-    background-color: #fff4;
+    background-color: var(--sticky-button-background-color);
 }
 
 #ark-sticky-header .sticky-buttons a:hover,
 #ark-sticky-header .sticky-buttons a:focus {
-    background-color: #a2bb6f;
+    background-color: var(--sticky-button-hover-background-color);
 }
 
 #ark-sticky-header .sticky-buttons .with-icon {
