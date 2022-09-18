@@ -40,6 +40,7 @@
     --sidebar-to-content-margin: 0;
     --sidebar-toggle-icon--open: url("https://commons.wiki.gg/images/4/42/Sidebar_toggle_open_black.svg");
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
+    --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A");
     /* Page content */
     --content-horizontal-margin: 1.5em;
     --content-body-top-margin: 70px;
@@ -67,6 +68,16 @@
         /* Grid layout */
         --layout-sidespace--left: 2px;
         --layout-sidespace--right: 16px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .is-sidebar-hidden {
+        --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
+        --sidebar-width: 0px;
+        --layout-sidespace--right: 32px;
+    }
+    .is-sidebar-hidden #mw-panel .mw-portlet {
+        display: none;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -152,6 +163,7 @@ html {
     --toolbar-background-color: #607c26ce;
     --toolbar-list-background-color: #66783dfa;
     --toolbar-border-color: #234064;
+    --sidenav-toggle-icon-filter: invert(1);
     /* Table of contents */
     --toc-background-color: #424442;
     --toc-number-color: #cecece;
@@ -1180,6 +1192,26 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 /* #endregion */
 
+/* #endregion */
+
+/* #region Sidebar toggle */
+#nav-sidebar-toggle {
+    width: 24px;
+    height: 2.5em;
+    margin-left: -5px;
+    cursor: pointer;
+    filter: var(--sidenav-toggle-icon-filter);
+    opacity: 0.8;
+    background: var(--sidenav-toggle-icon) center 1em no-repeat;
+}
+#nav-sidebar-toggle:hover {
+    opacity: 1;
+}
+@media screen and (max-width: 1200px) {
+    #nav-sidebar-toggle {
+        display: none;
+    }
+}
 /* #endregion */
 
 /* #region Legacy theme switcher */

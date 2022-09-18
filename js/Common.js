@@ -173,6 +173,14 @@ if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
 // #endregion
 
 
+// #region Restore sidebar state
+var SIDEBAR_HIDDEN_CLASS = 'is-sidebar-hidden';
+if ( localStorage.getItem( SIDEBAR_HIDDEN_CLASS ) == '1' ) {
+    document.body.classList.add( SIDEBAR_HIDDEN_CLASS );
+}
+// #endregion
+
+
 /* Fires when DOM is ready */
 $(function(){
     // #region Make sidebar sections collapsible
@@ -205,6 +213,17 @@ $(function(){
     });
     // #endregion
     
+    // #region Sidebar toggle
+    ( function () {
+        $( '<div id="nav-sidebar-toggle">' )
+	        .prependTo( '#left-navigation' )
+	        .on( 'click', function () {
+		        $( 'body' ).toggleClass( SIDEBAR_HIDDEN_CLASS );
+                localStorage.setItem( SIDEBAR_HIDDEN_CLASS, $( 'body' ).hasClass( SIDEBAR_HIDDEN_CLASS ) ? '1' : '0' );
+	        } );
+    } )();
+    // #endregion
+
     // #region Site notice for browser extension
     ( function () {
 	    mw.config.values.wgSiteNoticeId = 2;
