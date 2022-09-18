@@ -45,9 +45,9 @@ html {
     --fp-heading-border-color: #bbba59;
     --fp-box-background-color: #dddbd1;
     /* OOUI buttons */
-    --ooui-button-text-color--primary: #000;
-    --ooui-button-text-color--secondary: var(--content-text-link-color);
-    --ooui-button-background-color--primary: var(--content-default-link-color);
+    --oo-ui-button-text-color--primary: #000;
+    --oo-ui-button-text-color--secondary: var(--content-text-link-color);
+    --oo-ui-button-background-color--primary: var(--content-default-link-color);
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
