@@ -1424,6 +1424,27 @@ ul#filetoc {
 /* #endregion */
 
 /* #region [[Template:SpawningMap]] */
+.svg-spawn-map {
+    position: relative;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+}
+@supports not (aspect-ratio: auto) {
+    .svg-spawn-map {
+        padding-top: 100%;
+        height: 0;
+    }
+}
+.svg-spawn-map > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.svg-spawn-map > div,
+.svg-spawn-map img {
+    width: 100%;
+    height: 100%;
+}
 .spawningMap-legendBox {
     display: inline-block;
     border-radius: 2px;
@@ -1432,11 +1453,12 @@ ul#filetoc {
     vertical-align: text-bottom;
     border: 1px solid gray;
 }
-.spawningMap-map {
-    filter: sepia(60%) grayscale(30%);
+.svg-spawn-map-background {
+    filter: sepia(60%) grayscale(15%);
 }
-.spawningMap-deuteranopia.spawningMap-map,
-.spawningMap-tritanopia.spawningMap-map {
+
+.spawningMap-deuteranopia.svg-spawn-map-background,
+.spawningMap-tritanopia.svg-spawn-map-background {
     filter: grayscale(90%) contrast(80%);
 }
 /* Deuteranopia */
@@ -1489,17 +1511,6 @@ ul#filetoc {
     fill: #FF0422;
     background-color: #FF0422;
 }
-
-/* Low widths */
-.spawningMap { max-width: 100%; }
-.info-arkitex .spawningMap-container { max-width: 100%; }
-.info-arkitex .spawningMap-container img,
-.info-arkitex .spawningMap-map,
-.info-arkitex .svgCreatureMap {
-    width: 100%;
-    height: auto;
-}
-.info-spawn .tabber { width: 100%; }
 /* #endregion */
 
 /* #region Copy to clipboard */
