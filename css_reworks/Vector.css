@@ -3502,9 +3502,30 @@ img[src*="/Xbox_Series.svg/"] {
 /* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
 .mw-changeslist-legend { background-color: transparent; }
-.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget { background-color: #fff; }
 .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
-    background-color: var(--ark-navboxgroup-title-background-color);
+    background-color: var(--oo-ui-tag-input-background-color);
+    border-color: var(--content-border-color);
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+    background-color: var(--oo-ui-input-background-color);
+    border-color: var(--content-border-color);
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
+.mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+    color: var(--oo-ui-input-text-color);
+}
+.mw-rcfilters-ui-tagItemWidget-popup-content,
+.mw-rcfilters-ui-itemMenuOptionWidget-label-title {
+    color: var(--content-text-color);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
+    border-color: var(--content-border-color);
+}
+.mw-rcfilters-ui-filterMenuSectionOptionWidget {
+    background-color: var(--content-border-color);
+}
+.mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label {
+    color: var(--oo-ui-button-text-color--framed-progressive);
 }
 /* #endregion */
 
@@ -3561,7 +3582,8 @@ img[src*="/Xbox_Series.svg/"] {
 .oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success {
     background-color: #253330;
 }
-.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed),
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled {
     background-color: rgba(var(--content-border-color--rgb), 0.6);
     color: #000;
     border-color: var(--content-border-color);
@@ -3741,9 +3763,14 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
     background-color: #fff4;
 }
 /* Popups */
-.oo-ui-popupWidget-popup {
+.oo-ui-popupWidget-popup,
+.oo-ui-menuSelectWidget {
     background-color: var(--content-background-color);
     border-color: var(--content-border-color);
+}
+.oo-ui-popupWidget-anchored .oo-ui-popupWidget-anchor::after,
+.oo-ui-popupWidget-anchored .oo-ui-popupWidget-anchor::before {
+    border-top-color: var(--content-border-color);
 }
 /* #endregion */
 /* #region Built-in MediaWiki and OOUI icons, dark mode */
