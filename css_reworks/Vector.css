@@ -1801,6 +1801,8 @@ img.fpWideImage {
 /* Force minimum height for the Twitter feed */
 #fptweets .twitter-timeline.twitter-timeline-rendered {
     width: 100% !important;
+}
+#fptweets .fpbody {
     min-height: 400px;
 }
 /* #endregion */
