@@ -1204,7 +1204,6 @@ div#mw-panel div.portal div.body ul li a:hover {
 #nav-sidebar-toggle {
     width: 24px;
     height: 2.5em;
-    margin-left: -5px;
     cursor: pointer;
     filter: var(--sidenav-toggle-icon-filter);
     opacity: 0.8;
