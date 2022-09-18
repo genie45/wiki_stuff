@@ -767,6 +767,7 @@ div#mw-panel div.portal {
 	padding-left: 1.5em;
 	cursor: pointer;
     color: var(--content-header-color);
+    font-weight: bold;
 }
 #mw-panel .portal.collapsed h3 {
 	background-image: var(--sidebar-toggle-icon--collapsed);
