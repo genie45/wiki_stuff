@@ -3521,11 +3521,18 @@ img[src*="/Xbox_Series.svg/"] {
 .mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
     border-color: var(--content-border-color);
 }
-.mw-rcfilters-ui-filterMenuSectionOptionWidget {
+.mw-rcfilters-ui-filterMenuSectionOptionWidget,
+.mw-rcfilters-ui-filterMenuHeaderWidget-header {
     background-color: var(--content-border-color);
+    border-color: var(--content-border-color);
 }
-.mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label {
+.mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label,
+.mw-rcfilters-ui-filterMenuHeaderWidget-title {
     color: var(--oo-ui-button-text-color--framed-progressive);
+}
+.mw-rcfilters-ui-filterMenuHeaderWidget-title {
+    padding-left: 0.8em;
+    font-weight: bold;
 }
 /* #endregion */
 
@@ -3767,6 +3774,7 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .oo-ui-menuSelectWidget {
     background-color: var(--content-background-color);
     border-color: var(--content-border-color);
+    color: var(--content-text-color);
 }
 .oo-ui-popupWidget-anchored .oo-ui-popupWidget-anchor::after,
 .oo-ui-popupWidget-anchored .oo-ui-popupWidget-anchor::before {
