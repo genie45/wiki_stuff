@@ -233,28 +233,34 @@ html {
     --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */;
     --theme-toggle-icon-size: contain;
     /* OOUI */
-    --oo-ui-button-text-color--primary: #000;
-    --oo-ui-button-text-color--secondary: var(--content-text-link-color);
-    --oo-ui-button-background-color--primary: var(--content-default-link-color);
-    --oo-ui-button-background-color--primary-hover: #98c63b;
+    /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
     --oo-ui-icon-filter--normal: invert(1);
-    --oo-ui-icon-filter--required: invert(1);
+    --oo-ui-icon-filter--black: brightness(0);
+    --oo-ui-icon-filter--normal-progressive: brightness(0) invert(87%) sepia(86%) saturate(529%) hue-rotate(20deg) brightness(87%) contrast(82%);
     --oo-ui-icon-filter--destructive: none;
     --oo-ui-icon-filter--error: none;
     --oo-ui-icon-filter--alert: none;
     --oo-ui-icon-filter--success: none;
+    --oo-ui-icon-filter--required: invert(1);
     --oo-ui-widget-disabled-opacity: 0.5;
     --oo-ui-button-background-color--framed: #343737;
-    --oo-ui-button-background-color--quiet: var(--oo-ui-button-background-color--primary) /* TODO: merge */;
+    --oo-ui-button-background-color--framed-progressive: var(--content-default-link-color);
     --oo-ui-button-background-color--quiet-hover: rgba(var(--content-default-link-color--rgb), 0.15);
-    --oo-ui-button-background-color--progressive-hover: #b2dd5b;
+    --oo-ui-button-background-color--progressive-hover: #bde370;
+    --oo-ui-button-background-color--quiet-destructive-hover: #d73333;
+    --oo-ui-button-background-color--toggled: #678a21;
+    --oo-ui-button-border-color--quiet-destructive: #d73333;
     --oo-ui-button-border-color: #709720;
-    --oo-ui-button-text-color--hover: #000;
     --oo-ui-button-text-color--framed: var(--content-text-color);
+    --oo-ui-button-text-color--framed-progressive: #000;
     --oo-ui-button-text-color--frameless: var(--content-text-color);
-    --oo-ui-button-text-color--frameless-hover: var(--content-text-color); /* TODO: different tone needed */
-    --oo-ui-button-text-color--progressive: var(--oo-ui-button-text-color--secondary) /* TODO: merge */;
-    --oo-ui-button-text-color--quiet-hover: var(--oo-ui-button-background-color--primary-hover) /* TODO: merge */;
+    --oo-ui-button-text-color--frameless-hover: #b2dd5b;
+    --oo-ui-button-text-color--frameless-progressive: var(--content-text-link-color);
+    --oo-ui-button-text-color--frameless-progressive-hover: #b2dd5b;
+    --oo-ui-button-text-color--quiet: var(--content-default-link-color);
+    --oo-ui-button-text-color--quiet-hover: #98c63b;
+    --oo-ui-button-text-color--quiet-destructive: #d73333;
+    --oo-ui-button-text-color--toggled: var(--oo-ui-button-text-color--framed-progressive);
     --oo-ui-input-background-color: #343737;
     --oo-ui-input-background-color--readonly: #2f2f2f;
     --oo-ui-input-border-color: rgba(var(--content-border-color--rgb), 0.7);
@@ -272,7 +278,7 @@ html {
     --datamaps-container-legend-selected-background-color: var(--toc-background-color);
     --datamaps-popup-background-color: var(--content-background-color);
     --datamaps-popup-text-color: var(--content-text-color);
-    --datamaps-popup-text-link-color: var(content-text-link-color);
+    --datamaps-popup-text-link-color: var(--content-text-link-color);
     --datamaps-popup-subtitle-text-color: #bbb;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #52711550;
@@ -3507,6 +3513,9 @@ img[src*="/Xbox_Series.svg/"] {
 .oo-ui-iconElement-icon {
     filter: var(--oo-ui-icon-filter--normal);
 }
+.oo-ui-iconElement-icon.oo-ui-image-progressive {
+    filter: var(--oo-ui-icon-filter--normal-progressive);
+}
 .oo-ui-iconElement-icon.oo-ui-image-destructive {
     filter: var(--oo-ui-icon-filter--destructive);
 }
@@ -3518,6 +3527,9 @@ img[src*="/Xbox_Series.svg/"] {
 }
 .oo-ui-iconElement-icon.oo-ui-icon-alert {
     filter: var(--oo-ui-icon-filter--alert);
+}
+.oo-ui-indicator-down {
+    filter: var(--oo-ui-icon-filter--normal);
 }
 .oo-ui-indicator-required {
     filter: var(--oo-ui-icon-filter--required);
@@ -3580,13 +3592,17 @@ img[src*="/Xbox_Series.svg/"] {
     color: var(--oo-ui-button-text-color--frameless);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    --oo-ui-icon-filter--normal: var(--oo-ui-icon-filter--normal-progressive);
     color: var(--oo-ui-button-text-color--frameless-hover);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
-    color: var(--oo-ui-button-text-color--progressive);
+    color: var(--oo-ui-button-text-color--frameless-progressive);
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover {
+    color: var(--oo-ui-button-text-color--frameless-progressive-hover);
 }
 .mw-ui-button.mw-ui-progressive.mw-ui-quiet {
-    color: var(--oo-ui-button-background-color--quiet);
+    color: var(--oo-ui-button-text-color--quiet);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
     border-color: var(--oo-ui-button-border-color);
@@ -3598,11 +3614,9 @@ img[src*="/Xbox_Series.svg/"] {
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-comboBoxInputWidget-dropdownButton > .oo-ui-buttonElement-button {
     border-color: var(--oo-ui-input-border-color);
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover,
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
-    background-color: var(--oo-ui-button-background-color--progressive-hover);
-    border-color: var(--oo-ui-button-border-color);
-    color: var(--oo-ui-button-text-color--hover);
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button {
+    background-color: var(--oo-ui-button-background-color--toggled);
+    color: var(--oo-ui-button-text-color--toggled);
 }
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet,
 input[type="checkbox"]:focus + .mw-ui-button.mw-ui-quiet.mw-ui-progressive,
@@ -3616,9 +3630,34 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
     color: var(--oo-ui-button-text-color--quiet-hover);
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
-    color: var(--oo-ui-button-text-color--primary);
-    border-color: var(--oo-ui-button-background-color--primary);
-    background: var(--oo-ui-button-background-color--primary);
+    color: var(--oo-ui-button-text-color--framed-progressive);
+    border-color: var(--oo-ui-button-background-color--framed-progressive);
+    background: var(--oo-ui-button-background-color--framed-progressive);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    --oo-ui-icon-filter--normal: var(--oo-ui-icon-filter--black);
+    background-color: var(--oo-ui-button-background-color--progressive-hover);
+    border-color: var(--oo-ui-button-border-color);
+    color: var(--oo-ui-button-text-color--framed-progressive);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+    color: var(--oo-ui-button-background-color--framed-progressive);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover {
+    --oo-ui-icon-filter--normal-progressive: var(--oo-ui-icon-filter--black);
+    background-color: var(--oo-ui-button-background-color--progressive-hover);
+    border-color: var(--oo-ui-button-border-color);
+    color: var(--oo-ui-button-text-color--framed-progressive);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+    color: var(--oo-ui-button-text-color--quiet-destructive);
+    border-color: var(--oo-ui-button-border-color--quiet-destructive);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:hover {
+    --oo-ui-icon-filter--normal: var(--oo-ui-icon-filter--black);
+    background-color: var(--oo-ui-button-background-color--quiet-destructive-hover);
+    color: var(--oo-ui-button-text-color--framed-progressive);
 }
 /* Inputs */
 .oo-ui-textInputWidget .oo-ui-inputWidget-input,
@@ -3703,7 +3742,8 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 }
 /* Popups */
 .oo-ui-popupWidget-popup {
-  background-color: var(--content-background-color);
+    background-color: var(--content-background-color);
+    border-color: var(--content-border-color);
 }
 /* #endregion */
 /* #region Built-in MediaWiki and OOUI icons, dark mode */
