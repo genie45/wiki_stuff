@@ -3518,7 +3518,8 @@ img[src*="/Xbox_Series.svg/"] {
 .mw-rcfilters-ui-itemMenuOptionWidget-label-title {
     color: var(--content-text-color);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
+.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk),
+.mw-rcfilters-ui-datePopupWidget {
     border-color: var(--content-border-color);
 }
 .mw-rcfilters-ui-filterMenuSectionOptionWidget,
