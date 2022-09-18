@@ -70,7 +70,7 @@
         --layout-sidespace--right: 16px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1260px) {
     .is-sidebar-hidden {
         --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
         --sidebar-width: 0px;
@@ -80,7 +80,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     :root {
         /* Logo */
         --wiki-logo-height: 140px;
@@ -453,8 +453,8 @@ div#content {
     }
 }
 /* #endregion */
-/* #region 1200px */
-@media screen and (max-width: 1200px) {
+/* #region 1260px */
+@media screen and (max-width: 1260px) {
     body {
         grid-template-columns:
             [body-left] var(--layout-sidespace--left)
@@ -567,7 +567,7 @@ body {
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
 	#p-logo a {
 		background-image: var(--wiki-logo-horizontal);
 	}
@@ -636,7 +636,7 @@ div#content::before {
 		margin-left: -220px;
 	}
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
 	div#content::before {
 		display: none;
 	}
@@ -890,8 +890,8 @@ div#mw-panel div.portal div.body ul li a:hover {
 }
 
 /* #endregion */
-/* #region Toolbar (1200px) */
-@media screen and (max-width: 1200px) {
+/* #region Toolbar (1260px) */
+@media screen and (max-width: 1260px) {
     div#mw-panel div.portal {
         background: none;
     }
@@ -1207,7 +1207,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 #nav-sidebar-toggle:hover {
     opacity: 1;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     #nav-sidebar-toggle {
         display: none;
     }
@@ -2316,7 +2316,7 @@ div.photo-text {
         display: none;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     .indicator-label-low {
         display: none;
     }
