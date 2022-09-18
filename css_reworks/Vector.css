@@ -3370,6 +3370,12 @@ table.status-effect-backg {
     background: #171717 right center / contain no-repeat;
     box-shadow: 0 3px 12px 0 #0000004a;
 }
+.translation-banner-dismiss {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 80%;
+}
 .translation-banner[lang=fr] {
     background-image: url(https://cdn.discordapp.com/attachments/788207682598731786/1016798660266307696/unknown.png);
 }

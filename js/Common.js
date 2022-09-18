@@ -74,7 +74,8 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
     // Interactive region map
     [ '.interactive-regionmap', [ 'en:MediaWiki:RegionMaps.js' ] ],
     // Data map scripts
-    [ '.data-map-container', [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js', 'en:MediaWiki:SpawnMaps.js' ] ],
+    [ '.data-map-container', [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js',
+        'en:MediaWiki:SpawnMaps.js' ] ],
     // Load ext.ark.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
     [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.js' ], !arkIsEnglishWiki ],
     [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.css' ], !arkIsEnglishWiki ]
@@ -205,17 +206,17 @@ $(function(){
     // #endregion
     
     // #region Site notice for browser extension
-    {
+    ( function () {
 	    mw.config.values.wgSiteNoticeId = 2;
     	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
     	var snContent = 'We\'ve launched a browser extension that redirects from the old wiki to help you switch:<br/>'
     		+ '<b>Get it for:</b> <a rel="nofollow" class="external text" href="https://chrome.google.com/webstore/detail/ark-wiki-redirection/ohdjjkijdejbbalchmpllknbelokjndh">Chrome/Edge/Brave</a> | <a rel="nofollow" class="external text" href="https://addons.mozilla.org/en-GB/firefox/addon/ark-wiki-redirection/">Firefox</a> | Opera (soon)';
     	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
-    }
+    } )();
     // #endregion
 
     // #region Interwiki dropdown
-    {
+    ( function () {
         var I18n = arkCreateI18nInterface('InterwikiDropdown', {
             de: { Label: ' Sprachen' },
             en: { Label: /*NUMBER*/' languages' },
@@ -244,11 +245,11 @@ $(function(){
                 });
             }
         }
-    }
+    } )();
     // #endregion
 
     // #region Copy to clipboard
-    {
+    ( function () {
         var I18n = arkCreateI18nInterface('CopyToClipboard', {
             en: {
                 ButtonTitle: 'Copy to clipboard',
@@ -310,7 +311,7 @@ $(function(){
                 }
             });
         });
-    }
+    } )();
     // #endregion
 
     // #region Redirect to language version if url contains querystring iwredirect (for Dododex)
@@ -338,7 +339,7 @@ $(function(){
     // "animated-active" class to a subframe within, in order to designate a set of
     // subframes which will only be cycled every time the parent frame is displayed.
     // Animations with the "animated-paused" class will be skipped each interval.
-    (function() {
+    ( function() {
         var $content = $( '#mw-content-text' );
         var advanceFrame = function(parentElem, parentSelector) {
           var curFrame = parentElem.querySelector(parentSelector + ' > .animated-active');
@@ -362,7 +363,7 @@ $(function(){
                 }
             });
         }, 5000);
-    }());
+    } )();
     /**
      * Pause animations on mouseover of a designated container (.animated-container)
      *
@@ -378,17 +379,24 @@ $(function(){
         var prefLanguage = ( navigator.languages ? navigator.languages[0] : ( navigator.language || navigator.userLanguage ) )
             .toLowerCase().substr( 0, 2 );
         var bannerText = ( {
-            fr: 'Cet article est aussi disponible en Français: cliquez ici pour le lire'
-        } )[prefLanguage];
-        var link = $( '#p-lang > .vector-menu-content > ul > li.interlanguage-link > a[hreflang='+prefLanguage+']' )
-            .attr( 'href' );
-        if ( bannerText && link ) {
-            $( '<a class="translation-banner">' )
-                .attr( {
-                    lang: prefLanguage,
-                    href: link
-                } )
-                .text( bannerText )
+                fr: 'Vous pouvez aussi lire cet article en <b>Français</b>'
+            } )[prefLanguage],
+            link = $( '#p-lang > .vector-menu-content > ul > li.interlanguage-link > a[hreflang='+prefLanguage+']' )
+                .attr( 'href' ),
+            dismissCount = localStorage.getItem( 'translationBannerDismissals' ) || 0,
+            $banner;
+        if ( bannerText && link && dismissCount < 2 ) {
+            $banner = $( '<div class="translation-banner">' )
+                .attr( 'lang', prefLanguage )
+                .append( $( '<a>' )
+                    .attr( 'href', link )
+                    .html( bannerText ) )
+                .append( $( '<a href="#" class="translation-banner-dismiss">[dismiss]</a>' )
+                    .on( 'click', function ( event ) {
+                        event.preventDefault();
+                        localStorage.setItem( 'translationBannerDismissals', dismissCount + 1 );
+                        $banner.remove();
+                    } ) )
                 .appendTo( 'body' );
         }
     }
