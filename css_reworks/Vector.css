@@ -87,6 +87,9 @@
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left-part: calc( var(--wiki-logo-width) / -4 );
         --mw-head-base-height-offset: -9px;
+        /* Logo background */
+		--head-shadow-settings: radial-gradient(circle at center, #0008 0, #0006 calc(var(--wiki-logo-width) / 2.1),
+            #0004 calc(var(--wiki-logo-width) / 1.3), transparent 100%);
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
         --layout-sidespace--left: 24px;
@@ -113,6 +116,9 @@
         --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
         --mw-head-base-height-offset: 0px;
+        /* Logo background */
+		--head-shadow-settings: linear-gradient(to right, #0009 0, #0007 var(--wiki-logo-width), transparent 100%);
+    	--head-background-settings: var(--head-background-image--mobile) 100% 0 / 161px 154px no-repeat;
         /* Grid layout */
         --layout-content-top-offset: var(--wiki-logo-height);
         --layout-sidespace--left: 0;
