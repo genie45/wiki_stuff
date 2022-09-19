@@ -320,7 +320,10 @@ html {
     /* Adminlist */
     --adminlist-background-color: #c8c8c811;
     --adminlist-border-color: var(--content-border-color);
-    
+    /* toc links and file toc */
+    --catlinks-background-color; var(--table-heading-background-color);
+    --catlinks-border-color: var(--table-border-color);
+    --catlinks-text-color: #80E7FF;
 }
 /* #endregion */
 
@@ -1385,9 +1388,9 @@ div.mw-warning {
 }
 #catlinks,
 ul#filetoc {
-    background-color: var(--table-heading-background-color);
-    color: #80E7FF;
-    border: 1px solid var(--table-border-color);
+    background-color: var(--catlinks-background-color);
+    color: var(--catlinks-text-color);
+    border: 1px solid var(--catlinks-border-color);
 }
 
 /* Allow limiting of which header levels are shown in a TOC; <div class="toclimit-3">, for instance, will limit to showing
