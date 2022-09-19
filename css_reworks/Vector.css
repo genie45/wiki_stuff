@@ -610,7 +610,7 @@ div#content {
     border-image-outset: 15px;
     border-image-repeat: stretch;
     border-image-source: var(--content-border-frame); 
-    box-shadow: 25px 20px 16px #0009, -20px 20px 17px #0009;
+    box-shadow: 25px 20px 16px #0004,-20px 20px 17px #0006;
     min-height: 600px;
 }
 div#content::before {
