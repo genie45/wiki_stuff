@@ -317,6 +317,10 @@ html {
     --vector-menu-background-color: var(--articlenav-background-color);
     --vector-menu-border-color: var(--articlenav-border-color);
     --vector-menu-link-color: var(--content-default-link-color);
+    /* Adminlist */
+    --adminlist-background-color: #c8c8c811;
+    --adminlist-border-color: var(--content-border-color);
+    
 }
 /* #endregion */
 
@@ -1287,8 +1291,6 @@ table {
 
 /* #region [[ARK Survival Evolved Wiki:Community portal]] & Noticeboard */
 .feature {
-    background: #c8c8c80d;
-    border: 1px solid rgba(var(--content-border-color--rgb), 0.5);
     border-radius: 5px;
     padding: 1em;
 }
@@ -1316,8 +1318,8 @@ table {
 	margin-left: 20px;
 	margin-bottom: 20px;
 	padding: 1em 1em;
-    background: #c8c8c811;
-	border: 1px solid var(--content-border-color);
+    background: var(--adminlist-background-color);
+	border: 1px solid var(--adminlist-border-color);
 	font-family: Tahoma, Arial, sans-serif;
     font-size: 93%;
 }
