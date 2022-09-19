@@ -12,4 +12,7 @@
     --content-border-color: #7fe7ff;
     --content-border-color--rgb: 127, 231, 255;
     --content-header-color: var(--content-text-color);
+    /* Sticky header */
+    --sticky-header-background-color: rgba(26, 55, 64, 0.98);
+    --sticky-button-hover-background-color: #6da5b9;
 }

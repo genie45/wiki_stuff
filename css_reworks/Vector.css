@@ -48,6 +48,10 @@
     --content-navigation-height: 50px;
     --content-navigation-top-offset: 43px;
     --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
+    /* Sticky header */
+    --sticky-header-height: 50px;
+    --sticky-search-border-radius: 4px;
+    --sticky-button-border-radius: 8px;
 }
 @media screen and (max-width: 1500px) {
     :root {
@@ -132,6 +136,10 @@
         /* Page navigation (mw-head) */
         --content-navigation-top-offset: calc(var(--search-height) + 26px);
         --content-navigation-margin: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
+        /* Sticky header */
+        --sticky-header-height: 40px;
+        --sticky-search-border-radius: 0;
+        --sticky-button-border-radius: 0;
     }
 }
 /* #endregion */
@@ -282,10 +290,7 @@ html {
     --datamaps-popup-subtitle-text-color: #bbb;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #52711550;
-    /* StickyHeader */
-    --sticky-header-height: 50px;
-    --sticky-search-border-radius: 4px;
-    --sticky-button-border-radius: 8px;
+    /* Sticky header */
     --sticky-header-background-color: rgba(90, 123, 22, 0.98);
     --sticky-header-shadow-color: #0000004a;
     --sticky-header-text-color: #fff;
@@ -298,7 +303,7 @@ html {
     --sticky-button-border-color: #222;
     --sticky-button-background-color: #fff4;
     --sticky-button-hover-background-color: #a2bb6f;
-    /* TemplateRessourceMap only used on mod versions of datamaps*/
+    /* [[Template:ResourceMap]] only used on mod versions of data maps */
     --trm-map-notice-border-color: #7FE7FF;
     --trm-map-notice-background-color: #6e92c06b;
     --trm-map-container-border-color: #000;
@@ -500,11 +505,6 @@ div#content {
     }
     .mw-body .mw-indicators + #p-lang-btn {
         grid-column: interwikis-left / interwikis-right;
-    }
-    :root {
-        --sticky-header-height: 40px;
-        --sticky-search-border-radius: 0;
-        --sticky-button-border-radius: 0;
     }
     #firstHeading {
         text-align: center;
