@@ -44,10 +44,20 @@ html {
     --fp-heading-text-color: var(--content-text-color);
     --fp-heading-border-color: #bbba59;
     --fp-box-background-color: #dddbd1;
-    /* OOUI buttons */
-    --oo-ui-button-text-color--primary: #000;
-    --oo-ui-button-text-color--secondary: var(--content-text-link-color);
-    --oo-ui-button-background-color--primary: var(--content-default-link-color);
+    /* OOUI */
+    --oo-ui-icon-filter--normal: none;
+    --oo-ui-icon-filter--required: none;
+    --oo-ui-widget-disabled-opacity: 0.6;
+    --oo-ui-button-background-color--framed: #dedfdf;
+    --oo-ui-button-background-color--progressive-hover: #a8ca63;
+    --oo-ui-button-border-color: #668a1d;
+    --oo-ui-button-text-color--framed-progressive: #000;
+    --oo-ui-button-text-color--frameless-hover: #7ba428;
+    --oo-ui-input-background-color: #ececec;
+    --oo-ui-input-background-color--readonly: #d7d7d7;
+    --oo-ui-input-border-color: rgba(var(--content-border-color--rgb), 0.8);
+    --oo-ui-input-text-color: #000;
+    --oo-ui-input-text-color--readonly: #444;
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
