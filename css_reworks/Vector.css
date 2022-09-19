@@ -321,9 +321,10 @@ html {
     --adminlist-background-color: #c8c8c811;
     --adminlist-border-color: var(--content-border-color);
     /* toc links and file toc */
-    --catlinks-background-color; var(--table-heading-background-color);
+    --catlinks-background-color: var(--table-heading-background-color);
     --catlinks-border-color: var(--table-border-color);
     --catlinks-text-color: #80E7FF;
+
 }
 /* #endregion */
 
