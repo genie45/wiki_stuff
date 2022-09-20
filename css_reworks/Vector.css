@@ -172,7 +172,7 @@ html {
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
-    --sidenav-text-color: #ffffff;
+    --sidenav-text-color: var(--content-header-color);
     --sidenav-text-hover-color: var(--content-text-link-color);
     --toolbar-background-color: #607c26ce;
     --toolbar-list-background-color: #66783dfa;
@@ -196,8 +196,15 @@ html {
     --fp-heading-text-color: var(--content-text-color);
     --fp-heading-border-color: #749ca4;
     --fp-box-background-color: #1d2526;
+    --fp-box-border-color: #749ca4;
+    --fp-box-shadow-color: #4a5153;
+    --fp-box-mainheading-border-color: #82a8af;
+    --fp-box-mainheading-text-color: #82a8af;
+    --fp-box-heading-border-color: #82a8af;
+    --fp-box-heading-text-color: var(--content-header-color);
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
+    --ark-ambox-border-color: #999999;
     /* Template:Navbox */
     --ark-navbox-title-text-color: var(--content-text-color);
     --ark-navbox-title-link-color: var(--content-default-link-color);
@@ -1708,8 +1715,8 @@ ul#filetoc {
 /* Boxes */
 .fpbox {
     width: 100%;
-    border: 1px solid #749ca4;
-    box-shadow: 0 2px 5px #4a5153;
+    border: 1px solid var(--fp-box-border-color);
+    box-shadow: 0 2px 5px var(--fp-box-shadow-color);
     background: var(--fp-box-background-color);
     color: var(--content-text-color);
     margin: 5px 0;
@@ -1727,8 +1734,8 @@ ul#filetoc {
 }
 .fpbox .mainheading {
     border: none;
-    border-bottom: 1px solid #82a8af;
-    color: #82a8af;
+    border-bottom: 1px solid var(--fp-box-mainheading-border-color);
+    color: var(--fp-box-mainheading-text-color);
     font-size: 150%;
     font-weight: bold;
     margin: 0 0 10px 0;
@@ -1737,8 +1744,8 @@ ul#filetoc {
 }
 .fpbox .heading {
     border: none;
-    border-bottom: 1px solid #82a8af;
-    color: #ffffff;
+    border-bottom: 1px solid var(--fp-box-heading-border-color);
+    color: var(--fp-box-heading-text-color);
     font-size: 132%;
     margin: 0 0 10px 0;
     padding: 0 0 5px 0;
@@ -1872,7 +1879,7 @@ img.fpWideImage {
 .ambox {
     max-width: 80%;
     margin: 1em auto;
-    border: 1px solid #999999;
+    border: 1px solid var(--ark-ambox-border-color);
     border-collapse: collapse;
     border-left-style: solid;
     border-left-width: 10px;
