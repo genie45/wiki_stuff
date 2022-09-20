@@ -205,6 +205,14 @@ html {
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
+    --ark-ambox-blue: #0000aa;
+    --ark-ambox-gray: #555555;
+    --ark-ambox-green: #00aa06;
+    --ark-ambox-purple: #a655b2;
+    --ark-ambox-red: #aa0000;
+    --ark-ambox-yellow: #aaaa00;
+    --ark-ambox-cyan: #00ABA2;
+    --ark-ambox-orange: #ffa500;
     /* Template:Navbox */
     --ark-navbox-title-text-color: var(--content-text-color);
     --ark-navbox-title-link-color: var(--content-default-link-color);
@@ -1907,28 +1915,28 @@ img.fpWideImage {
     font-size: smaller;
 }
 .ambox-blue {
-    border-left-color: #0000aa;
+    border-left-color: var(--ark-ambox-blue);
 }
 .ambox-gray {
-    border-left-color: #555555;
+    border-left-color: var(--ark-ambox-gray);
 }
 .ambox-green {
-    border-left-color: #00aa06;
+    border-left-color: var(--ark-ambox-green);
 }
 .ambox-purple {
-    border-left-color: #a655b2;
+    border-left-color: var(--ark-ambox-purple);
 }
 .ambox-red {
-    border-left-color: #aa0000;
+    border-left-color: var(--ark-ambox-red);
 }
 .ambox-yellow {
-    border-left-color: #aaaa00;
+    border-left-color: var(--ark-ambox-yellow);
 }
 .ambox-cyan {
-    border-left-color: #00ABA2;
+    border-left-color: var(--ark-ambox-cyan);
 }
 .ambox-orange {
-    border-left-color: #ffa500;
+    border-left-color: var(--ark-ambox-orange);
 }
 /* #endregion */
 
