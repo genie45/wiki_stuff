@@ -339,7 +339,24 @@ html {
     --catlinks-background-color: var(--table-heading-background-color);
     --catlinks-border-color: var(--table-border-color);
     --catlinks-text-color: #80E7FF;
-
+    /* Creature nav */
+    --creature-nav-default-background-color: #f70404;
+    --creature-nav-hover-shadow-color-1: #aac;
+    --creature-nav-hover-shadow-color-2: #111;
+    --creature-nav-border-color: #333;
+    --creature-nav-creature-color-white: #D5F2F2;
+    --creature-nav-creature-color-yellow: #E5DFAC;
+    --creature-nav-creature-color-lime: #CEF294;
+    --creature-nav-creature-color-brown: #e5c6ac;
+    --creature-nav-creature-color-purple: #CEACE5;
+    --creature-nav-creature-color-orange: #FAD6A5;
+    --creature-nav-creature-color-grey: #C4C4C4;
+    --creature-nav-creature-color-green: #a6ffa9;
+    --creature-nav-creature-color-cyan: #86e0f0;
+    --creature-nav-creature-color-pink: #ffb0eb;
+    --creature-nav-creature-color-red: #e5acb1;
+    --creature-nav-creature-color-yellowish: #c0a264;
+    
 }
 /* #endregion */
 
@@ -2018,17 +2035,17 @@ th span.short { display: none; }
     text-align: center
 }
 .navbox-creature-item div {
-	background-color: #2d74be;
+	background-color: var(--creature-nav-default-background-color); /*actually not used if creatures are categorized correctly*/
 }
 .creature_roster li:hover > div {
-    box-shadow:inset 0 0 3px #aac, inset 0 0 4px #111;
+    box-shadow:inset 0 0 3px var(--creature-nav-hover-shadow-color-1), inset 0 0 4px var(--creature-nav-hover-shadow-color-2);
 }
 /* Grid */
 .creature_roster {
     line-height: 0; /* Kills any vertical spacing between rows */
     margin: 0 !important;
     padding: .5em 0 !important;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--creature-nav-border-color);
     text-align: center;
 }
 .creature_roster li {
@@ -2038,40 +2055,40 @@ th span.short { display: none; }
 }
 /* Coloring */
 .navbox-creature-item .nav-white {
-    background-color:#D5F2F2;
+    background-color:var(--creature-nav-creature-color-white);
 }
 .navbox-creature-item .nav-yellow {
-    background-color:#E5DFAC;
+    background-color:var(--creature-nav-creature-color-yellow);
 }
 .navbox-creature-item .nav-lime {
-    background-color:#CEF294;
+    background-color:var(--creature-nav-creature-color-lime);
 }
 .navbox-creature-item .nav-brown {
-    background-color:#e5c6ac;
+    background-color:var(--creature-nav-creature-color-brown);
 }
 .navbox-creature-item .nav-purple {
-    background-color:#CEACE5;
+    background-color:var(--creature-nav-creature-color-purple);
 }
 .navbox-creature-item .nav-orange {
-    background-color:#FAD6A5;
+    background-color:var(--creature-nav-creature-color-orange);
 }
 .navbox-creature-item .nav-grey {
-    background-color:#C4C4C4
+    background-color:var(--creature-nav-creature-color-grey);
 }
 .navbox-creature-item .nav-green {
-    background-color:#a6ffa9
+    background-color:var(--creature-nav-creature-color-green);
 }
 .navbox-creature-item .nav-cyan {
-    background-color:#86e0f0
+    background-color:var(--creature-nav-creature-color-cyan);
 }
 .navbox-creature-item .nav-pink {
-    background-color:#ffb0eb
+    background-color:var(--creature-nav-creature-color-pink);
 }
 .navbox-creature-item .nav-red {
-    background-color:#e5acb1
+    background-color: var(--creature-nav-creature-color-red);
 }
 .navbox-creature-item .nav-yellowish {
-    background-color:#c0a264
+    background-color: var(--creature-nav-creature-color-yellowish);
 }
 /* #endregion */
 
