@@ -247,6 +247,7 @@ html {
     /* Template:Mission */
     --ark-mission-background-color: #003E4C;
     --ark-mission-text-color: #BCEEFA;
+    --ark-mission-border-color: var(--theme-accent-color);
     /* Template:HoverNote */
     --ark-hovertext-text-color: #4FB5FF;
     /* Kibble tables */
@@ -2194,7 +2195,7 @@ div.photo-text {
     margin: 0.2em;
     border-radius: 2px;
     padding: 0.7em;
-    border: 1px solid var(--theme-accent-color);
+    border: 1px solid var(--ark-mission-border-color);
     background: var(--ark-mission-background-color);
     color: var(--ark-mission-text-color, inherit);
 }
