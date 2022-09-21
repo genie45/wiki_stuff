@@ -2231,7 +2231,7 @@ div.photo-text {
 }
 
 /* #region [[Color IDs]]: table-like overview for better visibility and responsiveness */
-.color-ids-wrapper{
+.color-ids-wrapper {
     column-count: auto;
     column-width: 28em;
 }
@@ -4112,6 +4112,7 @@ div.drilldown-filters-wrapper {
 .theme-dark table.cargoTable.noMerge tr:nth-child(odd) { background-color: #202020; }
 .theme-dark table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 .theme-dark .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
+table.cargoTable { display: block }
 
 /* #endregion [[Special:CreateAccount]] */
 
