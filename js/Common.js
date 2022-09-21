@@ -73,84 +73,13 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
     [ '#wildStatCalc', [ 'MediaWiki:WildCreatureStats.js' ] ],
     // Interactive region map
     [ '.interactive-regionmap', [ 'en:MediaWiki:RegionMaps.js' ] ],
-    // Data map scripts
+    // Legacy data map scripts
     [ '.data-map-container', [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js',
         'en:MediaWiki:SpawnMaps.js' ] ],
     // Load ext.ark.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
     [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.js' ], !arkIsEnglishWiki ],
     [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.css' ], !arkIsEnglishWiki ]
 ]);
-// #endregion
-
-
-// #region Theme toggle (with tweaks contributed from the UnderMine wiki at https://undermine.wiki.gg)
-(function(window) {
-	if ( mw.config.get('wgUserName') && mw.config.get('wgThemeToggleDefault') !== null ) {
-		console.log('Skipping theme switching via site JS; Extension:ThemeToggle is loaded');
-		return;
-	}
-	
-	var currentTheme = null, defaultTheme = 'dark', altTheme = 'light', storageKey = 'skin-theme';
-    var I18n = arkCreateI18nInterface('ThemeToggle', {
-        en: { Label: 'Click to toggle the theme' }
-    });
-	
-	// add/remove class from body element
-	function setThemeClass(name) {
-		if (currentTheme) {
-			document.documentElement.classList.remove('theme-' + currentTheme);
-		}
-		currentTheme = name;
-		document.documentElement.classList.add('theme-' + currentTheme);
-		document.documentElement.classList.add('theme-notexttt');
-	}
-    mw.loader.using('mediawiki.user').then(function(){
-        setThemeClass(function() {
-            if(mw.user.isAnon()){
-                return (localStorage.getItem(storageKey) || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches && altTheme || defaultTheme));
-            }
-            else{
-                return (mw.user.options.get("gadget-Light") == "1") ? altTheme : defaultTheme;
-            }
-        }());
-    });
-	
-	// create button
-	$(function () {
-		var $toggle = $('<li id="p-themes" class="notexttt mw-list-item">');
-		var $toggleChild = $('<input type="checkbox" id="theme-switcher">')
-			.attr('title', I18n('Label'))
-			.prop('checked', currentTheme != defaultTheme)
-			.on('change', function () {
-				var newTheme = this.checked ? altTheme : defaultTheme;
-				setThemeClass(newTheme);
-				localStorage.setItem(storageKey, newTheme);
-                mw.loader.using('mediawiki.api').then(function() {
-                    var api = new mw.Api();
-                    api.post({
-                        "action": "options",
-                        "format": "json",
-                        "optionname": "gadget-Light",
-                        "optionvalue": (newTheme === altTheme) ? '1' : '0',
-                        "token": mw.user.tokens.get("csrfToken")
-                    });
-                });
-			});
-	
-		// add button
-		$toggle.append($toggleChild);
-		$('#p-personal > .body > ul').prepend($toggle);
-	});
-	
-	// Toggle theme after system theme change
-	window
-		.matchMedia('(prefers-color-scheme: dark)')
-		.addEventListener('change', function (e) {
-			var colorScheme = e.matches ? 'dark' : 'light';
-			setThemeClass(colorScheme);
-			localStorage.setItem(storageKey, colorScheme);
-		});
-})(window);
 // #endregion
 
 
