@@ -52,6 +52,9 @@
 .leaflet-container a {
     color: var(--datamaps-popup-text-link-color)
 }
+.leaflet-control {
+    color: #000;
+}
 .datamap-container .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
     background: var(--datamaps-container-legend-selected-background-color);
     color: inherit;
