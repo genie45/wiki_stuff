@@ -26,6 +26,9 @@ html {
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
+    --sidenav-text-color: #fff;
+    --sidenav-text-hover-color: #afdd53;
+    --sidenav-toggle-icon-filter: none;
     /* Table of contents */
     --toc-background-color: #cecece;
 	--toc-number-color: #4a4d4b;
