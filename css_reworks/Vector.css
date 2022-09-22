@@ -8,11 +8,11 @@
     /* wiki.gg */
     --netbar-height: 35px;
     /* Body */
-    --page-background-image: url(https://ark.wiki.gg/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
+    --page-background-image: url(/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
     /* Frame and logo */
-    --content-border-frame: url(https://ark.wiki.gg/images/f/fd/Border_frame.png) /*[[File:Border frame.png]]*/;
-    --wiki-logo-frame: url(https://ark.wiki.gg/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
-	--wiki-logo-horizontal: url(https://ark.wiki.gg/images/7/79/Logo_horiz.png) /*[[File:Logo horiz.png]]*/;
+    --content-border-frame: url(/images/f/fd/Border_frame.png) /*[[File:Border frame.png]]*/;
+    --wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
+	--wiki-logo-horizontal: url(/images/7/79/Logo_horiz.png) /*[[File:Logo horiz.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
@@ -21,9 +21,9 @@
                                    - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --wiki-logo-layout-bottom-gap: 0;
     /* Logo background */
-	--head-background-image--desktop: url(https://ark.wiki.gg/images/0/0d/Head_dinos_banner.png)
+	--head-background-image--desktop: url(/images/0/0d/Head_dinos_banner.png)
         /*[[File:Head dinos banner.png]]*/;
-	--head-background-image--mobile: url(https://ark.wiki.gg/images/6/65/Head_dinos_banner_mobile.png)
+	--head-background-image--mobile: url(/images/6/65/Head_dinos_banner_mobile.png)
         /*[[File:Head dinos banner mobile.png]]*/;
 	--head-layout-offset: calc(var(--layout-sidespace--right) + var(--layout-column-gap));
     --head-shadow-settings: none;
@@ -677,7 +677,7 @@ div#content::before {
     height: 100%;
     width: 100%;
     content: "";
-    background: url(https://ark.wiki.gg/images/b/b7/Hex_grid.png) /*[[File:Hex grid.png]]*/ repeat;
+    background: url(/images/b/b7/Hex_grid.png) /*[[File:Hex grid.png]]*/ repeat;
     z-index: -1;
     opacity: 0.7;
 }

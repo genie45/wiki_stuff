@@ -8,5 +8,5 @@
 @import url(/LANGUAGECODE/load.php?lang=LANGUAGECODE&modules=MediaWiki:Local.css&skin=vector&only=styles);
 /* ↓ WIKI LOGO OVERRIDE (IF DIFFERENT FROM ENGLISH) ↓ */
 /*:root {
-    --wiki-logo-frame: url(https://ark.wiki.gg/images/FIXME.png) / *[[File:Logo frame LANGUAGECODE.png]]* /;
+    --wiki-logo-frame: url(/images/FIXME.png) / *[[File:Logo frame LANGUAGECODE.png]]* /;
 }*/
