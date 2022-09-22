@@ -290,6 +290,11 @@ html {
     --oo-ui-input-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --oo-ui-input-text-color: #fff;
     --oo-ui-input-text-color--readonly: #aaa;
+    --oo-ui-dropdown-input-background-color--open: #3c4040;
+    --oo-ui-dropdown-input-background-color--hover: #3c4040;
+    --oo-ui-option-background-color--selected: #bfb2;
+    --oo-ui-option-background-color--highlight: #deffde33;
+    --oo-ui-option-background-color--selected-highlight: #bfb3;
     --oo-ui-tag-input-background-color: var(--oo-ui-input-background-color);
     --oo-ui-tag-input-background-color--outlined: #444848;
     /* DataMaps */
@@ -3733,7 +3738,8 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .oo-ui-textInputWidget.oo-ui-widget-disabled .oo-ui-inputWidget-input,
 .oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle,
 .oo-ui-dropdownWidget.oo-ui-widget-disabled .oo-ui-dropdownWidget-handle,
-.oo-ui-dropdownInputWidget.oo-ui-widget-disabled {
+.oo-ui-dropdownInputWidget.oo-ui-widget-disabled,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover {
     background-color: var(--oo-ui-input-background-color);
     color: var(--oo-ui-input-text-color);
     border-color: var(--oo-ui-input-border-color);
@@ -3750,6 +3756,26 @@ input[type="checkbox"]:hover + .mw-ui-button.mw-ui-progressive.mw-ui-quiet,
 .oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input[readonly]:not(.oo-ui-pendingElement-pending) {
     background-color: var(--oo-ui-input-background-color--readonly);
     color: var(--oo-ui-input-text-color--readonly);
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
+    background-color: var(--oo-ui-dropdown-input-background-color--open);
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover {
+    background-color: var(--oo-ui-dropdown-input-background-color--hover);
+}
+.oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget {
+    color: var(--content-text-color);
+}
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected {
+    background-color: var(--oo-ui-option-background-color--selected);
+}
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted {
+    background-color: var(--oo-ui-option-background-color--highlight);
+}
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted,
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-pressed.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted {
+    background-color: var(--oo-ui-option-background-color--selected-highlight);
+    color: var(--content-text-color);
 }
 /* Multiselect widget */
 .oo-ui-tagMultiselectWidget-handle,

@@ -61,6 +61,11 @@ html {
     --oo-ui-input-border-color: rgba(var(--content-border-color--rgb), 0.8);
     --oo-ui-input-text-color: #000;
     --oo-ui-input-text-color--readonly: #444;
+    --oo-ui-dropdown-input-background-color--open: #fafafa;
+    --oo-ui-dropdown-input-background-color--hover: #fafafa;
+    --oo-ui-option-background-color--highlight: #0002;
+    --oo-ui-option-background-color--selected: #adb89b60;
+    --oo-ui-option-background-color--selected-highlight: #a4b38690;
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */

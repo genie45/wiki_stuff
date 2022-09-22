@@ -122,7 +122,6 @@
 .datamap-container-legend > .oo-ui-menuLayout > .oo-ui-menuLayout-content {
     flex-grow: 1;
 }
-.datamap-container-legend .oo-ui-indicatorElement-indicator.oo-ui-indicator-down { filter: invert(1) }
 .datamap-csm-legend .csm-is-hidden ul { display: none; }
 .datamap-csm-legend > .oo-ui-comboBoxInputWidget { margin-top: 4px; }
 .datamap-csm-groups ul ul { font-size: 95%; }
