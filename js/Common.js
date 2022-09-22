@@ -60,8 +60,10 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
         // Experimental cloning calculator
         'en:MediaWiki:CloningCalculator.js' 
     ] ],
-    // [[Template:Nav creatures]] grid filtering
+    // Legacy [[Template:Nav creatures]] grid filtering
     [ '#creature-grid', [ 'MediaWiki:CreatureGridFiltering.js' ] ],
+    // [[Template:Nav creatures]] grid filtering
+    [ '.creature-roster', [ 'MediaWiki:NavboxGrid.js' ] ],
     // Common Data page fetch function if a wild stats calculator, spawn map or an interactive region map are present.
     // Separate request for cache efficiency (load once, not every time for a combination).
     [ '#wildStatCalc, .data-map-container[data-spawn-data-page-name], .interactive-regionmap, .datamap-container-content, '
