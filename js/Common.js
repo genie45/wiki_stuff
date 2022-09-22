@@ -158,7 +158,7 @@ $(function(){
 	    mw.config.values.wgSiteNoticeId = 2;
     	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
     	var snContent = 'We\'ve launched a browser extension that redirects from the old wiki to help you switch:<br/>'
-    		+ '<b>Get it for:</b> <a rel="nofollow" class="external text" href="https://chrome.google.com/webstore/detail/ark-wiki-redirection/ohdjjkijdejbbalchmpllknbelokjndh">Chrome/Edge/Brave</a> | <a rel="nofollow" class="external text" href="https://addons.mozilla.org/en-GB/firefox/addon/ark-wiki-redirection/">Firefox</a> | Opera (soon)';
+    		+ '<b>Get it for:</b> <a rel="nofollow" class="external text" href="https://chrome.google.com/webstore/detail/ark-wiki-redirection/ohdjjkijdejbbalchmpllknbelokjndh">Chrome/Brave</a> | <a rel="nofollow" class="external text" href="https://microsoftedge.microsoft.com/addons/detail/ark-wiki-redirection/objomcigdogggikehlnhdjbhldkheeoc">Edge</a> | <a rel="nofollow" class="external text" href="https://addons.mozilla.org/en-GB/firefox/addon/ark-wiki-redirection/">Firefox</a> | Opera (soon)';
     	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
     } )();
     // #endregion
