@@ -163,3 +163,9 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
     color: #003c00;
 }
 /* #endregion */
+
+/* #region Wikitext editor */
+div.wikiEditor-ui-toolbar {
+    --oo-ui-icon-filter--normal: none;
+}
+/* #endregion */

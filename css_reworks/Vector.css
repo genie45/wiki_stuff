@@ -3891,12 +3891,6 @@ div.wikiEditor-ui .wikiEditor-ui-view,
 .wikiEditor-ui .wikiEditor-ui-top {
     border-color: var(--content-border-color);
 }
-div.wikiEditor-ui-toolbar {
-    background: var(--table-heading-background-color);
-}
-.wikiEditor-ui-toolbar .tool.oo-ui-iconElement {
-    filter:invert(1);
-}
 .tool.oo-ui-buttonElement-frameless,
 .wikiEditor-ui-toolbar .tab {
     padding: 0.3em;
