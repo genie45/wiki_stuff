@@ -255,9 +255,6 @@ html {
     /* Kibble tables */
     --ark-kibbletable-border-color: #2d74bea6;
     --ark-kibbletable-background-color: #6e92c036;
-    /* Theme toggle */
-    --theme-toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%23fff' d='M17.39 15.14A7.33 7.33 0 0 1 11.75 1.6c.23-.11.56-.23.79-.34a8.19 8.19 0 0 0-5.41.45 9 9 0 1 0 7 16.58 8.42 8.42 0 0 0 4.29-3.84 5.3 5.3 0 0 1-1.03.69z'/%3E%3C/svg%3E%0A") /* MW's OOUI moon icon */;
-    --theme-toggle-icon-size: contain;
     /* OOUI */
     /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
     --oo-ui-icon-filter--normal: invert(1);
@@ -1288,27 +1285,6 @@ div#mw-panel div.portal div.body ul li a:hover {
     #nav-sidebar-toggle {
         display: none;
     }
-}
-/* #endregion */
-
-/* #region Legacy theme switcher */
-.theme-notexttt header#wikigg-header #p-personal li#p-themes {
-    all: unset;
-    border-right: 1px solid #333;
-    padding: 0 0.5em;
-    margin-right: 0;
-    position: relative;
-    background: inherit;
-    list-style: none;
-}
-.theme-notexttt #theme-switcher {
-    display: block;
-    -webkit-appearance: none;
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    background: var(--theme-toggle-icon) center center;
-    background-size: var(--theme-toggle-icon-size);
 }
 /* #endregion */
 
