@@ -117,6 +117,22 @@ html {
     --sticky-header-background-color: rgba(101, 138, 25, 0.98);
     /*misc*/
     --gray-table-background-color: #0606064f;
+    /*History and diffs*/
+    --diff-background-color: rgba(0,0,0,0.3);
+    --diff-plusminus-pos-color: #00A500;
+    --diff-plusminus-neg-color: #C60000;
+    --diff-deletedline-background-color: #b103039d;
+    --diff-deletedline-text-color: #e62444;
+    --diff-deletedline-border-color: #440000;
+    --diff-addedline-background-color: #004400;
+    --diff-addedline-text-color: #bfd959;
+    --diff-addedline-border-color: #00bb009d;
+    --diff-context-background-color: #f8f9fa;
+    --diff-context-border-color: #9b9b9b;
+    --diff-context-text-color: #202122;
+    --pagehist-selected-background-color: #f7f5c6;
+    --pagehist-selected-text-color: #252626;
+    --updatedmarker-color: #000;
 }
 /* #endregion */
 
