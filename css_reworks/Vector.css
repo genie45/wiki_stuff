@@ -297,6 +297,8 @@ html {
     --oo-ui-option-background-color--selected-highlight: #bfb3;
     --oo-ui-tag-input-background-color: var(--oo-ui-input-background-color);
     --oo-ui-tag-input-background-color--outlined: #444848;
+    --oo-ui-warning-background-color: #625a4d;
+    --oo-ui-warning-text-color: #fff9e6;
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -3632,8 +3634,8 @@ img[src*="/Xbox_Series.svg/"] {
 }
 .oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-warning,
 .warningbox {
-    background-color: #625a4d;
-    color: #fff9e6;
+    background-color: var(--oo-ui-warning-background-color);
+    color: var(--oo-ui-warning-text-color);
 }
 .oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success {
     background-color: #253330;
