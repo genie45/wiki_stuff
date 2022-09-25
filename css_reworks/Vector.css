@@ -3247,7 +3247,7 @@ td.diff-ntitle {
 }
 td.diff-deletedline {
 	background-color: var(--diff-deletedline-background-color);
-	border: left 2px var(--diff-deletedline-border-color);
+	border-left: solid 2px var(--diff-deletedline-border-color);
 }
 td.diff-deletedline .diffchange {
 	background: var(--diff-deletedline-diffchange-background-color);
@@ -3255,7 +3255,7 @@ td.diff-deletedline .diffchange {
 }
 td.diff-addedline {
 	background-color: var(--diff-addedline-background-color);
-	border: left 2px var(--diff-addedline-border-color);
+	border-left: solid 2px var(--diff-addedline-border-color);
 }
 td.diff-addedline .diffchange {
 	background: var(--diff-addedline-diffchange-background-color);
@@ -3264,7 +3264,7 @@ td.diff-addedline .diffchange {
 td.diff-context {
 	background-color: var(--diff-context-background-color);
 	color: var(--diff-context-text-color);
-    border-color: left 2px var(--diff-context-border-color);
+    border-left: solid 2px var(--diff-context-border-color);
 }
 #pagehistory li {
     background-color: transparent;
