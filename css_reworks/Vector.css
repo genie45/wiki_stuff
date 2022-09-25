@@ -362,7 +362,7 @@ html {
     --creature-nav-creature-color--pink: #ffb0eb;
     --creature-nav-creature-color--red: #e5acb1;
     --creature-nav-creature-color--yellowish: #c0a264;
-    /*History and diffs*/
+    /* History and diffs */
     --diff-background-color: rgba(0,0,0,0.3);
     --diff-plusminus-pos-color: #00A500;
     --diff-plusminus-neg-color: #C60000;
@@ -379,7 +379,7 @@ html {
     --diff-context-border-color: #9b9b9b;
     --pagehist-selected-background-color: #01060c;
     --pagehist-selected-text-color: var(--content-text-color);
-    --updatedmarker-color: #000;
+    --pagehist-last-visit-color: #000;
 }
 /* #endregion */
 
@@ -3255,7 +3255,7 @@ td.diff-context {
     padding: 3px;
 }
 .updatedmarker {
-    color: var(--updatedmarker-color);
+    color: var(--pagehist-last-visit-color);
 }
 /* #endregion */
 

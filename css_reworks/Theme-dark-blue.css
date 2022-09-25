@@ -30,5 +30,5 @@
     --diff-context-text-color: var(--content-text-color);
     --pagehist-selected-background-color: #f7f5c6;
     --pagehist-selected-text-color: #252626;
-    --updatedmarker-color: #000;
+    --pagehist-last-visit-color: #000;
 }
