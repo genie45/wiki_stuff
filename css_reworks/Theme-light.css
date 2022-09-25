@@ -113,6 +113,8 @@ html {
     --theme-toggle-icon-size: 150% 150%;
     /* Sticky header */
     --sticky-header-background-color: rgba(101, 138, 25, 0.98);
+    /*misc*/
+    --gray-table-background-color: #0606064f;
 }
 /* #endregion */
 

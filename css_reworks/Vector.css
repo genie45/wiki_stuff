@@ -361,6 +361,9 @@ html {
     --creature-nav-creature-color--pink: #ffb0eb;
     --creature-nav-creature-color--red: #e5acb1;
     --creature-nav-creature-color--yellowish: #c0a264;
+    /*misc vars*/
+    --gray-table-background-color: #262626;
+    --red-table-background-color: #cf4c4c8a;
 }
 /* #endregion */
 
@@ -3485,10 +3488,10 @@ table.status-effect-backg {
 
 /* #region Theme-aware coloring classes */
 .gray {
-    background-color: #262626;
+    background-color: var(--gray-table-background-color);
 }
 .redish-background{
-	background-color: #cf4c4c8a;
+	background-color: var(--red-table-background-color);
 }
 /* [[Template:PurchaseTableRow]], [[Template:Infobox item section]], [[Template:Infobox purchase section]] */
 .text-white {
