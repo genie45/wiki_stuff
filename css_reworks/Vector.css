@@ -935,7 +935,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 .vectorMenu li a { color: var(--vector-menu-link-color); }
 .vectorMenu h3 span:after,
 .vector-menu-dropdown h3:after {
-	filter: var(--oo-ui-icon-filter-normal);
+	filter: var(--oo-ui-icon-filter--normal);
 }
 /* #endregion */
 
