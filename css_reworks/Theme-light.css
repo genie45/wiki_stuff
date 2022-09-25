@@ -65,8 +65,8 @@ html {
     --oo-ui-option-background-color--highlight: #0002;
     --oo-ui-option-background-color--selected: #adb89b60;
     --oo-ui-option-background-color--selected-highlight: #a4b38690;
-    --oo-ui-warning-background-color: #d7b072;
-    --oo-ui-warning-text-color: #fff;
+    --oo-ui-warning-background-color: #dbcb99;
+    --oo-ui-warning-text-color: #000;
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
