@@ -255,6 +255,8 @@ html {
     /* Kibble tables */
     --ark-kibbletable-border-color: #2d74bea6;
     --ark-kibbletable-background-color: #6e92c036;
+    /* Math */
+    --math-filter: invert(1);
     /* OOUI */
     /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
     --oo-ui-icon-filter--normal: invert(1);
@@ -933,7 +935,7 @@ div#mw-panel div.portal div.body ul li a:hover {
 .vectorMenu li a { color: var(--vector-menu-link-color); }
 .vectorMenu h3 span:after,
 .vector-menu-dropdown h3:after {
-	filter: invert(1);
+	filter: var(--oo-ui-icon-filter-normal);
 }
 /* #endregion */
 
@@ -3161,9 +3163,9 @@ fieldset {
 	box-shadow: inset 0 -2px 0 0 var(--tabber-border-color);
 }
 
-.theme-dark .tabber__header__prev:after, 
-.theme-dark .tabber__header__next:after {
-	filter: invert(1);
+.tabber__header__prev:after, 
+.tabber__header__next:after {
+	filter: var(--oo-ui-icon-filter--normal);
 }
 .tabber__header__next:after { right: 0; }
 
@@ -4127,8 +4129,6 @@ div.gallerytext {
     color: #cecece;
 }
 
-.theme-dark .oo-ui-icon-info { filter: invert(1); }
-
 /* Cargo */
 div.cargo-table-diagram { fill: var(--content-text-color); }
 div.drilldown-filters-wrapper { 
@@ -4147,7 +4147,7 @@ table.cargoTable { display: block }
 
 /* #region Math */
 .mwe-math-fallback-image-inline {
-    filter: invert(1);
+    filter: var(--math-filter);
 }
 /* #endregion */
 

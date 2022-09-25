@@ -43,6 +43,8 @@ html {
     --fp-heading-text-color: var(--content-text-color);
     --fp-heading-border-color: #bbba59;
     --fp-box-background-color: #dddbd1;
+    /* Math */
+    --math-filter: none;
     /* OOUI */
     --oo-ui-icon-filter--normal: none;
     --oo-ui-icon-filter--required: none;
@@ -158,11 +160,5 @@ img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
 }
 .map-legend input[type="checkbox"]:checked + label {
     color: #003c00;
-}
-/* #endregion */
-
-/* #region Math */
-.mwe-math-fallback-image-inline {
-    filter: none;
 }
 /* #endregion */
