@@ -118,15 +118,17 @@ html {
     /*misc*/
     --gray-table-background-color: #0606064f;
     /*History and diffs*/
-    --diff-background-color: rgba(0,0,0,0.3);
+    --diff-background-color: none;
     --diff-plusminus-pos-color: #00A500;
     --diff-plusminus-neg-color: #C60000;
-    --diff-deletedline-background-color: #b103039d;
+    --diff-deletedline-background-color: #fb060687;
+    --diff-deletedline-diffchange-background-color: #be666394;
     --diff-deletedline-text-color: #e62444;
     --diff-deletedline-border-color: #440000;
     --diff-addedline-background-color: #004400;
     --diff-addedline-text-color: #bfd959;
     --diff-addedline-border-color: #00bb009d;
+    --diff-addedline-diffchange-background-color: #51b85694; 
     --diff-context-background-color: #f8f9fa;
     --diff-context-border-color: #9b9b9b;
     --diff-context-text-color: #202122;

@@ -372,9 +372,11 @@ html {
     --diff-deletedline-background-color: #440000;
     --diff-deletedline-text-color: #e62444;
     --diff-deletedline-border-color: none;
-    --diff-addedline-background-color: #00b900;
+    --diff-deletedline-diffchange-background-color: #be666394;
+    --diff-addedline-background-color: #035c03;
     --diff-addedline-text-color: #bfd959;
     --diff-addedline-border-color: none;
+    --diff-addedline-diffchange-background-color: #51b85694; 
     --diff-context-background-color: #6e92c036;
     --diff-context-text-color: #e0e0e0;
     --diff-context-border-color: #9b9b9b;
@@ -3245,24 +3247,24 @@ td.diff-ntitle {
 }
 td.diff-deletedline {
 	background-color: var(--diff-deletedline-background-color);
-	border: var(--diff-deletedline-border-color);
+	border: left 2px var(--diff-deletedline-border-color);
 }
 td.diff-deletedline .diffchange {
-	background: none;
+	background: var(--diff-deletedline-diffchange-background-color);
 	color: var(--diff-deletedline-text-color);
 }
 td.diff-addedline {
 	background-color: var(--diff-addedline-background-color);
-	border: var(--diff-addedline-border-color);
+	border: left 2px var(--diff-addedline-border-color);
 }
 td.diff-addedline .diffchange {
-	background: none;
+	background: var(--diff-addedline-diffchange-background-color);
 	color: var(--diff-addedline-text-color);
 }
 td.diff-context {
 	background-color: var(--diff-context-background-color);
 	color: var(--diff-context-text-color);
-    border-color: var(--diff-context-border-color);
+    border-color: left 2px var(--diff-context-border-color);
 }
 #pagehistory li {
     background-color: transparent;
