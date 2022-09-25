@@ -15,6 +15,8 @@
     /* Sticky header */
     --sticky-header-background-color: rgba(26, 55, 64, 0.98);
     --sticky-button-hover-background-color: #6da5b9;
+    /* OOUI */
+    --oo-ui-icon-filter--normal-progressive: brightness(0) invert(91%) sepia(20%) saturate(6726%) hue-rotate(155deg) brightness(110%) contrast(84%);
     /* History and diffs */
     --diff-background-color: rgba(0,0,0,0.3);
     --diff-plusminus-pos-color: #00A500;

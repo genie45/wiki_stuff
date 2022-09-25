@@ -47,6 +47,7 @@ html {
     --math-filter: none;
     /* OOUI */
     --oo-ui-icon-filter--normal: none;
+    --oo-ui-icon-filter--normal-progressive: brightness(0) invert(54%) sepia(98%) saturate(349%) hue-rotate(38deg) brightness(89%) contrast(83%);
     --oo-ui-icon-filter--required: none;
     --oo-ui-widget-disabled-opacity: 0.6;
     --oo-ui-button-background-color--framed: #dedfdf;
