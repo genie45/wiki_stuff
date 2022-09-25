@@ -33,4 +33,11 @@
     --pagehist-selected-background-color: #f7f5c6;
     --pagehist-selected-text-color: #252626;
     --pagehist-last-visit-color: #000;
+    /* Tabbers */
+    --tabber-shadow-color: var(--ark-arkitex-border-color);
+    --tabber-shadow-active-color: var(--sidenav-header-text-color);
+    --tabber-shadow-hover-color: #b1cdea;
+    --tabber-background-hover-color: #39a0d287;
+    --tabber-text-hover-color: #fff;
+    --tabber-background-active-color: #2d55cc96;
 }
