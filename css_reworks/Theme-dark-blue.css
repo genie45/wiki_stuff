@@ -15,7 +15,7 @@
     /* Sticky header */
     --sticky-header-background-color: rgba(26, 55, 64, 0.98);
     --sticky-button-hover-background-color: #6da5b9;
-    /*History and diffs*/
+    /* History and diffs */
     --diff-background-color: rgba(0,0,0,0.3);
     --diff-plusminus-pos-color: #00A500;
     --diff-plusminus-neg-color: #C60000;

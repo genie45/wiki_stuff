@@ -172,7 +172,7 @@ html {
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
-    --sidenav-text-color: var(--content-header-color);
+    --sidenav-text-color: #fff;
     --sidenav-text-hover-color: var(--content-text-link-color);
     --toolbar-background-color: #607c26ce;
     --toolbar-list-background-color: #66783dfa;

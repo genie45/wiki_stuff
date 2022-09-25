@@ -23,10 +23,6 @@ html {
     /* Assets */
     --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23222%22/%3E %3C/svg%3E");
     /* Sidebar */
-    --sidenav-header-background: #e5e5e5;
-    --sidenav-header-text-color: #202020;
-    --sidenav-background-color: #3d3e3d50;
-    --sidenav-text-color: #fff;
     --sidenav-text-hover-color: #afdd53;
     --sidenav-toggle-icon-filter: none;
     /* Table of contents */
