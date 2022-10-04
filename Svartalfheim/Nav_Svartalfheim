@@ -1,0 +1,20 @@
+<noinclude>{{modNote|Svartalfheim}}</noinclude>
+{{Navbox
+| name       = Nav Svartalfheim
+| title      = [[Mod:Svartalfheim|Svartalfheim]]
+| listclass  = hlist
+| state      = {{{state|expanded}}}
+
+| above      = Everything you need to know about Svartalfheim.
+
+| group1     = Regions
+| list1      = 
+
+| group2     = Maps
+| list2      = [[Mod:Svartalfheim/Explorer Map|Explorer Map]] {{*}} [[Mod:Svartalfheim/Ressource Map|Ressource Map]] {{*}} [[Mod:Svartalfheim/Spawn Map|Spawn Map]]
+
+| group3     = Misc
+| list3      = 
+
+| below      = 
+}}<noinclude>[[Category:Navigation templates]]</noinclude>

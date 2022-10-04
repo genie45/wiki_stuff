@@ -1,0 +1,78 @@
+{{ModNote|Svartalfheim}}
+<div id="fp-container">
+<div id="fp-1" class="fp-section">
+<div class="fpbox plain" style="text-align: center;" id="fpwelcome">
+<!-- BEGIN Welcome box-->
+<div class="mainheading">Welcome to the Svartalfheim Wiki</div>
+</div>
+<!--END Welcome box-->
+<div class="fpbox" id="fpabout">
+<!-- BEGIN Welcome and Description box-->
+{{FP heading|What is Svartalfheim?}}
+<center>
+Svartalfheim is a mod map for ARK developed by Nekatus the maker of [[Valguero]] and [[Fjordur]].
+</center>
+</div>
+<!--END Welcome and Description box-->
+<div class="fpbox" >
+<!-- BEGIN Game Features-->
+{{FP heading|Svartalfheim Features}}
+<center>
+* A dwarven inspired map
+* 33km² landscape full of mysteries
+* This is a no fly map. Flyers don't even spawn
+* New resources like pure Gold, Mithril and more...
+* New enemys like Dwarven Warriors
+* New Alpha dino variants with a more and better loot
+* Custom Dino Variants (Download here)
+* A lot of cool new content is planned!
+</center>
+<!--END Game Features-->
+</div>
+</div>
+<div id="fp-2" class="fp-section">
+<div class="fpbox">
+<!-- BEGIN Patch-->
+{{FP heading|Current Patch Notes}}
+<center>
+* Added Sulfur rocks to underwater biome
+* Adjusted Fog density in the underworld
+* Adjusted Underworld tilestreaming
+* Re-enabled Underwater fringe effect
+* Fixed Rain in underworld
+* Fixed Collision issues
+* Fixed That you can't place structures onto house floor
+* Fixed Worldborder locations
+* Fixed Dinospawn Issues
+* Fixed Supply Crate spawn issues
+</center>
+</div>
+</div>
+<!--END Patch-->
+<div id="fp-3" class="fp-section">
+<div class="fpbox"><!-- BEGIN Twitter -->
+{{FP heading|Socials}}
+<div style="text-align: center;">
+<center>
+<gallery widths=110px heights=80px mode=nolines perrow=5>
+dev:Twitter.svg|link=https://twitter.com/Nekatus |[https://twitter.com/Nekatus Nekatus Twitter]
+dev:Twitch.svg|link=https://www.twitch.tv/nekatus |[https://www.twitch.tv/nekatus Nekatus Twitch ]
+dev:Discord.svg|link=https://discord.gg/cqRGR5E |[https://discord.gg/cqRGR5E Nekatus Discord]
+dev:Steam.svg|link=https://steamcommunity.com/sharedfiles/filedetails/?id=2869407478 |[https://steamcommunity.com/sharedfiles/filedetails/?id=2869407478 Steam Workshop]
+</gallery>
+</center>
+</div>
+</div><!--END Twitter -->
+</div>
+</div>
+<div id="fp-4" class="fp-section">
+<div class="fpbox">
+{{Nav Apex}}
+<center><h2>Other Mods:</h2></center>
+{{Nav Unofficial Mods}}
+</div>
+</div>
+</div>
+__NOTITLE__
+__NOTOC__
+{{MissingTranslations|de|es|fr|it|ja|pl|pt-br|ru|th}}
