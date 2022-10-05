@@ -1753,6 +1753,7 @@ ul#filetoc {
     margin: 5px 0;
     padding: 8px 1.25em;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 .fp-section > .fpbox:last-child {
     flex-grow: 1;
@@ -2737,6 +2738,7 @@ div.photo-text {
     font-size: 90%;
     width: 100%;
     border: 1px solid var(--navbox-border-color);
+    box-sizing: border-box;
 }
 .navbox-inner,
 .navbox-subgroup {
@@ -2812,7 +2814,8 @@ div.photo-text {
     flex-shrink: 0;
     white-space: normal;
 }
-.navbox-subgroup .navbox-list-with-group {
+/* Lists */
+.navbox-list {
     width: 100%;
 }
 /* #endregion */
