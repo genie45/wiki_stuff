@@ -4008,6 +4008,14 @@ html[class*="theme-dark"] .CodeMirror-gutters {
 
 /* #endregion */
 
+/* #region Scribunto editor */
+.mw-scribunto-console-fieldset,
+.mw-scribunto-message {
+    background: none;
+    color: var(--content-text-color);
+}
+/* #endregion */
+
 /* #region Metadata infobox on File pages */
 .mw_metadata{
     color: var(--sidenav-header-text-color);
