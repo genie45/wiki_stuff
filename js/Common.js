@@ -9,7 +9,7 @@
 window.arkCreateI18nInterface = function(module, strings) {
     var lang = mw.config.get('wgPageContentLanguage');
     var localStrings = window.arkLocalI18n && window.arkLocalI18n[module];
-    return function (key) {
+    return function ( key ) {
         return ( // try from local store
                  (localStrings && localStrings[key])
                  // try from script store
@@ -24,64 +24,94 @@ window.arkCreateI18nInterface = function(module, strings) {
 // #region importArticles with transparent EN interwiki support
 // Strip "en:" prefix on EN wiki, or prepend "u:" on translations
 window.arkIsEnglishWiki = mw.config.get('wgContentLanguage') == 'en';
-function getArticleAsModule(pageName) {
-    if (!pageName.startsWith('en:')) {
-        return pageName;
+window.arkImportArticles = function ( articles ) {
+    var mLocal = [], mGlobal = [];
+    articles.forEach( function ( item ) {
+        if ( item.startsWith( 'en:' ) ) {
+            mGlobal.push( item.slice( 3 ) );
+        } else {
+            mLocal.push( item );
+        }
+    } );
+    if ( arkIsEnglishWiki ) {
+        mLocal.concat( mGlobal );
+        mGlobal.length = 0;
     }
-    return arkIsEnglishWiki ? (pageName.slice(3)) : ('u:'+pageName);
-}
-window.arkImportArticles = function(articles) {
-    // Race warning: the ImportArticles extension script might be loaded after our script. Require it before executing the call.
-    mw.loader.using(['ext.importarticles'], function() {
-        importArticles({ type: 'script', articles: articles.map(getArticleAsModule) });
-    });
-}
-window.arkUsingArticles = function(articles, callback) {
-    return mw.loader.using(articles.map(getArticleAsModule), callback);
-}
+    // Load global modules
+    if ( mGlobal.length ) {
+        mw.loader.load( '/load.php?lang=en&modules=' + mGlobal.join( '|' ) + '&skin=vector&version=ztntf'
+            + ( mw.config.get( 'debug' ) ? '&debug=1' : '' ) );
+    }
+    // Load local modules
+    if ( mLocal.length ) {
+        // Race warning: the ImportArticles extension script might be loaded after our script. Require it before executing the call.
+        mw.loader.using( 'ext.importarticles', function () {
+            importArticles( { type: 'script', articles: mLocal } );
+        } );
+    }
+};
+window.arkUsingArticles = function( articles, callback ) {
+    return mw.loader.using( articles.map( function ( item ) {
+        return item.startsWith( 'en:' ) ? item.slice( 3 ) : item;
+    } ), callback );
+};
 // #endregion
 
 
 // #region Conditionally loaded modules
 // Extracted into global scope, so translation wikis or gadgets can insert their own if needed in future.
-window.arkConditionalModules = (window.arkConditionalModules||[]).concat([
+window.arkConditionalModules = (window.arkConditionalModules||[]).concat( [
     // [[Template:LoadPage]]
-    [ '.load-page', [ 'en:MediaWiki:LoadPage.js' ] ],
+    { sel: '.load-page',
+      pages: [ 'en:MediaWiki:LoadPage.js' ] },
     // Countdown timers
-    [ '.countdown', [ 'en:MediaWiki:Countdown.js' ] ],
+    { sel: '.countdown',
+      pages: [ 'en:MediaWiki:Countdown.js' ] },
     // Cooking calculator
-    [ '#cookingCalc', [ 'MediaWiki:Cooking calculator.js' ] ],
+    { sel: '#cookingCalc',
+      pages: [ 'MediaWiki:Cooking calculator.js' ] },
     // ARK Code calculator
-    [ '.ARKCode-container', [ 'MediaWiki:ARKCode.js' ] ],
+    { sel: '.ARKCode-container',
+      pages: [ 'MediaWiki:ARKCode.js' ] },
     // Creature article scripts
-    [ '.cloningcalc, .killxpcalc', [
+    { sel: '.cloningcalc, .killxpcalc',
+      pages: [
         // Kill XP calculator
         'en:MediaWiki:KillXP.js',
         // Experimental cloning calculator
         'en:MediaWiki:CloningCalculator.js' 
-    ] ],
+    ] },
     // Legacy [[Template:Nav creatures]] grid filtering
-    [ '#creature-grid', [ 'MediaWiki:CreatureGridFiltering.js' ] ],
+    { sel: '#creature-grid',
+      pages: [ 'MediaWiki:CreatureGridFiltering.js' ] },
     // [[Template:Nav creatures]] grid filtering
-    [ '.creature-roster', [ 'MediaWiki:NavboxGrid.js' ] ],
+    { sel: '.creature-roster',
+      pages: [ 'MediaWiki:NavboxGrid.js' ] },
     // Common Data page fetch function if a wild stats calculator, spawn map or an interactive region map are present.
     // Separate request for cache efficiency (load once, not every time for a combination).
-    [ '#wildStatCalc, .data-map-container[data-spawn-data-page-name], .interactive-regionmap, .datamap-container-content, '
-    + '.live-server-rates',
-        [ 'en:MediaWiki:DataFetch.js' ] ],
+    { sel: [ '#wildStatCalc', '.data-map-container[data-spawn-data-page-name]', '.interactive-regionmap',
+        '.datamap-container-content', '.live-server-rates' ],
+      pages: [ 'en:MediaWiki:DataFetch.js' ] },
     // Official server rates module
-    [ '.live-server-rates', [ 'en:MediaWiki:ServerRates.js' ] ],
+    { sel: '.live-server-rates',
+      pages: [ 'en:MediaWiki:ServerRates.js' ] },
     // Wild creature stats calculator
-    [ '#wildStatCalc', [ 'MediaWiki:WildCreatureStats.js' ] ],
+    { sel: '#wildStatCalc',
+      pages: [ 'MediaWiki:WildCreatureStats.js' ] },
     // Interactive region map
-    [ '.interactive-regionmap', [ 'en:MediaWiki:RegionMaps.js' ] ],
+    { sel: '.interactive-regionmap',
+      pages: [ 'en:MediaWiki:RegionMaps.js' ] },
     // Legacy data map scripts
-    [ '.data-map-container', [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js',
-        'en:MediaWiki:SpawnMaps.js' ] ],
+    { sel: '.data-map-container',
+      pages: [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js', 'en:MediaWiki:SpawnMaps.js' ] },
     // Load ext.ark.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
-    [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.js' ], !arkIsEnglishWiki ],
-    [ '.datamap-container-content', [ 'en:MediaWiki:DataMaps.css' ], !arkIsEnglishWiki ]
-]);
+    { sel: '.datamap-container-content',
+      pages: [ 'en:MediaWiki:DataMaps.js' ],
+      cond: !arkIsEnglishWiki },
+    { sel: '.datamap-container-content',
+      pages: [ 'en:MediaWiki:DataMaps.css' ],
+      cond: !arkIsEnglishWiki }
+] );
 // #endregion
 
 
@@ -276,8 +306,9 @@ $(function(){
 
     // #region Load our other scripts conditionally
     arkConditionalModules.forEach( function ( req ) {
-        if ( ( req.length < 3 || req[2] ) && document.querySelectorAll(req[0]).length > 0 ) {
-            arkImportArticles( req[1] );
+        if ( ( req.cond == null || req.cond )
+            && document.querySelectorAll( typeof( req.sel ) === 'string' ? req.sel : req.sel.join( ', ' ) ).length > 0 ) {
+            arkImportArticles( req.pages );
         }
     } );
     // #endregion
@@ -357,3 +388,4 @@ $(function(){
 
 // Signal to other modules that English site module has been loaded
 mw.loader.state( { 'en:site': 'ready' } );
+mw.loader.state( { 'site.arkCore': 'ready' } );
