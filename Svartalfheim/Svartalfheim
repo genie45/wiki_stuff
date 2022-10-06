@@ -1,17 +1,30 @@
 {{ModNote|Svartalfheim}}
 <div id="fp-container">
+<div class="fpbox plain" id="fpwelcome">
+		<div id="fpwelcometext">
+			<div class="mainheading" style="margin: 0; border-bottom: none">Welcome to the Svartalfheim Wiki</div>
+			<div>The [https://survivetheark.com ARK: Survival Evolved] reference manual written and maintained by the players.</div>
+			<div>We currently have [[Special:Statistics|{{NUMBEROFACTIVEUSERS}} active editors]] maintaining [[Special:Statistics|{{NUMBEROFPAGES}} pages ({{NUMBEROFARTICLES}} articles)]].</div>
+		</div>
+		<div id="fpsociallinks">
+			<div class="fp-icon-container">
+				<div class="fp-icon-flex">[[File:Twitter.svg|40px|link=https://twitter.com/Nekatus]]</div>
+				<div class="fp-icon-flex">[[File:Discord.svg|40px|link=https://discord.gg/cqRGR5E]]</div>
+				<div class="fp-icon-flex">[[File:Twitch.svg|40px|link=https://www.twitch.tv/nekatus]]</div>
+				<div class="fp-icon-flex">[[File:Steam.svg|40px|link=https://steamcommunity.com/sharedfiles/filedetails/?id=2869407478]]</div>
+			</div>
+			<p style="font-size:9pt;font-weight:normal;text-align:center;margin-top:1em">Official Links</p>
+		</div>    
+</div>
 <div id="fp-1" class="fp-section">
 <div class="fpbox plain" style="text-align: center;" id="fpwelcome">
-<!-- BEGIN Welcome box-->
-<div class="mainheading">Welcome to the Svartalfheim Wiki</div>
-</div>
-<!--END Welcome box-->
 <div class="fpbox" id="fpabout">
 <!-- BEGIN Welcome and Description box-->
 {{FP heading|What is Svartalfheim?}}
 <center>
-Svartalfheim is a mod map for ARK developed by Nekatus the maker of [[Valguero]] and [[Fjordur]].
+Svartalfheim is a mod map for ARK developed by Nekatus, the maker of [[Valguero]] and [[Fjordur]].
 </center>
+</div>
 </div>
 <!--END Welcome and Description box-->
 <div class="fpbox" >
@@ -35,6 +48,7 @@ Svartalfheim is a mod map for ARK developed by Nekatus the maker of [[Valguero]]
 <!-- BEGIN Patch-->
 {{FP heading|Current Patch Notes}}
 <center>
+==== Update: 2 Oct @ 4:02pm :====
 * Added Sulfur rocks to underwater biome
 * Adjusted Fog density in the underworld
 * Adjusted Underworld tilestreaming
@@ -50,29 +64,20 @@ Svartalfheim is a mod map for ARK developed by Nekatus the maker of [[Valguero]]
 </div>
 <!--END Patch-->
 <div id="fp-3" class="fp-section">
-<div class="fpbox"><!-- BEGIN Twitter -->
-{{FP heading|Socials}}
+<div class="fpbox"><!-- BEGIN Information -->
+{{FP heading|Important Information}}
 <div style="text-align: center;">
-<center>
-<gallery widths=110px heights=80px mode=nolines perrow=5>
-dev:Twitter.svg|link=https://twitter.com/Nekatus |[https://twitter.com/Nekatus Nekatus Twitter]
-dev:Twitch.svg|link=https://www.twitch.tv/nekatus |[https://www.twitch.tv/nekatus Nekatus Twitch ]
-dev:Discord.svg|link=https://discord.gg/cqRGR5E |[https://discord.gg/cqRGR5E Nekatus Discord]
-dev:Steam.svg|link=https://steamcommunity.com/sharedfiles/filedetails/?id=2869407478 |[https://steamcommunity.com/sharedfiles/filedetails/?id=2869407478 Steam Workshop]
-</gallery>
-</center>
+Mod ID: 2869407478<br/>
+Map Name: Svartalfheim<br/>
 </div>
-</div><!--END Twitter -->
+</div><!--END Information -->
 </div>
 </div>
-<div id="fp-4" class="fp-section">
 <div class="fpbox">
-{{Nav Apex}}
-<center><h2>Other Mods:</h2></center>
+{{Nav Svartalfheim}}
+</div>
 {{Nav Unofficial Mods}}
-</div>
-</div>
-</div>
 __NOTITLE__
 __NOTOC__
-{{MissingTranslations|de|es|fr|it|ja|pl|pt-br|ru|th}}
+[[fr:Mod:Svartalfheim]]
+{{MissingTranslations|de|es|it|ja|pl|pt-br|ru|th}}
