@@ -1,4 +1,4 @@
-var I18n, instance, observer, intersectPoint;
+var I18n, instance, intersectPoint, isMobile;
 var isBoundToTitle = !mw.config.get( 'wgIsMainPage' );
 
 
@@ -61,15 +61,38 @@ StickyHeader.prototype.hide = function () {
 };
 
 
-var _handleIntersection = function ( entries ) {
-    if ( entries[0].boundingClientRect.y < 0 ) {
+function throttle( func, wait ) {
+    var context, args, timeout, previous = Date.now() - wait;
+    var run = function () {
+        timeout = null;
+        previous = Date.now();
+        func.apply( context, args );
+    };
+    return function () {
+        context = this;
+        args = arguments;
+        if ( !timeout ) {
+            timeout = setTimeout( run, Math.max( wait - ( Date.now() - previous ), 0 ) );
+        }
+    };
+}   
+
+
+var _handleScroll = throttle( function () {
+    var anchor;
+    if ( screen.width > 720 ) {
+        anchor = intersectPoint.getBoundingClientRect().bottom;
+    } else {
+        anchor = screen.height * 0.8 - scrollY;
+    }
+    if ( anchor < 0 ) {
         if ( !instance.isVisible ) {
             instance.show();
         }
     } else {
         instance.hide();
     }
-};
+}, 100 );
 
 
 mw.loader.using( 'site', function () {
@@ -87,11 +110,10 @@ mw.loader.using( 'site', function () {
         instance = new StickyHeader();
         // Get #firstHeading or #mw-content-text as the intersection point
         intersectPoint = $( isBoundToTitle ? '#firstHeading' : '#top' ).get( 0 );
-        // Set up the intersection observer
-        observer = new IntersectionObserver( _handleIntersection, {
-            threshold: isBoundToTitle ? 1 : 0
+        // Set up the scroll observer
+        _handleScroll();
+        window.addEventListener( 'scroll', _handleScroll, {
+            passive: true
         } );
-        observer.observe( intersectPoint );
     } );
 } );
-

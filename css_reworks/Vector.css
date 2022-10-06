@@ -219,6 +219,8 @@ html {
     --ark-navbox-title-text-color: var(--content-text-color);
     --ark-navbox-title-link-color: var(--content-default-link-color);
     --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
+    --navbox-border-color: #0d6f70;
+    --navbox-row-zebra-colour: #fff1;
     --ark-navboxgroup-title-background-color: #2c2c2c;
     --ark-navboxgroup-title-text-color: var(--content-text-color);
     --ark-navboxgroup-title-border-color: #94c436;
@@ -1751,6 +1753,7 @@ ul#filetoc {
     margin: 5px 0;
     padding: 8px 1.25em;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 .fp-section > .fpbox:last-child {
     flex-grow: 1;
@@ -2727,45 +2730,44 @@ div.photo-text {
 }
 /* #endregion */
 
-/* #region [[Template:Navbox]] */
-table.navbox {
+/* #region [[Module:Navbox]] */
+.navbox {
     clear: both;
-    font-size: 88%;
     margin: 1em 0;
-    padding: 1px;
+    padding: 3px;
     font-size: 90%;
     width: 100%;
+    border: 1px solid var(--navbox-border-color);
+    box-sizing: border-box;
 }
-.navbox-title a,
-div#content .navbox-title a.external {
-    color: var(--ark-navbox-title-link-color);
+.navbox-inner,
+.navbox-subgroup {
+    border-spacing: 0;
+    width: 100%;
 }
-
-body .navbox-list {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-/* Border between adjacent navboxes */
-table.navbox + table.navbox {
+/* Reduce spacing between adjacent navboxes */
+.navbox + .navbox {
     margin-top: -1px;
 }
-
+/* Spacing between rows */
+.navbox-spacer {
+    height: 2px;
+}
+/* Title bars and labels */
+.navbox-title {
+    font-weight: bold;
+    font-size: 115%;
+    padding: 0.25em 0.6em;
+    line-height: 1.5em;
+    color: var(--ark-navbox-title-text-color);
+    background: var(--ark-navbox-title-background-color);
+}
 .navbox-title,
-.navbox-abovebelow,
-table.navbox th {
+.navbox-abovebelow {
     padding-left: 1em;
     padding-right: 1em;
     text-align: center;
 }
-
-.navbox-group {
-    font-weight: bold;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    white-space: nowrap;
-    text-align: center;
-}
-
 .navbox-abovebelow,
 .navbox-group,
 .navbox-subgroup .navbox-title {
@@ -2773,20 +2775,36 @@ table.navbox th {
     color: var(--ark-navboxgroup-title-text-color);
     border: 1px solid var(--ark-navboxgroup-title-border-color);
 }
-
-.navbox {
-    border: 1px solid var(--theme-accent-color);
+.navbox-title a,
+.navbox-title a.external {
+    color: var(--ark-navbox-title-link-color);
 }
-
-.navbox-list {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.navbox-title .mw-collapsible-toggle {
+    font-weight: normal;
+    text-align: right;
 }
-
-.navbox-subgroup>tbody>tr {
+.navbox-title .navbar {
+    float: left;
+    margin-right: 0.5em;
+}
+.navbox-title-text {
+    font-size: 105%;
+}
+/* Groups */
+.navbox-group {
+    font-weight: bold;
+    padding: 0 0.5em;
+    white-space: nowrap;
+    text-align: center;
+}
+/* Zebra colouring for rows */
+.navbox-even {
+    background: var(--navbox-row-zebra-colour);
+}
+/* Subgroups: equal group labels between different child navboxes */
+.navbox-subgroup > tbody > tr {
     display: flex;
-    align-items: stretch;
 }
-
 .navbox-subgroup .navbox-group {
     display: flex;
     align-items: center;
@@ -2796,47 +2814,9 @@ table.navbox th {
     flex-shrink: 0;
     white-space: normal;
 }
-
-/* Level 1 color */
-.navbox-title,
-table.navbox th {
-    font-weight: bold;
-    font-size: 120%;
-    color: var(--ark-navbox-title-text-color);
-    background: var(--ark-navbox-title-background-color);
-}
-
-table.navbox .navbox-title .mw-collapsible-toggle {
-    font-weight: normal;
-}
-
-/* Level 2 styling */
-.collapseButton {
-    font-weight: normal;
-    width: auto;
-}
-
-.navbox .collapseButton {
-    width: 6em;
-}
-
-.navbar {
-    font-size: 88%;
-    font-weight: normal;
-}
-
-.navbox .navbar {
-    font-size: 100%;
-}
-
-table.collapsed tr.collapsible {
-    display: none;
-}
-
-/** [[Template:Navbar]] **/
-.va-navbar {
-    position: absolute;
-    padding-left: .5em;
+/* Lists */
+.navbox-list {
+    width: 100%;
 }
 /* #endregion */
 
@@ -4029,6 +4009,14 @@ html[class*="theme-dark"] .CodeMirror-gutters {
 }
 /* #endregion */
 
+/* #endregion */
+
+/* #region Scribunto editor */
+.mw-scribunto-console-fieldset,
+.mw-scribunto-message {
+    background: none;
+    color: var(--content-text-color);
+}
 /* #endregion */
 
 /* #region Metadata infobox on File pages */
