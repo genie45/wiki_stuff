@@ -1,0 +1,17 @@
+<includeonly><div class=quote-rw>
+	<div class=quote-rw-inner>
+		{{#if: {{{4|}}} | <div class=quote-rw-image>[[File:{{{4}}}|64px]]</div> }}
+		<div class=quote-rw-left>
+			“
+		</div>
+		<div>
+			''{{{1}}}'' 
+		</div>
+		<div class=quote-rw-right>
+			„
+		</div>
+	</div>
+	{{#if: {{{2|}}} |<div class=quote-rw-quoter>
+		<small>~ '''{{{2}}}{{#if: {{{3|}}} | &nbsp;on {{{3}}}}}'''</small>
+	</div> }}
+</div></includeonly><noinclude>{{doc}}

@@ -1,0 +1,10 @@
+<includeonly><onlyinclude><div class="explorer-note-rw" >
+===={{{title|}}}====
+<div class="explorer-note-rw-main">
+	<div class="explorer-note-rw-quote">
+		{{quote|{{{text|}}}|{{{author|}}}||{{{icon|NoteHelena.png}}}}}
+	</div>
+	{{#if:{{{translation|}}}|<div class="explorer-note-rw-translation"><div class="explorer-note-rw-translateheader">'''Translation'''</div><div class="explorer-note-rw-translatedtext">{{{translation}}}</div></div>}}
+	{{#if:{{{sound|}}}|<div class="explorer-note-rw-sounds">[[File:{{{sound|}}}|1000px]]}}</div>
+</div>>
+</div></onlyinclude></includeonly>
