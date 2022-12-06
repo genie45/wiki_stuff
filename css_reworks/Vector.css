@@ -823,6 +823,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 /* #endregion */
 
 /* #region Site notice */
+#siteNotice > #localNotice,,
 .mw-dismissable-notice {
     background: #0002;
     border: 1px solid var(--content-border-color);
