@@ -14,6 +14,10 @@
     transition: transform .3s, background .1s;
 }
 
+html {
+    scroll-padding-top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
+}
+
 .is-sticky-header-visible #ark-sticky-header {
     transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
 }
