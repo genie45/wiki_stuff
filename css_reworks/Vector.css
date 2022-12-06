@@ -2632,7 +2632,8 @@ div.photo-text {
 .info-X2-60,
 .info-X3-33,
 .info-X4-25,
-.info-X2-50 {
+.info-X2-50,
+.info-with-background {
     background: var(--ark-arkitex-right-color);
 }
 /* Cell, 1 column, 100% width */
