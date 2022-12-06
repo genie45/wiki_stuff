@@ -2902,15 +2902,23 @@ div.photo-text {
 .explorer-note {
     display: inline-block;
     vertical-align: top;
-    width: 47%;
     margin: 1em;
+    width: 47%;
 	color: var(--content-text-color) !important;
+}
+.explorer-note:last-child {
+    width: unset;
 }
 .explorer-note-main {
     border-radius: 0.25em;
     border-left-width: 1em;
     background: var(--ark-dossier-background-color);
     border: 2px solid var(--ark-dossier-border-color);
+}
+@media screen and (max-width: 1500px) {
+    .explorer-note {
+        width: unset;
+    }
 }
 /* #endregion */
 
