@@ -2396,6 +2396,16 @@ div.photo-text {
   height: 14px;
   width: 14px;
 }
+
+/* Map feedback buttons */
+#mw-indicator-map-feedback {
+    --oo-ui-button-border-color: #ac205d;
+    --oo-ui-button-background-color--framed: #ac205d29;
+    --oo-ui-button-background-color--progressive-hover: #ac205d90;
+}
+#mw-indicator-map-feedback .oo-ui-buttonElement-button {
+    padding-right: 1.1em;
+}
 /* #endregion */
 
 /* #region [[Template:Achievement]] */
