@@ -78,7 +78,7 @@
     justify-content: flex-end;
 }
 
-#ark-sticky-header .sticky-buttons a {
+#ark-sticky-header .sticky-buttons > a {
     color: var(--sticky-button-text-color);
     padding: 0 0.5em;
     border: 1px solid var(--sticky-button-border-color);
@@ -90,12 +90,12 @@
     background-color: var(--sticky-button-background-color);
 }
 
-#ark-sticky-header .sticky-buttons a:hover,
-#ark-sticky-header .sticky-buttons a:focus {
+#ark-sticky-header .sticky-buttons > a:hover,
+#ark-sticky-header .sticky-buttons > a:focus {
     background-color: var(--sticky-button-hover-background-color);
 }
 
-#ark-sticky-header .sticky-buttons .with-icon {
+#ark-sticky-header .sticky-buttons > .with-icon {
     padding: 0 0.3em;
     background-position: center center;
     background-repeat: no-repeat;
@@ -103,12 +103,12 @@
     width: 30px;
 }
 
-#ark-sticky-header .sticky-buttons a:first-child {
+#ark-sticky-header .sticky-buttons > a:first-child {
     border-left-width: 1px;
     border-top-left-radius: var(--sticky-button-border-radius);
     border-bottom-left-radius: var(--sticky-button-border-radius);
 }
-#ark-sticky-header .sticky-buttons a:last-child {
+#ark-sticky-header .sticky-buttons > a:last-child {
     border-top-right-radius: var(--sticky-button-border-radius);
     border-bottom-right-radius: var(--sticky-button-border-radius);
 }
@@ -123,6 +123,42 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M5.391 15.575c.553 1.556-.098 2.537-.942 3.425 3.262-.731 3.243-2.134 3.77-3.425zm10.366-3.933c-.553 1.557.098 2.538.942 3.426-3.262-.732-3.242-2.134-3.769-3.426z'/%3E%3Cpath d='M7.768 7.146c-3.202 0-5.798 2.035-5.797 4.545 0 2.51 2.596 4.544 5.797 4.543 3.2 0 5.794-2.034 5.795-4.543 0-2.51-2.595-4.544-5.795-4.545zm-.022 2.247c2.01 0 3.64 1.034 3.639 2.308-.001 1.274-1.63 2.306-3.639 2.307-2.01 0-3.64-1.033-3.64-2.307-.001-1.275 1.629-2.309 3.64-2.308z'/%3E%3Cpath d='M12.473 2.727c-3.604 0-6.525 2.149-6.526 4.8l2.104-.017c.001-1.392 1.974-2.52 4.406-2.52 2.433 0 4.407 1.128 4.408 2.52 0 1.393-1.973 2.522-4.408 2.521l.016 2.3c3.603-.001 6.524-2.152 6.523-4.804 0-2.65-2.92-4.8-6.523-4.8z'/%3E%3C/svg%3E");
 }
 
+.is-sticky-header-visible #p-cactions .vector-menu-content {
+	display: none;
+}
+
+/* #region Table of contents */
+#ark-sticky-header #sticky-toc {
+    position: relative;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M7 15h12v2H7zm0-6h12v2H7zm0-6h12v2H7zM2 6h1V1H1v1h1zm1 9v1H2v1h1v1H1v1h3v-5H1v1zM1 8v1h2v1H1.5a.5.5 0 0 0-.5.5V13h3v-1H2v-1h1.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z'/%3E%3C/svg%3E%0A");;
+    transition: border-bottom-left-radius .07s;
+}
+#ark-sticky-header #sticky-toc > .toc {
+    display: none;
+    position: absolute;
+    top: 100%;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    width: 250px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 6px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.is-sticky-header-visible #ark-sticky-header #sticky-toc:hover {
+	border-bottom-left-radius: 0;
+}
+.is-sticky-header-visible #ark-sticky-header #sticky-toc:hover > .toc {
+    display: block;
+}
+#ark-sticky-header #sticky-toc > .toc > ul {
+    margin: 0;
+}
+#ark-sticky-header #sticky-toc > .toc > ul ul {
+    font-size: 90%;
+}
+/* #endregion */
 
 @media screen and (max-width: 720px) {
     #ark-sticky-header {
