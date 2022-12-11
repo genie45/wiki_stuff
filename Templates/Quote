@@ -14,4 +14,4 @@
 	{{#if: {{{2|}}} |<div class="quote-rw-quoter">
 		<small>~ '''{{{2}}}{{#if: {{{3|}}} | &nbsp;on {{{3}}}}}'''</small>
 	</div> }}
-</div></includeonly><noinclude>{{doc}}Templates/Explorer_Note
+</div></includeonly><noinclude>{{doc}}

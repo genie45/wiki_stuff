@@ -1,0 +1,147 @@
+{{infobox game
+| name = The Survival of the Fittest
+| image = tsotf_logo.jpg
+| description = [[Game Modes|Game Mode]] for [[ARK: Survival Evolved|ARK]] with new battle arena style gameplay
+| authors = [[Studio Wildcard]]
+| publishers = [[Studio Wildcard]]
+| price = Unknown
+| release_date = [[File:Steam.svg|20px]]<br/>2023<br/> [[File:Xbox Series.svg|20px]]<br/>2023
+| currentversion = 
+| links = [ Steam]
+| spotlight = Oi1k6vEshJc
+}}
+
+'''The Survival of the Fittest''' is an crossplay arena battle spin off of [[ARK]], based on the 2015 Battle Royal game mode [[Survival of the Fittest]]. It is a complete overhaul of the old game mode.
+
+===Gameplay===
+
+
+===Controls===
+Since the game is simplefiled some keybinds known from normal ARK are no longer working or got reassigned. Following is a list of all keybinds you will need to play the game.
+
+{|class="wikitable"
+|-
+!Action!!Default Key!!Xbox!!Playstation!!Notes
+|-
+! colspan="5" | Movement
+! Action !! Default Key !! Xbox !!  PS4  !! Notes
+|-
+! colspan="5" | Movement
+|-
+| Move Forward
+| align="center" | {{Key|W}}
+| align="center" | {{xbox|LStick}} Up
+| align="center" | {{ps4|LStick}} Up
+|
+|-
+| Move Backwards
+| align="center" | {{Key|S}}
+| align="center" | {{xbox|LStick}} Down
+| align="center" | {{ps4|LStick}} Down
+|
+|-
+| Strafe Left
+| align="center" | {{Key|A}}
+| align="center" | {{xbox|LStick}} Left
+| align="center" | {{ps4|LStick}} Left
+|
+|-
+| Strafe Right
+| align="center" | {{Key|D}}
+| align="center" | {{xbox|LStick}} Right
+| align="center" | {{ps4|LStick}} Right
+|
+|-
+| Run
+| align="center" | {{Key|Left Shift}}
+| align="center" | Press {{xbox|LStick}}
+| align="center" | Press {{ps4|LStick}}
+| When used while moving forward, will cause you to increase forward movement speed at the cost of increased stamina use, and over-rides 'Toggle Run' to on. A character may only run forwards; strafing and backpedaling speed will remain constant.
+|-
+| Jump
+| align="center" | {{Key|SPACE}}
+| align="center" | {{xbox|A}}
+| align="center" | {{ps4|Cross}}
+| Causes a character to jump up while stationary, and jump directionally when moving. also to ascend to surface when diving.
+|-
+| Crouch
+| align="center" | {{Key|C}}
+| align="center" | Press {{xbox|RStick}}
+| align="center" | Press {{ps4|RStick}}
+| Also used to descend while diving.
+|-
+| Prone
+| align="center" | {{Key|X}}
+| align="center" | Long Press {{xbox|RStick}}
+| align="center" | Long Press {{ps4|RStick}}
+| Causes the player's character to lay down.
+Xbox/PS4: One must release pressure after a pause. Also used to descend while diving.
+|-
+! colspan="5" | Battling
+|-
+| Primary Fire
+| align="center" | {{Key|mouse|left}}
+| align="center" | {{xbox|RT}}
+| align="center" | {{ps4|R2}}
+|Will cause the primary attack with a weapon or tool, such as shooting a projectile weapon or swinging a melee weapon.
+|-
+| Aim-Down Sights/ Alternate Fire
+| align="center" | {{Key|mouse|right}}
+| align="center" | {{xbox|LT}}
+| align="center" | {{ps4|L2}}
+|Will bring up the sights of a weapon, uses the alternate action of the object if one exists (such as the Grappling Hook un-spooling), or otherwise does nothing.
+|-
+| Toggle Fists
+| align="center" | {{Key|Q}}
+| align="center" | {{xbox|LB}} + {{xbox|U}}
+| align="center" | None ('activate' tool again to unequip)
+| Removes (or equips) item so that fists can be used. (Tested on xbox1version, 11/9/20; this button combo instead directs dinos to "Go Here.")
+|-
+| Reload weapon
+| align="center" | {{Key|R}}
+| align="center" | {{xbox|X}}
+| align="center" | {{ps4|Square}}
+| Will manually trigger the reload animation to fill the magazine with available corresponding ammunition. Double press will toggle the weapon attachment (maybe only for PC).
+|-
+! colspan="5" | Camera
+|-
+| Toggle Orbit Camera
+| align="center" | {{Key|K}}
+| align="center" | Hold {{xbox|W}} +  {{xbox|LStick}} to '11'*
+| align="center" | {{ps4|Touchpad}} + {{ps4|RStick}} to '10'*
+| Gives the camera an inverted third-person view of the character, which is not recommended for use while playing the game.
+|-
+| Zoom Camera In
+| align="center" |'''<code>Mouse Scroll Up</code>'''
+| align="center" | None
+| align="center" | None
+| Zooms camera in to first person mode
+|-
+| Zoom Camera Out
+| align="center" |'''<code>Mouse Scroll Down</code>'''
+| align="center" | None
+| align="center" | None
+| Zooms camera out to third person mode
+|-
+| Toggle 1st/3rd person (while mounted)
+| align="center" |'''<code>Scroll Mouse Wheel</code>'''
+| align="center" | RB
+| align="center" | {{ps4|R1}}
+| Toggles 1st/3rd person camera mode while riding a tame
+|-
+
+|}
+
+===Map===
+This Gamemode features a altered version of the current [[The Island]], with reduced foliage, like rocks and trees, to allow for easier traversal of dinos.
+The Map no longer features the iconic starting plattform in the middle of the Island.
+
+
+===Items===
+
+
+===Dinos===
+====tameable====
+
+====untamable====
+
