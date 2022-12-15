@@ -3164,6 +3164,9 @@ fieldset {
     background: var(--tabber-background-active-color);
 	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-active-color);
 }
+.tabber__indicator{
+    background: var(--tabber-shadow-active-color);
+}
 
 .tabber__tab:visited,
 .tabber__tab {
