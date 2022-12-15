@@ -193,6 +193,7 @@ html {
     --tabber-background-hover-color: #8dc22488;
     --tabber-text-hover-color: #000;
     --tabber-background-active-color: #5e811896;
+    --tabber-bottom-active-color: var(--tabber-shadow-hover-color);
     /* Tables */
     --table-background-color: var(--content-background-color);
     --table-border-color: #3d555e;
@@ -3165,7 +3166,7 @@ fieldset {
 	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-active-color);
 }
 .tabber__indicator{
-    background: var(--tabber-shadow-active-color);
+    background: var(--tabber-bottom-active-color);
 }
 
 .tabber__tab:visited,
