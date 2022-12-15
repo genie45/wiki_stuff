@@ -51,7 +51,7 @@
     /* Sticky header */
     --sticky-header-height: 50px;
     --sticky-search-border-radius: 4px;
-    --sticky-button-border-radius: 8px;
+    --sticky-button-border-radius: 4px;
     /* Common icons */
     --icon-edit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='m16.77 8 1.94-2a1 1 0 0 0 0-1.41l-3.34-3.3a1 1 0 0 0-1.41 0L12 3.23zM1 14.25V19h4.75l9.96-9.96-4.75-4.75z'/%3E%3C/svg%3E%0A");
     --icon-talk: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M18 0H2a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-4 4a1.5 1.5 0 1 1-1.5 1.5A1.5 1.5 0 0 1 14 4zM6 4a1.5 1.5 0 1 1-1.5 1.5A1.5 1.5 0 0 1 6 4zm4 8c-2.61 0-4.83-.67-5.65-3h11.3c-.82 2.33-3.04 3-5.65 3z'/%3E%3C/svg%3E%0A");
@@ -888,25 +888,25 @@ div#mw-panel div.portal div.body ul li a:hover {
 .vectorTabs li,
 .vectorTabs li.selected,
 .vectorTabs span,
-#mw-head .vectorMenu h3,
-.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+#mw-head .vectorMenu .vector-menu-heading,
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown .vector-menu-heading {
 	background: none;
 }
-.vectorMenu h3 span,
+.vectorMenu .vector-menu-heading span,
 .vectorTabs li a ,
-.vectorMenu li a {
+.vectorMenu .mw-list-item a {
 	color: var(--content-text-color);
 	text-transform: uppercase;
 	text-decoration: none;
 }
 .vectorTabs li { position:relative; }
-.vectorMenu:hover h3 span,
+.vectorMenu:hover .vector-menu-heading span,
 .vectorTabs li a:hover,
 .vectorTabs li.selected a,
 .vectorTabs li.selected a:visited,
-.vectorMenu li a:hover,
-.vectorMenu li.selected a,
-.vectorMenu li.selected a:hover { 
+.vectorMenu .mw-list-item a:hover,
+.vectorMenu .mw-list-item.selected a,
+.vectorMenu .mw-list-item.selected a:hover { 
     color: var(--content-default-link-color); 
 }
 .vectorTabs li:not(:last-child)::after {
@@ -942,8 +942,8 @@ div#mw-panel div.portal div.body ul li a:hover {
     top: 100%;
 }
 .vectorMenu li a { color: var(--vector-menu-link-color); }
-.vectorMenu h3 span:after,
-.vector-menu-dropdown h3:after {
+.vectorMenu .vector-menu-heading span:after,
+.vector-menu-dropdown .vector-menu-heading:after {
 	filter: var(--oo-ui-icon-filter--normal);
 }
 /* #endregion */
@@ -1027,7 +1027,7 @@ div#mw-panel div.portal div.body ul li a:hover {
         left: unset;
     }
     .vectorTabs span,
-    #right-navigation .vectorMenu h3{
+    #right-navigation .vectorMenu .vector-menu-heading {
         font-size: 80%;
     }
     .vectorTabs ul {
@@ -1121,14 +1121,14 @@ div#mw-panel div.portal div.body ul li a:hover {
     :root {
         --articlenav-border-color: var(--articlenav-border-color--tiny);
     }
-    #mw-head .vector-menu-dropdown h3 {
+    #mw-head .vector-menu-dropdown .vector-menu-heading {
         padding: 0;
         margin: 0;
     }
     div.vector-menu-tabs li.selected a,
     div.vector-menu-tabs li.selected a:visited,
     body div.vector-menu-tabs li a,
-    body #right-navigation div.vector-menu-dropdown h3 span {
+    body #right-navigation div.vector-menu-dropdown .vector-menu-heading span {
         width: 20px;
         height: 20px;
         padding: 5px 6px;
@@ -1140,11 +1140,11 @@ div#mw-panel div.portal div.body ul li a:hover {
     div.vector-menu-tabs li.selected a,
     div.vector-menu-tabs li.selected a:visited,
     div.vector-menu-tabs li a,
-    div.vector-menu-dropdown h3 span {
+    div.vector-menu-dropdown .vector-menu-heading span {
         overflow: hidden;
     }
     div.vector-menu-tabs li a::before,
-    div.vector-menu-dropdown h3 span::before {
+    div.vector-menu-dropdown .vector-menu-heading span::before {
         content:"";
         display:inline-block;
         background-color:transparent;
@@ -1184,16 +1184,16 @@ div#mw-panel div.portal div.body ul li a:hover {
     #ca-viewsource a::before {
         background-image: var(--icon-view-source);
     }
-    #p-variants h3 span::before {
+    #p-variants .vector-menu-heading span::before {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 48 48' width='20'%3E%3Cpath d='M0 0h48v48h-48z' fill='none'/%3E%3Cpath d='M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z'/%3E%3C/svg%3E");
     }
     /* #endregion */
     /* More */
-    #p-cactions h3 span::before {
+    #p-cactions .vector-menu-heading span::before {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'%3E%3Cpath d='M14 6C14 7.10457 13.1046 8 12 8C10.8954 8 10 7.10457 10 6C10 4.89543 10.8954 4 12 4C13.1046 4 14 4.89543 14 6Z'/%3E%3Cpath d='M14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12Z'/%3E%3Cpath d='M14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16C13.1046 16 14 16.8954 14 18Z'/%3E%3C/svg%3E");
         margin-top: 0;
     }
-    #p-cactions.vector-menu-dropdown h3::after {
+    #p-cactions.vector-menu-dropdown .vector-menu-heading::after {
         display: none;
     }
     #p-cactions .vector-menu-content {
@@ -4118,10 +4118,10 @@ div.gallerytext {
     div#mw-navigation div#mw-panel {
         overflow-x: clip;
     }
-    #right-navigation .vectorMenu h3 span {
+    #right-navigation .vectorMenu .vector-menu-heading span {
         padding-top: 0.5em;
     }
-    #right-navigation .vectorMenu h3 span::after {
+    #right-navigation .vectorMenu .vector-menu-heading span::after {
         top: 0.5em;
     }
     #right-navigation .vectorMenu .vectorMenuCheckbox {
