@@ -829,7 +829,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 /* #endregion */
 
 /* #region Site notice */
-#siteNotice > #localNotice,,
+#siteNotice > #localNotice,
 .mw-dismissable-notice {
     background: #0002;
     border: 1px solid var(--content-border-color);
@@ -3154,12 +3154,12 @@ fieldset {
 	color: var(--content-text-color);
 }
 .tabber__tab:hover,
-.tabber__tab--active:hover {
+.tabber__tab[aria-selected="true"]:hover {
 	background: var(--tabber-background-hover-color);
 	color: var(--tabber-text-hover-color) ;
 	box-shadow: none;
 }
-.tabber__tab--active, .tabber__tab--active:visited {
+.tabber__tab[aria-selected="true"], .tabber__tab[aria-selected="true"]:visited {
 	color: var(--content-text-color);
     background: var(--tabber-background-active-color);
 	box-shadow: inset 0 -2px 0 0 var(--tabber-shadow-active-color);
@@ -3429,7 +3429,7 @@ table.status-effect-backg {
   padding: 0.5em 0.7em;
   font-weight: 600;
 }
-.live-server-rates .tabber__tab--active {
+.live-server-rates .tabber__tab[aria-selected="true"] {
   color: var(--content-default-link-color);
   background: transparent;
 }
