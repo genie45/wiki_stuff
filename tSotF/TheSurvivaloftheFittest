@@ -1,147 +1,101 @@
-{{infobox game
+{{see also|Survival of the Fittest}}
+{{infobox DLC
 | name = The Survival of the Fittest
-| image = tsotf_logo.jpg
-| description = [[Game Modes|Game Mode]] for [[ARK: Survival Evolved|ARK]] with new battle arena style gameplay
-| authors = [[Studio Wildcard]]
-| publishers = [[Studio Wildcard]]
-| price = Unknown
-| release_date = [[File:Steam.svg|20px]]<br/>2023<br/> [[File:Xbox Series.svg|20px]]<br/>2023
-| currentversion = 
-| links = [ Steam]
-| spotlight = Oi1k6vEshJc
+| image = tSotF Logo.png
+| description = Standalone [[Game Modes|Game Mode]] for [[ARK: Survival Evolved|ARK]] with new battle arena style gameplay
+| contenttype = Game
+| price = {{HoverNote|$19.99|Bundled with ARK: Survival Evolved.}}
+| release_date = 23 December, 2022
+| spotlight = 6YJL1zw_0qI
 }}
+'''The Survival of the Fittest''' is a Battle Royale spin-off of ''[[ARK: Survival Evolved]]''. The game is played in rounds and at much faster pace. Its goal is to become the last man standing by killing all other competitors on the island. 
 
-'''The Survival of the Fittest''' is an crossplay arena battle spin off of [[ARK]], based on the 2015 Battle Royal game mode [[Survival of the Fittest]]. It is a complete overhaul of the old game mode.
+==Overview==
+The Survival of the Fittest is played on several servers set with special settings. The game takes place in an altered ARK at an accelerated pace without most of the features active to allow for a quicker game. For game balance, stats have been altered as tamed dinosaurs are no longer powerful, and as crafting does not function in this mode, most of the items found are found scattered across the supply drops found around the ARK. Due the near identical option of [[Game Modes#Hardcore|Hardcore]] mode, players cannot respawn on death or fast travel, but if they had any surviving tamed dino when they die as a survivor, the game is not over yet as they will take direct control; they lose if all the survivor and tamed dinosaurs in the tribe is killed/knocked down. Thereafter, they can still spawn like a ghost and go around and watch the game.
 
-===Gameplay===
+The absence of Specimen Implant means survivors cannot open their inventory as per usual, restricting them up to 8 equipment at a time. They will automatically wear any armor they find from Supply Drop, which the armor will disappear once the durability breaks down to zero.
 
+The environment consists of the usual [[The Island|island]] of Ark with slight modifications. At the start of every game, all players start off on a house in a {{ItemLink|Quetzal}} that slowly flies in one direction, until they are (auto)ejected to fly at a specific direction with a temporary {{ItemLink|Sinomacrops}} that despawns after landing. The area in which the players may move is restricted by barriers and gets smaller as time progresses, eventually forcing confrontation between players. Standing outside the zone will severely damage the health akin to "Implant Unstable" from [[Extinction]], both survivor and tamed dino, until they get killed by it.
 
-===Controls===
-Since the game is simplified some keybinds known from normal ARK are no longer working or got reassigned. Following is a list of all keybinds you will need to play the game.
+Note that [[Tek]] items do not spawn in this game mode, including ones that aren't part of boss Tekgrams..
 
-{|class="wikitable"
-|-
-!Action!!Default Key!!Xbox!!Playstation!!Notes
-|-
-! colspan="5" | Movement
-! Action !! Default Key !! Xbox !!  PS4  !! Notes
-|-
-! colspan="5" | Movement
-|-
-| Move Forward
-| align="center" | {{Key|W}}
-| align="center" | {{xbox|LStick}} Up
-| align="center" | {{ps4|LStick}} Up
-|
-|-
-| Move Backwards
-| align="center" | {{Key|S}}
-| align="center" | {{xbox|LStick}} Down
-| align="center" | {{ps4|LStick}} Down
-|
-|-
-| Strafe Left
-| align="center" | {{Key|A}}
-| align="center" | {{xbox|LStick}} Left
-| align="center" | {{ps4|LStick}} Left
-|
-|-
-| Strafe Right
-| align="center" | {{Key|D}}
-| align="center" | {{xbox|LStick}} Right
-| align="center" | {{ps4|LStick}} Right
-|
-|-
-| Run
-| align="center" | {{Key|Left Shift}}
-| align="center" | Press {{xbox|LStick}}
-| align="center" | Press {{ps4|LStick}}
-| When used while moving forward, will cause you to increase forward movement speed at the cost of increased stamina use, and over-rides 'Toggle Run' to on. A character may only run forwards; strafing and backpedaling speed will remain constant.
-|-
-| Jump
-| align="center" | {{Key|SPACE}}
-| align="center" | {{xbox|A}}
-| align="center" | {{ps4|Cross}}
-| Causes a character to jump up while stationary, and jump directionally when moving. also to ascend to surface when diving.
-|-
-| Crouch
-| align="center" | {{Key|C}}
-| align="center" | Press {{xbox|RStick}}
-| align="center" | Press {{ps4|RStick}}
-| Also used to descend while diving.
-|-
-| Prone
-| align="center" | {{Key|X}}
-| align="center" | Long Press {{xbox|RStick}}
-| align="center" | Long Press {{ps4|RStick}}
-| Causes the player's character to lay down.
-Xbox/PS4: One must release pressure after a pause. Also used to descend while diving.
-|-
-! colspan="5" | Battling
-|-
-| Primary Fire
-| align="center" | {{Key|mouse|left}}
-| align="center" | {{xbox|RT}}
-| align="center" | {{ps4|R2}}
-|Will cause the primary attack with a weapon or tool, such as shooting a projectile weapon or swinging a melee weapon.
-|-
-| Aim-Down Sights/ Alternate Fire
-| align="center" | {{Key|mouse|right}}
-| align="center" | {{xbox|LT}}
-| align="center" | {{ps4|L2}}
-|Will bring up the sights of a weapon, uses the alternate action of the object if one exists (such as the Grappling Hook un-spooling), or otherwise does nothing.
-|-
-| Toggle Fists
-| align="center" | {{Key|Q}}
-| align="center" | {{xbox|LB}} + {{xbox|U}}
-| align="center" | None ('activate' tool again to unequip)
-| Removes (or equips) item so that fists can be used. (Tested on xbox1version, 11/9/20; this button combo instead directs dinos to "Go Here.")
-|-
-| Reload weapon
-| align="center" | {{Key|R}}
-| align="center" | {{xbox|X}}
-| align="center" | {{ps4|Square}}
-| Will manually trigger the reload animation to fill the magazine with available corresponding ammunition. Double press will toggle the weapon attachment (maybe only for PC).
-|-
-! colspan="5" | Camera
-|-
-| Toggle Orbit Camera
-| align="center" | {{Key|K}}
-| align="center" | Hold {{xbox|W}} +  {{xbox|LStick}} to '11'*
-| align="center" | {{ps4|Touchpad}} + {{ps4|RStick}} to '10'*
-| Gives the camera an inverted third-person view of the character, which is not recommended for use while playing the game.
-|-
-| Zoom Camera In
-| align="center" |'''<code>Mouse Scroll Up</code>'''
-| align="center" | None
-| align="center" | None
-| Zooms camera in to first person mode
-|-
-| Zoom Camera Out
-| align="center" |'''<code>Mouse Scroll Down</code>'''
-| align="center" | None
-| align="center" | None
-| Zooms camera out to third person mode
-|-
-| Toggle 1st/3rd person (while mounted)
-| align="center" |'''<code>Scroll Mouse Wheel</code>'''
-| align="center" | RB
-| align="center" | {{ps4|R1}}
-| Toggles 1st/3rd person camera mode while riding a tame
-|-
+==Game Modes==
+Currently the servers have the following game modes:
+* Free for All (one player tribes)
+* 4 player tribes
 
-|}
+==Changes to Vanilla==
+Most game mechanics are different compared to the vanilla-game, to compensate for the short duration of one round.
+===Main Feature===
+* All tribe has a small taming cap limit of 20 per regardless of the number of survivor inside.
+* All survivors no longer has an implant that permits inventory access; they are only limited to a total of 8 inventory slots minus the extra items and armor slots which are automatically equipped.
+* All survivors starts off with one Blood Pack as shown in the HUD, with more blood packs by slaying other survivors.
+* Survivors have no levels, which makes "utilizing the dinos to survive" a higher priority, especially with the absence of crafting.
+** Stats are unviewable, mostly only viewable as Health and Stamina.
+** Stats like Food, Water and Torpidity don't exist either, eliminating the need to gather food and water.
+* Ability to switch to commander mode, displacing your camera into an "RTS" state similar to {{ItemLink|Exo-Mek}} so long as you are currently controlling survivor or a creature.
+* Ability to temporarily possess a tamed dinosaur belonging to your tribe, allowing manual control of them without the risk of death when mounting on them as long as you are currently controlling survivor.
 
-===Map===
-This game mode features an altered version of current [[The Island]], with reduced foliage (like rocks and trees), to allow for easier traversal of dinos.
-The map no longer features the iconic starting platform in the middle of The Island.
+====Changes from the old [[Survival of the Fittest]]====
+* Crafting is non-existent, most of the items obtained through {{ItemLink|Supply Crate}} only. Structures no longer exist in this mode as well, so players will have to utilize the surrounding and dino to their full usage.
+** Exception being ammos for specific weapons that requires them, which resources similarly can only be obtained at the same location as above.
+* All survivors no longer start at a center, but rather in a housing above a Quetzal's Saddle Platform.
+* Death of a Survivor no longer counts as elimination. As long as the player still has other player's survivors and tamed dino alive inside the tribe, they are still counted as in game. They can also take possession of a tamed dino upon death (Refer to Dinosaur section). Only when all the player's survivor and dino are wiped out in a tribe does it count as a game over.
+* The defeat of a tribe is now mentioned in the screen with a red box outside the walls of ARK in red as opposed to its near transparent screen.
+* Evolution Events are removed from the game mode.
+* Barrier no longer shrinks to the center, but to its random spot after it starts to shrink. Moreover, tamed dinosaurs will lose health if they are outside the barrier.
 
+===Harvesting===
+* Killing dinosaur or survivors earns points, which can be redeemed for summoning boss creatures when near them, or taming a downed dino. Specific species will give more points if killed.
+* Survivors can kill a tamed dinosaur with the circular menu (for dino points or freeing a tame slot), though this will actually kill the dino rather than downing it.
 
-===Items===
+===Dinosaur===
+* {{ItemLink|Diplodocus}} can now attack directly much like the ones spawned from the Genesis mission [[Survive the ARK (Genesis: Part 2)|Survive the ARK]].
+* Downed tamed dinosaur can be stolen by other survivors, or reclaimed, with points, as long as they were not killed while downed.
+* Once the original {{ItemLink|Human|text=Survivor}} gets killed, they can take control of a tamed dinosaur belonging to their tribe.
+* Dino Points can be used to restore the health of an injured dino over time, but has a cooldown upon use. Good for players not using a {{ItemLink|Daeodon}}.
 
+===Taming===
+* Tamable Dinos no longer require to be knocked out using the tranquilizing method or passive taming. Knock them out by reducing their health out to 0 and tame with points. If the saddle exist, dinosaurs in question will wear them immediately upon being tamed.
+** Note that only {{ItemLink|Human|text=Survivor}} can tame them. Players with dead survivors possessing dino '''cannot''' do it.
+* '''All''' dinosaurs have the starting stat of a level 1 creature based on species, but can be ranked up on tiers either through killing creatures/survivors or redeemed with Dino points.
 
-===Dinos===
-====Tameable====
+====Boss-Creatures====
+* Bosses appear randomly on the map on terminals to be summoned. Summoning them costs 400 Dino Tokens. They all start off as level 3 and cannot be leveled up. Only one of each type exists per round, and disappears after losing all health unlike dinosaurs.
+* The boss creatures in this mode are smaller than the original boss but weaker. Moreover, they don't possess majority of the natural ability unlike their guardian (i.e: Flight, Araneo Spawns).
+* Much like {{ItemLink|Titans}} from [[Extinction]], their location will be marked prior to being tamed. A large announcement will be made when someone tamed a boss creature with the boss name displayed.
+* Boss Creatures cannot be controlled by a deceased survivor, even if it is the only creature left in the tribe.
 
-====Untamable====
+==Creatures==
+These dino exists in this mode:
+===Utility (only for specific purpose)===
+{{ItemList|Quetzal|Sinomacrops}}
 
+===Spawn===
+{{ItemList|Allosaurus|Amargasaurus|Baryonyx|Beelzebufo|Brontosaurus|Carbonemys|Carcharodontosaurus|Carnotaurus|Castoroides|Chalicotherium|Compy|Daeodon|Dilophosaur|Dimetrodon|Diplodocus|Dire Bear|Direwolf|Dodo|Doedicurus|Gallimimus|Giganotosaurus|Gigantopithecus|Hyaenodon|Iguanodon|Kaprosuchus|Mammoth|Megaloceros|Megatherium|Paraceratherium|Parasaur|Phiomia|Purlovia|Raptor|Ravager|Rex|Sarco|Spino|Stegosaurus|Terror Bird|Therizinosaur|Thylacoleo|Titanoboa|Triceratops|Woolly Rhino|Yutyrannus}}
+
+===Summon Node===
+These creatures can only appear once per match in a summon node that has a similar appearance to {{ItemLink|Charge Node}}, minus the charge light. Summoning/Capturing them requires 400 Dino Points.
+{{ItemList|Broodmother|Dragon|Megapithecus}}
+
+===Untameable Spawn===
+These creature immediately dies upon reaching 0 health.
+{{ItemList|Argentavis|Dimorphodon|Hesperornis|Ichthyornis|Pteranodon}}
+
+==Notes==
+* Several dinos that originally did not exist in the original SotF were brought inside as of the recent update.
+** This includes the latest addition to the ARK {{ItemLink|Carcharodontosaurus}} and the exclusive creature from [[Lost Island]] {{ItemLink|Amargasaurus}}.
+** While {{ItemLink|Sinomacrops}} was shown, it only acts as a gliding tool for the survivors to reach a specific point of the ARK before vanishing into thin air. Similarly, {{ItemLink|Quetzal}} only exists as a carrier to hold all the survivors for them to eject into points of interest within the ARK.
+
+==External links==
+* [http://steamcommunity.com/app/407530/discussions/0/385428943467316062/ Steam Discussions]
+
+==References==
+<references/>
+
+[[Category:Total conversions]]
+[[Category:DLC]]
+{{Nav Gameplay Mechanics}}
+{{Nav DLCs}}
+
+{{MissingTranslations|de|pl|pt-br|es|fr|it|ja|ru|th}}
