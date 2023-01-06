@@ -66,6 +66,7 @@ For Single Player and non-dedicated servers (only options starting with a <code>
 * '''Steam:''' Right click in your Steam client on the game's name in the Library, choose Properties, tab General, button "Set Launch Options...", enter the options. Try to put them into the <code><nowiki>[ServerSettings]</nowiki></code> section of the Game.ini or GameUserSettings.ini files (for their locations see [[#Configuration Files|Configuration Files]]).
 
 <!--start of command line-->
+<div class="widetable">
 {| class="wikitable"
 |-
 ! Argument !! Platform !! Effect
@@ -102,11 +103,16 @@ Currently only the following options are supported to be adjusted dynamically: <
 |
 |Disables creation of folders in Tribute inventories (Feature currently activated by default on Official servers).
 ''Introduced in patch [[349.1]].''
-|-
+|-class="redish-background"
 |<code>-allowansel</code>
 |PC
 |Activates [[NVIDIA Ansel]] support. When connecting to a server, this will cause most lights (lamps) to no longer function, even when powered and lit.
 ''Introduced in patch [[246.0]].''
+''Functionality replaced by <code>-ServerAllowAnsel</code>.''
+|-
+|<code>-ServerAllowAnsel</code>
+|PC
+|Sets the server to allow clients to use [[NVIDIA Ansel]]. See link for details on it's support.
 |-
 |<code>?AllowAnyoneBabyImprintCuddle=true</code>
 |
@@ -446,7 +452,7 @@ Currently only the following options are supported to be adjusted dynamically: <
 |<code>-nonetthreading</code>
 |
 |Option for <code>?bRawSockets</code> servers to only utilize a single thread for networking (useful to improve performance for machines with more servers than cpu cores, on Linux in particular).
-''Introduced in patch [[271.15]].'' seems to be deprecated with patch [[271.17]].''
+''Introduced in patch [[271.15]].'' Seems to have been deprecated with patch [[271.17]].''
 |-class="redish-background"
 |<code>-forcenetthreading</code>
 |
@@ -475,17 +481,17 @@ You will need to restart your server, if you add new lines to the file while it 
 Only one can be specified and active at a time
 <table class="wikitable">
     <tr><th>eventname</th><th>Description</th></tr>
-    <tr><td><code>Easter</code></td><td>Allows for the [[Events#ARK:_Eggcellent_Adventure|Easter Event]] to be activated.</td></tr>
-    <tr><td><code>Arkaeology</code></td><td>Allows for the [[ARK: ARKaeology|Arkaeology Event]] to be activated.</td></tr>
-    <tr><td><code>ExtinctionChronicles</code></td><td>Allows for the [[Extinction Chronicles|Extinction Chronicles Event]] to be activated.</td></tr>
-    <tr><td><code>WinterWonderland</code></td><td>Allows for [[Events#ARK:_Winter_Wonderland|Winter Wonderland]] to be activated.</td></tr>
-    <tr><td><code>vday</code></td><td>Allows for [[Events#ARK:_Love_Evolved|Love Evolved]] to be activated.</td></tr>
-    <tr><td><code>Summer</code></td><td>Allows for [[Events#ARK:_Summer_Bash|Summer Bash]] to be activated.</td></tr>
-    <tr><td><code>FearEvolved</code></td><td>Allows for [[Events#ARK:_Fear_Evolved|ARK: Fear Evolved]] to be activated.</td></tr>
-    <tr><td><code>TurkeyTrial</code></td><td>Allows for [[Events#ARK:_Turkey_Trial|ARK: Turkey Trial]] to be activated.</td></tr>
-    <tr><td><code>birthday</code></td><td>Allows for [[Events#ARK:_Awesome_Anniversary|ARK: Awesome Anniversary]] to be activated.</td></tr>
-    <tr><td><code>PAX</code></td><td>Allows for [[ARK: PAX Party]] to be activated.
-''Introduced in patch [[349.8]].''</td></tr>
+    <tr><td><code>Easter</code></td><td>Allows for [[ARK: Eggcellent Adventure 7]] to be activated.</td></tr>
+    <tr><td><code>Arkaeology</code></td><td>Allows for [[ARK: ARKaeology]] to be activated.</td></tr>
+    <tr><td><code>ExtinctionChronicles</code></td><td>Allows for [[Extinction Chronicles]] to be activated.</td></tr>
+    <tr><td><code>WinterWonderland</code></td><td>Allows for [[ARK: Winter Wonderland 7]] to be activated.</td></tr>
+    <tr><td><code>vday</code></td><td>Allows for [[ARK: Love Evolved 3]] to be activated.</td></tr>
+    <tr><td><code>Summer</code></td><td>Allows for [[ARK: Summer Bash 2021]] to be activated.</td></tr>
+    <tr><td><code>FearEvolved</code></td><td>Allows for [[ARK: Fear Evolved 6]] to be activated.</td></tr>
+    <tr><td><code>TurkeyTrial</code></td><td>Allows for [[ARK: Turkey Trial 5]] to be activated.</td></tr>
+    <tr><td><code>birthday</code></td><td>Allows for [[ARK: 5th Anniversary]] to be activated.</td></tr>
+    <tr><td><code>ark7th</code></td><td>Allows for [[ARK: 7th Anniversary]] to be activated.</td></tr>
+    <tr><td><code>PAX</code></td><td>Allows for [[ARK: PAX Party]] to be activated.</td></tr>
     <tr><td>None</td><td>Disables normally active event.</td></tr>
 </table>
 It is possible that some events will only work partially or not at all, most special event assets are removed after the event (ie: candies and special color tables).
@@ -539,6 +545,7 @@ It is possible that some events will only work partially or not at all, most spe
 |
 |To allow Titanosaurs to be permanently tamed (namely allow them to be fed).
 '''Note that [[The Island]] currently only spawns a maximum of 3 Titanosaurs, so 3 tamed ones should ultimately block any more wild ones from spawning.'''
+
 ''Introduced in patch [[243.0]].''
 |-
 |<code>?AllowHitMarkers=false</code>
@@ -571,6 +578,7 @@ It is possible that some events will only work partially or not at all, most spe
 |PC
 |Enables structure memory optimizations.
 '''NOTE''' avoid using it when running structure-related mods (until they get updated) as it can break the snap points of these mod structures.
+
 ''Introduced in patch [[295.108]].''
 |-
 |<code>-nodinos</code>
@@ -634,8 +642,8 @@ Default for EPIC servers but can be enabled for Steam server.
 |-class="redish-background"
 |<code>-NewYearEvent</code>
 |PC
-|Enables the New Year Event; it will automatically start at Midnight EST and Noon EST on the 1st of January, unless specifically specified with the following 2 options. This command was only available around the time it was scheduled.
-''Introduced in patch [[320.38]], re-added during the 2021 holidays and removed after New Year's.''
+|Enables the [[ARK: Happy New Year!]] event; it will automatically start at Midnight EST and Noon EST on the 1st of January, unless specified with the following 2 options. This command was only available around the time it was scheduled.
+''First introduced in patch [[320.38]], re-added [[341.56]] and removed after New Year's.''
 |-
 |<code>?NewYear1UTC=<epoch time></code>
 |PC
@@ -652,6 +660,23 @@ Default for EPIC servers but can be enabled for Steam server.
 |Enables additional dupe protection (Note: this could have an impact on mods, so use with caution).
 ''Introduced in patch [[333.13]].''
 |-
+|<code>-UseSecureSpawnRules</code>
+|PC
+|More secure item/dino spawning rules (Note: this could have an impact on mods, so use with caution).
+''Introduced in patch [[349.27]].''
+|-
+|<code>-MinimumTimeBetweenInventoryRetrieval=<TimeInSeconds></code>
+|All
+|{{ItemLink|Fjordhawk}} cooldown on retrieval of player's inventory when killed. Defaults to 1 hour.
+''Introduced in patch [[351.5]].''
+|-
+|<code>?EventColorsChanceOverride=<num></code>
+|All
+|Takes a value between 0 and 1.
+1 = 100% chance for color override
+
+''Introduced in patch [[355.3]].''
+|-
 |<code>-LANPLAY</code>
 |All
 |Unreal Engine option for servers. Doubles the amount of clients the server tries to send data to in a single tick. Note that this applies only to LAN connected clients which the game detects and won't necessarily make the server run any better depending on resources and topology. Useless as a client parameter.
@@ -660,11 +685,12 @@ Default for EPIC servers but can be enabled for Steam server.
 |
 |This has never been found to be an option and if it ever was, it is now deprecated.
 |}
+</div>
 <!--end of command line-->
 
 ==Configuration Files==
 Most options can also be specified in the games configuration files. The location of the configuration files varies by platform
-
+<div class="widetable">
 {| class="wikitable"
 |-
 !Platform!!Configuration File!!Location
@@ -886,7 +912,10 @@ To easily create this file, you can use this [http://ini.arkforum.de/index.php?l
 ||<code>NewMaxStructuresInRange</code>||''integer''||6000 ||Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br/>''Introduced in patch [[188.0]] and deprecated with patch [[252.1]] by <code>TheMaxStructuresInRange</code>''
 |- class="redish-background"
 ||<code>MaxStructuresInRange</code>||''integer''|| 1300? ||Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br/>''Introduced in patch [[173.0]] and deprecated with patch [[188.0]] by <code>NewMaxStructuresInRange</code>''
+|-
+|<code>FreezeReaperPregnancy</code>||''boolean''||false||Freezes the {{ItemLink|Reaper King}} pregnancy timer and [[experience]] gain.
 |}
+</div>
 <!--end of GuS.ini-->
 ====Ragnarok====
 The following options are only available when playing the DLC [[Ragnarok]].
@@ -894,7 +923,7 @@ The following options are only available when playing the DLC [[Ragnarok]].
 They need to be set in the <code>[Ragnarok]</code> section (if you dont have one you can create it at the bottom) of the  <code>GameUserSettings.ini</code> file.
 
 '''NOTE: You don't need to use these settings. The game will use the default values if these settings aren't specified.'''
-
+<div class="widetable">
 {| class="wikitable sortable"
 |-
 !Option!!Value Type!! Default!!Effect
@@ -909,8 +938,10 @@ They need to be set in the <code>[Ragnarok]</code> section (if you dont have one
 |- 
 |<code>EnableVolcano</code>||''boolean''||true||false = disabled (the volcano will '''not''' become active), true = enabled
 |}
+</div>
 
 ==== ARK: Homestead specific ====
+<div class="widetable">
 {| class="wikitable"
 |-
 !Option!!Value Type!!Default!!Effect
@@ -923,18 +954,22 @@ They need to be set in the <code>[Ragnarok]</code> section (if you dont have one
 |-
 |<code>StructurePickupHoldDuration</code>||''float''||0.5||used to specify the quick-pickup hold duration <br />use <code>0</code> to disable and have instant pickup
 |}
+</div>
 
 ==== Fjordur ====
+<div class="widetable">
 {| class="wikitable"
 |-
 !Option!!Value Type!!Default!!Effect
 |-
 |<code>UseFjordurTraversalBuff</code>||''boolean''||false|| Enable and disable the biome teleport in Fjordur when holding {{Key|R}}
 |}
+</div>
 
 ===Game.ini===
 The following options can only be set in the <code>[/script/shootergame.shootergamemode]</code> section of <code>Game.ini</code>, located in the same folder as <code>GameUserSettings.ini</code> (see above for the location for each platform). Specifying them on the command line will have no effect.
 <!--start of Game.ini-->
+<div class="widetable">
 {| class="wikitable sortable"
 |-
 !Option!!Arguments !!Effects and Example
@@ -985,7 +1020,7 @@ ExperiencePointsForLevel['''<n>''']='''<points>'''<br />
 
 This directive can be specified twice in the configuration file. The first time it appears, the values provided will configure player levels. The second time it appears, the values provided will configure dinosaur levels.
 
-Because of this, each time the directive is used, it must list ''all'' of the levels players (or dinosaurs) can reach on the server. One <code>ExperiencePointsForLevel</code> argument must appear for each desired level. Values for <code>'''<n>'''</code> must be sequential, starting from zero. Keep in mind that the last 75 levels are used for ascension, meaning that you have to put 75 extra levels in your configuration file.
+Because of this, each time the directive is used, it must list ''all'' of the levels players (or dinosaurs) can reach on the server. One <code>ExperiencePointsForLevel</code> argument must appear for each desired level. Values for <code>'''<n>'''</code> must be sequential, starting from zero. Keep in mind that the last 100 levels are used for ascension, chibi experience, explorer notes and rune rewards, meaning that you have to put 100 extra levels in your configuration file.
 
 The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed on a single line.
 
@@ -1449,10 +1484,11 @@ this example unlocks the [[Tek Teleporter]] with level 0:<br />
 ''Introduced in patch [[259.32]]''
 |-
 |}
-
+</div>
 <!--end of Game.ini main list-->
 
 ====Genesis====
+<div class="widetable">
 {| class="wikitable sortable"
 |-
 !Option !! Value Type!!Default!!Effect
@@ -1502,6 +1538,7 @@ this example unlocks the [[Tek Teleporter]] with level 0:<br />
 |-
 |<code>MutagenLevelBoostBred[stat ID]</code>||integer||1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0|| Analogical to <code>MutagenLevelBoost</code>, but for bred dinos.<br />''Introduced in patch [[329.51]]''
 |}
+</div>
 
 ====Turret Limit related====
 <div style="border:1px solid silver; padding:0 1em;">
@@ -1986,6 +2023,105 @@ you also have options like:
  -ClusterDirOverride=C:/TestStorage/
 
 3. Meanwhile, in '''singleplayer''', you can just use the "ARK Tribute" option and then go back to the main menu and host on the other map, and download your data accordingly.
+
+== The Survival of the Fittest ==
+tSotF currently supports the below server options officially, aside from those settings and options from above should work if applicable to the gamemode.
+
+=== GameUserSettings.ini ===
+put the following Settings below the <code>[TSOTF]</code> tag or add the tag if not present in the file
+{| class="wikitable"
+|-
+! Option!!Value Type!!Default!!Effect
+|- 
+|PreventTribes
+|boolean
+|0
+|set to 1 disables tribes
+|-
+|PreventSpectator
+|boolean
+|0
+|set to 1 disables spectator as an eliminated player
+|-
+|MinTribesToStartMatch
+|integer
+|5
+|how many tribes you need to start the normal timer
+|-
+|MinPlayersToQuickStartMatch
+|integer
+|32
+|how many players you need to start the quick timer
+|-
+|TimeToStartMatch
+|integer
+|600
+|normal timer to auto start the match in seconds
+|-
+|TimeToQuickStartMatch
+|integer
+|120
+|quick timer to auto start the match in seconds
+|-
+|PreventBosses
+|boolean
+|0
+|set to 1 to disable bosses 
+|-
+|MaxPlayersPerTribe
+|integer
+|4
+|sets the maximum players allowed per tribe
+|}
+
+put the following Settings below the <code>[ServerSettings]</code> tag or add the tag if not present in the file
+{| class="wikitable"
+|-
+! Option!!Value Type!!Default!!Effect
+|-
+|bEnablePlayerMoveThroughAlly
+|boolean
+|false
+|if set to true allows players to walk through ally dinos
+|-
+|bEnablePlayerMoveThroughSleeping
+|boolean
+|false
+|if set to true allows players to walk through unconscious dinos
+|-
+|AutoCreateTribes
+|boolean
+|true
+|force players into a tribe automatically (good for prevent tribe servers (1 player))
+|}
+
+
+=== Game.ini ===
+put the following Settings below the <code>[/script/shootergame.shootergamemode]</code> tag or add the tag if not present in the file
+{| class="wikitable"
+|-
+! Option!!Arguments!!Effects
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|}
 
 ==References==
 <references />
