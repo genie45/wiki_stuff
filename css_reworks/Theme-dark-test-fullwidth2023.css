@@ -1,0 +1,152 @@
+@media screen and (min-width: 1261px) {
+	:root {
+		--page-background-image: url(https://cdn.discordapp.com/attachments/618831235929604126/1056728807580647524/ARK_Launch_KeyArt_10000x4248.jpg);
+		--layout-sidespace--left: 10px;
+		--layout-sidespace--right: 10px;
+		--layout-column-gap: 0px;
+		--sidebar-width: 175px;
+		--content-navigation-top-offset: 28px;
+		--content-background-color--rgb: 28, 30, 33;
+		--content-horizontal-margin: 1.2em;
+		--sidenav-header-text-color: var(--ark-dossiernote-border-color);
+	}
+	.is-sidebar-hidden {
+		--sidebar-width: 0px;
+	}
+	.is-sidebar-hidden #mw-panel {
+		display: none;
+	}
+	body {
+		grid-template-rows: [body-start] var(--netbar-height) [page-start logo-start] var(--layout-content-top-offset) [nav-start content-start] auto [content-end footer-start] 1fr [footer-end] 0fr [page-end] 0fr [body-end];
+	}
+	#mw-head-base {
+		display: none;
+	}
+	#mw-head {
+		padding-left: calc(var(--content-horizontal-margin) + 0.5em);
+		padding-right: calc(var(--content-horizontal-margin) + 0.5em);
+	}
+	#mw-panel {
+		width: var(--sidebar-width);
+		padding-left: 1.1em;
+		padding-top: 46px;
+		border-right: 1px solid rgba(var(--content-border-color--rgb),0.4);
+		background: rgba(var(--content-border-color--rgb),0.05);
+		grid-row: nav-start/footer-end;
+		box-sizing: border-box;
+	}
+	div#mw-panel div.portal div.body ul li a,
+	div#mw-panel div.portal div.body ul li a:link,
+	div#mw-panel div.portal div.body ul li a:visited {
+		font-weight: 400;
+		text-shadow: none;
+	}
+	div#mw-panel div.portal {
+		background: none;
+	}
+	#mw-navigation #mw-panel > div h3 {
+		background: none;
+		padding-left: 0.1em;
+	}
+	#mw-panel .vector-menu-content {
+		opacity: 0.8;
+	}
+	div#content {
+		padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
+		grid-column: aside-left/content-right;
+		box-shadow: none;
+	}
+	.content-body > main {
+		margin-right: var(--content-horizontal-margin);
+	}
+	#footer {
+		grid-column: aside-left/content-right;
+		padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
+		margin-bottom: 0;
+		background-color: rgba(var(--content-background-color--rgb), 0.6);
+	}
+	#wikigg-footer {
+		margin-top: 1.5em;
+	}
+	
+	#ca-view {
+		display: none;
+	}
+	
+	/** Imageless sidebar collapsible indicators **/
+	#mw-panel .portal .vector-menu-heading::after {
+	  content: '';
+	  display: inline-block;
+	  border-style: solid;
+	  margin-left: 4px;
+	  border-color: var(--sidenav-header-text-color) transparent;
+	  border-width: 6px 5px 0;
+	}
+	#mw-panel .portal.collapsed .vector-menu-heading::after {
+	  border-color: transparent var(--sidenav-header-text-color);
+		border-width: 6px 0px 5px 5px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.content-body > main #toc {
+		display: none;
+	}
+	#sidebar-toc {
+		background: none;
+		border: none;
+		border-left: 1px solid rgba(var(--content-border-color--rgb), 0.9);
+		opacity: 0.6;
+		margin-right: 0.6em;
+		padding-left: 1em;
+		position: sticky;
+		top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
+		font-size: 90%;
+		padding-right: 0;
+		line-height: 1.3;
+		min-width: 200px;
+		width: 25vw;
+		max-width: 310px;
+		box-sizing: border-box;
+		transition: opacity .1s;
+	}
+	#sidebar-toc:hover {
+		opacity: 1;
+	}
+	#sidebar-toc > ul {
+		overflow-y: auto;
+		max-height: calc(100vh - var(--netbar-height) - var(--sticky-header-height) - 5em);
+	}
+	#sidebar-toc .toctext {
+		word-wrap: anywhere;
+	}
+	#sidebar-toc ul ul {
+		margin-left: 1.2em;
+	}
+}
+
+@media screen and (max-width: 899px) {
+	#sidebar-toc {
+		display: none;
+	}
+}
+
+/* CATEGORIES RESKIN */
+#catlinks {
+  background: none;
+  border: none;
+  color: var(--content-default-link-color);
+}
+.catlinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px 3px;
+  margin-top: 0.2em;
+  margin-left: -0.4em;
+}
+.catlinks li, .catlinks li:first-child {
+  padding: 0.3em 0.7em;
+  border-radius: 9999px;
+  border: 1px solid var(--content-border-color);
+  opacity: 0.9;
+}

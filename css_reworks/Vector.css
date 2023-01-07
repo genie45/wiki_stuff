@@ -308,7 +308,7 @@ html {
     --oo-ui-tag-input-background-color--outlined: #444848;
     --oo-ui-warning-background-color: #625a4d;
     --oo-ui-warning-text-color: #fff9e6;
-    --oo-ui-notice-background-color: #b9baba;
+    --oo-ui-notice-background-color: var(--ark-arkitex-background-color);
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -320,7 +320,7 @@ html {
     --datamaps-popup-background-color: var(--content-background-color);
     --datamaps-popup-text-color: var(--content-text-color);
     --datamaps-popup-text-link-color: var(--content-text-link-color);
-    --datamaps-popup-subtitle-text-color: #bbb;
+    --datamaps-popup-subtitle-text-color: #9b9b9b;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #52711550;
     /* Sticky header */
@@ -836,6 +836,10 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     border: 1px solid var(--content-border-color);
     padding: 0.5em 1em 0;
     margin-bottom: 0.6em;
+}
+.sitedir-ltr .mw-dismissable-notice-body {
+	margin: 0;
+	margin-right: 6em;
 }
 /* #endregion */
 
@@ -1426,7 +1430,8 @@ table .number { text-align: right; }
 }
 div#toc,
 div.toc,
-div.mw-warning {
+div.mw-warning,
+div.mw-message-warning {
 	background-color: var(--toc-background-color);
 	border-color: var(--content-border-color);
 }
@@ -3634,21 +3639,25 @@ img[src*="/Xbox_Series.svg/"] {
 .oo-ui-messageWidget.oo-ui-flaggedElement-success:not(.oo-ui-messageWidget-block) {
     color: #30b799;
 }
-.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-notice {
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-notice,
+.mw-message-box {
     border-color: rgba(var(--content-border-color--rgb), 0.5);
     background-color: var(--oo-ui-notice-background-color);
     color: var(--content-text-color);
 }
-.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-error {
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-error,
+.mw-message-box-error {
     background-color: #5e4746;
     color: #fee;
 }
 .oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-warning,
-.warningbox {
+.warningbox,
+.mw-message-box-warning {
     background-color: var(--oo-ui-warning-background-color);
     color: var(--oo-ui-warning-text-color);
 }
-.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success {
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success,
+.mw-message-box-success {
     background-color: #253330;
 }
 .oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed),
