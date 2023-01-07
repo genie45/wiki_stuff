@@ -2025,7 +2025,7 @@ you also have options like:
 3. Meanwhile, in '''singleplayer''', you can just use the "ARK Tribute" option and then go back to the main menu and host on the other map, and download your data accordingly.
 
 == The Survival of the Fittest ==
-tSotF currently supports the below server options officially, aside from those settings and options from above should work if applicable to the gamemode.
+[[The Survival of the Fittest]] currently supports the below server options officially, aside from those settings and options from above should work if applicable to the gamemode.
 
 === GameUserSettings.ini ===
 put the following Settings below the <code>[TSOTF]</code> tag or add the tag if not present in the file
@@ -2093,6 +2093,39 @@ put the following Settings below the <code>[ServerSettings]</code> tag or add th
 |boolean
 |true
 |force players into a tribe automatically (good for prevent tribe servers (1 player))
+|-
+|RiderDinoCollision
+|boolean
+|false
+|This is a new config that has been added to the game mode to minimize some pain of creatures stacking together when having follow armies, therefore making them easier to kill -- however this also means that they won't follow as easily due to having collision with their allies -- hence why we're tinkering to find the best/optimal way. For now we are not planning on enabling this on our official servers. If enabled the following occurs:
+*Ridden and Possessed creatures can go through corpses, unconscious creatures, and ally tames
+*AI driven creatures (so commander mode, unridden, and unpossessed) cannot go through ally tames
+*AI driven creatures (so commander mode, unridden, and unpossessed) can go through sleeping creatures and corpses.
+|-
+|bFilterTribeNames
+|boolean
+|true
+|Filters out tribe names based on the badwords/goodwords list. 
+|-
+|bFilterCharacterNames
+|boolean
+|true
+|Filters out character names based on the bad words/good words list.
+|-
+|bFilterChat
+|boolean
+|true
+|Filters out character names based on the bad word/good words list 
+|-
+|BadWordListURL
+|string
+|N/A
+|add the url to hosting your own bad words list 
+|-
+|BadWordWhiteListURL
+|string
+|N/A
+|add the url to hosting your own good words list
 |}
 
 
@@ -2102,25 +2135,49 @@ put the following Settings below the <code>[/script/shootergame.shootergamemode]
 |-
 ! Option!!Arguments!!Effects
 |-
-|
-|
-|
+|<code>TamedDinoClassStaminaMultipliers=(ClassName="'''<classname>'''",Multiplier=<value>)</code>
+|classname = ''string'' 
+multiplier = ''float'' Default 1.0
+|allows overriding a tamed dino's stamina
+Dino classnames can be found on the [[Creature IDs]] page.
 |-
-|
-|
-|
+|<code>TamedDinoClassSpeedMultipliers=(ClassName="'''<classname>'''",Multiplier=<value>)</code>
+|classname = ''string'' 
+multiplier = ''float'' Default 1.0
+|allows overriding a tamed dino's speed 
+Dino classnames can be found on the [[Creature IDs]] page.
 |-
-|
-|
-|
+|<code>DinoClassSpeedMultipliers=(ClassName="'''<classname>'''",Multiplier=<value>)</code>
+|classname = ''string'' 
+multiplier = ''float'' Default 1.0
+|allows overriding a wild dino's speed.
+Dino classnames can be found on the [[Creature IDs]] page.
 |-
-|
-|
-|
+|<code>PreventDinoTameClassNames='''<classname>'''</code>
+|classname = ''string''
+|prevent dinos from being spawned E.g <code>PreventDinoTameClassNames=Yutyrannus_Character_BP_TSOTF_C </code>
+Dino classnames can be found on the [[Creature IDs]] page.
 |-
-|
-|
-|
+|<code>DinoClassDamageMultipliers=(<br/>ClassName="'''<classname>'''",<br/>Multiplier='''<multiplier>'''<br/>)</code>
+<code>TamedDinoClassDamageMultipliers=(<br/>ClassName="'''<classname>'''",<br/>Multiplier='''<multiplier>'''<br/>)</code>
+|classname = ''string''
+multiplier = ''float'' Default 1.0
+|Multiplies damage dealt of specific dinosaurs via classname. Higher values increase the damage dealt.
+Dino classnames can be found on the [[Creature IDs]] page.
+The examples provided here are split into multiple lines for space considerations. In the configuration file, an entry must be placed on a single line. Multiple <code>DinoClassDamageMultipliers</code> and <code>TamedDinoClassDamageMultipliers</code> entries can be specified in the file, but <code>ClassName</code> values should not be repeated across multiple entries.
+
+Examples:
+ DinoClassDamageMultipliers=(
+  ClassName="MegaRex_Character_BP_C",
+  Multiplier=0.1
+ )
+
+ TamedDinoClassDamageMultipliers=(
+  ClassName="Rex_Character_BP_C",
+  Multiplier=10.0
+ )
+Line breaks and spaces are here for better readability of the example. Keep it as one line in your configuration file.
+
 |}
 
 ==References==
