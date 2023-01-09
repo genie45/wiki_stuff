@@ -1,0 +1,8 @@
+{
+	"$mixin": true,
+	"markers": {
+		"obelisk-blue": [ { "lat": 25.5, "lon": 25.6 } ],
+		"obelisk-green": [ { "lat": 59, "lon": 72.3 } ],
+		"obelisk-red": [ { "lat": 79.8, "lon": 17.4 } ]
+	}
+}

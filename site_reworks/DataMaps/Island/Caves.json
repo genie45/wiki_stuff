@@ -1,0 +1,121 @@
+{
+	"$mixin": true,
+	"markers": {
+		"cave-entrance": [
+            {
+                "lat": 41.6, "lon": 47.0,
+                "name": "Central Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Clever}}",
+                "image": "Central Cave Entrance.jpg"
+            },
+            {
+                "lat": 19.2, "lon": 19.0,
+                "name": "North West Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Skylord}}",
+                "image": "CaveNWEntrance.jpg"
+            },
+            {
+                "lat": 80.2, "lon": 53.5,
+                "name": "Lower South Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Hunter}}",
+                "image": "Lower South Cave Entrance.jpg"
+            },
+            {
+                "lat": 14.8, "lon": 85.3,
+                "name": "North East Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Devourer}}",
+                "image": "CaveNEEntrance.jpg"
+            },
+            {
+                "lat": 68.2, "lon": 56.1,
+                "name": "Upper South Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Pack}}",
+                "image": "CaveUSEntrance.jpg"
+            },
+            {
+                "lat": 70.6, "lon": 86.1,
+                "name": "South East Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Massive}}",
+                "image": "CaveSEEntrance.jpg"
+            },
+            {
+                "lat": 62.7, "lon": 37.3,
+                "name": "Swamp Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Immune}}",
+                "image": "Swamp Cave Entrance.jpg"
+            },
+            {
+                "lat": 29.1, "lon": 31.8,
+                "name": "Snow Cave",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Strong}}",
+                "image": "Snow Cave Entrance.jpg"
+            },
+            {
+                "lat": 53.7, "lon": 10.4,
+                "name": "The Caverns of Lost Faith",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Brute}}",
+                "image": "The Caverns of Lost Faith Entrance.jpg"
+            },
+            {
+                "lat": 45.9, "lon": 88.9,
+                "name": "The Caverns of Lost Hope",
+                "description": "Holds:\n* {{ItemLink|Artifact of the Cunning}}",
+                "image": "The Caverns of Lost Hope Entrance.jpg"
+            },
+            {
+                "lat": 43.2, "lon": 39.1,
+                "name": "Tek Cave",
+                "description": "Overseer Fight is at the end of the cave",
+                "image": "Tek Cave Entrance.jpg"
+            },
+            {
+                "lat": 16.0, "lon": 10.1,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 10.0, "lon": 21.5,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 10.4, "lon": 39.5,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 7.9, "lon": 90.1,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 36.3, "lon": 91.5,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 50.5, "lon": 11.2,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 52.7, "lon": 91.9,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 83.0, "lon": 9.9,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 90.8, "lon": 13.0,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 89.8, "lon": 36.8,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 90.3, "lon": 71.3,
+                "name": "Unnamed Underwater Cave"
+            },
+            {
+                "lat": 87.1, "lon": 90.2,
+                "name": "Unnamed Underwater Cave"
+            }
+        ]
+	}
+}
