@@ -15,6 +15,56 @@
 			]
 		}
 	],
+	"groups": {
+		"playerSpawns-South1": {
+			"name": "Spawn: South Zone 1",
+			"fillColor": "#de00bd", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-South2": {
+			"name": "Spawn: South Zone 2",
+			"fillColor": "#ae00de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-South3": {
+			"name": "Spawn: South Zone 3",
+			"fillColor": "#ae99de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-West1": {
+			"name": "Spawn: West Zone 1",
+			"fillColor": "#5900de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-West2": {
+			"name": "Spawn: West Zone 2",
+			"fillColor": "#00dbd4", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-West3": {
+			"name": "Spawn: West Zone 3",
+			"fillColor": "#00d994", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-East1": {
+			"name": "Spawn: East Zone 1",
+			"fillColor": "#00de4a", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-East2": {
+			"name": "Spawn: East Zone 2",
+			"fillColor": "#99ff33", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-East3": {
+			"name": "Spawn: East Zone 3",
+			"fillColor": "#ffff00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-North1": {
+			"name": "Spawn: North Zone 1",
+			"fillColor": "#db8f00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-North2": {
+			"name": "Spawn: North Zone 2",
+			"fillColor": "#d90b00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-North3": {
+			"name": "Spawn: North Zone 3",
+			"fillColor": "#ffd700", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		}
+	},	
 	"markers": {
 		"dossier": [
 			{
@@ -3166,6 +3216,246 @@
 				"isWikitext": true,
 				"description": "Respawns 50.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Swamp, Cave, Tier 3, lvl 70)"
 			}
+		],
+		"playerSpawns-South1": [
+			{"lat": 75.2, "lon": 41.6 },
+			{"lat": 84.3, "lon": 43.9 },
+			{"lat": 84.2, "lon": 45.5 },
+			{"lat": 83.9, "lon": 46.3 },
+			{"lat": 83.1, "lon": 47 },
+			{"lat": 82.2, "lon": 47.2 },
+			{"lat": 81.7, "lon": 47.8 },
+			{"lat": 82.3, "lon": 48.7 },
+			{"lat": 77.2, "lon": 39 },
+			{"lat": 82.9, "lon": 48.3 },
+			{"lat": 76.2, "lon": 41.3 },
+			{"lat": 76.8, "lon": 41.3 },
+			{"lat": 77.9, "lon": 41.3 },
+			{"lat": 79.2, "lon": 41.3 },
+			{"lat": 80.6, "lon": 41.4 },
+			{"lat": 79.4, "lon": 35.8 },
+			{"lat": 76.7, "lon": 39.4 },
+			{"lat": 76.2, "lon": 39.9 },
+			{"lat": 75.5, "lon": 39.9 },
+			{"lat": 78, "lon": 38.6 },
+			{"lat": 78.3, "lon": 37.9 },
+			{"lat": 82, "lon": 41.4 },
+			{"lat": 78.6, "lon": 37.4 },
+			{"lat": 79, "lon": 37 },
+			{"lat": 79.4, "lon": 36.5 },
+			{"lat": 79.3, "lon": 35.9 },
+			{"lat": 79, "lon": 36.2 },
+			{"lat": 78.7, "lon": 36.7 },
+			{"lat": 78.2, "lon": 36.9 },
+			{"lat": 77.8, "lon": 37 },
+			{"lat": 77.4, "lon": 37 },
+			{"lat": 77, "lon": 37.2 },
+			{"lat": 82.8, "lon": 41.9 },
+			{"lat": 76.6, "lon": 37.6 },
+			{"lat": 76.2, "lon": 37.9 },
+			{"lat": 75.7, "lon": 38.2 },
+			{"lat": 83.7, "lon": 42.8}
+		],
+		"playerSpawns-South2": [
+			{"lat": 83.9, "lon": 47.9 },
+			{"lat": 84.8, "lon": 48.3 },
+			{"lat": 85.3, "lon": 49.3 },
+			{"lat": 86.1, "lon": 49.7 },
+			{"lat": 87.4, "lon": 50.4 },
+			{"lat": 87.8, "lon": 51.6 },
+			{"lat": 88.5, "lon": 53.4 },
+			{"lat": 88.3, "lon": 54.6 },
+			{"lat": 88, "lon": 55.7 },
+			{"lat": 88.1, "lon": 56.9 },
+			{"lat": 88.2, "lon": 57.7 },
+			{"lat": 87.8, "lon": 58.4 },
+			{"lat": 87.2, "lon": 58.7 },
+			{"lat": 86.4, "lon": 59 },
+			{"lat": 85.9, "lon": 58.9 },
+			{"lat": 85.4, "lon": 58.3 },
+			{"lat": 85.5, "lon": 57.5 },
+			{"lat": 84.4, "lon": 57 },
+			{"lat": 83.9, "lon": 56 },
+			{"lat": 83.5, "lon": 55.1 },
+			{"lat": 83.5, "lon": 57.8 },
+			{"lat": 82.6, "lon": 58 },
+			{"lat": 81.8, "lon": 58.1 },
+			{"lat": 81, "lon": 58.4 },
+			{"lat": 80.6, "lon": 58.4 },
+			{"lat": 81.3, "lon": 59.1 },
+			{"lat": 82, "lon": 59.9 },
+			{"lat": 82.5, "lon": 60.7 },
+			{"lat": 83.3, "lon": 61.5 },
+			{"lat": 83.9, "lon": 62.3 },
+			{"lat": 84.4, "lon": 63.3 },
+			{"lat": 84.8, "lon": 64.4 }
+		],
+		"playerSpawns-South3": [
+			{"lat": 84.2, "lon": 65.3 },
+			{"lat": 83.8, "lon": 66.8 },
+			{"lat": 83.5, "lon": 68.1 },
+			{"lat": 82.8, "lon": 68.9 },
+			{"lat": 81.8, "lon": 69.4 },
+			{"lat": 81.1, "lon": 69.8 },
+			{"lat": 80, "lon": 70.1 },
+			{"lat": 79.1, "lon": 69.6 },
+			{"lat": 78.3, "lon": 69.8 },
+			{"lat": 77.6, "lon": 70.4 },
+			{"lat": 77.3, "lon": 71.3 },
+			{"lat": 76.5, "lon": 71.6 },
+			{"lat": 76.4, "lon": 72.7 },
+			{"lat": 77.5, "lon": 73.6 },
+			{"lat": 78.6, "lon": 74.6 },
+			{"lat": 79.1, "lon": 76.3},
+			{"lat": 79, "lon": 78.5 },
+			{"lat": 78.3, "lon": 79.8 },
+			{"lat": 77.4, "lon": 80.9 },
+			{"lat": 76.3, "lon": 81.5 },
+			{"lat": 75.4, "lon": 81.7 },
+			{"lat": 74.3, "lon": 81.2 },
+			{"lat": 73.4, "lon": 84.5 }
+		],
+		"playerSpawns-West1": [
+			{"lat": 74.7, "lon": 37.5 },
+			{"lat": 76.2, "lon": 37.2 },
+			{"lat": 76.8, "lon": 36.3 },
+			{"lat": 77.6, "lon": 35.7 },
+			{"lat": 78.8, "lon": 34.8 },
+			{"lat": 79.8, "lon": 34 },
+			{"lat": 80.8, "lon": 33.4 },
+			{"lat": 81.4, "lon": 32 },
+			{"lat": 80.6, "lon": 31.3 },
+			{"lat": 79.6, "lon": 31 },
+			{"lat": 79.4, "lon": 30.2 },
+			{"lat": 79.7, "lon": 29.4 }
+		],
+		"playerSpawns-West2": [
+			{"lat": 81.5, "lon": 28.1 },
+			{"lat": 84.8, "lon": 29 },
+			{"lat": 87, "lon": 27.8 },
+			{"lat": 88.4, "lon": 26.2 },
+			{"lat": 88.8, "lon": 21.3 },
+			{"lat": 87.1, "lon": 19 },
+			{"lat": 85.2, "lon": 17.4 }
+		],
+		"playerSpawns-West3": [
+			{"lat": 82.5, "lon": 16.7 },
+			{"lat": 79.1, "lon": 13 },
+			{"lat": 77, "lon": 13.4 },
+			{"lat": 74.7, "lon": 13.9 },
+			{"lat": 72.6, "lon": 14 },
+			{"lat": 70.1, "lon": 14.1 },
+			{"lat": 67.5, "lon": 14.9 },
+			{"lat": 65.8, "lon": 15.3 },
+			{"lat": 63.8, "lon": 16.3 },
+			{"lat": 61.9, "lon": 17.3 },
+			{"lat": 58.9, "lon": 16.8 },
+			{"lat": 57.8, "lon": 15 },
+			{"lat": 60, "lon": 15.2 },
+			{"lat": 62.4, "lon": 13.8 },
+			{"lat": 65.6, "lon": 12.7 },
+			{"lat": 68.3, "lon": 12.7 },
+			{"lat": 71.2, "lon": 12.7 },
+			{"lat": 58.8, "lon": 12.5 },
+			{"lat": 55.7, "lon": 13.1 },
+			{"lat": 53.8, "lon": 15.2 },
+			{"lat": 51.6, "lon": 16.2 },
+			{"lat": 48.9, "lon": 16.2 },
+			{"lat": 44.6, "lon": 19 },
+			{"lat": 43.6, "lon": 17 },
+			{"lat": 41.4, "lon": 15.1 },
+			{"lat": 38.7, "lon": 14.6 },
+			{"lat": 38.9, "lon": 18.5 },
+			{"lat": 36.5, "lon": 18.7 },
+			{"lat": 35.7, "lon": 16.7 },
+			{"lat": 33.3, "lon": 16.7 },
+			{"lat": 32.3, "lon": 15.6 }
+		],
+		"playerSpawns-East1": [
+			{"lat": 66.3, "lon": 86.7 },
+			{"lat": 65.4, "lon": 86 },
+			{"lat": 64.1, "lon": 85.4 },
+			{"lat": 62.7, "lon": 85.6 },
+			{"lat": 61.4, "lon": 86 },
+			{"lat": 59.8, "lon": 86 },
+			{"lat": 58.5, "lon": 85.5 },
+			{"lat": 57.4, "lon": 84.5 },
+			{"lat": 56, "lon": 83.8 },
+			{"lat": 74.5, "lon": 85.3 },
+			{"lat": 75.4, "lon": 85.7 },
+			{"lat": 74.5, "lon": 87.2 },
+			{"lat": 73.3, "lon": 87.5 },
+			{"lat": 72.2, "lon": 87.6 },
+			{"lat": 71, "lon": 87.6 },
+			{"lat": 70.1, "lon": 87.6 },
+			{"lat": 69, "lon": 87.3 },
+			{"lat": 67.5, "lon": 87.1 }
+		],
+		"playerSpawns-East2": [
+			{"lat": 54.9, "lon": 84.2 },
+			{"lat": 53.6, "lon": 83.2 },
+			{"lat": 52.4, "lon": 81.7 },
+			{"lat": 50.9, "lon": 82.2 },
+			{"lat": 49.9, "lon": 83.2 },
+			{"lat": 48.7, "lon": 84.7 },
+			{"lat": 48, "lon": 86.1 },
+			{"lat": 49.6, "lon": 86.1 },
+			{"lat": 51.1, "lon": 86 },
+			{"lat": 52.4, "lon": 85.1 }
+		],
+		"playerSpawns-East3": [
+			{"lat": 52.9, "lon": 86.9 },
+			{"lat": 51.2, "lon": 87.4 },
+			{"lat": 49.6, "lon": 87.6 },
+			{"lat": 47.9, "lon": 87.5 },
+			{"lat": 46.4, "lon": 87.3 },
+			{"lat": 44.6, "lon": 87.2 },
+			{"lat": 43.1, "lon": 86.3 },
+			{"lat": 41.9, "lon": 85.9 },
+			{"lat": 40.6, "lon": 87.2 },
+			{"lat": 39.3, "lon": 87.2 },
+			{"lat": 37.6, "lon": 86.8 },
+			{"lat": 36.2, "lon": 86.5 },
+			{"lat": 34.5, "lon": 86.7 },
+			{"lat": 32.6, "lon": 86.9 }
+		],
+		"playerSpawns-North1": [
+			{"lat": 30.9, "lon": 87.2 },
+			{"lat": 29.6, "lon": 86.9 },
+			{"lat": 28.3, "lon": 86.4 },
+			{"lat": 27, "lon": 85.4 },
+			{"lat": 26.2, "lon": 84.1 },
+			{"lat": 25.2, "lon": 82.1 },
+			{"lat": 25.5, "lon": 80 },
+			{"lat": 26.2, "lon": 77.6 },
+			{"lat": 26.3, "lon": 75.1 }
+		],
+		"playerSpawns-North2": [
+			{"lat": 25.3, "lon": 73 },
+			{"lat": 22.8, "lon": 74.6 },
+			{"lat": 20.7, "lon": 74.8 },
+			{"lat": 18.9, "lon": 74.2 },
+			{"lat": 17.3, "lon": 73.7 },
+			{"lat": 15.7, "lon": 71.7 },
+			{"lat": 14, "lon": 70.9 },
+			{"lat": 13.6, "lon": 68.9}
+		],
+		"playerSpawns-North3": [
+			{"lat": 15.7, "lon": 68.4 },
+			{"lat": 17.7, "lon": 67.5 },
+			{"lat": 18.1, "lon": 65.2 },
+			{"lat": 19.2, "lon": 62.6 },
+			{"lat": 18.1, "lon": 61.4 },
+			{"lat": 15.4, "lon": 61.1 },
+			{"lat": 14.3, "lon": 57.8 },
+			{"lat": 12.4, "lon": 52.9 },
+			{"lat": 12.7, "lon": 50.3 },
+			{"lat": 12.8, "lon": 46 },
+			{"lat": 15, "lon": 43.8 },
+			{"lat": 16, "lon": 41.3 },
+			{"lat": 16.1, "lon": 38.5 },
+			{"lat": 15.2, "lon": 36.4 },
+			{"lat": 15.6, "lon": 34 }
 		]
 	}
 }
