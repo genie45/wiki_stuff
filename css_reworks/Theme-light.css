@@ -68,6 +68,7 @@ html {
     --oo-ui-option-background-color--selected-highlight: #a4b38690;
     --oo-ui-warning-background-color: #dbcb99;
     --oo-ui-warning-text-color: #000;
+    --oo-ui-notice-background-color: #b9baba;
     /* Ambox */
     --ark-ambox-background-color: #ddd;
     /* Template:Navbox */
@@ -110,6 +111,9 @@ html {
     /* Kibble tables */
     --ark-kibbletable-border-color: #ccc;
     --ark-kibbletable-background-color: #fff;
+    /* Extension:DataMaps */
+    --datamaps-popup-subtitle-text-color: #666;
+    --datamaps-container-select-background--rgb: 166, 148, 122;
     /* Sticky header */
     --sticky-header-background-color: rgba(101, 138, 25, 0.98);
     /*misc*/

@@ -161,3 +161,22 @@
     --trm-map-checkbox-checked-color: #05bb25;
     --trm-map-spawninfo-border-color: #222;
 }
+/* endregion*/
+
+/* #region search fixes */
+.suggestions a.mw-searchSuggest-link,
+.suggestions a.mw-searchSuggest-link:hover,
+.suggestions a.mw-searchSuggest-link:active,
+.suggestions a.mw-searchSuggest-link:focus {
+	color: #ccc;
+	text-decoration: none;
+	background-color: #000;
+}
+.suggestions-result-current a.mw-searchSuggest-link,
+.suggestions-result-current a.mw-searchSuggest-link:hover,
+.suggestions-result-current a.mw-searchSuggest-link:active,
+.suggestions-result-current a.mw-searchSuggest-link:focus {
+	color: #fff;
+	background-color: #333;
+}
+/* #endregion */

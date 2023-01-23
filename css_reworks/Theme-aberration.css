@@ -1,0 +1,92 @@
+:root {
+	--content-background-color: #0e0714;
+    --content-background-color--rgb: 14, 7, 20;
+	--content-text-color: #f7defa;
+    --content-header-color: #E7D0F6;
+    --content-text-link-color: #CA8AFF;
+    --content-border-color: #b559d4;
+    --content-border-color--rgb: 181, 89, 212;
+    --content-default-link-color: #CA8AFF;
+    --toc-number-color: #e1b5f7;
+    --tabber-background-color: #5d1673;
+    --tabber-background-hover-color: #831694;
+    --tabber-text-hover-color: #b459c2;
+    --tabber-background-active-color: #9b12b0;
+    --table-border-color: #8f4da3;
+    --table-heading-background-color: #2c0c38;
+    --ark-arkitex-accent-color: #b56ec4;
+    --ark-arkitex-background-color: #26102b;
+    --toc-background-color: #1c1024;
+    --ark-arkitex-left-color: #3f1d4f;
+    --ark-arkitex-right-color: #47264f;
+    --ark-arkitex-border-color: #dd98ed;
+    --ark-paintregion-background-color: #321838;
+    --ark-navboxgroup-title-background-color: #1e252b;
+    --ark-navboxgroup-title-border-color: #4e7d96;
+    --ark-navbox-title-background-color: #374652;
+    --tabber-shadow-hover-color: #06ddf5;
+    --toolbar-background-color: #6f1b80;
+    --toolbar-list-background-color: #c13ddb;
+    --toolbar-border-color: #77287d;
+    --sidenav-header-background: #3c9ad3ad;
+    --sidenav-header-text-color: #03042b;
+    --sidenav-background-color: #21262ef2;
+    --fp-heading-text-color: #f7d6ff;
+    --fp-heading-border-color: #501d52;
+    --fp-box-background-color: #191026;
+    --fp-box-border-color: #9e6fa6;
+    --fp-box-shadow-color: #514a53;
+    --theme-accent-color: #0d5070;
+    --oo-ui-button-border-color: #84d7e8;
+	--oo-ui-button-background-color--toggled: #21a7c2;
+	--oo-ui-button-background-color--progressive-hover: #42c0db;
+	--ark-dossier-background-color: #5c326b36;
+    --ark-dossier-border-color: #8f2696a6;
+    --ark-dossier-text-color: #fba8ff;
+    --ark-dossiernote-background-color: #370940;
+    --ark-dossiernote-border-color: #871f9c;
+    --sticky-header-text-color: #220A2E;
+    --sticky-header-link-color: #220A2E;
+}
+pre, .mw-code, code {
+    color: #f6edfa;
+    background-color: #241c2b;
+    border-color: #ad8ab8;
+}
+.cell-green {
+    background-color: #05421f;
+}
+.cell-pink {
+    background-color: #6b0202;
+}
+.gray {
+    background-color: #242529;
+}
+.datamap-container-top {
+    background: #0d6d82;
+}
+.map-notice~.tabber .tabber__tab {
+    background: #276887;
+}
+.map-notice~.tabber .tabber__tab--active {
+    background: #239eab;
+}
+:root {
+    --sticky-header-background-color: #DA81E4;
+}
+div#mw-panel div.portal div.body ul li a, div#mw-panel div.portal div.body ul li a:link, div#mw-panel div.portal div.body ul li a:visited {
+    color: #e1f7ff;
+}
+.fpbox .mainheading {
+    color: #edd6ff;
+}
+.mw-search-result-data {
+    color: #5bc8de;
+}
+hr {
+    background-color: #ba99c4;
+}
+.info-framework {
+    --content-text-link-color: #FFA8EB;
+    --content-default-link-color: #FFA8EB;
+}
