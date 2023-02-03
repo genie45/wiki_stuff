@@ -8,7 +8,7 @@
 		--content-navigation-top-offset: 28px;
 		--content-background-color--rgb: 28, 30, 33;
 		--content-horizontal-margin: 1.2em;
-		--sidenav-header-text-color: var(--ark-dossiernote-border-color);
+		--sidenav-header-text-color: var(--content-text-link-color);
 	}
 	.is-sidebar-hidden {
 		--sidebar-width: 0px;
@@ -112,6 +112,11 @@
 	}
 	#sidebar-toc:hover {
 		opacity: 1;
+	}
+	#sidebar-toc li:hover{
+		background-color: var(--ark-arkitex-left-color);
+		background-clip: padding-box;
+		border-radius: 3px;
 	}
 	#sidebar-toc > ul {
 		overflow-y: auto;
