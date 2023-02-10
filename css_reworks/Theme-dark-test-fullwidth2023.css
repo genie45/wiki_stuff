@@ -113,7 +113,7 @@
 	#sidebar-toc:hover {
 		opacity: 1;
 	}
-	#sidebar-toc li:hover{
+	#sidebar-toc li li:hover{
 		background-color: var(--ark-arkitex-left-color);
 		background-clip: padding-box;
 		border-radius: 3px;
