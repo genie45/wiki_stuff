@@ -2001,7 +2001,7 @@ SteamIDs for all connected players can be listed in-game via the <code>cheat Lis
 ==Cross-ARK Data Transfer ==
 How Cross-ARK Data Transfer works <ref>https://survivetheark.com/index.php?/forums/topic/85463-scorched-earth-technicaldetail-faq-ongoing/</ref>
 
-1. For '''Officials''', you can 'upload' Survivors from TheIsland or TheCenter via the "ARK Tribute" option available at any Supply Crate or Tribute Terminal. You can then 'download' these Survivors onto an Official ScorchedEarth Server of that same game mode. Currently only Survivors are allowed to travel TO ScorchedEarth (they can not have any items on them), in order to keep it balanced for the time being. However, FROM ScorchedEarth you can transfer Survivors, Items, and Dinos, which you can then download (via the ARK Tribute) onto TheIsland or TheCenter. So indeed you can bring all ScorchedEarth Items, Dinos, and Survivors (and thus Scorched Earth Engrams) onto TheIsland or TheCenter to extend your capabilities there. When transferring a Survivor between ARKs using this method, Tribes should be retained. However Alliances will not be retained, and will need to be re-setup on the other side.
+1. For '''Officials''', you can 'upload' Survivors from any map via the "ARK Tribute" option available at any Supply Crate or Tribute Terminal. You can then 'download' these Survivors onto any Official Server of that same game mode. When transferring a Survivor between ARKs using this method, Tribes should be retained. However Alliances will not be retained, and will need to be re-setup on the other side.
 
 2. For '''Unofficial Servers''', if they wish to allow dynamic Cross-ARK Travel, they will need to run two Servers on the same box from the same directory, and then you can launch with the following commandlines:
  ShooterGameServer.exe ScorchedEarth_P?SessionName=MySession1?AltSaveDirectoryName=Save1 -NoTransferFromFiltering -clusterid=mycluster123
@@ -2072,6 +2072,11 @@ put the following Settings below the <code>[TSOTF]</code> tag or add the tag if 
 |integer
 |4
 |sets the maximum players allowed per tribe
+|-
+|PreventDinoSupplyCrates
+|boolean
+|0
+|Set to 1 to disable the Dino Crate POI system. 
 |}
 
 put the following Settings below the <code>[ServerSettings]</code> tag or add the tag if not present in the file
@@ -2127,7 +2132,6 @@ put the following Settings below the <code>[ServerSettings]</code> tag or add th
 |N/A
 |add the url to hosting your own good words list
 |}
-
 
 === Game.ini ===
 put the following Settings below the <code>[/script/shootergame.shootergamemode]</code> tag or add the tag if not present in the file
