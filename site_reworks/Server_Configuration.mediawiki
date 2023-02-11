@@ -914,6 +914,16 @@ To easily create this file, you can use this [http://ini.arkforum.de/index.php?l
 ||<code>MaxStructuresInRange</code>||''integer''|| 1300? ||Specifies the maximum number of structures that can be constructed within a certain (currently hard-coded) range.<br/>''Introduced in patch [[173.0]] and deprecated with patch [[188.0]] by <code>NewMaxStructuresInRange</code>''
 |-
 |<code>FreezeReaperPregnancy</code>||''boolean''||false||Freezes the {{ItemLink|Reaper King}} pregnancy timer and [[experience]] gain.
+|-
+|<code>bFilterTribeNames</code> || boolean || true || Filters out tribe names based on the badwords/goodwords list. 
+|-
+|<code>bFilterCharacterNames</code> || boolean || true || Filters out character names based on the bad words/good words list.
+|-
+|<code>bFilterChat</code> || boolean || true || Filters out character names based on the bad word/good words list 
+|-
+|<code>BadWordListURL</code> || string || N/A || add the url to hosting your own bad words list 
+|-
+|<code>BadWordWhiteListURL</code> || string || N/A || add the url to hosting your own good words list
 |}
 </div>
 <!--end of GuS.ini-->
