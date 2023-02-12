@@ -2080,23 +2080,23 @@ The following options are available to dynamically configure:
 |-
 |<code>DisableWorldBuff</code> || ''string'' || Allows the disabling of specific world buffs on [[Genesis: Part 2]]. Usefull if you run Multiplier and they mess with your intend.<br/>Known Buff names: <code>MATINGINTERVAL_DOWN_HARD</code>,<code>MATINGINTERVAL_DOWN_MEDIUM</code>,<code>MATINGINTERVAL_DOWN_EASY</code>,<code>BABYMATURE_BOON_EASY</code>,<code>BABYMATURE_BOON_MEDIUM</code>,<code>BABYMATURE_BOON_HARD</code> 
 |-
-|<code>ActiveEventColors</code> || ''string'' || 2 options: 1. name of event<br/>
+|<code>ActiveEventColors</code> || ''string'' || 2 options: 
+*1. name of event<br/>
 <table class="wikitable">
     <tr><th>eventname</th><th>Description</th></tr>
-    <tr><td><code>Easter</code></td><td>Allows for [[ARK: Eggcellent Adventure 7]] to be activated.</td></tr>
-    <tr><td><code>Arkaeology</code></td><td>Allows for [[ARK: ARKaeology]] to be activated.</td></tr>
-    <tr><td><code>ExtinctionChronicles</code></td><td>Allows for [[Extinction Chronicles]] to be activated.</td></tr>
-    <tr><td><code>WinterWonderland</code></td><td>Allows for [[ARK: Winter Wonderland 7]] to be activated.</td></tr>
-    <tr><td><code>vday</code></td><td>Allows for [[ARK: Love Evolved 3]] to be activated.</td></tr>
-    <tr><td><code>Summer</code></td><td>Allows for [[ARK: Summer Bash 2021]] to be activated.</td></tr>
-    <tr><td><code>FearEvolved</code></td><td>Allows for [[ARK: Fear Evolved 6]] to be activated.</td></tr>
-    <tr><td><code>TurkeyTrial</code></td><td>Allows for [[ARK: Turkey Trial 5]] to be activated.</td></tr>
-    <tr><td><code>birthday</code></td><td>Allows for [[ARK: 5th Anniversary]] to be activated.</td></tr>
-    <tr><td><code>ark7th</code></td><td>Allows for [[ARK: 7th Anniversary]] to be activated.</td></tr>
-    <tr><td><code>PAX</code></td><td>Allows for [[ARK: PAX Party]] to be activated.</td></tr>
-    <tr><td>None</td><td>Disables normally active event.</td></tr>
-</table><br/>this will activate the associated colors of that event<br/>
-2. custom, if specifing custom you have to provide the colors in <code>DynamicColorset</code>
+    <tr><td><code>Easter</code></td><td>Allows for [[ARK: Eggcellent Adventure 7]] colors to be activated.</td></tr>
+    <tr><td><code>Arkaeology</code></td><td>Allows for [[ARK: ARKaeology]] colors to be activated.</td></tr>
+    <tr><td><code>ExtinctionChronicles</code></td><td>Allows for [[Extinction Chronicles]] colors to be activated.</td></tr>
+    <tr><td><code>WinterWonderland</code></td><td>Allows for [[ARK: Winter Wonderland 7]] colors to be activated.</td></tr>
+    <tr><td><code>vday</code></td><td>Allows for [[ARK: Love Evolved 3]] colors to be activated.</td></tr>
+    <tr><td><code>Summer</code></td><td>Allows for [[ARK: Summer Bash 2021]] colors to be activated.</td></tr>
+    <tr><td><code>FearEvolved</code></td><td>Allows for [[ARK: Fear Evolved 6]] colors to be activated.</td></tr>
+    <tr><td><code>TurkeyTrial</code></td><td>Allows for [[ARK: Turkey Trial 5]] colors to be activated.</td></tr>
+    <tr><td><code>birthday</code></td><td>Allows for [[ARK: 5th Anniversary]] colors to be activated.</td></tr>
+    <tr><td><code>ark7th</code></td><td>Allows for [[ARK: 7th Anniversary]] colors to be activated.</td></tr>
+    <tr><td><code>PAX</code></td><td>Allows for [[ARK: PAX Party]] colors to be activated.</td></tr>
+</table>this will activate the associated colors of that event<br/>
+*2. custom, if specifing custom you have to provide the colors in <code>DynamicColorset</code>
 |-
 |<code>DynamicColorset</code> || ''string'' || comma-separated list of [[Color_IDs#List_of_colors|color names]], The color names must be -exact- accounting for special characters and spaces. "DynamicColorset" will only be used if using ActiveEventColors=custom
 |}
