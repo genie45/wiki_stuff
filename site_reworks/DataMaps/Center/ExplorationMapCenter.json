@@ -2,8 +2,8 @@
     "mixins": [
         "Maps/Standard group definitions",
         "Maps/Loot crate icons",
-        "Maps/Center Obelisks",
-        "Maps/Center Caves"
+        "Maps/The Center obelisks",
+        "Maps/The Center caves"
     ],
     "backgrounds": [
         {"name": "Drawn", "image": "The Center Map.jpg"},
