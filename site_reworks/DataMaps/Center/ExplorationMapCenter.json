@@ -1,0 +1,2345 @@
+{
+    "mixins": [
+        "Maps/Standard group definitions",
+        "Maps/Loot crate icons",
+        "Maps/Center Obelisks",
+        "Maps/Center Caves"
+    ],
+    "backgrounds": [
+        {"name": "Drawn", "image": "The Center Map.jpg"},
+        {
+            "name": "Topographic", "image": "The Center Topographic Map.jpg",
+            "at": [
+                [-2.5, 1], 
+				[101, 104.5]
+            ]
+        }
+    ],
+    "groups": {
+        "playerSpawns-TropicalSouth": {
+            "name": "Spawn: Tropical Island South",
+            "fillColor": "#de00bd",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-TropicalNorth": {
+            "name": "Spawn: Tropical Island North",
+            "fillColor": "#ae00de",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-JungleNorth": {
+            "name": "Spawn: Jungles North",
+            "fillColor": "#5900de",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-JungleMid": {
+            "name": "Spawn: Jungles Mid",
+            "fillColor": "#0073de",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-JungleSouth": {
+            "name": "Spawn: Jungles South",
+            "fillColor": "#00dbd4",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-RedwoodWest": {
+            "name": "Spawn: Redwood Forests West",
+            "fillColor": "#00d994",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-RedwoodEast": {
+            "name": "Spawn: Redwood Forests East",
+            "fillColor": "#00de4a",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-SnowSouth": {
+            "name": "Spawn: Snow South",
+            "fillColor": "#99ff33",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-SnowNorth": {
+            "name": "Spawn: Snow North",
+            "fillColor": "#db8f00",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        },
+        "playerSpawns-LavaIsland": {
+            "name": "Spawn: Lava Island",
+            "fillColor": "#d90b00",
+            "borderColor": "#fff",
+            "size": 5.5,
+            "icon": "Simple Bed.png"
+        }
+    },
+    "markers": {
+        "artifact cg:0 cc:brute": [
+            {
+                "lat": 71.649,
+                "lon": 87.317,
+                "isWikitext": true,
+                "name": "Artifact of the Brute",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:1 cc:massive": [
+            {
+                "lat": 10.266,
+                "lon": 52.938,
+                "isWikitext": true,
+                "name": "Artifact of the Massive",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:2 cc:clever": [
+            {
+                "lat": 19.268,
+                "lon": 24.197,
+                "isWikitext": true,
+                "name": "Artifact of the Clever",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:3 cc:skylord": [
+            {
+                "lat": 54.103,
+                "lon": 20.904,
+                "isWikitext": true,
+                "name": "Artifact of the Skylord",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:4 cc:devourer": [
+            {
+                "lat": 24.099,
+                "lon": 26.176,
+                "isWikitext": true,
+                "name": "Artifact of the Devourer",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:5 cc:immune": [
+            {
+                "lat": 49.265,
+                "lon": 65.498,
+                "isWikitext": true,
+                "name": "Artifact of the Immune",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:6 cc:devious": [
+            {
+                "lat": 41.129,
+                "lon": 33.656,
+                "isWikitext": true,
+                "name": "Artifact of the Devious",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "cave-crate cave cg:7 Ccc:b": [
+            {
+                "lat": 50.492,
+                "lon": 65.842,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 49.569,
+                "lon": 65.813,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 48.125,
+                "lon": 64.122,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 52.763,
+                "lon": 65.142,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 52.812,
+                "lon": 66.447,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 54.426,
+                "lon": 64.892,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            },
+            {
+                "lat": 51.765,
+                "lon": 69.253,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 2, lvl 25)"
+            }
+        ],
+        "cave-crate cave cg:8 Ccc:r": [
+            {
+                "lat": 9.554,
+                "lon": 55.547,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 9.67,
+                "lon": 51.978,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 10.121,
+                "lon": 51.917,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 11.504,
+                "lon": 56.426,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 14.044,
+                "lon": 55.913,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 16.979,
+                "lon": 60.42,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            },
+            {
+                "lat": 10.733,
+                "lon": 60.694,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 4, lvl 55)"
+            }
+        ],
+        "cave-crate cave cg:9 Ccc:y": [
+            {
+                "lat": 24.447,
+                "lon": 25.051,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 22.481,
+                "lon": 27.043,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 21.748,
+                "lon": 25.438,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 22.587,
+                "lon": 30.612,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 21.428,
+                "lon": 31.131,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 19.121,
+                "lon": 27.219,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 19.274,
+                "lon": 23.141,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            }
+        ],
+        "cave-crate cave cg:10 Ccc:y": [
+            {
+                "lat": 17.474,
+                "lon": 53.77,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 14.061,
+                "lon": 54.49,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 15.393,
+                "lon": 51.992,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 16.236,
+                "lon": 54.339,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 15.224,
+                "lon": 54.22,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 14.805,
+                "lon": 54.248,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 14.228,
+                "lon": 54.065,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            }
+        ],
+        "cave-crate cave cg:11 Ccc:y": [
+            {
+                "lat": 56.998,
+                "lon": 21.73,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 55.044,
+                "lon": 24.564,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 56.603,
+                "lon": 25.03,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 56.593,
+                "lon": 21.025,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 53.325,
+                "lon": 23.618,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 55.074,
+                "lon": 22.095,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 52.631,
+                "lon": 21.942,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            }
+        ],
+        "artifact cg:12 cc:hunter": [
+            {
+                "lat": 16.794,
+                "lon": 54.3,
+                "isWikitext": true,
+                "name": "Artifact of the Hunter",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:13 cc:strong": [
+            {
+                "lat": 15.257,
+                "lon": 57.454,
+                "isWikitext": true,
+                "name": "Artifact of the Strong",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:14 cc:pack": [
+            {
+                "lat": 60.717,
+                "lon": 53.798,
+                "isWikitext": true,
+                "name": "Artifact of the Pack",
+                "description": "Respawns approx. every 3 min (30 min with single-player settings)."
+            }
+        ],
+        "artifact cg:15 cc:cunning": [
+            {
+                "lat": 35.157,
+                "lon": 18.068,
+                "isWikitext": true,
+                "name": "Artifact of the Cunning",
+                "description": "Respawns approx. every 3 min."
+            }
+        ],
+        "surface-crate cg:16 cc:bgw": [
+            {
+                "lat": 55.485,
+                "lon": 32.145,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 11.3,
+                "lon": 61.488,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 49.072,
+                "lon": 20.927,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 54.183,
+                "lon": 23.158,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 49.072,
+                "lon": 20.927,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 53.888,
+                "lon": 24.06,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 50.779,
+                "lon": 21.226,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 58.938,
+                "lon": 25.713,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:17 cc:bgw": [
+            {
+                "lat": 54.417,
+                "lon": 39.591,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 61.997,
+                "lon": 39.843,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 54.933,
+                "lon": 36.691,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 58.478,
+                "lon": 36.237,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 63.57,
+                "lon": 27.053,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "cave-crate cave cg:18 Ccc:r": [
+            {
+                "lat": 58.305,
+                "lon": 52.119,
+                "isWikitext": true,
+                "description": "Respawns 33.33% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ice, Cave, Tier 3, lvl 55)"
+            },
+            {
+                "lat": 59.569,
+                "lon": 51.579,
+                "isWikitext": true,
+                "description": "Respawns 33.33% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ice, Cave, Tier 3, lvl 55)"
+            },
+            {
+                "lat": 60.328,
+                "lon": 53.46,
+                "isWikitext": true,
+                "description": "Respawns 33.33% of time approx. every 60 min to 120 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ice, Cave, Tier 3, lvl 55)"
+            }
+        ],
+        "surface-crate cg:19 cc:bpry": [
+            {
+                "lat": 7.048,
+                "lon": 39.965,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 3.303,
+                "lon": 44.078,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 3.975,
+                "lon": 41.858,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 2.501,
+                "lon": 34.908,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 4.923,
+                "lon": 39.37,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 8.252,
+                "lon": 39.599,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 6.573,
+                "lon": 40.838,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 7.627,
+                "lon": 43.631,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 8.107,
+                "lon": 45.576,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            }
+        ],
+        "surface-crate cg:20 cc:bpry": [
+            {
+                "lat": 5.13,
+                "lon": 53.136,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 4.975,
+                "lon": 53.826,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 5.561,
+                "lon": 53.782,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 2.298,
+                "lon": 57.965,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 7.009,
+                "lon": 49.294,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 4.308,
+                "lon": 52.959,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 3.628,
+                "lon": 56.371,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 4.078,
+                "lon": 59.441,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 6.134,
+                "lon": 57.199,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 6.091,
+                "lon": 59.088,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            }
+        ],
+        "surface-crate cg:21 cc:bpry": [
+            {
+                "lat": 5.804,
+                "lon": 71.66,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 4.115,
+                "lon": 75.377,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 5.637,
+                "lon": 67.665,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 3.729,
+                "lon": 62.929,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 7.027,
+                "lon": 74.376,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 5.912,
+                "lon": 70.015,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 9.083,
+                "lon": 69.078,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 8.615,
+                "lon": 73.237,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            }
+        ],
+        "surface-crate cg:22 cc:bgw": [
+            {
+                "lat": 14.743,
+                "lon": 31.238,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 22.736,
+                "lon": 31.039,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 21.035,
+                "lon": 32.204,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 20.193,
+                "lon": 29.738,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 21.96,
+                "lon": 24.941,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 21.668,
+                "lon": 28.512,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 14.195,
+                "lon": 26.433,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 12.706,
+                "lon": 36.946,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:23 cc:bpry": [
+            {
+                "lat": 7.321,
+                "lon": 78.045,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)"
+            },
+            {
+                "lat": 5.584,
+                "lon": 79.142,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)"
+            },
+            {
+                "lat": 5.624,
+                "lon": 83.368,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)"
+            },
+            {
+                "lat": 3.974,
+                "lon": 81.171,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)"
+            }
+        ],
+        "surface-crate cg:24 cc:bpry": [
+            {
+                "lat": 10.271,
+                "lon": 39.051,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 15.893,
+                "lon": 40.309,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 12.013,
+                "lon": 42.679,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 13.941,
+                "lon": 47.892,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 13.83,
+                "lon": 36.76,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 15.819,
+                "lon": 45.826,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 17.255,
+                "lon": 38.065,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 18.627,
+                "lon": 41.222,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 19.498,
+                "lon": 37.059,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 21.788,
+                "lon": 42.97,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 22.781,
+                "lon": 34.835,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            }
+        ],
+        "surface-crate cg:25 cc:bgpy": [
+            {
+                "lat": 24.192,
+                "lon": 36.993,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 26.054,
+                "lon": 39.335,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 25.058,
+                "lon": 43.104,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 24.949,
+                "lon": 43.877,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 24.452,
+                "lon": 47.326,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 28.163,
+                "lon": 45.17,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 28.642,
+                "lon": 37.711,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 32.693,
+                "lon": 46.023,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 28.642,
+                "lon": 37.711,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 40.704,
+                "lon": 29.666,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 32.672,
+                "lon": 41.677,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:26 cc:bgpy": [
+            {
+                "lat": 51.312,
+                "lon": 32.771,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 64.928,
+                "lon": 42.493,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 34.506,
+                "lon": 32.529,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 38.984,
+                "lon": 34.455,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 39.426,
+                "lon": 37.124,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 42.633,
+                "lon": 34.829,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 47.23,
+                "lon": 46.711,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 51.525,
+                "lon": 44.297,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 54.227,
+                "lon": 43.707,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:27 cc:bpry": [
+            {
+                "lat": 10.511,
+                "lon": 52.624,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 11.956,
+                "lon": 52.734,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 15.763,
+                "lon": 51.276,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 18.807,
+                "lon": 52.455,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 20.098,
+                "lon": 49.942,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 20.94,
+                "lon": 54.166,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 20.013,
+                "lon": 59.418,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            },
+            {
+                "lat": 20.243,
+                "lon": 57.462,
+                "isWikitext": true,
+                "description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 60, ringed)"
+            }
+        ],
+        "surface-crate cg:28 cc:bgpy": [
+            {
+                "lat": 25.05,
+                "lon": 58.732,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 26.514,
+                "lon": 49.307,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 27.138,
+                "lon": 53.17,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 28.507,
+                "lon": 57.164,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 29.001,
+                "lon": 60.178,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 33.161,
+                "lon": 50.944,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 29.931,
+                "lon": 58.015,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 34.983,
+                "lon": 60.998,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 36.711,
+                "lon": 50.185,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 34.874,
+                "lon": 54.545,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 36.793,
+                "lon": 54.281,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 57.387,
+                "lon": 30.049,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:29 cc:bgpy": [
+            {
+                "lat": 39.858,
+                "lon": 56.573,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 40.789,
+                "lon": 54.607,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 42.304,
+                "lon": 49.792,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 42.797,
+                "lon": 53.695,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 45.081,
+                "lon": 50.889,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 42.018,
+                "lon": 59.137,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 44.904,
+                "lon": 55.265,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 44.449,
+                "lon": 58.346,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 47.467,
+                "lon": 60.703,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 49.322,
+                "lon": 54.921,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 50.704,
+                "lon": 58.213,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 49.544,
+                "lon": 61.07,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 50.979,
+                "lon": 61.4,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:30 cc:bgpy": [
+            {
+                "lat": 9.397,
+                "lon": 68.606,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 10.237,
+                "lon": 68.361,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 10.959,
+                "lon": 68.113,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 17.815,
+                "lon": 70.647,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 16.826,
+                "lon": 73.412,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 23.877,
+                "lon": 68.514,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 22.251,
+                "lon": 75.772,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 19.418,
+                "lon": 71.824,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 19.768,
+                "lon": 72.385,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 20.219,
+                "lon": 73.019,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:31 cc:bgw": [
+            {
+                "lat": 64.479,
+                "lon": 22.977,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 27.578,
+                "lon": 26.475,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 31.399,
+                "lon": 25.686,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 28.939,
+                "lon": 26.91,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 29.975,
+                "lon": 29.386,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 29.323,
+                "lon": 31.966,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 48.647,
+                "lon": 26.788,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 40.461,
+                "lon": 20.446,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 35.096,
+                "lon": 31.192,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:32 cc:bgpy": [
+            {
+                "lat": 25.269,
+                "lon": 68.526,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 25.751,
+                "lon": 74.716,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 26.916,
+                "lon": 71.627,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 27.341,
+                "lon": 67.882,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 30.412,
+                "lon": 55.265,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 28.199,
+                "lon": 63.575,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 29.439,
+                "lon": 65.362,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 27.534,
+                "lon": 75.707,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 36.759,
+                "lon": 73.505,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 36.746,
+                "lon": 66.188,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 36.755,
+                "lon": 63.164,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:33 cc:bgpy": [
+            {
+                "lat": 38.329,
+                "lon": 63.028,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 44.799,
+                "lon": 63.886,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 44.482,
+                "lon": 75.809,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 41.239,
+                "lon": 65.775,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 39.453,
+                "lon": 70.243,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 47.358,
+                "lon": 67.595,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 44.425,
+                "lon": 68.121,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 42.234,
+                "lon": 70.737,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 54.516,
+                "lon": 65.213,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 51.348,
+                "lon": 63.768,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 50.888,
+                "lon": 66.585,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 50.899,
+                "lon": 71.742,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            },
+            {
+                "lat": 49.175,
+                "lon": 75.02,
+                "isWikitext": true,
+                "description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35, ringed)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45, ringed)"
+            }
+        ],
+        "surface-crate cg:34 cc:bgpy": [
+            {
+                "lat": 11.741,
+                "lon": 83.017,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 14.028,
+                "lon": 85.021,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 19.804,
+                "lon": 81.115,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 17.757,
+                "lon": 81.463,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 15.844,
+                "lon": 80.924,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 14.537,
+                "lon": 79.519,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 17.441,
+                "lon": 80.014,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 15.739,
+                "lon": 77.314,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            },
+            {
+                "lat": 18.538,
+                "lon": 78.512,
+                "isWikitext": true,
+                "description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#52438d\">Purple</span> (lvl 35)\n* <span style=\"color:#889159\">Yellow</span> (lvl 45)"
+            }
+        ],
+        "surface-crate cg:35 cc:bgw": [
+            {
+                "lat": 25.657,
+                "lon": 83.628,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 24.15,
+                "lon": 77.392,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 27.684,
+                "lon": 80.99,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 27.637,
+                "lon": 78.439,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 29.437,
+                "lon": 78.962,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 27.947,
+                "lon": 84.368,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 31.766,
+                "lon": 79.646,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 31.154,
+                "lon": 82.354,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 35.296,
+                "lon": 78.006,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 33.42,
+                "lon": 85.69,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 36.947,
+                "lon": 80.607,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 41.907,
+                "lon": 77.716,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:36 cc:bgw": [
+            {
+                "lat": 42.607,
+                "lon": 85.373,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 42.251,
+                "lon": 82.371,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 44.001,
+                "lon": 81.341,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 45.346,
+                "lon": 84.187,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 50.122,
+                "lon": 84.652,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 45.783,
+                "lon": 78.704,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 49.325,
+                "lon": 77.617,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 47.305,
+                "lon": 87.846,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 55.618,
+                "lon": 83.019,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 48.789,
+                "lon": 80.252,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:37 cc:bgw": [
+            {
+                "lat": 92.822,
+                "lon": 43.997,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 88.941,
+                "lon": 38.507,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 80.348,
+                "lon": 40.831,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 91.421,
+                "lon": 35.745,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:38 cc:bgw": [
+            {
+                "lat": 81.065,
+                "lon": 56.842,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 87.478,
+                "lon": 61.351,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 94.258,
+                "lon": 61.906,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 88.715,
+                "lon": 49.769,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:39 cc:bgw": [
+            {
+                "lat": 12.544,
+                "lon": 55.371,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 44.456,
+                "lon": 29.374,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 13.096,
+                "lon": 57.957,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 55.513,
+                "lon": 26.057,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 45.779,
+                "lon": 42.147,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 36.846,
+                "lon": 31.763,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 59.282,
+                "lon": 30.837,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 60.09,
+                "lon": 29.426,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 61.848,
+                "lon": 30.246,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 60.563,
+                "lon": 35.913,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 15.691,
+                "lon": 54.87,
+                "isWikitext": true,
+                "description": "Respawns 9.09% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:40 cc:bgw": [
+            {
+                "lat": 76.843,
+                "lon": 71.486,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 81.737,
+                "lon": 75.021,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 87.729,
+                "lon": 72.606,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 92.555,
+                "lon": 70.047,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:41 cc:bgw": [
+            {
+                "lat": 84.634,
+                "lon": 85.307,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 86.074,
+                "lon": 81.094,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 92.091,
+                "lon": 80.561,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 82.228,
+                "lon": 77.029,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "sea-crate cg:42": [
+            {
+                "lat": 72.677,
+                "lon": 83.089,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 44.816,
+                "lon": 92.018,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 51.741,
+                "lon": 83.765,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 42.623,
+                "lon": 78.158,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 35.932,
+                "lon": 93.69,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 2.596,
+                "lon": 89.708,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 51.571,
+                "lon": 95.834,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 70.085,
+                "lon": 95.713,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 16.69,
+                "lon": 91.629,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 22.921,
+                "lon": 87.754,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 43.314,
+                "lon": 86.114,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 56.051,
+                "lon": 86.08,
+                "isWikitext": true,
+                "description": "Respawns 8.33% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            }
+        ],
+        "surface-crate cg:43 cc:bgw": [
+            {
+                "lat": 59.26,
+                "lon": 55.265,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 62.586,
+                "lon": 48.47,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 56.586,
+                "lon": 58.516,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 53.078,
+                "lon": 59.516,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 52.85,
+                "lon": 53.122,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 58.252,
+                "lon": 56.001,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 56.074,
+                "lon": 56.552,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 59.114,
+                "lon": 49.923,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 54.574,
+                "lon": 52.49,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 61.221,
+                "lon": 54.64,
+                "isWikitext": true,
+                "description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:44 cc:bgw": [
+            {
+                "lat": 52.477,
+                "lon": 65.485,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 55.259,
+                "lon": 74.847,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 57.64,
+                "lon": 65.709,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 57.654,
+                "lon": 64.52,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 55.479,
+                "lon": 68.957,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 56.362,
+                "lon": 71.128,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 59.996,
+                "lon": 70.66,
+                "isWikitext": true,
+                "description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "sea-crate cg:45": [
+            {
+                "lat": 13.874,
+                "lon": 56.499,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 19.583,
+                "lon": 46.34,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 67.973,
+                "lon": 46.784,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 74.031,
+                "lon": 55.426,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 71.43,
+                "lon": 75.357,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 65.507,
+                "lon": 85.277,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 54.468,
+                "lon": 91.216,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 46.279,
+                "lon": 94.137,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 37.539,
+                "lon": 92.123,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 21.278,
+                "lon": 82.32,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 23.575,
+                "lon": 74.976,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 21.361,
+                "lon": 67.821,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 21.882,
+                "lon": 58.568,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 11.112,
+                "lon": 65.917,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 30.621,
+                "lon": 91.773,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 70.969,
+                "lon": 50.352,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 65.403,
+                "lon": 87.665,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 67.662,
+                "lon": 88.326,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            },
+            {
+                "lat": 74.4,
+                "lon": 84.593,
+                "isWikitext": true,
+                "description": "Respawns 5.26% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (Ocean, lvl 80)"
+            }
+        ],
+        "surface-crate cg:46 cc:bgw": [
+            {
+                "lat": 55.944,
+                "lon": 76.808,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 47.739,
+                "lon": 72.763,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 53.74,
+                "lon": 78.452,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 53.092,
+                "lon": 80.709,
+                "isWikitext": true,
+                "description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "surface-crate cg:47 cc:bgw": [
+            {
+                "lat": 84.467,
+                "lon": 30.547,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 88.62,
+                "lon": 19.698,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 85.326,
+                "lon": 29.326,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 82.924,
+                "lon": 24.125,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 67.881,
+                "lon": 22.106,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            },
+            {
+                "lat": 78.576,
+                "lon": 21.737,
+                "isWikitext": true,
+                "description": "Respawns 16.67% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3)\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#42653a\">Green</span> (lvl 15)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 25, ringed)"
+            }
+        ],
+        "cave-crate cave cg:48 Ccc:y": [
+            {
+                "lat": 56.389,
+                "lon": 56.456,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 52.169,
+                "lon": 52.978,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 54.157,
+                "lon": 61.997,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 55.331,
+                "lon": 58.426,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            },
+            {
+                "lat": 52.8,
+                "lon": 50.82,
+                "isWikitext": true,
+                "description": "Respawns 20.0% of time approx. every 60 min to 120 min.\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 3, lvl 40)"
+            }
+        ],
+		"playerSpawns-TropicalSouth": [
+			{"lat": 49.0, "lon": 77.4},
+			{"lat": 45.3, "lon": 81.2},
+			{"lat": 44.6, "lon": 84.0},
+			{"lat": 45.8, "lon": 86.1},
+			{"lat": 47.4, "lon": 86.0},
+			{"lat": 49.3, "lon": 84.8},
+			{"lat": 51.7, "lon": 86.0},
+			{"lat": 54.3, "lon": 86.2},
+			{"lat": 55.7, "lon": 83.9},
+			{"lat": 56.4, "lon": 80.4},
+			{"lat": 55.3, "lon": 78.7},
+			{"lat": 53.7, "lon": 78.0},
+			{"lat": 51.5, "lon": 77.2}
+		],
+		"playerSpawns-TropicalNorth": [
+			{"lat": 31.1, "lon": 79.0},
+			{"lat": 33.9, "lon": 80.3},
+			{"lat": 34.6, "lon": 82.6},
+			{"lat": 31.9, "lon": 85.6},
+			{"lat": 29.7, "lon": 87.9},
+			{"lat": 26.7, "lon": 87.0},
+			{"lat": 25.7, "lon": 85.0},
+			{"lat": 25.6, "lon": 81.8},
+			{"lat": 27.4, "lon": 78.2}
+		],
+		"playerSpawns-JungleNorth": [
+			{"lat": 31.5, "lon": 54.4},
+			{"lat": 29.7, "lon": 50.5},
+			{"lat": 27.4, "lon": 49.8},
+			{"lat": 24.6, "lon": 50.9},
+			{"lat": 28.0, "lon": 53.3},
+			{"lat": 24.9, "lon": 54.9},
+			{"lat": 24.7, "lon": 56.0},
+			{"lat": 24.9, "lon": 58.7},
+			{"lat": 25.4, "lon": 60.6},
+			{"lat": 23.7, "lon": 63.3},
+			{"lat": 24.3, "lon": 67.1},
+			{"lat": 26.8, "lon": 68.8},
+			{"lat": 28.8, "lon": 67.4},
+			{"lat": 31.5, "lon": 68.7},
+			{"lat": 33.5, "lon": 67.3},
+			{"lat": 31.8, "lon": 65.0},
+			{"lat": 32.1, "lon": 63.9},
+			{"lat": 33.6, "lon": 59.8},
+			{"lat": 33.0, "lon": 57.2}
+		],
+		"playerSpawns-JungleMid": [
+			{"lat": 34.6, "lon": 69.0},
+			{"lat": 36.0, "lon": 70.8},
+			{"lat": 39.0, "lon": 74.7},
+			{"lat": 40.5, "lon": 74.2},
+			{"lat": 44.2, "lon": 69.3},
+			{"lat": 44.0, "lon": 67.5},
+			{"lat": 44.7, "lon": 65.4},
+			{"lat": 43.4, "lon": 57.7},
+			{"lat": 43.2, "lon": 54.0},
+			{"lat": 39.1, "lon": 51.2},
+			{"lat": 36.6, "lon": 55.4},
+			{"lat": 37.0, "lon": 53.6},
+			{"lat": 35.6, "lon": 57.4},
+			{"lat": 36.6, "lon": 59.2},
+			{"lat": 37.8, "lon": 59.8},
+			{"lat": 38.6, "lon": 61.3},
+			{"lat": 37.1, "lon": 62.2},
+			{"lat": 34.3, "lon": 68.2},
+			{"lat": 45.3, "lon": 72.8}
+		],
+		"playerSpawns-JungleSouth": [
+			{"lat": 62.3, "lon": 60.6},
+			{"lat": 48.9, "lon": 72.8},
+			{"lat": 48.2, "lon": 70.4},
+			{"lat": 45.9, "lon": 66.9},
+			{"lat": 47.0, "lon": 65.1},
+			{"lat": 46.2, "lon": 63.5},
+			{"lat": 46.0, "lon": 60.8},
+			{"lat": 46.0, "lon": 59.4},
+			{"lat": 47.4, "lon": 59.2},
+			{"lat": 49.0, "lon": 59.4},
+			{"lat": 49.5, "lon": 57.9},
+			{"lat": 49.0, "lon": 56.1},
+			{"lat": 48.8, "lon": 54.1},
+			{"lat": 44.1, "lon": 53.4},
+			{"lat": 43.5, "lon": 50.1},
+			{"lat": 48.6, "lon": 43.0},
+			{"lat": 50.8, "lon": 42.8},
+			{"lat": 53.4, "lon": 45.0},
+			{"lat": 55.8, "lon": 44.7},
+			{"lat": 57.7, "lon": 46.4},
+			{"lat": 57.3, "lon": 49.2},
+			{"lat": 56.4, "lon": 50.6},
+			{"lat": 57.6, "lon": 51.6},
+			{"lat": 59.7, "lon": 52.2},
+			{"lat": 61.8, "lon": 54.3},
+			{"lat": 62.3, "lon": 56.3},
+			{"lat": 62.7, "lon": 58.5},
+			{"lat": 60.4, "lon": 63.4},
+			{"lat": 59.5, "lon": 64.5},
+			{"lat": 58.5, "lon": 69.0},
+			{"lat": 55.9, "lon": 71.7},
+			{"lat": 54.3, "lon": 71.9},
+			{"lat": 52.0, "lon": 72.1}
+		],
+		"playerSpawns-RedwoodWest": [
+			{"lat": 77.0, "lon": 35.8},
+			{"lat": 78.0, "lon": 53.0},
+			{"lat": 77.1, "lon": 51.1},
+			{"lat": 77.3, "lon": 48.7},
+			{"lat": 76.9, "lon": 46.3},
+			{"lat": 75.3, "lon": 42.2},
+			{"lat": 75.9, "lon": 43.9},
+			{"lat": 76.8, "lon": 40.2},
+			{"lat": 78.9, "lon": 39.4},
+			{"lat": 78.6, "lon": 38.0},
+			{"lat": 77.8, "lon": 37.2}
+		],
+		"playerSpawns-RedwoodEast": [
+			{"lat": 77.8, "lon": 69.4},
+			{"lat": 79.3, "lon": 66.5},
+			{"lat": 80.6, "lon": 64.6},
+			{"lat": 81.3, "lon": 62.4},
+			{"lat": 88.0, "lon": 82.0},
+			{"lat": 83.6, "lon": 60.5},
+			{"lat": 84.0, "lon": 58.9},
+			{"lat": 81.1, "lon": 57.7},
+			{"lat": 86.1, "lon": 81.5},
+			{"lat": 84.0, "lon": 79.3},
+			{"lat": 79.8, "lon": 74.9},
+			{"lat": 77.2, "lon": 72.8},
+			{"lat": 76.9, "lon": 70.9}
+		],
+		"playerSpawns-SnowSouth": [
+			{"lat": 52.0, "lon": 31.3},
+			{"lat": 62.2, "lon": 35.7},
+			{"lat": 60.4, "lon": 36.5},
+			{"lat": 58.6, "lon": 37.1},
+			{"lat": 56.9, "lon": 37.7},
+			{"lat": 54.7, "lon": 39.5},
+			{"lat": 53.0, "lon": 38.1},
+			{"lat": 53.1, "lon": 35.8}
+		],
+		"playerSpawns-SnowNorth": [
+			{"lat": 26.5, "lon": 37.1},
+			{"lat": 26.5, "lon": 38.8},
+			{"lat": 26.1, "lon": 40.4},
+			{"lat": 23.9, "lon": 40.3},
+			{"lat": 22.7, "lon": 39.5},
+			{"lat": 21.5, "lon": 38.7},
+			{"lat": 20.7, "lon": 38.3},
+			{"lat": 19.4, "lon": 38.2},
+			{"lat": 17.7, "lon": 38.1},
+			{"lat": 16.5, "lon": 37.7},
+			{"lat": 14.8, "lon": 36.7},
+			{"lat": 14.0, "lon": 35.8},
+			{"lat": 13.3, "lon": 35.0},
+			{"lat": 12.9, "lon": 33.8}
+		],
+		"playerSpawns-LavaIsland": [
+			{"lat": 7.8, "lon": 75.6},
+			{"lat": 18.7, "lon": 57.1},
+			{"lat": 18.7, "lon": 59.3},
+			{"lat": 19.3, "lon": 62.0},
+			{"lat": 18.7, "lon": 66.1},
+			{"lat": 15.6, "lon": 70.3},
+			{"lat": 14.7, "lon": 71.6},
+			{"lat": 9.9, "lon": 74.5},
+			{"lat": 20.0, "lon": 54.2},
+			{"lat": 19.5, "lon": 50.8},
+			{"lat": 51.4, "lon": 67.5}
+		]
+    }
+}
