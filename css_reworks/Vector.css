@@ -417,7 +417,7 @@ body {
         [page-start logo-start] var(--layout-content-top-offset)
         [nav-start content-start] auto
         [content-end footer-start] 0fr
-        [footer-end] 0fr
+        [footer-end] 1fr
         [page-end] 0fr
         [body-end];
     column-gap: var(--layout-column-gap);
