@@ -12,11 +12,11 @@
         <td><input type="number" min="0.1" max="100" step="0.1" value="1.0" id="baby-mature-speed-multiplier"></td>
     </tr>
     <tr>
-        <td>Element Cost Per Level</td>
+        <td>Element Shard Cost Per Level</td>
         <td id="cost-per-level"></td>
     </tr>
     <tr>
-        <td>Base Element Cost</td>
+        <td>Base Element Shard Cost</td>
         <td id="base-cost"></td>
     </tr>
     <tr>
@@ -34,10 +34,12 @@
 // Constants from the CloningChamber blueprint are retrieved by Purlovia
 // at extraction time. The values are ready to use as-is.
 // {DinoName: [BaseCost, LevelCost, BaseTime, LevelTime], ...}
-var creatures = // Version: 312.65.5349305
+var creatures = // Version: 329.3.6806323
 {
   "Achatina": [ 1725, 55, 12075, 385 ],
   "Allosaurus": [ 1325, 55, 9275, 385 ],
+  "Amargasaurus": [ 575, 55, 4025, 385 ],
+  "Andrewsarchus": [ 1675, 55, 11725, 385 ],
   "Anglerfish": [ 425, 55, 2975, 385 ],
   "Ankylosaurus": [ 2325, 55, 16275, 385 ],
   "Araneo": [ 100, 55, 700, 385 ],
@@ -45,6 +47,7 @@ var creatures = // Version: 312.65.5349305
   "Argentavis": [ 1700, 55, 11900, 385 ],
   "Arthropluera": [ 500, 55, 3500, 385 ],
   "Astrocetus": [ 2475, 55, 17325, 385 ],
+  "Astrodelphis": [ 1675, 55, 11725, 385 ],
   "Baryonyx": [ 1300, 55, 9100, 385 ],
   "Basilisk": [ 1950, 55, 13650, 385 ],
   "Basilosaurus": [ 1875, 55, 13125, 385 ],
@@ -56,13 +59,16 @@ var creatures = // Version: 312.65.5349305
   "Carnotaurus": [ 650, 55, 4550, 385 ],
   "Castoroides": [ 2100, 55, 14700, 385 ],
   "Chalicotherium": [ 675, 55, 4725, 385 ],
+  "Carcharodontosaurus": [ 2475, 55, 17325, 385 ],
   "Compy": [ 175, 55, 1225, 385 ],
   "Crystal Wyvern": [ 2125, 55, 14875, 385 ],
   "Daeodon": [ 1675, 55, 11725, 385 ],
   "Deinonychus": [ 575, 55, 4025, 385 ],
+  "Desmodus": [ 1675, 55, 11725, 385 ],
   "Dilophosaur": [ 300, 27.5, 2100, 192.5 ],
   "Dimetrodon": [ 200, 27.5, 1400, 192.5 ],
   "Dimorphodon": [ 700, 55, 4900, 385 ],
+  "Dinopithecus": [1700, 55, 11900, 385 ],
   "Diplocaulus": [ 1000, 55, 7000, 385 ],
   "Diplodocus": [ 575, 55, 4025, 385 ],
   "Dire Bear": [ 1650, 55, 11550, 385 ],
@@ -75,11 +81,13 @@ var creatures = // Version: 312.65.5349305
   "Equus": [ 1100, 55, 7700, 385 ],
   "Featherlight": [ 125, 55, 875, 385 ],
   "Ferox": [ 1275, 55, 8925, 385 ],
+  "Fjordhawk": [ 750, 55, 5250, 385 ],
   "Gacha": [ 1550, 55, 10850, 385 ],
   "Gallimimus": [ 875, 55, 6125, 385 ],
   "Gasbags": [ 1800, 55, 12600, 385 ],
   "Giganotosaurus": [ 2475, 55, 17325, 385 ],
   "Gigantopithecus": [ 875, 55, 6125, 385 ],
+  "Glowtail": [ 125, 55, 875, 385 ],
   "Griffin": [ 1700, 55, 11900, 385 ],
   "Hesperornis": [ 625, 55, 4375, 385 ],
   "Hyaenodon ": [ 87.5, 55, 612.5, 385 ],
@@ -93,6 +101,7 @@ var creatures = // Version: 312.65.5349305
   "Kentrosaurus": [ 925, 55, 6475, 385 ],
   "Lymantria": [ 375, 55, 2625, 385 ],
   "Lystrosaurus": [ 825, 27.5, 5775, 192.5 ],
+  "Maewing": [ 775, 55, 5425, 385 ],
   "Magmasaur": [ 2050, 55, 14350, 385 ],
   "Mammoth": [ 1550, 55, 10850, 385 ],
   "Managarmr": [ 2350, 55, 16450, 385 ],
@@ -114,6 +123,7 @@ var creatures = // Version: 312.65.5349305
   "Oviraptor": [ 1500, 55, 10500, 385 ],
   "Ovis": [ 1975, 55, 13825, 385 ],
   "Pachy": [ 300, 44, 2100, 308 ],
+  "Pachyrhinosaurus": [ 500, 55, 3500, 385 ],
   "Paraceratherium": [ 1650, 55, 11550, 385 ],
   "Parasaur": [ 350, 38.5, 2450, 269.5 ],
   "Pegomastax": [ 700, 55, 4900, 385 ],
@@ -130,11 +140,15 @@ var creatures = // Version: 312.65.5349305
   "Ravager": [ 625, 55, 4375, 385 ],
   "Reaper King": [ 2325, 55, 16275, 385 ],
   "Rex": [ 2175, 55, 15225, 385 ],
+  "Rhyniognatha": [2450, 550, 17150, 3850],
   "Rock Drake": [ 2050, 55, 14350, 385 ],
   "Rock Elemental": [ 2200, 55, 15400, 385 ],
+  "Roll Rat": [1125, 55, 7875, 385 ],
   "Sabertooth": [ 1200, 55, 8400, 385 ],
   "Sarco": [ 550, 55, 3850, 385 ],
+  "Shadowmane": [ 2375, 55, 16625, 385 ],
   "Shinehorn": [ 125, 55, 875, 385 ],
+  "Sinomacrops": [700, 55, 4900, 385 ],
   "Snow Owl": [ 1125, 55, 7875, 385 ],
   "Spino": [ 1675, 55, 11725, 385 ],
   "Stegosaurus": [ 725, 55, 5075, 385 ],
@@ -149,6 +163,7 @@ var creatures = // Version: 312.65.5349305
   "Tusoteuthis": [ 2175, 55, 15225, 385 ],
   "Unicorn": [ 1100, 55, 7700, 385 ],
   "Velonasaur": [ 800, 55, 5600, 385 ],
+  "Voidwyrm": [ 2050, 55, 14350, 385 ],
   "Vulture": [ 800, 55, 5600, 385 ],
   "Woolly Rhino": [ 975, 55, 6825, 385 ],
   "Wyvern": [ 2050, 55, 14350, 385 ],
