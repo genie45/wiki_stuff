@@ -1,0 +1,719 @@
+<includeonly><div style="display:none;"><!--
+-->{{#vardefine:flag|{{#ifeq:{{{release_date|}}}|Unreleased|{{#ifeq:{{{mobilerelease_date|}}}|Unreleased|no|yes}}|yes}}}}<!--
+-->{{#if:{{#varexists:NoAutoCategories}}||{{#vardefine:NoAutoCategories|{{#ifeq:{{BASEPAGENAME}}|Fan Art|1|}}}}<!--
+-->{{#ifeq:{{NAMESPACENUMBER}}|10004|{{NoCargo}}}}<!--
+-->{{#ifeq:{{#var:NoCargo}}|1||{{#vardefine:NoCargo|{{#ifeq:{{BASEPAGENAME}}|Fan Art|1|}}}}}}<!--
+-->{{#if:{{langList|isOnWiki|{{SUBPAGENAME}}}}|{{NoCargo}}{{NoAutoCategories}}}}}}<!--
+-->{{XPMultiplier}}
+
+<!--{{Dv Comparison|{{{parameter|}}}|dvpath|variable|flag={{#var:flag}}}}-->
+
+{{#vardefine:InfoboxCreatureUseLuaVersions|1}}
+{{Dv Comparison|{{{name|}}}|commonName|name}}
+{{Dv Comparison|{{{image|}}}|dossierImage|image}}
+{{Dv Comparison|{{{image2|}}}|dossierImage2|image2}}
+{{Dv Comparison|{{{addbook|}}}|dossierAddBook|addbook}}
+{{Dv Comparison|{{{sound|}}}|soundFile|sound}}
+{{Dv Comparison|{{{group|}}}|group|group}}
+{{Dv Comparison|{{{species|}}}|species|species}}
+{{Dv Comparison|{{{modelnumber|}}}|modelnumber|modelnumber}}
+{{Dv Comparison|{{{height|}}}|height|height}}
+{{Dv Comparison|{{{weight|}}}|weight|weight}}
+{{Dv Comparison|{{{fuel|}}}|fuel|fuel}}
+{{Dv Comparison|{{{threatlevel|}}}|threatlevel|threatlevel}}
+{{Dv Comparison|{{{primaryfunction|}}}|primaryfunction|primaryfunction}}
+{{Dv Comparison|{{{sex|}}}|sex|sex}}
+{{Dv Comparison|{{{time|}}}|time|time}}
+{{Dv Comparison|{{{diet|}}}|diet|diet}}
+{{Dv Comparison|{{{temperament|}}}|temperament|temperament}}
+
+{{Dv Comparison|{{{release_date|}}}|releaseDate|release_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{release_version|}}}|releaseVersion|release_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{xboxrelease_date|}}}|xboxreleaseDate|xboxrelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{xboxrelease_version|}}}|xboxreleaseVersion|xboxrelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{psrelease_date|}}}|psreleaseDate|psrelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{psrelease_version|}}}|psreleaseVersion|psrelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{mobilerelease_date|}}}|mobilereleaseDate|mobilerelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{mobilerelease_version|}}}|mobilereleaseVersion|mobilerelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{switchrelease_date|}}}|switchreleaseDate|switchrelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{switchrelease_version|}}}|switchreleaseVersion|switchrelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{egsrelease_date|}}}|egsreleaseDate|egsrelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{egsrelease_version|}}}|egsreleaseVersion|egsrelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{stadiarelease_date|}}}|stadiareleaseDate|stadiarelease_date|flag={{#var:flag}}}}
+{{Dv Comparison|{{{stadiarelease_version|}}}|stadiareleaseVersion|stadiarelease_version|flag={{#var:flag}}}}
+{{Dv Comparison|{{{dlc|}}}|dlc|dlc}}
+{{Dv Comparison|{{{events|{{{event|}}}}}}|event|event}}
+{{Dv Comparison|{{{variants|}}}|variants|variants}}
+
+{{Dv Comparison|{{{entityId|}}}|{{#if:{{dv|{{PAGENAME}}|baseClass}}|baseClass|class}}|entityId|flag={{#var:flag}}}}
+{{Dv Comparison|{{{blueprintpath|}}}|{{#if:{{dv|{{PAGENAME}}|baseBlueprintPath}}|baseBlueprintPath|blueprintPath}}|blueprintpath|flag={{#var:flag}}}}
+{{#if:{{dv|{{PAGENAME}}|baseClass}}{{dv|{{PAGENAME}}|class}}{{{entityId|}}}|| {{#if:{{#var:blueprintpath}}| {{#vardefine:entityId|{{BlueprintClassName|{{#invoke:Utility|getUnqualifiedBlueprintPathW|{{#var:blueprintpath}}}}}}}} }} }}
+
+{{Dv Comparison|{{{tameable|}}}|taming/canBeTamed|tameable}}
+{{Dv Comparison|{{{knockouttame|}}}|taming/knockoutTame|knockouttame}}
+{{Dv Comparison|{{{nonviolenttame|}}}|taming/nonViolentTame|nonviolenttame}}
+{{Dv Comparison|{{{torporImmune|}}}|taming/torporimmune|torporImmune}}
+{{Dv Comparison|{{{levelrequirement|}}}|taming/levelrequirement|levelrequirement}}
+{{Dv Comparison|{{{kibble|}}}|tamingFood/kibble|kibble|flag={{#var:flag}}}}
+{{Dv Comparison|{{{mobilekibble|}}}|tamingFood/mobilekibble|mobilekibble|flag={{#var:flag}}}}
+{{Dv Comparison|{{{favoritefood|}}}|tamingFood/favoriteFood|favoritefood|flag={{#var:flag}}}}
+{{Dv Comparison|{{{primitiveplusfood|}}}|tamingFood/primitiveplusfood|primitiveplusfood|flag={{#var:flag}}}}
+{{Dv Comparison|{{{mobilefood|}}}|tamingFood/mobilefood|mobilefood|flag={{#var:flag}}}}
+{{Dv Comparison|{{{rideable|}}}|taming/rideable|rideable}}
+{{Dv Comparison|{{{equipment|}}}|taming/equipment|Equipment|flag={{#var:flag}}}}
+{{Dv Comparison|{{{uniquecostumes|}}}|taming/uniqueCostumes|uniquecostumes|flag={{#var:flag}}}}
+{{Dv Comparison|{{{humansCanCarry|}}}|taming/canMountOnHumans|humansCanCarry|flag={{#var:flag}}}}
+{{Dv Comparison|{{{allowmountedweaponry|}}}|taming/bAllowMountedWeaponry|allowmountedweaponry|flag={{#var:flag}}}}
+
+{{Dv Comparison|{{{basexp|}}}|killXPBase|basexp|flag={{#var:flag}}}}
+{{Dv Comparison|{{{lootitems|}}}|lootitems|lootitems|flag={{#var:flag}}}}
+{{Dv Comparison|{{{speciallootchance|}}}|chanceToDropLoot|speciallootchance|flag={{#var:flag}}}}
+{{Dv Comparison|{{{specialloot|}}}|specialloot|specialloot|flag={{#var:flag}}}}
+{{Dv Comparison|{{{feces|{{{feces_size|}}}}}}|fecesSize|feces_size|flag={{#var:flag}}}}
+{{Dv Comparison|{{{dragweight|}}}|dragWeight|dragweight|flag={{#var:flag}}}}
+{{Dv Comparison|{{{radiationimmune|}}}|radiationImmune|radiationImmune|flag={{#var:flag}}}}
+{{Dv Comparison|{{{canbecloned|}}}|canBeCloned|canBeCloned|flag={{#var:flag}}}}
+{{Dv Comparison|{{{requiredmutagen|}}}|requiredMutagen|requiredMutagen|flag={{#var:flag}}}}
+{{Dv Comparison|{{{carryableby|}}}|carryableby|carryableby|flag={{#var:flag}}}}
+{{Dv Comparison|{{{immobilizedby|}}}|immobilizedBy|immobilizedby|flag={{#var:flag}}}}
+{{Dv Comparison|{{{candamage|}}}|candamage|candamage|flag={{#var:flag}}}}
+
+{{Dv Comparison|{{{egg|}}}|breeding/egg|egg}}
+{{Dv Comparison|{{{incubationmin|}}}|breeding/minTemp|incubationmin|flag={{#var:flag}}}}
+{{Dv Comparison|{{{incubationmax|}}}|breeding/maxTemp|incubationmax|flag={{#var:flag}}}}
+{{Dv Comparison|{{{gestation|}}}|breeding/gestationTime|gestation|flag={{#var:flag}}}}
+{{Dv Comparison|{{{incubation|}}}|breeding/incubationTime|incubation|flag={{#var:flag}}}}
+{{Dv Comparison|{{{maturation|}}}|breeding/maturationTime|maturation|flag={{#var:flag}}}}
+
+{{#vardefine:isvariant|{{#ifeq:{{lc:{{{isvariant|}}}}}|no||{{#if:{{#ifeq:{{lc:{{{isvariant|}}}}}|yes|1}}{{#if:{{{variantof|}}}|1}}|1|
+    {{#if:{{#var:group}}|{{#vardefine: o | 0 }}{{#while:
+     | {{#vardefineecho:currentGroup|{{#explode: {{#var:group}}|,|{{#var:o}} }}}}
+     | {{#switch:{{#var:currentGroup}}|Alpha Creatures|Aberrant Creatures|Corrupted Creatures|Event Creatures|Tek Creatures|Malfunctioned Tek Creatures|X-Creatures|R-Creatures|VR Creatures|Brute Creatures|Eerie Creatures|Enraged Creatures=1}}{{#vardefine: o | {{#expr: {{#var: o }} + 1 }} }}
+    }}}}
+}}}}}}
+
+{{#if:{{#var:isvariant}}| {{Dv Comparison|{{{variantof|}}}|inherits|inherits}}<!--
+-->  {{#vardefine:variantof|{{#if:{{#var:inherits}}| {{#vardefine:temp|{{Dv|{{#var:inherits}}|commonName}}}}{{#if:{{#var:temp}}|{{#var:temp}}}} | {{#explode:{{#var:variants}}|,|0}} }}}} <!--
+--> }}
+
+{{#vardefine:NoPlatformIndicatorsTemp|{{#var:release_date|Unreleased}}{{#var:xboxrelease_date|Unreleased}}{{#var:psrelease_date|Unreleased}}{{#var:mobilerelease_date|Unreleased}}{{#var:switchrelease_date|Unreleased}}{{#var:egsrelease_date|Unreleased}}{{#var:stadiarelease_date|Unreleased}}}}
+{{#vardefine:NoPlatformIndicators| {{#if: {{#pos:{{#var:NoPlatformIndicatorsTemp}}|Unavailable}}{{#pos:{{#var:NoPlatformIndicatorsTemp}}|Unreleased}} || 1}} }}
+
+</div>{{Arkitexure start|dlc = {{#var:dlc}}|nodlcambox = {{{nodlcambox|1}}}|nondlcmobile={{{nondlcmobile|}}}|release_date={{#var:release_date}}|psrelease_date={{#var:psrelease_date}}|mobilerelease_date={{#var:mobilerelease_date}}|switchrelease_date={{#var:switchrelease_date}}}}
+<div class="info-arkitex info-framework">
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex-left info-X2-25">{{Ifpageexists|File:{{#replace:{{#replace:{{#replace:{{FULLPAGENAME}}|/sandbox|}}|:|_}}|/|_}}.png|[[File:{{#replace:{{#replace:{{#replace:{{FULLPAGENAME}}|/sandbox|}}|:|_}}|/|_}}.png|43x43px|link=]]|[[File:Missing.png|43x43px|link=]]}}</div>
+<div class="info-arkitex-right info-X2-75" <!--
+      Calculate font size to auto-fit a name longer than 16 characters. This is tuned for cell width 220px, averagely 13px per character, and standard font size of 24px.
+      -->{{#ifeq: {{#expr: {{#len:{{#var:name}}}} > 16 }} | 1 | style="font-size:{{#expr: floor(220 / (13 * {{#len:{{#var:name}}}}) * 24 - 0.5) }}px" }}>{{#var:name}}</div>
+</div>
+</div>
+<div class="info-arkitex info-unit">
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex info-X1-100 info-column">{{#if:{{#var:image}}
+|{{#ifeq:{{lc:{{#var:addbook}}}}|yes|{{#if:{{#var:image2}}|{{DossierImage|{{#setmainimage:{{#var:image}}}}|image2={{#var:image2}}|320}}|{{DossierImage|{{#setmainimage:{{#var:image}}}}|320}}}}|{{#if:{{#var:image2}}|
+{{Slideshow|size=298px|{{#setmainimage:{{#var:image}}}}|{{#var:image2}}}}|[[File:{{#setmainimage:{{#var:image}}}}|298x198px]]}}
+|[[File:Missing.png|298x198px]]}}}}
+{{#if:{{#var:sound}}|<br/><div class="info-sound-div">[[File:{{#var:sound}}|center]]</div>}}
+</div>
+</div>
+</div>
+</div>
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption"><div>'''{{#ifeq:{{#var:group}}|Vehicles|[[Vehicles|Vehicle]]|[[Creatures|{{#if:{{#var:sex}}|Subject|Creature}}]]}}'''</div></div>{{arkitexure|{{#if:{{#pos:{{#var:group}}|, }}|Groups|Group}}|{{#if:{{#var:group}}|{{#vardefine: o | 0 }}{{#while:
+ | {{#vardefineecho:currentGroup|{{#explode: {{#var:group}}|,|{{#var:o}} }}}}
+ | {{#ifeq:{{#var:o}}|0||,&#32;}}[[{{#var:currentGroup}}]]{{#if:{{#var:NoAutoCategories}}||[[Category:{{ucfirst:{{lc:{{#var:currentGroup}}}}}}]]}}{{#vardefine: o | {{#expr: {{#var: o }} + 1 }} }}}} }}
+}}{{arkitexure
+  | Sex
+  | {{#if:{{#var:sex}}|{{#var:sex}}}}
+}}{{arkitexure
+  | Fuel
+  | {{#if:{{#var:fuel}}|{{ItemLink|{{#var:fuel}}}}}}
+}}{{arkitexure
+  | Threat Level
+  | {{#if:{{#var:threatlevel}}|{{#var:threatlevel}}}}
+}}{{arkitexure
+  | Diet
+  | {{#switch: {{#var:diet}}
+    | Carnivore = [[Carnivores|Carnivore]] {{#if:{{#var:NoAutoCategories}}||[[Category:Carnivores]]}}
+    | Herbivore = [[Herbivores|Herbivore]] {{#if:{{#var:NoAutoCategories}}||[[Category:Herbivores]]}}
+    | Omnivore = [[Omnivores|Omnivore]] {{#if:{{#var:NoAutoCategories}}||[[Category:Omnivores]]}}
+    | Omnivore? = [[Omnivores|Omnivore?]] {{#if:{{#var:NoAutoCategories}}||[[Category:Omnivores]]}}
+    | Omnivore (primarily Herbivore) = [[Omnivores|Omnivore (primarily Herbivore)]] {{#if:{{#var:NoAutoCategories}}||[[Category:Omnivores]]}}
+    | Carrion-Feeder = [[Carrion-Feeder|Carrion-Feeder]] {{#if:{{#var:NoAutoCategories}}||[[Category:Carrion-feeders]]}}
+    | Piscivore = [[Piscivores|Piscivore]] {{#if:{{#var:NoAutoCategories}}||[[Category:Piscivores]]}}
+    | Coprophagic = [[Coprophagics|Coprophagic]] {{#if:{{#var:NoAutoCategories}}||[[Category:Coprophagics]]}}
+    | Sanguinivore = [[Sanguinivores|Sanguinivore]] {{#if:{{#var:NoAutoCategories}}||[[Category:Sanguinivores]]}}
+    | Flame Eater = [[Flame Eaters|Flame Eater]] {{#if:{{#var:NoAutoCategories}}||[[Category:Flame eaters]]}}
+    | Minerals = [[Minerals|Minerals]] {{#if:{{#var:NoAutoCategories}}||[[Category:Minerals]]}}
+    | Bottom Feeder = [[Bottom Feeders|Bottom Feeder]] {{#if:{{#var:NoAutoCategories}}||[[Category:Bottom feeders]]}}
+    | Sweet Tooth = [[Sweet Tooths|Sweet Tooth]] {{#if:{{#var:NoAutoCategories}}||[[Category:Sweet tooths]]}}
+    | {{#var:diet}}
+    }}
+}}{{arkitexure
+  | [[Temperament]]
+  | {{#switch: {{#var:temperament}}
+    | Docile = [[Temperament#Docile|Docile]]{{#if:{{#var:NoAutoCategories}}||[[Category:Docile creatures]]}}
+    | Cowardly = [[Temperament#Cowardly|Cowardly]]{{#if:{{#var:NoAutoCategories}}||[[Category:Cowardly creatures]]}}
+    | Curious = [[Temperament#Curious|Curious]]{{#if:{{#var:NoAutoCategories}}||[[Category:Curious creatures]]}}
+    | Loyal = [[Temperament#Loyal|Loyal]]{{#if:{{#var:NoAutoCategories}}||[[Category:Loyal creatures]]}}
+    | Evasive = [[Temperament#Evasive|Evasive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Evasive creatures]]}}
+    | Evasive, Aggressive when attacked = [[Temperament#Evasive|Evasive, Aggressive when attacked]]{{#if:{{#var:NoAutoCategories}}||[[Category:Evasive creatures]]}}
+    | Opportunistic = [[Temperament#Opportunistic|Opportunistic]]{{#if:{{#var:NoAutoCategories}}||[[Category:Opportunistic creatures]]}}
+    | Elusive = [[Temperament#Elusive|Elusive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Elusive creatures]]}}
+    | Aggressive = [[Temperament#Aggressive|Aggressive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Highly Aggressive = [[Temperament#Highly Aggressive|Highly Aggressive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Highly aggressive creatures]]}}
+    | Passive to land creatures, but aggressive to water-dwellers = [[Temperament#Aggressive|Passive to land creatures, but aggressive to water-dwellers]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Passive, but aggressive at close range = [[Temperament#Aggressive|Passive, but aggressive at close range]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Passive, but aggressive to insects = [[Temperament#Aggressive|Passive, but aggressive to insects]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Aggressive if approached = [[Temperament#Aggressive|Aggressive if approached]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Passive-Aggressive = [[Temperament#Aggressive|Passive-Aggressive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Aggressive creatures]]}}
+    | Passive = [[Temperament#Passive|Passive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Passive creatures]]}}
+    | Passive, Unless Approached = [[Temperament#Docile|Passive, Unless Approached]]{{#if:{{#var:NoAutoCategories}}||[[Category:Docile creatures]]}}
+    | Short-Tempered = [[Temperament#Short-Tempered|Short-Tempered]]{{#if:{{#var:NoAutoCategories}}||[[Category:Short-tempered creatures]]}}
+    | Territorial = [[Temperament#Territorial|Territorial]]{{#if:{{#var:NoAutoCategories}}||[[Category:Territorial creatures]]}}
+    | Extremely Territorial = [[Temperament#Extremely Territorial|Extremely Territorial]]{{#if:{{#var:NoAutoCategories}}||[[Category:Extremely territorial creatures]]}}
+    | Skittish = [[Temperament#Skittish|Skittish]]{{#if:{{#var:NoAutoCategories}}||[[Category:Skittish creatures]]}}
+    | Defensive = [[Temperament#Defensive|Defensive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Defensive creatures]]}}
+    | Fearful = [[Temperament#Fearful|Fearful]]{{#if:{{#var:NoAutoCategories}}||[[Category:Fearful creatures]]}}
+    | Flippant = [[Temperament#Flippant|Flippant]]{{#if:{{#var:NoAutoCategories}}||[[Category:Flippant creatures]]}}
+    | Patient = [[Temperament#Patient|Patient]]{{#if:{{#var:NoAutoCategories}}||[[Category:Patient creatures]]}}
+    | Reactive = [[Temperament#Reactive|Reactive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Reactive creatures]]}}
+    | Naive = [[Temperament#Naive|Naive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Naive creatures]]}}
+    | Stupid = [[Temperament#Stupid|Stupid]]{{#if:{{#var:NoAutoCategories}}||[[Category:Stupid creatures]]}}
+    | Friendly = [[Temperament#Friendly|Friendly]]{{#if:{{#var:NoAutoCategories}}||[[Category:Friendly creatures]]}}
+    | Oblivious = [[Temperament#Oblivious|Oblivious]]{{#if:{{#var:NoAutoCategories}}||[[Category:Oblivious creatures]]}}
+    | Angry = [[Temperament#Angry|Angry]]{{#if:{{#var:NoAutoCategories}}||[[Category:Angry creatures]]}}
+    | Languorous = [[Temperament#Languorous|Languorous]]{{#if:{{#var:NoAutoCategories}}||[[Category:Languorous creatures]]}}
+    | Nocturnally Aggressive = [[Temperament#Nocturnally Aggressive|Nocturnally Aggressive]]{{#if:{{#var:NoAutoCategories}}||[[Category:Nocturnally aggressive creatures]]}}
+    | Neutral = [[Temperament#Neutral|Neutral]]{{#if:{{#var:NoAutoCategories}}||[[Category:Neutral creatures]]}}
+    | {{#var:temperament}}
+    }}
+}}</div></div><!--
+
+
+-->{{#if:{{#var:release_date}}{{#var:xboxrelease_date}}{{#var:psrelease_date}}{{#var:mobilerelease_date}}{{#var:switchrelease_date}}{{#var:egsrelease_date}}{{#var:dlc}}{{#var:event}}{{#var:variants}}|<div class="info-arkitex info-module">}}
+{{#if:{{#var:release_date}}{{#var:xboxrelease_date}}{{#var:psrelease_date}}{{#var:mobilerelease_date}}{{#var:switchrelease_date}}{{#var:egsrelease_date}}|{{#ifeq:{{#var:InfoboxCreatureUseLuaVersions}}|1|
+	{{#invoke:Infobox creature|buildReleaseInformation
+	| releaseVersionSteam = {{#var:release_version}}
+	| releaseVersionXbox = {{#var:xboxrelease_version}}
+	| releaseVersionPS = {{#var:psrelease_version}}
+	| releaseVersionSwitch = {{#var:switchrelease_version}}
+	| releaseVersionEpic = {{#var:egsrelease_version}}
+	| releaseVersionMobile = {{#var:mobilerelease_version}}
+	}}
+|<div class="info-arkitex info-unit">
+<div class="info-unit-caption">'''[[Patch Notes|Release Versions]]'''</div>
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex-left info-X3-33">
+[[File:Steam.svg|20x20px|frameless]] {{#if:{{#var:release_date}}|{{#switch: {{#var:release_date}}
+| Unavailable = <br/><small>[[:Category:Unavailable on Steam|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Steam]]}}
+| Unreleased = <br/><small>{{#ifeq:{{#var:mobilerelease_date}}|Unreleased|[[:Category:Upcoming Creatures|Not Yet Released]]|[[:Category:Unavailable on Steam|Not Yet Released]]}}</small> {{#ifeq:{{#var:mobilerelease_date}}|Unreleased|{{#if:{{#var:NoAutoCategories}}||[[Category:Upcoming creatures]]}}|{{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Steam]]}}}}
+| {{PlatformIndicator|Steam}}{{#if: {{#var:release_version}}|[[{{#var:release_version}}]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in v{{#sub:{{#var:release_version}}|0|{{#pos:{{#var:release_version}}|.}}}}]]}} }}<br/><small>{{#time:M j, Y|{{#var:release_date}}}}</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in {{#time:Y|{{#var:release_date}}}}]]}} }}}}</div>
+<div class="info-X3-33">
+[[File:Xbox One.svg|20x20px|frameless]] {{#if:{{#var:xboxrelease_date}}|{{#switch: {{#var:xboxrelease_date}}
+| Unavailable = <br/><small>[[:Category:Unavailable on Xbox|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Xbox]]}}
+| Unreleased = <br/><small>[[:Category:Unavailable on Xbox|Not Yet Released]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Xbox]]}}
+| {{PlatformIndicator|Xbox}}{{#if: {{#var:xboxrelease_version}}|[[Xbox {{#var:xboxrelease_version}}|{{#var:xboxrelease_version}}]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in v{{#sub:{{#var:xboxrelease_version}}|0|{{#pos:{{#var:xboxrelease_version}}|.}}}}]]}} }}<br/><small>{{#time:M j, Y|{{#var:xboxrelease_date}}}}</small> }}}}</div>
+<div class="info-arkitex-right info-X3-33">
+[[File:PS.svg|20x20px|frameless]] {{#if:{{#var:psrelease_date}}|{{#switch: {{#var:psrelease_date}}
+| Unavailable = <br/><small>[[:Category:Unavailable on PlayStation|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on PlayStation]]}}
+| Unreleased = <br/><small>[[:Category:Unavailable on PlayStation|Not Yet Released]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on PlayStation]]}}
+| {{PlatformIndicator|PS}}{{#if: {{#var:psrelease_version}}|[[PS {{#var:psrelease_version}}|{{#var:psrelease_version}}]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in v{{#sub:{{#var:psrelease_version}}|0|{{#pos:{{#var:psrelease_version}}|.}}}}]]}} }}<br/><small>{{#time:M j, Y|{{#var:psrelease_date}}}}</small> }}}}</div>
+</div>
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex-left info-X2-50">
+[[File:Nintendo Switch.svg|20x20px|frameless]] {{#switch: {{#var:switchrelease_date}}
+| Unreleased = <br/><small>[[:Category:Unavailable on Switch|Not Yet Released]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Switch]]}}
+| Unavailable = <br/><small>[[:Category:Unavailable on Switch|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Switch]]}}
+| {{PlatformIndicator|Switch}}{{#if: {{#var:switchrelease_version}}|[[Switch {{#var:switchrelease_version}}|{{#var:switchrelease_version}}]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in v{{#sub:{{#var:switchrelease_version}}|0|{{#pos:{{#var:switchrelease_version}}|.}}}}]]}} }}<br/><small>{{#time:M j, Y|{{#var:switchrelease_date}}}}</small> }}</div>
+<div class="info-arkitex-right info-X2-50">
+[[File:Epic Games.svg|20x20px|frameless]] {{#if:{{#var:egsrelease_date}}|{{#switch: {{#var:egsrelease_date}}
+| Unavailable = <br/><small>[[:Category:Unavailable on Epic Games|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Epic Games]]}}
+| Unreleased = <br/><small>[[:Category:Unavailable on Epic Games|Not Yet Released]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Epic Games]]}}
+| {{PlatformIndicator|Epic Games}}{{#if: {{#var:egsrelease_version}}|[[{{#var:egsrelease_version}}]] }}<br/><small>{{#time:M j, Y|{{#var:egsrelease_date}}}}</small> }} }}</div></div>
+{{#ifeq:{{#var:mobilerelease_date|Unavailable}}|Unavailable||<div class="info-arkitex info-unit-row"><div class="info-X1-100" style="background: var(--ark-arkitex-right-color)">
+[[File:Logo Mobile.svg|20x20px|frameless]] {{#switch: {{#var:mobilerelease_date|Unavailable}}
+| Unreleased = <br/><small>[[:Category:Unavailable on Mobile|Not Yet Released]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Mobile]]}}
+| Unavailable = <br/><small>[[:Category:Unavailable on Mobile|Unavailable]]</small> {{#if:{{#var:NoAutoCategories}}||[[Category:Unavailable on Mobile]]}}
+| {{#if: {{#var:mobilerelease_version}}|[[Mobile {{#var:mobilerelease_version}}|{{#var:mobilerelease_version}}]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures released in v{{#sub:{{#var:mobilerelease_version}}|0|{{#pos:{{#var:mobilerelease_version}}|.}}}}]]}} }}<br/><small>{{#time:M j, Y|{{#var:mobilerelease_date}}}}</small><!--
+-->{{PlatformIndicator|Mobile|mobileonly= {{#ifeq:{{#var:release_date}}{{#var:xboxrelease_date}}{{#var:psrelease_date}}{{#var:switchrelease_date}}{{#var:egsrelease_date}}{{#var:stadiarelease_date}}|UnavailableUnavailableUnavailableUnavailableUnavailableUnavailable|1}} }} }}</div></div>}}</div>}}
+}}{{#if:{{#var:dlc}}{{#var:event}}{{#var:variants}}|
+<div class="info-arkitex info-unit"><!--
+-->{{arkitexure|{{#if:{{#pos:{{#var:dlc}}|, }}|[[DLCs]]|[[DLCs|DLC]]}}|{{#if:{{#var:dlc}}|{{#vardefine: i | 0 }}{{#sub:{{#while:
+ | {{#explode: {{#var:dlc}}|,|{{#var:i}} }}
+ | {{#ifeq:{{#count:{{#var:dlc}}|,}}|0|{{DLCIndicator|{{#explode: {{#var:dlc}}|,|{{#var:i}} }}}}|{{#vardefine:dlc_indicatorlist|{{#var:dlc}}}} }}[[{{#explode: {{#var:dlc}}|,|{{#var:i}} }}]],&#32;{{#vardefine: i | {{#expr: {{#var: i }} + 1 }} }}}}|0|-6}} }}
+}}{{arkitexure
+  | [[Events]]
+  | {{#if:{{#var:event}}| {{EventIndicator|{{#var:event}}}}{{InfoboxEventList|{{#var:event}}}} }}
+}}{{arkitexure
+  | Variants
+  | {{#if:{{#var:variants}}|{{ItemList Infobox|{{#var:variants}}}}|}}
+}}</div>}}
+{{#if:{{#var:release_date}}{{#var:xboxrelease_date}}{{#var:psrelease_date}}{{#var:mobilerelease_date}}{{#var:switchrelease_date}}{{#var:egsrelease_date}}{{#var:stadiarelease_date}}{{#var:dlc}}{{#var:event}}{{#var:variants}}|</div>}}<!--
+
+-->{{#if:{{#var:entityId}}{{#var:blueprintpath}}|<!--
+-->{{#invoke:Infobox spawn command section|spawnCommand
+| type = creature
+| linkTarget = Creature IDs
+| variantOrder = {{#forargs: blueprintpath|variant|path|{{#if:{{#var:variant}}|;{{#var:variant}}}}}}
+}} }}
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">'''[[Taming|Domestication]]'''</div>
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex-left info-X3-33 info-unit-caption">[[:Category:Tameable creatures|Tameable]]</div>
+<div class="info-X3-33 info-unit-caption">[[:Category:Rideable creatures|Rideable]]</div>
+<div class="info-arkitex-right info-X3-33 info-unit-caption">[[:Category:Breedable creatures|Breedable]]</div>
+</div>
+<div class="info-arkitex info-unit-row">
+<div class="info-arkitex-left info-X3-33">
+{{#switch: {{#var:tameable}}
+| No = {{Checkmark|N}} {{HoverNote|No|Untamable creatures can still be tamed by using cheats.}} {{#if:{{#var:NoAutoCategories}}||[[Category:Untameable creatures]]}}
+| Yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Tameable creatures]]}}
+| {{Checkmark|Unknown}} Unknown
+}}{{#if:{{{tameable comment|}}}|<sup>1</sup>}}</div>
+<div class="info-X3-33">
+{{#switch: {{#var:rideable}}
+| Yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Rideable creatures]]}}
+| Swimming = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Rideable creatures]] [[Category:Rideable swimming creatures]]}}
+| Flying = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Rideable creatures]] [[Category:Rideable flying creatures]]}}
+| Unknown = {{Checkmark|Unknown}} Unknown
+| {{Checkmark|N}} No
+}}{{#if:{{{rideable comment|}}}|<sup>2</sup>}}</div>
+<div class="info-arkitex-right info-X3-33">
+{{#vardefine:breedable|{{#switch:{{lc:{{{breedable|}}}}}|yes=yes|no=no|unknown=unknown|{{#if:{{#var:maturation}}|yes}}}}}}{{#ifeq:{{#var:breedable}}|yes
+| {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Breedable creatures]]}}
+| {{#ifeq:{{#var:breedable}}|unknown|{{Checkmark|Unknown}} Unknown|{{Checkmark|N}} No {{#if:{{#var:NoAutoCategories}}||[[Category:Unbreedable creatures]]}}}}
+}}{{#if:{{{breedable comment|}}}|<sup>3</sup>}}</div>
+</div>
+</div>{{#if:{{{tameable comment|}}}{{{rideable comment|}}}{{{breedable comment|}}}|
+<div class="info-unit-comment"><!--
+-->{{#if:{{{tameable comment|}}}|<span style="font-size:13px;"><sup>1</sup>&nbsp;{{{tameable comment|}}}</span>}}{{#if:{{{rideable comment|}}}|{{#if:{{{tameable comment|}}}|<br />}}<span style="font-size:13px;"><sup>2</sup>&nbsp;{{{rideable comment|}}}</span>}}{{#if:{{{breedable comment|}}}|{{#if:{{{tameable comment|}}}{{{rideable comment|}}}|<br />}}<span style="font-size:13px;"><sup>3</sup>&nbsp;{{{breedable comment|}}}</span>}}<!--
+--></div>}}{{#if:{{#var:torporImmune}}{{#var:knockouttame}}{{#var:nonviolenttame}}{{#var:kibble}}{{#var:favoritefood}}{{#var:Equipment}}{{#var:allowmountedweaponry}}{{#var:humansCanCarry}}|
+<div class="info-arkitex info-unit"><!--
+-->{{arkitexure
+  | [[:Category:Creatures that are immune to torpor|Torpor Immune]]
+  | {{#switch:{{#var:torporImmune}}
+    | Yes | yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that are immune to torpor]]}}
+    | No | no = {{Checkmark|N}} No
+    }}
+}}{{arkitexure
+  | [[Taming]] Method
+  | {{#switch: {{#var:knockouttame}}
+    | Yes = {{ItemLink|Knockout|image=Knockedout.png|link=Taming#Tranquilizer Taming}}
+    }}{{#switch: {{#var:knockouttame}}{{#var:nonviolenttame}}
+	  | YesYes = &nbsp;or&nbsp;
+      }}{{#switch: {{#var:nonviolenttame}}
+        | Yes = {{ItemLink|Passive|image=Rare Flower.png|link=Taming#Non-Violent Taming}}
+        }}
+}}{{arkitexure
+  | [[Level]] Requirement
+  | {{#if:{{#var:levelrequirement}}|[[Level]] {{#var:levelrequirement}}|}}
+}}{{arkitexure
+  | Preferred [[Kibble]]
+  | {{#if:{{#var:kibble}}|{{ItemLink|{{#var:kibble}}}}{{#if:{{#var:NoAutoCategories}}||{{#if:{{#pos:{{#var:kibble}}|Egg)}}||[[Category:Creatures that prefer {{lc:{{#explode:{{#var:kibble}}| |0}}}} kibbles]]}}}}}}
+}}{{arkitexure
+  | Preferred [[Kibble]] {{DLCIcon|Mobile}}
+  | {{#if:{{#var:mobilekibble}}|{{ItemLink|{{#var:mobilekibble}}|image=Kibble (Mobile).png}}}}
+}}{{arkitexure
+  | Preferred Food
+  | {{#if:{{#var:favoritefood}}|{{ItemList Infobox|{{#var:favoritefood}}}}{{#if: {{{favoritefood comment|}}} |&nbsp;({{{favoritefood comment}}})}}}}
+}}{{arkitexure
+  | Preferred Food {{DLCIcon|Primitive Plus}}
+  | {{#if:{{#var:primitiveplusfood}}|{{ItemList Infobox|{{#var:primitiveplusfood}}}}{{#if: {{{primitiveplusfood comment|}}} |&nbsp;({{{primitiveplusfood comment}}})}}}}
+}}{{arkitexure
+  | Preferred Food {{DLCIcon|Mobile}}
+  | {{#if:{{#var:mobilefood}}|{{ItemList Infobox|{{#var:mobilefood}}}}{{#if: {{{mobilefood comment|}}} |&nbsp;({{{mobilefood comment}}})}}}}
+}}{{arkitexure
+  | Equipment
+  | {{ #vardefine: Eqloop | 0 }}{{#switch:{{#var:rideable}}|No=|#default={{#if:{{#var:Equipment}}{{#var:allowmountedweaponry}}|{{#if:{{#pos:{{#var:Equipment}}|Saddle}}|{{#switch:{{#var:Equipment}}|Equus Saddle|Gasbags Saddle|Tropeognathus Saddle={{Checkmark|Y}} [[:Category:Creatures that can be ridden without saddles|No Saddle Needed]]{{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can be ridden without saddles]]}}<br/>}}|{{Checkmark|Y}} [[:Category:Creatures that can be ridden without saddles|No Saddle Needed]]{{#vardefine:saddle|None}}{{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can be ridden without saddles]]}}<br/>}}}}}}{{
+    #while:
+    | {{#if:{{#explode:{{#var:Equipment}}|,|{{#var:Eqloop}}}}|true}}
+    | {{#vardefine:EquipEntry|{{#explode:{{#var:Equipment}}|,|{{#var:Eqloop}}}}}}{{
+      #switch:{{#var:EquipEntry}}
+      | Hats = {{ItemLink|Hats}}{{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can wear hats]]}}<br/>
+      | Hats (Mobile) = {{ItemLink|Hats}} ([[ARK: Survival Evolved Mobile|Mobile]] only){{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can wear hats]]}}<br/>
+      | M.O.M.I. = {{ItemLink|M.O.M.I.}}<br/>
+      | Mobile:Mammoth Side Saddle = {{ItemLink|Mobile:Mammoth Side Saddle}}<br/>
+      | #default = {{#if:{{#pos:{{#var:EquipEntry}}|Platform}}
+        | {{#vardefine:platformsaddle|{{#var:EquipEntry}}}}{{ItemLink|{{#var:platformsaddle}}}} {{#if:{{#var:NoCargo}}||<span style="white-space: nowrap;">(Level {{#vardefineecho:platformsaddlelevel|{{RequiredLevel|{{#var:platformsaddle}}}}}})</span>}}{{#if:{{#var:NoAutoCategories}}||[[Category:Creatures with platform saddles]]}}<br/>
+        | {{#if:{{#pos:{{#var:EquipEntry}}|Saddle}}|{{#if:{{#pos:{{#var:EquipEntry}}|Tek}}
+        | {{#vardefine:teksaddle|{{#var:EquipEntry}}}}{{ItemLink|{{#var:teksaddle}}}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures with tek saddles]]}}<br/>
+        | {{#vardefine:saddle|{{#var:EquipEntry}}}}{{ItemLink|{{#var:saddle}}}} {{#if:{{#var:NoCargo}}||<span style="white-space: nowrap;">(Level {{#vardefineecho:saddlelevel|{{RequiredLevel|{{#var:saddle}}}}}})</span>}}<br/>
+        }}
+        | {{ItemLink|{{#var:EquipEntry}}}} <span style="white-space: nowrap;">(Level {{#vardefineecho:EquipEntryLevel|{{RequiredLevel|{{#var:EquipEntry}}}}}})</span><br/>
+      }}}}
+  }}{{ #vardefine: Eqloop | {{ #expr: {{ #var: Eqloop }} + 1 }} }}
+  }}
+}}{{arkitexure
+  | Unique [[:Category:Skins|Skins]]
+  | {{#if:{{#var:uniquecostumes}}|{{ItemList Infobox|{{#var:uniquecostumes}}}}}}
+}}{{arkitexure
+  | [[:Category:Creatures that can be ridden while wielding weapons|Rider Weaponry]]
+  | {{#switch: {{#var:rideable}}
+    | Yes|Swimming|Flying = {{#switch: {{#var:allowmountedweaponry}}
+                            | Yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can be ridden while wielding weapons]]}}
+                            | {{Checkmark|N}} No
+                            }}
+    }}
+}}{{arkitexure
+  | [[:Category:Creatures that can be carried by humans|Humans Can Carry]]
+  | {{#switch:{{#var:humansCanCarry}}
+    | Yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can be carried by humans]]}}
+    | Shoulder = {{Checkmark|Y}} [[:Category:Creatures that can be shoulder-mounted|Shoulder-Mounted]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that can be carried by humans]][[Category:Creatures that can be shoulder-mounted]]}}
+    | No = <!--{{Checkmark|N}} No-->
+    }}
+}}</div>}}
+</div><!--
+
+-->{{#if:{{#var:basexp}}{{#var:feces_size}}{{#var:dragweight}}{{#var:requiredMutagen}}{{#var:canBeCloned}}|<!--
+-->{{#if:{{#var:basexp}}|{{#vardefine:basexp|{{#expr:{{#var:basexp|0}}*{{#ifeq:{{#var:release_date}}|Unreleased|{{#ifeq:{{#var:mobilerelease_date}}|Unreleased|{{#var:globalxpmultiplier}}|{{#var:globalxpmultipliermobile}}}}|{{#var:globalxpmultiplier}}}}}}}}}}<!--global 4x XP multiplier as of v313.5-->
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">'''Data'''</div><!--
+-->{{arkitexure
+  | {{HoverNote|XP for kill|Base experience given when hitting the final blow on a level 1 creature while on foot.}}
+  | <span class{{=}}"killxpcalc" data-basexp{{=}}"{{#var:basexp}}">{{formatnum:{{#var:basexp}}}}</span> [[Experience|XP]]|{{#var:basexp}}
+}}{{arkitexure
+  | Loot
+  | {{#if:{{#var:specialloot}}{{#var:lootitems}}
+    | {{ItemList Infobox|{{#if:{{#var:specialloot}}|, {{#var:specialloot}}}}{{#if:{{#var:lootitems}}|, {{#var:lootitems}}}}}}
+    }}
+}}{{arkitexure
+  | {{HoverNote|Special Loot Chance|Chance to have items within its inventory when killed. This can be a simple trophy or valuable gear depending on the creature.}}
+  | {{#if:{{#var:speciallootchance}}|{{#ifexpr:{{#var:speciallootchance}}>0|{{#expr:100*{{#var:speciallootchance}}}}%|}}}} 
+}}{{arkitexure
+  | [[Feces]] {{#switch:{{#var:feces_size}}
+                | Human | Small | Medium | Large | Massive | Medium, Mobile:Unicorn Residue | Rockarrot, Small = Size
+                | #default = }}
+  | {{#switch: {{#var:feces_size}}
+    | Human = {{ItemLink|Human Feces|Human}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop human feces]]}}
+    | Small = {{ItemLink|Small Animal Feces|Small}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop small feces]]}}
+    | Medium = {{ItemLink|Medium Animal Feces|Medium}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop medium feces]]}}
+    | Large = {{ItemLink|Large Animal Feces|Large}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop large feces]]}}
+    | Massive = {{ItemLink|Massive Animal Feces|Massive}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop massive feces]]}}
+    | Silica Pearls = {{ItemLink|Silica Pearls}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop silica pearls]]}}
+    | Element Shard = {{ItemLink|Element Shard}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop element shards]]}}
+    | Snow Owl Pellet = {{ItemLink|Snow Owl Pellet}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop snow owl pellets]]}}
+    | Medium, Mobile:Unicorn Residue = {{ItemLink|Medium Animal Feces|Medium}}<br/>{{ItemLink|Mobile:Unicorn Residue}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop medium feces]][[Category:Creatures that drop unicorn residue]]}}
+    | Rockarrot, Small = {{ItemLink|Rockarrot}}<br/>{{ItemLink|Small Animal Feces}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that drop rockarrots]][[Category:Creatures that drop small feces]]}}
+    | Null|None = {{Checkmark|N}} [[:Category:Creatures that don't drop feces|None]] {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that don't drop feces]]}}
+    | {{#var:feces_size}}
+    }}
+}}{{arkitexure
+  | [[Drag Weight]]
+  | {{#var:dragweight}}
+}}{{arkitexure
+  | Required [[Mutagen|Mutagen]]
+  | {{#var:requiredMutagen}} pieces
+  | {{#var:requiredMutagen}}
+}}{{arkitexure
+  | [[Cloning Chamber|Cloneable]]
+  | {{#switch:{{#var:canBeCloned}}
+    | Yes | yes = {{Checkmark|Y}} Yes
+    | No | no = {{Checkmark|N}} No
+    }}
+  | {{#ifeq:{{lc:{{#var:canBeCloned}}}}|yes|1}}
+}}{{arkitexure
+  | [[:Category:Creatures that are immune to radiation|Radiation Immune]]
+  | {{#switch:{{#var:radiationImmune}}
+    | Yes | yes = {{Checkmark|Y}} Yes {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that are immune to radiation]]}}
+    | No | no = {{Checkmark|N}} No
+    }}
+}}{{arkitexure
+  | [[List of Carryable Creatures|Carryable By]]
+  | {{#if:{{#var:carryableby}}
+    | {{ItemList Infobox|{{#var:carryableby}}}}
+    }}
+}}{{arkitexure
+  | [[List of Creatures Immobilized by Traps|Immobilized By]]
+  | {{#if:{{#var:immobilizedby}}|{{ItemList Infobox|{{#var:immobilizedby}}}}}}
+}}{{arkitexure
+  | [[List of Creatures That Can Damage Structures|Can Damage]]
+  | {{#if:{{#pos:{{#var:candamage}}|Thatch}}|{{ItemLink|Thatch Structures|Thatch|image=Thatch Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Greenhouse}}|{{ItemLink|Greenhouse Structures|Greenhouse|image=Greenhouse Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Wood}}|{{ItemLink|Wooden Structures|Wood|image=Wooden Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Adobe}}|{{ItemLink|Adobe Structures|Adobe|image=Adobe Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Stone}}|{{ItemLink|Stone Structures|Stone|image=Stone Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Metal}}|{{ItemLink|Metal Structures|Metal|image=Metal Wall.png}}<br/>
+  }}{{#if:{{#pos:{{#var:candamage}}|Tek}}|{{ItemLink|Tek Structures|Tek|image=Tek Wall.png}}<br/>
+}} }}</div>
+</div>}}<!--
+
+-->{{#if:{{#var:egg}}{{#var:maturation}}{{#var:incubation}}{{#var:gestation}}|
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">'''[[Breeding|Reproduction]]'''</div><!--
+-->{{arkitexure
+  | [[Eggs|Egg]]
+  | {{#if:{{#var:egg}}|{{ItemList Infobox|{{#var:egg}}}} {{#if:{{#var:NoAutoCategories}}||[[Category:Creatures that lay eggs]]}}}}
+}}{{#if: {{#var:incubationmin}}{{#var:incubationmax}}|<!--
+-->{{arkitexure|[[Incubation]] Range|{{#if:{{#var:incubationmin}}|{{#var:incubationmin}}|?}} - {{#if:{{#var:incubationmax}}|{{#var:incubationmax}}|?}} °C / {{#iferror: {{#expr:{{#if:{{#var:incubationmin}}|{{#var:incubationmin}}|0}}*1.8+32}} | ? | {{#expr:{{#if:{{#var:incubationmin}}|{{#var:incubationmin}}|0}}*1.8+32 round 0}} }} - {{#iferror: {{#expr:{{#if:{{#var:incubationmax}}|{{#var:incubationmax}}|0}}*1.8+32}} | ? | {{#expr:{{#if:{{#var:incubationmax}}|{{#var:incubationmax}}|0}}*1.8+32 round 0}} }} °F<!--
+-->{{#if:{{#var:incubationmin}}|{{#if:{{#var:incubationmax}}|{{#iferror: {{#expr: ({{#var:incubationmax}}+{{#var:incubationmin}})/2 }} | | <!--
+    -->{{#vardefine:incubationmid| {{#expr: ({{#var:incubationmax}}+{{#var:incubationmin}})/2 round 0 }}}}<!--
+    --><br/>{{ItemLink|Egg Incubator}}: {{#var:incubationmid}} °C / {{#expr: {{#var:incubationmid}} *1.8+32 round 0 }} °F }}}} }}<!--
+-->}}
+}}{{arkitexure
+  | [[Breeding#Pregnancy|Gestation]] Time
+  | {{duration|{{#var:gestation}}}}{{#if:{{#var:NoAutoCategories}}||[[Category:Gestation]]}}|{{#var:gestation}}
+}}{{arkitexure
+  | [[Breeding#Incubation|Incubation]] Time
+  | {{duration|{{#var:incubation}}}}{{#if:{{#var:NoAutoCategories}}||[[Category:Incubation]]}}|{{#var:incubation}}
+}}{{arkitexure
+  | Baby Time
+  | {{duration|{{#expr:{{#var:maturation}}*0.1}}}}|{{#var:maturation}}
+}}{{arkitexure
+  | Juvenile Time
+  | {{duration|{{#expr:{{#var:maturation}}*0.4}}}}|{{#var:maturation}}
+}}{{arkitexure
+  | Adolescent Time
+  | {{duration|{{#expr:{{#var:maturation}}*0.5}}}}|{{#var:maturation}}
+}}{{arkitexure
+  | Total Maturation Time
+  | {{duration|{{#var:maturation}}}}|{{#var:maturation}}
+}}{{arkitexure
+  | Breeding Interval
+  | {{#if:{{dv|{{#var:name}}|breeding/minTimeBetweenMating}}|{{duration|{{dv|{{#var:name}}|breeding/minTimeBetweenMating}}}}&nbsp;-&nbsp;{{duration|{{dv|{{#var:name}}|breeding/maxTimeBetweenMating}}}}}}
+}}</div></div>}}<!--
+
+-->{{#if:{{{habitat|}}}|
+
+<div class="info-arkitex info-module">
+<div class="info-arkitex info-unit">
+<div class="info-unit-caption">'''Habitat'''</div>
+<div class="info-arkitex info-X1-100 info-spawn">{{#if: {{{habitat|}}}|
+{{#switch: {{{habitat|}}}
+| Map (only variants)
+| Map = {{#if:{{{variantMaps|}}}|<!--
+	Multiple creatures
+	-->{{#vardefine:i|0}}{{#tag:tabber|
+		{{#ifeq:{{{habitat}}}|Map (only variants)||<!--
+				Main creature
+			-->{{#var:name}}={{SpawningMap|size=max|nolegend=true|defineSpawnsOnVariables=yes|mod={{#var:ModName}}|species={{{englishName|{{#var:name}}}}}}}}}<!--
+				Variants -->{{#while:| {{#explode: {{{variantMaps|}}}|,|{{#var:i}}}}| {{#vardefine:currentVariantName|{{#explode: {{{variantMaps|}}}|,|{{#var:i}}}}}}{{#if:{{#var:currentVariantName}}|<!--
+				The following is mainly intended to allow translators to display localized tab names, while referencing the SVGs by the original names.
+			-->{{ #vardefine:currentVariantSpeciesName | {{#var:currentVariantName}} }}<!--
+			-->{{ #if:{{{variantMapSpecies|}}} | {{ #vardefine:vmSpeciesOverride | {{ #explode: {{{variantMapSpecies|}}}|,|{{#var:i}} }} }}<!--
+				-->{{ #if:{{#var:vmSpeciesOverride}} | {{ #vardefine:currentVariantSpeciesName | {{#var:vmSpeciesOverride}} }} }} }}<!--
+				Variant's map -->
+			{{#ifeq:{{{habitat}}}{{#var:i}}|Map (only variants)0||{{!}}-{{!}}}}
+			{{#var:currentVariantName}}=<!--
+                        -->{{#if:{{#pos:{{dv|{{#var:currentVariantSpeciesName}}|group}}|Event}}|<div class="info-spawningmap-event"><!--
+                            -->This variant spawns only during an [[Event]]<!--
+                        --></div>}}<!--
+                        -->{{SpawningMap|size=max|nolegend=true|defineSpawnsOnVariables=yes|mod={{#var:ModName}}|species={{#var:currentVariantSpeciesName}}}} }} {{#vardefine: i | {{#expr: {{#var: i }} + 1 }}}} }}
+	}}{{RarityLegend|100%}}|<!--
+	Single creature
+	-->{{SpawningMap|size=max|mod={{#var:ModName}}|defineSpawnsOnVariables=yes|species={{{englishName|{{#var:name}}}}}}} }}
+| Obelisks = Can be summoned at the [[Obelisk|Obelisks]].
+| Caves = Lives in [[Caves]].
+| Events = Spawns only during an [[Event]].
+| Events/Map = Spawns only during an [[Event]].{{SpawningMap|size=max|defineSpawnsOnVariables=yes|species={{#var:name}}}}
+| {{{habitat|}}} }} }}
+</div>
+
+</div></div>}}</div><!--
+SpawningMap-backed DLC indicators -->{{#if:{{#var:dlc_indicatorlist}}|<!--
+	-->{{#if:{{#var:SpawnsOn_TheCenter}}|{{DLCIndicator|The Center}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_ScorchedEarth}}|{{DLCIndicator|Scorched Earth}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_Ragnarok}}|{{DLCIndicator|Ragnarok}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_Aberration}}|{{DLCIndicator|Aberration}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_Extinction}}|{{DLCIndicator|Extinction}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_Valguero}}|{{DLCIndicator|Valguero}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_GenesisPart1}}|{{DLCIndicator|Genesis: Part 1}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_CrystalIsles}}|{{DLCIndicator|Crystal Isles}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_GenesisPart2}}|{{DLCIndicator|Genesis: Part 2}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_LostIsland}}|{{DLCIndicator|Lost Island}}}}<!--
+	-->{{#if:{{#var:SpawnsOn_FjordurMidgard}}{{#var:SpawnsOn_FjordurAsgard}}{{#var:SpawnsOn_FjordurJotunheim}}{{#var:SpawnsOn_FjordurVanaheim}}|{{DLCIndicator|Fjordur}}}}<!--
+-->}}<!--
+Categorization -->{{#if:{{#var:NoAutoCategories}}||
+[[Category:Creatures]]
+{{AddCategories|{{dv|{{PAGENAME}}|categories}}}}
+}}<!--
+-->{{#if:{{#var:isvariant}}|[[Category:Variant creatures]]}}<!--
+-->{{#if:{{#var:isvariant}}|}}<!--
+-->{{#if:{{#var:NoCargo}}||
+{{#vardefine:TrapParser|,{{#replace:{{#var:immobilizedby}}| |}},}}
+{{#arraydefine:maps|{{#if:{{#var:SpawnsOn_TheIsland}}|The Island}},{{#if:{{#var:SpawnsOn_TheCenter}}|The Center}},{{#if:{{#var:SpawnsOn_ScorchedEarth}}|Scorched Earth}},{{#if:{{#var:SpawnsOn_Ragnarok}}|Ragnarok}},{{#if:{{#var:SpawnsOn_Aberration}}|Aberration}},{{#if:{{#var:SpawnsOn_Extinction}}|Extinction}},{{#if:{{#var:SpawnsOn_Valguero}}|Valguero}},{{#if:{{#var:SpawnsOn_GenesisPart1}}|Genesis: Part 1}},{{#if:{{#var:SpawnsOn_CrystalIsles}}|Crystal Isles}},{{#if:{{#var:SpawnsOn_GenesisPart2}}|Genesis: Part 2}},{{#if:{{#var:SpawnsOn_LostIsland}}|Lost Island}},{{#if:{{#var:SpawnsOn_FjordurMidgard}}{{#var:SpawnsOn_FjordurAsgard}}{{#var:SpawnsOn_FjordurJotunheim}}{{#var:SpawnsOn_FjordurVanaheim}}|Fjordur}}|,}}
+{{#arraydefine:dlcs|{{#var:dlc}}|, }}{{#arraymerge:dlcs|dlcs|maps}}
+<!-- NEW MICRO TABLES -->
+{{#cargo_store:_table=Entities
+| Name={{#var:name}}
+| Article={{FULLPAGENAME}}
+| VariantOf={{#var:variantof}}
+| IsMobile={{#ifeq:{{NAMESPACENUMBER}}|10008|1|0}}
+| Blueprint={{BlueprintPath|{{#var:blueprintpath}}|pure=yes}}
+| IsClassPartial={{#ifeq:{{{incompleteData|no}}}|yes|1|0}}
+| Groups={{#var:group}}
+}}
+<!-- OLD BIG TABLE -->
+{{#cargo_store:_table=Creatures
+| Name={{#var:name}}
+| IsVariant={{#var:isvariant|0}}
+| DLCs={{#replace:{{#arrayprint:dlcs|,}}|,,,,,,,,,,,|}}
+| WildMaps={{#replace:{{#arrayprint:maps|,}}|,,,,,,,,,,,|}}
+| TaxonomicGroup={{#if:{{#pos:{{#var:group}}|Event Creatures}}|Event Creatures|{{#if:{{#pos:{{#var:group}}|Brute Creatures}}|Brute Creatures|{{#if:{{#pos:{{#var:group}}|Alpha Creatures}}|Alpha Creatures|{{#if:{{#pos:{{#var:group}}|Enraged Creatures}}|Enraged Creatures|{{#if:{{#pos:{{#var:group}}|R-Creatures}}|R-Creatures|{{#if:{{#pos:{{#var:group}}|VR Creatures}}|VR Creatures|{{#if:{{#pos:{{#var:group}}|X-Creatures}}|X-Creatures|{{#if:{{#pos:{{#var:group}}|Aberrant Creatures}}|Aberrant Creatures|{{#if:{{#pos:{{#var:group}}|Corrupted Creatures}}|Corrupted Creatures|{{#if:{{#pos:{{#var:group}}|Eerie Creatures}}|Eerie Creatures|{{#if:{{#pos:{{#var:group}}|Bosses}}|Bosses|{{#if:{{#pos:{{#var:group}}|Titans}}|Titans|{{#if:{{#pos:{{#var:group}}|Fantasy Creatures}}|Fantasy Creatures|{{#if:{{#pos:{{#var:group}}|Mechanical Creatures}}|Mechanical Creatures|{{#if:{{#pos:{{#var:group}}|Malfunctioned Tek Creatures}}|Malfunctioned Tek Creatures|{{#if:{{#pos:{{#var:group}}|Tek Creatures}}|Tek Creatures|{{#if:{{#pos:{{#var:group}}|Amphibians}}|Amphibians|{{#if:{{#pos:{{#var:group}}|Birds}}|Birds|{{#if:{{#pos:{{#var:group}}|Dinosaurs}}|Dinosaurs|{{#if:{{#pos:{{#var:group}}|Fish}}|Fish|{{#if:{{#pos:{{#var:group}}|Invertebrates}}|Invertebrates|{{#if:{{#pos:{{#var:group}}|Mammals}}|Mammals|{{#if:{{#pos:{{#var:group}}|Reptiles}}|Reptiles|{{#if:{{#pos:{{#var:group}}|Synapsids}}|Synapsids}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+| Diet={{#var:diet}}
+| Fuel={{#var:fuel}}
+| Feces={{#var:feces_size}}
+| KillExperience={{#var:basexp}}
+| Released={{#ifeq:{{uc:{{#var:release_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:release_date}}}}|UNRELEASED||{{#var:release_date}}}}}}
+| ReleasedXbox={{#ifeq:{{uc:{{#var:xboxrelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:xboxrelease_date}}}}|UNRELEASED||{{#var:xboxrelease_date}}}}}}
+| ReleasedPS={{#ifeq:{{uc:{{#var:psrelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:psrelease_date}}}}|UNRELEASED||{{#var:psrelease_date}}}}}}
+| ReleasedMobile={{#ifeq:{{uc:{{#var:mobilerelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:mobilerelease_date}}}}|UNRELEASED||{{#var:mobilerelease_date}}}}}}
+| ReleasedSwitch={{#ifeq:{{uc:{{#var:switchrelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:switchrelease_date}}}}|UNRELEASED||{{#var:switchrelease_date}}}}}}
+| ReleasedEGS={{#ifeq:{{uc:{{#var:egsrelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:egsrelease_date}}}}|UNRELEASED||{{#var:egsrelease_date}}}}}}
+| ReleasedStadia={{#ifeq:{{uc:{{#var:stadiarelease_date}}}}|UNAVAILABLE||{{#ifeq:{{uc:{{#var:stadiarelease_date}}}}|UNRELEASED||{{#var:stadiarelease_date}}}}}}
+| Temperament={{#var:temperament}}
+| ThreatLevel={{#var:threatlevel}}
+| Tameable={{#switch:{{lc:{{#var:tameable}}}}|no=0|=0|yes=1|unknown=}}
+| Breedable={{#switch:{{lc:{{#var:breedable}}}}|no=0|=0|yes=1|unknown=}}
+| Rideable={{#switch:{{lc:{{#var:rideable}}}}|no=0|=0|yes=1|flying|swimming=1|unknown=}}
+| Aerial={{#if:{{#pos:{{lc:{{#var:rideable}}}}|flying}}|1|0}}
+| Aquatic={{#if:{{#pos:{{lc:{{#var:rideable}}}}|swimming}}|1|0}}
+| Terrestrial={{#if:{{#pos:{{lc:{{#var:rideable}}}}|yes}}|1|0}}
+| Saddle={{#var:saddle}}
+| SaddleLevel={{#ifeq:{{#var:saddlelevel}}|?||{{#var:saddlelevel}}}}
+| PlatformSaddle={{#var:platformsaddle}}
+| PlatformSaddleLevel={{#ifeq:{{#var:platformsaddlelevel}}|?||{{#var:platformsaddlelevel}}}}
+| TekSaddle={{#var:teksaddle}}
+| IncubationMin={{#var:incubationmin}}
+| IncubationMax={{#var:incubationmax}}
+| Incubation={{#var:incubation}}
+| Gestation={{#var:gestation}}
+| BabyTime={{#if:{{#var:maturation}}|{{#expr:{{#var:maturation}}*0.1}}}}
+| BreedingInterval={{{breedinginterval|}}}
+| EntityId={{#var:entityId}}
+| Basexp={{#var:basexp}}
+| DragWeight={{#var:dragweight}}
+| CarryableByHumans={{#var:humansCanCarry}}
+| CarryableByTapejara={{#if:{{#pos:{{#var:carryableby}}|Tapejara}}|Yes|No}}
+| CarryableByPteranodon={{#if:{{#pos:{{#var:carryableby}}|Ptera}}|Yes|No}}
+| CarryableByArgentavis={{#if:{{#pos:{{#var:carryableby}}|Argent}}|Yes|No}}
+| CarryableByQuetzal={{#if:{{#pos:{{#var:carryableby}}|Quetz}}|Yes|No}}
+| CarryableByGriffin={{#if:{{#pos:{{#var:carryableby}}|Griffin}}|Yes|No}}
+| CarryableByWyvern={{#if:{{#pos:{{#var:carryableby}}|Wyvern}}|Yes|No}}
+| CarryableByKaprosuchus={{#if:{{#pos:{{#var:carryableby}}|Kapro}}|Yes|No}}
+| CarryableByMegalosaurus={{#if:{{#pos:{{#var:carryableby}}|Megalosaur}}|Yes|No}}
+| CarryableByTusoteuthis={{#if:{{#pos:{{#var:carryableby}}|Tuso}}|Yes|No}}
+| CarryableByKarkinos={{#if:{{#pos:{{#var:carryableby}}|Karkinos}}|Yes|No}}
+| CarryableByGigantopithecus={{#if:{{#pos:{{#var:carryableby}}|Gigantopithecus}}|Yes|No}}
+| CarryableByProcoptodon={{#if:{{#pos:{{#var:carryableby}}|Procoptodon}}|Yes|No}}
+| CarryableByCrystalWyvern={{#if:{{#pos:{{#var:carryableby}}|Crystal Wyvern}}|Yes|No}}
+| CarryableByTropeognathus={{#if:{{#pos:{{#var:carryableby}}|Tropeognathus}}|Yes|No}}
+| CarryableByMammoth={{#if:{{#pos:{{#var:carryableby}}|Mammoth}}|Yes|No}}
+| CarryableByHoverSkiff={{#if:{{#pos:{{#var:carryableby}}|TEK Hover Skiff}}|Yes|No}}
+| CarryableByDesmodus={{#if:{{#pos:{{#var:carryableby}}|Desmodus}}|Yes|No}}
+| ImmobilizedByBola={{#if:{{#pos:{{#var:TrapParser}}|,Bola,}}|Yes|No}}
+| ImmobilizedByChainBola={{#if:{{#pos:{{#var:TrapParser}}|,ChainBola,}}|Yes|No}}
+| ImmobilizedByBearTrap={{#if:{{#pos:{{#var:TrapParser}}|,BearTrap,}}|Yes|No}}
+| ImmobilizedByLargeBearTrap={{#if:{{#pos:{{#var:TrapParser}}|,LargeBearTrap,}}|Yes|No}}
+| ImmobilizedByPlantSpeciesYTrap={{#if:{{#pos:{{#var:TrapParser}}|SpeciesY}}|Yes|No}}
+| CanDamageThatch={{#if:{{#pos:{{#var:candamage}}|Thatch}}|Yes|No}}
+| CanDamageGreenhouse={{#if:{{#pos:{{#var:candamage}}|Greenhouse}}|Yes|No}}
+| CanDamageWood={{#if:{{#pos:{{#var:candamage}}|Wood}}|Yes|No}}
+| CanDamageAdobe={{#if:{{#pos:{{#var:candamage}}|Adobe}}|Yes|No}}
+| CanDamageStone={{#if:{{#pos:{{#var:candamage}}|Stone}}|Yes|No}}
+| CanDamageMetal={{#if:{{#pos:{{#var:candamage}}|Metal}}|Yes|No}}
+| CanDamageTek={{#if:{{#pos:{{#var:candamage}}|Tek}}|Yes|No}}
+}} }}</includeonly><noinclude>
+<!-- NEW MICRO TABLES - declared in sub-pages of this template because of Cargo's limitations -->
+{{#cargo_attach:_table=Entities}}
+<!-- OLD BIG TABLE -->
+{{#cargo_declare:_table=Creatures
+| Name=String
+| IsVariant=Boolean
+| DLCs=List (,) of String
+| WildMaps=List (,) of String
+| TaxonomicGroup=String
+| Diet=String
+| Fuel=String
+| Feces=String
+| KillExperience=Float
+| Released=Date
+| ReleasedXbox=Date
+| ReleasedPS=Date
+| ReleasedMobile=Date
+| ReleasedSwitch=Date
+| ReleasedEGS=Date
+| ReleasedStadia=Date
+| Temperament=String
+| ThreatLevel=String
+| Tameable=Boolean
+| Breedable=Boolean
+| Rideable=Boolean
+| Aerial=Boolean
+| Aquatic=Boolean
+| Terrestrial=Boolean
+| Saddle=String
+| SaddleLevel=Integer
+| PlatformSaddle=String
+| PlatformSaddleLevel=Integer
+| TekSaddle=String
+| IncubationMin=Float
+| IncubationMax=Float
+| Incubation=Float
+| Gestation=Float
+| BabyTime=Float
+| BreedingInterval=Float
+| EntityId=String
+| Basexp=Float
+| DragWeight=Float
+| CarryableByHumans=Boolean
+| CarryableByTapejara=Boolean
+| CarryableByPteranodon=Boolean
+| CarryableByArgentavis=Boolean
+| CarryableByQuetzal=Boolean
+| CarryableByGriffin=Boolean
+| CarryableByWyvern=Boolean
+| CarryableByKaprosuchus=Boolean
+| CarryableByMegalosaurus=Boolean
+| CarryableByTusoteuthis=Boolean
+| CarryableByKarkinos=Boolean
+| CarryableByGigantopithecus=Boolean
+| CarryableByProcoptodon=Boolean
+| CarryableByCrystalWyvern=Boolean
+| CarryableByTropeognathus=Boolean
+| CarryableByMammoth=Boolean
+| CarryableByHoverSkiff=Boolean
+| CarryableByDesmodus=Boolean
+| ImmobilizedByBola=Boolean
+| ImmobilizedByChainBola=Boolean
+| ImmobilizedByBearTrap=Boolean
+| ImmobilizedByLargeBearTrap=Boolean
+| ImmobilizedByPlantSpeciesYTrap=Boolean
+| CanDamageThatch=Boolean
+| CanDamageGreenhouse=Boolean
+| CanDamageWood=Boolean
+| CanDamageAdobe=Boolean
+| CanDamageStone=Boolean
+| CanDamageMetal=Boolean
+| CanDamageTek=Boolean
+}}
+
+{{Doc}}
+
+[[Category:Infobox templates]]
+[[Category:Cargo declaring templates]]
+[[Category:Cargo storing templates]]
+[[Category:Templates using NoCargo]]
+[[Category:Templates using NoAutoCategories]]
+
+[[de:Vorlage:Infobox creature]]
+[[es:Plantilla:Infobox creature]]
+[[fr:Modèle:Infobox creature]]
+[[it:Template:Infobox creature]]
+[[ja:テンプレート:Infobox creature]]
+[[pl:Szablon:Infobox creature]]
+[[pt-br:Predefinição:Infobox creature]]
+[[ru:Шаблон:Infobox creature]]
+[[th:Template:Infobox creature]]
+</noinclude>
