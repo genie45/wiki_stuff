@@ -1,0 +1,135 @@
+{
+    "§mixin": true,
+    "markers": {
+        "cave-entrance": [
+            {
+                "lat": 58.1, "lon": 12.8,
+                "name": "Cliffside Cavern",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
+                "image": ""
+            },
+            {
+                "lat": 21.0, "lon": 13.5,
+                "name": "Cliffside Cavern",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
+                "image": ""
+            },
+            {
+                "lat": 36.0, "lon": 2.0,
+                "name": "Cliffside Cavern",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
+                "image": ""
+            },
+            {
+                "lat": 54.2, "lon": 62.7,
+                "name": "Jungle Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
+                "image": ""
+            },
+            {
+                "lat": 52.5, "lon": 67.7,
+                "name": "Jungle Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
+                "image": ""
+            },
+            {
+                "lat": 45.0, "lon": 64.0,
+                "name": "Jungle Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
+                "image": ""
+            },
+            {
+                "lat": 50.8, "lon": 71.3,
+                "name": "Jungle Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
+                "image": ""
+            },
+            {
+                "lat": 46.3, "lon": 63.1,
+                "name": "Jungle Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
+                "image": ""
+            },
+            {
+                "lat": 15.8, "lon": 50.5,
+                "name": "Lava Oasis Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Hunter}}",
+                "image": ""
+            },
+            {
+                "lat": 11.2, "lon": 67.4,
+                "name": "LavaCave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Massive}}\n*{{ItemLink|Artifact of the Strong}}",
+                "image": ""
+            },
+            {
+                "lat": 18.7, "lon": 29.7,
+                "name": "North Ice Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Clever}}\n*{{ItemLink|Artifact of the Devourer}}",
+                "image": ""
+            },
+            {
+                "lat": 60.0, "lon": 22.5,
+                "name": "South Ice Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Skylord}}",
+                "image": ""
+            },
+            {
+                "lat": 35.9, "lon": 34.4,
+                "name": "The Center Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
+                "image": ""
+            },
+            {
+                "lat": 36.4, "lon": 35.0,
+                "name": "The Center Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
+                "image": ""
+            },
+            {
+                "lat": 40.3, "lon": 31.1,
+                "name": "The Center Cave",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
+                "image": ""
+            },
+            {
+                "lat": 34.9, "lon": 65.8,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            },
+            {
+                "lat": 34.3, "lon": 53.3,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            },
+            {
+                "lat": 53.5, "lon": 53.8,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            },
+            {
+                "lat": 32.7, "lon": 64.1,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            },
+            {
+                "lat": 44.2, "lon": 58.0,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            },
+            {
+                "lat": 66.1, "lon": 51.7,
+                "name": "Underground World",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
+                "image": ""
+            }
+        ]
+    }
+}
+
+

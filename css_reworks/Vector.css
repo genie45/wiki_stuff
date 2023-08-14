@@ -1925,33 +1925,25 @@ img.fpWideImage {
 
 /* #region [[Template:Ambox]] */
 .ambox {
-    max-width: 80%;
-    margin: 1em auto;
+    max-width: 97%;
+    width: 80%;
     border: 1px solid var(--ark-ambox-border-color);
-    border-collapse: collapse;
     border-left-style: solid;
     border-left-width: 10px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    margin: 1em auto;
+    padding: 2px 0.6em;
     background-color: var(--ark-ambox-background-color);
+    box-shadow: 2px 2px 5px 0px rgba(var(--content-border-color--rgb), 0.2);
 }
 /* Remove top margin above first ambox in the article */
 .mw-parser-output > .ambox:first-child {
     margin-top: 0;
 }
-.ambox-icon {
-    width: 60px;
-    padding: 2px 0 2px 0.5em;
-    text-align: center;
-}
-.ambox-DLC-icon {
-    width: 115px;
-    padding: 2px 0 2px 0.5em;
-    text-align: center;
-}
-.ambox-type {
-    padding: 0.25em 0.5em;
-}
 .ambox-info {
-    margin-top: 0.5em;
     font-size: smaller;
 }
 .ambox-blue {
