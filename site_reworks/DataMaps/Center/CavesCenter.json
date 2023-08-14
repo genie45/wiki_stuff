@@ -1,135 +1,134 @@
 {
-    "§mixin": true,
+    "$schema": "https://ark.wiki.gg/extensions/DataMaps/schemas/v0.16.json",
+    "$mixin": true,
     "markers": {
         "cave-entrance": [
             {
                 "lat": 58.1, "lon": 12.8,
                 "name": "Cliffside Cavern",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
-                "image": ""
+                "image": "TC_CliffSide_Cavern_1.jpg"
             },
             {
                 "lat": 21.0, "lon": 13.5,
                 "name": "Cliffside Cavern",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
-                "image": ""
+                "image": "TC_CliffSide_Cavern_2.jpg"
             },
             {
                 "lat": 36.0, "lon": 2.0,
                 "name": "Cliffside Cavern",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Cunning}}",
-                "image": ""
+                "image": "TC_CliffSide_Cavern_3.jpg"
             },
             {
                 "lat": 54.2, "lon": 62.7,
                 "name": "Jungle Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
-                "image": ""
+                "image": "TC_Jungle_Cave_1.jpg"
             },
             {
                 "lat": 52.5, "lon": 67.7,
                 "name": "Jungle Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
-                "image": ""
+                "image": "TC_Jungle_Cave_2.jpg"
             },
             {
                 "lat": 45.0, "lon": 64.0,
                 "name": "Jungle Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
-                "image": ""
+                "image": "TC_Jungle_Cave_3.jpg"
             },
             {
                 "lat": 50.8, "lon": 71.3,
                 "name": "Jungle Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
-                "image": ""
+                "image": "TC_Jungle_Cave_4.jpg"
             },
             {
                 "lat": 46.3, "lon": 63.1,
                 "name": "Jungle Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the  Immune}}",
-                "image": ""
+                "image": "TC_Jungle_Cave_5.jpg"
             },
             {
                 "lat": 15.8, "lon": 50.5,
                 "name": "Lava Oasis Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Hunter}}",
-                "image": ""
+                "image": "TC_Lava_Oasis_Cave.jpg"
             },
             {
                 "lat": 11.2, "lon": 67.4,
                 "name": "LavaCave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Massive}}\n*{{ItemLink|Artifact of the Strong}}",
-                "image": ""
+                "image": "TC_Lava_Cave.jpg"
             },
             {
                 "lat": 18.7, "lon": 29.7,
                 "name": "North Ice Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Clever}}\n*{{ItemLink|Artifact of the Devourer}}",
-                "image": ""
+                "image": "TC_North_Ice_Cave.jpg"
             },
             {
                 "lat": 60.0, "lon": 22.5,
                 "name": "South Ice Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Skylord}}",
-                "image": ""
+                "image": "TC_South_Ice_Cave.jpg"
             },
             {
                 "lat": 35.9, "lon": 34.4,
                 "name": "The Center Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
-                "image": ""
+                "image": "TC_The_Center_Cave_1.jpg"
             },
             {
                 "lat": 36.4, "lon": 35.0,
                 "name": "The Center Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
-                "image": ""
+                "image": "TC_The_Center_Cave_2.jpg"
             },
             {
                 "lat": 40.3, "lon": 31.1,
                 "name": "The Center Cave",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Devious}}",
-                "image": ""
+                "image": "TC_The_Center_Cave_3.jpg"
             },
             {
                 "lat": 34.9, "lon": 65.8,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_1.jpg"
             },
             {
                 "lat": 34.3, "lon": 53.3,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_2.jpg"
             },
             {
                 "lat": 53.5, "lon": 53.8,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_3.jpg"
             },
             {
                 "lat": 32.7, "lon": 64.1,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_4.jpg"
             },
             {
                 "lat": 44.2, "lon": 58.0,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_5.jpg"
             },
             {
                 "lat": 66.1, "lon": 51.7,
                 "name": "Underground World",
                 "description": "Holds: \n* {{ItemLink|Artifact of the Pack}}",
-                "image": ""
+                "image": "TC_Underground_World_6.jpg"
             }
         ]
     }
 }
-
-
