@@ -54,10 +54,20 @@ end
 
 -- #region HTML/wikitext building
 
+local FILE_EXISTS_TITLE_PREFIX = string.upper( mw.language.getContentLanguage():getCode() ) == 'en' and 'File:'
+    or 'Media:'
+
 -- @param table spec Consists of:
 --     - name: string
+--     - fallback: string, optional
 --     - width: number
 local function File( spec )
+    if spec.fallback then
+        if not mw.title.new( FILE_EXISTS_TITLE_PREFIX .. spec.name ).exists then
+            spec.name = spec.fallback
+        end
+    end
+
     return string.format( '[[File:%s|%spx]]', spec.name, spec.width )
 end
 
@@ -229,6 +239,8 @@ end
 
 return {
     Class = Class,
+
+    File = File,
     HtmlElement = HtmlElement,
 
     ParameterTypes = ParameterTypes,
