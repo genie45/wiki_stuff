@@ -72,6 +72,11 @@ local function File( spec )
 end
 
 
+local function Link( spec )
+    return string.format( '[[%s|%s]]', spec.target, spec.label )
+end
+
+
 local LOCAL_TRANSLATABLE_KEY = string.upper( mw.language.getContentLanguage():getCode() )
 local function Translatable( variants )
     return variants[LOCAL_TRANSLATABLE_KEY] or variants[0]
@@ -241,6 +246,7 @@ return {
     Class = Class,
 
     File = File,
+    Link = Link,
     HtmlElement = HtmlElement,
 
     ParameterTypes = ParameterTypes,
