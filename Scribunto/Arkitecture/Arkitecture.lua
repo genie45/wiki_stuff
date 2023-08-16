@@ -232,7 +232,7 @@ end )
             html[#html + 1] = '<div class="arkitect-unit">'
             if unit.Caption then
                 html[#html + 1] = HtmlElement{
-                    tag = 'h3',
+                    tag = 'div',
                     classes = 'arkitect-unit-caption',
                     text = unit.Caption
                 }
@@ -242,7 +242,7 @@ end )
         end
 
         return HtmlElement{
-            tag = 'aside',
+            tag = 'div',
             classes = 'arkitect noexcerpt',
             attributes = {
                 role = 'region',
