@@ -206,11 +206,12 @@ local ParameterConstraints = {
 
 
 
-local Renderer = Class( function ( self, template )
+local Renderer = Class( function ( self )
     self.frame = mw.getCurrentFrame()
     self.parentFrame = self.frame:getParent()
     self.componentRegistry = {}
     self.parameters = {}
+    self.template = self.mt.class.template or nil
 end )
     function Renderer.methods.loadParameters( self )
     end
@@ -282,9 +283,8 @@ end )
 
 
 local function makeRenderer( template )
-    local __templateBoundRendererImpl = Class( function ( self )
-        Renderer.constructor( self, template )
-    end, Renderer )
+    local __templateBoundRendererImpl = Class( nil, Renderer )
+        __templateBoundRendererImpl.template = template
         function __templateBoundRendererImpl.render()
             return __templateBoundRendererImpl():render()
         end
