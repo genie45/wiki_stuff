@@ -165,20 +165,20 @@ end
 local RendererContext = Class( function ( self, renderer )
     self.renderer = renderer
 end )
-    function RendererContext.methods.getString( self, string )
-        return renderer.parameters[ name ]
-    end
     function RendererContext.methods.getParameter( self, name )
-        return renderer.parameters[ name ]
+        return self.renderer:getParameter( name )
+    end
+    function RendererContext.methods.expandComponent( self, instance )
+        return self.renderer:expandComponent( instance )
     end
 
 
-local ComponentContext = Class( function ( self, renderer, properties )
+local ComponentContext = Class( function ( self, renderer, instance )
     self._renderer = renderer
-    self.properties = properties
+    self.instance = instance
 end )
-    function RendererContext.methods.getParameter( self, name )
-        return renderer.parameters[ name ]
+    function ComponentContext.methods.expandComponent( self, instance )
+        return self._renderer:expandComponent( instance )
     end
 -- #endregion
 
@@ -217,13 +217,13 @@ end )
     function Renderer.methods.getParameter( self, name )
         return self.frame.args[ name ] or self.parentFrame:getParent()
     end
-    function Renderer.methods.registerComponent( self, name, implementation )
-        self.componentRegistry[name] = implementation
+    function Renderer.methods.registerComponent( self, name, interfaceImplementation )
+        self.componentRegistry[name] = interfaceImplementation
     end
     function Renderer.methods.render( self )
         local html = {}
 
-        local units = self.template:getUnits()
+        local units = self.template:getUnits( RendererContext( self ) )
         for index = 1, #units do
             local unit = units[index]
 
@@ -234,7 +234,7 @@ end )
                 html[#html + 1] = HtmlElement{
                     tag = 'div',
                     classes = 'arkitect-unit-caption',
-                    text = unit.Caption
+                    unit.Caption
                 }
             end
             self:_processNodeSet( html, unit )
@@ -247,27 +247,37 @@ end )
             attributes = {
                 role = 'region',
             },
-            child = table.concat( html, '' ),
+
+            table.concat( html, '' ),
         }
     end
     function Renderer.methods._processNodeSet( self, html, unit )
-        if type( unit ) == 'string' then
+        if not unit then
+            return
+        elseif type( unit ) == 'string' then
             html[#html + 1] = unit
             return
+        elseif unit.__VIRTUAL then
+            return
         elseif unit.Component then
-            self:_processComponent( html, unit )
+            html[#html + 1] = self:expandComponent( unit )
             return
         end
         for index = 1, #unit do
-            html[#html + 1] = self:_processNodeSet( html, unit[index] )
+            self:_processNodeSet( html, unit[index] )
         end
     end
-    function Renderer.methods._processComponent( self, html, instance )
-        local componentSingleton = self.componentRegistry[unit.Component]
+    function Renderer.methods.expandComponent( self, instance, customRegistry )
+        local componentSingleton = ( customRegistry and customRegistry.componentRegistry[instance.Component])
+            or self.componentRegistry[instance.Component]
         if componentSingleton == nil then
-            error( 'Infobox requires component but component not registered: ' .. unit.Component )
+            error( 'Infobox requires component but component not registered: ' .. instance.Component )
         end
-        html[#html + 1] = componentSingleton:render( nil, instance )
+        local rendered = componentSingleton:render( ComponentContext( self, instance ), instance )
+        if type( rendered ) == 'table' then
+            rendered = table.concat( rendered, '' )
+        end
+        return rendered
     end
 
 
