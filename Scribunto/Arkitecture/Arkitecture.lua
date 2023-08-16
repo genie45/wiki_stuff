@@ -83,28 +83,71 @@ local function Translatable( variants )
 end
 
 
+local Html = {
+    ---
+    --- @class HtmlElementOptions: string[]
+    --- HTML element options.
+    --- @see Html.Element
+    --- @field tag string Tag name.
+    --- @field classes? string|string[] CSS classes.
+    --- @field attributes? { [string]: string|number } Element attributes.
+    ---
+
+
+    ---
+    --- Constructs an HTML element string.
+    ---
+    --- @param spec HtmlElementOptions
+    Element = function ( spec )
+        if not spec.tag then
+            error( 'HtmlElement must have a tag specified' )
+        end
+
+        -- Combine all classes into a single string if table
+        if type( spec.classes ) == 'table' then
+            spec.classes = table.concat( spec.classes, ' ' )
+        end
+
+        -- Combine all children into a single string
+        local inner = table.concat( spec, '' )
+
+        -- Build an attributes string
+        local attrs
+        if spec.attributes then
+            attrs = {}
+            for name, value in pairs( spec.attributes ) do
+                attrs[#attrs + 1] = string.format( '%s="%s"', name, value )
+            end
+            attrs = table.concat( attrs, ' ' )
+        end
+
+        -- Choose a specialised format template and build the final element
+        if spec.attributes and spec.classes then
+            return string.format( '<%s class="%s" %s>%s</%s>', spec.tag, spec.classes, attrs, inner, spec.tag )
+        elseif spec.attributes then
+            return string.format( '<%s %s>%s</%s>', spec.tag, attrs, inner, spec.tag )
+        elseif spec.classes then
+            return string.format( '<%s class="%s">%s</%s>', spec.tag, spec.classes, inner, spec.tag )
+        end
+        return string.format( '<%s>%s</%s>', spec.tag, inner, spec.tag )
+    end,
+
+    --- HTML new line (br element) as a string.
+    NewLine = '<br/>',
+
+    --- Faster, but not extensible <small> tag generator.
+    ---
+    --- @see Html.Element
+    --- @param inner string
+    Small = function ( inner )
+        return string.format( '<small>%s</small>', inner )
+    end,
+}
+
+
+--- @deprecated
 local function HtmlElement( spec )
-    -- TODO: attributes
-
-    -- Combine all classes into a single string if table
-    if type( spec.classes ) == 'table' then
-        spec.classes = table.concat( spec.classes, ' ' )
-    end
-
-    -- Move child/text into a local. They're currently functionally identical.
-    local inner
-    if type( spec.text ) == 'table' then
-        inner = Translatable( spec.text )
-    else
-        inner = spec.text or spec.child or ''
-    end
-
-
-    -- Choose a possibly quicker specialised template
-    if spec.tag and spec.classes then
-        return string.format( '<%s class="%s">%s</%s>', spec.tag, spec.classes, inner, spec.tag )
-    end
-    return string.format( '<%s>%s</%s>', spec.tag, inner, spec.tag )
+    return Html.Element( spec )
 end
 -- #endregion
 
@@ -249,6 +292,8 @@ return {
     Link = Link,
     HtmlElement = HtmlElement,
     Translatable = Translatable,
+
+    Html = Html,
 
     ParameterTypes = ParameterTypes,
     ParameterConstraints = ParameterConstraints,
