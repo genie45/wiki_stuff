@@ -79,7 +79,7 @@ end
 
 local LOCAL_TRANSLATABLE_KEY = string.upper( mw.language.getContentLanguage():getCode() )
 local function Translatable( variants )
-    return variants[LOCAL_TRANSLATABLE_KEY] or variants[0]
+    return variants[LOCAL_TRANSLATABLE_KEY] or variants[1]
 end
 
 
@@ -248,6 +248,7 @@ return {
     File = File,
     Link = Link,
     HtmlElement = HtmlElement,
+    Translatable = Translatable,
 
     ParameterTypes = ParameterTypes,
     ParameterConstraints = ParameterConstraints,
