@@ -212,6 +212,22 @@ local Renderer = Class( function ( self )
     self.componentRegistry = {}
     self.parameters = {}
     self.template = self.mt.class.template or nil
+
+    if self.template.RequiredLibraries then
+        for foreignName in pairs( self.template.RequiredLibraries ) do
+            for name, interfaceImplementation in pairs( require( foreignName ) ) do
+                self:registerComponent( name, interfaceImplementation )
+            end
+        end
+        self.template.RequiredLibraries = nil
+    end
+
+    if self.template.BundledComponents then
+        for name, interfaceImplementation in pairs( self.template.BundledComponents ) do
+            self:registerComponent( name, interfaceImplementation )
+        end
+        self.template.BundledComponents = nil
+    end
 end )
     function Renderer.methods.loadParameters( self )
     end
