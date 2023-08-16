@@ -215,7 +215,7 @@ end )
     function Renderer.methods.loadParameters( self )
     end
     function Renderer.methods.getParameter( self, name )
-        return self.frame.args[ name ] or self.parentFrame:getParent()
+        return self.frame.args[ name ] or self.parentFrame.args[ name ]
     end
     function Renderer.methods.registerComponent( self, name, interfaceImplementation )
         self.componentRegistry[name] = interfaceImplementation
