@@ -220,7 +220,6 @@ local Renderer = Class( function ( self )
     self.componentRegistry = {}
     self._parameterCache = {}
     self._parameterCacheKeySet = {}
-    self._parameterSet = nil
     self.template = self.mt.class.template or nil
 
     if self.template.RequiredLibraries then
@@ -237,6 +236,15 @@ local Renderer = Class( function ( self )
             self:registerComponent( name, interfaceImplementation )
         end
         self.template.BundledComponents = nil
+    end
+
+    if self.template.injectParameters then
+        local injected = self.template.injectParameters()
+        if injected ~= nil then
+            for name, value in pairs( injected ) do
+                self._parameterCache[name] = value
+            end
+        end
     end
 end )
     function Renderer.methods.loadParameters( self )
@@ -269,13 +277,11 @@ end )
     end
     function Renderer.methods.getParameter( self, name )
         if not self._parameterCacheKeySet[name] then
-            local value = self.frame.args[ name ] or self.parentFrame.args[ name ]
+            -- Retrieve the parameter value from our parameter cache (this will only succeed on injected parameters),
+            -- module call frame, or template frame (in that order).
+            local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
 
-            if not self._parameterSet then
-                self._parameterSet = self.template.Parameters
-            end
-
-            local config = self._parameterSet[name]
+            local config = self.template.Parameters[name]
             if config == nil then
                 error( 'Attempted to access an undefined parameter: ' .. name )
             end
