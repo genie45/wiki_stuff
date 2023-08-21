@@ -195,7 +195,9 @@ local ParameterTypes = {
     CLASS_PATH = '_M_PT_CLASS_PATH',
     BOOL = '_M_PT_BOOL',
     NUMBER = '_M_PT_NUMBER',
+    INTEGER = '_M_PT_NUMBER_INT',
     GAME_VERSION = '_M_PT_GVER',
+    DATE = '_M_PT_DATE',
 }
 local ParameterConstraints = {
     ONLY_ONE = ( function ( params )
@@ -216,7 +218,9 @@ local Renderer = Class( function ( self )
     self.frame = mw.getCurrentFrame()
     self.parentFrame = self.frame:getParent()
     self.componentRegistry = {}
-    self.parameters = {}
+    self._parameterCache = {}
+    self._parameterCacheKeySet = {}
+    self._parameterSet = nil
     self.template = self.mt.class.template or nil
 
     if self.template.RequiredLibraries then
@@ -237,8 +241,49 @@ local Renderer = Class( function ( self )
 end )
     function Renderer.methods.loadParameters( self )
     end
+    function Renderer.methods._normaliseParameter( self, paramSpec, value )
+        if value == nil then
+            return paramSpec.Default
+        end
+
+        if type( paramSpec ) == 'string' then
+            paramSpec = { paramSpec }
+        end
+
+        value = mw.text.trim( value )
+
+        if paramSpec[1] == ParameterTypes.BOOL then
+            value = mw.ustring.lower( value )
+            -- TODO: move the LUT to avoid making a new one each time we reach this condition
+            return ( {
+                yes = true,
+                [1] = true,
+                no = false,
+                [0] = false,
+            } )[value]
+        elseif paramSpec[1] == ParameterTypes.NUMBER or paramSpec[1] == ParameterTypes.INTEGER then
+            value = tonumber( value )
+        end
+
+        return value
+    end
     function Renderer.methods.getParameter( self, name )
-        return self.frame.args[ name ] or self.parentFrame.args[ name ]
+        if not self._parameterCacheKeySet[name] then
+            local value = self.frame.args[ name ] or self.parentFrame.args[ name ]
+
+            if not self._parameterSet then
+                self._parameterSet = self.template.Parameters
+            end
+
+            local config = self._parameterSet[name]
+            if config == nil then
+                error( 'Attempted to access an undefined parameter: ' .. name )
+            end
+
+            self._parameterCache[name] = self:_normaliseParameter( config, value )
+            self._parameterCacheKeySet[name] = true
+        end
+        return self._parameterCache[name]
     end
     function Renderer.methods.registerComponent( self, name, interfaceImplementation )
         self.componentRegistry[name] = interfaceImplementation
