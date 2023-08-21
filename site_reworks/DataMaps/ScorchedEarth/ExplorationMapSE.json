@@ -1,0 +1,1599 @@
+{
+	"$schema": "https://ark.wiki.gg/extensions/DataMaps/schemas/v0.16.json",
+	"mixins": [
+		"Maps/Standard group definitions",
+		"Maps/Loot crate icons"
+	],
+	"backgrounds": [
+		{ "name": "Drawn", "image": "Scorched Earth Map.jpg" },
+		{ "name": "Topographic", "image": "Scorched Earth Topographic Map.jpg" }
+	],
+    "groups": {
+        "playerSpawns-Midlands4": {
+            "name": "Spawn: Midlands 4", 
+			"fillColor": "#de00bd", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-Midlands3": {
+            "name": "Spawn: Midlands 3",
+            "fillColor": "#ae00de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-South3": {
+            "name": "Spawn: South 3",
+            "fillColor": "#5900de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-South1": {
+            "name": "Spawn: South 1",
+            "fillColor": "#0073de", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-South4": {
+            "name": "Spawn: South 4",
+            "fillColor": "#00dbd4", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-Midlands2": {
+            "name": "Spawn: Midlands 2",
+            "fillColor": "#00d994", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-South2": {
+            "name": "Spawn: South 2",
+            "fillColor": "#00de4a", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-Midlands1": {
+            "name": "Spawn: Midlands 1",
+            "fillColor": "#99ff33", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-North4": {
+            "name": "Spawn: North 4",
+            "fillColor": "#db8f00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+        "playerSpawns-North3": {
+            "name": "Spawn: North 3",
+            "fillColor": "#d90b00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+        },
+		"playerSpawns-North2": {
+			"name": "Spawn: North 2",
+			"fillColor": "#d90b00", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		},
+		"playerSpawns-North1": {
+			"name": "Spawn: North 3",
+			"fillColor": "#ffd700", "borderColor": "#fff", "size": 5.5, "icon": "Simple Bed.png"
+		}
+    },
+	"markers": {
+		"cave-entrance": [
+            {
+                "lat": 28.5, "lon": 29.4,
+                "name": "Grave of the Tyrants",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Crag}}",
+                "image": ""
+            },
+			{
+                "lat": 58.8, "lon": 47.9,
+                "name": "Old Tunnels",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Gatekeeper}}",
+                "image": ""
+            },
+			{
+                "lat": 77.9, "lon": 75.7,
+                "name": "Ruins Of Nosti",
+                "description": "Holds: \n* {{ItemLink|Artifact of the Destroyer}}",
+                "image": ""
+            }
+		],	
+		"surface-crate cg:0 cc:bgw": [
+			{
+				"lat": 24.881, "lon": 16.576,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 12.803, "lon": 24.439,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 22.739, "lon": 20.925,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 23.799, "lon": 22.758,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 25.549, "lon": 25.05,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 24.176, "lon": 24.381,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 18.919, "lon": 18.011,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 21.731, "lon": 18.726,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:1 cc:bgpw": [
+			{
+				"lat": 20.934, "lon": 26.126,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 18.895, "lon": 27.118,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 16.993, "lon": 26.879,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 13.44, "lon": 30.269,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 20.83, "lon": 31.095,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 24.629, "lon": 34.293,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 22.911, "lon": 38.112,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 15.937, "lon": 41.352,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 19.372, "lon": 34.53,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 19.264, "lon": 38.322,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 21.346, "lon": 40.752,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 15.072, "lon": 36.483,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:2 cc:bgpw": [
+			{
+				"lat": 24.445, "lon": 51.16,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 23.224, "lon": 50.386,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 23.191, "lon": 51.469,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 22.825, "lon": 52.111,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 22.976, "lon": 53.162,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 21.324, "lon": 54.993,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 18.151, "lon": 54.381,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 15.62, "lon": 52.474,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 17.361, "lon": 47.327,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 14.848, "lon": 43.703,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 17.221, "lon": 44.744,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 20.565, "lon": 44.163,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 23.052, "lon": 45.993,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			},
+			{
+				"lat": 23.244, "lon": 47.347,
+				"isWikitext": true,
+				"description": "Respawns 7.14% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:3 cc:bgw": [
+			{
+				"lat": 21.374, "lon": 60.427,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 24.617, "lon": 61.805,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 22.198, "lon": 64.197,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 24.215, "lon": 58.434,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:4 cc:bpy": [
+			{
+				"lat": 31.197, "lon": 22.748,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 32.869, "lon": 24.667,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 36.716, "lon": 21.464,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 36.287, "lon": 19.66,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 35.644, "lon": 15.573,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 29.841, "lon": 15.963,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 36.445, "lon": 25.047,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 37.485, "lon": 23.688,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 38.156, "lon": 23.038,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 39.61, "lon": 21.909,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 40.696, "lon": 18.979,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 41.323, "lon": 23.144,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:5 cc:bpy": [
+			{
+				"lat": 30.576, "lon": 26.534,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 27.603, "lon": 26.741,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 27.291, "lon": 28.667,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 28.348, "lon": 31.402,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 28.295, "lon": 39.535,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 33.376, "lon": 39.793,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 37.344, "lon": 39.134,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 34.092, "lon": 33.637,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 37.384, "lon": 32.593,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 38.883, "lon": 28.358,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 36.653, "lon": 26.849,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 39.824, "lon": 38.806,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 38.236, "lon": 34.589,
+				"isWikitext": true,
+				"description": "Respawns 7.69% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:6 cc:bpry": [
+			{
+				"lat": 40.458, "lon": 52.803,
+				"isWikitext": true,
+				"description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 27.587, "lon": 50.455,
+				"isWikitext": true,
+				"description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 33.029, "lon": 53.281,
+				"isWikitext": true,
+				"description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 29.746, "lon": 51.584,
+				"isWikitext": true,
+				"description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 36.788, "lon": 52.318,
+				"isWikitext": true,
+				"description": "Respawns 20.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:7 cc:bgpwy": [
+			{
+				"lat": 28.703, "lon": 63.832,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 37.444, "lon": 64.852,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 34.863, "lon": 72.087,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 30.341, "lon": 70.218,
+				"isWikitext": true,
+				"description": "Respawns 25.0% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:8 cc:bgw": [
+			{
+				"lat": 36.036, "lon": 75.596,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 37.607, "lon": 76.5,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 38.691, "lon": 75.961,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 39.359, "lon": 77.257,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 40.964, "lon": 75.43,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 33.819, "lon": 75.87,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 35.837, "lon": 76.756,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:9 cc:bgpwy": [
+			{
+				"lat": 43.899, "lon": 15.417,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 46.718, "lon": 17.831,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 51.491, "lon": 17.507,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 54.37, "lon": 19.402,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 53.802, "lon": 21.324,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 51.15, "lon": 22.035,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 47.16, "lon": 21.672,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 47.434, "lon": 22.489,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 44.84, "lon": 22.973,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 50.093, "lon": 23.477,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 52.16, "lon": 24.88,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 46.087, "lon": 25.174,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:10 cc:bgpwy": [
+			{
+				"lat": 43.297, "lon": 38.335,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 43.092, "lon": 39.154,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 46.662, "lon": 37.254,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 46.282, "lon": 35.209,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 47.362, "lon": 34.459,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 50.584, "lon": 34.231,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 52.25, "lon": 35.802,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 51.556, "lon": 36.811,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 52.928, "lon": 39.668,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 57.007, "lon": 40.465,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 55.91, "lon": 37.533,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 55.993, "lon": 35.29,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 57.222, "lon": 33.165,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 53.701, "lon": 31.258,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 52.581, "lon": 27.908,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 49.551, "lon": 25.846,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 47.672, "lon": 27.922,
+				"isWikitext": true,
+				"description": "Respawns 5.88% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:11 cc:bpry": [
+			{
+				"lat": 43.713, "lon": 51.527,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 42.749, "lon": 52.759,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 42.749, "lon": 54.345,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 47.973, "lon": 56.906,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 47.806, "lon": 53.522,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 57.212, "lon": 50.837,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 50.002, "lon": 52.37,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 46.316, "lon": 46.925,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 57.788, "lon": 56.462,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 51.7, "lon": 57.261,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 50.535, "lon": 54.558,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 51.236, "lon": 48.839,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:12 cc:bgpwy": [
+			{
+				"lat": 52.849, "lon": 69.976,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 55.645, "lon": 69.572,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 54.39, "lon": 73.374,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 45.831, "lon": 63.221,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 48.392, "lon": 63.456,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 49.263, "lon": 60.794,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 44.877, "lon": 59.986,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 51.611, "lon": 64.376,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 57.361, "lon": 64.782,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 43.043, "lon": 70.285,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 44.296, "lon": 67.839,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 54.546, "lon": 59.014,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:13 cc:bgpwy": [
+			{
+				"lat": 50.544, "lon": 83.588,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 53.818, "lon": 81.168,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 56.171, "lon": 81.118,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 54.001, "lon": 78.275,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 51.882, "lon": 76.293,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 46.661, "lon": 79.278,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 42.563, "lon": 74.827,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 45.136, "lon": 83.9,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 57.357, "lon": 80.648,
+				"isWikitext": true,
+				"description": "Respawns 11.11% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"artifact cg:14 cc:destroyer": [
+			{
+				"lat": 79.753, "lon": 81.287,
+				"isWikitext": true,
+				"name": "Artifact of the Destroyer",
+				"description": "Respawns approx. every 10 min (30 min with single-player settings)."
+			}
+		],
+		"artifact cg:15 cc:gatekeeper": [
+			{
+				"lat": 58.237, "lon": 43.426,
+				"isWikitext": true,
+				"name": "Artifact of the Gatekeeper",
+				"description": "Respawns approx. every 10 min (30 min with single-player settings)."
+			}
+		],
+		"artifact cg:16 cc:crag": [
+			{
+				"lat": 35.153, "lon": 28.094,
+				"isWikitext": true,
+				"name": "Artifact of the Crag",
+				"description": "Respawns approx. every 10 min (30 min with single-player settings)."
+			}
+		],
+		"surface-crate cg:17 cc:bgw": [
+			{
+				"lat": 61.103, "lon": 16.684,
+				"isWikitext": true,
+				"description": "Respawns 33.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 66.925, "lon": 18.811,
+				"isWikitext": true,
+				"description": "Respawns 33.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 72.26, "lon": 19.231,
+				"isWikitext": true,
+				"description": "Respawns 33.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:18 cc:bgpwy": [
+			{
+				"lat": 60.555, "lon": 27.71,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 58.961, "lon": 27.032,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 60.271, "lon": 29.463,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 62.035, "lon": 31.276,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 65.085, "lon": 32.395,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 65.826, "lon": 32.594,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 62.475, "lon": 34.834,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 62.748, "lon": 35.368,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 62.601, "lon": 39.173,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 58.727, "lon": 39.608,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 67.374, "lon": 39.092,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 68.55, "lon": 35.445,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 74.021, "lon": 37.783,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 72.642, "lon": 40.736,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 69.589, "lon": 41.083,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 72.201, "lon": 35.776,
+				"isWikitext": true,
+				"description": "Respawns 6.25% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:19 cc:bgpwy": [
+			{
+				"lat": 60.715, "lon": 51.472,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 63.462, "lon": 52.438,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 73.687, "lon": 57.703,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 72.504, "lon": 53.421,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 73.376, "lon": 47.877,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 73.034, "lon": 44.889,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 71.041, "lon": 48.126,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 69.077, "lon": 48.113,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 63.146, "lon": 43.395,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 61.55, "lon": 45.421,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 60.886, "lon": 46.188,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 59.053, "lon": 42.111,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:20 cc:bpry": [
+			{
+				"lat": 60.904, "lon": 66.214,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 62.792, "lon": 64.056,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 64.73, "lon": 63.876,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 63.892, "lon": 73.056,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 67.262, "lon": 69.329,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 69.525, "lon": 71.999,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 71.473, "lon": 58.486,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 66.914, "lon": 58.714,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 67.993, "lon": 63.101,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			},
+			{
+				"lat": 68.026, "lon": 64.562,
+				"isWikitext": true,
+				"description": "Respawns 10.0% of time approx. every 30 min.\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, ringed, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (lvl 70, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:21 cc:bgpwy": [
+			{
+				"lat": 59.132, "lon": 76.299,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 59.06, "lon": 83.032,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 65.651, "lon": 78.406,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 65.007, "lon": 76.143,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 72.987, "lon": 76.143,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 69.628, "lon": 87.018,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 63.562, "lon": 83.3,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 67.587, "lon": 79.645,
+				"isWikitext": true,
+				"description": "Respawns 12.5% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:22 cc:bgw": [
+			{
+				"lat": 80.521, "lon": 39.66,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 82.046, "lon": 41.009,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 78.212, "lon": 38.234,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 79.076, "lon": 41.411,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 75.151, "lon": 33.028,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 76.464, "lon": 28.739,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 81.291, "lon": 37.075,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:23 cc:bgw": [
+			{
+				"lat": 76.787, "lon": 55.344,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 78.896, "lon": 54.347,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 80.836, "lon": 56.41,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 83.936, "lon": 46.782,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 78.067, "lon": 43.057,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 79.766, "lon": 44.386,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 76.685, "lon": 50.125,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 75.206, "lon": 50.373,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 74.931, "lon": 48.128,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 77.276, "lon": 52.554,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 77.403, "lon": 57.108,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			},
+			{
+				"lat": 83.493, "lon": 56.746,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)"
+			}
+		],
+		"surface-crate cg:24 cc:bgpwy": [
+			{
+				"lat": 74.979, "lon": 68.564,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 76.519, "lon": 71.918,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 77.924, "lon": 71.268,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 77.615, "lon": 66.41,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 76.831, "lon": 63.809,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 78.114, "lon": 62.697,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 79.259, "lon": 61.54,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 80.94, "lon": 63.67,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 85.572, "lon": 61.98,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 84.678, "lon": 59.323,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 83.509, "lon": 67.413,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			},
+			{
+				"lat": 75.618, "lon": 59.46,
+				"isWikitext": true,
+				"description": "Respawns 8.33% of time approx. every 30 min.\n* <span style=\"color:#aaa\">White</span> (lvl 3, ringed, Scorched Earth table)\n* <span style=\"color:#aaa\">White</span> (lvl 3, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, ringed, Scorched Earth table)\n* <span style=\"color:#42653a\">Green</span> (lvl 15, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, ringed, Scorched Earth table)\n* <span style=\"color:#5362a9\">Blue</span> (lvl 30, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, ringed, Scorched Earth table)\n* <span style=\"color:#52438d\">Purple</span> (lvl 45, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, ringed, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (lvl 55, Scorched Earth table)"
+			}
+		],
+		"cave-crate cave cg:25 Ccc:bry": [
+			{
+				"lat": 34.124, "lon": 28.705,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 33.921, "lon": 28.624,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 32.987, "lon": 29.427,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 33.019, "lon": 28.786,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 32.395, "lon": 28.503,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 31.88, "lon": 29.294,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 30.363, "lon": 29.925,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			}
+		],
+		"cave-crate cave cg:26 Ccc:bry": [
+			{
+				"lat": 77.626, "lon": 79.914,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 76.91, "lon": 82.333,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 76.586, "lon": 80.524,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 76.965, "lon": 79.025,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 78.153, "lon": 77.495,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 77.568, "lon": 77.066,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 77.153, "lon": 77.061,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			}
+		],
+		"sea-crate cg:27": [
+			{
+				"lat": 12.482, "lon": 13.039,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 22.133, "lon": 10.372,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 31.109, "lon": 9.935,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 55.917, "lon": 10.11,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 68.804, "lon": 10.339,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 73.45, "lon": 12.74,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 83.093, "lon": 10.286,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 80.463, "lon": 21.244,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 89.493, "lon": 13.53,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 87.829, "lon": 37.938,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 89.715, "lon": 70.113,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 76.845, "lon": 87.199,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 85.832, "lon": 78.546,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 29.54, "lon": 82.54,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 11.192, "lon": 62.445,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 21.926, "lon": 73.054,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 10.568, "lon": 81.542,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			},
+			{
+				"lat": 21.802, "lon": 87.783,
+				"isWikitext": true,
+				"description": "Respawns 5.56% of time approx. every 60 min.\n* <span style=\"color:#a24e5a\">Red</span> (desert or high tier deep sea, lvl 80)"
+			}
+		],
+		"cave-crate cave cg:28 Ccc:bry": [
+			{
+				"lat": 58.398, "lon": 43.394,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 58.233, "lon": 43.386,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 58.249, "lon": 44.656,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 57.398, "lon": 44.874,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 56.49, "lon": 44.203,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 57.693, "lon": 45.929,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			},
+			{
+				"lat": 56.914, "lon": 45.414,
+				"isWikitext": true,
+				"description": "Respawns 14.29% of time approx. every 60 min to 120 min.\n* <span style=\"color:#5362a9\">Blue</span> (Cave, Tier 1, lvl 25, Scorched Earth table)\n* <span style=\"color:#889159\">Yellow</span> (Cave, Tier 2, lvl 45, Scorched Earth table)\n* <span style=\"color:#a24e5a\">Red</span> (Cave, Tier 3, lvl 65, Scorched Earth table)"
+			}
+		],
+		"playerSpawns-Midlands4": [
+			{"lat": 53.86,"lon": 59.64},
+			{"lat": 55.26,"lon": 61.23},
+			{"lat": 55.57,"lon": 63.29},
+			{"lat": 54.84,"lon": 64.79},
+			{"lat": 54.07,"lon": 66.78},
+			{"lat": 52.63,"lon": 67.94},
+			{"lat": 51.33,"lon": 68.67},
+			{"lat": 49.49,"lon": 69.35},
+			{"lat": 52.15,"lon": 70.24},
+			{"lat": 54.28,"lon": 68.70},
+			{"lat": 55.98,"lon": 67.51},
+			{"lat": 56.92,"lon": 65.70},
+			{"lat": 54.33,"lon": 70.90},
+			{"lat": 55.77,"lon": 69.66},
+			{"lat": 57.00,"lon": 67.97},
+			{"lat": 57.48,"lon": 71.49},
+			{"lat": 58.17,"lon": 69.83},
+			{"lat": 58.38,"lon": 68.43},
+			{"lat": 55.91,"lon": 69.79}
+		],
+		"playerSpawns-Midlands3": [
+			{"lat": 55.41,"lon": 49.46},
+			{"lat": 54.24,"lon": 48.32},
+			{"lat": 53.69,"lon": 47.12},
+			{"lat": 53.20,"lon": 46.00},
+			{"lat": 52.75,"lon": 44.72},
+			{"lat": 52.84,"lon": 43.64},
+			{"lat": 53.64,"lon": 42.84},
+			{"lat": 54.56,"lon": 41.77},
+			{"lat": 56.10,"lon": 41.95},
+			{"lat": 56.17,"lon": 40.02},
+			{"lat": 57.40,"lon": 40.43},
+			{"lat": 57.39,"lon": 41.54},
+			{"lat": 57.97,"lon": 42.58},
+			{"lat": 59.27,"lon": 42.25},
+			{"lat": 60.06,"lon": 39.82},
+			{"lat": 60.50,"lon": 42.22},
+			{"lat": 60.53,"lon": 43.65},
+			{"lat": 61.70,"lon": 42.82},
+			{"lat": 60.56,"lon": 44.93},
+			{"lat": 59.84,"lon": 45.90},
+			{"lat": 59.42,"lon": 47.32},
+			{"lat": 58.07,"lon": 48.88},
+			{"lat": 56.33,"lon": 49.58}
+		],
+		"playerSpawns-South3": [
+			{"lat": 73.99,"lon": 59.39},
+			{"lat": 73.03,"lon": 60.69},
+			{"lat": 74.75,"lon": 58.25},
+			{"lat": 70.47,"lon": 61.91},
+			{"lat": 69.27,"lon": 61.83},
+			{"lat": 67.97,"lon": 60.93},
+			{"lat": 71.83,"lon": 61.54},
+			{"lat": 66.56,"lon": 59.43},
+			{"lat": 65.90,"lon": 57.85},
+			{"lat": 65.91,"lon": 56.66},
+			{"lat": 66.87,"lon": 56.04},
+			{"lat": 67.27,"lon": 60.27},
+			{"lat": 69.21,"lon": 55.60},
+			{"lat": 70.85,"lon": 55.27},
+			{"lat": 74.28,"lon": 55.70},
+			{"lat": 75.40,"lon": 57.18},
+			{"lat": 68.18,"lon": 55.52},
+			{"lat": 76.34,"lon": 55.26},
+			{"lat": 78.09,"lon": 56.68},
+			{"lat": 78.14,"lon": 54.60},
+			{"lat": 79.59,"lon": 55.54},
+			{"lat": 65.21,"lon": 56.54},
+			{"lat": 76.73,"lon": 56.82}
+		],
+		"playerSpawns-South1":[
+			{"lat": 65.43,"lon": 44.07},
+			{"lat": 64.49,"lon": 45.26},
+			{"lat": 65.61,"lon": 46.92},
+			{"lat": 64.21,"lon": 46.83},
+			{"lat": 63.29,"lon": 47.58},
+			{"lat": 65.00,"lon": 48.34},
+			{"lat": 62.46,"lon": 48.37},
+			{"lat": 64.31,"lon": 48.94},
+			{"lat": 62.79,"lon": 49.64},
+			{"lat": 65.02,"lon": 49.65},
+			{"lat": 63.01,"lon": 51.45},
+			{"lat": 61.46,"lon": 50.66},
+			{"lat": 60.71,"lon": 51.83},
+			{"lat": 62.84,"lon": 53.47},
+			{"lat": 62.28,"lon": 55.11},
+			{"lat": 63.80,"lon": 55.32},
+			{"lat": 63.15,"lon": 56.52},
+			{"lat": 64.57,"lon": 53.88},
+			{"lat": 65.95,"lon": 54.06},
+			{"lat": 65.90,"lon": 52.89},
+			{"lat": 66.09,"lon": 51.82},
+			{"lat": 66.79,"lon": 54.01},
+			{"lat": 64.30,"lon": 52.62},
+			{"lat": 63.36,"lon": 51.11}
+		],
+		"playerSpawns-South4":[
+			{"lat": 72.66,"lon": 63.29},
+			{"lat": 74.33,"lon": 65.17},
+			{"lat": 75.70,"lon": 65.20},
+			{"lat": 76.70,"lon": 65.96},
+			{"lat": 77.16,"lon": 66.89},
+			{"lat": 77.60,"lon": 68.03},
+			{"lat": 77.36,"lon": 69.33},
+			{"lat": 73.40,"lon": 64.49},
+			{"lat": 75.04,"lon": 72.16},
+			{"lat": 73.27,"lon": 72.12},
+			{"lat": 71.65,"lon": 71.54},
+			{"lat": 70.41,"lon": 72.22},
+			{"lat": 69.11,"lon": 72.92},
+			{"lat": 67.93,"lon": 73.00},
+			{"lat": 76.47,"lon": 72.01}
+		],
+		"playerSpawns-Midlands2":[
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+			{"lat": ,"lon": },
+		]
+	}
+}
