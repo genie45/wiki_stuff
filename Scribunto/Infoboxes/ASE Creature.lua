@@ -5,24 +5,83 @@ local ParameterConstraint = Arkitecture.ParameterConstraints
 
 
 return Arkitecture.makeRenderer{
+    RequiredLibraries = {
+        'Module:Arkitecture/Common library',
+    },
+
     BundledComponents = {
-        SplitCreatureHeader = Arkitecture.Component{
-            render = function ( self, ctx, instance )
-                return {
-                    Arkitecture.HtmlElement {
-                        tag = 'div',
-                        classes = 'arkitect-left arkitect-X2-25',
-                        child = Arkitecture.File {
-                            name = instance.Icon .. '.png',
-                            width = 43
-                        },
-                    },
-                    Arkitecture.HtmlElement {
-                        tag = 'div',
-                        classes = 'arkitect-left arkitect-X2-75',
-                        text = instance.Name
-                    }
+        ReleaseVersionGrid = Arkitecture.Component{
+            Platforms = {
+                {
+                    Name = 'Steam',
+                    Icon = 'Steam.svg',
+                    Property = 'PC'
+                },
+                {
+                    Name = 'Epic Store',
+                    Icon = 'Epic Games.svg',
+                    Property = 'PC',
+                    MinVersion = '300.0' -- TODO:
+                },
+                {
+                    Name = 'Xbox',
+                    Icon = 'Xbox One.svg',
+                    Property = 'Xbox'
+                },
+                {
+                    Name = 'PlayStation',
+                    Icon = 'PS.svg',
+                    Property = 'PS'
+                },
+                {
+                    Name = 'Nintendo Switch',
+                    Icon = 'Nintendo Switch.svg',
+                    Property = 'Switch'
+                },
+            },
+
+            _renderVersion = function ( self, ctx, platform )
+                local version = ctx.instance[platform.Property]
+                local iconInstance = Arkitecture.File {
+                    name = platform.Icon,
+                    alt = platform.Name,
+                    width = 20,
                 }
+
+                if not version then
+                    return Arkitecture.HtmlElement{
+                        tag = 'div',
+                        classes = 'arkitect-cell',
+    
+                        iconInstance,
+                        Arkitecture.Html.NewLine,
+                        Arkitecture.Html.Small( Arkitecture.Translatable{ 'Not available' } ),
+                    }
+                end
+
+                return Arkitecture.HtmlElement {
+                    tag = 'div',
+                    classes = 'arkitect-cell',
+
+                    iconInstance,
+                    Arkitecture.Link {
+                        target = version,
+                        label = version,
+                    },
+                    Arkitecture.Html.NewLine,
+                    Arkitecture.Html.Small( '[PH]RELDATE' ),
+                }
+            end,
+
+            render = function ( self, ctx )
+                local el = {
+                    tag = 'div',
+                    classes = 'arkitect-columnlayout arkitect-column-layout-3 arkitect-columnlayout-33x33x33 arkitect-aligned-center arkitect-component-version-box',
+                }
+                for index = 1, #self.Platforms do
+                    el[#el + 1] = self:_renderVersion( ctx, self.Platforms[index] )
+                end
+                return Arkitecture.HtmlElement( el )
             end
         },
         KillXP = Arkitecture.Component{
@@ -96,13 +155,19 @@ return Arkitecture.makeRenderer{
             { ParameterTypes.GAME_VERSION, 'versionAdded/Switch', Nullable = true },
             { ParameterTypes.GAME_VERSION, 'versionAdded/Mobile', Nullable = true },
 
-        },
-    end
+        }
+    end,
 
     getUnits = function ( self, ctx )
         return {
             {
-                Component = 'SplitCreatureHeader',
+                Component = 'SegmentedHeader',
+                LeftValue = Arkitecture.File {
+                    name = ctx:getParameter( 'name' ) .. '.png',
+                    alt = '',
+                    fallback = 'Missing.png',
+                    width = 43
+                },
                 Name = ctx:getParameter( 'name' ),
             },
             {
@@ -118,17 +183,72 @@ return Arkitecture.makeRenderer{
                     Mobile = ctx:getParameter( 'versionAdded/Mobile' ),
                 },
             },
+            {
+                Caption = Arkitecture.Translatable{ 'Creature' },
+                {
+                    Component = 'NamedDataRow',
+                    Name = Arkitecture.Translatable{ 'Group' },
+                    Value = ctx:getParameter( 'group' ),
+                },
+                {
+                    Component = 'NamedDataRow',
+                    Name = Arkitecture.Translatable{ 'Diet' },
+                    Value = ctx:getParameter( 'diet' ),
+                },
+                {
+                    Component = 'NamedDataRow',
+                    Name = Arkitecture.Translatable{ 'Temperament' },
+                    Value = ctx:getParameter( 'temperament' ),
+                },
+            },
+            {
+                Caption = Arkitecture.Translatable{ 'Domestication' },
+                {
+                    Component = 'NamedDataTable',
+                    {
+                        Name = Arkitecture.Translatable{ 'Tameable?' },
+                        Value = ctx:expandComponent{
+                            Component = "Checkmark",
+                            Value = ctx:getParameter( 'canBeTamed' )
+                        },
+                    },
+                    {
+                        Name = Arkitecture.Translatable{ 'Rideable?' },
+                        Value = ctx:expandComponent{
+                            Component = "Checkmark",
+                            Value = ctx:getParameter( 'canBeRidden' )
+                        },
+                    },
+                    {
+                        Name = Arkitecture.Translatable{ 'Breedable?' },
+                        Value = ctx:expandComponent{
+                            Component = "Checkmark",
+                            Value = ctx:getParameter( 'canBeBred' )
+                        },
+                    },
+                },
+                {
+                    Component = 'NamedDataRow',
+                    Name = Arkitecture.Translatable{ 'Diet' },
+                    Value = ctx:getParameter( 'diet' ),
+                },
+                {
+                    Component = 'NamedDataRow',
+                    Name = Arkitecture.Translatable{ 'Temperament' },
+                    Value = ctx:getParameter( 'temperament' ),
+                },
+            },
 
-            Arkitecture.Cargo.Row( 'ASE_Entities', {
-                Name           = { ParameterTypes.STRING     , 'name' },
-                VariantOf      = { ParameterTypes.STRING     , 'base' },
-                Class          = { ParameterTypes.CLASS_PATH , 'blueprintPath' },
-                IsClassPartial = { ParameterTypes.BOOL       , 'base',
-                                   Default = false },
-                Groups         = { ParameterTypes.STRING_LIST, 'groups',
-                                   Default = Arkitecture.Translatable{ 'Unspecified',
-                                               ES = 'Localisation test' } },
-            } ),
+--            Arkitecture.Cargo.Row( 'ASE_Entities', {
+--                Name           = { ParameterTypes.STRING     , 'name' },
+--                VariantOf      = { ParameterTypes.STRING     , 'base' },
+--                Class          = { ParameterTypes.CLASS_PATH , 'blueprintPath' },
+--                IsClassPartial = { ParameterTypes.BOOL       , 'base',
+--                                   Default = false },
+--                Groups         = { ParameterTypes.STRING_LIST, 'groups',
+--                                   Default = Arkitecture.Translatable{ 'Unspecified',
+--                                               ES = 'Localisation test' } },
+--            } ),
         }
     end
 }
