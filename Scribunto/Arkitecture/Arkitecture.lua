@@ -220,8 +220,8 @@ local Renderer = Class( function ( self )
     self.template = self.mt.class.template or nil
 
     if self.template.RequiredLibraries then
-        for foreignName in pairs( self.template.RequiredLibraries ) do
-            for name, interfaceImplementation in pairs( require( foreignName ) ) do
+        for index = 1, #self.template.RequiredLibraries do
+            for name, interfaceImplementation in pairs( require( self.template.RequiredLibraries[index] ) ) do
                 self:registerComponent( name, interfaceImplementation )
             end
         end
