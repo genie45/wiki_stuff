@@ -63,7 +63,7 @@ local FILE_EXISTS_TITLE_PREFIX = string.upper( mw.language.getContentLanguage():
 --     - width: number
 local function File( spec )
     if spec.fallback then
-        if not mw.title.new( FILE_EXISTS_TITLE_PREFIX .. spec.name ).exists then
+        if not spec.name or mw.title.new( FILE_EXISTS_TITLE_PREFIX .. spec.name ).exists then
             spec.name = spec.fallback
         end
     end
