@@ -291,7 +291,7 @@ end )
     function Renderer.methods.render( self )
         local html = {}
 
-        local units = self.template:getUnits( RendererContext( self ) )
+        local units = self.template.getSetup( self.template, RendererContext( self ) )
         for index = 1, #units do
             local unit = units[index]
 
