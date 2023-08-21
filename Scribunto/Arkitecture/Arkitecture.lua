@@ -73,6 +73,12 @@ end
 
 
 local function Link( spec )
+    if type( spec ) == 'string' then
+        spec = { target = spec, label = spec }
+    end
+    if spec == nil or spec.target == nil then
+        return ''
+    end
     return string.format( '[[%s|%s]]', spec.target, spec.label )
 end
 
