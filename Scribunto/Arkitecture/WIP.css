@@ -116,18 +116,22 @@
 }
 
 .arkitect-corner-tl,
+.arkitect-corner-t,
 .arkitect-corner-l {
   border-top-left-radius: 3px;
 }
 .arkitect-corner-tr,
+.arkitect-corner-t,
 .arkitect-corner-r {
   border-top-right-radius: 3px;
 }
 .arkitect-corner-bl,
+.arkitect-corner-b,
 .arkitect-corner-l {
   border-bottom-left-radius: 3px;
 }
 .arkitect-corner-br,
+.arkitect-corner-b,
 .arkitect-corner-r {
   border-bottom-right-radius: 3px;
 }

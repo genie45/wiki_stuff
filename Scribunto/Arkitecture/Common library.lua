@@ -58,19 +58,19 @@ return {
     },
 
     NamedDataTable2x2 = Arkitecture.Component{
-        _wrap = function ( self, item, labelClass, valueClass )
+        _wrap = function ( self, item )
             return Html.Element{
                 tag = 'div',
                 classes = 'arkitect-item',
 
                 Html.Element{
                     tag = 'div',
-                    classes = 'arkitect-item-label arkitect-cell ' .. labelClass,
+                    classes = 'arkitect-item-label arkitect-cell arkitect-corner-t',
                     item.Name,
                 },
                 Html.Element{
                     tag = 'div',
-                    classes = 'arkitect-item-value arkitect-cell ' .. valueClass,
+                    classes = 'arkitect-item-value arkitect-cell arkitect-corner-b',
                     item.Value,
                 },
             }
@@ -81,8 +81,8 @@ return {
                 tag = 'div',
                 classes = 'arkitect-row arkitect-column-layout arkitect-column-layout-50x50 arkitect-table-layout',
 
-                self:_wrap( ctx.instance[1], 'arkitect-corner-tl', 'arkitect-corner-bl' ),
-                self:_wrap( ctx.instance[2], 'arkitect-corner-tr', 'arkitect-corner-br' ),
+                self:_wrap( ctx.instance[1] ),
+                self:_wrap( ctx.instance[2] ),
             }
         end
     },
