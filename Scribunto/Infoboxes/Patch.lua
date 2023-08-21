@@ -38,6 +38,26 @@ return Arkitecture.makeRenderer{
         next = ParameterTypes.GAME_VERSION,
     },
 
+
+    injectParameters = function ( self )
+        local title = mw.title.getCurrentTitle().baseText
+
+        local platform, major, minor = title:match( '(%w+) (%d+)%.(%d+)' )
+        if major == nil then
+            major, minor = title:match( '(%d+)%.(%d+)' )
+        end
+
+        if major == nil or minor == nil then
+            error( 'Titles of patch articles should follow either of these formats: "[.../]major.minor", "[.../]platform major.minor".' )
+        end
+
+        return {
+            platform = platform or 'PC',
+            major = major,
+            minor = minor,
+        }
+    end,
+
     ---
     --- @class PatchInfo
     --- @field platform string
