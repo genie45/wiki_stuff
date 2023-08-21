@@ -1,0 +1,133 @@
+.arkitect {
+  --ark-arkitex-border-color: rgb(229, 229, 229);
+  --ark-arkitex-border-color--rgb: 229, 229, 229;
+}
+/* #region [[Module:Arkitecture]] */
+.arkitect, .arkitect * {
+    box-sizing: border-box;
+}
+
+/* Full container */
+.arkitect {
+    float: right;
+    width: 29em;
+    max-width: 100%;
+    margin: 0 0 8px 8px;
+    overflow: hidden;
+    background: var(--ark-arkitex-background-color);
+    border: 2px solid var(--ark-arkitex-border-color);
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.arkitect-row {
+    margin-bottom: 2px;
+}
+.arkitect-cell {
+  padding: 5px 8px;
+  background: var(--ark-arkitex-right-color);
+}
+.arkitect-aligned-left {
+  text-align: left;
+}
+.arkitect-aligned-center {
+  text-align: center;
+}
+.arkitect-aligned-right {
+  text-align: right;
+}
+
+.arkitect-unit-caption {
+  text-align: center;
+  margin: 0 0.5em 0.25em;
+  background: 0 0;
+  font-weight: 500;
+  color: var(--content-default-link-color);
+}
+
+.arkitect-unit {
+  padding: 0.5em 0.6em;
+  border-bottom: 2px solid rgba(var(--ark-arkitex-border-color--rgb), 0.5);
+}
+
+.arkitect-component-creature-header > .arkitect-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arkitect-unit:last-child {
+  border-bottom: 0;
+}
+
+.arkitect-item-label,
+.arkitect-secondary-background {
+  background: var(--ark-arkitex-left-color);
+}
+
+.arkitect-item-label {
+    font-weight: 500;
+}
+
+.arkitect-item > .arkitect-item-label {
+    text-align: right;
+}
+
+.arkitect-item + .arkitect-item {
+  margin-top: 1px;
+}
+
+.arkitect-infobox-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.arkitect-table-layout {
+    margin-bottom: 0.5em;
+}
+.arkitect-table-layout .arkitect-item-label,
+.arkitect-table-layout .arkitect-item {
+  text-align: center;
+}
+
+.arkitect-row-layout,
+.arkitect-column-layout {
+  display: grid;
+  gap: 1px;
+}
+.arkitect-row-layout-25x75 {
+  grid-template-columns: minmax( 0, 1fr ) minmax( 0, 3fr );
+}
+.arkitect-row-layout-40x60 {
+  grid-template-columns: minmax( 0, 2fr ) minmax( 0, 3fr );
+}
+.arkitect-column-layout-50x50 {
+  grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+}
+.arkitect-column-layout-33x33x33 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.arkitect-column-layout-33x33x33 > .arkitect-cell,
+.arkitect-column-layout-33x33x33 > .arkitect-column {
+  flex-basis: 33%;
+  flex-grow: 1;
+}
+
+.arkitect-corner-tl,
+.arkitect-corner-l {
+  border-top-left-radius: 3px;
+}
+.arkitect-corner-tr,
+.arkitect-corner-r {
+  border-top-right-radius: 3px;
+}
+.arkitect-corner-bl,
+.arkitect-corner-l {
+  border-bottom-left-radius: 3px;
+}
+.arkitect-corner-br,
+.arkitect-corner-r {
+  border-bottom-right-radius: 3px;
+}
