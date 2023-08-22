@@ -237,15 +237,6 @@ local Renderer = Class( function ( self )
         end
         self.template.BundledComponents = nil
     end
-
-    if self.template.injectParameters then
-        local injected = self.template.injectParameters()
-        if injected ~= nil then
-            for name, value in pairs( injected ) do
-                self._parameterCache[name] = value
-            end
-        end
-    end
 end )
     function Renderer.methods.loadParameters( self )
     end
@@ -277,6 +268,18 @@ end )
     end
     function Renderer.methods.getParameter( self, name )
         if not self._parameterCacheKeySet[name] then
+            if not self._parameterCache then
+                self._parameterCache = {}
+                if self.template.injectParameters then
+                    local injected = self.template.injectParameters()
+                    if injected ~= nil then
+                        for name, value in pairs( injected ) do
+                            self._parameterCache[name] = value
+                        end
+                    end
+                end
+            end
+
             -- Retrieve the parameter value from our parameter cache (this will only succeed on injected parameters),
             -- module call frame, or template frame (in that order).
             local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
