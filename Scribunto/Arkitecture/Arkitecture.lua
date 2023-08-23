@@ -218,7 +218,6 @@ local Renderer = Class( function ( self )
     self.frame = mw.getCurrentFrame()
     self.parentFrame = self.frame:getParent()
     self.componentRegistry = {}
-    self._parameterCache = {}
     self._parameterCacheKeySet = {}
     self.template = self.mt.class.template or nil
 
