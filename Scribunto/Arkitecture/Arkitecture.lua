@@ -367,15 +367,19 @@ end )
 
         local out = {}
         
-        for name, tableSpec in pairs( self.template.CargoSetup ) do
-            local tableName = tablePrefix .. name
+        for tableName, tableSpec in pairs( self.template.CargoSetup ) do
             local params = {
-                '_table=' .. tableName,
+                '_table=' .. tablePrefix .. tableName,
             }
 
-            for index = 1, #tableSpec do
-                local columnSpec = tableSpec[index]
-                params[#params + 1] = string.format( '%s = %s (%s)', columnSpec[2], columnSpec[1], '' )
+            for columnName, columnSpec in pairs( tableSpec ) do
+                if type( columnSpec ) == 'string' then
+                    columnSpec = { columnSpec }
+                end
+
+                -- TODO: column flags
+
+                params[#params + 1] = string.format( '%s = %s (%s)', columnName, columnSpec[1], '' )
             end
 
             out[#out + 1] = self.frame:callParserFunction( '#cargo_declare', params )
