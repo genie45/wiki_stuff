@@ -186,6 +186,9 @@ end )
     function ComponentContext.methods.expandComponent( self, instance )
         return self._renderer:expandComponent( instance )
     end
+    function ComponentContext.methods.getCargoTablePrefix( self )
+        return self._renderer:getCargoTablePrefix()
+    end
 -- #endregion
 
 
@@ -361,20 +364,22 @@ end )
         end
         return rendered
     end
-    function Renderer.methods.makeCargoTables( self )
-        local tablePrefix = self:_normaliseParameter( { ParameterTypes.STRING, Optional = true },
+    function Renderer.methods.getCargoTablePrefix( self )
+        local out = self:_normaliseParameter( { ParameterTypes.STRING, Optional = true },
             self.frame.args['tablePrefix'] )
-        if tablePrefix == nil then
-            tablePrefix = ''
+        if out == nil then
+            out = ''
         else
-            tablePrefix = tablePrefix .. '_'
+            out = out .. '_'
         end
-
+        return out
+    end
+    function Renderer.methods.makeCargoTables( self )
         local out = {}
         
         for tableName, tableSpec in pairs( self.template.CargoSetup ) do
             local params = {
-                '_table=' .. tablePrefix .. tableName,
+                '_table=' .. self:getCargoTablePrefix() .. tableName,
             }
 
             for columnName, columnSpec in pairs( tableSpec ) do
