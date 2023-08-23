@@ -304,18 +304,20 @@ end )
         for index = 1, #units do
             local unit = units[index]
 
-            -- Hotpath: avoid using HtmlElement to construct the unit container as it may be result in costly string
-            -- copies.
-            html[#html + 1] = '<div class="arkitect-unit">'
-            if unit.Caption then
-                html[#html + 1] = HtmlElement{
-                    tag = 'div',
-                    classes = 'arkitect-unit-caption',
-                    unit.Caption
-                }
+            if unit ~= nil then
+                -- Hotpath: avoid using HtmlElement to construct the unit container as it may be result in costly string
+                -- copies.
+                html[#html + 1] = '<div class="arkitect-unit">'
+                if unit.Caption then
+                    html[#html + 1] = HtmlElement{
+                        tag = 'div',
+                        classes = 'arkitect-unit-caption',
+                        unit.Caption
+                    }
+                end
+                self:_processNodeSet( html, unit )
+                html[#html + 1] = '</div>'
             end
-            self:_processNodeSet( html, unit )
-            html[#html + 1] = '</div>'
         end
 
         return HtmlElement{
