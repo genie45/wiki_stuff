@@ -186,6 +186,9 @@ end )
     function ComponentContext.methods.expandComponent( self, instance )
         return self._renderer:expandComponent( instance )
     end
+    function ComponentContext.methods.callParserFunction( self, name, args )
+        return self._renderer.parentFrame:callParserFunction( name, args )
+    end
     function ComponentContext.methods.getCargoTablePrefix( self )
         return self._renderer:getCargoTablePrefix()
     end
