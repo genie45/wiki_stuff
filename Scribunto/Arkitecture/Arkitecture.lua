@@ -356,6 +356,33 @@ end )
         end
         return rendered
     end
+    function Renderer.methods.makeCargoTables( self )
+        local tablePrefix = self:_normaliseParameter( { ParameterTypes.STRING, Optional = true },
+            self.frame.args['tablePrefix'] )
+        if tablePrefix == nil then
+            tablePrefix = ''
+        else
+            tablePrefix = tablePrefix .. '_'
+        end
+
+        local out = {}
+        
+        for name, tableSpec in pairs( self.template.CargoSetup ) do
+            local tableName = tablePrefix .. name
+            local params = {
+                '_table=' .. tableName,
+            }
+
+            for index = 1, #tableSpec do
+                local columnSpec = tableSpec[index]
+                params[#params + 1] = string.format( '%s = %s (%s)', columnSpec[2], columnSpec[1], '' )
+            end
+
+            out[#out + 1] = self.frame:callParserFunction( '#cargo_declare', params )
+        end
+
+        return table.concat( out )
+    end
 
 
 local function makeRenderer( template )
@@ -363,6 +390,9 @@ local function makeRenderer( template )
         __templateBoundRendererImpl.template = template
         function __templateBoundRendererImpl.render()
             return __templateBoundRendererImpl():render()
+        end
+        function __templateBoundRendererImpl.makeCargoTables()
+            return __templateBoundRendererImpl():makeCargoTables()
         end
     return __templateBoundRendererImpl
 end
@@ -391,7 +421,14 @@ return {
     makeRenderer = makeRenderer,
 
     Cargo = {
-        ColumnTypes = {},
+        ColumnTypes = {
+            INTEGER = 'Integer',
+            FLOAT = 'Float',
+            STRING = 'String',
+            TEXT = 'Text',
+            BOOL = 'Boolean',
+            DATE = 'Date',
+        },
         Row = function() end
     }
 }
