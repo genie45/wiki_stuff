@@ -420,6 +420,69 @@ end
 -- #endregion
 
 
+-- #region Cargo
+local Cargo = {
+    ColumnTypes = {
+        INTEGER = 'Integer',
+        FLOAT = 'Float',
+        STRING = 'String',
+        TEXT = 'Text',
+        BOOL = 'Boolean',
+        DATE = 'Date',
+    }
+}
+
+-- TODO: extract as much logic as possible
+DEFAULT_COMPONENTS.NewCargoRow = Component{
+    render = function ( self, ctx )
+        local params = {
+            '_table = ' .. ctx:getCargoTablePrefix() .. ctx.instance.Table,
+        }
+
+        -- TODO: private field access, shouldn't really have this dependency here
+        local tableSpec = ctx._renderer.template.CargoSetup[ctx.instance.Table]
+        if tableSpec == nil then
+            error( 'Attempted to add a row to an unknown Cargo table: ' .. ctx.instance.Table )
+        end
+
+        for columnName, columnSpec in pairs( tableSpec ) do
+            if type( columnSpec ) == 'string' then
+                columnSpec = { columnSpec }
+            end
+
+            local value = ctx.instance[columnName]
+
+            if value ~= nil then
+                if columnSpec[1] == Cargo.ColumnTypes.BOOL then
+                    value = value == true and '1' or value == false and '0' or nil
+                end
+                -- TODO: implement more conversions
+            end
+
+            if value == nil and columnSpec.Default ~= nil then
+                value = columnSpec.Default
+            end
+            if value == nil and not columnSpec.Optional then
+                error( string.format( 'Found validation errors when inserting a row into Cargo table %s: column %s' ..
+                    'required but value not given.', ctx.instance.Table, columnName ) )
+            end
+
+            if not ( value == nil and columnSpec.Optional ) then
+                if type( value ) ~= 'string' then
+                    value = tostring( value )
+                end
+
+                params[#params + 1] = string.format( '%s = %s', columnName, value )
+            end
+        end
+
+        return ctx:callParserFunction( '#cargo_store', params )
+    end
+}
+
+-- #endregion
+
+
 
 return {
     Class = Class,
@@ -440,15 +503,5 @@ return {
 
     makeRenderer = makeRenderer,
 
-    Cargo = {
-        ColumnTypes = {
-            INTEGER = 'Integer',
-            FLOAT = 'Float',
-            STRING = 'String',
-            TEXT = 'Text',
-            BOOL = 'Boolean',
-            DATE = 'Date',
-        },
-        Row = function() end
-    }
+    Cargo = Cargo
 }

@@ -11,18 +11,22 @@ return Arkitecture.makeRenderer{
 
     CargoSetup = {
         Patch = {
-            { ColumnTypes.NUMBER, 'Major'                },
-            { ColumnTypes.NUMBER, 'Minor'                },
-            { ColumnTypes.DATE  , 'ReleaseDate'          },
-            { ColumnTypes.STRING, 'Platform', Values = {
-                'Steam',
-                'Epic',
-                'Xbox',
-                'PlayStation',
-                'Switch',
-            } },
-            { ColumnTypes.BOOL  , 'IsAvailableForClient' },
-            { ColumnTypes.BOOL  , 'IsAvailableForServer' },
+            Major = ColumnTypes.INTEGER,
+            Minor = ColumnTypes.INTEGER,
+            ReleaseDate = ColumnTypes.DATE,
+            Platform = {
+                ColumnTypes.STRING,
+                Values = {
+                    'Steam',
+                    'Epic',
+                    'Stadia',
+                    'Xbox',
+                    'PlayStation',
+                    'Switch',
+                }
+            },
+            IsAvailableForClient = ColumnTypes.BOOL,
+            IsAvailableForServer = ColumnTypes.BOOL,
         },
     },
 
@@ -32,8 +36,14 @@ return Arkitecture.makeRenderer{
         minor = ParameterTypes.INTEGER,
         type = ParameterTypes.STRING,
         date = ParameterTypes.DATE,
-        client = ParameterTypes.BOOL,
-        server = ParameterTypes.BOOL,
+        client = {
+            ParameterTypes.BOOL,
+            Default = false,
+        },
+        server = {
+            ParameterTypes.BOOL,
+            Default = false,
+        },
         previous = ParameterTypes.GAME_VERSION,
         next = ParameterTypes.GAME_VERSION,
     },
@@ -184,16 +194,17 @@ return Arkitecture.makeRenderer{
                 },
             },
 
---            Arkitecture.Cargo.Row( 'ASE_Entities', {
---                Name           = { ParameterTypes.STRING     , 'name' },
---                VariantOf      = { ParameterTypes.STRING     , 'base' },
---                Class          = { ParameterTypes.CLASS_PATH , 'blueprintPath' },
---                IsClassPartial = { ParameterTypes.BOOL       , 'base',
---                                   Default = false },
---                Groups         = { ParameterTypes.STRING_LIST, 'groups',
---                                   Default = Arkitecture.Translatable{ 'Unspecified',
---                                               ES = 'Localisation test' } },
---            } ),
+            {
+                Component = 'NewCargoRow',
+                Table = 'Patch',
+
+                Platform = ctx:getParameter( 'platform' ),
+                Major = ctx:getParameter( 'major' ),
+                Minor = ctx:getParameter( 'minor' ),
+                ReleaseDate = ctx:getParameter( 'date' ),
+                IsAvailableForClient = ctx:getParameter( 'client' ),
+                IsAvailableForServer = ctx:getParameter( 'server' ),
+            }
         }
     end
 }
