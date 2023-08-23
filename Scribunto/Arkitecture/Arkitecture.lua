@@ -211,7 +211,7 @@ local ParameterConstraints = {
 
 
 -- #region Renderer
-
+local DEFAULT_COMPONENTS = {}
 
 
 local Renderer = Class( function ( self )
@@ -221,6 +221,10 @@ local Renderer = Class( function ( self )
     self._parameterCache = {}
     self._parameterCacheKeySet = {}
     self.template = self.mt.class.template or nil
+
+    for name, interfaceImplementation in pairs( DEFAULT_COMPONENTS ) do
+        self:registerComponent( name, interfaceImplementation )
+    end
 
     if self.template.RequiredLibraries then
         for index = 1, #self.template.RequiredLibraries do
