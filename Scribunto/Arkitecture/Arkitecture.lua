@@ -314,6 +314,9 @@ end )
             local unit = units[index]
 
             if unit ~= nil then
+                -- TODO: node sets that didn't produce any HTML still create units here. merge HTML streams when these
+                -- are implemented.
+
                 -- Hotpath: avoid using HtmlElement to construct the unit container as it may be result in costly string
                 -- copies.
                 html[#html + 1] = '<div class="arkitect-unit">'
