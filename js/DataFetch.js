@@ -7,6 +7,7 @@ window.arkLoadDataPages = function( pages, forceRecacheId ) {
 
     return Promise.all( pages.map( function ( pageName ) {
         var isRequestingMain = pageName.startsWith( 'en:' ),
+            outName = pageName,
             query = {
                 action: 'raw',
                 ctype: 'application/json',
@@ -27,7 +28,7 @@ window.arkLoadDataPages = function( pages, forceRecacheId ) {
 
         return fetch( url ).then( function ( response ) {
             return response.json().then( function ( data ) {
-                results[pageName] = data;
+                results[outName] = data;
             } );
         } );
     } ) ).then( function () {
