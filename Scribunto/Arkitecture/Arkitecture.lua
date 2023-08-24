@@ -401,18 +401,18 @@ end )
                 '_table=' .. self:getCargoTablePrefix() .. tableName,
             }
 
-            for columnName, columnSpec in pairs( tableSpec ) do
-                if type( columnSpec ) == 'string' then
-                    columnSpec = { columnSpec }
-                end
+            for index = 1, #tableSpec do
+                local columnSpec = tableSpec[index]
+                local columnName = columnSpec[1]
+                local columnType = columnSpec[2]
 
                 local flags = {}
                 if not columnSpec.Optional then
                     flags[#flags + 1] = 'mandatory'
                 end
 
-                params[#params + 1] = string.format( '%s = %s (%s)', columnName, columnSpec[1],
-                    table.concat( flags, ';' ) )
+                params[#params + 1] = string.format( '%s = %s (%s)', columnName, columnType,
+                    table.concat( flags, '; ' ) )
             end
 
             out[#out + 1] = self.frame:callParserFunction( '#cargo_declare', params )
@@ -462,15 +462,15 @@ DEFAULT_COMPONENTS.NewCargoRow = Component{
             error( 'Attempted to add a row to an unknown Cargo table: ' .. ctx.instance.Table )
         end
 
-        for columnName, columnSpec in pairs( tableSpec ) do
-            if type( columnSpec ) == 'string' then
-                columnSpec = { columnSpec }
-            end
+        for index = 1, #tableSpec do
+            local columnSpec = tableSpec[index]
+            local columnName = columnSpec[1]
+            local columnType = columnSpec[2]
 
             local value = ctx.instance[columnName]
 
             if value ~= nil then
-                if columnSpec[1] == Cargo.ColumnTypes.BOOL then
+                if columnType == Cargo.ColumnTypes.BOOL then
                     value = value == true and '1' or value == false and '0' or nil
                 end
                 -- TODO: implement more conversions

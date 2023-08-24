@@ -43,24 +43,24 @@ return Arkitecture.makeRenderer{
 
     CargoSetup = {
         Patch = {
-            Major = ColumnTypes.INTEGER,
-            Minor = ColumnTypes.INTEGER,
-            ClientReleaseDate = {
+            { 'Major', ColumnTypes.INTEGER, },
+            { 'Minor', ColumnTypes.INTEGER, },
+            { 'ClientReleaseDate',
                 ColumnTypes.DATE,
                 Optional = true,
             },
-            ServerReleaseDate = {
+            { 'ServerReleaseDate',
                 ColumnTypes.DATE,
                 Optional = true,
             },
-            Platform = {
+            { 'Platform',
                 ColumnTypes.STRING,
                 Values = {
                     'PC',
                     'Xbox',
                     'PlayStation',
                     'Switch',
-                }
+                },
             },
         },
     },
