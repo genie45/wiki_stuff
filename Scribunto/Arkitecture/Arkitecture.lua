@@ -253,11 +253,11 @@ local Renderer = Class( function ( self )
         self.template.RequiredLibraries = nil
     end
 
-    if self.template.BundledComponents then
-        for name, interfaceImplementation in pairs( self.template.BundledComponents ) do
+    if self.template.PrivateComponents then
+        for name, interfaceImplementation in pairs( self.template.PrivateComponents ) do
             self:registerComponent( name, interfaceImplementation )
         end
-        self.template.BundledComponents = nil
+        self.template.PrivateComponents = nil
     end
 end )
     function Renderer.methods.loadParameters( self )

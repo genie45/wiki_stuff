@@ -9,7 +9,7 @@ return Arkitecture.makeRenderer{
         'Module:Arkitecture/Common library',
     },
 
-    BundledComponents = {
+    PrivateComponents = {
         GameBar = Arkitecture.Component{
             render = function ( self, ctx )
                 return Arkitecture.Html.Element{
