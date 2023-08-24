@@ -68,7 +68,20 @@ local function File( spec )
         end
     end
 
-    return string.format( '[[File:%s|%spx]]', spec.name, spec.width )
+    local attrs = {}
+    if spec.link ~= nil then
+        attrs[#attrs + 1] = 'link=' .. ( spec.link or '' )
+    end
+    if spec.altText ~= nil then
+        attrs[#attrs + 1] = 'alt=' .. ( spec.altText or '' )
+    end
+
+    -- Choose a specialised format template and build the final element
+    if #attrs == 0 then
+        return string.format( '[[File:%s|%spx]]', spec.name, spec.width )
+    else
+        return string.format( '[[File:%s|%spx|%s]]', spec.name, spec.width, table.concat( attrs, '|' ) )
+    end
 end
 
 
