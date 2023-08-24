@@ -293,7 +293,7 @@ end )
             if not self._parameterCache then
                 self._parameterCache = {}
                 if self.template.injectParameters then
-                    local injected = self.template.injectParameters( RendererContext( self ) )
+                    local injected = self.template:injectParameters( RendererContext( self ) )
                     if injected ~= nil then
                         for name, value in pairs( injected ) do
                             self._parameterCache[name] = value
