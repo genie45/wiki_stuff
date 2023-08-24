@@ -406,9 +406,13 @@ end )
                     columnSpec = { columnSpec }
                 end
 
-                -- TODO: column flags
+                local flags = {}
+                if not columnSpec.Optional then
+                    flags[#flags + 1] = 'mandatory'
+                end
 
-                params[#params + 1] = string.format( '%s = %s (%s)', columnName, columnSpec[1], '' )
+                params[#params + 1] = string.format( '%s = %s (%s)', columnName, columnSpec[1],
+                    table.concat( flags, ';' ) )
             end
 
             out[#out + 1] = self.frame:callParserFunction( '#cargo_declare', params )
