@@ -19,13 +19,34 @@ return Arkitecture.makeRenderer{
                 }
             end
         },
+
+        TargetCell = Arkitecture.Component{
+            render = function ( self, ctx )
+                if ctx.instance.Date == nil then
+                    return ctx:expandComponent{
+                        Component = 'Checkmark',
+                        Value = false,
+                    }
+                end
+
+                return {
+                    ctx:expandComponent{
+                        Component = 'Checkmark',
+                        Value = true
+                    },
+                    Arkitecture.Html.NewLine,
+                    ctx.instance.Date,
+                }
+            end
+        }
     },
 
     CargoSetup = {
         Patch = {
             Major = ColumnTypes.INTEGER,
             Minor = ColumnTypes.INTEGER,
-            ReleaseDate = ColumnTypes.DATE,
+            ClientReleaseDate = ColumnTypes.DATE,
+            ServerReleaseDate = ColumnTypes.DATE,
             Platform = {
                 ColumnTypes.STRING,
                 Values = {
@@ -47,21 +68,24 @@ return Arkitecture.makeRenderer{
         major = ParameterTypes.INTEGER,
         minor = ParameterTypes.INTEGER,
         type = ParameterTypes.STRING,
-        date = ParameterTypes.DATE,
+        date = {
+            ParameterTypes.DATE,
+            Optional = true,
+        },
         client = {
-            ParameterTypes.BOOL,
-            Default = false,
+            ParameterTypes.DATE,
+            Optional = true,
         },
         server = {
-            ParameterTypes.BOOL,
-            Default = false,
+            ParameterTypes.DATE,
+            Optional = true,
         },
         previous = ParameterTypes.GAME_VERSION,
         next = ParameterTypes.GAME_VERSION,
     },
 
 
-    injectParameters = function ( self )
+    injectParameters = function ( self, ctx )
         local title = mw.title.getCurrentTitle().baseText
 
         local platform, major, minor = title:match( '(%w+) (%d+)%.(%d+)' )
@@ -73,11 +97,18 @@ return Arkitecture.makeRenderer{
             error( 'Titles of patch articles should follow either of these formats: "[.../]major.minor", "[.../]platform major.minor".' )
         end
 
-        return {
+        local out = {
             platform = platform or 'PC',
             major = major,
             minor = minor,
         }
+
+        if ctx:getParameter( 'date' ) ~= nil then
+            out.client = ctx:getParameter( 'date' )
+            out.server = ctx:getParameter( 'date' )
+        end
+
+        return out
     end,
 
     ---
@@ -156,6 +187,9 @@ return Arkitecture.makeRenderer{
     getSetup = function ( self, ctx )
         local pInfo = self:_packPatchInfo( ctx )
 
+        local clientDate = ctx:getParameter( 'client' )
+        local serverDate = ctx:getParameter( 'server' )
+
         return {
             {
                 {
@@ -167,9 +201,6 @@ return Arkitecture.makeRenderer{
                     LeftValue = self:_makePlatformIcons( pInfo ),
                     Name = string.format( '%d.%d', pInfo.major, pInfo.minor ),
                 },
-                Component = 'SegmentedHeader',
-                LeftValue = self:_makePlatformIcons( pInfo ),
-                Name = string.format( '%d.%d', pInfo.major, pInfo.minor ),
             },
             {
                 {
@@ -189,16 +220,16 @@ return Arkitecture.makeRenderer{
                 {
                     Name = Arkitecture.Translatable{ 'Client' },
                     Value = ctx:expandComponent{
-                        Component = 'Checkmark',
-                        Value = ctx:getParameter( 'client' )
-                    }
+                        Component = 'TargetCell',
+                        Date = ctx:getParameter( 'client' )
+                    },
                 },
                 {
                     Name = Arkitecture.Translatable{ 'Server' },
                     Value = ctx:expandComponent{
-                        Component = 'Checkmark',
-                        Value = ctx:getParameter( 'server' )
-                    }
+                        Component = 'TargetCell',
+                        Date = ctx:getParameter( 'server' )
+                    },
                 },
             },
             {
@@ -222,7 +253,8 @@ return Arkitecture.makeRenderer{
                 Platform = ctx:getParameter( 'platform' ),
                 Major = ctx:getParameter( 'major' ),
                 Minor = ctx:getParameter( 'minor' ),
-                ReleaseDate = ctx:getParameter( 'date' ),
+                ClientReleaseDate = ctx:getParameter( 'date/client' ),
+                ServerReleaseDate = ctx:getParameter( 'date/server' ),
                 IsAvailableForClient = ctx:getParameter( 'client' ),
                 IsAvailableForServer = ctx:getParameter( 'server' ),
             }
