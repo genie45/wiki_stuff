@@ -9,6 +9,18 @@ return Arkitecture.makeRenderer{
         'Module:Arkitecture/Common library',
     },
 
+    BundledComponents = {
+        GameBar = Arkitecture.Component{
+            render = function ( self, ctx )
+                return Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-game-bar',
+                    ctx.Value,
+                }
+            end
+        },
+    },
+
     CargoSetup = {
         Patch = {
             Major = ColumnTypes.INTEGER,
@@ -146,6 +158,15 @@ return Arkitecture.makeRenderer{
 
         return {
             {
+                {
+                    Component = 'GameBar',
+                    Game = '[PH]GAME',
+                },
+                {
+                    Component = 'SegmentedHeader',
+                    LeftValue = self:_makePlatformIcons( pInfo ),
+                    Name = string.format( '%d.%d', pInfo.major, pInfo.minor ),
+                },
                 Component = 'SegmentedHeader',
                 LeftValue = self:_makePlatformIcons( pInfo ),
                 Name = string.format( '%d.%d', pInfo.major, pInfo.minor ),
