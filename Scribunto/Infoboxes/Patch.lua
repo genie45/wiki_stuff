@@ -15,7 +15,7 @@ return Arkitecture.makeRenderer{
                 return Arkitecture.Html.Element{
                     tag = 'div',
                     classes = 'arkitect-game-bar',
-                    ctx.Value,
+                    ctx.Game,
                 }
             end
         },
@@ -45,21 +45,23 @@ return Arkitecture.makeRenderer{
         Patch = {
             Major = ColumnTypes.INTEGER,
             Minor = ColumnTypes.INTEGER,
-            ClientReleaseDate = ColumnTypes.DATE,
-            ServerReleaseDate = ColumnTypes.DATE,
+            ClientReleaseDate = {
+                ColumnTypes.DATE,
+                Optional = true,
+            },
+            ServerReleaseDate = {
+                ColumnTypes.DATE,
+                Optional = true,
+            },
             Platform = {
                 ColumnTypes.STRING,
                 Values = {
-                    'Steam',
-                    'Epic',
-                    'Stadia',
+                    'PC',
                     'Xbox',
                     'PlayStation',
                     'Switch',
                 }
             },
-            IsAvailableForClient = ColumnTypes.BOOL,
-            IsAvailableForServer = ColumnTypes.BOOL,
         },
     },
 
@@ -207,12 +209,7 @@ return Arkitecture.makeRenderer{
                     Component = 'NamedDataRow',
                     Name = Arkitecture.Translatable{ 'Type' },
                     Value = ctx:getParameter( 'type' ),
-                },
-                {
-                    Component = 'NamedDataRow',
-                    Name = Arkitecture.Translatable{ 'Date' },
-                    Value = ctx:getParameter( 'date' ),
-                },
+                }
             },
             {
                 Caption = Arkitecture.Translatable{ 'Availability' },
@@ -253,10 +250,8 @@ return Arkitecture.makeRenderer{
                 Platform = ctx:getParameter( 'platform' ),
                 Major = ctx:getParameter( 'major' ),
                 Minor = ctx:getParameter( 'minor' ),
-                ClientReleaseDate = ctx:getParameter( 'date/client' ),
-                ServerReleaseDate = ctx:getParameter( 'date/server' ),
-                IsAvailableForClient = ctx:getParameter( 'client' ),
-                IsAvailableForServer = ctx:getParameter( 'server' ),
+                ClientReleaseDate = ctx:getParameter( 'client' ),
+                ServerReleaseDate = ctx:getParameter( 'server' ),
             }
         }
     end
