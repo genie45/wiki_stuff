@@ -1,6 +1,8 @@
 local Arkitecture = require( 'Module:Arkitecture' )
 local Html = Arkitecture.Html
 
+local Text = require( 'Module:Arkitecture/Common library/strings' )
+
 
 return {
     NamedDataRow = Arkitecture.Component{
@@ -153,9 +155,9 @@ return {
                     link = false
                 },
                 ' ',
-                val == true and Arkitecture.Translatable{ 'Yes' }
-                    or val == false and Arkitecture.Translatable{ 'No' }
-                    or Arkitecture.Translatable{ 'Unknown' },
+                val == true and Text.CHECKMARK_YES
+                    or val == false and Text.CHECKMARK_NO
+                    or TEXT.CHECKMARK_UNKNOWN,
             }
         end
     },
