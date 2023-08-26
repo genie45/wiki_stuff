@@ -3,6 +3,8 @@ local ColumnTypes = Arkitecture.Cargo.ColumnTypes
 local ParameterTypes = Arkitecture.ParameterTypes
 local ParameterConstraint = Arkitecture.ParameterConstraints
 
+local Text = require( 'Module:Infoboxes/Patch/strings' )
+
 
 return Arkitecture.makeRenderer{
     RequiredLibraries = {
@@ -207,22 +209,22 @@ return Arkitecture.makeRenderer{
             {
                 {
                     Component = 'NamedDataRow',
-                    Name = Arkitecture.Translatable{ 'Type' },
+                    Name = Text.ITEM_TYPE,
                     Value = ctx:getParameter( 'type' ),
                 }
             },
             {
-                Caption = Arkitecture.Translatable{ 'Availability' },
+                Caption = Text.SECTION_AVAILABILITY,
                 Component = 'NamedDataTable2x2',
                 {
-                    Name = Arkitecture.Translatable{ 'Client' },
+                    Name = Text.SECTION_AVAILABILITY_ITEM_CLIENT,
                     Value = ctx:expandComponent{
                         Component = 'TargetCell',
                         Date = ctx:getParameter( 'client' )
                     },
                 },
                 {
-                    Name = Arkitecture.Translatable{ 'Server' },
+                    Name = Text.SECTION_AVAILABILITY_ITEM_SERVER,
                     Value = ctx:expandComponent{
                         Component = 'TargetCell',
                         Date = ctx:getParameter( 'server' )
@@ -230,15 +232,15 @@ return Arkitecture.makeRenderer{
                 },
             },
             {
-                Caption = Arkitecture.Translatable{ 'Chronology' },
+                Caption = Text.SECTION_CHRONOLOGY,
                 {
                     Component = 'NamedDataRow',
-                    Name = Arkitecture.Translatable{ 'Previous' },
+                    Name = Text.SECTION_CHRONOLOGY_ITEM_PREVIOUS,
                     Value = Arkitecture.Link( ctx:getParameter( 'previous' ) ),
                 },
                 {
                     Component = 'NamedDataRow',
-                    Name = Arkitecture.Translatable{ 'Next' },
+                    Name = Text.SECTION_CHRONOLOGY_ITEM_NEXT,
                     Value = Arkitecture.Link( ctx:getParameter( 'next' ) ),
                 },
             },
