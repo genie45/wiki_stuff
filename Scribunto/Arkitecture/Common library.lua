@@ -130,12 +130,12 @@ return {
 
                 Arkitecture.HtmlElement {
                     tag = 'div',
-                    classes = 'arkitect-cell arkitect-secondary-background',
+                    classes = 'arkitect-cell arkitect-secondary-background arkitect-infobox-title arkitect-corner-l',
                     instance.LeftValue
                 },
                 Arkitecture.HtmlElement {
                     tag = 'div',
-                    classes = 'arkitect-cell arkitect-infobox-title',
+                    classes = 'arkitect-cell arkitect-infobox-title arkitect-corner-r',
                     attributes = self:_makeTitleAutoFitFontSizeCss( instance.Name ),
                     instance.Name
                 }
