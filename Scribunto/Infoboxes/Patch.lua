@@ -71,7 +71,10 @@ return Arkitecture.makeRenderer{
         platform = ParameterTypes.STRING,
         major = ParameterTypes.INTEGER,
         minor = ParameterTypes.INTEGER,
-        type = ParameterTypes.STRING,
+        type = {
+            ParameterTypes.STRING,
+            AllowedValues = { 'major', 'minor', 'initial' },
+        },
         date = {
             ParameterTypes.DATE,
             Optional = true,
@@ -210,7 +213,11 @@ return Arkitecture.makeRenderer{
                 {
                     Component = 'NamedDataRow',
                     Name = Text.ITEM_TYPE,
-                    Value = ctx:getParameter( 'type' ),
+                    Value = ( {
+                        initial = Text.ROW_TYPE_INITIAL_RELEASE,
+                        major = Text.ROW_TYPE_MAJOR,
+                        minor = Text.ROW_TYPE_MINOR,
+                    } )[ctx:getParameter( 'type' )],
                 }
             },
             {
