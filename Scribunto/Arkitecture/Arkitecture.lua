@@ -332,9 +332,13 @@ end )
                 self:_processNodeSet( unitHtml, unit )
 
                 if #unitHtml > 0 then
+                    -- Determine if this unit should be made collapsible by the user. At least four components are
+                    -- required inside. JavaScript is needed for collapsibles to work.
+                    local isCollapsible = unit.Collapsible ~= false and #unitHtml > 3
                     -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
                     -- be fairly cheap as strings are passed by reference in Lua.
-                    html[#html + 1] = '<div class="arkitect-unit">'
+                    html[#html + 1] = isCollapsible and '<div class="arkitect-unit" data-arkitecture-collapsible=true>'
+                        or '<div class="arkitect-unit">'
                     if unit.Caption then
                         html[#html + 1] = HtmlElement{
                             tag = 'div',
