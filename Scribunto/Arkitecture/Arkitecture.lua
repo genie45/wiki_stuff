@@ -388,13 +388,15 @@ end )
         end
     end
     function Renderer.methods.expandComponent( self, instance, customRegistry )
-        local componentSingleton = ( customRegistry and customRegistry.componentRegistry[instance.Component])
+        local componentSingleton = ( customRegistry and customRegistry.componentRegistry[instance.Component] )
             or self.componentRegistry[instance.Component]
         if componentSingleton == nil then
             error( 'Infobox requires component but component not registered: ' .. instance.Component )
         end
         local rendered = componentSingleton:render( ComponentContext( self, instance ), instance )
-        if type( rendered ) == 'table' then
+        if rendered == '' then
+            return nil
+        elseif type( rendered ) == 'table' then
             rendered = table.concat( rendered, '' )
         end
         return rendered
