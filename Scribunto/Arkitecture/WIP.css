@@ -73,7 +73,7 @@
     text-align: right;
 }
 
-.arkitect-item.arkitect-row-layout-40x60 + .arkitect-item.arkitect-row-layout-40x60 {
+.arkitect-row-layout + .arkitect-item {
   margin-top: 1px;
 }
 
