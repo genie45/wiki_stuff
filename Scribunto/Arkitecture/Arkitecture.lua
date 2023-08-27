@@ -224,6 +224,14 @@ local ParameterTypes = {
     INTEGER = '_M_PT_NUMBER_INT',
     GAME_VERSION = '_M_PT_GVER',
     DATE = '_M_PT_DATE',
+    GAME = {
+        '_M_PT_STRING',
+        AllowedValues = {
+            'ARK: Survival Evolved',
+            'ARK: Survival Ascended',
+            'ARK 2',
+        }
+    },
 }
 local ParameterConstraints = {
     ONLY_ONE = ( function ( params )
