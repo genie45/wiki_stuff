@@ -17,7 +17,13 @@ return Arkitecture.makeRenderer{
                 return Arkitecture.Html.Element{
                     tag = 'div',
                     classes = 'arkitect-game-bar',
-                    ctx.Game,
+                    Arkitecture.File{
+                        name = ctx.instance.Game .. '.png',
+                        width = 16,
+                        link = ctx.instance.Game,
+                    },
+                    Arkitecture.Html.NonBreakingSpace,
+                    Arkitecture.Link( ctx.instance.Game ),
                 }
             end
         },
@@ -68,6 +74,7 @@ return Arkitecture.makeRenderer{
     },
 
     Parameters = {
+        game = ParameterTypes.GAME,
         platform = ParameterTypes.STRING,
         major = ParameterTypes.INTEGER,
         minor = ParameterTypes.INTEGER,
@@ -114,6 +121,9 @@ return Arkitecture.makeRenderer{
             out.client = ctx:getParameter( 'date' )
             out.server = ctx:getParameter( 'date' )
         end
+
+        -- TODO: implement when genie makes a decision
+        out.game = 'ARK: Survival Evolved'
 
         return out
     end,
@@ -201,7 +211,7 @@ return Arkitecture.makeRenderer{
             {
                 {
                     Component = 'GameBar',
-                    Game = '[PH]GAME',
+                    Game = ctx:getParameter( 'game' ),
                 },
                 {
                     Component = 'SegmentedHeader',

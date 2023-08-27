@@ -85,6 +85,16 @@
   text-align: center;
 }
 
+.arkitect-game-bar {
+  border: 1px solid var(--ark-arkitex-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 2px;
+  margin-bottom: 0.35em;
+  border-radius: 3px;
+}
+
 .arkitect-table-layout {
     margin-bottom: 0.5em;
 }
