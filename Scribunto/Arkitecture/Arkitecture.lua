@@ -236,6 +236,11 @@ local ParameterTypes = {
             'ARK: Survival Evolved',
             'ARK: Survival Ascended',
             'ARK 2',
+        },
+        _CargoTablePrefixes = {
+            ['ARK: Survival Evolved'] = 'ASE',
+            ['ARK: Survival Ascended'] = 'ASA',
+            ['ARK 2'] = 'A2',
         }
     },
 }
@@ -419,22 +424,36 @@ end )
         end
         return rendered
     end
-    function Renderer.methods.getCargoTablePrefix( self )
-        local out = self:_normaliseParameter( { ParameterTypes.STRING, Optional = true },
-            self.frame.args['tablePrefix'] )
-        if out == nil then
-            out = ''
-        else
-            out = out .. '_'
+    function Renderer.methods.getCargoTablePrefix( self, skip )
+        if skip then
+            return ''
         end
-        return out
+        if self._cargoTablePrefix == nil then
+            local out = self:getParameterDetached( { ParameterTypes.STRING, Optional = true }, 'tablePrefix' )
+
+            if out == nil and self.template.Parameters.game == ParameterTypes.GAME then
+                local game = self:getParameterDetached( ParameterTypes.GAME, 'game' )
+                if game ~= nil then
+                    out = ParameterTypes.GAME._CargoTablePrefixes[game]
+                end
+            end
+
+            if out ~= nil then
+                out = out .. '_'
+            else
+                out = ''
+            end
+
+            self._cargoTablePrefix = out
+        end
+        return self._cargoTablePrefix
     end
     function Renderer.methods.makeCargoTables( self )
         local out = {}
         
         for tableName, tableSpec in pairs( self.template.CargoSetup ) do
             local params = {
-                '_table=' .. self:getCargoTablePrefix() .. tableName,
+                '_table=' .. self:getCargoTablePrefix( tableSpec.Unprefixed ) .. tableName,
             }
 
             for index = 1, #tableSpec do
