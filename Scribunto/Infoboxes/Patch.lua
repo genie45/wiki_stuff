@@ -184,7 +184,7 @@ return Arkitecture.makeRenderer{
                 }
             end
 
-            return table.concat( icons )
+            return table.concat( icons, Arkitecture.Html.NonBreakingSpace )
         end
 
         error( 'Platform not recognised in _makePlatformIcons, someone did not update it when adding a platform: '

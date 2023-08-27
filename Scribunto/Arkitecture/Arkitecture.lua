@@ -164,6 +164,9 @@ local Html = {
     --- HTML new line (br element) as a string.
     NewLine = '<br/>',
 
+    Space = '&#32;',
+    NonBreakingSpace = '&nbsp;',
+
     --- Faster, but not extensible <small> tag generator.
     ---
     --- @see Html.Element
