@@ -101,6 +101,13 @@ local function Translatable( variants )
     return variants[LOCAL_TRANSLATABLE_KEY] or variants[1]
 end
 
+local function Date( date )
+    if not date or date == '' then
+        return ''
+    end
+    return mw.language.getContentLanguage():formatDate( 'M j, Y', date )
+end
+
 
 local Html = {
     ---
@@ -515,6 +522,7 @@ return {
 
     File = File,
     Link = Link,
+    Date = Date,
     HtmlElement = HtmlElement,
     Translatable = Translatable,
 
