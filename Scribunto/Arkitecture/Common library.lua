@@ -12,7 +12,8 @@ return {
             end
             return Html.Element{
                 tag = 'div',
-                classes = 'arkitect-item arkitect-row-layout arkitect-row-layout-40x60',
+                classes = 'arkitect-item arkitect-row-layout arkitect-row-layout-' .. ( ctx.instance.Dimensions
+                    or '40x60' ),
 
                 Html.Element{
                     tag = 'div',
