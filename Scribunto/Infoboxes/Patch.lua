@@ -160,10 +160,12 @@ return Arkitecture.makeRenderer{
     },
 
     _makePlatformIcons = function ( self, pInfo )
+        local width = 24
+
         if self.PLATFORM_ICONS[pInfo.platform] then
             return Arkitecture.File{
                 name = self.PLATFORM_ICONS[pInfo.package],
-                width = 20,
+                width = width,
                 link = false
             }
         end
@@ -173,7 +175,7 @@ return Arkitecture.makeRenderer{
             local icons = {
                 Arkitecture.File{
                     name = 'Steam.svg',
-                    width = 20,
+                    width = width,
                     link = false
                 }
             }
@@ -181,7 +183,7 @@ return Arkitecture.makeRenderer{
             if pInfo.major > 311 or ( pInfo.major == 311 and pInfo.minor >= 74 ) then
                 icons[#icons + 1] = Arkitecture.File{
                     name = 'Epic Games.svg',
-                    width = 20,
+                    width = width,
                     link = false
                 }
             end
@@ -189,7 +191,7 @@ return Arkitecture.makeRenderer{
             if pInfo.major > 678 or ( pInfo.major == 678 and pInfo.minor >= 10 ) then
                 icons[#icons + 1] = Arkitecture.File{
                     name = 'Stadia.svg',
-                    width = 20,
+                    width = width,
                     link = false
                 }
             end
