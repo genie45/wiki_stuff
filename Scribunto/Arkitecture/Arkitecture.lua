@@ -327,21 +327,26 @@ end )
             local unit = units[index]
 
             if unit ~= nil then
-                -- TODO: node sets that didn't produce any HTML still create units here. merge HTML streams when these
-                -- are implemented.
+                -- Render the nodes into a separate HTML list
+                local unitHtml = {}
+                self:_processNodeSet( unitHtml, unit )
 
-                -- Hotpath: avoid using HtmlElement to construct the unit container as it may be result in costly string
-                -- copies.
-                html[#html + 1] = '<div class="arkitect-unit">'
-                if unit.Caption then
-                    html[#html + 1] = HtmlElement{
-                        tag = 'div',
-                        classes = 'arkitect-unit-caption',
-                        unit.Caption
-                    }
+                if #unitHtml > 0 then
+                    -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
+                    -- be fairly cheap as strings are passed by reference in Lua.
+                    html[#html + 1] = '<div class="arkitect-unit">'
+                    if unit.Caption then
+                        html[#html + 1] = HtmlElement{
+                            tag = 'div',
+                            classes = 'arkitect-unit-caption',
+                            unit.Caption
+                        }
+                    end
+                    for jndex = 1, #unitHtml do
+                        html[#html + 1] = unitHtml[jndex]
+                    end
+                    html[#html + 1] = '</div>'
                 end
-                self:_processNodeSet( html, unit )
-                html[#html + 1] = '</div>'
             end
         end
 
