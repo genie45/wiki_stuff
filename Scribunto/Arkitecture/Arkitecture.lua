@@ -337,6 +337,10 @@ end )
         end
         return self._parameterCache[name]
     end
+    function Renderer.methods.getParameterDetached( self, config, name )
+        local value = self.frame.args[name] or self.parentFrame.args[name]
+        return self:_normaliseParameter( config, value )
+    end
     function Renderer.methods.registerComponent( self, name, interfaceImplementation )
         self.componentRegistry[name] = interfaceImplementation
     end
