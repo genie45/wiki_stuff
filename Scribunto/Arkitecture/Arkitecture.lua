@@ -76,6 +76,9 @@ local function File( spec )
         attrs[#attrs + 1] = 'alt=' .. ( spec.altText or '' )
     end
 
+    -- Normalise file name. This is rather slow.
+    spec.name = spec.name:gsub( '/sandbox', '' ):gsub( '[:/]', '_' ):gsub( '__', '_' )
+
     -- Choose a specialised format template and build the final element
     if #attrs == 0 then
         return string.format( '[[File:%s|%spx]]', spec.name, spec.width )
