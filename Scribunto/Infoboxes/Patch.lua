@@ -43,7 +43,7 @@ return Arkitecture.makeRenderer{
                         Value = true
                     },
                     Arkitecture.Html.NewLine,
-                    ctx.instance.Date,
+                    Arkitecture.Date( ctx.instance.Date ),
                 }
             end
         }
