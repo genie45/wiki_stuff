@@ -78,6 +78,9 @@
 }
 
 .arkitect-infobox-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 24px;
   text-align: center;
 }
@@ -113,6 +116,12 @@
 .arkitect-column-layout-33x33x33 > .arkitect-column {
   flex-basis: 33%;
   flex-grow: 1;
+}
+.arkitect-table-layout-unified > .arkitect-item {
+  display: contents;
+}
+.arkitect-table-layout-unified .arkitect-item-value {
+  grid-column: 1/-1;
 }
 
 .arkitect-corner-tl,

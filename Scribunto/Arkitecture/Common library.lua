@@ -30,7 +30,7 @@ return {
     },
 
     NamedDataTable3x2 = Arkitecture.Component{
-        _wrap = function ( self, item, labelClass, valueClass )
+        _wrapItem = function ( self, item, labelClass, valueClass )
             return Html.Element{
                 tag = 'div',
                 classes = 'arkitect-item',
@@ -53,15 +53,15 @@ return {
                 tag = 'div',
                 classes = 'arkitect-row arkitect-column-layout arkitect-columnlayout-33x33x33 arkitect-table-layout',
 
-                self:_wrap( ctx.instance[1], 'arkitect-corner-tl', 'arkitect-corner-bl' ),
-                self:_wrap( ctx.instance[2], '', '' ),
-                self:_wrap( ctx.instance[3], 'arkitect-corner-tr', 'arkitect-corner-br' ),
+                self:_wrapItem( ctx.instance[1], 'arkitect-corner-tl', 'arkitect-corner-bl' ),
+                self:_wrapItem( ctx.instance[2], '', '' ),
+                self:_wrapItem( ctx.instance[3], 'arkitect-corner-tr', 'arkitect-corner-br' ),
             }
         end
     },
 
     NamedDataTable2x2 = Arkitecture.Component{
-        _wrap = function ( self, item )
+        _wrapItem = function ( self, item )
             return Html.Element{
                 tag = 'div',
                 classes = 'arkitect-item',
@@ -80,12 +80,42 @@ return {
         end,
 
         render = function ( self, ctx )
+            -- Special layout for when both items have equal values.
+            if ctx.instance[1].Value == ctx.instance[2].Value then
+                return Html.Element{
+                    tag = 'div',
+                    classes = { 'arkitect-row arkitect-column-layout arkitect-column-layout-50x50',
+                                'arkitect-table-layout arkitect-table-layout-unified' },
+
+                    Html.Element{
+                        tag = 'div',
+                        classes = 'arkitect-item',
+        
+                        Html.Element{
+                            tag = 'div',
+                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-tl',
+                            ctx.instance[1].Name,
+                        },
+                        Html.Element{
+                            tag = 'div',
+                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-tr',
+                            ctx.instance[2].Name,
+                        },
+                        Html.Element{
+                            tag = 'div',
+                            classes = 'arkitect-item-value arkitect-cell arkitect-corner-b',
+                            ctx.instance[1].Value,
+                        },
+                    }
+                }
+            end
+
             return Html.Element{
                 tag = 'div',
                 classes = 'arkitect-row arkitect-column-layout arkitect-column-layout-50x50 arkitect-table-layout',
 
-                self:_wrap( ctx.instance[1] ),
-                self:_wrap( ctx.instance[2] ),
+                self:_wrapItem( ctx.instance[1] ),
+                self:_wrapItem( ctx.instance[2] ),
             }
         end
     },
