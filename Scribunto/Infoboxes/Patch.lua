@@ -206,9 +206,6 @@ return Arkitecture.makeRenderer{
     getSetup = function ( self, ctx )
         local pInfo = self:_packPatchInfo( ctx )
 
-        local clientDate = ctx:getParameter( 'client' )
-        local serverDate = ctx:getParameter( 'server' )
-
         return {
             {
                 {
@@ -220,30 +217,29 @@ return Arkitecture.makeRenderer{
                     LeftValue = self:_makePlatformIcons( pInfo ),
                     Name = string.format( '%d.%d', pInfo.major, pInfo.minor ),
                 },
-            },
-            {
                 {
                     Component = 'NamedDataRow',
-                    Name = Text.ITEM_TYPE,
+                    Dimensions = '25x75',
+                    Name = Text.ROW_TYPE,
                     Value = ( {
                         initial = Text.ROW_TYPE_INITIAL_RELEASE,
                         major = Text.ROW_TYPE_MAJOR,
                         minor = Text.ROW_TYPE_MINOR,
                     } )[ctx:getParameter( 'type' )],
-                }
+                },
             },
             {
                 Caption = Text.SECTION_AVAILABILITY,
                 Component = 'NamedDataTable2x2',
                 {
-                    Name = Text.SECTION_AVAILABILITY_ITEM_CLIENT,
+                    Name = Text.SECTION_AVAILABILITY_ROW_CLIENT,
                     Value = ctx:expandComponent{
                         Component = 'TargetCell',
                         Date = ctx:getParameter( 'client' )
                     },
                 },
                 {
-                    Name = Text.SECTION_AVAILABILITY_ITEM_SERVER,
+                    Name = Text.SECTION_AVAILABILITY_ROW_SERVER,
                     Value = ctx:expandComponent{
                         Component = 'TargetCell',
                         Date = ctx:getParameter( 'server' )
@@ -254,12 +250,12 @@ return Arkitecture.makeRenderer{
                 Caption = Text.SECTION_CHRONOLOGY,
                 {
                     Component = 'NamedDataRow',
-                    Name = Text.SECTION_CHRONOLOGY_ITEM_PREVIOUS,
+                    Name = Text.SECTION_CHRONOLOGY_ROW_PREVIOUS,
                     Value = Arkitecture.Link( ctx:getParameter( 'previous' ) ),
                 },
                 {
                     Component = 'NamedDataRow',
-                    Name = Text.SECTION_CHRONOLOGY_ITEM_NEXT,
+                    Name = Text.SECTION_CHRONOLOGY_ROW_NEXT,
                     Value = Arkitecture.Link( ctx:getParameter( 'next' ) ),
                 },
             },
