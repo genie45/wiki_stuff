@@ -156,4 +156,13 @@ function p.runCachedCargoQuery( cacheKey, options )
 end
 
 
+function p.redirectTemplateW( f )
+	local parentFrame = f:getParent()
+	return f:expandTemplate{
+		title = f.args['name'],
+		args = parentFrame.args,
+	}
+end
+
+
 return p
