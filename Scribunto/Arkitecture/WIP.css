@@ -1,13 +1,7 @@
-.arkitect {
-  --ark-arkitex-border-color: rgb(229, 229, 229);
-  --ark-arkitex-border-color--rgb: 229, 229, 229;
-}
-/* #region [[Module:Arkitecture]] */
 .arkitect, .arkitect * {
     box-sizing: border-box;
 }
 
-/* Full container */
 .arkitect {
     float: right;
     width: 29em;
@@ -27,15 +21,6 @@
   padding: 5px 8px;
   background: var(--ark-arkitex-right-color);
 }
-.arkitect-aligned-left {
-  text-align: left;
-}
-.arkitect-aligned-center {
-  text-align: center;
-}
-.arkitect-aligned-right {
-  text-align: right;
-}
 
 .arkitect-unit-caption {
   text-align: center;
@@ -48,12 +33,6 @@
 .arkitect-unit {
   padding: 0.5em 0.6em;
   border-bottom: 2px solid rgba(var(--ark-arkitex-border-color--rgb), 0.5);
-}
-
-.arkitect-component-creature-header > .arkitect-cell {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .arkitect-unit:last-child {
