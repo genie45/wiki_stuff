@@ -1925,8 +1925,8 @@ img.fpWideImage {
 
 /* #region [[Template:Ambox]] */
 .ambox {
-    max-width: 97%;
-    width: 80%;
+	max-width: 80%;
+	width: auto;
     border: 1px solid var(--ark-ambox-border-color);
     border-left-style: solid;
     border-left-width: 10px;
@@ -1969,6 +1969,9 @@ img.fpWideImage {
 }
 .ambox-orange {
     border-left-color: var(--ark-ambox-orange);
+}
+.ambox-contents p {
+  margin: 0.2em 0;
 }
 /* #endregion */
 
