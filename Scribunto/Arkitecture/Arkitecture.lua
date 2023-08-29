@@ -99,6 +99,20 @@ local function Link( spec )
 end
 
 
+local function JoinCategory( spec )
+    if type( spec ) == 'string' then
+        spec = { target = spec }
+    end
+    if spec == nil or spec.target == nil then
+        return ''
+    end
+    if spec.sortKey then
+        return string.format( '[[Category:%s|%s]]', spec.target, spec.sortKey )
+    end
+    return string.format( '[[Category:%s]]', spec.target )
+end
+
+
 local LOCAL_TRANSLATABLE_KEY = string.upper( mw.language.getContentLanguage():getCode() )
 local function Translatable( variants )
     return variants[LOCAL_TRANSLATABLE_KEY] or variants[1]

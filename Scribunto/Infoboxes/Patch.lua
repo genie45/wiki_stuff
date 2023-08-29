@@ -260,6 +260,7 @@ return Arkitecture.makeRenderer{
                 },
             },
 
+            Arkitecture.JoinCategory( Text.CATEGORY_CHANGELOG ),
             {
                 Component = 'NewCargoRow',
                 Table = 'Patch',

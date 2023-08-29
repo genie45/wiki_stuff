@@ -9,4 +9,6 @@ return {
     SECTION_CHRONOLOGY = 'Chronology',
         SECTION_CHRONOLOGY_ROW_PREVIOUS = 'Previous',
         SECTION_CHRONOLOGY_ROW_NEXT = 'Next',
+
+    CATEGORY_CHANGELOG = 'Changelog',
 }
