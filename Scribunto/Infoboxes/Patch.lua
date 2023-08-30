@@ -164,7 +164,7 @@ return Arkitecture.makeRenderer{
 
         if self.PLATFORM_ICONS[pInfo.platform] then
             return Arkitecture.File{
-                name = self.PLATFORM_ICONS[pInfo.package],
+                name = self.PLATFORM_ICONS[pInfo.platform],
                 width = width,
                 link = false
             }
