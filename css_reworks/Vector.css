@@ -2822,7 +2822,7 @@ div.photo-text {
 }
 
 .arkitect-game-bar {
-  border: 1px solid var(--ark-arkitex-border-color);
+  border: 1px solid rgba(var(--ark-arkitex-border-color--rgb), 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
