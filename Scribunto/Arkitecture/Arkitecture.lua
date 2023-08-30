@@ -370,7 +370,10 @@ end )
         for index = 1, #units do
             local unit = units[index]
 
-            if unit ~= nil then
+            if unit.SideEffect then
+                -- Render these nodes directly into output
+                self:_processNodeSet( html, unit )
+            elseif unit ~= nil then
                 -- Render the nodes into a separate HTML list
                 local unitHtml = {}
                 self:_processNodeSet( unitHtml, unit )
