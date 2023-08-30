@@ -175,6 +175,7 @@ html {
     --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
+    --sidenav-header-background--rgb: 229, 229, 229;
     --sidenav-header-text-color: #202020;
     --sidenav-background-color: #3d3e3d50;
     --sidenav-text-color: #fff;
@@ -233,6 +234,7 @@ html {
     /* Arkitexure */
 	--ark-arkitex-background-color: #535353;
     --ark-arkitex-border-color: var(--sidenav-header-background);
+    --ark-arkitex-border-color--rgb: var(--sidenav-header-background--rgb);
     --ark-arkitex-accent-color: lightgrey;
     --ark-arkitex-left-color: #3d3e3d;
     --ark-arkitex-right-color: #232821;
