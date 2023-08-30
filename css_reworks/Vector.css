@@ -2869,6 +2869,13 @@ div.photo-text {
 .arkitect-table-layout-unified .arkitect-item-value {
   grid-column: 1/-1;
 }
+.arkitect-table-layout > .arkitect-item {
+  display: flex;
+  flex-direction: column;
+}
+.arkitect-table-layout > .arkitect-item > .arkitect-item-value {
+  flex-grow: 1;
+}
 
 .arkitect-corner-tl,
 .arkitect-corner-t,
