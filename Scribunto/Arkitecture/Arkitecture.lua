@@ -575,6 +575,7 @@ return {
 
     File = File,
     Link = Link,
+    JoinCategory = JoinCategory,
     Date = Date,
     HtmlElement = HtmlElement,
     Translatable = Translatable,
