@@ -220,6 +220,9 @@ end )
     function RendererContext.methods.expandComponent( self, instance )
         return self.renderer:expandComponent( instance )
     end
+    function RendererContext.methods.getCargoTablePrefix( self, instance )
+        return self.renderer:getCargoTablePrefix( instance )
+    end
 
 
 local ComponentContext = Class( function ( self, renderer, instance )
