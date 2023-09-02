@@ -126,7 +126,7 @@ return Arkitecture.makeRenderer{
         -- TODO: forced chronology needs to be exported
         if not ctx:hasParameterValueUnchecked( 'previous' ) then
             local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
-                where = string.format( '( Major < %1$d ) OR ( Major = %1$d AND Minor < %2$d )', major, minor ),
+                where = string.format( '( Major < %d ) OR ( Major = %d AND Minor < %d )', major, major, minor ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) DESC, '
                     .. 'Major DESC, Minor DESC',
                 limit = 1
@@ -137,7 +137,7 @@ return Arkitecture.makeRenderer{
         end
         if not ctx:hasParameterValueUnchecked( 'next' ) then
             local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
-                where = string.format( '( Major > %1$d ) OR ( Major = %1$d AND Minor > %2$d )', major, minor ),
+                where = string.format( '( Major > %d ) OR ( Major = %d AND Minor > %d )', major, major, minor ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) ASC, '
                     .. 'Major ASC, Minor ASC',
                 limit = 1
