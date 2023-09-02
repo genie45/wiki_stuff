@@ -123,11 +123,9 @@ return Arkitecture.makeRenderer{
         end
 
         -- Fetch previous and next version from Cargo
-        -- TODO: Arkitecture needs hasParameterValueUnchecked
-        -- TODO: getCargoTablePrefix is not published to RendererContext
         -- TODO: forced chronology needs to be exported
-        if ctx:getParameter( 'previous' ) == nil then
-            local results = mw.ext.cargo.query( ctx.renderer.getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
+        if not ctx:hasParameterValueUnchecked( 'previous' ) then
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
                 where = string.format( '( Major < %1$d ) OR ( Major = %1$d AND Minor < %2$d )', major, minor ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) DESC, '
                     .. 'Major DESC, Minor DESC',
@@ -137,8 +135,8 @@ return Arkitecture.makeRenderer{
                 out.previous = string.format( '%d.%d', results[1].Major, results[1].Minor )
             end
         end
-        if ctx:getParameter( 'next' ) == nil then
-            local results = mw.ext.cargo.query( ctx.renderer.getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
+        if not ctx:hasParameterValueUnchecked( 'next' ) then
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
                 where = string.format( '( Major > %1$d ) OR ( Major = %1$d AND Minor > %2$d )', major, minor ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) ASC, '
                     .. 'Major ASC, Minor ASC',
