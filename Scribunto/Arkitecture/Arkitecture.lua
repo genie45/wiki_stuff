@@ -339,6 +339,8 @@ end )
         if value ~= nil then
             value = mw.ustring.trim( value )
             value = value ~= ''
+        else
+            value = false
         end
         return value
     end
