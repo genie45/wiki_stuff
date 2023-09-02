@@ -98,6 +98,12 @@ return Arkitecture.makeRenderer{
         next = ParameterTypes.GAME_VERSION,
     },
 
+    _makeVersionStringFromRecord = function ( self, record )
+        if record.Platform == 'PC' then
+            return string.format( '%d.%d', record.Major, record.Minor )
+        end
+        return string.format( '%s %d.%d', record.Platform, record.Major, record.Minor )
+    end,
 
     injectParameters = function ( self, ctx )
         local title = mw.title.getCurrentTitle().baseText
@@ -106,13 +112,14 @@ return Arkitecture.makeRenderer{
         if major == nil then
             major, minor = title:match( '(%d+)%.(%d+)' )
         end
+        platform = platform or 'PC'
 
         if major == nil or minor == nil then
             error( 'Titles of patch articles should follow either of these formats: "[.../]major.minor", "[.../]platform major.minor".' )
         end
 
         local out = {
-            platform = platform or 'PC',
+            platform = platform,
             major = major,
             minor = minor,
         }
@@ -125,25 +132,31 @@ return Arkitecture.makeRenderer{
         -- Fetch previous and next version from Cargo
         -- TODO: forced chronology needs to be exported
         if not ctx:hasParameterValueUnchecked( 'previous' ) then
-            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
-                where = string.format( '( Major < %d ) OR ( Major = %d AND Minor < %d )', major, major, minor ),
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
+                where = string.format(
+                    'Platform = \'%s\' AND ( ( Major < %d ) OR ( Major = %d AND Minor < %d ) )',
+                    platform, major, major, minor
+                ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) DESC, '
                     .. 'Major DESC, Minor DESC',
                 limit = 1
             } )
             if #results ~= 0 then
-                out.previous = string.format( '%d.%d', results[1].Major, results[1].Minor )
+                out.previous = self:_makeVersionStringFromRecord( results[1] )
             end
         end
         if not ctx:hasParameterValueUnchecked( 'next' ) then
-            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Major, Minor', {
-                where = string.format( '( Major > %d ) OR ( Major = %d AND Minor > %d )', major, major, minor ),
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
+                where = string.format(
+                    'Platform = \'%s\' AND ( ( Major > %d ) OR ( Major = %d AND Minor > %d ) )',
+                    platform, major, major, minor
+                ),
                 orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) ASC, '
                     .. 'Major ASC, Minor ASC',
                 limit = 1
             } )
             if #results ~= 0 then
-                out.next = string.format( '%d.%d', results[1].Major, results[1].Minor )
+                out.next = self:_makeVersionStringFromRecord( results[1] )
             end
         end
 
