@@ -171,7 +171,7 @@ return Arkitecture.makeRenderer{
     --- @field platform string
     --- |"'PC'"
     --- |"'Xbox'"
-    --- |"'PlayStation'"
+    --- |"'PS'"
     --- |"'Switch'"
     --- @field major integer
     --- @field minor integer
@@ -193,7 +193,7 @@ return Arkitecture.makeRenderer{
 
     PLATFORM_ICONS = {
         Xbox = 'Xbox One.svg',
-        PlayStation = 'PS.svg',
+        PS = 'PS.svg',
         Switch = 'Nintendo Switch.svg',
     },
 
