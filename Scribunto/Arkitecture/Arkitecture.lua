@@ -214,6 +214,9 @@ end )
     function RendererContext.methods.getParameter( self, name )
         return self.renderer:getParameter( name )
     end
+    function RendererContext.methods.hasParameterValueUnchecked( self, name )
+        return self.renderer:hasParameterValueUnchecked( name )
+    end
     function RendererContext.methods.expandComponent( self, instance )
         return self.renderer:expandComponent( instance )
     end
@@ -300,8 +303,6 @@ local Renderer = Class( function ( self )
         self.template.PrivateComponents = nil
     end
 end )
-    function Renderer.methods.loadParameters( self )
-    end
     function Renderer.methods._normaliseParameter( self, paramSpec, value )
         if value == nil then
             return paramSpec.Default
@@ -326,6 +327,16 @@ end )
             value = tonumber( value )
         end
 
+        return value
+    end
+    function Renderer.methods.hasParameterValueUnchecked( self, name )
+        -- Still expensive as we're accessing the argument value via frame, but skip normalisation, and unlike
+        -- getParameter this is NOT cached. Therefore this does not care about any mutations later on.
+        local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
+        if value ~= nil then
+            value = mw.ustring.trim( value )
+            value = value ~= ''
+        end
         return value
     end
     function Renderer.methods.getParameter( self, name )
