@@ -344,17 +344,24 @@ end )
         end
         return value
     end
+    function Renderer.methods._injectParameters( self, tbl )
+        if tbl ~= nil then
+            for name, value in pairs( tbl ) do
+                if name ~= '__NEXT' then
+                    self._parameterCache[name] = value
+                end
+            end
+            if tbl.__NEXT ~= nil then
+                self:_injectParameters( tbl.__NEXT() )
+            end
+        end
+    end
     function Renderer.methods.getParameter( self, name )
         if not self._parameterCacheKeySet[name] then
             if not self._parameterCache then
                 self._parameterCache = {}
                 if self.template.injectParameters then
-                    local injected = self.template:injectParameters( RendererContext( self ) )
-                    if injected ~= nil then
-                        for name, value in pairs( injected ) do
-                            self._parameterCache[name] = value
-                        end
-                    end
+                    self:_injectParameters( self.template:injectParameters( RendererContext( self ) ) )
                 end
             end
 
