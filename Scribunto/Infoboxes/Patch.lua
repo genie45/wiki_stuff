@@ -6,6 +6,22 @@ local ParameterConstraint = Arkitecture.ParameterConstraints
 local Text = require( 'Module:Infoboxes/Patch/strings' )
 
 
+-- TODO: publish via Module:Version
+local function parseVersion( str, defaultPlatform )
+    if str == nil then
+        return nil
+    end
+    local platform, major, minor = str:match( '(%w+) (%d+)%.(%d+)' )
+    if major == nil then
+        major, minor = str:match( '(%d+)%.(%d+)' )
+    end
+    if major == nil or minor == nil then
+        return nil
+    end
+    return platform or defaultPlatform or 'PC', major, minor
+end
+
+
 return Arkitecture.makeRenderer{
     RequiredLibraries = {
         'Module:Arkitecture/Common library',
@@ -107,15 +123,11 @@ return Arkitecture.makeRenderer{
 
     injectParameters = function ( self, ctx )
         local title = mw.title.getCurrentTitle().baseText
-
-        local platform, major, minor = title:match( '(%w+) (%d+)%.(%d+)' )
-        if major == nil then
-            major, minor = title:match( '(%d+)%.(%d+)' )
-        end
-        platform = platform or 'PC'
+        local platform, major, minor = parseVersion( title )
 
         if major == nil or minor == nil then
-            error( 'Titles of patch articles should follow either of these formats: "[.../]major.minor", "[.../]platform major.minor".' )
+            error( 'Titles of patch articles should follow either of these formats: "[.../]major.minor", '
+                .. '"[.../]platform major.minor".' )
         end
 
         local out = {
