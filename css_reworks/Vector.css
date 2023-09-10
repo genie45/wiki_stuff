@@ -2253,20 +2253,33 @@ div.photo-text {
 }
 
 /* #region [[Color IDs]]: table-like overview for better visibility and responsiveness */
-.color-ids-wrapper {
+ul.color-ids-list {
+    margin: 0;
     column-count: auto;
     column-width: 28em;
-}
-.color-ids-wrapper li {
     list-style: none;
-    background-color: #9d9d9d2b;
-    border: 1px solid black;
-    padding: 0.1em 1em 0.1em 1em;
-    text-align: center;
-    margin: 0;
 }
-.color-ids-wrapper ul {
-    margin: 0 0 0 1.6em ;
+.color-ids-list li {
+    border: 1px solid var(--content-border-color);
+    border-radius: 2px;
+    margin: 0 0 .2em;
+    padding: 0.15em 1em;
+    background-color: var(--ark-arkitex-background-color);
+    text-align: center;
+    break-inside: avoid-column;
+}
+.color-ids-list li > :first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.color-id-name {
+    font-weight: 600;
+    line-height: 1.25;
+}
+.color-id-notes {
+    text-align: left;
+    font-size: 90%;
 }
 /* #endregion */
 
