@@ -62,7 +62,24 @@ return Arkitecture.makeRenderer{
                     Arkitecture.Date( ctx.instance.Date ),
                 }
             end
-        }
+        },
+
+        FloatingNote = Arkitecture.Component{
+            render = function ( self, ctx )
+                if ctx.instance.Value == nil then
+                    return nil
+                end
+
+                return Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-note arkitect-row-layout arkitect-row-layout-25x75',
+                    Arkitecture.Html.Element{
+                        tag = 'p',
+                        ctx.instance.Value,
+                    }
+                }
+            end
+        },
     },
 
     CargoSetup = {
@@ -108,6 +125,14 @@ return Arkitecture.makeRenderer{
         },
         server = {
             ParameterTypes.DATE,
+            Optional = true,
+        },
+        clientNumber = {
+            ParameterTypes.STRING,
+            Optional = true,
+        },
+        nintendoVersion = {
+            ParameterTypes.STRING,
             Optional = true,
         },
         previous = ParameterTypes.GAME_VERSION,
@@ -279,12 +304,24 @@ return Arkitecture.makeRenderer{
                 {
                     Component = 'NamedDataRow',
                     Dimensions = '25x75',
+                    Name = Text.ROW_CLIENT_BUILD_NUMBER,
+                    Value = ctx:getParameter( 'clientNumber' ),
+                },
+                {
+                    Component = 'NamedDataRow',
+                    Dimensions = '25x75',
                     Name = Text.ROW_TYPE,
                     Value = ( {
                         initial = Text.ROW_TYPE_INITIAL_RELEASE,
                         major = Text.ROW_TYPE_MAJOR,
                         minor = Text.ROW_TYPE_MINOR,
                     } )[ctx:getParameter( 'type' )],
+                },
+                {
+                    Component = 'FloatingNote',
+                    Value = ctx:getParameter( 'nintendoVersion' )
+                        and string.format( Text.NOTE_NINTENDO_VERSION_F, ctx:getParameter( 'nintendoVersion' ) )
+                        or nil,
                 },
             },
             {
