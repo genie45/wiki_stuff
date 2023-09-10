@@ -2252,7 +2252,18 @@ div.photo-text {
     overflow: hidden;
 }
 
-/* #region [[Color IDs]]: table-like overview for better visibility and responsiveness */
+/* #region [[Template:CreatureColor]] */
+.color-pill {
+    display: inline-block;
+    min-width: 8em;
+    border: 1px black solid;
+    border-radius: 0.8em;
+    padding: 0 0.6em;
+    text-align: center;
+}
+/* #endregion */
+
+/* #region [[Color IDs]], [[Template:Color ID]]: table-like overview for better visibility and responsiveness */
 ul.color-ids-list {
     margin: 0;
     column-count: auto;
