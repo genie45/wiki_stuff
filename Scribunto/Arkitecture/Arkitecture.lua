@@ -337,7 +337,7 @@ end )
         -- getParameter this is NOT cached. Therefore this does not care about any mutations later on.
         local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
         if value ~= nil then
-            value = mw.ustring.trim( value )
+            value = mw.text.trim( value )
             value = value ~= ''
         else
             value = false
