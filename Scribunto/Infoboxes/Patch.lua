@@ -141,67 +141,46 @@ return Arkitecture.makeRenderer{
             out.server = ctx:getParameter( 'date' )
         end
 
+        -- Fetch previous and next version from Cargo
+        -- TODO: forced chronology needs to be exported
+        if not ctx:hasParameterValueUnchecked( 'previous' ) then
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
+                where = string.format(
+                    'Platform = \'%s\' AND ( ( Major < %d ) OR ( Major = %d AND Minor < %d ) )',
+                    platform, major, major, minor
+                ),
+                orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) DESC, '
+                    .. 'Major DESC, Minor DESC',
+                limit = 1
+            } )
+            if #results ~= 0 then
+                out.previous = self:_makeVersionStringFromRecord( results[1] )
+            end
+        end
+        if not ctx:hasParameterValueUnchecked( 'next' ) then
+            local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
+                where = string.format(
+                    'Platform = \'%s\' AND ( ( Major > %d ) OR ( Major = %d AND Minor > %d ) )',
+                    platform, major, major, minor
+                ),
+                orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) ASC, '
+                    .. 'Major ASC, Minor ASC',
+                limit = 1
+            } )
+            if #results ~= 0 then
+                out.next = self:_makeVersionStringFromRecord( results[1] )
+            end
+        end
+
         out.__NEXT = ( function ()
             local out = {}
-
-            -- Fetch previous and next version from Cargo
-            -- TODO: forced chronology needs to be exported
-            if not ctx:hasParameterValueUnchecked( 'previous' ) then
-                local primaryDateCond = string.format(
-                    'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) <= '
-                        .. ' GREATEST( \'%s\', \'%s\' )',
-                    ctx:getParameter( 'client' ) or '0',
-                    ctx:getParameter( 'server' ) or '0'
-                )
-                local secondNumberCond = string.format(
-                    '( Major < %d ) OR ( Major = %d AND Minor < %d )',
-                    major,
-                    major,
-                    minor
-                )
-                local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
-                    where = string.format(
-                        'Platform = \'%s\' AND ( ( %s ) OR ( %s ) )',
-                        platform,
-                        primaryDateCond,
-                        secondNumberCond
-                    ),
-                    orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) DESC, '
-                        .. 'Major DESC, Minor DESC',
-                    limit = 1
-                } )
-                if #results ~= 0 then
-                    out.previous = self:_makeVersionStringFromRecord( results[1] )
-                end
+            -- If not specified already, determine type
+            if not ctx:hasParameterValueUnchecked( 'type' ) then
+                local _, prevMajor, prevMinor = parseVersion( ctx:getParameter( 'previous' ), platform )
+                out.type = prevMajor == nil and 'initial'
+                    or prevMajor == major and 'minor'
+                    or 'major'
             end
-            if not ctx:hasParameterValueUnchecked( 'next' ) then
-                local results = mw.ext.cargo.query( ctx:getCargoTablePrefix() .. 'Patch', 'Platform, Major, Minor', {
-                    where = string.format(
-                        -- Require platform match. Require higher major, or equal major and higher minor.
-                        'Platform = \'%s\' AND ( ( Major > %d ) OR ( Major = %d AND Minor > %d ) )',
-                        platform, major, major, minor
-                    ),
-                    orderBy = 'GREATEST( COALESCE( ClientReleaseDate, 0 ), COALESCE( ServerReleaseDate, 0 ) ) ASC, '
-                        .. 'Major ASC, Minor ASC',
-                    limit = 1
-                } )
-                if #results ~= 0 then
-                    out.next = self:_makeVersionStringFromRecord( results[1] )
-                end
-            end
-
-            out.__NEXT = ( function ()
-                local out = {}
-                -- If not specified already, determine type
-                if not ctx:hasParameterValueUnchecked( 'type' ) then
-                    local _, prevMajor, prevMinor = parseVersion( ctx:getParameter( 'previous' ), platform )
-                    out.type = prevMajor == nil and 'initial'
-                        or prevMajor == major and 'minor'
-                        or 'major'
-                end
-                return out
-            end )
-
             return out
         end )
 
