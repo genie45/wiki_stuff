@@ -2833,6 +2833,16 @@ ul.color-ids-list {
     text-align: right;
 }
 
+.arkitect-note > p {
+    grid-column: 2;
+    text-align: right;
+    margin: .2em 0;
+}
+  
+.arkitect-note + .arkitect-note > p {
+    margin: 0 0 .2em;
+}
+
 .arkitect-row-layout + .arkitect-item {
   margin-top: 1px;
 }
