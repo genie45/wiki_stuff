@@ -2267,7 +2267,7 @@ div.photo-text {
 ul.color-ids-list {
     margin: 0;
     column-count: auto;
-    column-width: 28em;
+    column-width: 28.5em;
     list-style: none;
 }
 .color-ids-list li {
@@ -2283,10 +2283,12 @@ ul.color-ids-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3px;
 }
 .color-id-name {
     font-weight: 600;
     line-height: 1.25;
+    text-align: left;
 }
 .color-id-notes {
     text-align: left;
