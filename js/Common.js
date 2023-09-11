@@ -314,7 +314,7 @@ $(function() {
         }
         $('.copy-clipboard').each(function () {
             var $this = $(this);
-            var $button = $('<button title="'+I18n('ButtonTitle')+'">&#xf0ea;</button>');
+            var $button = $('<button title="'+I18n('ButtonTitle')+'"></button>');
             $this.append($button);
             $button.click(function () {
                 var $content = $this.find('.copy-content');

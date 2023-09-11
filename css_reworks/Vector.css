@@ -1631,6 +1631,9 @@ ul#filetoc {
     vertical-align: super;
     filter: var(--oo-ui-icon-filter--normal-progressive);
 }
+.copy-clipboard button:hover {
+    filter: var(--oo-ui-icon-filter--normal-progressive) brightness(120%);
+}
 /* #endregion */
 
 /* #region [[Template:Key]] */
