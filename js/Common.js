@@ -9,7 +9,7 @@
 window.arkCreateI18nInterface = function(module, strings) {
     var lang = mw.config.get('wgPageContentLanguage');
     var localStrings = window.arkLocalI18n && window.arkLocalI18n[module];
-    return function ( key ) {
+    return function (key) {
         return ( // try from local store
                  (localStrings && localStrings[key])
                  // try from script store
@@ -34,13 +34,13 @@ window.arkImportArticles = function ( articles ) {
         }
     } );
     if ( arkIsEnglishWiki ) {
-        mLocal.concat( mGlobal );
+        mLocal = mLocal.concat( mGlobal );
         mGlobal.length = 0;
     }
     // Load global modules
     if ( mGlobal.length ) {
-        mw.loader.load( '/load.php?lang=en&modules=' + mGlobal.join( '|' ) + '&skin=vector&version=ztntf'
-            + ( mw.config.get( 'debug' ) ? '&debug=1' : '' ) );
+        mw.loader.load( '/load.php?lang=en&modules=' + encodeURIComponent( mGlobal.join( '|' ) )
+        	+ '&skin=vector&version=ztntf' + ( mw.config.get( 'debug' ) ? '&debug=1' : '' ) );
     }
     // Load local modules
     if ( mLocal.length ) {
@@ -90,7 +90,7 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat( [
     // Common Data page fetch function if a wild stats calculator, spawn map or an interactive region map are present.
     // Separate request for cache efficiency (load once, not every time for a combination).
     { sel: [ '#wildStatCalc', '.data-map-container[data-spawn-data-page-name]', '.interactive-regionmap',
-        '.datamap-container-content', '.live-server-rates' ],
+        '.ext-datamaps-container-content', '.live-server-rates' ],
       pages: [ 'en:MediaWiki:DataFetch.js' ] },
     // Official server rates module
     { sel: '.live-server-rates',
@@ -104,11 +104,11 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat( [
     // Legacy data map scripts
     { sel: '.data-map-container',
       pages: [ 'en:MediaWiki:TemplateResourceMap.css', 'en:MediaWiki:ResourceMaps.js', 'en:MediaWiki:SpawnMaps.js' ] },
-    // Load ext.ark.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
-    { sel: '.datamap-container-content',
+    // Load ext.datamaps.site from EN wiki (this needs to be two separate requests or the backend hates it, *yuck*)
+    { sel: '.ext-datamaps-container-content',
       pages: [ 'en:MediaWiki:DataMaps.js' ],
       cond: !arkIsEnglishWiki },
-    { sel: '.datamap-container-content',
+    { sel: '.ext-datamaps-container-content',
       pages: [ 'en:MediaWiki:DataMaps.css' ],
       cond: !arkIsEnglishWiki }
 ] );
@@ -137,13 +137,53 @@ if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
 // #region Restore sidebar state
 var SIDEBAR_HIDDEN_CLASS = 'is-sidebar-hidden';
 if ( localStorage.getItem( SIDEBAR_HIDDEN_CLASS ) == '1' ) {
-    document.body.classList.add( SIDEBAR_HIDDEN_CLASS );
+    document.documentElement.classList.add( SIDEBAR_HIDDEN_CLASS );
 }
 // #endregion
 
 
 /* Fires when DOM is ready */
-$(function(){
+$(function() {
+    ( function () {
+        if ( mw.config.get( 'wgIsArticle' )
+            && mw.config.get( 'wgContentNamespaces' ).indexOf( mw.config.get( 'wgNamespaceNumber' ) ) >= 0 ) {
+            var ogImage = document.querySelector( 'meta[property="og:image"]' );
+            var script = document.createElement('script');
+            script.type = "application/ld+json";
+            script.innerHTML = JSON.stringify( {
+                "@context": "http://www.schema.org",
+                "@type": "Article",
+                name: mw.config.get( 'wgTitle' ),
+                headline: mw.config.get( 'wgTitle' ),
+                image: {
+                    "@type": "ImageObject",
+                    url: ogImage ? ogImage.getAttribute( 'content' ) : "https://ark.wiki.gg/images/e/e6/Site-logo.png?5b2cf"
+                },
+                author: {
+                    "@type": "Organization",
+                    name: 'Contributors to the ' + mw.config.get( 'wgSiteName' ),
+                    url: mw.config.get( 'wgServer' )
+                },
+                publisher: {
+                    "@type": "Organization",
+                    name: mw.config.get( 'wgSiteName' ),
+                    url: mw.config.get( 'wgServer' ),
+                    logo: {
+                        "@type": "ImageObject",
+                        url: "https://ark.wiki.gg/images/e/e6/Site-logo.png?5b2cf"
+                    }
+                },
+                potentialAction: {
+                    "@type": "SearchAction",
+                    target: mw.config.get( 'wgServer' ) + "/wiki/Special:Search?search={search_term}",
+                    "query-input": "required name=search_term"
+                },
+                mainEntityOfPage: mw.config.get( 'wgPageName' )
+            } );
+            document.body.appendChild( script );
+        }
+    } )();
+
     // #region Make sidebar sections collapsible
     $("#mw-panel .portal").each(function(index, el){
         var $el = $(el);
@@ -179,20 +219,19 @@ $(function(){
         $( '<div id="nav-sidebar-toggle">' )
 	        .prependTo( '#left-navigation' )
 	        .on( 'click', function () {
-		        $( 'body' ).toggleClass( SIDEBAR_HIDDEN_CLASS );
+		        document.documentElement.classList.toggle( SIDEBAR_HIDDEN_CLASS );
                 localStorage.setItem( SIDEBAR_HIDDEN_CLASS, $( 'body' ).hasClass( SIDEBAR_HIDDEN_CLASS ) ? '1' : '0' );
 	        } );
     } )();
     // #endregion
-
-    // #region Site notice for browser extension
-    ( function () {
-	    mw.config.values.wgSiteNoticeId = 2;
-    	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
-    	var snContent = 'We\'ve launched a browser extension that redirects from the old wiki to help you switch:<br/>'
-    		+ '<b>Get it for:</b> <a rel="nofollow" class="external text" href="https://chrome.google.com/webstore/detail/ark-wiki-redirection/ohdjjkijdejbbalchmpllknbelokjndh">Chrome/Brave</a> | <a rel="nofollow" class="external text" href="https://microsoftedge.microsoft.com/addons/detail/ark-wiki-redirection/objomcigdogggikehlnhdjbhldkheeoc">Edge</a> | <a rel="nofollow" class="external text" href="https://addons.mozilla.org/en-GB/firefox/addon/ark-wiki-redirection/">Firefox</a> | Opera (soon)';
-    	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
-    } )();
+    
+    // #region Dynamic 1.39 upgrade site notice
+    //( function () {
+	//    mw.config.values.wgSiteNoticeId = 3;
+    //	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
+    //	var snContent = 'A wiki platform update is currently being finished.';
+    //	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
+    //} )();
     // #endregion
 
     // #region Interwiki dropdown
@@ -356,7 +395,7 @@ $(function(){
     // #endregion
 
     // #region Translation banners
-    if ( arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
+    if ( false && arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
         var prefLanguage = ( navigator.languages ? navigator.languages[0] : ( navigator.language || navigator.userLanguage ) )
             .toLowerCase().substr( 0, 2 );
         var bannerText = ( {
@@ -382,10 +421,20 @@ $(function(){
         }
     }
     // #endregion
+    // #region add a link button to headings
+    $( function () {
+	    document.querySelectorAll( 'span.mw-headline[ id ]' ).forEach( function ( headingEl ) {
+	        var anchorEl = document.createElement( 'a' );
+	        anchorEl.href = '#' + mw.util.escapeIdForLink( headingEl.id );
+	        anchorEl.title = 'Get a link to this section';
+	        anchorEl.className = 'section-link';
+	        headingEl.parentElement.appendChild( anchorEl );
+	    } );
+	} );
+	// #endregion heading link button
 });
 /* End DOM ready */
 
 
 // Signal to other modules that English site module has been loaded
 mw.loader.state( { 'en:site': 'ready' } );
-mw.loader.state( { 'site.arkCore': 'ready' } );

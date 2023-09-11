@@ -1621,12 +1621,15 @@ ul#filetoc {
 
 /* #region Copy to clipboard */
 .copy-clipboard button {
-    padding: 0 0 0 1em;
+    padding: 0;
+    margin-left: 0.3em;
     border: none;
-    background: none;
     cursor: pointer;
-    font-family: FontAwesome;
-    color: #fff;
+    background: url("data:image/svg+xml,%3Csvg width='18' height='18' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2h8v2h2V2c0-1.1-.895-2-2-2H2C.9 0 0 .895 0 2v8c0 1.1.895 2 2 2h2v-2H2Z'/%3E%3Cpath d='M8 8h8v8H8Zm0-2c-1.1 0-2 .895-2 2v8c0 1.1.895 2 2 2h8c1.1 0 2-.895 2-2V8c0-1.1-.895-2-2-2Z'/%3E%3C/svg%3E%0A") center/contain no-repeat;
+    width: 1em;
+    height: 1em;
+    vertical-align: super;
+    filter: var(--oo-ui-icon-filter--normal-progressive);
 }
 /* #endregion */
 
