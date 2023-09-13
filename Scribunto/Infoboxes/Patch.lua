@@ -271,8 +271,9 @@ return Arkitecture.makeRenderer{
                     link = false
                 }
             end
-            -- Stadia, at or after 678.10
-            if pInfo.major > 678 or ( pInfo.major == 678 and pInfo.minor >= 10 ) then
+            -- Stadia, at 678 or after 337, but before 355.16 (January 18th, 2022)
+            if pInfo.major == 678 or ( pInfo.major > 337 and not ( pInfo.major > 355 or pInfo.major == 355
+                and pInfo.minor >= 16  ) ) then
                 icons[#icons + 1] = Arkitecture.File{
                     name = 'Stadia.svg',
                     width = width,
