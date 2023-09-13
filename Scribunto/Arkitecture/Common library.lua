@@ -93,12 +93,12 @@ return {
         
                         Html.Element{
                             tag = 'div',
-                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-tl',
+                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-t',
                             ctx.instance[1].Name,
                         },
                         Html.Element{
                             tag = 'div',
-                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-tr',
+                            classes = 'arkitect-item-label arkitect-cell arkitect-corner-t',
                             ctx.instance[2].Name,
                         },
                         Html.Element{
