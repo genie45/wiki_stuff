@@ -352,6 +352,16 @@ $(function() {
     } );
     // #endregion
 
+    // #region Arkitecture - collapsible sections
+    document.querySelectorAll( '[data-arkitecture-collapsible]' ).forEach( function ( sectionElement ) {
+        var captionElement = sectionElement.children[ 0 ];
+        sectionElement.classList.add( 'arkitect-is-collapsible' );
+        captionElement.addEventListener( 'click', function () {
+            sectionElement.classList.toggle( 'arkitect-is-collapsed' );
+        } );
+    } );
+    // #endregion
+
     // #region Element animator - cycles through a set of elements on a timer (modified from minecraft.gamepedia.com)
     // Add the "animated" class to the frame containing the elements to animate.
     // Optionally, add the "animated-active" class to the frame to display first.
