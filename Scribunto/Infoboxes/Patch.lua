@@ -244,7 +244,7 @@ return Arkitecture.makeRenderer{
     },
 
     _makePlatformIcons = function ( self, pInfo )
-        local width = 24
+        local width = 22
 
         if self.PLATFORM_ICONS[pInfo.platform] then
             return Arkitecture.File{
