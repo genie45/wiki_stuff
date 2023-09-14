@@ -22,32 +22,25 @@
 }
 /* #endregion */  
 
-.datamap-container {
+.ext-datamaps-container {
     background: var(--datamaps-container-background-color);
 }
-.datamap-container-top {
-    background: var(--datamaps-container-top-background-color);
-}
-.datamap-container .oo-ui-tabSelectWidget-framed {
-    background: rgba(var(--datamaps-container-select-background--rgb), 0.4);
-    box-shadow: none;
-}
-.datamap-container .datamap-container-content .datamap-container-legend {
-    background-color: var(--datamaps-container-legend-background-color);
-}
-.datamap-holder.leaflet-container {
+.ext-datamaps-container-leaflet.leaflet-container {
     background: #0b0b0b4d;
 }
-.datamap-holder .leaflet-popup-content-wrapper, .datamap-holder .leaflet-popup-tip {
+.ext-datamaps-container .leaflet-popup-content-wrapper, .ext-datamaps-container .leaflet-popup-tip {
     background: var(--datamaps-popup-background-color);
     color: var(--datamaps-popup-text-color);
 }
-.datamap-holder .datamap-popup .datamap-popup-coordinates {
+.ext-datamaps-container-leaflet .datamap-popup .datamap-popup-location {
     color: inherit;
     opacity: 0.8;
 }
-.datamap-container .leaflet-marker-icon {
+.ext-datamaps-container .leaflet-marker-icon {
     filter: drop-shadow(0 0 2px #fff);
+}
+.ext-datamaps-control-expandable .oo-ui-iconElement {
+    filter: none;
 }
 .leaflet-container a {
     color: var(--datamaps-popup-text-link-color)
@@ -55,18 +48,12 @@
 .leaflet-control {
     color: #000;
 }
-.datamap-container .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
-    background: var(--datamaps-container-legend-selected-background-color);
-    color: inherit;
-}
-.datamap-container .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
-    border-bottom-color: transparent;
-}
-.datamap-container .datamap-popup-subtitle {
+.ext-datamaps-container .datamap-popup .datamap-popup-subtitle {
     color: var(--datamaps-popup-subtitle-text-color);
 }
-.datamap-marker-link-button {
-    filter: invert(1) brightness(55%)
+.ext-datamaps-popup-link,
+.leaflet-container .leaflet-popup-close-button{
+    filter: invert(1) brightness(55%);
 }
 .map-notice ~ .tabber .tabber__tab {
     padding: 0.7em 1em;
@@ -98,19 +85,13 @@
     flex-wrap: wrap;
     padding: 3px 4px;
 }
-.datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-labelElement, .datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline {
+.datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-labelElement,
+.datamap-csm-rarities .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline {
     margin-top: 0;
 }
 .datamap-csm-rarities .oo-ui-fieldLayout {
     font-size: 94%
 }
-.datamap-container-legend,
-.datamap-container-legend > .oo-ui-menuLayout,
-.datamap-container-legend > .oo-ui-menuLayout > .oo-ui-menuLayout-content > .oo-ui-layout {
-    display: flex;
-    flex-direction: column;
-}
-.datamap-container-legend .oo-ui-indexLayout-stackLayout { height: 100% }
 .datamap-csm-groups .oo-ui-panelLayout-padded { padding: 6px 7px }
 .datamap-csm-groups > .oo-ui-panelLayout-padded.oo-ui-panelLayout-framed { margin: 6px 0; padding: 6px 7px }
 .datamap-csm-groups > .oo-ui-layout > ul { margin: 4px 0 -6px; list-style: none }
@@ -118,10 +99,6 @@
 .datamap-csm-groups > .oo-ui-layout > .oo-ui-fieldLayout .oo-ui-labelElement-label { font-weight: 500 }
 .datamap-csm-groups .is-detail { display: none }
 .datamap-csm-legend.with-details .is-detail { display: block }
-.datamap-container-legend > .oo-ui-menuLayout,
-.datamap-container-legend > .oo-ui-menuLayout > .oo-ui-menuLayout-content {
-    flex-grow: 1;
-}
 .datamap-csm-legend .csm-is-hidden ul { display: none; }
 .datamap-csm-legend > .oo-ui-comboBoxInputWidget { margin-top: 4px; }
 .datamap-csm-groups ul ul { font-size: 95%; }
@@ -131,4 +108,26 @@
 .oo-ui-csm-last-matched-item {
     border-bottom: 2px double #0003;
     margin-bottom: 0.3em;
+}
+
+.datamap-explorer-note-id {
+	opacity: 0.4;
+}
+
+/* adjustments for dark theme */
+html[class*="theme-dark"] .ext-datamaps-control-expandable {
+    background: #222;
+}
+
+html[class*="theme-dark"] .leaflet-control {
+	background-color: #444;
+    color: #eaecf0;
+}
+
+html[class*="theme-dark"] .leaflet-bar button {
+    color: #eaecf0;
+}
+
+html[class*="theme-dark"] .leaflet-bar button:hover, html[class*="theme-dark"] .leaflet-bar button:focus {
+	background-color: #757575;
 }
