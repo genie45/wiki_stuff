@@ -19,18 +19,25 @@ end
 
 
 local function queryColorTable( tablePrefix )
-    return Utility.runCachedCargoQuery( 'ColorTable_' .. tablePrefix, {
+    local results = Utility.runCachedCargoQuery( 'ColorTable_' .. tablePrefix, {
         tableName = tablePrefix .. '_Colors',
         fields = 'Id, Name, sRGB',
+        expiryTime = 60 * 60 * 8,
         options = {
             orderBy = 'Id ASC',
         },
     } )
+    for index = 1, #results do
+    	results[index].Id = tonumber( results[index].Id )
+   	end
+   	return results
 end
 
 
 local function findRecord( records, needle )
-    if type( needle ) == 'string' then
+    if tonumber( needle ) ~= nil then
+        needle = tonumber( needle )
+    elseif type( needle ) == 'string' then
         needle = string.lower( needle )
     end
 
@@ -41,7 +48,7 @@ local function findRecord( records, needle )
         if type( needle ) == 'number' then
             compared = record.Id
         else
-            compared = string.lower( needle )
+            compared = string.lower( record.Name )
         end
 
 		if compared == needle then
@@ -56,27 +63,36 @@ end
 local function selectSubset( records, needles )
     local out = {}
     local needleMap = {}
+    local expectedCount = 0
 
     for index = 1, #needles do
         local needle = needles[index]
-        if type( needle ) == 'string' then
+        if tonumber( needle ) ~= nil then
+            needle = tonumber( needle )
+        elseif type( needle ) == 'string' then
             needle = mw.text.trim( string.lower( needle ) )
         end
         
-        needleMap[needle] = true
+        if needle ~= '' and needleMap[needle] == nil then
+	        needleMap[needle] = true
+    	    expectedCount = expectedCount + 1
+    	end
     end
 
     for index = 1, #records do
         local record = records[index]
-        local compared
-
         if needleMap[record.Id] or needleMap[string.lower( record.Name )] then
             out[#out + 1] = record
         end
     end
 
-    if #needles ~= #out then
-        error( 'One or more requested colours had not been found in the table' )
+    if expectedCount ~= #out then
+        --error( 'One or more requested colours had not been found in the table' )
+        out[#out + 1] = {
+        	Id = 0,
+        	Name = 'Unset',
+        	sRGB = '00000000'
+        }
     end
 
 	return out
@@ -119,14 +135,16 @@ return {
         return selectTextColor( parseRgbHex( frame.args[1] ) )
     end,
 
-    makeColoredSquaresW = function ( frame )
-        local colors = mw.text.split( frame.args[1], ',', true )
-        local records = selectSubset( queryColorTable( 'ASE' ), colors )
-        return makeColoredSquares( records )
+    queryW = function ( frame )
+        local record = findRecord( queryColorTable( 'ASE' ), frame.args[1] )
+        if record == nil then
+            error( 'Color not found: ' .. frame.args[1] )
+        end
+        return record[frame.args[2]]        
     end,
 
-    colors = function ( frame )
-        local colors = mw.text.split( frame:getParent().args[1], ',', true )
+    makeColoredSquaresW = function ( frame )
+        local colors = mw.text.split( frame.args[1], ',', true )
         local records = selectSubset( queryColorTable( 'ASE' ), colors )
         return makeColoredSquares( records )
     end,
