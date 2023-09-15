@@ -48,6 +48,8 @@
     --content-navigation-height: 50px;
     --content-navigation-top-offset: 43px;
     --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
+    /* Frontpage */
+    --fp-gap: 0.9rem;
     /* Sticky header */
     --sticky-header-height: 50px;
     --sticky-search-border-radius: 4px;
@@ -1707,11 +1709,6 @@ ul#filetoc {
 /* #endregion */
 
 /* #region Front page */
-.fpmain {
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-}
 #fp-container, #fp-container * {
     box-sizing: border-box;
 }
@@ -1720,7 +1717,7 @@ ul#filetoc {
     display: grid;
     grid-template-areas: "a" "b" "c" "d" "e";
     grid-template-columns: 1fr;
-    column-gap: 10px;
+    gap: var(--fp-gap);
 }
 @media screen and (min-width: 990px) {
     #fp-container {
@@ -1730,143 +1727,139 @@ ul#filetoc {
 }
 @media screen and (min-width: 1350px) {
     #fp-container {
-        grid-template-areas: "a a a" "b c d" "e c d";
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-areas:
+            "a a a"
+            "b b e"
+            "c c e"
+            "x x e"
+            "x x g"
+            "x x j"
+            "y z j"
+            "y z j"
+            "d d d"
+            "d d d";
+        grid-template-columns: repeat(2, minmax(0, 1fr)) minmax(0, 0.9fr);
     }
 }
-#fpwelcome { grid-area: a; }
-#fp-1 { grid-area: b; }
-#fp-2 { grid-area: c; }
-#fp-3 { grid-area: d; }
+/* Area distribution */
+#fp-1 { grid-area: a; }
+#fp-2 { grid-area: b; }
+#fp-3 { grid-area: c; }
 #fp-4 { grid-area: e; }
-
-.fp-section {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.fp3col {
-    display: flex;
-    flex-flow: row wrap;
-}
-.fp3col > div {
-    flex: 1 0 33%;
-    min-width: 10em;
-}
+#fp-5 { grid-area: d; }
+#fp-7 { grid-area: g; }
+#fp-8 { grid-area: j; }
+#fp-9 { grid-area: i; }
+#fp-97 { grid-area: x; }
+#fp-98 { grid-area: y; }
+#fp-99 { grid-area: z; }
 
 /* [[Template:FP heading] */
 .fpheading {
+    max-width: 20em;
     border-bottom: 3px solid var(--fp-heading-border-color);
-    border-image: linear-gradient(to right, transparent 1%, var(--fp-heading-border-color) 15%, var(--fp-heading-border-color) 85%, transparent 99%) 1;
+    border-image: linear-gradient(to right,
+                                  transparent 1%,
+                                  var(--fp-heading-border-color) 15%,
+                                  var(--fp-heading-border-color) 85%,
+                                  transparent 99%) 1;
     border-radius: 0.3em;
     text-align: center;
     color: var(--fp-heading-text-color);
-    font-size: 130%;
-    margin-bottom: 5px;
-    padding: 2px;
-    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin: 0 auto 0.35em;
+    padding: 0 2px 2px;
+}
+#fp-welcome > .fpheading {
+    grid-area: aa;
+    max-width: 60em;
+    justify-self: center;
+    font-size: 1.35rem;
+    margin-bottom: 0.15em;
+    color: var(--fp-box-mainheading-text-color);
 }
 /* Boxes */
-.fpbox {
+.fp-section {
     width: 100%;
     border: 1px solid var(--fp-box-border-color);
     box-shadow: 0 2px 5px var(--fp-box-shadow-color);
     background: var(--fp-box-background-color);
     color: var(--content-text-color);
-    margin: 5px 0;
     padding: 8px 1.25em;
     border-radius: 2px;
-    box-sizing: border-box;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000018;
 }
-.fp-section > .fpbox:last-child {
-    flex-grow: 1;
-}
-.fpbox.plain {
+.fp-section.plain {
     border: none;
     box-shadow: none;
     background: transparent;
     padding: 6px 10px;
 }
-.fpbox .mainheading {
-    border: none;
-    border-bottom: 1px solid var(--fp-box-mainheading-border-color);
-    color: var(--fp-box-mainheading-text-color);
-    font-size: 150%;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    padding: 0 0 5px 0;
-    overflow: auto;
+.fp-block {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(30%, 400px);
+    /*grid-template-rows: max-content;*/
+    gap: 0 var(--fp-gap);
 }
-.fpbox .heading {
-    border: none;
-    border-bottom: 1px solid var(--fp-box-heading-border-color);
-    color: var(--fp-box-heading-text-color);
-    font-size: 132%;
-    margin: 0 0 10px 0;
-    padding: 0 0 5px 0;
-    overflow: auto;
+.fp-tone-2 {
+    background: rgb(26, 32, 34);
+    border-color: rgb(84, 112, 118);
 }
-.fpmain .columns .leftcol {
-    width: 100%;
+/* Utility */
+.fp-centred {
+    text-align: center;
+}
+.fp-col3 {
+    display: block;
+    columns: 160px 3;
     margin: 0;
-    padding: 0;
+    list-style: none;
 }
-.fpmain .columns .rightcol {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.fpbox .fpbody > ul {
-    margin-left: 0;
-}
-
 /* Welcome box */
-#fpwelcome {
-    display: flex;
+#fp-welcome { 
+    display: grid;
+    grid-template-areas:
+      "aa ad" 
+      "ac ad";
+    grid-template-columns: 3fr 2fr;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
-#fpwelcometext {
+#fp-welcome-text {
+    grid-area: ac;
     text-align: center;
     padding: 8px 5px 8px 0;
-    max-width: 650px;
-    flex: 1 1 650px;
 }
-@media screen and (min-width: 2040px) {
-    #fpwelcometext {
-        max-width: 850px;
-    }
-}
-#fpsociallinks,
-#fpplatformlinks {
-    flex: 1 1;
-    max-width: 900px;
-    width: 100%;
-    max-width: max-content;
-}
-#fpsociallinks {
-    padding: 8px 7px 8px 0;
-    flex-basis: 270px;
-}
-#fpplatformlinks {
-    padding: 8px 0;
-    flex-basis: 435px;
+#fp-community {
+    grid-area: ad;
 }
 
-@media screen and (max-width: 1375px) {
-    #fpwelcome {
-        justify-content: center;
-    }
+/* Better alignment for DLCs (less wasteful), headings have a hefty margin that looks OK with text but not tabbers */
+#fp-dlcs {
+    margin-top: -0.5em;
 }
 
-/* Welcome box links */
-#fpsociallinks {
-    padding-right: 1em;
+/* #region Quick game basics */
+ul.fp-labelled-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em 0.5em;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
 }
-#fpsociallinks .fp-icon-flex {
-    margin: 0 4px;
+.fp-labelled-icons li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background: var(--ark-arkitex-background-color);
+    border: 2px solid var(--content-default-link-color);
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    font-size: 110%;
 }
+/* #endregion */
+
+/* #region Icon containers */
 .fp-icon-container {
     display: flex;
     justify-content: center;
@@ -1884,6 +1877,22 @@ ul#filetoc {
 .fp-icon-flex * {
     vertical-align: middle;
 }
+/* Socials */
+#fp-socials .fp-icon-flex {
+    margin: 0 4px;
+}
+/* Platform icon styling */
+#fp-platform-links .fp-icon-container {
+    justify-content: flex-start;
+}
+#fp-platform-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#fp-platform-links p {
+    margin-bottom: 0.1em;
+}
 .fp-icon-flex > div {
     margin-left: 4px;
 }
@@ -1897,37 +1906,7 @@ ul#filetoc {
     margin-top: 3px;
     font-size: 1.125em;
 }
-
-/* Other */
-.fpimagelist ul {
-    list-style-type: none;
-    list-style-image: none;
-}
-
-.fpvideos {
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-}
-
-.fpvideo {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-img.fpWideImage {
-    max-width: 100%;
-    height: auto;
-}
-/* Hide paragraphs with only a line break after a box */
-.fpbox + p > br { display: none; }
-/* Force minimum height for the Twitter feed */
-#fptweets .twitter-timeline.twitter-timeline-rendered {
-    width: 100% !important;
-}
-#fptweets .fpbody {
-    min-height: 400px;
-}
+/* #endregion */
 /* #endregion */
 
 /* #region [[Template:Ambox]] */
