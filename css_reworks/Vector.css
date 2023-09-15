@@ -3685,17 +3685,18 @@ table.status-effect-backg {
     display: block;
     position: fixed;
     left: calc(50% + var(--sidebar-width) / 2);
-    width: 60vw;
+    width: 65vw;
     max-width: 650px;
     transform: translateX(-50%);
     z-index: 20;
     bottom: 50px;
     border-radius: 8px;
-    padding: 1.7em 1.5em;
+    padding: 1.8em 1.2em;
     font-size: 105%;
     box-sizing: border-box;
-    background: #171717 right center / contain no-repeat;
-    box-shadow: 0 3px 12px 0 #0000004a;
+    background: var(--banner-image) #171717 left/cover no-repeat;
+    box-shadow: -1px 0 8px 0 #0000005a;
+    opacity: 0.95;
 }
 .translation-banner-dismiss {
     position: absolute;
@@ -3703,8 +3704,8 @@ table.status-effect-backg {
     right: 4px;
     font-size: 80%;
 }
-.translation-banner[lang=fr] {
-    background-image: url(https://cdn.discordapp.com/attachments/788207682598731786/1016798660266307696/unknown.png);
+.translation-banner[lang="fr"] {
+    --banner-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1152069645784842341/fr_baked.jpg);
 }
 /* #endregion */
 
