@@ -35,11 +35,11 @@ local function getIdBasedItemCommand( identifier )
 end
 
 
-local function makeCommandSet (isEntity, blueprintPath, entityClassName, shortItemName, tekgramBP, itemId)
+local function makeCommandSet( isEntity, blueprintPath, shortItemName, tekgramBP, itemId )
 	local OR = '<br/><b>or</b><br/>'
 	
 	local commands = ''
-	local canShowSummon = isEntity and entityClassName ~= nil
+	local canShowSummon = isEntity and blueprintPath ~= nil
 	local canShowGFI = not isEntity and shortItemName ~= nil
 	
 	-- ID-based item command
@@ -52,7 +52,8 @@ local function makeCommandSet (isEntity, blueprintPath, entityClassName, shortIt
 	
 	-- Loose, short commands
 	if canShowSummon then
-		commands = commands .. copyClipboard(getExampleShortCommand(true, entityClassName))
+		commands = commands .. copyClipboard( getExampleShortCommand( true, Utility.getBlueprintClassName(
+            blueprintPath, true ) ) )
 	elseif canShowGFI then
 		commands = commands .. copyClipboard(getExampleShortCommand(false, shortItemName))
 	end
@@ -85,6 +86,54 @@ local function guardStringArgument( args, name )
 		end
 	end
 	return v
+end
+
+
+---
+--- @class Spawnable
+--- @field name string
+--- @field blueprintPath ?string
+--- @field short ?string
+--- @field itemId ?number
+--- @field tekgram ?string
+--- @field note ?string
+---
+
+
+local ClassType = {
+    ITEM = 0,
+    ENTITY = 1,
+}
+p.ClassType = ClassType
+
+
+function p.makeUnwrapped( metaClassType, targets, isFirstBase )
+    if #targets == 0 then
+        return nil
+    end
+
+    local html = {}
+    local isEntity = metaClassType == ClassType.ENTITY
+
+    for index = 1, #targets do
+        local target = targets[index]
+
+        if not ( isFirstBase and index == 1 ) then
+            html[#html + 1] = '<span style="font-size:1.1em;font-weight:bold;">Variant ' .. target.name .. '</span><br/>'
+        end
+
+		if target.note ~= nil then
+			html[#html + 1] = target.note .. '<br/>\n'
+		end
+
+		html[#html + 1] = makeCommandSet( isEntity, target.blueprintPath, target.short, target.tekgram, target.itemId )
+    end
+
+    local out = table.concat( html, '' )
+    if out == '' then
+        return nil
+    end
+    return out
 end
 
 
@@ -148,7 +197,7 @@ function p.spawnCommand( f )
 	
 	-- Main class
 	if (not isBaseClassIncomplete) and (blueprintPath or entityId or shortItemName) then
-		commands = makeCommandSet(isEntity, blueprintPath, entityClassName, shortItemName, tekgram, itemId)
+		commands = makeCommandSet(isEntity, blueprintPath, shortItemName, tekgram, itemId)
 		if baseNote ~= nil then
 			commands = baseNote .. '<br/>\n' .. commands
 		end
@@ -222,7 +271,7 @@ function p.spawnCommand( f )
 			end
 			firstRendered = false
 			commands = commands .. '<span style="font-size:1.1em;font-weight:bold;">Variant ' .. variantName .. '</span><br/>'
-			commands = commands .. makeCommandSet(isEntity, spawnInfo.bp, spawnInfo.short, spawnInfo.short)
+			commands = commands .. makeCommandSet(isEntity, spawnInfo.bp, spawnInfo.short)
 		end
 	end
 
