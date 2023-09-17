@@ -4,7 +4,7 @@ local p = {}
 
 
 function copyClipboard( contents )
-	return '<code class="copy-clipboard"><span class="copy-content" style="font-family:Courier,monospace;">' .. contents .. '</span></code>'
+	return '<code class="copy-clipboard"><span class="copy-content">' .. contents .. '</span></code>'
 end
 
 
