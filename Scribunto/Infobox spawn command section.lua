@@ -3,12 +3,12 @@ local Utility = require('Module:Utility')
 local p = {}
 
 
-function copyClipboard( contents )
+local function copyClipboard( contents )
 	return '<code class="copy-clipboard"><span class="copy-content">' .. contents .. '</span></code>'
 end
 
 
-function getExampleShortCommand( isEntity, identifier )
+local function getExampleShortCommand( isEntity, identifier )
 	if isEntity then
 		return 'cheat summon ' .. identifier
 	else
@@ -17,7 +17,7 @@ function getExampleShortCommand( isEntity, identifier )
 end
 
 
-function getExampleBPCommand( isEntity, identifier, short )
+local function getExampleBPCommand( isEntity, identifier, short )
 	if isEntity then
 		return string.format( 'cheat SpawnDino %s 500 0 0 35', Utility.getQualifiedBlueprintPath( identifier ) )
 	else
@@ -26,16 +26,16 @@ function getExampleBPCommand( isEntity, identifier, short )
 end
 
 
-function getTekgramUnlockCommand( bp )
+local function getTekgramUnlockCommand( bp )
 	return string.format( 'cheat unlockengram %s', Utility.getQualifiedBlueprintPath( bp ) )
 end
 
-function getIdBasedItemCommand( identifier )
+local function getIdBasedItemCommand( identifier )
 	return 'cheat giveitemnum ' .. identifier .. ' 1 0 0'
 end
 
 
-function makeCommandSet (isEntity, blueprintPath, entityClassName, shortItemName, tekgramBP, itemId)
+local function makeCommandSet (isEntity, blueprintPath, entityClassName, shortItemName, tekgramBP, itemId)
 	local OR = '<br/><b>or</b><br/>'
 	
 	local commands = ''
@@ -76,7 +76,7 @@ function makeCommandSet (isEntity, blueprintPath, entityClassName, shortItemName
 end
 
 
-function guardStringArgument( args, name )
+local function guardStringArgument( args, name )
 	local v = args[name] or nil
 	if v ~= nil then
 		v = mw.text.trim(v)
