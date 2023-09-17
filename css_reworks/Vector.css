@@ -106,6 +106,7 @@
         --layout-sidespace--left: 24px;
         --layout-sidespace--right: 24px;
         --layout-column-gap: 0px;
+        --sidebar-width: 0px;
         /* Sidebar / toolbar */
         --toolbar-height: 38px;
         --sidebar-to-content-margin: 0;
