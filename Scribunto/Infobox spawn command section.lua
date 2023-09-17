@@ -19,15 +19,15 @@ end
 
 function getExampleBPCommand( isEntity, identifier, short )
 	if isEntity then
-		return 'cheat SpawnDino {{BlueprintPath|' .. identifier .. '}} 500 0 0 35'
+		return string.format( 'cheat SpawnDino %s 500 0 0 35', Utility.getQualifiedBlueprintPath( identifier ) )
 	else
-		return 'cheat giveitem {{BlueprintPath|' .. identifier .. '}} 1 0 0'
+		return string.format( 'cheat giveitem %s 1 0 0', Utility.getQualifiedBlueprintPath( identifier ) )
 	end
 end
 
 
 function getTekgramUnlockCommand( bp )
-	return 'cheat unlockengram {{BlueprintPath|' .. bp .. '}}'
+	return string.format( 'cheat unlockengram %s', Utility.getQualifiedBlueprintPath( bp ) )
 end
 
 function getIdBasedItemCommand( identifier )
@@ -242,7 +242,7 @@ function p.spawnCommand( f )
 				   .. '</div>'
 				.. '</div>'
 			 .. '</div>'
-	return f:preprocess(out)
+	return out
 end
 
 
