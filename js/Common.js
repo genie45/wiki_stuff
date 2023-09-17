@@ -404,11 +404,12 @@ $(function() {
     });
     // #endregion
 
-    // #region Translation banners
-    if ( false && arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
+    // #region Translation advertising banners
+    if ( arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
         var prefLanguage = ( navigator.languages ? navigator.languages[0] : ( navigator.language || navigator.userLanguage ) )
             .toLowerCase().substr( 0, 2 );
         var bannerText = ( {
+                // Currently only French wiki is enroled due to size and to start the experiment small
                 fr: 'Vous pouvez aussi lire cet article en <b>Français</b>'
             } )[prefLanguage],
             link = $( '#p-lang > .vector-menu-content > ul > li.interlanguage-link > a[hreflang='+prefLanguage+']' )
