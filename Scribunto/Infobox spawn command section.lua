@@ -115,10 +115,10 @@ function p.spawnCommand( f )
 	-- Fill in info from variables set by Dv if creature
 	if isEntity then
 		if blueprintPath == nil then
-			blueprintPath = f:preprocess('{{#var:blueprintpath}}')
+			blueprintPath = mw.ext.VariablesLua.var( 'blueprintpath' )
 		end
 		if entityClassName == nil then
-			entityClassName = f:preprocess('{{#var:entityId}}')
+			entityClassName = mw.ext.VariablesLua.var( 'entityId' )
 		end
 		-- Reduce to null if empty.
 		if blueprintPath == '' then
