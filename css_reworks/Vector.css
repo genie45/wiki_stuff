@@ -3686,7 +3686,7 @@ table.status-effect-backg {
     font-size: 80%;
 }
 .translation-banner[lang="fr"] {
-    --banner-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1152069645784842341/fr_baked.jpg);
+    --banner-image: url(/images/9/9e/Translation_banner_FR.jpg);
 }
 @media screen and (max-width: 720px) {
     .translation-banner {
