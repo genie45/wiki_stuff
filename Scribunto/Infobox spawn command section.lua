@@ -107,43 +107,47 @@ local ClassType = {
 p.ClassType = ClassType
 
 
-function p.makeUnwrapped( metaClassType, targets, isFirstBase )
+function p.renderUnwrapped( metaClassType, targets )
     if #targets == 0 then
         return nil
     end
 
-    local html = {}
+    local results = {}
     local isEntity = metaClassType == ClassType.ENTITY
 
     for index = 1, #targets do
         local target = targets[index]
 
-        if not ( isFirstBase and index == 1 ) then
-            html[#html + 1] = '<span style="font-size:1.1em;font-weight:bold;">Variant ' .. target.name .. '</span><br/>'
+        if target.name ~= '' and target.blueprintPath ~= '' then
+            local html = {}
+
+    		if target.note ~= nil then
+	    		html[#html + 1] = target.note
+		    end
+    		html[#html + 1] = makeCommandSet( isEntity, target.blueprintPath, target.short, target.tekgram, target.itemId )
+
+            results[#results + 1] = {
+                target.name,
+                table.concat( html, '\n\n' )
+            }
         end
-
-		if target.note ~= nil then
-			html[#html + 1] = target.note .. '<br/>\n'
-		end
-
-		html[#html + 1] = makeCommandSet( isEntity, target.blueprintPath, target.short, target.tekgram, target.itemId )
     end
 
-    local out = table.concat( html, '' )
-    if out == '' then
+    if #results == 0 then
         return nil
     end
-    return out
+
+    return results
 end
 
 
+-- Arkitexure invoked entrypoint
 function p.spawnCommand( f )
 	local args = f.args
 	local parentArgs = f:getParent().args
 
 	-- Infobox arguments
 	local blueprintPath = guardStringArgument(parentArgs, 'blueprintpath')
-	local entityClassName = guardStringArgument(parentArgs, 'entityId')
 	local shortItemName = guardStringArgument(parentArgs, 'gfi')
 	local tekgram = guardStringArgument(parentArgs, 'tekgram')
 	local itemId = guardStringArgument(parentArgs, 'itemid')
@@ -166,15 +170,9 @@ function p.spawnCommand( f )
 		if blueprintPath == nil then
 			blueprintPath = mw.ext.VariablesLua.var( 'blueprintpath' )
 		end
-		if entityClassName == nil then
-			entityClassName = mw.ext.VariablesLua.var( 'entityId' )
-		end
 		-- Reduce to null if empty.
 		if blueprintPath == '' then
 			blueprintPath = nil
-		end
-		if entityClassName == '' then
-			entityClassName = nil
 		end
 	end
 	
@@ -183,24 +181,20 @@ function p.spawnCommand( f )
 		blueprintPath = Utility.getUnqualifiedBlueprintPath(blueprintPath)
 	end
 	
-	-- Auto-generate class name for entities
-	if isEntity and entityClassName == nil and blueprintPath ~= nil then
-		entityClassName = Utility.getBlueprintClassName(blueprintPath, true)
-	end
-	
-	-- Display flags
-	local canShowSummon = isEntity and entityClassName ~= nil
-	local canShowGFI = not isEntity and shortItemName ~= nil
-
-	-- Variable for generated commands text
-	local commands = ''
+    local targets = {}
+    local isFirstBase = false
 	
 	-- Main class
 	if (not isBaseClassIncomplete) and (blueprintPath or entityId or shortItemName) then
-		commands = makeCommandSet(isEntity, blueprintPath, shortItemName, tekgram, itemId)
-		if baseNote ~= nil then
-			commands = baseNote .. '<br/>\n' .. commands
-		end
+        isFirstBase = true
+        targets[1] = {
+            name = 'Main spawn target, this name will not be displayed',
+            blueprintPath = blueprintPath,
+            short = shortItemName,
+            itemId = itemId,
+            tekgram = tekgram,
+            note = baseNote
+        }
 	end
 	
 	-- Initialize variants from variantOrderList
@@ -226,15 +220,13 @@ function p.spawnCommand( f )
 		if mw.ustring.find(argName, 'blueprintpath ', 0, true) == 1 then
 			variantName = mw.ustring.sub(argName, 14)
 			isBP = true
-		elseif isEntity and mw.ustring.find(argName, 'entityId ', 0, true) == 1 then
-			variantName = mw.ustring.sub(argName, 9)
 		elseif (not isEntity) and mw.ustring.find(argName, 'gfi ', 0, true) == 1 then
 			variantName = mw.ustring.sub(argName, 4)
 		end
 		
 		if variantName ~= nil then
 			variantName = mw.text.trim(variantName)
-			if #variantName > 0 then
+			if variantName ~= '' then
 				-- Ensure the variant is initialized.
 				if variants[variantName] == nil then
 					variants[variantName] = {}
@@ -248,50 +240,56 @@ function p.spawnCommand( f )
 						-- Remove object descriptor from the blueprint path.
 						tempVariantBP = Utility.getUnqualifiedBlueprintPath(tempVariantBP)
 					end
-					variants[variantName]['bp'] = tempVariantBP
+					variants[variantName].bp = tempVariantBP
 				else
-					variants[variantName]['short'] = mw.text.trim(argValue)
+					variants[variantName].short = mw.text.trim(argValue)
 				end
 			end
 		end
 	end
 	
-	-- Generate commands for variants
-	local firstRendered = isBaseClassIncomplete
-	for index, variantName in ipairs(variantOrder) do
-		local spawnInfo = variants[variantName]
-		-- Auto-generate class name for entities
-		if isEntity and spawnInfo.bp and not spawnInfo.short then
-			spawnInfo.short = Utility.getBlueprintClassName(spawnInfo.bp, true)
-		end
-		
-		if spawnInfo.bp or spawnInfo.short then
-			if not firstRendered then
-				commands = commands .. '<br/>'
-			end
-			firstRendered = false
-			commands = commands .. '<span style="font-size:1.1em;font-weight:bold;">Variant ' .. variantName .. '</span><br/>'
-			commands = commands .. makeCommandSet(isEntity, spawnInfo.bp, spawnInfo.short)
-		end
-	end
+    -- Convert our variants collection into Spawnables
+    for index = 1, #variantOrder do
+        local variantName = variantOrder[index]
+        local variantInfo = variants[variantName]
+        targets[#targets + 1] = {
+            name = variantName,
+            blueprintPath = variantInfo.bp,
+            short = variantInfo.short,
+        }
+    end
 
+    local results = p.renderUnwrapped( isEntity and ClassType.ENTITY or ClassType.ITEM, targets )
 	-- Return nothing if no command was generated
-	if #commands == 0 then
+	if results == nil then
 		return ''
 	end
+
+    local html = {}
+    
+    html[#html + 1] = '<div class="info-arkitex info-module">'
+    html[#html + 1] = '<div class="info-arkitex info-unit">'
+    html[#html + 1] = '<div class="info-arkitex info-X1-100">'
+    html[#html + 1] = '<div style="text-align:left; padding:0 8px 0 8px;" class="mw-collapsible mw-collapsed">' .. "'''[[" .. captionLinkTarget .. "|Spawn Command]]'''"
+    html[#html + 1] = '<div class="mw-collapsible-content" style="text-align:left;font-size:0.8em;word-wrap:break-word;width:310px">'
+
+    for index = 1, #results do
+        local result = results[index]
+        html[#html + 1] = '<div class="info-arkitex-spawn-commands-entry">'
+        if not ( isFirstBase and index == 1 ) then
+            html[#html + 1] = '<p style="font-size:1.1em;font-weight:bold;">Variant ' .. result[1] .. '</p>'
+        end
+        html[#html + 1] = result[2]
+        html[#html + 1] = '</div>'
+    end
 	
-	local out = '<div class="info-arkitex info-module">'
-				.. '<div class="info-arkitex info-unit">'
-				   .. '<div class="info-arkitex info-X1-100">'
-				      .. '<div style="text-align:left; padding:0 8px 0 8px;" class="mw-collapsible mw-collapsed">' .. "'''[[" .. captionLinkTarget .. "|Spawn Command]]'''"
-				    	 .. '<div class="mw-collapsible-content" style="text-align:left;font-size:0.8em;word-wrap:break-word;width:310px">'
-				    		.. commands
-				    	 .. '</div>'
-				      .. '</div>'
-				   .. '</div>'
-				.. '</div>'
-			 .. '</div>'
-	return out
+    html[#html + 1] = '</div>'
+    html[#html + 1] = '</div>'
+    html[#html + 1] = '</div>'
+    html[#html + 1] = '</div>'
+    html[#html + 1] = '</div>'
+
+	return table.concat( html, '' )
 end
 
 
