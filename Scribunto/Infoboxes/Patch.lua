@@ -238,7 +238,6 @@ return Arkitecture.makeRenderer{
     end,
 
     PLATFORM_ICONS = {
-        Xbox = 'Xbox One.svg',
         PS = 'PS.svg',
         Switch = 'Nintendo Switch.svg',
     },
@@ -252,9 +251,20 @@ return Arkitecture.makeRenderer{
                 width = width,
                 link = false
             }
-        end
-
-        if pInfo.platform == 'PC' then
+        elseif pInfo.platform == 'Xbox' then
+            return table.concat( {
+                Arkitecture.File{
+                    name = 'Microsoft Store.svg',
+                    width = width,
+                    link = false
+                },
+                Arkitecture.File{
+                    name = 'Xbox One.svg',
+                    width = width,
+                    link = false
+                }
+            }, Arkitecture.Html.NonBreakingSpace )
+        elseif pInfo.platform == 'PC' then
             -- Steam, always
             local icons = {
                 Arkitecture.File{
