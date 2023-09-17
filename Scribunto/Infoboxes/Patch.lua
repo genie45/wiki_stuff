@@ -240,6 +240,7 @@ return Arkitecture.makeRenderer{
     PLATFORM_ICONS = {
         PS = 'PS.svg',
         Switch = 'Nintendo Switch.svg',
+        TSOTF = 'TSotF_Logo.png'
     },
 
     _makePlatformIcons = function ( self, pInfo )
