@@ -368,6 +368,12 @@ end )
             -- Retrieve the parameter value from our parameter cache (this will only succeed on injected parameters),
             -- module call frame, or template frame (in that order).
             local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
+            if value == nil then
+                local lowerCaseName = name:lower()
+                if lowerCaseName ~= name then
+                    value = self.frame.args[lowerCaseName] or self.parentFrame.args[lowerCaseName]
+                end
+            end
 
             local config = self.template.Parameters[name]
             if config == nil then
