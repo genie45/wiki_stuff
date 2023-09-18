@@ -63,23 +63,6 @@ return Arkitecture.makeRenderer{
                 }
             end
         },
-
-        FloatingNote = Arkitecture.Component{
-            render = function ( self, ctx )
-                if ctx.instance.Value == nil then
-                    return nil
-                end
-
-                return Arkitecture.Html.Element{
-                    tag = 'div',
-                    classes = 'arkitect-note arkitect-row-layout arkitect-row-layout-25x75',
-                    Arkitecture.Html.Element{
-                        tag = 'p',
-                        ctx.instance.Value,
-                    }
-                }
-            end
-        },
     },
 
     CargoSetup = {
