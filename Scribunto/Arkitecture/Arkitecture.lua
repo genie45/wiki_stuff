@@ -423,8 +423,19 @@ end )
                     local isCollapsible = unit.Collapsible == true or ( unit.Collapsible ~= false and #unitHtml > 3 )
                     -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
                     -- be fairly cheap as strings are passed by reference in Lua.
-                    html[#html + 1] = isCollapsible and '<div class="arkitect-unit" data-arkitecture-collapsible=true>'
-                        or '<div class="arkitect-unit">'
+                    local unitTagSpec = {
+                        tag = 'div',
+                        classes = {
+                            'arkitect-unit',
+                        },
+                    }
+                    if isCollapsible then
+                        unitTagSpec.classes[2] = unit.CollapsedByDefault and 'arkitect-is-collapsed' or nil
+                        unitTagSpec.attributes = {
+                            ['data-arkitecture-collapsible'] = true,
+                        }
+                    end
+                    html[#html + 1] = Html.StartElement( unitTagSpec )
                     if unit.Caption then
                         html[#html + 1] = HtmlElement{
                             tag = 'div',
