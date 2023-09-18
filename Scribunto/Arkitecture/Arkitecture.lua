@@ -126,7 +126,8 @@ local function Date( date )
 end
 
 
-local Html = {
+local Html
+Html = {
     ---
     --- @class HtmlElementOptions: string[]
     --- HTML element options.
@@ -146,33 +147,42 @@ local Html = {
             error( 'HtmlElement must have a tag specified' )
         end
 
+        -- Combine all children into a single string
+        local inner = table.concat( spec, '' )
+
+        return string.format( '%s%s</%s>', Html.StartElement( spec ), inner, spec.tag )
+    end,
+
+
+    StartElement = function ( spec )
+        if not spec.tag then
+            error( 'HtmlElement must have a tag specified' )
+        end
+
         -- Combine all classes into a single string if table
         if type( spec.classes ) == 'table' then
             spec.classes = table.concat( spec.classes, ' ' )
         end
-
-        -- Combine all children into a single string
-        local inner = table.concat( spec, '' )
 
         -- Build an attributes string
         local attrs
         if spec.attributes then
             attrs = {}
             for name, value in pairs( spec.attributes ) do
-                attrs[#attrs + 1] = string.format( '%s="%s"', name, value )
+                attrs[#attrs + 1] = string.format( '%s="%s"', name, tostring( value ) )
             end
             attrs = table.concat( attrs, ' ' )
         end
 
         -- Choose a specialised format template and build the final element
         if spec.attributes and spec.classes then
-            return string.format( '<%s class="%s" %s>%s</%s>', spec.tag, spec.classes, attrs, inner, spec.tag )
+            return string.format( '<%s class="%s" %s>', spec.tag, spec.classes, attrs )
         elseif spec.attributes then
-            return string.format( '<%s %s>%s</%s>', spec.tag, attrs, inner, spec.tag )
+            return string.format( '<%s %s>', spec.tag, attrs )
         elseif spec.classes then
-            return string.format( '<%s class="%s">%s</%s>', spec.tag, spec.classes, inner, spec.tag )
+            return string.format( '<%s class="%s">', spec.tag, spec.classes )
         end
-        return string.format( '<%s>%s</%s>', spec.tag, inner, spec.tag )
+        return string.format( '<%s>', spec.tag )
     end,
 
     --- HTML new line (br element) as a string.
