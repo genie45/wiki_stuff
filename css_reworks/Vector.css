@@ -2941,8 +2941,8 @@ ul.color-ids-list {
     margin-bottom: 0;
 }
 .arkitect-is-collapsed > .arkitect-unit-caption::after {
-    transform: rotate( 45deg );
-    margin-top: -0.4em;
+    transform: rotate( 135deg );
+    margin-top: -0.5em;
 }
 .arkitect-is-collapsed > :not( .arkitect-unit-caption ) {
     display: none;
