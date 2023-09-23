@@ -1961,6 +1961,18 @@ ul.fp-labelled-icons {
   margin: 0.2em 0;
 }
 /* #endregion */
+/* #region [[Template:Disambigbox]] */
+.ambox.disambig {
+    background: none;
+    max-width: unset;
+    margin: 0.9em 1em;
+    border-left: 0;
+    border-right: 0;
+    font-style: italic;
+    padding: 0.25em 0.5em;
+    box-shadow: none;
+}
+/* #endregion */
 
 /* #region Tweaks for infobox tabbers */
 .mw-parser-output > .infobox-tabber {
