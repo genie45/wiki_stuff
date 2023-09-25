@@ -50,6 +50,7 @@
     --content-navigation-margin: 0 18px 0 var(--content-horizontal-margin);
     /* Frontpage */
     --fp-gap: 0.9rem;
+    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg);
     /* Sticky header */
     --sticky-header-height: 50px;
     --sticky-search-border-radius: 4px;
@@ -210,10 +211,13 @@ html {
     --fp-box-background-color: #1d2526;
     --fp-box-border-color: #749ca4;
     --fp-box-shadow-color: #4a5153;
-    --fp-box-mainheading-border-color: #82a8af;
+    --fp-box-border-color--2: #547076;
+    --fp-box-background-color--2: #1a2022;
     --fp-box-mainheading-text-color: #82a8af;
-    --fp-box-heading-border-color: #82a8af;
-    --fp-box-heading-text-color: var(--content-header-color);
+    --fp-labelled-icon-border-color: var(--content-default-link-color);
+    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
+    --fp-social-icon-background: #5353534d;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
@@ -1713,7 +1717,8 @@ ul#filetoc {
 #fp-container, #fp-container * {
     box-sizing: border-box;
 }
-/* Grid layout */
+
+/* #region Grid layout */
 #fp-container {
     display: grid;
     grid-template-areas: "a" "b" "c" "d" "e";
@@ -1730,32 +1735,36 @@ ul#filetoc {
     #fp-container {
         grid-template-areas:
             "a a a"
-            "b b e"
-            "c c e"
-            "x x e"
-            "x x g"
-            "x x j"
-            "y z j"
-            "y z j"
-            "d d d"
-            "d d d";
+            "b b z"
+            "c c z"
+            "d d z"
+            "d d y"
+            "d d x"
+            "d d x"
+            "e e x"
+            "f g x"
+            "f g x"
+            "m m m";
         grid-template-columns: repeat(2, minmax(0, 1fr)) minmax(0, 0.9fr);
     }
 }
 /* Area distribution */
-#fp-1 { grid-area: a; }
-#fp-2 { grid-area: b; }
-#fp-3 { grid-area: c; }
-#fp-4 { grid-area: e; }
-#fp-5 { grid-area: d; }
-#fp-7 { grid-area: g; }
-#fp-8 { grid-area: j; }
-#fp-9 { grid-area: i; }
-#fp-97 { grid-area: x; }
-#fp-98 { grid-area: y; }
-#fp-99 { grid-area: z; }
+/* Main */
+#fp-a { grid-area: a; }
+#fp-b { grid-area: b; }
+#fp-c { grid-area: c; }
+#fp-d { grid-area: d; }
+#fp-e { grid-area: e; }
+#fp-f { grid-area: f; }
+#fp-g { grid-area: g; }
+#fp-m { grid-area: m; }
+/* Right rail */
+#fp-x { grid-area: x; }
+#fp-y { grid-area: y; }
+#fp-z { grid-area: z; }
+/* #endregion */
 
-/* [[Template:FP heading] */
+/* #region [[Template:FP heading] */
 .fpheading {
     max-width: 20em;
     border-bottom: 3px solid var(--fp-heading-border-color);
@@ -1779,7 +1788,8 @@ ul#filetoc {
     margin-bottom: 0.15em;
     color: var(--fp-box-mainheading-text-color);
 }
-/* Boxes */
+/* #endregion */
+/* #region Boxes */
 .fp-section {
     width: 100%;
     border: 1px solid var(--fp-box-border-color);
@@ -1803,9 +1813,10 @@ ul#filetoc {
     gap: 0 var(--fp-gap);
 }
 .fp-tone-2 {
-    background: rgb(26, 32, 34);
-    border-color: rgb(84, 112, 118);
+    background: var(--fp-box-background-color--2);
+    border-color: var(--fp-box-border-color--2);
 }
+/* #endregion */
 /* Utility */
 .fp-centred {
     text-align: center;
@@ -1816,7 +1827,7 @@ ul#filetoc {
     margin: 0;
     list-style: none;
 }
-/* Welcome box */
+/* #region Welcome box */
 #fp-welcome { 
     display: grid;
     grid-template-areas:
@@ -1833,13 +1844,17 @@ ul#filetoc {
 #fp-community {
     grid-area: ad;
 }
-
+/* #endregion */
+/* Image tweaks */
+.fp-wide-image {
+    max-width: 100%;
+    height: auto;
+}
 /* Better alignment for DLCs (less wasteful), headings have a hefty margin that looks OK with text but not tabbers */
 #fp-dlcs {
     margin-top: -0.5em;
 }
-
-/* #region Quick game basics */
+/* #region Labelled icons */
 ul.fp-labelled-icons {
     display: flex;
     flex-wrap: wrap;
@@ -1852,15 +1867,30 @@ ul.fp-labelled-icons {
     display: flex;
     align-items: center;
     gap: 3px;
-    background: var(--ark-arkitex-background-color);
-    border: 2px solid var(--content-default-link-color);
+    background: var(--fp-labelled-icon-background);
+    border: 2px solid var(--fp-labelled-icon-border-color);
     border-radius: 4px;
     padding: 0.1em 0.3em;
     font-size: 110%;
 }
 /* #endregion */
-
-/* #region Icon containers */
+/* #region Game basics with thumbnails */
+#fp-bigbasics img {
+    width: 48px;
+    height: 48px;
+}
+#fp-bigbasics li {
+    flex-direction: column;
+    padding-inline: 1.1rem;
+}
+/* #endregion */
+/* #region Socials */
+#fp-socials .fp-labelled-icons li {
+    background: var(--fp-social-icon-background);
+    border-color: var(--fp-social-icon-border-color);
+}
+/* #endregion */
+/* #region Platform icon containers */
 .fp-icon-container {
     display: flex;
     justify-content: center;
@@ -1878,9 +1908,18 @@ ul.fp-labelled-icons {
 .fp-icon-flex * {
     vertical-align: middle;
 }
-/* Socials */
-#fp-socials .fp-icon-flex {
-    margin: 0 4px;
+.fp-icon-flex > div {
+    margin-left: 4px;
+}
+.fp-icon-flex > div > * {
+    display: block;
+}
+.fp-icon-flex a.external {
+    background: none;
+} 
+.fp-icon-flex strong {
+    margin-top: 3px;
+    font-size: 1.125em;
 }
 /* Platform icon styling */
 #fp-platform-links .fp-icon-container {
@@ -1894,18 +1933,23 @@ ul.fp-labelled-icons {
 #fp-platform-links p {
     margin-bottom: 0.1em;
 }
-.fp-icon-flex > div {
-    margin-left: 4px;
+/* #endregion */
+/* #region Showcase */
+#fp-showcase {
+    color: #e0e9eb;
+    font-size: 125%;
+    padding: 2.5rem 1.75em;
+    text-align: center;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000024,
+        inset 0 0 2rem 0.35rem #0003;
+    text-shadow: -1px -1px 4px #000;
+    background-position: center;
+    background-size: cover;
+    background-image: var(--fp-promo-image);
 }
-.fp-icon-flex > div > * {
-    display: block;
-}
-.fp-icon-flex a.external {
-    background: none;
-} 
-.fp-icon-flex strong {
-    margin-top: 3px;
-    font-size: 1.125em;
+#fp-showcase .fpheading {
+    font-size: 1.4rem;
+    color: inherit;
 }
 /* #endregion */
 /* #endregion */
