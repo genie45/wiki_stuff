@@ -146,6 +146,7 @@ if ( localStorage.getItem( SIDEBAR_HIDDEN_CLASS ) == '1' ) {
 $(function() {
     ( function () {
         if ( mw.config.get( 'wgIsArticle' )
+            && !mw.config.get( 'wgIsMainPage' ) /* handled by Extension:StructuredData */
             && mw.config.get( 'wgContentNamespaces' ).indexOf( mw.config.get( 'wgNamespaceNumber' ) ) >= 0 ) {
             var ogImage = document.querySelector( 'meta[property="og:image"]' );
             var script = document.createElement('script');
