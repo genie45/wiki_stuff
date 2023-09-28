@@ -2034,13 +2034,15 @@ ul.fp-labelled-icons {
 }
 /* #endregion */
 /* #region Game basics with thumbnails */
-#fp-bigbasics img {
-    width: 48px;
-    height: 48px;
-}
 #fp-bigbasics li {
     flex-direction: column;
     padding-inline: 1.1rem;
+    border-radius: 1px;
+}
+#fp-bigbasics img {
+    margin: -0.1em -1.1rem;
+    width: 150px;
+    height: auto;
 }
 /* #endregion */
 /* #region Socials */
