@@ -3151,6 +3151,21 @@ ul.color-ids-list {
 .mw-parser-output > .quote:first-child {
     display: inline-block;
 }
+.quote {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.quote > .quote-left {
+    align-self: flex-end;
+}
+.quote > p {
+    flex-grow: 1;
+    text-align: center;
+}
+.quote > .quote-right {
+    align-self: flex-start;
+}
 .dossier-cite-left,
 .dossier-cite-right,
 .quote-left,
