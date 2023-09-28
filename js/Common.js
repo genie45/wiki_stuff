@@ -185,6 +185,34 @@ $(function() {
         }
     } )();
 
+    // #region Sidebar ToC
+    ( function () {
+        var tocListElement = document.querySelector( '#toc > ul' ),
+            tocHeadingText = document.querySelector( '#mw-toc-heading' ).textContent;
+        if ( tocListElement ) {
+            var sidebarToc = document.createElement( 'div' ),
+                sidebarTocHeading = document.createElement( 'h3' )
+                sidebarTocLabel = document.createElement( 'span' ),
+                sidebarTocContent = document.createElement( 'div' );
+            sidebarToc.id = 'p-stoc';
+            sidebarToc.className = 'vector-menu mw-portlet mw-portlet-stoc vector-menu-portal';
+            sidebarToc.setAttribute( 'aria-labelledby', 'p-stoc-label' );
+            sidebarToc.setAttribute( 'role', 'navigation' );
+            sidebarTocHeading.id = 'p-stoc-label';
+            sidebarTocHeading.className = 'vector-menu-heading';
+            sidebarTocLabel.className = 'vector-menu-heading-label';
+            sidebarTocLabel.textContent = tocHeadingText;
+            sidebarTocContent.className = 'vector-menu-content';
+
+            sidebarTocHeading.appendChild( sidebarTocLabel );
+            sidebarTocContent.append( tocListElement.cloneNode( true ) );
+            sidebarToc.appendChild( sidebarTocHeading );
+            sidebarToc.appendChild( sidebarTocContent );
+            document.querySelector( '#mw-panel' ).appendChild( sidebarToc );
+        }
+    } )();
+    // #endregion
+
     // #region Make sidebar sections collapsible
     $("#mw-panel .portal").each(function(index, el){
         var $el = $(el);
