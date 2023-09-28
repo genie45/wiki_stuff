@@ -130,7 +130,34 @@ return {
                     tag = 'div',
                     classes = 'arkitect-infobox-title',
                     instance.Name
-                }
+                },
+                instance.Image and Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-infobox-image',
+                    Arkitecture.File{
+                        name = instance.Image,
+                        altText = '',
+                        width = 228,
+                    },
+                } or '',
+                instance.Description and Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-description quote',
+                    Arkitecture.Html.Element{
+                        tag = 'div',
+                        classes = 'quote-left',
+                        '“',
+                    },
+                    Arkitecture.Html.Element{
+                        tag = 'p',
+                        instance.Description,
+                    },
+                    Arkitecture.Html.Element{
+                        tag = 'div',
+                        classes = 'quote-right',
+                        '„',
+                    },
+                } or '',
             }
         end
     },
