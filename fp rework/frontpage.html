@@ -43,45 +43,45 @@
 			'''{{ItemLink|ARK: Survival Evolved}}'''
 			<div class="fp-icon-container">
 				<div class="fp-icon-flex"><!--
-					-->[[File:Steam.svg|40px|link={{currentversion}}]]<!--
+					-->[[File:Steam.svg|40px|link={{Currentversion|ASE|PC}}]]<!--
 					--><div><!--
 						--><span>[https://store.steampowered.com/sale/arkultimate Buy]</span><!--
-						--><strong>[[{{currentversion}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|PC}}]]</strong><!--
 					--></div>
 				</div>
 				<div class="fp-icon-flex"><!--
-					-->[[File:Xbox Series.svg|40px|link={{currentversionxbox}}]]<!--
+					-->[[File:Xbox Series.svg|40px|link={{Currentversion|ASE|Xbox}}]]<!--
 					--><div><!--
 						--><span>[https://www.xbox.com/en-US/games/store/ark-ultimate-survivor-edition/9N5JRWWGMS1R/0010 Buy]</span><!--
-						--><strong>[[{{currentversionxbox}}|{{#replace:{{currentversionxbox}}|Xbox |}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|Xbox}}|{{#replace:{{Currentversion|ASE|Xbox}}|Xbox |}}]]</strong><!--
 					--></div>
 				</div>
 				<div class="fp-icon-flex"><!--
-					-->[[File:PS.svg|40px|link={{currentversionps}}]]<!--
+					-->[[File:PS.svg|40px|link={{Currentversion|ASE|PS}}]]<!--
 					--><div><!--
 						--><span>[https://store.playstation.com/en-us/product/UP0691-CUSA06676_00-ARKSEGAME0000000 Buy]</span><!--
-						--><strong>[[{{currentversionps}}|{{#replace:{{currentversionps}}|PS |}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|PS}}|{{#replace:{{Currentversion|ASE|PS}}|PS |}}]]</strong><!--
 					--></div>
 				</div>
 				<div class="fp-icon-flex"><!--
-					-->[[File:Nintendo Switch.svg|40px|link={{currentversionswitch}}]]<!--
+					-->[[File:Nintendo Switch.svg|40px|link={{Currentversion|ASE|Switch}}]]<!--
 					--><div><!--
 						--><span>[https://www.nintendo.com/store/products/ark-survival-evolved-switch/ Buy]</span><!--
-						--><strong>[[{{currentversionswitch}}|{{#replace:{{currentversionswitch}}|Switch |}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|Switch}}|{{#replace:{{Currentversion|ASE|Switch}}|Switch |}}]]</strong><!--
 					--></div>
 				</div>
 				<div class="fp-icon-flex"><!--
-					-->[[File:Epic Games.svg|40px|link={{currentversion}}]]<!--
+					-->[[File:Epic Games.svg|40px|link={{Currentversion|ASE|PC}}]]<!--
 					--><div><!--
 						--><span>[https://store.epicgames.com/en-US/p/ark--ultimate-survivor-edition Buy]</span><!--
-						--><strong>[[{{currentversion}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|PC}}]]</strong><!--
 					--></div>
 				</div>
 				<div class="fp-icon-flex"><!--
-					-->[[File:TSotF Logo.png|45px|link={{currentversiontsotf}}]]<!--
+					-->[[File:TSotF Logo.png|45px|link={{Currentversion|ASE|TSOTF}}]]<!--
 					--><div><!--
 						--><span>[https://store.steampowered.com/app/407530/ARK_The_Survival_Of_The_Fittest/ Buy]</span><!--
-						--><strong>[[{{currentversiontsotf}}|{{#replace:{{currentversiontsotf}}|TSOTF |}}]]</strong><!--
+						--><strong>[[{{Currentversion|ASE|TSOTF}}|{{#replace:{{Currentversion|ASE|TSOTF}}|TSOTF |}}]]</strong><!--
 					--></div>
 				</div>
 			</div>
@@ -179,6 +179,11 @@
 <div class="fp-section" id="fp-e">
 	<div class="fp-contents" id="fp-bigbasics">
 		<ul class="fp-labelled-icons">
+			<li>[[File:Scorched Earth DLC.jpg|link=Artifacts|150px|alt=]] [[Artifacts]]</li>
+			<li>[[File:Scorched Earth DLC.jpg|link=Armor|150px|alt=]] [[Armor]]</li>
+			<li>[[File:Scorched Earth DLC.jpg|link=Ascension|150px|alt=]] [[Ascension]]</li>
+			<li>[[File:Scorched Earth DLC.jpg|link=Attributes|150px|alt=]] [[Attributes]]</li>
+			<li>[[File:Scorched Earth DLC.jpg|link=Breeding|150px|alt=]] [[Breeding]]</li>
 		</ul>
 	</div>
 </div>
@@ -201,26 +206,55 @@
 		{{#ev:youtube|mMTbYmS5o_Y|450|center}}
 	</div>
 </div>
-<div class="fp-section fp-tone-2" id="fp-z">
-	{{FP heading|Recently Revealed Creatures}}
-	<div class="fp-contents fp-centred" id="fp-dossiers">
-		{{#vardefine:total|{{CreatureCount}}}}<!--
-		-->{{#vardefine:unreleased|{{CreatureCount|unreleased}}}}<!--
-		-->{{#var:total}} [[creatures]] have been announced: {{#ifexpr: {{#var:unreleased}} > 0 | {{#iferror: {{#expr: {{#var:total}} - {{#var:unreleased}} }} | ? }} of them released (including {{CreatureCount|released|variants}} variants) and {{#var:unreleased}} yet to be released|and all of them released}}.
+<div class="fp-rail">
+	<div class="fp-section fp-tone-2" id="fp-z">
+		{{FP heading|Recently Revealed Creatures}}
+		<div class="fp-contents fp-centred" id="fp-dossiers">
+			{{#vardefine:total|{{CreatureCount}}}}<!--
+			-->{{#vardefine:unreleased|{{CreatureCount|unreleased}}}}<!--
+			-->{{#var:total}} [[creatures]] have been announced: {{#ifexpr: {{#var:unreleased}} > 0 | {{#iferror: {{#expr: {{#var:total}} - {{#var:unreleased}} }} | ? }} of them released (including {{CreatureCount|released|variants}} variants) and {{#var:unreleased}} yet to be released|and all of them released}}.
 
-		{{DossiersTable|Rhyniognatha|Dossier Rhyniognatha.jpg|Fasolasuchus|Dossier_Fasolasuchus.jpg|Gigantoraptor|Gigantoraptor_Dossier.png|Yi Ling|Yi_Ling_Concept_2560x1440.jpg}}<!--
-		<div class="mw-collapsible mw-expanded" id="mw-customcollapsible-dossier">
-			<div class="mw-collapsible-content">
-				[<div class="mw-customtoggle-dossier pseudo-link" style="display:inline-block;">More</div>]
+			{{DossiersTable|Rhyniognatha|Dossier Rhyniognatha.jpg|Fasolasuchus|Dossier_Fasolasuchus.jpg|Gigantoraptor|Gigantoraptor_Dossier.jpg|Yi Ling|Dossier_Yi_Ling.jpg|Shastasaurus|Shastasaurus_concept_art.jpg}}<!--
+			<div class="mw-collapsible mw-expanded" id="mw-customcollapsible-dossier">
+				<div class="mw-collapsible-content">
+					[<div class="mw-customtoggle-dossier pseudo-link" style="display:inline-block;">More</div>]
+				</div>
 			</div>
+			<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-dossier">
+				<div class="mw-collapsible-content" style="margin-top:-1em;">
+					{{DossiersTable|Amargasaurus|Dossier Amargasaurus.png|Dinopithecus|Dossier Dinopithecus.png|Sinomacrops|Dossier Sinomacrops.png}}
+					{{clear}}
+					[<div class="mw-customtoggle-dossier pseudo-link" style="display:inline-block;">Less</div>]
+				</div>
+			</div>-->
 		</div>
-		<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-dossier">
-			<div class="mw-collapsible-content" style="margin-top:-1em;">
-				{{DossiersTable|Amargasaurus|Dossier Amargasaurus.png|Dinopithecus|Dossier Dinopithecus.png|Sinomacrops|Dossier Sinomacrops.png}}
-				{{clear}}
-				[<div class="mw-customtoggle-dossier pseudo-link" style="display:inline-block;">Less</div>]
-			</div>
-		</div>-->
+	</div>
+	<div class="fp-section fp-tone-2" id="fp-y">
+		{{FP heading|Official server rates}}
+		<div class="fp-contents fp-centred" id="fp-rates">
+			The current [[official server]] rates are as follows:
+		</div>
+		<div class="fp-contents">
+			{{CurrentOfficialServerRates}}
+		</div>
+	</div>
+	<div class="fp-section fp-tone-2" id="fp-x">
+		{{FP heading|Current events}}
+		<div class="fp-contents fp-centred" id="fp-event">
+			The following [[Events]] are currently active or have been announced.
+
+			[[File:Easter evo event.jpg|class=fp-wide-image|400px|link=Easter EVO Event]]
+
+			{{countdown
+			| text = [[Easter EVO Event]]
+			| finished = [[Easter EVO Event]] has ended.
+			| start = 2023-04-07 13:00:00 PDT
+			| end = 2023-04-24 13:00:00 PDT
+			| unofficialtimer = no
+			}}
+
+			[[Valentine's EVO Event]] features 3x [[Experience|XP]], [[Domestication|Harvesting]], [[Taming]], and [[Breeding]] ([[Imprinting|Imprint]], [[Breeding|Maturation]], [[Breeding|Hatch/Gestation]]), 0.5x [[Breeding|Mating Interval]] and 1.5x [[HLN-A|Hexagon Bonus]].
+		</div>
 	</div>
 </div>
 <div class="fp-section" id="fp-m">
@@ -257,33 +291,6 @@
 			<li>[[File:Wardrums.png|link=Tribes|32px|alt=]] [[Tribes]]</li>
 			<li>[[File:Simple Pistol.png|link=Weapons|32px|alt=]] [[Weapons]]</li>
 		</ul>
-	</div>
-</div>
-<div class="fp-section fp-tone-2" id="fp-y">
-	{{FP heading|Official server rates}}
-	<div class="fp-contents fp-centred" id="fp-rates">
-		The current [[official server]] rates are as follows:
-	</div>
-	<div class="fp-contents">
-		{{CurrentOfficialServerRates}}
-	</div>
-</div>
-<div class="fp-section fp-tone-2" id="fp-x">
-	{{FP heading|Current events}}
-	<div class="fp-contents fp-centred" id="fp-event">
-		The following [[Events]] are currently active or have been announced.
-
-		[[File:Easter evo event.jpg|class=fp-wide-image|400px|link=Easter EVO Event]]
-
-		{{countdown
-		| text = [[Easter EVO Event]]
-		| finished = [[Easter EVO Event]] has ended.
-		| start = 2023-04-07 13:00:00 PDT
-		| end = 2023-04-24 13:00:00 PDT
-		| unofficialtimer = no
-		}}
-
-		[[Valentine's EVO Event]] features 3x [[Experience|XP]], [[Domestication|Harvesting]], [[Taming]], and [[Breeding]] ([[Imprinting|Imprint]], [[Breeding|Maturation]], [[Breeding|Hatch/Gestation]]), 0.5x [[Breeding|Mating Interval]] and 1.5x [[HLN-A|Hexagon Bonus]].
 	</div>
 </div>
 
