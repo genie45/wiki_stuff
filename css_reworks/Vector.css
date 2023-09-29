@@ -684,7 +684,7 @@ body {
 }
 @media screen and (max-width: 1260px) {
 	#p-logo a {
-		background-image: var(--wiki-logo-horizontal);
+		/*background-image: var(--wiki-logo-horizontal);*/
 	}
 }
 /* #endregion */
@@ -1885,7 +1885,7 @@ ul#filetoc {
 }
 @media screen and (max-width: 800px) {
     #fp-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         grid-template-areas:
             "a"
             "b"
@@ -2083,9 +2083,6 @@ ul.fp-labelled-icons {
     font-size: 1.125em;
 }
 /* Platform icon styling */
-#fp-platform-links .fp-icon-container {
-    justify-content: flex-start;
-}
 #fp-platform-links {
     display: flex;
     justify-content: center;
