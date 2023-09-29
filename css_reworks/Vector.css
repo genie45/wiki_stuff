@@ -170,19 +170,24 @@ html {
     --page-background-color--rgb: 11, 18, 18;
     --content-background-color: #1c1e21;
     --content-background-color--rgb: 28, 30, 33;
+    --content-background-color--transparent: rgba(var(--content-background-color--rgb), 0.98);
     --content-text-color: #ebebeb;
     --content-header-color: #fff;
-    --content-text-link-color: #9acd32;
-    --content-border-color: #658a19;
-    --content-border-color--rgb: 101, 138, 25;
     --content-default-link-color: #9acd32;
     --content-default-link-color--rgb: 154, 205, 50;
+    --content-text-link-color: #9acd32;
+    --content-text-link-color--new: #e51616;
+    --content-border-color: #658a19;
+    --content-border-color--rgb: 101, 138, 25;
+    --content-text-top-border-color: #a2a9b1;
     --articlenav-background-color: #313232e6;
     --articlenav-border-color: #3c3e40;
     --articlenav-border-color--tiny: #a3a7ab;
     --code-background-color: #202020;
     --code-border-color: #525354;
-    --content-text-top-border-color: #a2a9b1;
+    --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
+    --reference-background-color--highlight: #5e5e5e;
+    --ad-content-divider-color: var(--sidebar-content-divider-color);
     /* Assets */
     --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
     /* Sidebar */
@@ -196,6 +201,14 @@ html {
     --toolbar-list-background-color: #66783dfa;
     --toolbar-border-color: #234064;
     --sidenav-toggle-icon-filter: invert(1);
+    --sidebar-background-color: rgba(var(--content-border-color--rgb), 0.05);
+    --sidebar-content-divider-color: rgba(var(--content-border-color--rgb), 0.4);
+    /* Search */
+    --search-background-color: #272a2fdd;
+    --search-border-color: var(--content-border-color);
+    --search-border-color--active: var(--content-border-color);
+    --search-text-color: var(--content-text-color);
+    --search-text-color--placeholder: #aaa;
     /* Table of contents */
     --toc-background-color: #424442;
     --toc-number-color: #cecece;
@@ -213,6 +226,9 @@ html {
     --table-heading-background-color: #2a454f;
     --gray-table-background-color: #262626;
     --red-table-background-color: #cf4c4c8a;
+    /* Site notice */
+    --sitenotice-background-color: #0002;
+    --sitenotice-border-color: var(--content-border-color);
     /* Frontpage */
     --fp-heading-text-color: var(--content-text-color);
     --fp-heading-border-color: #749ca4;
@@ -539,8 +555,7 @@ div#content {
     grid-column: aside-left/content-right;
     grid-row: footer-start/footer-end;
     padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
-    margin-bottom: 0;
-    background-color: rgba(var(--content-background-color--rgb), 0.8);
+	margin: 0 0 2em 0;
 }
 #wikigg-footer {
     margin-top: 1.5em;
@@ -705,7 +720,7 @@ body {
 /* #region Content area (& hex, frame border) */
 div#content {
 	position: relative;
-	background-color: rgba(var(--content-background-color--rgb), 0.98);
+	background-color: var(--content-background-color--transparent);
 	color: var(--content-text-color);
     border:3px solid var(--content-border-color);
     border-radius: 1px;
@@ -760,8 +775,7 @@ div#content {
 /* #endregion */
 /* #region Footer */
 #footer {
-	margin: 0 0 2em 0;
-	background-color: rgba(var(--content-background-color--rgb), 0.8);
+    background-color: var(--footer-background-color);
 	border-radius: 2px;
 }
 #footer ul li {
@@ -791,10 +805,10 @@ label.toctogglelabel {
     cursor: pointer;
 }
 div#content a.new {
-	color: #E51616;
+	color: var(--content-text-link-color--new);
 }
 ol.references li:target, sup.reference:target {
-	background-color: #5e5e5e;
+	background-color: var(--reference-background-color--highlight);
 }
 /* #endregion */
 /* #region Headings */
@@ -829,19 +843,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
         font-size: 2em;
     }
 }
-
-/* Fake <h2> - looks identical but with no edit link and doesn't show up in the ToC */
-/* TODO(alex): Just typing <h2> has the same result, perhaps this class should be dropped */
-.fakeh2 {
-  font-size: 1.5em;
-  margin-top: 1em;
-  line-height: 1.3;
-  margin-bottom: 0.25em;
-  padding: 0;
-  color: var(--content-header-color);
-  border-bottom: 1px solid #505050;
-  overflow: hidden;
-}
 /* #endregion */
 /* #region List tweaks */
 .mw-content-ltr li {
@@ -856,8 +857,8 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 /* #region Site notice */
 #siteNotice > #localNotice,
 .mw-dismissable-notice {
-    background: #0002;
-    border: 1px solid var(--content-border-color);
+    background: var(--sitenotice-background-color);
+    border: 1px solid var(--sitenotice-border-color);
     padding: 0.5em 1em 0;
     margin-bottom: 0.6em;
 }
@@ -869,8 +870,8 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 
 /* #region Sidebar */
 #mw-panel {
-    border-right: 1px solid rgba(var(--content-border-color--rgb), 0.4);
-    background: rgba(var(--content-border-color--rgb), 0.05);
+    border-right: 1px solid var(--sidebar-content-divider-color);
+    background: var(--sidebar-background-color);
 }
 #mw-panel .vector-menu-portal {
     margin: 0 .6em 0 0;
@@ -916,14 +917,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 /* #endregion */
 /* #region Article navigation head */
-/*
-.vectorTabs li:not(:last-child)::after {
-	content: unset;
-}
-
-*/
-
-
 .vector-menu-tabs ul li,
 .vector-menu-dropdown {
     background: #272a2f;
@@ -1188,27 +1181,27 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     margin-bottom: 2px;
 }
 .vector-search-box-inner {
-    background:#272a2fdd;
-    border: 2px solid var(--content-border-color);
+    background: var(--search-background-color);
+    border: 2px solid var(--search-border-color);
     border-radius: 1px;
-    box-shadow: inset 0 -7px 7px -7px rgba(0,0,0,.15),0 0 6px 2px #0003
+    box-shadow: inset 0 -7px 7px -7px rgba(0,0,0,.15), 0 0 6px 2px #0003;
 }
 .vector-search-box-inner:hover,
 .vector-search-box-inner:active {
-    border-color: var(--content-border-color);
+    border-color: var(--search-border-color--active);
 }
 .vector-search-box-inner .searchButton {
     opacity: 0.8;
     filter: brightness(200%);
 }
 .vector-search-box-input {
-    color:var(--content-text-color);
-    background-color:transparent;
-    border-color:#5a5a5a;
-    height:var(--search-height)
+    color: var(--search-text-color);
+    background-color: transparent;
+    border: 0;
+    height: var(--search-height);
 }
 .vector-search-box-input::placeholder {
-    color:#aaa;
+    color: var(--search-text-color--placeholder);
 }
 /* #endregion */
 
@@ -1412,7 +1405,23 @@ div.games-showcase-header {
     position: relative;
     top: unset;
     margin: var(--top-offset) calc(var(--content-horizontal-margin) * -1) 0 calc(var(--content-horizontal-margin) * -1 - 3px);
-    border-bottom: 1px solid rgba(var(--content-border-color--rgb), 0.8);
+    border-bottom: 1px solid var(--ad-content-divider-color);
+}
+div.games-showcase-footer {
+    --bottom-offset: -1.3em;
+    margin: 0.2rem calc(var(--content-horizontal-margin) * -1) var(--bottom-offset) calc(var(--content-horizontal-margin) * -1 - 3px);
+    border-top: 1px solid var(--ad-content-divider-color);
+}
+aside.games-showcase-sidebar {
+    margin-left: 0.5rem;
+    margin-right: calc(var(--content-horizontal-margin) / -3 * 2);
+    border-left: 1px solid var(--ad-content-divider-color);
+    padding-left: 0.5rem;
+    margin-top: calc(var(--content-body-top-margin) * -1);
+    height: 95vh;
+}
+aside.games-showcase-sidebar div.sidebar-showcase {
+    padding-left: 0;
 }
 @media screen and (max-width: 1500px) {
     div.games-showcase-header {
@@ -1424,9 +1433,6 @@ div.games-showcase-header {
     div.games-showcase-header {
         --top-offset: 2em;
     }
-}
-aside.games-showcase-sidebar {
-    margin-right: calc(var(--content-horizontal-margin) / -3 * 2);
 }
 /* #endregion */
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
