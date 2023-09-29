@@ -1409,8 +1409,9 @@ div.games-showcase-header {
 }
 div.games-showcase-footer {
     --bottom-offset: -1.3em;
-    margin: 0.2rem calc(var(--content-horizontal-margin) * -1) var(--bottom-offset) calc(var(--content-horizontal-margin) * -1 - 3px);
+    margin: 0 calc(var(--content-horizontal-margin) * -1) var(--bottom-offset) calc(var(--content-horizontal-margin) * -1 - 3px);
     border-top: 1px solid var(--ad-content-divider-color);
+    padding-top: 0.2rem;
 }
 aside.games-showcase-sidebar {
     margin-left: 0.5rem;
