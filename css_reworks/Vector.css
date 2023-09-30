@@ -555,7 +555,7 @@ div#content {
     grid-column: aside-left/content-right;
     grid-row: footer-start/footer-end;
     padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
-	margin: 0 0 2em 0;
+	margin: 0;
 }
 #wikigg-footer {
     margin-top: 1.5em;
