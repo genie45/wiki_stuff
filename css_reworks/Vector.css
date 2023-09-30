@@ -48,8 +48,9 @@
     --article-navigation-margin: 0 var(--content-horizontal-margin);
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - var(--article-navigation-height) - var(--wiki-logo-disposition--top) - var(--article-navigation-disposition));
-    --layout-sidespace--left: 16px;
-    --layout-sidespace--right: 16px;
+    --layout-sidespace--dynamic: 3vw;
+    --layout-sidespace--left: calc(0.1rem + var(--layout-sidespace--dynamic));
+    --layout-sidespace--right: var(--layout-sidespace--left);
     --layout-column-gap: 0px;
     /* Search */
 	--search-height: 3em;
@@ -134,8 +135,7 @@
             #0004 calc(var(--wiki-logo-width) / 1.3), transparent 100%);
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
-        --layout-sidespace--left: 10px;
-        --layout-sidespace--right: 10px;
+        --layout-sidespace--dynamic: 1.25vw;
         --layout-column-gap: 0px;
         --sidebar-width: 0px;
         /* Sidebar / toolbar */
