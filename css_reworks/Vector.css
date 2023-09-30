@@ -1486,28 +1486,6 @@ table {
 }
 /* #endregion */
 
-/* #region Template documentation styles */
-.doc {
-    margin: 0em auto 1em;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid #BDCAC3;
-    border-radius: 1em;
-    padding: 1em;
-}
-.doc-header {
-    padding-bottom: 3px;
-    border-bottom: 1px solid #BDCAC3;
-    margin-bottom: 1ex;
-}
-.doc-footer {
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid #BDCAC3;
-    border-radius: 1em;
-    padding: 1em;
-}
-/* #endregion */
-
 /** Align .number table cells to right **/
 table .number { text-align: right; }
 
@@ -1784,159 +1762,7 @@ ul#filetoc {
 }
 /* #endregion */
 
-/* #region Survival of the Fittest */
-.sotf-team {
-    width: 20%;
-    padding: 1em 1em 0 1em !important;
-    background-color: #9cee93;
-}
-.sotf-team-left-dead,
-.sotf-team-right-dead {
-    background-color: #eeed93;
-}
-.sotf-team-both-dead {
-    background-color: #e3a4a4;
-}
-.sotf-team-both-dead .sotf-image-left,
-.sotf-team-both-dead .sotf-image-right,
-.sotf-team-left-dead .sotf-image-left,
-.sotf-team-right-dead .sotf-image-right {
-    opacity: 0.3;
-}
-.sotf-team-both-dead a:first-child,
-.sotf-team-both-dead a:last-child,
-.sotf-team-left-dead a:first-child,
-.sotf-team-right-dead a:last-child {
-    text-decoration: line-through;
-}
-.sotf-image-left,
-.sotf-image-right {
-    display: inline-block;
-    width: 74px;
-    height: 74px;
-    border: 1px solid #000000;
-}
-.sotf-image-left { background-position: left center; }
-.sotf-image-right { background-position: right center; }
-.tournamentlive { background-color: #9cee93; }
-.tournamentdead {
-    background-color: #e3a4a4;
-    text-decoration: line-through;
-}
-/* #endregion */
-
-/* #region Hide top content divider line on main page */
-.rootpage-ARK_Wiki #mw-content-text {
-    border: 0
-}
-/* #endregion */
-/* #region Front page */
-#fp-container, #fp-container * {
-    box-sizing: border-box;
-}
-
-/* #region Grid layout */
-#fp-container {
-    --right-rail-size: minmax(0, 0.9fr);
-    --block-size--2: minmax(30%, 400px);
-
-    display: grid;
-    grid-template-areas:
-        "a a a"
-        "b b r"
-        "c c r"
-        "d d r"
-        "e e r"
-        "f g r"
-        "m m m";
-    grid-template-columns: repeat(2, minmax(0, 1fr)) var(--right-rail-size);
-    gap: var(--fp-gap);
-}
-.fp-rail {
-    grid-area: r;
-    display: flex;
-    flex-direction: column;
-    gap: var(--fp-gap);
-}
-.fp-block {
-    display: grid;
-    grid-template-columns: minmax(0, 2fr) var(--block-size--2);
-    /*grid-template-rows: max-content;*/
-    gap: var(--fp-gap);
-}
-@media screen and (max-width: 1500px) {
-    #fp-container {
-        --block-size--2: 1.5fr;
-    }
-}
-@media screen and (max-width: 1000px) {
-    #fp-container {
-        --right-rail-size: minmax(0, 1.4fr);
-        grid-template-areas:
-            "a a a"
-            "b b r"
-            "c c r"
-            "d d r"
-            "e e r"
-            "f f m"
-            "g g m";
-    }
-    .fp-block {
-        display: flex;
-        flex-direction: column;
-    }
-    #fp-container #fp-welcome {
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 800px) {
-    #fp-container {
-        grid-template-columns: minmax(0, 1fr);
-        grid-template-areas:
-            "a"
-            "b"
-            "c"
-            "d"
-            "z"
-            "e"
-            "y"
-            "x"
-            "f"
-            "g"
-            "m";
-    }
-    .fp-rail {
-        display: contents;
-    }
-}
-/*@media screen and (max-width: 990px) {
-    #fp-container {
-        grid-template-areas: "a a" "b b" "d c" "d c" "e e";
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-@media screen and (min-width: 1350px) {
-    #fp-container {
-    }
-}*/
-/* Area distribution */
-/* Main */
-#fp-a { grid-area: a; }
-#fp-b { grid-area: b; }
-#fp-c { grid-area: c; }
-#fp-d { grid-area: d; }
-#fp-e { grid-area: e; }
-#fp-f { grid-area: f; }
-#fp-g { grid-area: g; }
-#fp-m { grid-area: m; }
-/* Right rail */
-#fp-x { grid-area: x; }
-#fp-y { grid-area: y; }
-#fp-z { grid-area: z; }
-/* #endregion */
-
-/* #region [[Template:FP heading] */
+/* #region [[Template:FP heading]] */
 .fpheading {
     max-width: 20em;
     border-bottom: 3px solid var(--fp-heading-border-color);
@@ -1952,171 +1778,12 @@ ul#filetoc {
     margin: 0 auto 0.35em;
     padding: 0 2px 2px;
 }
-#fp-welcome > .fpheading {
-    grid-area: aa;
-    max-width: 60em;
-    justify-self: center;
-    font-size: 1.35rem;
-    margin-bottom: 0.15em;
-    color: var(--fp-box-mainheading-text-color);
-}
 /* #endregion */
-/* #region Boxes */
-.fp-section {
-    width: 100%;
-    border: 1px solid var(--fp-box-border-color);
-    box-shadow: 0 2px 5px var(--fp-box-shadow-color);
-    background: var(--fp-box-background-color);
-    color: var(--content-text-color);
-    padding: 8px 1.25em;
-    border-radius: 2px;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000018;
+
+/* #region Hide top content divider line on main page */
+.rootpage-ARK_Wiki #mw-content-text {
+    border: 0
 }
-.fp-section.plain {
-    border: none;
-    box-shadow: none;
-    background: transparent;
-    padding: 6px 10px;
-}
-.fp-tone-2 {
-    background: var(--fp-box-background-color--2);
-    border-color: var(--fp-box-border-color--2);
-}
-/* #endregion */
-/* Utility */
-.fp-centred {
-    text-align: center;
-}
-.fp-col3 {
-    display: block;
-    columns: 160px 3;
-    margin: 0;
-    list-style: none;
-}
-/* #region Welcome box */
-#fp-welcome { 
-    display: grid;
-    grid-template-areas:
-      "aa ad" 
-      "ac ad";
-    grid-template-columns: 3fr 2fr;
-    align-items: center;
-}
-#fp-welcome-text {
-    grid-area: ac;
-    text-align: center;
-    padding: 8px 5px 8px 0;
-}
-#fp-community {
-    grid-area: ad;
-}
-/* #endregion */
-/* Image tweaks */
-.fp-wide-image {
-    max-width: 100%;
-    height: auto;
-}
-/* Better alignment for DLCs (less wasteful), headings have a hefty margin that looks OK with text but not tabbers */
-#fp-dlcs {
-    margin-top: -0.5em;
-}
-/* #region Labelled icons */
-ul.fp-labelled-icons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2em 0.5em;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-}
-.fp-labelled-icons li {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-    background: var(--fp-labelled-icon-background);
-    border: 2px solid var(--fp-labelled-icon-border-color);
-    border-radius: 4px;
-    padding: 0.1em 0.3em;
-    font-size: 110%;
-}
-/* #endregion */
-/* #region Game basics with thumbnails */
-#fp-bigbasics li {
-    flex-direction: column;
-    padding-inline: 1.1rem;
-    border-radius: 1px;
-}
-#fp-bigbasics img {
-    margin: -0.1em -1.1rem;
-    width: 150px;
-    height: auto;
-}
-/* #endregion */
-/* #region Socials */
-#fp-socials .fp-labelled-icons li {
-    background: var(--fp-social-icon-background);
-    border-color: var(--fp-social-icon-border-color);
-}
-/* #endregion */
-/* #region Platform icon containers */
-.fp-icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 12px;
-    line-height: 1;
-}
-.fp-icon-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 7px 6px 0;
-}
-.fp-icon-flex * {
-    vertical-align: middle;
-}
-.fp-icon-flex > div {
-    margin-left: 4px;
-}
-.fp-icon-flex > div > * {
-    display: block;
-}
-.fp-icon-flex a.external {
-    background: none;
-} 
-.fp-icon-flex strong {
-    margin-top: 3px;
-    font-size: 1.125em;
-}
-/* Platform icon styling */
-#fp-platform-links {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-#fp-platform-links p {
-    margin-bottom: 0.1em;
-}
-/* #endregion */
-/* #region Showcase */
-#fp-showcase {
-    color: #e0e9eb;
-    font-size: 125%;
-    padding: 2.5rem 1.75em;
-    text-align: center;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000024,
-        inset 0 0 2rem 0.35rem #0003;
-    text-shadow: -1px -1px 4px #000;
-    background-position: center;
-    background-size: cover;
-    background-image: var(--fp-promo-image);
-}
-#fp-showcase .fpheading {
-    font-size: 1.4rem;
-    color: inherit;
-}
-/* #endregion */
 /* #endregion */
 
 /* #region [[Template:Ambox]] */
@@ -3629,25 +3296,6 @@ fieldset {
 }
 /* #endregion */
 
-/* #region Survivor Profile Table (Template:DTile) */
-.dtile a:link,
-.dtile a:visited,
-.dtile_dlc a:link,
-.dtile_dlc a:visited {
-	color: #a8b9ba !important;
-}
-
-.dtile img {
-	-webkit-filter: invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
-	filter: invert(100%) sepia(100%) hue-rotate(142deg) saturate(5000%) brightness(80%);
-}
-
-.dtile_dlc img {
-	-webkit-filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
-	filter: invert(100%) sepia(100%) hue-rotate(187deg) saturate(5000%) brightness(80%);
-}
-/* #endregion */
-
 .pointer {
 	cursor: pointer;
 }
@@ -4693,4 +4341,4 @@ table.cargoTable { display: block }
     padding: 0 1em 0.5em;
     margin-bottom: 1.2em;
     display: flex;
-  }
+}
