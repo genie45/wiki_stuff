@@ -37,6 +37,7 @@
     --sidebar-toggle-icon--collapsed: url("https://commons.wiki.gg/images/d/d4/Sidebar_toggle_collapsed_black.svg");
     --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A");
     /* Page content */
+    --content-border-widths: 3px;
     --content-vertical-margin--top: 1.8rem;
     --content-vertical-margin--bottom: 1.2rem;
     --content-horizontal-margin: 2rem;
@@ -170,6 +171,7 @@
         --search-height: 35px;
         --search-spacing--bottom: 6px;
         /* Page content */
+        --content-border-widths: 3px 0;
         --content-body-top-margin: 85px;
         --content-top-margin: calc(var(--toolbar-height) + 5px);
         /* Page navigation (mw-head) */
@@ -742,7 +744,8 @@ div#content {
 	position: relative;
 	background-color: var(--content-background-color--transparent);
 	color: var(--content-text-color);
-    border:3px solid var(--content-border-color);
+    border: solid var(--content-border-color);
+    border-width: var(--content-border-widths);
     border-radius: 1px;
     box-shadow: none;
     min-height: 600px;
