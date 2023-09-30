@@ -281,13 +281,14 @@ $(function() {
         if (!mw.config.get('wgIsMainPage') && mw.config.get('wgIsArticle')) {
             var $sidebarInterwikis = $('#p-lang > .vector-menu-content > ul > li.interlanguage-link');
             if ($sidebarInterwikis.length > 0) {
-                var $menu = $('<ul class="vector-menu-content-list menu">');
-                $('<div id="p-lang-btn" class="mw-portlet mw-portlet-lang vectorMenu vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation">')
+                var $menu = $('<ul class="vector-menu-content-list">');
+                $('<div id="p-lang-btn" class="mw-portlet vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation">')
                     .insertBefore($('#firstHeading'))
-                    .append($('<input type="checkbox" id="p-lang-btn-checkbox" role="button" class="mw-interlanguage-selector vectorMenuCheckbox vector-menu-checkbox"/>'))
-                    .append($('<label id="p-lang-btn-label" class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive" aria-hidden="true">')
-                             .text(($sidebarInterwikis.length+1) + I18n('Label')))
-                    .append($('<div class="vector-menu-content body">').append($menu));
+                    .append($('<input type="checkbox" id="p-lang-btn-checkbox" role="button" class="mw-interlanguage-selector vector-menu-checkbox"/>'))
+                    .append($('<label id="p-lang-btn-label" class="vector-menu-heading" aria-hidden="true">')
+                            .append($('<span>')
+                                    .text(($sidebarInterwikis.length+1) + I18n('Label'))))
+                    .append($('<div class="vector-menu-content">').append($menu));
                 $sidebarInterwikis.each(function() {
                     $menu.append($(this).clone());
                 });
