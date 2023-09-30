@@ -38,7 +38,7 @@
     --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1 1v6h2V3h4V1H1zm2 12H1v6h6v-2H3v-4zm14 4h-4v2h6v-6h-2v4zm0-16h-4v2h4v4h2V1h-2z'/%3E%3C/svg%3E%0A");
     /* Page content */
     --content-vertical-margin--top: 1.8rem;
-    --content-vertical-margin--bottom: 0.8rem;
+    --content-vertical-margin--bottom: 1.2rem;
     --content-horizontal-margin: 2rem;
     --content-body-top-margin: 0.6rem;
     /* Article navigation */
@@ -53,6 +53,26 @@
     --layout-column-gap: 0px;
     /* Search */
 	--search-height: 3em;
+    /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
+    --ad-slot-top--content-spacing: 0.4rem;
+    --ad-slot-rail--edge-spacing: 2px;
+    --ad-slot-rail--content-spacing: calc(var(--content-horizontal-margin) * 2 / 3);
+    --ad-slot-footer--divider-spacing: 0.2rem;
+    --ad-slot-top--margin:
+        calc(var(--content-vertical-margin--top) * -1 + 1px)
+        calc(var(--content-horizontal-margin) * -1)
+        var(--ad-slot-top--content-spacing)
+        calc(var(--content-horizontal-margin) * -1 - 3px);
+    --ad-slot-rail--margin:
+        calc(var(--ad-slot-top--content-spacing) * -1)
+        calc(var(--content-horizontal-margin) * -1 + var(--ad-slot-rail--edge-spacing))
+        0
+        var(--content-horizontal-margin);
+    --ad-slot-footer--margin:
+        0
+        calc(var(--content-horizontal-margin) * -1)
+        calc(var(--content-vertical-margin--bottom) * -1)
+        calc(var(--content-horizontal-margin) * -1 - 3px);
     /* Frontpage */
     --fp-gap: 0.9rem;
     --fp-promo-image: url(/images/0/01/FP_promo_image.jpg);
@@ -1392,24 +1412,17 @@ ul {
 }
 /* #region Advertisement positioning tweaks */
 div.games-showcase-header {
-    --top-offset: -0.9em;
-    position: relative;
-    top: unset;
-    margin: var(--top-offset) calc(var(--content-horizontal-margin) * -1) 0 calc(var(--content-horizontal-margin) * -1 - 3px);
+    margin: var(--ad-slot-top--margin);
     border-bottom: 1px solid var(--ad-content-divider-color);
 }
 div.games-showcase-footer {
-    --bottom-offset: -1.3em;
-    margin: 0 calc(var(--content-horizontal-margin) * -1) var(--bottom-offset) calc(var(--content-horizontal-margin) * -1 - 3px);
+    margin: var(--ad-slot-footer--margin);
     border-top: 1px solid var(--ad-content-divider-color);
-    padding-top: 0.2rem;
 }
 aside.games-showcase-sidebar {
-    margin-left: 0.5rem;
-    margin-right: calc(var(--content-horizontal-margin) / -3 * 2);
+    margin: var(--ad-slot-rail--margin);
     border-left: 1px solid var(--ad-content-divider-color);
-    padding-left: 0.5rem;
-    margin-top: calc(var(--content-body-top-margin) * -1);
+    padding-left: var(--ad-slot-rail--edge-spacing);
     height: 95vh;
 }
 aside.games-showcase-sidebar div.sidebar-showcase {
