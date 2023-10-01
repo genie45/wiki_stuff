@@ -18,6 +18,14 @@
 local Utility = require( 'Module:Utility' )
 
 
+-- TODO: move to Utility
+local function appendTable( target, values )
+    for index = 1, #values do
+        target[#target + 1] = values[index]
+    end
+end
+
+
 -- #region Class abstraction
 local function Class( constructor, parent )
     local methods
@@ -418,48 +426,18 @@ end )
                 self:_processNodeSet( unitHtml, unit )
 
                 if #unitHtml > 0 then
-                    -- Determine if this unit should be made collapsible by the user. At least four components are
-                    -- required inside. JavaScript is needed for collapsibles to work.
-                    local isCollapsible = unit.Collapsible == true or ( unit.Collapsible ~= false and #unitHtml > 3 )
-                    -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
-                    -- be fairly cheap as strings are passed by reference in Lua.
-                    local unitTagSpec = {
-                        tag = 'div',
-                        classes = {
-                            'arkitect-unit',
-                        },
-                    }
-                    if isCollapsible then
-                        unitTagSpec.classes[2] = unit.CollapsedByDefault and 'arkitect-is-collapsed' or nil
-                        unitTagSpec.attributes = {
-                            ['data-arkitecture-collapsible'] = true,
-                        }
-                    end
-                    html[#html + 1] = Html.StartElement( unitTagSpec )
-                    if unit.Caption then
-                        html[#html + 1] = HtmlElement{
-                            tag = 'div',
-                            classes = 'arkitect-unit-caption',
-                            unit.Caption
-                        }
-                    end
-                    for jndex = 1, #unitHtml do
-                        html[#html + 1] = unitHtml[jndex]
-                    end
-                    html[#html + 1] = '</div>'
+                    self:_wrapUnit( unit, unitHtml, html )
                 end
             end
         end
 
-        return HtmlElement{
-            tag = 'div',
-            classes = 'arkitect noexcerpt',
-            attributes = {
-                role = 'region',
-            },
-
-            table.concat( html, '' ),
-        }
+        return self:_wrapResult( table.concat( html, '' ) )
+    end
+    function Renderer.methods._wrapResult( self, inHtml )
+        return inHtml
+    end
+    function Renderer.methods._wrapUnit( self, unit, inHtml, outHtml )
+        appendTable( outHtml, inHtml )
     end
     function Renderer.methods._processNodeSet( self, html, unit )
         if not unit then
@@ -544,8 +522,63 @@ end )
     end
 
 
+local InfoboxRenderer = Class( nil, Renderer )
+    function InfoboxRenderer.methods._wrapResult( self, inHtml )
+        return Html.Element{
+            tag = 'div',
+            classes = 'arkitect noexcerpt',
+            attributes = {
+                role = 'region',
+            },
+            inHtml,
+        }
+    end
+    function InfoboxRenderer.methods._wrapUnit( self, unit, inHtml, outHtml )
+        -- Determine if this unit should be made collapsible by the user. At least four components are
+        -- required inside. JavaScript is needed for collapsibles to work.
+        local isCollapsible = unit.Collapsible == true or ( unit.Collapsible ~= false and #inHtml > 3 )
+        -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
+        -- be fairly cheap as strings are passed by reference in Lua.
+        local unitTagSpec = {
+            tag = 'div',
+            classes = {
+                'arkitect-unit',
+            },
+        }
+        if isCollapsible then
+            unitTagSpec.classes[2] = unit.CollapsedByDefault and 'arkitect-is-collapsed' or nil
+            unitTagSpec.attributes = {
+                ['data-arkitecture-collapsible'] = true,
+            }
+        end
+        outHtml[#outHtml + 1] = Html.StartElement( unitTagSpec )
+        if unit.Caption then
+            outHtml[#outHtml + 1] = HtmlElement{
+                tag = 'div',
+                classes = 'arkitect-unit-caption',
+                unit.Caption,
+            }
+        end
+        appendTable( outHtml, inHtml )
+        outHtml[#outHtml + 1] = '</div>'
+    end
+
+
 local function makeRenderer( template )
     local __templateBoundRendererImpl = Class( nil, Renderer )
+        __templateBoundRendererImpl.template = template
+        function __templateBoundRendererImpl.render()
+            return __templateBoundRendererImpl():render()
+        end
+        function __templateBoundRendererImpl.makeCargoTables()
+            return __templateBoundRendererImpl():makeCargoTables()
+        end
+    return __templateBoundRendererImpl
+end
+
+
+local function makeInfoboxRenderer( template )
+    local __templateBoundRendererImpl = Class( nil, InfoboxRenderer )
         __templateBoundRendererImpl.template = template
         function __templateBoundRendererImpl.render()
             return __templateBoundRendererImpl():render()
@@ -643,6 +676,7 @@ return {
     ComponentContext = ComponentContext,
 
     makeRenderer = makeRenderer,
+    makeInfoboxRenderer = makeInfoboxRenderer,
 
     Cargo = Cargo
 }

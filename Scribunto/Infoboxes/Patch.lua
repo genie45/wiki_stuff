@@ -22,7 +22,7 @@ local function parseVersion( str, defaultPlatform )
 end
 
 
-return Arkitecture.makeRenderer{
+return Arkitecture.makeInfoboxRenderer{
     RequiredLibraries = {
         'Module:Arkitecture/Common library',
     },
