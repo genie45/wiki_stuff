@@ -56,15 +56,17 @@
     /* Search */
 	--search-height: 3em;
     /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
+    --ad-left-shared-offset: -3px;
+    --ad-slot-top--top-spacing: 0px;
     --ad-slot-top--content-spacing: 0.4rem;
     --ad-slot-rail--edge-spacing: 2px;
     --ad-slot-rail--content-spacing: calc(var(--content-horizontal-margin) * 2 / 3);
     --ad-slot-footer--divider-spacing: 0.2rem;
     --ad-slot-top--margin:
-        calc(var(--content-vertical-margin--top) * -1 + 1px)
+        calc(var(--content-vertical-margin--top) * -1 + 1px + var(--ad-slot-top--top-spacing))
         calc(var(--content-horizontal-margin) * -1)
         var(--ad-slot-top--content-spacing)
-        calc(var(--content-horizontal-margin) * -1 - 3px);
+        calc(var(--content-horizontal-margin) * -1 + var(--ad-left-shared-offset));
     --ad-slot-rail--margin:
         calc(var(--ad-slot-top--content-spacing) * -1)
         calc(var(--content-horizontal-margin) * -1 + var(--ad-slot-rail--edge-spacing))
@@ -74,7 +76,7 @@
         0
         calc(var(--content-horizontal-margin) * -1)
         calc(var(--content-vertical-margin--bottom) * -1)
-        calc(var(--content-horizontal-margin) * -1 - 3px);
+        calc(var(--content-horizontal-margin) * -1 + var(--ad-left-shared-offset));
     /* Frontpage */
     --fp-gap: 0.9rem;
     --fp-promo-image: url(/images/0/01/FP_promo_image.jpg);
@@ -145,9 +147,12 @@
         --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
         --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
         /* Page content */
-        --content-horizontal-margin: 0.6em;
+        --content-vertical-margin--top: 1rem;
+        --content-horizontal-margin: 0.8rem;
         --content-top-margin: var(--article-navigation-top-offset);
         --content-body-top-margin: 55px;
+        /* Advertisements */
+        --ad-left-shared-offset: 0px;
         /* Page navigation (mw-head) */
         --article-navigation-top-offset: calc(var(--toolbar-height) + 0.8rem);
     }
@@ -155,6 +160,7 @@
 @media screen and (max-width: 720px) {
     :root {
         /* Logo */
+        --wiki-logo-frame: var(--wiki-logo-horizontal);
         --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         --wiki-logo-offset--left: 0;
@@ -170,17 +176,26 @@
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
+        --search-top-disposition: 0.3rem;
+        --search-top-offset: calc(100% + var(--search-top-disposition));
         /* Page content */
         --content-border-widths: 3px 0;
         --content-body-top-margin: 85px;
-        --content-top-margin: calc(var(--toolbar-height) + 5px);
+        --content-vertical-margin--top: calc(var(--search-height) + 1.2rem);
+        /* Advertisements */
+        --ad-slot-top--top-spacing: calc(var(--search-height) + 0.7rem);
         /* Page navigation (mw-head) */
-        --article-navigation-top-offset: calc(var(--search-height) + 26px);
         --article-navigation-margin: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
         /* Sticky header */
         --sticky-header-height: 40px;
         --sticky-search-border-radius: 0;
         --sticky-button-border-radius: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    :root {
+        /* Page navigation (mw-head) */
+	    --article-navigation-disposition: -9px;
     }
 }
 /* #endregion */
@@ -570,6 +585,11 @@ div#content {
     grid-column: interwikis-left / interwikis-right;
     grid-row: heading-start / heading-end;
 }
+@media screen and (max-width: 720px) {
+    #p-lang-btn {
+        display: none;
+    }
+}
 #firstHeading {
     grid-column: heading-left / heading-right;
     grid-row: heading-start / heading-end;
@@ -596,9 +616,6 @@ div#content {
 @media screen and (max-width: 1290px) {
     .mw-body .mw-indicators {
         grid-column: heading-left / heading-right;
-        grid-row: before-heading;
-    }
-    #p-lang-btn {
         grid-row: before-heading;
     }
     #firstHeading {
@@ -717,11 +734,6 @@ body {
 }
 .rootpage-ARK_Wiki #p-logo a {
     background-image: none;
-}
-@media screen and (max-width: 1260px) {
-	#p-logo a {
-		/*background-image: var(--wiki-logo-horizontal);*/
-	}
 }
 /* #endregion */
 /* #region Dinosaurs behind logo */
@@ -1148,44 +1160,18 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
         position: absolute;
         top: var(--search-top-offset);
         right: 0;
-        top: 0;
+        left: 0;
         box-sizing: border-box;
-        width: 100%;
         margin: 0;
-        position: absolute;
-        top: 0;
-        left: unset;
-        right: 0;
-        padding: 0 2em;
-        z-index: 50;
+        z-index: 2;
         height: var(--search-height);
     }
     #p-search #searchform {
         margin: 0;
     }
-    #p-search div#simpleSearch {
+    #p-search .vector-search-box-inner {
+        width: 100%;
         margin: 0 auto;
-        width: 100%;
-        padding: 0;
-        height: auto;
-        transition: none;
-        display: grid;
-        grid-template-columns: 1fr 0fr;
-        grid-template-rows: 1fr;
-        align-content: stretch;
-        justify-content: stretch;
-    }
-    #simpleSearch #searchInput {
-        width: 100%;
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: left;
-        padding: 3px 5px;
-        word-wrap: break-word;
-        appearance: none;
-        -webkit-appearance: none;
     }
 }
 /* #endregion */
@@ -1230,26 +1216,28 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
         padding: 0;
         margin: 0;
     }
-    div.vector-menu-tabs li.selected a,
-    div.vector-menu-tabs li.selected a:visited,
-    body div.vector-menu-tabs li a,
-    body #right-navigation div.vector-menu-dropdown .vector-menu-heading span {
+    #mw-head .vector-menu-dropdown {
+        height: 100%;
+    }
+    .vector-menu-tabs .mw-list-item.selected a,
+    .vector-menu-tabs .mw-list-item.selected a:visited,
+    .vector-menu-tabs .mw-list-item a,
+    #mw-head div.vector-menu-dropdown .vector-menu-heading {
         width: 20px;
         height: 20px;
         padding: 5px 6px;
         box-sizing: content-box;
-        border: 1px solid var(--articlenav-border-color);
         display: block;
         font-size: 0;
     }
-    div.vector-menu-tabs li.selected a,
-    div.vector-menu-tabs li.selected a:visited,
-    div.vector-menu-tabs li a,
-    div.vector-menu-dropdown .vector-menu-heading span {
+    div.vector-menu-tabs .mw-list-item.selected a,
+    div.vector-menu-tabs .mw-list-item.selected a:visited,
+    div.vector-menu-tabs .mw-list-item a,
+    div.vector-menu-dropdown .vector-menu-heading {
         overflow: hidden;
     }
     div.vector-menu-tabs li a::before,
-    div.vector-menu-dropdown .vector-menu-heading span::before {
+    div.vector-menu-dropdown .vector-menu-heading::before {
         content:"";
         display:inline-block;
         background-color:transparent;
@@ -1257,9 +1245,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
         background-position:center top;
         background-size:100% auto;
         width:20px;
-        height:0;
-        border-bottom:60px solid transparent;
-        margin:0.7em 20px 0 0;
+        height:20px;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M4 2v16h4v-2H6V4h3.994v4H14v1h2V7.01L11 2z' /%3E%3Cpath d='M13.339 10a.641.641 0 0 0-.643.643v.418a3.536 3.536 0 0 0-1.064.44l-.291-.291a.64.64 0 0 0-.91 0l-.226.228a.641.641 0 0 0 0 .909l.293.293a3.536 3.536 0 0 0-.437 1.056h-.418A.641.641 0 0 0 9 14.34v.322c0 .356.286.643.643.643h.418a3.536 3.536 0 0 0 .44 1.064l-.296.297a.641.641 0 0 0 0 .91l.227.227a.642.642 0 0 0 .909 0l.3-.3a3.536 3.536 0 0 0 1.055.437v.418c0 .357.287.643.643.643h.322a.641.641 0 0 0 .643-.643v-.418a3.536 3.536 0 0 0 1.056-.436l.3.299a.642.642 0 0 0 .908 0l.228-.228a.641.641 0 0 0 0-.909l-.298-.299a3.536 3.536 0 0 0 .441-1.062h.418A.641.641 0 0 0 18 14.66v-.322a.641.641 0 0 0-.643-.643h-.418a3.536 3.536 0 0 0-.436-1.056l.293-.293a.641.641 0 0 0 0-.91l-.228-.227a.642.642 0 0 0-.909 0l-.292.292a3.536 3.536 0 0 0-1.063-.441v-.418A.641.641 0 0 0 13.66 10zm.161 2.5a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z' /%3E%3C/svg%3E");
         filter: invert(1);
     }
@@ -1289,12 +1275,12 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     #ca-viewsource a::before {
         background-image: var(--icon-view-source);
     }
-    #p-variants .vector-menu-heading span::before {
+    #p-variants .vector-menu-heading::before {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 48 48' width='20'%3E%3Cpath d='M0 0h48v48h-48z' fill='none'/%3E%3Cpath d='M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z'/%3E%3C/svg%3E");
     }
     /* #endregion */
     /* More */
-    #p-cactions .vector-menu-heading span::before {
+    #p-cactions .vector-menu-heading::before {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 0 24 24' width='20'%3E%3Cpath d='M14 6C14 7.10457 13.1046 8 12 8C10.8954 8 10 7.10457 10 6C10 4.89543 10.8954 4 12 4C13.1046 4 14 4.89543 14 6Z'/%3E%3Cpath d='M14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12Z'/%3E%3Cpath d='M14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16C13.1046 16 14 16.8954 14 18Z'/%3E%3C/svg%3E");
         margin-top: 0;
     }
@@ -1354,8 +1340,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
         background-position: center top;
         background-size: 100% auto;
         width: 18px;
-        height: 0;
-        border-bottom: 60px solid transparent;
+        height: 18px;
         position: relative;
         filter: invert(1);
         margin: -2px 20px 0 0;
