@@ -1541,6 +1541,20 @@ ul#filetoc {
 #content .mw-parser-output > #toc { float: right; clear: right; margin-left: 1.4em; }
 #content .mw-parser-output .info-framework ~ #toc,
 #content .mw-parser-output .infobox-tabber ~ #toc { float: none; clear: none; margin-left: 0; }
+
+/* #region Sidebar sticky ToC */
+#p-stoc {
+    position: sticky;
+    top: calc(var(--netbar-height) + var(--sticky-header-height));
+}
+#p-stoc > .vector-menu-content {
+    overflow-y: scroll;
+    max-height: calc(100vh - var(--netbar-height) - var(--sticky-header-height) - 2rem - .75em);
+}
+#p-stoc .vector-menu-content li {
+    font-size: .725rem;
+}
+/* #endregion */
 /* #endregion */
 
 /* #region Category list */
