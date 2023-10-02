@@ -81,7 +81,7 @@
     --fp-gap: 0.9rem;
     --fp-promo-image: url(/images/0/01/FP_promo_image.jpg);
     /* Sticky header */
-    --sticky-header-height: 50px;
+    --sticky-header-height: 0px;
     --sticky-search-border-radius: 4px;
     --sticky-button-border-radius: 4px;
     /* Common icons */
@@ -90,7 +90,13 @@
     --icon-history: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M9 6v5h.06l2.48 2.47 1.41-1.41L11 10.11V6z'/%3E%3Cpath d='M10 1a9 9 0 0 0-7.85 13.35L.5 16H6v-5.5l-2.38 2.38A7 7 0 1 1 10 17v2a9 9 0 0 0 0-18z'/%3E%3C/svg%3E%0A");
     --icon-view-source: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M1 3v14h3v-2H3V5h1V3zm4 0v14h4v-2H7V5h2V3zm11 0v2h1v10h-1v2h3V3zm-5 0v2h2v10h-2v2h4V3z'/%3E%3C/svg%3E%0A");
 }
-.rootpage-ARK_Wiki {
+body {
+    --sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
+}
+body.is-sticky-header-visible {
+    --sticky-header-height: 50px;
+}
+body.rootpage-ARK_Wiki {
     --wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
     --wiki-logo-height: 260px;
     --wiki-logo-width: 450px;
@@ -105,7 +111,7 @@
         --sidebar-width: 170px;
         --content-horizontal-margin: 1.5rem;
     }
-    .rootpage-ARK_Wiki {
+    body.rootpage-ARK_Wiki {
         /* Logo */
         --wiki-logo-height: 173px;
         --wiki-logo-width: 300px;
@@ -1545,11 +1551,11 @@ ul#filetoc {
 /* #region Sidebar sticky ToC */
 #p-stoc {
     position: sticky;
-    top: calc(var(--netbar-height) + var(--sticky-header-height));
+    top: var(--sticky-offset);
 }
 #p-stoc > .vector-menu-content {
     overflow-y: scroll;
-    max-height: calc(100vh - var(--netbar-height) - var(--sticky-header-height) - 2rem - .75em);
+    max-height: calc(100vh - var(--sticky-offset) - 2rem - .75em);
 }
 #p-stoc .vector-menu-content li {
     font-size: .725rem;
