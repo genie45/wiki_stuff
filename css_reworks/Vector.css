@@ -21,14 +21,6 @@
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + var(--wiki-logo-disposition--top));
     --wiki-logo-offset--left: calc(-1.1em - 7px);
     --wiki-logo-layout-bottom-gap: 0;
-    /* Logo background */
-	--head-background-image--desktop: url(/images/0/0d/Head_dinos_banner.png) /*[[File:Head dinos banner.png]]*/;
-	--head-background-image--mobile: url(/images/6/65/Head_dinos_banner_mobile.png)
-        /*[[File:Head dinos banner mobile.png]]*/;
-	--head-layout-offset: calc(var(--layout-sidespace--right) + var(--layout-column-gap));
-    --head-shadow-settings: none;
-    --head-background-settings: var(--head-background-image--desktop) -200px -13px / 907px 360px no-repeat;
-    --head-height-offset: 0px;
     /* Sidebar */
     --sidebar-width: 180px;
     --sidebar-to-content-margin: 0;
@@ -518,10 +510,6 @@ body > .content-wrapper, #mw-navigation {
     grid-row: nav-start / footer-end;
     height: 100%;
 }
-#mw-head-base {
-    grid-column: aside-left/content-left;
-    grid-row: page-start/nav-start;
-}
 #mw-head {
     grid-column: content-left/content-right;
     grid-row: nav-start/nav-end;
@@ -747,20 +735,6 @@ body {
 }
 .rootpage-ARK_Wiki #p-logo a {
     background-image: none;
-}
-/* #endregion */
-/* #region Dinosaurs behind logo */
-#mw-head-base {
-    margin: 0 -400px 0 -150px;
-    height: 360px;
-    z-index: -1;
-    background: var(--head-shadow-settings), var(--head-background-settings);
-}
-@media screen and (max-width: 720px) {
-    html #mw-head-base {
-        margin: unset;
-        height: unset;
-    }
 }
 /* #endregion */
 /* #region Content area (& hex, frame border) */
