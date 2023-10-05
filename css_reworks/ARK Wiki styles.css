@@ -17,7 +17,7 @@
         "e e r"
         "f g r"
         "m m m";
-    grid-template-columns: repeat(2, minmax(0, 1fr)) var(--right-rail-size);
+    grid-template-columns: var(--tmp---ts-bug--fp-container-columns);
     gap: var(--fp-gap);
 }
 .fp-rail {
@@ -28,7 +28,7 @@
 }
 .fp-block {
     display: grid;
-    grid-template-columns: minmax(0, 2fr) var(--block-size--2);
+    grid-template-columns: var(--tmp---ts-bug--fp-block-columns);
     /*grid-template-rows: max-content;*/
     gap: var(--fp-gap);
 }
@@ -118,12 +118,11 @@
 .fp-section {
     width: 100%;
     border: 1px solid var(--fp-box-border-color);
-    box-shadow: 0 2px 5px var(--fp-box-shadow-color);
     background: var(--fp-box-background-color);
     color: var(--content-text-color);
     padding: 8px 1.25em;
     border-radius: 2px;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000018;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem var(--fp-box-shadow-color);
 }
 .fp-section.plain {
     border: none;
@@ -196,7 +195,8 @@ ul.fp-labelled-icons {
 /* #region Game basics with thumbnails */
 #fp-bigbasics li {
     flex-direction: column;
-    padding-inline: 1.1rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
     border-radius: 1px;
 }
 #fp-bigbasics img {
@@ -258,9 +258,9 @@ ul.fp-labelled-icons {
     font-size: 125%;
     padding: 2.5rem 1.75em;
     text-align: center;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem #00000024,
-        inset 0 0 2rem 0.35rem #0003;
-    text-shadow: -1px -1px 4px #000;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem var(--fp-promo-shadow-color--1),
+        inset 0 0 2rem 0.35rem var(--fp-promo-shadow-color--2);
+    text-shadow: -1px -1px 4px var(--fp-promo-text-color);
     background-position: center;
     background-size: cover;
     background-image: var(--fp-promo-image);

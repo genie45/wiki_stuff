@@ -1794,6 +1794,13 @@ ul#filetoc {
 }
 /* #endregion */
 
+/* #region New front page TemplateStyles workarounds */
+#fp-container {
+    --tmp---ts-bug--fp-container-columns: repeat(2, minmax(0, 1fr)) var(--right-rail-size);
+    --tmp---ts-bug--fp-block-columns: minmax(0, 2fr) var(--block-size--2);
+}
+/* #endregion */
+
 /* #region Hide top content divider line on main page */
 .rootpage-ARK_Wiki #mw-content-text {
     border: 0
