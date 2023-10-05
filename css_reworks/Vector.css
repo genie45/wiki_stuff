@@ -45,8 +45,9 @@
     /* Article navigation */
     --article-navigation-height: 40px;
 	--article-navigation-disposition: -3px;
+	--article-navigation-disposition--left: 0px;
     --article-navigation-top-offset: 0px;
-    --article-navigation-margin: 0 var(--content-horizontal-margin);
+    --article-navigation-margin: 0 0 var(--article-navigation-disposition) 0.2rem;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - var(--article-navigation-height) - var(--wiki-logo-disposition--top) - var(--article-navigation-disposition));
     --layout-sidespace--dynamic: 3vw;
@@ -127,6 +128,7 @@ body.rootpage-ARK_Wiki {
         --sidenav-toggle-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M7 7V1H5v4H1v2h6zM5 19h2v-6H1v2h4v4zm10-4h4v-2h-6v6h2v-4zm0-8h4V5h-4V1h-2v6h2z'/%3E%3C/svg%3E%0A");
         --sidebar-width: 0px;
         --layout-sidespace--right: 32px;
+        --article-navigation-disposition--left: var(--wiki-logo-width);
     }
     .is-sidebar-hidden #mw-panel .mw-portlet {
         display: none;
@@ -190,8 +192,6 @@ body.rootpage-ARK_Wiki {
         --content-vertical-margin--top: calc(var(--search-height) + 1.2rem);
         /* Advertisements */
         --ad-slot-top--top-spacing: calc(var(--search-height) + 0.7rem);
-        /* Page navigation (mw-head) */
-        --article-navigation-margin: calc(var(--search-height) + var(--search-spacing--bottom)) 0.5em 0;
         /* Sticky header */
         --sticky-header-height: 40px;
         --sticky-search-border-radius: 0;
@@ -527,8 +527,8 @@ body > .content-wrapper, #mw-navigation {
 	z-index: 10;
     box-sizing: border-box;
     display: block;
-    padding: 0;
-    margin-bottom: var(--article-navigation-disposition);
+    padding: 0 0 0 var(--article-navigation-disposition--left);
+    margin: var(--article-navigation-margin);
 }
 #mw-head #left-navigation,
 #mw-head #right-navigation {
