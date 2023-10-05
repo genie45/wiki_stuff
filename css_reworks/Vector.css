@@ -1381,12 +1381,14 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 
 /* #region Sidebar toggle */
 #nav-sidebar-toggle {
+    margin-left: .8rem;
+    margin-right: .4rem;
     width: 24px;
     height: 2.5em;
     cursor: pointer;
     filter: var(--sidenav-toggle-icon-filter);
     opacity: 0.8;
-    background: var(--sidenav-toggle-icon) center 1em no-repeat;
+    background: var(--sidenav-toggle-icon) center no-repeat;
 }
 #nav-sidebar-toggle:hover {
     opacity: 1;
