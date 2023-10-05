@@ -1203,7 +1203,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 .vector-search-box-inner .searchButton {
     opacity: 0.8;
-    filter: brightness(200%);
+    filter: invert(1) brightness(80%);
 }
 .vector-search-box-input {
     color: var(--search-text-color);
