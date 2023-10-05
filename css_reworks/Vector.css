@@ -281,7 +281,7 @@ html {
     --fp-heading-border-color: #749ca4;
     --fp-box-background-color: #1d2526;
     --fp-box-border-color: #749ca4;
-    --fp-box-shadow-color: #4a5153;
+    --fp-box-shadow-color: #00000018;
     --fp-box-border-color--2: #547076;
     --fp-box-background-color--2: #1a2022;
     --fp-box-mainheading-text-color: #82a8af;
@@ -289,6 +289,9 @@ html {
     --fp-labelled-icon-background: var(--ark-arkitex-background-color);
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #5353534d;
+    --fp-promo-shadow-color--1: #00000024;
+    --fp-promo-shadow-color--2: #0003;
+    --fp-promo-text-color: #000;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
