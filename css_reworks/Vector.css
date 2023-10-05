@@ -44,6 +44,7 @@
     --layout-column-gap: 0px;
     /* Search */
 	--search-height: 3em;
+    --search-button-overlay-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1159431056890544138/Head_dinos_banner_hlna.png?ex=6530ff51&is=651e8a51&hm=e15c4455d1701d4f64d1fd8251e070f77ed4bcdb9d955acaa8e878ff08dc3a2c&);
     /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
     --ad-left-shared-offset: -3px;
     --ad-slot-top--top-spacing: 0px;
@@ -1191,6 +1192,19 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 .vector-search-box-input::placeholder {
     color: var(--search-text-color--placeholder);
+}
+/* HLN-A lingering over the search button */
+.vector-search-box-inner::after {
+    content: '';
+    display: block;
+    width: 3.9rem;
+    height: 3.5rem;
+    position: absolute;
+    right: -1.9rem;
+    top: -2.4rem;
+    transform: rotateY(180deg);
+    background: var(--search-button-overlay-image) center / contain;
+    filter: drop-shadow(-0.8rem -0.8rem 1.2rem #004);
 }
 /* #endregion */
 
