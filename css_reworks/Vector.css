@@ -700,7 +700,7 @@ div#content {
 
 /* #region Vector skinning */
 body {
-	background: var(--page-background-image) no-repeat var(--page-background-color); 
+	background: var(--page-background-image) center no-repeat var(--page-background-color); 
 	background-size: cover;
 	background-attachment: fixed;
 }
