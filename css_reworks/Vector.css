@@ -253,6 +253,7 @@ html {
     --search-border-color--active: var(--content-border-color);
     --search-text-color: var(--content-text-color);
     --search-text-color--placeholder: #aaa;
+    --search-result-data-text-color: #aaa;
     /* Table of contents */
     --toc-background-color: #424442;
     --toc-number-color: #cecece;
@@ -3440,31 +3441,52 @@ table.mw-abuselog-details tr td {
 /* #endregion */
 
 /* #region Special:Search */
-div.mw-search-profile-tabs {
-    background-color: var(--table-heading-background-color);
-    color: #80E7FF;
-    border: 1px solid var(--table-border-color);
+.mw-search-profile-tabs,
+#mw-searchoptions {
+    background: var(--table-background-color);
+    border-color: var(--content-border-color);
 }
-fieldset#mw-searchoptions {
-    border: 1px solid var(--table-border-color);
-    background-color: var(--table-background-color);
+#mw-searchoptions {
+    padding: 1rem 1.2rem;
 }
-.mw-search-profile-tabs .search-types {
-    padding-left:0;
+#mw-searchoptions #mw-search-togglebox + .divider {
+    display: none;
 }
-div#content .mw-search-profile-tabs .search-types ul li a {
-    color:var(--content-text-color);
-    border-right: 1px solid #7f7f7f;
+#mw-searchoptions .divider {
+    border-color: rgba(var(--content-border-color--rgb), 0.6);
 }
-div#content .mw-search-profile-tabs .search-types ul li:not(.current) a {
-    color: var(--content-default-link-color);
+.search-types a {
+    padding: 0.5em 0.8em;
+    text-decoration: none;
 }
-.mw-search-profile-tabs ul li.current {
-    background-color: rgba(64,64,64,0.1);
-    text-shadow:none;
+.search-types a:hover {
+    background: var(--tabber-background-hover-color);
+    color: var(--content-text-color);
 }
-.mw-search-profile-tabs ul li:last-child {
-    border-bottom:0;
+.search-types .current a {
+    background: var(--tabber-background-active-color);
+    color: var(--content-text-color);
+}
+#mw-searchoptions .divider + .checkbox-container {
+    margin-top: 2.2rem;
+}
+#mw-searchoptions .checkbox-container {
+    clear: left;
+}
+.results-info,
+.searchdidyoumean,
+.mw-search-result-data {
+    color: var(--search-result-data-text-color);
+}
+.mw-search-results {
+    margin-top: 1.4em;
+    max-width: 50em;
+}
+.mw-search-results li {
+    border-top: 1px solid rgba(var(--content-border-color--rgb), 0.6);
+    margin: 1.1rem 0 0;
+    padding: 0.3rem 0.6em 1.1rem;
+    border-radius: 2px;
 }
 /* #endregion */
 
