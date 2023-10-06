@@ -222,7 +222,7 @@ html {
     --content-text-link-color--new: #e51616;
     --content-border-color: #658a19;
     --content-border-color--rgb: 101, 138, 25;
-    --content-text-top-border-color: #a2a9b1;
+    --content-heading-divider-color: #a2a9b1;
     --article-navigation-item-background-color: #2f3030fa;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color: #2f3030;
@@ -843,6 +843,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
   font-size: 24px;
   margin: 22px 0 10px;
   padding: 4px 0;
+  border-color: var(--content-heading-divider-color);
 }
 .mw-body-content h3 {
   font-size: 17px;
@@ -1037,7 +1038,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
   
 /* Border below the title heading (as in this setup #firstHeading does not span for the entire length) */
 #mw-content-text {
-    border-top: 1px solid var(--content-text-top-border-color);
+    border-top: 1px solid var(--content-heading-divider-color);
     padding-top: 6px;
 }
 #contentSub:empty,
