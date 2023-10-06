@@ -93,7 +93,7 @@ body {
     --sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
 }
 body.is-sticky-header-visible {
-    --sticky-header-height: 50px;
+    --sticky-header-height: 3rem;
 }
 body.rootpage-ARK_Wiki {
     --wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
