@@ -75,19 +75,19 @@
     --sticky-search-border-radius: 4px;
     --sticky-button-border-radius: 4px;
     /* Common icons */
-    --icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231006);
-    --list-bulletpoint-image: url(/images/9/9e/Skin_iconsheet.svg?20231006#bulletpoint);
-    --icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20231006#edit);
-    --icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20231006#talk);
-    --icon-history: url(/images/9/9e/Skin_iconsheet.svg?20231006#history);
-    --icon-view: url(/images/9/9e/Skin_iconsheet.svg?20231006#view);
-    --icon-view-source: url(/images/9/9e/Skin_iconsheet.svg?20231006#edit-source);
-    --icon-contributions: url(/images/9/9e/Skin_iconsheet.svg?20231006#contributions);
-    --icon-more: url(/images/9/9e/Skin_iconsheet.svg?20231006#more);
-    --sidenav-toggle-icon: url(/images/9/9e/Skin_iconsheet.svg?20231006#expand-sidebar);
-    --sidenav-toggle-icon--hidden: url(/images/9/9e/Skin_iconsheet.svg?20231006#collapse-sidebar);
-    --sidebar-toggle-icon--open: url(/images/9/9e/Skin_iconsheet.svg?20231006#collapse-sidebar);
-    --sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20231006#expand-sidebar);
+    --icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231007);
+    --list-bulletpoint-image: url(/images/9/9e/Skin_iconsheet.svg?20231007#bulletpoint);
+    --icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20231007#edit);
+    --icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20231007#talk);
+    --icon-history: url(/images/9/9e/Skin_iconsheet.svg?20231007#history);
+    --icon-view: url(/images/9/9e/Skin_iconsheet.svg?20231007#view);
+    --icon-view-source: url(/images/9/9e/Skin_iconsheet.svg?20231007#edit-source);
+    --icon-contributions: url(/images/9/9e/Skin_iconsheet.svg?20231007#contributions);
+    --icon-more: url(/images/9/9e/Skin_iconsheet.svg?20231007#more);
+    --sidenav-toggle-icon: url(/images/9/9e/Skin_iconsheet.svg?20231007#expand-sidebar);
+    --sidenav-toggle-icon--hidden: url(/images/9/9e/Skin_iconsheet.svg?20231007#collapse-sidebar);
+    --sidebar-toggle-icon--open: url(/images/9/9e/Skin_iconsheet.svg?20231007#collapse-sidebar);
+    --sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20231007#expand-sidebar);
 }
 body {
     --sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
