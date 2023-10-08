@@ -110,16 +110,6 @@ body.rootpage-ARK_Wiki {
         --sidebar-width: 170px;
         --content-horizontal-margin: 1.5rem;
     }
-    body.rootpage-ARK_Wiki {
-        /* Logo */
-        --wiki-logo-height: 173px;
-        --wiki-logo-width: 300px;
-        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 7px);
-        /* Page content */
-        --content-body-top-margin: 60px;
-        /* Page navigation (mw-head) */
-        --article-navigation-top-offset: 27px;
-    }
 }
 @media screen and (min-width: 1260px) {
     .is-sidebar-hidden {
