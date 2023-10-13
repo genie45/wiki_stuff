@@ -3253,8 +3253,8 @@ ul.color-ids-list {
 #p-lang-btn .vector-menu-content {
     padding: 0.2rem 0;
     border-width: 0 3px 3px;
-    left: -2px;
-    right: -2px;
+    left: -3px;
+    right: -3px;
     min-width: unset;
     top: 95%;
 }
