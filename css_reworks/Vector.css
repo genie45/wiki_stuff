@@ -24,7 +24,7 @@
     /* Sidebar */
     --sidebar-width: 180px;
     --sidebar-to-content-margin: 0;
-    --sidebar-padding: 2.4rem 0.8em 1rem 1.1em;
+    --sidebar-padding: 2.4rem 0 1rem 1.1em;
     /* Page content frame */
     --content-frame-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1162515351653851136/BorderNew3-fs8.png?ex=653c37ca&is=6529c2ca&hm=8c538453636472a4b621825bb09c0ae16d8bbfe70dd15a53852c337bc0a2a186&);
     --content-frame-slice: 620 643 0 643;
