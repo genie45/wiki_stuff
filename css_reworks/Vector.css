@@ -1511,6 +1511,12 @@ table .number { text-align: right; }
 /* #region Table of Contents, category list, file ToC */
 #toc {
     max-width: 395px;
+    padding: 0.4rem 1.1rem;
+    border-radius: 2px;
+}
+#toc > ul {
+    max-height: calc(1.7em * 15);
+    overflow-y: auto;
 }
 div#toc,
 div.toc,
