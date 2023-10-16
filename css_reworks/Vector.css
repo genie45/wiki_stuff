@@ -40,6 +40,7 @@
 	--article-navigation-disposition--left: 0px;
     --article-navigation-top-offset: 0px;
     --article-navigation-margin: 0 0 var(--article-navigation-disposition) 0.2rem;
+    --article-navigation-item-border-width: 3px;
     /* Grid layout */
     --layout-content-top-offset: calc(var(--wiki-logo-height) - var(--article-navigation-height) - var(--wiki-logo-disposition--top) - var(--article-navigation-disposition));
     --layout-sidespace--dynamic: 3vw;
@@ -948,8 +949,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 .vector-menu-dropdown {
     background: var(--article-navigation-item-background-color);
     margin-right: 0.5em;
-    border: 3px solid var(--article-navigation-item-border-color);
-    border-bottom-width: 0px;
+    border: var(--article-navigation-item-border-width) solid var(--article-navigation-item-border-color);
     border-radius: 1px 1px 0 0;
     position: relative;
 }
@@ -960,7 +960,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 .vector-menu-tabs ul .mw-list-item.selected {
     background: #1c1e21;
-    border-bottom: 1px solid transparent;
     opacity: 1;
 }
 .vector-menu-tabs .mw-list-item a,
@@ -972,8 +971,8 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 .vector-menu-dropdown .vector-menu-content {
 	background-color: var(--article-navigation-dropdown-background-color);
     border-color: var(--article-navigation-item-border-color);
-    border-width: 0 2px 2px;
-    left: -2px;
+    border-width: 0 var(--article-navigation-item-border-width) var(--article-navigation-item-border-width);
+    left: calc(-1 * var(--article-navigation-item-border-width));
     top: 100%;
 }
 .vector-menu-dropdown .vector-menu-heading {
@@ -3233,7 +3232,6 @@ ul.color-ids-list {
 #p-lang-btn {
     align-self: center;
 	margin-left: 5px;
-    border-bottom-width: 3px;
     z-index: 5;
     border-radius: 5px;
 }
@@ -3255,11 +3253,9 @@ ul.color-ids-list {
 }
 #p-lang-btn .vector-menu-content {
     padding: 0.2rem 0;
-    border-width: 0 3px 3px;
-    left: -3px;
-    right: -3px;
     min-width: unset;
     top: 95%;
+    right: calc(-1 * var(--article-navigation-item-border-width));
 }
 #p-lang-btn .vector-menu-content li {
     margin: 0 0.5rem;
