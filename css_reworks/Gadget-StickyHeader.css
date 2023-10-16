@@ -15,7 +15,7 @@
 }
 
 .ark-top {
-    background: #26405b var(--sidebar-toggle-icon--open) center center no-repeat;
+    background: var(--icon-top) center / 1.5rem no-repeat #26405b;
     position: fixed;
     left: 0.5rem;
     bottom: -2rem;
