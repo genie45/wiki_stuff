@@ -266,6 +266,7 @@ local ParameterTypes = {
     BOOL = '_M_PT_BOOL',
     NUMBER = '_M_PT_NUMBER',
     INTEGER = '_M_PT_NUMBER_INT',
+    LIST = '_M_PT_GLIST',
     GAME_VERSION = '_M_PT_GVER',
     DATE = '_M_PT_DATE',
     GAME = {
@@ -346,6 +347,15 @@ end )
             } )[value]
         elseif paramSpec[1] == ParameterTypes.NUMBER or paramSpec[1] == ParameterTypes.INTEGER then
             value = tonumber( value )
+        elseif paramSpec[1] == ParameterTypes.LIST then
+            value = mw.text.split( value, ', ', true )
+
+            local virtSpec = {
+                paramSpec[2]
+            }
+            for index = 1, #value do
+                value[index] = self:_normaliseParameter( virtSpec, value[index] )
+            end
         end
 
         return value
