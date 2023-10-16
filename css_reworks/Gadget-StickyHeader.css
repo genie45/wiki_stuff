@@ -15,11 +15,11 @@
 }
 
 html {
-    scroll-padding-top: calc(var(--sticky-offset) + 1em);
+    scroll-padding-top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
 }
 
-body.is-sticky-header-visible #ark-sticky-header {
-    transform: translateY(var(--sticky-offset));
+.is-sticky-header-visible #ark-sticky-header {
+    transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
 }
   
 #ark-sticky-header > *:not(.sticky-search-box) {
@@ -35,12 +35,21 @@ body.is-sticky-header-visible #ark-sticky-header {
 }
 
 #ark-sticky-header > .sticky-wiki-name a {
+	display: flex;
+	align-items: center;
     color: var(--sticky-header-link-color);
 }
 
-#ark-sticky-header > .sticky-wiki-name span {
-    vertical-align: middle;
+#ark-sticky-header > .sticky-wiki-name > a > span {
     margin-left: 0.5em;
+    font-size: 90%;
+    line-height: 1.25;
+}
+
+#ark-sticky-header > .sticky-wiki-name > a > span > span {
+    display: block;
+    margin-left: 0;
+    font-size: 70%;
 }
   
 #ark-sticky-header > .sticky-search-box {
@@ -104,7 +113,8 @@ body.is-sticky-header-visible #ark-sticky-header {
     background-position: center center;
     background-repeat: no-repeat;
     font-size: 0;
-    width: 30px;
+    width: 32px;
+    background-size: 55%;
 }
 
 #ark-sticky-header .sticky-buttons > a:first-child {
