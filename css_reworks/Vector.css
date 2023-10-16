@@ -1751,6 +1751,7 @@ ul#filetoc {
     width: 1em;
     height: 1em;
     vertical-align: super;
+    mix-blend-mode: difference;
 }
 .copy-clipboard button:hover {
     filter: var(--oo-ui-icon-filter--normal-progressive) brightness(180%);
