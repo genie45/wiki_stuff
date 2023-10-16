@@ -21,7 +21,7 @@
     /* Sidebar */
     --sidebar-width: 180px;
     --sidebar-to-content-margin: 0;
-    --sidebar-padding: 2.4rem 0 1rem 1.1em;
+    --sidebar-padding: 2.4rem 0 1rem 1.2em;
     /* Page content frame */
     --content-frame-image: url(/images/a/a6/Border_frame_dark.png?20231016);
     --content-frame-slice: 620 643 0 643;
@@ -36,7 +36,7 @@
     --content-body-top-margin: 0.6rem;
     /* Article navigation */
     --article-navigation-height: 40px;
-	--article-navigation-disposition: 10px;
+	--article-navigation-disposition: 12px;
 	--article-navigation-disposition--left: 0px;
     --article-navigation-top-offset: 0px;
     --article-navigation-margin: 0 0 var(--article-navigation-disposition) 0.2rem;
@@ -47,6 +47,7 @@
     --layout-sidespace--left: calc(0.1rem + var(--layout-sidespace--dynamic));
     --layout-sidespace--right: var(--layout-sidespace--left);
     --layout-column-gap: 0px;
+    --layout-allotment--article-navigation: 0fr;
     /* Search */
 	--search-height: 3em;
     --search-button-overlay-image: url(/images/1/1c/Search_hlna.png?20231016);
@@ -130,41 +131,36 @@ body.rootpage-ARK_Wiki {
 @media screen and (max-width: 1260px) {
     :root {
         /* Logo */
+        --wiki-logo-frame: var(--wiki-logo-horizontal);
+        --wiki-logo-width: 300px;
         --wiki-logo-height: 140px;
+        --wiki-logo-offset--left: 0px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
-        --wiki-logo-offset--left-part: calc( var(--wiki-logo-width) / -4 );
-        --mw-head-base-height-offset: -9px;
-        /* Logo background */
-		--head-shadow-settings: radial-gradient(circle at center, #0008 0, #0006 calc(var(--wiki-logo-width) / 2.1),
-            #0004 calc(var(--wiki-logo-width) / 1.3), transparent 100%);
         /* Grid layout */
-        --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
-        --layout-sidespace--dynamic: 1.25vw;
+        --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px + var(--toolbar-height));
+        --layout-sidespace--dynamic: 1.2vw;
         --layout-column-gap: 0px;
         --sidebar-width: 0px;
+        --layout-allotment--article-navigation: 5rem;
+        /* Article navigation */
+        --article-navigation-top-offset: 3.1rem;
         /* Sidebar / toolbar */
         --toolbar-height: 38px;
         --sidebar-to-content-margin: 0;
         --sidebar-toggle-icon--open: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m13.002 6.001-5 5.001-5-5.001z' fill='%23fff' /%3E%3C/svg%3E%0A");
         --sidebar-toggle-icon--collapsed: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='m6.001 2.998 5.001 5-5.001 5z' fill='%23fff'/%3E%3C/svg%3E%0A");
         /* Page content */
-        --content-vertical-margin--top: 1rem;
-        --content-horizontal-margin: 0.8rem;
+        --content-vertical-margin--top: 2.4rem;
+        --content-horizontal-margin: 1rem;
         --content-top-margin: var(--article-navigation-top-offset);
-        --content-body-top-margin: 55px;
         /* Advertisements */
         --ad-left-shared-offset: 0px;
-        /* Page navigation (mw-head) */
-        --article-navigation-top-offset: calc(var(--toolbar-height) + 0.8rem);
     }
 }
 @media screen and (max-width: 720px) {
     :root {
         /* Logo */
-        --wiki-logo-frame: var(--wiki-logo-horizontal);
-        --wiki-logo-width: 300px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
-        --wiki-logo-offset--left: 0;
         --wiki-logo-layout-bottom-gap: calc((var(--wiki-logo-offset--top) - var(--netbar-height)) * 2);
         --mw-head-base-height-offset: 0px;
         /* Logo background */
@@ -491,7 +487,7 @@ body {
     grid-template-rows:
         [body-start] var(--netbar-height)
         [page-start reserved-start] var(--layout-content-top-offset)
-        [reserved-end nav-start] 0fr
+        [reserved-end nav-start] var(--layout-allotment--article-navigation)
         [nav-end content-start] auto
         [content-end footer-start] minmax(0, 1fr)
         [footer-end] 0fr
@@ -623,12 +619,6 @@ div#content {
 /* #region 1260px */
 @media screen and (max-width: 1260px) {
     body {
-        grid-template-columns:
-            [body-left] var(--layout-sidespace--left)
-            [aside-left] var(--sidebar-width)
-            [aside-right content-left] minmax(0,1fr)
-            [content-right] var(--layout-sidespace--right)
-            [body-right];
         grid-template-columns:
             [body-left] var(--layout-sidespace--left)
             [aside-left content-left] auto
