@@ -181,6 +181,8 @@ body.rootpage-ARK_Wiki {
         --layout-sidespace--right: 0;
         --content-frame-border-width: 3px;
         --content-frame-border-margin: 0;
+        /* Article navigation */
+        --article-navigation-margin: 0 0 var(--article-navigation-disposition);
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
