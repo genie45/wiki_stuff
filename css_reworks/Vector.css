@@ -878,13 +878,16 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
     }
 }
 /* #endregion */
-/* #region List tweaks */
+/* #region Lists */
 .mw-content-ltr li {
     margin-bottom: .15em;
 }
 .mw-content-ltr ul > li > ul,
 .mw-content-ltr ol > li > ol {
     margin-bottom: .5em;
+}
+ul {
+    list-style-image: var(--list-bulletpoint-image);
 }
 /* #endregion */
 
@@ -1400,12 +1403,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--content-header-color); }
 }
 /* #endregion */
 
-/* #region Bulletpoint fixes */
-ul {
-    list-style-image: var(--list-bulletpoint-image);
-}
-/* #endregion */
-
 /* #region Fixes and tweaks to wiki.gg styles */
 /* Hide privacy policy link from footer - wiki.gg footer links the correct one */
 #footer-places-privacy {
@@ -1428,17 +1425,6 @@ aside.games-showcase-sidebar {
 }
 aside.games-showcase-sidebar div.sidebar-showcase {
     padding-left: 0;
-}
-@media screen and (max-width: 1500px) {
-    div.games-showcase-header {
-        --top-offset: 0.5em;
-        margin-bottom: 1em;
-    }
-}
-@media screen and (max-width: 720px) {
-    div.games-showcase-header {
-        --top-offset: 2em;
-    }
 }
 /* #endregion */
 /* Tables are set to display as blocks on wiki.gg with no whitespace breaking */
@@ -1495,8 +1481,10 @@ table {
 table .number { text-align: right; }
 
 /** No external link icon for internal links **/
-#content a.external[href^="http://ark.wiki.gg"], #content a.external[href^="https://ark.wiki.gg"], #content a.external[href^="//ark.wiki.gg"] {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+#content a.external[href^="http://ark.wiki.gg"],
+#content a.external[href^="https://ark.wiki.gg"],
+#content a.external[href^="//ark.wiki.gg"] {
+    background: transparent none repeat scroll 0 0;
     padding-right: 0;
 }
 
@@ -1575,7 +1563,6 @@ ul#filetoc {
 /* #endregion */
 
 /* #region Category list */
-
 #catlinks {
     background: none;
     border: none;
@@ -1588,7 +1575,8 @@ ul#filetoc {
     margin-top: 0.2em;
     margin-left: -0.4em;
 }
-.catlinks li, .catlinks li:first-child {
+.catlinks li,
+.catlinks li:first-child {
     padding: 0.3em 0.7em;
     border-radius: 9999px;
     border: 1px solid var(--content-border-color);
