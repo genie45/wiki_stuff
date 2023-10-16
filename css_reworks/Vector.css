@@ -290,6 +290,23 @@ html {
     --fp-promo-shadow-color--1: #00000024;
     --fp-promo-shadow-color--2: #0003;
     --fp-promo-text-color: #000;
+    /* [[Module:DinoIcon]] */
+    --dino-icon-filter: brightness(500%) contrast(110%) invert(1);
+    --dino-icon-overlay--normal: linear-gradient( 130deg, rgb(21, 24, 92) 0%, rgb(155, 108, 108) 80% );
+    --dino-icon-overlay--aberrant: linear-gradient(130deg, rgb(0, 104, 5) 0%,rgb(109, 255, 0) 100%);
+    --dino-icon-overlay--balpha: linear-gradient(130deg, rgb(66, 108, 106) 0%,rgb(26, 191, 180) 100%);
+    --dino-icon-overlay--bbeta: linear-gradient(130deg, rgb(113, 87, 72) 0%,rgb(185, 88, 31) 100%);
+    --dino-icon-overlay--bgamma: linear-gradient(130deg, rgb(179, 116, 198) 0%,rgb(149, 31, 185) 100%);
+    --dino-icon-overlay--x: linear-gradient(130deg, rgb(174, 69, 51) 35%,rgb(255, 97, 229) 65%);
+    --dino-icon-overlay--r: linear-gradient(130deg, rgb(83, 51, 164) 0%,rgb(24, 156, 50) 95%);
+    --dino-icon-overlay--vr: linear-gradient(130deg, rgb(166, 61, 27) 0%,rgb(57, 89, 3) 85%);
+    --dino-icon-overlay--corrupt: linear-gradient(130deg, rgb(146, 176, 112) 15%,rgb(80, 174, 24) 60%);
+    --dino-icon-overlay--event: linear-gradient(130deg, rgb(89, 255, 67) 20%, rgb(201, 20, 120) 80%);
+    --dino-icon-overlay--brute: linear-gradient(130deg, rgb(24, 113, 255) 70%, rgb(10, 156, 154) 30%);
+    --dino-icon-overlay--mtek: linear-gradient(130deg,rgb(15, 191, 163) 0%, rgb(176, 59, 21) 80%);
+    --dino-icon-overlay--alpha: linear-gradient(130deg, rgb(91, 225, 223) 25%, rgb(0, 106, 138) 75%);
+    --dino-icon-overlay--tek: linear-gradient(130deg,rgb(255, 14, 14) 20%, rgb(142, 133, 29) 100%);
+    --dino-icon-overlay--enraged: linear-gradient(130deg, rgb(56, 152, 225) 0%, rgb(95, 134, 31) 80%);
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
@@ -1588,6 +1605,28 @@ ul#filetoc {
 .yes-no-undef .yes { background-color: #9cee93; }
 .yes-no-undef .no { background-color: #e3a4a4; }
 .yes-no-undef .undef { background-color: #d3d3d3; }
+
+/* #region [[Module:DinoIcon]] */
+.dinolink {
+    filter: var(--dino-icon-filter);
+    background-image: var(--dino-icon-overlay--normal);
+    background-clip: text;
+}
+.dinolink--aberrant { background-image: var(--dino-icon-overlay--aberrant); }
+.dinolink--balpha { background-image: var(--dino-icon-overlay--balpha); }
+.dinolink--bbeta { background-image: var(--dino-icon-overlay--bbeta); }
+.dinolink--bgamma { background-image: var(--dino-icon-overlay--bgamma); }
+.dinolink--x { background-image: var(--dino-icon-overlay--x); }
+.dinolink--r { background-image: var(--dino-icon-overlay--r); }
+.dinolink--vr { background-image: var(--dino-icon-overlay--vr); }
+.dinolink--corrupt { background-image: var(--dino-icon-overlay--corrupt); }
+.dinolink--event { background-image: var(--dino-icon-overlay--event); }
+.dinolink--brute { background-image: var(--dino-icon-overlay--brute); }
+.dinolink--mtek { background-image: var(--dino-icon-overlay--mtek); }
+.dinolink--alpha { background-image: var(--dino-icon-overlay--alpha); }
+.dinolink--tek { background-image: var(--dino-icon-overlay--tek); }
+.dinolink--enraged { background-image: var(--dino-icon-overlay--enraged); }
+/* #endregion */
 
 /* #region [[Template:SpawningMap]] & [[MediaWiki:SpawnMaps.js]]: rarity colouring */
 .spawningMap-very-common {
