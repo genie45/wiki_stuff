@@ -4253,12 +4253,3 @@ table.cargoTable { display: block }
   opacity: 1;
 }
 /* #endregion */
-
-.console-command {
-    background: var(--ark-kibbletable-background-color);
-    border: 2px solid var(--ark-kibbletable-border-color);
-    border-radius: 4px;
-    padding: 0 1em 0.5em;
-    margin-bottom: 1.2em;
-    display: flex;
-}
