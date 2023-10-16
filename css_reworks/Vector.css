@@ -138,7 +138,7 @@ body.rootpage-ARK_Wiki {
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         /* Grid layout */
         --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px + var(--toolbar-height));
-        --layout-sidespace--dynamic: 1.2vw;
+        --layout-sidespace--dynamic: 1.15vw;
         --layout-column-gap: 0px;
         --sidebar-width: 0px;
         --layout-allotment--article-navigation: 5rem;
