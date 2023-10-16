@@ -151,6 +151,7 @@ body.rootpage-ARK_Wiki {
         --layout-allotment--article-navigation: 5rem;
         /* Article navigation */
         --article-navigation-top-offset: 3.1rem;
+        --article-navigation-margin: 0 0 var(--article-navigation-disposition);
         /* Sidebar / toolbar */
         --toolbar-height: 38px;
         --sidebar-to-content-margin: 0;
@@ -181,8 +182,6 @@ body.rootpage-ARK_Wiki {
         --layout-sidespace--right: 0;
         --content-frame-border-width: 3px;
         --content-frame-border-margin: 0;
-        /* Article navigation */
-        --article-navigation-margin: 0 0 var(--article-navigation-disposition);
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
