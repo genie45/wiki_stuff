@@ -38,7 +38,7 @@ local function findRecord( records, needle )
     if tonumber( needle ) ~= nil then
         needle = tonumber( needle )
     elseif type( needle ) == 'string' then
-        needle = string.lower( needle )
+        needle = mw.text.trim( string.lower( needle ) )
     end
 
 	for index = 1, #records do

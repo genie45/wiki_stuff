@@ -130,7 +130,34 @@ return {
                     tag = 'div',
                     classes = 'arkitect-infobox-title',
                     instance.Name
-                }
+                },
+                instance.Image and Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-infobox-image',
+                    Arkitecture.File{
+                        name = instance.Image,
+                        altText = '',
+                        width = 228,
+                    },
+                } or '',
+                instance.Description and Arkitecture.Html.Element{
+                    tag = 'div',
+                    classes = 'arkitect-description quote',
+                    Arkitecture.Html.Element{
+                        tag = 'div',
+                        classes = 'quote-left',
+                        '“',
+                    },
+                    Arkitecture.Html.Element{
+                        tag = 'p',
+                        instance.Description,
+                    },
+                    Arkitecture.Html.Element{
+                        tag = 'div',
+                        classes = 'quote-right',
+                        '„',
+                    },
+                } or '',
             }
         end
     },
@@ -169,6 +196,23 @@ return {
                     classes = 'arkitect-cell arkitect-infobox-title arkitect-corner-r',
                     attributes = self:_makeTitleAutoFitFontSizeCss( instance.Name ),
                     instance.Name
+                }
+            }
+        end
+    },
+
+    FloatingNote = Arkitecture.Component{
+        render = function ( self, ctx )
+            if ctx.instance.Value == nil then
+                return nil
+            end
+
+            return Arkitecture.Html.Element{
+                tag = 'div',
+                classes = 'arkitect-note arkitect-row-layout arkitect-row-layout-25x75',
+                Arkitecture.Html.Element{
+                    tag = 'p',
+                    ctx.instance.Value,
                 }
             }
         end

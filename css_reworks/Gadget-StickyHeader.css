@@ -15,11 +15,11 @@
 }
 
 html {
-    scroll-padding-top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
+    scroll-padding-top: calc(var(--sticky-offset) + 1em);
 }
 
-.is-sticky-header-visible #ark-sticky-header {
-    transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
+body.is-sticky-header-visible #ark-sticky-header {
+    transform: translateY(var(--sticky-offset));
 }
   
 #ark-sticky-header > *:not(.sticky-search-box) {

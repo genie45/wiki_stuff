@@ -18,6 +18,14 @@
 local Utility = require( 'Module:Utility' )
 
 
+-- TODO: move to Utility
+local function appendTable( target, values )
+    for index = 1, #values do
+        target[#target + 1] = values[index]
+    end
+end
+
+
 -- #region Class abstraction
 local function Class( constructor, parent )
     local methods
@@ -126,7 +134,8 @@ local function Date( date )
 end
 
 
-local Html = {
+local Html
+Html = {
     ---
     --- @class HtmlElementOptions: string[]
     --- HTML element options.
@@ -146,33 +155,42 @@ local Html = {
             error( 'HtmlElement must have a tag specified' )
         end
 
+        -- Combine all children into a single string
+        local inner = table.concat( spec, '' )
+
+        return string.format( '%s%s</%s>', Html.StartElement( spec ), inner, spec.tag )
+    end,
+
+
+    StartElement = function ( spec )
+        if not spec.tag then
+            error( 'HtmlElement must have a tag specified' )
+        end
+
         -- Combine all classes into a single string if table
         if type( spec.classes ) == 'table' then
             spec.classes = table.concat( spec.classes, ' ' )
         end
-
-        -- Combine all children into a single string
-        local inner = table.concat( spec, '' )
 
         -- Build an attributes string
         local attrs
         if spec.attributes then
             attrs = {}
             for name, value in pairs( spec.attributes ) do
-                attrs[#attrs + 1] = string.format( '%s="%s"', name, value )
+                attrs[#attrs + 1] = string.format( '%s="%s"', name, tostring( value ) )
             end
             attrs = table.concat( attrs, ' ' )
         end
 
         -- Choose a specialised format template and build the final element
         if spec.attributes and spec.classes then
-            return string.format( '<%s class="%s" %s>%s</%s>', spec.tag, spec.classes, attrs, inner, spec.tag )
+            return string.format( '<%s class="%s" %s>', spec.tag, spec.classes, attrs )
         elseif spec.attributes then
-            return string.format( '<%s %s>%s</%s>', spec.tag, attrs, inner, spec.tag )
+            return string.format( '<%s %s>', spec.tag, attrs )
         elseif spec.classes then
-            return string.format( '<%s class="%s">%s</%s>', spec.tag, spec.classes, inner, spec.tag )
+            return string.format( '<%s class="%s">', spec.tag, spec.classes )
         end
-        return string.format( '<%s>%s</%s>', spec.tag, inner, spec.tag )
+        return string.format( '<%s>', spec.tag )
     end,
 
     --- HTML new line (br element) as a string.
@@ -248,6 +266,7 @@ local ParameterTypes = {
     BOOL = '_M_PT_BOOL',
     NUMBER = '_M_PT_NUMBER',
     INTEGER = '_M_PT_NUMBER_INT',
+    LIST = '_M_PT_GLIST',
     GAME_VERSION = '_M_PT_GVER',
     DATE = '_M_PT_DATE',
     GAME = {
@@ -328,6 +347,15 @@ end )
             } )[value]
         elseif paramSpec[1] == ParameterTypes.NUMBER or paramSpec[1] == ParameterTypes.INTEGER then
             value = tonumber( value )
+        elseif paramSpec[1] == ParameterTypes.LIST then
+            value = mw.text.split( value, ', ', true )
+
+            local virtSpec = {
+                paramSpec[2]
+            }
+            for index = 1, #value do
+                value[index] = self:_normaliseParameter( virtSpec, value[index] )
+            end
         end
 
         return value
@@ -368,6 +396,12 @@ end )
             -- Retrieve the parameter value from our parameter cache (this will only succeed on injected parameters),
             -- module call frame, or template frame (in that order).
             local value = self._parameterCache[name] or self.frame.args[name] or self.parentFrame.args[name]
+            if value == nil then
+                local lowerCaseName = name:lower()
+                if lowerCaseName ~= name then
+                    value = self.frame.args[lowerCaseName] or self.parentFrame.args[lowerCaseName]
+                end
+            end
 
             local config = self.template.Parameters[name]
             if config == nil then
@@ -402,37 +436,21 @@ end )
                 self:_processNodeSet( unitHtml, unit )
 
                 if #unitHtml > 0 then
-                    -- Determine if this unit should be made collapsible by the user. At least four components are
-                    -- required inside. JavaScript is needed for collapsibles to work.
-                    local isCollapsible = unit.Collapsible ~= false and #unitHtml > 3
-                    -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
-                    -- be fairly cheap as strings are passed by reference in Lua.
-                    html[#html + 1] = isCollapsible and '<div class="arkitect-unit" data-arkitecture-collapsible=true>'
-                        or '<div class="arkitect-unit">'
-                    if unit.Caption then
-                        html[#html + 1] = HtmlElement{
-                            tag = 'div',
-                            classes = 'arkitect-unit-caption',
-                            unit.Caption
-                        }
-                    end
-                    for jndex = 1, #unitHtml do
-                        html[#html + 1] = unitHtml[jndex]
-                    end
-                    html[#html + 1] = '</div>'
+                    self:_wrapUnit( unit, unitHtml, html )
                 end
             end
         end
 
-        return HtmlElement{
-            tag = 'div',
-            classes = 'arkitect noexcerpt',
-            attributes = {
-                role = 'region',
-            },
-
-            table.concat( html, '' ),
-        }
+        return self:_wrapResult( table.concat( html, '' ) )
+    end
+    function Renderer.methods._wrapResult( self, inHtml )
+        if self.template.wrapRendered then
+            return self.template:wrapRendered( inHtml )
+        end
+        return inHtml
+    end
+    function Renderer.methods._wrapUnit( self, unit, inHtml, outHtml )
+        appendTable( outHtml, inHtml )
     end
     function Renderer.methods._processNodeSet( self, html, unit )
         if not unit then
@@ -517,8 +535,63 @@ end )
     end
 
 
+local InfoboxRenderer = Class( nil, Renderer )
+    function InfoboxRenderer.methods._wrapResult( self, inHtml )
+        return Html.Element{
+            tag = 'div',
+            classes = 'arkitect noexcerpt',
+            attributes = {
+                role = 'region',
+            },
+            inHtml,
+        }
+    end
+    function InfoboxRenderer.methods._wrapUnit( self, unit, inHtml, outHtml )
+        -- Determine if this unit should be made collapsible by the user. At least four components are
+        -- required inside. JavaScript is needed for collapsibles to work.
+        local isCollapsible = unit.Collapsible == true or ( unit.Collapsible ~= false and #inHtml > 3 )
+        -- Render a container for the unit and concatenate unit's HTML list into the main one. This should
+        -- be fairly cheap as strings are passed by reference in Lua.
+        local unitTagSpec = {
+            tag = 'div',
+            classes = {
+                'arkitect-unit',
+            },
+        }
+        if isCollapsible then
+            unitTagSpec.classes[2] = unit.CollapsedByDefault and 'arkitect-is-collapsed' or nil
+            unitTagSpec.attributes = {
+                ['data-arkitecture-collapsible'] = true,
+            }
+        end
+        outHtml[#outHtml + 1] = Html.StartElement( unitTagSpec )
+        if unit.Caption then
+            outHtml[#outHtml + 1] = HtmlElement{
+                tag = 'div',
+                classes = 'arkitect-unit-caption',
+                unit.Caption,
+            }
+        end
+        appendTable( outHtml, inHtml )
+        outHtml[#outHtml + 1] = '</div>'
+    end
+
+
 local function makeRenderer( template )
     local __templateBoundRendererImpl = Class( nil, Renderer )
+        __templateBoundRendererImpl.template = template
+        function __templateBoundRendererImpl.render()
+            return __templateBoundRendererImpl():render()
+        end
+        function __templateBoundRendererImpl.makeCargoTables()
+            return __templateBoundRendererImpl():makeCargoTables()
+        end
+    return __templateBoundRendererImpl
+end
+
+
+local function makeInfoboxRenderer( template )
+    local __templateBoundRendererImpl = Class( nil, InfoboxRenderer )
         __templateBoundRendererImpl.template = template
         function __templateBoundRendererImpl.render()
             return __templateBoundRendererImpl():render()
@@ -616,6 +689,7 @@ return {
     ComponentContext = ComponentContext,
 
     makeRenderer = makeRenderer,
+    makeInfoboxRenderer = makeInfoboxRenderer,
 
     Cargo = Cargo
 }

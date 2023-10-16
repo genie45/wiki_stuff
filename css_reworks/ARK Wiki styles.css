@@ -1,0 +1,273 @@
+/* #region Front page */
+#fp-container, #fp-container * {
+    box-sizing: border-box;
+}
+
+/* #region Grid layout */
+#fp-container {
+    --right-rail-size: minmax(0, 0.9fr);
+    --block-size--2: minmax(30%, 400px);
+
+    display: grid;
+    grid-template-areas:
+        "a a a"
+        "b b r"
+        "c c r"
+        "d d r"
+        "e e r"
+        "f g r"
+        "m m m";
+    grid-template-columns: var(--tmp---ts-bug--fp-container-columns);
+    gap: var(--fp-gap);
+}
+.fp-rail {
+    grid-area: r;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fp-gap);
+}
+.fp-block {
+    display: grid;
+    grid-template-columns: var(--tmp---ts-bug--fp-block-columns);
+    /*grid-template-rows: max-content;*/
+    gap: var(--fp-gap);
+}
+@media screen and (max-width: 1500px) {
+    #fp-container {
+        --block-size--2: 1.5fr;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #fp-container {
+        --right-rail-size: minmax(0, 1.4fr);
+        grid-template-areas:
+            "a a a"
+            "b b r"
+            "c c r"
+            "d d r"
+            "e e r"
+            "f f m"
+            "g g m";
+    }
+    .fp-block {
+        display: flex;
+        flex-direction: column;
+    }
+    #fp-container #fp-welcome {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 800px) {
+    #fp-container {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "z"
+            "e"
+            "y"
+            "x"
+            "f"
+            "g"
+            "m";
+    }
+    .fp-rail {
+        display: contents;
+    }
+}
+/*@media screen and (max-width: 990px) {
+    #fp-container {
+        grid-template-areas: "a a" "b b" "d c" "d c" "e e";
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media screen and (min-width: 1350px) {
+    #fp-container {
+    }
+}*/
+/* Area distribution */
+/* Main */
+#fp-a { grid-area: a; }
+#fp-b { grid-area: b; }
+#fp-c { grid-area: c; }
+#fp-d { grid-area: d; }
+#fp-e { grid-area: e; }
+#fp-f { grid-area: f; }
+#fp-g { grid-area: g; }
+#fp-m { grid-area: m; }
+/* Right rail */
+#fp-x { grid-area: x; }
+#fp-y { grid-area: y; }
+#fp-z { grid-area: z; }
+/* #endregion */
+
+/* #region [[Template:FP heading] */
+#fp-welcome > .fpheading {
+    grid-area: aa;
+    max-width: 60em;
+    justify-self: center;
+    font-size: 1.35rem;
+    margin-bottom: 0.15em;
+    color: var(--fp-box-mainheading-text-color);
+}
+/* #endregion */
+/* #region Boxes */
+.fp-section {
+    width: 100%;
+    border: 1px solid var(--fp-box-border-color);
+    background: var(--fp-box-background-color);
+    color: var(--content-text-color);
+    padding: 8px 1.25em;
+    border-radius: 2px;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem var(--fp-box-shadow-color);
+}
+.fp-section.plain {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 6px 10px;
+}
+.fp-tone-2 {
+    background: var(--fp-box-background-color--2);
+    border-color: var(--fp-box-border-color--2);
+}
+/* #endregion */
+/* Utility */
+.fp-centred {
+    text-align: center;
+}
+.fp-col3 {
+    display: block;
+    columns: 160px 3;
+    margin: 0;
+    list-style: none;
+}
+/* #region Welcome box */
+#fp-welcome { 
+    display: grid;
+    grid-template-areas:
+      "aa ad" 
+      "ac ad";
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+#fp-welcome-text {
+    grid-area: ac;
+    text-align: center;
+    padding: 8px 5px 8px 0;
+}
+#fp-community {
+    grid-area: ad;
+}
+/* #endregion */
+/* Image tweaks */
+.fp-wide-image {
+    max-width: 100%;
+    height: auto;
+}
+/* Better alignment for DLCs (less wasteful), headings have a hefty margin that looks OK with text but not tabbers */
+#fp-dlcs {
+    margin-top: -0.5em;
+}
+/* #region Labelled icons */
+ul.fp-labelled-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em 0.5em;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+.fp-labelled-icons li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background: var(--fp-labelled-icon-background);
+    border: 2px solid var(--fp-labelled-icon-border-color);
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    font-size: 110%;
+}
+/* #endregion */
+/* #region Game basics with thumbnails */
+#fp-bigbasics li {
+    flex-direction: column;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    border-radius: 1px;
+}
+#fp-bigbasics img {
+    margin: -0.1em -1.1rem;
+    width: 150px;
+    height: auto;
+}
+/* #endregion */
+/* #region Socials */
+#fp-socials .fp-labelled-icons li {
+    background: var(--fp-social-icon-background);
+    border-color: var(--fp-social-icon-border-color);
+}
+/* #endregion */
+/* #region Platform icon containers */
+.fp-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 1;
+}
+.fp-icon-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 6px 0;
+}
+.fp-icon-flex * {
+    vertical-align: middle;
+}
+.fp-icon-flex > div {
+    margin-left: 4px;
+}
+.fp-icon-flex > div > * {
+    display: block;
+}
+.fp-icon-flex a.external {
+    background: none;
+} 
+.fp-icon-flex strong {
+    margin-top: 3px;
+    font-size: 1.125em;
+}
+/* Platform icon styling */
+#fp-platform-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#fp-platform-links p {
+    margin-bottom: 0.1em;
+}
+/* #endregion */
+/* #region Showcase */
+#fp-showcase {
+    color: #e0e9eb;
+    font-size: 125%;
+    padding: 2.5rem 1.75em;
+    text-align: center;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem var(--fp-promo-shadow-color--1),
+        inset 0 0 2rem 0.35rem var(--fp-promo-shadow-color--2);
+    text-shadow: -1px -1px 4px var(--fp-promo-text-color);
+    background-position: center;
+    background-size: cover;
+    background-image: var(--fp-promo-image);
+}
+#fp-showcase .fpheading {
+    font-size: 1.4rem;
+    color: inherit;
+}
+/* #endregion */
+/* #endregion */

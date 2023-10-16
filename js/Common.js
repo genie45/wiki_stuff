@@ -146,6 +146,7 @@ if ( localStorage.getItem( SIDEBAR_HIDDEN_CLASS ) == '1' ) {
 $(function() {
     ( function () {
         if ( mw.config.get( 'wgIsArticle' )
+            && !mw.config.get( 'wgIsMainPage' ) /* handled by Extension:StructuredData */
             && mw.config.get( 'wgContentNamespaces' ).indexOf( mw.config.get( 'wgNamespaceNumber' ) ) >= 0 ) {
             var ogImage = document.querySelector( 'meta[property="og:image"]' );
             var script = document.createElement('script');
@@ -183,6 +184,34 @@ $(function() {
             document.body.appendChild( script );
         }
     } )();
+
+    // #region Sidebar ToC
+    ( function () {
+        var tocListElement = document.querySelector( '#toc > ul' ),
+            tocHeadingText = document.querySelector( '#mw-toc-heading' ).textContent;
+        if ( tocListElement ) {
+            var sidebarToc = document.createElement( 'div' ),
+                sidebarTocHeading = document.createElement( 'h3' )
+                sidebarTocLabel = document.createElement( 'span' ),
+                sidebarTocContent = document.createElement( 'div' );
+            sidebarToc.id = 'p-stoc';
+            sidebarToc.className = 'vector-menu mw-portlet mw-portlet-stoc vector-menu-portal';
+            sidebarToc.setAttribute( 'aria-labelledby', 'p-stoc-label' );
+            sidebarToc.setAttribute( 'role', 'navigation' );
+            sidebarTocHeading.id = 'p-stoc-label';
+            sidebarTocHeading.className = 'vector-menu-heading';
+            sidebarTocLabel.className = 'vector-menu-heading-label';
+            sidebarTocLabel.textContent = tocHeadingText;
+            sidebarTocContent.className = 'vector-menu-content';
+
+            sidebarTocHeading.appendChild( sidebarTocLabel );
+            sidebarTocContent.append( tocListElement.cloneNode( true ) );
+            sidebarToc.appendChild( sidebarTocHeading );
+            sidebarToc.appendChild( sidebarTocContent );
+            document.querySelector( '#mw-panel' ).appendChild( sidebarToc );
+        }
+    } )();
+    // #endregion
 
     // #region Make sidebar sections collapsible
     $("#mw-panel .portal").each(function(index, el){
@@ -252,13 +281,14 @@ $(function() {
         if (!mw.config.get('wgIsMainPage') && mw.config.get('wgIsArticle')) {
             var $sidebarInterwikis = $('#p-lang > .vector-menu-content > ul > li.interlanguage-link');
             if ($sidebarInterwikis.length > 0) {
-                var $menu = $('<ul class="vector-menu-content-list menu">');
-                $('<div id="p-lang-btn" class="mw-portlet mw-portlet-lang vectorMenu vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation">')
+                var $menu = $('<ul class="vector-menu-content-list">');
+                $('<div id="p-lang-btn" class="mw-portlet vector-menu vector-menu-dropdown" aria-labelledby="p-lang-btn-label" role="navigation">')
                     .insertBefore($('#firstHeading'))
-                    .append($('<input type="checkbox" id="p-lang-btn-checkbox" role="button" class="mw-interlanguage-selector vectorMenuCheckbox vector-menu-checkbox"/>'))
-                    .append($('<label id="p-lang-btn-label" class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-progressive" aria-hidden="true">')
-                             .text(($sidebarInterwikis.length+1) + I18n('Label')))
-                    .append($('<div class="vector-menu-content body">').append($menu));
+                    .append($('<input type="checkbox" id="p-lang-btn-checkbox" role="button" class="mw-interlanguage-selector vector-menu-checkbox"/>'))
+                    .append($('<label id="p-lang-btn-label" class="vector-menu-heading" aria-hidden="true">')
+                            .append($('<span>')
+                                    .text(($sidebarInterwikis.length+1) + I18n('Label'))))
+                    .append($('<div class="vector-menu-content">').append($menu));
                 $sidebarInterwikis.each(function() {
                     $menu.append($(this).clone());
                 });
@@ -404,11 +434,12 @@ $(function() {
     });
     // #endregion
 
-    // #region Translation banners
-    if ( false && arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
+    // #region Translation advertising banners
+    if ( arkIsEnglishWiki && !mw.config.get( 'wgIsMainPage' ) ) {
         var prefLanguage = ( navigator.languages ? navigator.languages[0] : ( navigator.language || navigator.userLanguage ) )
             .toLowerCase().substr( 0, 2 );
         var bannerText = ( {
+                // Currently only French wiki is enroled due to size and to start the experiment small
                 fr: 'Vous pouvez aussi lire cet article en <b>Français</b>'
             } )[prefLanguage],
             link = $( '#p-lang > .vector-menu-content > ul > li.interlanguage-link > a[hreflang='+prefLanguage+']' )

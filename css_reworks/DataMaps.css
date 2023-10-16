@@ -39,8 +39,8 @@
 .ext-datamaps-container .leaflet-marker-icon {
     filter: drop-shadow(0 0 2px #fff);
 }
-.ext-datamaps-control-expandable .oo-ui-iconElement {
-    filter: none;
+.ext-datamaps-control button > span[class*="oo-ui-icon-"] {
+    filter: var(--oo-ui-icon-filter--normal);
 }
 .leaflet-container a {
     color: var(--datamaps-popup-text-link-color)
@@ -64,8 +64,10 @@
     background: var(--datamaps-tabber-background-active-color);
 }
 /* 7b3509f backport */
-.ext-datamaps-control-expandable .ext-datamaps-control-expandable-content > .oo-ui-menuLayout {
-    height: 56vh;
+@media screen and (max-width: 720px) {
+    .ext-datamaps-control-expandable .ext-datamaps-control-expandable-content > .oo-ui-menuLayout {
+        height: 56vh;
+    }
 }
 /* Scroll animation may be laggy on some devices */
 .map-notice ~ .tabber .tabber__section {

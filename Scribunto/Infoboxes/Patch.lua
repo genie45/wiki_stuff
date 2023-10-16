@@ -22,7 +22,7 @@ local function parseVersion( str, defaultPlatform )
 end
 
 
-return Arkitecture.makeRenderer{
+return Arkitecture.makeInfoboxRenderer{
     RequiredLibraries = {
         'Module:Arkitecture/Common library',
     },
@@ -60,23 +60,6 @@ return Arkitecture.makeRenderer{
                     },
                     Arkitecture.Html.NewLine,
                     Arkitecture.Date( ctx.instance.Date ),
-                }
-            end
-        },
-
-        FloatingNote = Arkitecture.Component{
-            render = function ( self, ctx )
-                if ctx.instance.Value == nil then
-                    return nil
-                end
-
-                return Arkitecture.Html.Element{
-                    tag = 'div',
-                    classes = 'arkitect-note arkitect-row-layout arkitect-row-layout-25x75',
-                    Arkitecture.Html.Element{
-                        tag = 'p',
-                        ctx.instance.Value,
-                    }
                 }
             end
         },
@@ -238,9 +221,9 @@ return Arkitecture.makeRenderer{
     end,
 
     PLATFORM_ICONS = {
-        Xbox = 'Xbox One.svg',
         PS = 'PS.svg',
         Switch = 'Nintendo Switch.svg',
+        TSOTF = 'TSotF_Logo.png'
     },
 
     _makePlatformIcons = function ( self, pInfo )
@@ -252,9 +235,20 @@ return Arkitecture.makeRenderer{
                 width = width,
                 link = false
             }
-        end
-
-        if pInfo.platform == 'PC' then
+        elseif pInfo.platform == 'Xbox' then
+            return table.concat( {
+                Arkitecture.File{
+                    name = 'Microsoft Store.svg',
+                    width = width,
+                    link = false
+                },
+                Arkitecture.File{
+                    name = 'Xbox One.svg',
+                    width = width,
+                    link = false
+                }
+            }, Arkitecture.Html.NonBreakingSpace )
+        elseif pInfo.platform == 'PC' then
             -- Steam, always
             local icons = {
                 Arkitecture.File{

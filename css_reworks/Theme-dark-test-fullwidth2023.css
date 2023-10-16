@@ -1,14 +1,46 @@
 @media screen and (min-width: 1261px) {
 	:root {
 		--page-background-image: url(https://cdn.discordapp.com/attachments/618831235929604126/1056728807580647524/ARK_Launch_KeyArt_10000x4248.jpg);
-		--layout-sidespace--left: 10px;
-		--layout-sidespace--right: 10px;
+		--wiki-logo-frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1154067332470153216/EN_test_mini.png);
+		--wiki-logo-width: 194px;
+		--wiki-logo-height: calc(762 / 1116 * var(--wiki-logo-width));
+		--wiki-logo-disposition--top: 10px;
+		--wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + var(--wiki-logo-disposition--top));
+		--wiki-logo-offset--left: calc(-1.1em - 7px);
+		--sidebar-width: 180px;
+		--layout-sidespace--left: 16px;
+		--layout-sidespace--right: 16px;
+		--layout-content-top-offset: calc(var(--wiki-logo-height) - var(--article-nav-height) - var(--wiki-logo-disposition--top) - var(--article-nav-disposition));
 		--layout-column-gap: 0px;
-		--sidebar-width: 175px;
 		--content-navigation-top-offset: 28px;
 		--content-background-color--rgb: 28, 30, 33;
 		--content-horizontal-margin: 1.2em;
 		--sidenav-header-text-color: var(--content-text-link-color);
+		--content-navigation-top-offset: 0px;
+		--article-nav-height: 40px;
+		--content-body-top-margin: 0.6rem;
+		--content-horizontal-margin: 1.9em;
+		--search-height: 3em;
+		--article-nav-disposition: -3px;
+	}
+	.rootpage-ARK_Wiki {
+		--wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
+		--wiki-logo-height: 260px;
+		--wiki-logo-width: 450px;
+		--wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
+		--wiki-logo-offset--left-part: 4px;
+		--wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
+									   - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
+		--layout-content-top-offset: calc(var(--wiki-logo-height) - 13px - var(--article-nav-height) - 1px);
+	}
+	.rootpage-ARK_Wiki #mw-content-text {
+	  border: 0
+	}
+	body:not(.rootpage-ARK_Wiki) #content::before {
+		content: unset;
+	}
+	body:not(.rootpage-ARK_Wiki) #p-logo a {
+		background-image:var(--wiki-logo-frame);
 	}
 	.is-sidebar-hidden {
 		--sidebar-width: 0px;
@@ -17,23 +49,67 @@
 		display: none;
 	}
 	body {
-		grid-template-rows: [body-start] var(--netbar-height) [page-start logo-start] var(--layout-content-top-offset) [nav-start content-start] auto [content-end footer-start] 1fr [footer-end] 0fr [page-end] 0fr [body-end];
+		grid-template-columns:
+			[body-left] var(--layout-sidespace--left)
+			[aside-left] var(--sidebar-width)
+			[aside-right content-left] minmax(0, 1fr)
+			[content-right] var(--layout-sidespace--right)
+			[body-right];
+		grid-template-rows:
+			[body-start] var(--netbar-height)
+			[page-start reserved-start] var(--layout-content-top-offset)
+			[reserved-end nav-start] 0fr
+			[nav-end content-start] auto
+			[content-end footer-start] minmax(0, 1fr)
+			[footer-end] 0fr
+			[page-end] 0fr
+			[body-end];
 	}
 	#mw-head-base {
 		display: none;
 	}
 	#mw-head {
-		padding-left: calc(var(--content-horizontal-margin) + 0.5em);
-		padding-right: calc(var(--content-horizontal-margin) + 0.5em);
+		grid-row: nav-start/nav-end;
+		padding: 0;
+		margin-bottom: var(--article-nav-disposition);
+	}
+	#ca-watch a,
+	#ca-unwatch a {
+		color: transparent;
+	}
+	.vector-menu-tabs ul li, .vector-menu-dropdown {
+		background: #272a2f;
+		margin-right: 0.5em;
+		border: 3px solid var(--content-border-color);
+		border-bottom-width: 0px;
+		border-radius: 1px 1px 0 0;
+		opacity: 0.95;
+	}
+	.vector-menu-dropdown .vector-menu-content {
+		border-color: var(--content-border-color);
+		border-width: 0 2px 2px;
+		left: -2px;
+	}
+	.vectorMenu .vector-menu-heading span, .vectorTabs li a, .vectorMenu .mw-list-item a {
+		font-weight: 700;
+		text-transform: none;
+	}
+	.vector-menu-tabs ul li.selected {
+		background: #1c1e21;
+		border-bottom: 1px solid transparent;
+		opacity: 1;
 	}
 	#mw-panel {
 		width: var(--sidebar-width);
 		padding-left: 1.1em;
-		padding-top: 46px;
+		padding-top: 1em;
 		border-right: 1px solid rgba(var(--content-border-color--rgb),0.4);
 		background: rgba(var(--content-border-color--rgb),0.05);
-		grid-row: nav-start/footer-end;
+		grid-row: content-start/footer-end;
 		box-sizing: border-box;
+	}
+	#mw-head #left-navigation, #mw-head #right-navigation {
+		align-items: stretch;
 	}
 	div#mw-panel div.portal div.body ul li a,
 	div#mw-panel div.portal div.body ul li a:link,
@@ -54,23 +130,19 @@
 	div#content {
 		padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
 		grid-column: aside-left/content-right;
+		grid-row: content-start/content-end;
 		box-shadow: none;
-	}
-	.content-body > main {
-		margin-right: var(--content-horizontal-margin);
+		border:3px solid var(--content-border-color);
+		border-radius: 1px;
 	}
 	#footer {
 		grid-column: aside-left/content-right;
 		padding-left: calc(var(--sidebar-width) + var(--content-horizontal-margin));
 		margin-bottom: 0;
-		background-color: rgba(var(--content-background-color--rgb), 0.6);
+		background-color: rgba(var(--content-background-color--rgb), 0.8);
 	}
 	#wikigg-footer {
 		margin-top: 1.5em;
-	}
-	
-	#ca-view {
-		display: none;
 	}
 	
 	/** Imageless sidebar collapsible indicators **/
@@ -86,11 +158,47 @@
 	  border-color: transparent var(--sidenav-header-text-color);
 		border-width: 6px 0px 5px 5px;
 	}
+
+	#searchform {
+		margin-top: -8px;
+		margin-bottom: 2px;
+	}
+	div.games-showcase-header {
+		--top-offset: -0.9em;
+		top: unset;
+		margin: var(--top-offset) calc(var(--content-horizontal-margin) * -1) 0 calc(var(--content-horizontal-margin) * -1 - 3px);
+		border-bottom: 1px solid rgba(var(--content-border-color--rgb), 0.8);
+	}
+	aside.games-showcase-sidebar {
+		margin-right: calc(var(--content-horizontal-margin) / -3 * 2);
+	}
 }
 
-@media screen and (min-width: 900px) {
+/*@media screen and (min-width: 900px) {
+	:root {
+		--pinned-toc-width: 240px;
+		--content-pinned-toc-margin: 1em;
+		--pinned-toc-offset--right: -0.9em;
+	}
 	.content-body > main #toc {
-		display: none;
+		width: var(--pinned-toc-width);
+		position: absolute;
+		right: calc(var(--pinned-toc-width) * -1 - var(--content-pinned-toc-margin) + var(--pinned-toc-offset--right));
+		top: 0;
+		bottom: 0;
+		box-sizing: border-box;
+		height: 100%;
+		background: none;
+		border: none;
+		border-left: 1px solid rgba(var(--content-border-color--rgb), 0.9);
+		padding: 7px 0 7px 1em;
+	}
+	#toc > ul {
+		position: sticky;
+		top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
+	}
+	#bodyContent {
+		margin-right: calc(var(--pinned-toc-width) + var(--content-pinned-toc-margin));
 	}
 	#sidebar-toc {
 		background: none;
@@ -113,7 +221,7 @@
 	#sidebar-toc:hover {
 		opacity: 1;
 	}
-	#sidebar-toc li li:hover{
+	#sidebar-toc li:hover{
 		background-color: var(--ark-arkitex-left-color);
 		background-clip: padding-box;
 		border-radius: 3px;
@@ -128,13 +236,7 @@
 	#sidebar-toc ul ul {
 		margin-left: 1.2em;
 	}
-}
-
-@media screen and (max-width: 899px) {
-	#sidebar-toc {
-		display: none;
-	}
-}
+}*/
 
 /* CATEGORIES RESKIN */
 #catlinks {
@@ -155,3 +257,32 @@
   border: 1px solid var(--content-border-color);
   opacity: 0.9;
 }
+
+  #simpleSearch {
+	background:#272a2fdd;
+	border: 2px solid var(--content-border-color);
+	border-radius: 1px;
+	box-shadow: inset 0 -7px 7px -7px rgba(0,0,0,.15),0 0 6px 2px #0003
+  }
+  #simpleSearch #searchInput {
+	color:var(--content-text-color);
+	background-color:transparent;
+	border-color:#5a5a5a;
+	height:var(--search-height)
+  }
+  #simpleSearch #searchInput::placeholder {
+	color:#aaa;
+  }
+  #searchButton {
+	opacity: 0.8;
+	filter: brightness(200%);
+  }
+  .vector-menu-tabs-legacy li a,
+  .vector-menu-tabs .mw-watchlink.icon a {
+	height: 2.8em;
+	padding-top: 0.8em;
+  }
+  .vector-menu-dropdown .vector-menu-heading {
+	padding-top: 0.8em;
+	padding-bottom: 0;
+  }
