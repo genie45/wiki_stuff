@@ -14,12 +14,32 @@
     transition: transform .3s, background .1s;
 }
 
+.ark-top {
+    background: #26405b var(--sidebar-toggle-icon--open) center center no-repeat;
+    position: fixed;
+    left: 0.5rem;
+    bottom: -2rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40%;
+    opacity: 0.9;
+    box-shadow: -1px 2px 8px 1px var(--sticky-header-shadow-color);
+    transition: transform .3s, opacity 0.05s;
+}
+
+.ark-top:hover {
+    opacity: 1;
+}
+
 html {
     scroll-padding-top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
 }
 
 .is-sticky-header-visible #ark-sticky-header {
     transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
+}
+.is-sticky-header-visible .ark-top {
+    transform: translateY(-2.8rem);
 }
   
 #ark-sticky-header > *:not(.sticky-search-box) {

@@ -33,9 +33,9 @@ function StickyHeader() {
     this.$btnTalk = this.cloneButton( 'talk', 'Talk' );
     this.$btnHistory = this.cloneButton( 'history', 'History' );
     
-    this.$btnBackToTop = $( '<a role="button" href="#">' )
-        .text( I18n( 'BackToTop' ) )
-        .appendTo( this.$stickyButtonsCnt );
+    this.$btnBackToTop = $( '<a class="ark-top" role="button" href="#top">' )
+        .attr( 'title', I18n( 'BackToTop' ) )
+        .insertAfter( '.content-wrapper' );
 }
 
 
