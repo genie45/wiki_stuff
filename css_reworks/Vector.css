@@ -117,14 +117,14 @@ body.is-sticky-header-visible {
 /* #endregion */
 /* #region Screen grade: medium desktop and above - sidebar hiding */
 @media screen and (min-width: 1260px) {
-    body.is-sidebar-hidden {
+    html.is-sidebar-hidden {
         --sidenav-toggle-icon: var(--sidenav-toggle-icon--hidden);
         --sidebar-width: 0px;
         --article-navigation-disposition--left: var(--wiki-logo-width);
         --sidebar-background-color: transparent;
         --sidebar-content-divider-color: transparent;
     }
-    body.is-sidebar-hidden #mw-panel .mw-portlet {
+    html.is-sidebar-hidden #mw-panel .mw-portlet {
         display: none;
     }
 }
