@@ -2300,45 +2300,7 @@ div.photo-text {
 /* #endregion */
 
 /* #region [[Template:Achievement]] */
-.achieve_container {
-    width: 600px;
-    padding-left: 10px;
-    vertical-align: bottom;
-    background: var(--ark-paintregion-background-color);
-    border: 0.3em inset var(--ark-paintregion-border-color);
-}
-.achieve_container .achieve_name {
-    display: inline-block;
-    position: relative;
-    top: 7px;
-    font-size: 1.25em;
-    color: var(--theme-page-text-color);
-}
-.achieve_icon {
-    width: 64px;
-    height: 64px;
-    vertical-align: top;
-}
-.achieve_avail {
-    display: inline-block;
-    height: 0px;
-    margin-right: 5px;
-}
-.achieve_unavail {
-    display: inline-block;
-    height: 0px;
-    margin-right: 5px;
-    overflow: wrap;
-}
-.gray_circle {
-    display: block;
-    position: relative;
-    top: -19px;
-    background: lightgray;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-}
+
 /* #endregion */
 
 /* #region [[Template:Interactive Regionmap]] */
