@@ -2977,8 +2977,7 @@ ul.color-ids-list {
 /* #region [[Template:DossierText]] */
 .dossier-background {
     border-radius: 0.5em;
-    border-left-width: 1em;
-    margin-bottom: 1em;
+    margin: 1rem 0;
     background: var(--ark-dossier-background-color);
     border: 2px solid var(--ark-dossier-border-color);
     color: var(--ark-dossier-text-color);
