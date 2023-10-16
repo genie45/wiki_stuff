@@ -10,11 +10,16 @@
     --netbar-height: 35px;
     /* Body */
     --page-background-image: url(/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
-    /* Logo */
-    --wiki-logo-frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1154067332470153216/EN_test_mini.png) /*[[File:Logo frame EN mini.png]]*/;
-	--wiki-logo-horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
+    /* Logo assets */
+    --wiki-logo-source--frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1163602780804624454/Framed_logo_li-fs8.png?ex=65402c89&is=652db789&hm=2945e28f5b52d0d4de0c3b3cf2e0c5d908bed77957db15628dd1e7ca4c810c47&) /*[[File:Framed logo dark.png]]*/;
+	--wiki-logo-source--wordmark: url(https://cdn.discordapp.com/attachments/1121900715443507401/1163603456108544011/English-fs8.png?ex=65402d2a&is=652db82a&hm=f916a724a8b2efdd71119cfc0a6205e41f484b5f198a8775e93e40a2530acdc9&) /*[[File:Framed logo wordmark.png]]*/;
+	--wiki-logo-source--horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
+    /* Logo composition */
     --wiki-logo-width: 194px;
     --wiki-logo-height: calc(762 / 1116 * var(--wiki-logo-width));
+    --wiki-logo-settings:
+        var(--wiki-logo-source--wordmark) center 84% / 80% auto no-repeat,
+        var(--wiki-logo-source--frame) top / contain no-repeat;
     --wiki-logo-disposition--top: 10px;
     --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + var(--wiki-logo-disposition--top));
     --wiki-logo-offset--left: calc(-1.1em - 7px);
@@ -99,6 +104,8 @@
     --sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20231016#expand-sidebar);
 }
 body {
+    /* These variables live on the body element so they recalculate if we change their components by body classes */
+    /* Global position: sticky offset */
     --sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
 }
 body.is-sticky-header-visible {
@@ -106,14 +113,15 @@ body.is-sticky-header-visible {
 }
 @media screen and (min-width: 1261px) {
     body.rootpage-ARK_Wiki {
-        --wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
+        --wiki-logo-settings:
+            var(--wiki-logo-source--wordmark) center 88% / 64% auto no-repeat,
+            var(--wiki-logo-source--frame) top / contain no-repeat;
         --wiki-logo-height: 260px;
         --wiki-logo-width: 450px;
-        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 12px);
-        --wiki-logo-offset--left-part: 4px;
+        --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height) + 15px);
         --wiki-logo-offset--left: calc(50vw - var(--layout-sidespace--left) - var(--layout-column-gap) * 1.5
-                                   - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
-        --layout-content-top-offset: calc(var(--wiki-logo-height) - 13px - var(--article-navigation-height) - 1px);
+                                   - var(--wiki-logo-width) / 2);
+        --layout-content-top-offset: calc(var(--wiki-logo-height) - 27px - var(--article-navigation-height));
     }
 }
 /* #endregion */
@@ -143,9 +151,9 @@ body.is-sticky-header-visible {
 @media screen and (max-width: 1260px) {
     :root {
         /* Logo */
-        --wiki-logo-frame: var(--wiki-logo-horizontal);
         --wiki-logo-width: 300px;
-        --wiki-logo-height: 120px;
+        --wiki-logo-height: 110px;
+        --wiki-logo-settings: var(--wiki-logo-source--horizontal) top / contain no-repeat;
         --wiki-logo-offset--left: 0px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         /* Grid layout */
@@ -749,18 +757,12 @@ body {
     height: var(--wiki-logo-height);
 }
 #p-logo a {
-    background-image: var(--wiki-logo-frame);
-    background-size: contain;
+    background: var(--wiki-logo-settings);
     width: var(--wiki-logo-width);
     height: var(--wiki-logo-height);
 }
-@media screen and (min-width: 1261px) {
-    .rootpage-ARK_Wiki #p-logo a {
-        background-image: none;
-    }
-}
 /* #endregion */
-/* #region Content area (& hex, frame border) */
+/* #region Content area (& hex) */
 div#content {
 	position: relative;
 	background-color: var(--content-background-color--transparent);
@@ -782,17 +784,6 @@ div#content {
     box-shadow: 0 0 0 var(--content-frame-border-width) var(--content-border-color);
     margin: var(--content-frame-border-margin);
 }
-.rootpage-ARK_Wiki div#content::before {
-	position: absolute;
-	top: -250px;
-	left: 50%;
-	content: '';
-	background: var(--wiki-logo-frame) repeat;
-	width: 662px;
-	height: 267px;
-	margin-left: -331px;
-	background-size: contain;
-}
 .content-body::before {
     position: absolute;
     top: 0;
@@ -803,23 +794,6 @@ div#content {
     background: url(/images/b/b7/Hex_grid.png) /*[[File:Hex grid.png]]*/ repeat;
     z-index: -1;
     opacity: 0.7;
-}
-@media screen and (max-width: 1500px) {
-	div#content::before {
-		top: -167px;
-		width: 441px;
-		height: 178px;
-		margin-left: -220px;
-	}
-}
-@media screen and (max-width: 1260px) {
-	div#content::before {
-		display: none;
-	}
-    /* If we ever choose to use the logo frame for tablet displays */
-    /*div#content::before {
-        transform: scale(125%) translateY(-12px);
-    }*/
 }
 @media screen and (max-width: 720px) {
     div#content {
