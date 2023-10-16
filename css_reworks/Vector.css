@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* #region Shared variables */
+/* #region Screen grade: wide desktop */
 :root {
     /* wiki.gg */
     --netbar-height: 35px;
@@ -33,7 +34,6 @@
     --content-vertical-margin--top: 1.9rem;
     --content-vertical-margin--bottom: 1.2rem;
     --content-horizontal-margin: 2rem;
-    --content-body-top-margin: 0.6rem;
     /* Article navigation */
     --article-navigation-height: 40px;
 	--article-navigation-disposition: 12px;
@@ -111,33 +111,40 @@ body.rootpage-ARK_Wiki {
                                    - var(--wiki-logo-width) / 2 + var(--sidebar-width) / 2 + var(--wiki-logo-offset--left-part));
     --layout-content-top-offset: calc(var(--wiki-logo-height) - 13px - var(--article-navigation-height) - 1px);
 }
+/* #endregion */
+/* #region Screen grade: medium desktop and above - sidebar hiding */
+@media screen and (min-width: 1260px) {
+    .is-sidebar-hidden {
+        --sidenav-toggle-icon: var(--sidenav-toggle-icon--hidden);
+        --sidebar-width: 0px;
+        --article-navigation-disposition--left: var(--wiki-logo-width);
+        --sidebar-background-color: transparent;
+        --sidebar-content-divider-color: transparent;
+    }
+    .is-sidebar-hidden #mw-panel .mw-portlet {
+        display: none;
+    }
+}
+/* #endregion */
+/* #region Screen grade: medium desktop */
 @media screen and (max-width: 1500px) {
     :root {
         --sidebar-width: 170px;
         --content-horizontal-margin: 1.5rem;
     }
 }
-@media screen and (min-width: 1260px) {
-    .is-sidebar-hidden {
-        --sidenav-toggle-icon: var(--sidenav-toggle-icon--hidden);
-        --sidebar-width: 0px;
-        --layout-sidespace--right: 32px;
-        --article-navigation-disposition--left: var(--wiki-logo-width);
-    }
-    .is-sidebar-hidden #mw-panel .mw-portlet {
-        display: none;
-    }
-}
+/* #endregion */
+/* #region Screen grade: tablet */
 @media screen and (max-width: 1260px) {
     :root {
         /* Logo */
         --wiki-logo-frame: var(--wiki-logo-horizontal);
         --wiki-logo-width: 300px;
-        --wiki-logo-height: 140px;
+        --wiki-logo-height: 120px;
         --wiki-logo-offset--left: 0px;
         --wiki-logo-offset--top: calc(-1 * var(--wiki-logo-height));
         /* Grid layout */
-        --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px + var(--toolbar-height));
+        --layout-content-top-offset: calc(var(--wiki-logo-height) - 10px);
         --layout-sidespace--dynamic: 1.15vw;
         --layout-column-gap: 0px;
         --sidebar-width: 0px;
@@ -157,6 +164,8 @@ body.rootpage-ARK_Wiki {
         --ad-left-shared-offset: 0px;
     }
 }
+/* #endregion */
+/* #region Screen grade: mobile */
 @media screen and (max-width: 720px) {
     :root {
         /* Logo */
@@ -170,6 +179,8 @@ body.rootpage-ARK_Wiki {
         --layout-content-top-offset: var(--wiki-logo-height);
         --layout-sidespace--left: 0;
         --layout-sidespace--right: 0;
+        --content-frame-border-width: 3px;
+        --content-frame-border-margin: 0;
         /* Search */
         --search-height: 35px;
         --search-spacing--bottom: 6px;
@@ -177,7 +188,6 @@ body.rootpage-ARK_Wiki {
         --search-top-offset: calc(100% + var(--search-top-disposition));
         /* Page content */
         --content-border-widths: 3px 0;
-        --content-body-top-margin: 85px;
         --content-vertical-margin--top: calc(var(--search-height) + 1.2rem);
         /* Advertisements */
         --ad-slot-top--top-spacing: calc(var(--search-height) + 0.7rem);
@@ -187,12 +197,7 @@ body.rootpage-ARK_Wiki {
         --sticky-button-border-radius: 0;
     }
 }
-@media screen and (max-width: 600px) {
-    :root {
-        /* Page navigation (mw-head) */
-	    --article-navigation-disposition: -9px;
-    }
-}
+/* #endregion */
 /* #endregion */
 
 
