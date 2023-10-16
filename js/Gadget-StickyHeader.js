@@ -11,17 +11,24 @@ function StickyHeader() {
         .insertAfter( '#wikigg-header' );
     this.$stickyName = $( '<a>' )
         .attr( 'href', mw.config.get( 'wgScriptPath' ) || '/' )
-        .prepend( $( '<img width=32 height=32 alt="" />' )
-            .attr( 'src', $( 'link[rel="shortcut icon"]' ).attr( 'href' ) ) )
-        .append( $( '<span> ')
-            .text( mw.config.get( 'wgSiteName' ) ) )
-        .appendTo( $( '<div class="sticky-wiki-name">' )
-            .appendTo( this.$stickyHeaderCnt ) );
+        .prepend( $( '<img width=36 height=36 alt="" />' )
+            .attr( 'src', $( 'link[rel="icon"]' ).attr( 'href' ) ) )
+        .appendTo( $( '<div class="sticky-wiki-name">' ).appendTo( this.$stickyHeaderCnt ) );
+    this._buildNameBox();
     this.$stickySearchContainer = $( '<div class="sticky-search-box">' )
         .appendTo( this.$stickyHeaderCnt );
     this.$stickyButtonsCnt = $( '<div class="sticky-buttons">' )
         .appendTo( this.$stickyHeaderCnt );
-    
+
+    var $toc = $( '#toc' );
+	if ( $toc.length > 0 ) {
+		this.$btnToC = $( '<a role="button" id="sticky-toc" class="with-icon">' )
+			.attr( 'title', I18n( 'ToC' ) )
+			.append( $( '<div class="toc">' )
+				.append( $toc.find( '> ul' ).clone( true ) ) )
+			.appendTo( this.$stickyButtonsCnt );
+	}
+
     this.$btnEdit = this.cloneButton( 'edit', 'Edit' );
     this.$btnTalk = this.cloneButton( 'talk', 'Talk' );
     this.$btnHistory = this.cloneButton( 'history', 'History' );
@@ -44,7 +51,21 @@ StickyHeader.prototype.cloneButton = function ( id, messageName ) {
             .appendTo( this.$stickyButtonsCnt );
     }
     return null;
-}
+};
+
+
+StickyHeader.prototype._buildNameBox = function () {
+    var self = this;
+	mw.loader.using( 'ext.themes.jsapi', function () {
+		mw.loader.require( 'ext.themes.jsapi' ).whenCoreLoaded( function() {
+			self.$stickyNameText = $( '<span> ').text( mw.config.get( 'wgSiteName' ) ).appendTo( self.$stickyName );
+			if ( !mw.config.get( 'wgIsMainPage' ) && MwSkinTheme.getCurrent() === 'dark-test-fullwidth2023' ) {
+				var pageTitle = $( '#firstHeading' ).length > 0 ? $( '#firstHeading' ).text() : mw.config.get( 'wgTitle' );
+				self.$stickyNameText.append( $( '<span class="sticky-page-title">' ).text( pageTitle ) );
+			}
+		} );
+	} );
+};
 
 
 StickyHeader.prototype.show = function () {
@@ -101,7 +122,14 @@ mw.loader.using( 'site', function () {
             BackToTop: 'Back to top',
             Edit: 'Edit',
             History: 'History',
-            Talk: 'Discuss'
+            Talk: 'Discuss',
+            ToC: 'Table of contents'
+        },
+		fr: {
+            BackToTop: 'Haut de page',
+            Edit: 'Éditer',
+            History: 'Historique',
+            Talk: 'Discussion'
         }
     } );
 
