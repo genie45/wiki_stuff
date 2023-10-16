@@ -3062,48 +3062,6 @@ div.photo-text {
 }
 /* #endregion */
 
-/* #region [[Template:AttackInfo]] */
-.dino-attack-info {
-    width: 100%;
-    margin: 0.25em;
-    white-space: initial; /* workaround static sizes being ignored on table elements due to wiki.gg css */
-}
-.dino-attack-info th {
-    width: 150px;
-}
-.dino-attack-info ul b {
-    font-weight: 600;
-}
-.dino-attack-species-label {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 16px;
-    margin: 4px 12px -4px;
-}
-.dino-attack-species-label > a:last-child {
-    vertical-align: middle;
-}
-/* Grid layout (1 column on small screens, 2 on medium, 3 on high) */
-.dino-attacks {
-    display: flex;
-    flex-wrap: wrap;
-}
-.dino-attacks > .dino-attack-info {
-    flex: 1 1 100%;
-}
-@media screen and (min-width: 1350px) {
-    .dino-attacks > .dino-attack-info {
-        flex-basis: 49%;
-    }
-}
-@media screen and (min-width: 1800px) {
-    .dino-attacks > .dino-attack-info {
-        flex-basis: 32.5%;
-    }
-}
-/* #endregion */
-
 /* #region [[Template:Infobox patch]] */
 .info-patchbox {
     padding: 2px 7px;
