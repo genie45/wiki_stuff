@@ -2245,27 +2245,6 @@ div.photo-text {
 }
 /* #endregion */
 
-/* #region [[Template:ARKCode]] */
-#ARKCodeVisualization {
-    background-color:black;
-    min-width: 10em;
-    min-height: 27em;
-    display: inline-block;
-    vertical-align: top;
-    writing-mode: vertical-lr;
-    padding: 3px;
-    padding-bottom: 8px;
-}
-#ARKCodeVisualization img {
-    margin-bottom: -5px;
-}
-.ARKCode-output {
-    background-color: var(--ark-dossier-background-color);
-    color: var(--ark-dossier-text-color);
-    border: 1px solid var(--ark-dossier-border-color);
-}
-/* #endregion */
-
 /* #region Page indicators */
 #mw-indicator-mod > a:last-child {
     font-size: 24px;
