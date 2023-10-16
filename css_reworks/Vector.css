@@ -51,6 +51,8 @@
     /* Search */
 	--search-height: 3em;
     --search-button-overlay-image: url(/images/1/1c/Search_hlna.png?20231016);
+    --search-button-overlay-offset--right: -1.9rem;
+    --search-button-overlay-offset--top: -2.4rem;
     /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
     --ad-left-shared-offset: -3px;
     --ad-slot-top--top-spacing: 0px;
@@ -164,6 +166,8 @@ body.is-sticky-header-visible {
         --content-vertical-margin--top: 2.4rem;
         --content-horizontal-margin: 1rem;
         --content-top-margin: var(--article-navigation-top-offset);
+        /* Search */
+        --search-button-overlay-offset--top: -0.9rem;
         /* Advertisements */
         --ad-left-shared-offset: 0px;
     }
@@ -1231,8 +1235,8 @@ ul {
     width: 3.9rem;
     height: 3.5rem;
     position: absolute;
-    right: -1.9rem;
-    top: -2.4rem;
+    right: var(--search-button-overlay-offset--right);
+    top: var(--search-button-overlay-offset--top);
     transform: rotateY(180deg);
     background: var(--search-button-overlay-image) center / contain;
     filter: drop-shadow(-0.8rem -0.8rem 1.2rem #004);
