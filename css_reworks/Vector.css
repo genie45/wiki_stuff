@@ -518,7 +518,8 @@ body > .content-wrapper, #mw-navigation {
     height: max-content;
 	z-index: 10;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     padding: 0 0 0 var(--article-navigation-disposition--left);
     margin: var(--article-navigation-margin);
 }
@@ -534,6 +535,10 @@ body > .content-wrapper, #mw-navigation {
 }
 #mw-head #right-navigation {
     justify-content: flex-end;
+}
+/* On main page, expand left navigation side to hide the article navigation as it likes to overlap the logo */
+.rootpage-ARK_Wiki #left-navigation {
+    flex-grow: 1;
 }
 #mw-panel {
     grid-column: aside-left/aside-right;
