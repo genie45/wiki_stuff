@@ -5,9 +5,14 @@
         <path d="M10 15L2 5h16l-8 10z" />
     </symbol>
 
-    <view id="bulletpoint" viewBox="0 0 5 13" />
-    <g transform="translate(0, 0)">
-            <circle cx="2.5" cy="9" r="2.5"/>
+    <view id="bulletpoint" viewBox="0 0 10 13" />
+    <g transform="translate(5, 5)">
+        <circle r="5"/>
+    </g>
+
+    <view id="bulletpoint-white" viewBox="10 0 10 13" />
+    <g transform="translate(15, 5)" fill="#fff">
+        <circle r="5"/>
     </g>
 
     <view id="expand-sidebar" viewBox="0 20 20 20" />
