@@ -444,6 +444,9 @@ end )
         return self:_wrapResult( table.concat( html, '' ) )
     end
     function Renderer.methods._wrapResult( self, inHtml )
+        if self.template.wrapRendered then
+            return self.template:wrapRendered( inHtml )
+        end
         return inHtml
     end
     function Renderer.methods._wrapUnit( self, unit, inHtml, outHtml )
