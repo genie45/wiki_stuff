@@ -9,12 +9,9 @@
     --netbar-height: 35px;
     /* Body */
     --page-background-image: url(/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
-    --page-background-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1159274031539818546/DarkThemeFinal_-_Copy.jpg?ex=65306d13&is=651df813&hm=e3e4a93ecf2a5da3f7d9d2472998497f934246abe5b8a04e81d001ccf1bfbba0&);
-    --page-background-image: url(https://cdn.discordapp.com/attachments/827080530188435467/1159425113423355964/DarkThemeFinal2kOptimiseTest_-_Copy1.jpg?ex=6530f9c8&is=651e84c8&hm=d5adcf6246038c4df044c17aeab1c5a9e5e453f732275a295d2edfe8f2ba8b75&);
     /* Logo */
-    --wiki-logo-frame: url(/images/1/17/Logo_frame_EN.png) /*[[File:Logo frame EN.png]]*/;
-    --wiki-logo-frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1154067332470153216/EN_test_mini.png);
-	--wiki-logo-horizontal: url(/images/7/79/Logo_horiz.png) /*[[File:Logo horiz.png]]*/;
+    --wiki-logo-frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1154067332470153216/EN_test_mini.png) /*[[File:Logo frame EN mini.png]]*/;
+	--wiki-logo-horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
     --wiki-logo-width: 194px;
     --wiki-logo-height: calc(762 / 1116 * var(--wiki-logo-width));
     --wiki-logo-disposition--top: 10px;
@@ -26,7 +23,7 @@
     --sidebar-to-content-margin: 0;
     --sidebar-padding: 2.4rem 0 1rem 1.1em;
     /* Page content frame */
-    --content-frame-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1162515351653851136/BorderNew3-fs8.png?ex=653c37ca&is=6529c2ca&hm=8c538453636472a4b621825bb09c0ae16d8bbfe70dd15a53852c337bc0a2a186&);
+    --content-frame-image: url(/images/a/a6/Border_frame_dark.png?20231016);
     --content-frame-slice: 620 643 0 643;
     --content-frame-widths: 405px 380px 0px 380px;
     --content-frame-outset: 13px 20px 12px;
@@ -51,7 +48,7 @@
     --layout-column-gap: 0px;
     /* Search */
 	--search-height: 3em;
-    --search-button-overlay-image: url(https://cdn.discordapp.com/attachments/1121900715443507401/1159431056890544138/Head_dinos_banner_hlna.png?ex=6530ff51&is=651e8a51&hm=e15c4455d1701d4f64d1fd8251e070f77ed4bcdb9d955acaa8e878ff08dc3a2c&);
+    --search-button-overlay-image: url(/images/1/1c/Search_hlna.png?20231016);
     /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
     --ad-left-shared-offset: -3px;
     --ad-slot-top--top-spacing: 0px;
@@ -76,7 +73,7 @@
         calc(var(--content-horizontal-margin) * -1 + var(--ad-left-shared-offset));
     /* Frontpage */
     --fp-gap: 0.9rem;
-    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg);
+    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231016);
     /* Sticky header */
     --sticky-header-height: 0px;
     --sticky-search-border-radius: 4px;
