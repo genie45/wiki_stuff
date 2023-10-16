@@ -238,8 +238,8 @@ html {
     --sidenav-background-color: #3d3e3d50;
     --sidenav-text-color: #fff;
     --sidenav-text-hover-color: var(--content-text-link-color);
-    --toolbar-background-color: #607c26ce;
-    --toolbar-list-background-color: #66783dfa;
+    --toolbar-background-color: #354237ee;
+    --toolbar-list-background-color: #354237ee;
     --toolbar-border-color: #234064;
     --sidenav-toggle-icon-filter: invert(1);
     --sidenav-toggle-icon-filter: none;
