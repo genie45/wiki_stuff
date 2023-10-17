@@ -9,10 +9,10 @@
     /* wiki.gg */
     --netbar-height: 35px;
     /* Body */
-    --page-background-image: url(/images/9/95/Bg_dark.jpg) /*[[File:Bg dark.jpg]]*/;
+    --page-background-image: url(/images/9/95/Bg_dark.jpg?20231017) /*[[File:Bg dark.jpg]]*/;
     /* Logo assets */
-    --wiki-logo-source--frame: url(https://cdn.discordapp.com/attachments/1121900715443507401/1163602780804624454/Framed_logo_li-fs8.png?ex=65402c89&is=652db789&hm=2945e28f5b52d0d4de0c3b3cf2e0c5d908bed77957db15628dd1e7ca4c810c47&) /*[[File:Framed logo dark.png]]*/;
-	--wiki-logo-source--wordmark: url(https://cdn.discordapp.com/attachments/1121900715443507401/1163603456108544011/English-fs8.png?ex=65402d2a&is=652db82a&hm=f916a724a8b2efdd71119cfc0a6205e41f484b5f198a8775e93e40a2530acdc9&) /*[[File:Framed logo wordmark.png]]*/;
+    --wiki-logo-source--frame: url(/images/a/af/Framed_logo_dark.png?20231017) /*[[File:Framed logo dark.png]]*/;
+	--wiki-logo-source--wordmark: url(/images/0/01/Framed_logo_wordmark_en.png?20231017) /*[[File:Framed logo wordmark.png]]*/;
 	--wiki-logo-source--horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
     /* Logo composition */
     --wiki-logo-width: 194px;
@@ -82,7 +82,7 @@
         calc(var(--content-horizontal-margin) * -1 + var(--ad-left-shared-offset));
     /* Frontpage */
     --fp-gap: 0.9rem;
-    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231016);
+    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231017);
     /* Sticky header */
     --sticky-header-height: 0px;
     --sticky-search-border-radius: 4px;
