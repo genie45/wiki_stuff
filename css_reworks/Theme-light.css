@@ -23,6 +23,7 @@
     --content-text-link-color: #064B55;
     --content-border-color: #6e8c78;
     --content-border-color--rgb: 110, 140, 120;
+    --content-frame-border-color: var(--content-border-color);
     --content-default-link-color: #012013;    /* top tab, spawn command box*/
     --content-default-link-color--rgb: 154, 205, 50;
     --articlenav-border-color: #3c3e40;

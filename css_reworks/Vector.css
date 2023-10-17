@@ -235,6 +235,7 @@ html {
     --content-text-link-color--new: #e51616;
     --content-border-color: #658a19;
     --content-border-color--rgb: 101, 138, 25;
+    --content-frame-border-color: var(--content-border-color);
     --content-heading-divider-color: #a2a9b1;
     --code-background-color: #202020;
     --code-border-color: #525354;
@@ -766,7 +767,6 @@ div#content {
 	background-color: var(--content-background-color--transparent);
 	color: var(--content-text-color);
     border-radius: 1px;
-    box-shadow: none;
     min-height: 600px;
     /*
     We can't use a normal border as they don't stack with border images. Instead, we cast a box shadow and apply a margin.
@@ -779,7 +779,7 @@ div#content {
     border-image-width: var(--content-frame-widths);
     border-image-outset: var(--content-frame-outset);
     border-image-source: var(--content-frame-image);
-    box-shadow: 0 0 0 var(--content-frame-border-width) var(--content-border-color);
+    box-shadow: 0 0 0 var(--content-frame-border-width) var(--content-frame-border-color);
     margin: var(--content-frame-border-margin);
 }
 .content-body::before {
