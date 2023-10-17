@@ -1499,6 +1499,7 @@ table .number { text-align: right; }
 #toc > ul {
     max-height: calc(1.7em * 15);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 div#toc,
 div.toc,
