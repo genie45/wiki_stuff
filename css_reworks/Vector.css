@@ -40,7 +40,7 @@
     --content-vertical-margin--bottom: 1.2rem;
     --content-horizontal-margin: 2rem;
     /* Article navigation */
-    --article-navigation-height: 40px;
+    --article-navigation-height: 42.4px;
 	--article-navigation-disposition: 12px;
 	--article-navigation-disposition--left: 0px;
     --article-navigation-top-offset: 0px;
@@ -553,6 +553,7 @@ body > .content-wrapper, #mw-navigation {
     justify-content: space-between;
     padding: 0 0 0 var(--article-navigation-disposition--left);
     margin: var(--article-navigation-margin);
+    height: var(--article-navigation-height);
 }
 #mw-head #left-navigation,
 #mw-head #right-navigation {
