@@ -1560,9 +1560,19 @@ ul#filetoc {
     overflow-y: scroll;
     word-break: break-word;
     max-height: calc(100vh - var(--sticky-offset) - 2rem - .75em);
+    margin-left: -0.2em;
+}
+#p-stoc .tocnumber {
+    word-break: keep-all;
 }
 #p-stoc .vector-menu-content li {
     font-size: .725rem;
+}
+/* Currently not supported on tablet and below... but it's not very usable in this form anyway */
+@media screen and (max-width: 1260px) {
+    #p-stoc {
+        display: none;
+    }
 }
 /* #endregion */
 /* #endregion */
