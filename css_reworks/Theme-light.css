@@ -25,10 +25,6 @@
     --content-border-color--rgb: 110, 140, 120;
     --content-default-link-color: #012013;    /* top tab, spawn command box*/
     --content-default-link-color--rgb: 154, 205, 50;
-    --article-navigation-item-background-color: #ebeeddfa;
-    --article-navigation-item-background-color--selected: #d9ead6;
-    --article-navigation-item-border-color: var(--content-border-color);
-    --article-navigation-dropdown-background-color: #e1e3d3fa;
     --articlenav-border-color: #3c3e40;
     --articlenav-border-color--tiny: #a3a7ab;
     --code-background-color: #def7ee;
@@ -36,6 +32,13 @@
     --content-text-top-border-color: #97bde1;
     --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
     --reference-background-color--highlight: #5e5e5e;
+    /* Article navigation */
+    --article-navigation-item-background-color: #ebeeddfa;
+    --article-navigation-item-background-color--selected: #d9ead6;
+    --article-navigation-item-border-color: var(--content-border-color);
+    --article-navigation-dropdown-background-color: #e1e3d3fa;
+    --article-navigation-item-underline-color: #086808;
+    --article-navigation-item-underline-color--active: #0e5e17;
     /* Search */
     --search-background-color: #dbe8cd69;
     --search-border-color: var(--content-border-color);
@@ -224,12 +227,6 @@
     --trm-map-checkbox-unchecked-color: #f5aaaa;
     --trm-map-checkbox-checked-color: #05bb25;
     --trm-map-spawninfo-border-color: #222;
-    /* Vector-menu styling */
-    --vector-underline-hover-color: #086808;
-    --vector-underline-hover-active-color: #0e5e17;
-    --vector-menu-background-color: var(--articlenav-background-color);
-    --vector-menu-border-color: var(--articlenav-border-color);
-    --vector-menu-link-color: var(--content-default-link-color);
     /* Adminlist */
     --adminlist-background-color: #c8c8c811;
     --adminlist-border-color: var(--content-border-color);

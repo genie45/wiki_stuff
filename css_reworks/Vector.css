@@ -236,17 +236,18 @@ html {
     --content-border-color: #658a19;
     --content-border-color--rgb: 101, 138, 25;
     --content-heading-divider-color: #a2a9b1;
-    --article-navigation-item-background-color: #2f3030fa;
-    --article-navigation-item-background-color--selected: #1c1e21;
-    --article-navigation-item-border-color: var(--content-border-color);
-    --article-navigation-dropdown-background-color: #2f3030;
-    --articlenav-border-color: #3c3e40;
-    --articlenav-border-color--tiny: #a3a7ab;
     --code-background-color: #202020;
     --code-border-color: #525354;
     --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
     --reference-background-color--highlight: #5e5e5e;
     --ad-content-divider-color: var(--sidebar-content-divider-color);
+    /* Article navigation */
+    --article-navigation-item-background-color: #2f3030fa;
+    --article-navigation-item-background-color--selected: #1c1e21;
+    --article-navigation-item-border-color: var(--content-border-color);
+    --article-navigation-dropdown-background-color: #2f3030;
+    --article-navigation-item-underline-color: #228083;
+    --article-navigation-item-underline-color--active: #9acd32;
     /* Sidebar */
     --sidenav-header-background: #e5e5e5;
     --sidenav-header-background--rgb: 229, 229, 229;
@@ -456,12 +457,6 @@ html {
     --trm-map-checkbox-unchecked-color: #f5aaaa;
     --trm-map-checkbox-checked-color: #05bb25;
     --trm-map-spawninfo-border-color: #222;
-    /* Vector-menu styling */
-    --vector-underline-hover-color: #228083;
-    --vector-underline-hover-active-color: #9acd32;
-    --vector-menu-background-color: var(--article-navigation-dropdown-background-color);
-    --vector-menu-border-color: var(--articlenav-border-color);
-    --vector-menu-link-color: var(--content-default-link-color);
     /* Adminlist */
     --adminlist-background-color: #c8c8c811;
     --adminlist-border-color: var(--content-border-color);
@@ -1033,10 +1028,10 @@ ul {
 	animation-duration: 1s;
 	animation-name: tabHover;
 	animation-fill-mode: forwards;
-	border-bottom: 3px solid var(--vector-underline-hover-color);
+	border-bottom: 3px solid var(--article-navigation-item-underline-color);
 }
 .vector-menu-tabs .mw-list-item.selected:hover::before {
-	border-color: var(--vector-underline-hover-active-color);
+	border-color: var(--article-navigation-item-underline-color--active);
 }
 /* #endregion */
 
@@ -1222,9 +1217,6 @@ ul {
 
 /* #region Article navigation icons */
 @media screen and (max-width: 600px) {
-    :root {
-        --articlenav-border-color: var(--articlenav-border-color--tiny);
-    }
     #mw-head .vector-menu-dropdown .vector-menu-heading {
         padding: 0;
         margin: 0;
