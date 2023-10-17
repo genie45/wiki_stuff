@@ -89,7 +89,6 @@
     --sticky-button-border-radius: 4px;
     /* Common icons */
     --icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231017);
-    --list-bulletpoint-image: url(/images/9/9e/Skin_iconsheet.svg?20231017#bulletpoint-white);
     --icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20231017#edit);
     --icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20231017#talk);
     --icon-history: url(/images/9/9e/Skin_iconsheet.svg?20231017#history);
@@ -102,6 +101,8 @@
     --sidenav-toggle-icon--hidden: url(/images/9/9e/Skin_iconsheet.svg?20231017#collapse-sidebar);
     --sidebar-toggle-icon--open: url(/images/9/9e/Skin_iconsheet.svg?20231017#collapse-sidebar);
     --sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20231017#expand-sidebar);
+    /* Bulletpoints - still embedding, using the sheet unfortunately caused problems */
+    --list-bulletpoint-image: url(data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E);
 }
 body {
     /* These variables live on the body element so they recalculate if we change their components by body classes */
