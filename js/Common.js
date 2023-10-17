@@ -187,9 +187,9 @@ $(function() {
 
     // #region Sidebar ToC
     ( function () {
-        var tocListElement = document.querySelector( '#toc > ul' ),
-            tocHeadingText = document.querySelector( '#mw-toc-heading' ).textContent;
+        var tocListElement = document.querySelector( '#toc > ul' );
         if ( tocListElement ) {
+            var tocHeadingText = document.querySelector( '#mw-toc-heading' ).textContent;
             var sidebarToc = document.createElement( 'div' ),
                 sidebarTocHeading = document.createElement( 'h3' )
                 sidebarTocLabel = document.createElement( 'span' ),
