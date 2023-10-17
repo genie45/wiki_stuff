@@ -110,6 +110,7 @@ body {
 }
 body.is-sticky-header-visible {
     --sticky-header-height: 3rem;
+    --search-button-overlay-offset--top: -0.9rem;
 }
 @media screen and (min-width: 1261px) {
     body.rootpage-ARK_Wiki {
