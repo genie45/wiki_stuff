@@ -3,7 +3,15 @@
 
 /* #region Theme variables */
 :root {
-    --page-background-image: url(https://cdn.discordapp.com/attachments/827080530188435467/1159447817169940560/Gen1Theme7_-_Copy.jpg?ex=65310eed&is=651e99ed&hm=b170b80069eddcdc50110872953833dc01ad3754492105bbd2475ad52242bdb7&);
+    /* Body */
+    --page-background-image: url(/images/0/0a/Bg_gen1.jpg?20231017) /*[[File:Bg dark.jpg]]*/;
+    /* Logo assets */
+    --wiki-logo-source--frame: url(/images/c/c1/Framed_logo_gen1.png?20231017) /*[[File:Framed logo dark.png]]*/;
+	--wiki-logo-source--wordmark: url(/images/0/01/Framed_logo_wordmark_en.png?20231017) /*[[File:Framed logo wordmark.png]]*/;
+	--wiki-logo-source--horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
+    /* Page content frame */
+    --content-frame-image: url(/images/1/12/Border_frame_gen1.png?20231017);
+
     --theme-accent-color: #50bfff;
     --theme-accent-color--rgb: 13, 111, 112;
     --page-background-color: #030d1d;
@@ -36,8 +44,6 @@
     /* Site notice */
     --sitenotice-background-color: #0002;
     --sitenotice-border-color: var(--content-border-color);
-    /* Assets */
-    --list-bulletpoint-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E");
     /* Sidebar */
     --sidenav-header-background: #458cc4;
     --sidenav-header-background--rgb: 69, 140, 196;
