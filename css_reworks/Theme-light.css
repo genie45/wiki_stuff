@@ -270,6 +270,8 @@
     --pagehist-selected-background-color: #01060c;
     --pagehist-selected-text-color: var(--content-text-color);
     --pagehist-last-visit-color: #000;
+    /* Common icons */
+    --list-bulletpoint-image: url(/images/9/9e/Skin_iconsheet.svg?20231017#bulletpoint);
 }
 /* #endregion */
 
