@@ -1556,7 +1556,9 @@ ul#filetoc {
     top: var(--sticky-offset);
 }
 #p-stoc > .vector-menu-content {
+    overflow-x: hidden;
     overflow-y: scroll;
+    word-break: break-word;
     max-height: calc(100vh - var(--sticky-offset) - 2rem - .75em);
 }
 #p-stoc .vector-menu-content li {
