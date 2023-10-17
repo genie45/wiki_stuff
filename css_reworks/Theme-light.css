@@ -26,6 +26,7 @@
     --content-default-link-color: #012013;    /* top tab, spawn command box*/
     --content-default-link-color--rgb: 154, 205, 50;
     --article-navigation-item-background-color: #ebeeddfa;
+    --article-navigation-item-background-color--selected: #d9ead6;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color: #e1e3d3fa;
     --articlenav-border-color: #3c3e40;

@@ -237,6 +237,7 @@ html {
     --content-border-color--rgb: 101, 138, 25;
     --content-heading-divider-color: #a2a9b1;
     --article-navigation-item-background-color: #2f3030fa;
+    --article-navigation-item-background-color--selected: #1c1e21;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color: #2f3030;
     --articlenav-border-color: #3c3e40;
@@ -965,7 +966,7 @@ ul {
     background: none;
 }
 .vector-menu-tabs ul .mw-list-item.selected {
-    background: #1c1e21;
+    background: var(--article-navigation-item-background-color--selected);
     opacity: 1;
 }
 .vector-menu-tabs .mw-list-item a,
