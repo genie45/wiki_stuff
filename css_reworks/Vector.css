@@ -305,7 +305,9 @@ html {
     --fp-social-icon-background: #5353534d;
     --fp-promo-shadow-color--1: #00000024;
     --fp-promo-shadow-color--2: #0003;
-    --fp-promo-text-color: #000;
+    --fp-promo-shadow-color--text: #000;
+    --fp-promo-text-color: #e0e9eb;
+    --fp-promo-link-color: #9acd32;
     /* [[Module:DinoIcon]] */
     --dino-icon-filter: brightness(500%) contrast(110%) invert(1);
     --dino-icon-overlay--normal: linear-gradient( 130deg, rgb(21, 24, 92) 0%, rgb(155, 108, 108) 80% );
