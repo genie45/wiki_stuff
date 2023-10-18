@@ -88,6 +88,11 @@
     --fp-labelled-icon-background: var(--ark-arkitex-background-color);
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #21272e7d;
+    --fp-promo-shadow-color--1: #00000024;
+    --fp-promo-shadow-color--2: #0003;
+    --fp-promo-shadow-color--text: #000;
+    --fp-promo-text-color: #cae7ee;
+    --fp-promo-link-color: #7ef1ff;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
@@ -134,7 +139,7 @@
     --ark-difficulty-alpha: #f76450;
     --ark-difficulty-none: #BCEEFA;
     /* Template:Mission */
-    --ark-mission-background-color: #003E4C;
+    --ark-mission-background-color: #181a28;
     --ark-mission-text-color: #BCEEFA;
     --ark-mission-border-color: var(--theme-accent-color);
     /* Template:HoverNote */
