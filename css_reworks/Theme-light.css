@@ -12,7 +12,7 @@
     /* Page content frame */
     --content-frame-image: url(/images/5/58/Border_frame_ext.png?20231017);
 
-    --theme-accent-color: #f00;     /*not used*/
+    --theme-accent-color: #1a3118;     /*mission table outline*/
     --theme-accent-color--rgb: 248, 2, 2;
     --page-background-color: #f8f8f0;
     --page-background-color--rgb: 248, 248, 240;
@@ -93,6 +93,11 @@
     --fp-labelled-icon-background: var(--ark-arkitex-background-color);
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #bcce987d;
+    --fp-promo-shadow-color--1: #00000024;
+    --fp-promo-shadow-color--2: #0003;
+    --fp-promo-shadow-color--text: #fff;
+    --fp-promo-text-color: #052208;
+    --fp-promo-link-color: #020c15;
     /* Ambox */
     --ark-ambox-background-color: #97bb854d;
     --ark-ambox-border-color: #999999;
@@ -139,8 +144,8 @@
     --ark-difficulty-alpha: #f76450;
     --ark-difficulty-none: #BCEEFA;
     /* Template:Mission */
-    --ark-mission-background-color: #003E4C;
-    --ark-mission-text-color: #BCEEFA;
+    --ark-mission-background-color: #edf7e7;
+    --ark-mission-text-color: #000102;
     --ark-mission-border-color: var(--theme-accent-color);
     /* Template:HoverNote */
     --ark-hovertext-text-color: #4FB5FF;
