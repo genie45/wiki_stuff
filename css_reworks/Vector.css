@@ -389,6 +389,10 @@ html {
     /* Kibble tables */
     --ark-kibbletable-border-color: #2d74bea6;
     --ark-kibbletable-background-color: #6e92c036;
+    /* [[Template:ModListEntry]] */
+	--ark-mod-entry-background-color: #1F262F;
+	--ark-mod-entry-border-color: var(--content-border-color);
+    --ark-mod-entry-store-text-color: var(--ark-arkitex-accent-color);
     /* Math */
     --math-filter: invert(1);
     /* OOUI */
