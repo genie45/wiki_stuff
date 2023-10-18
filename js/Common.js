@@ -115,13 +115,29 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat( [
 // #endregion
 
 
-// #region Disable animations for #mw-head collapsing
+// #region #mw-head collapsing hacks
 mw.loader.using('skins.vector.legacy.js', function() {
-    var realFn = $.collapsibleTabs.handleResize;
+    var _realHandleResize = $.collapsibleTabs.handleResize,
+        _realCalculateTabDistance = $.collapsibleTabs.calculateTabDistance;
+    // Disable animations
     $.collapsibleTabs.handleResize = function () {
-        realFn();
+        _realHandleResize();
         $('#mw-head .mw-portlet .collapsible').finish();
     };
+    // Normalise tab distance and force zero on main page
+    $.collapsibleTabs.calculateTabDistance = function () {
+        if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
+            return 0;
+        }
+
+        var ret = _realCalculateTabDistance();
+        return ret < 0 ? 0 : ret;
+    };
+
+    // Request a reevaluation on main page
+    if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
+        $.collapsibleTabs.handleResize();
+    }
 });
 // #endregion
 
