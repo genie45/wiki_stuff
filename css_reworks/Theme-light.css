@@ -90,7 +90,7 @@
     --fp-box-background-color--2: #ebf9f1;
     --fp-box-mainheading-text-color: #101d2f;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-labelled-icon-background: #91b08b80;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #bcce987d;
     --fp-promo-shadow-color--1: #00000024;
