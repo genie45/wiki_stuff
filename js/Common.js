@@ -124,14 +124,14 @@ mw.loader.using('skins.vector.legacy.js', function() {
         _realHandleResize();
         $('#mw-head .mw-portlet .collapsible').finish();
     };
-    // Normalise tab distance and force zero on main page
+    // Normalise tab distance and force collapsing on main page
     $.collapsibleTabs.calculateTabDistance = function () {
         if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
             return 0;
         }
 
         var ret = _realCalculateTabDistance();
-        return ret < 0 ? 0 : ret;
+        return ret < 0 ? -1 : ret;
     };
 
     // Request a reevaluation on main page
