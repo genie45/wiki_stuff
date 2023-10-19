@@ -301,7 +301,7 @@ html {
     --fp-box-background-color--2: #1a2022;
     --fp-box-mainheading-text-color: #82a8af;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-labelled-icon-background: #42473499;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #5353534d;
     --fp-promo-shadow-color--1: #00000024;
