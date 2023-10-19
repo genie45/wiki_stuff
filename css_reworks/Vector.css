@@ -3956,7 +3956,12 @@ pre, .mw-code, code {
     border-color: var(--code-border-color);
 }
 code {
-    word-wrap: break-word;
+    word-break: break-word;
+}
+
+pre.force-wrap,
+code.force-wrap {
+    word-break: break-all;
 }
 /* #endregion <pre>, <code> */
 
@@ -4213,6 +4218,7 @@ div.gallerytext {
 .mw-number-text {
     color: #cecece;
 }
+/* #endregion */
 
 /* Cargo */
 div.cargo-table-diagram { fill: var(--content-text-color); }
@@ -4227,9 +4233,6 @@ html[class*="theme-dark"] table.cargoTable.noMerge tr:nth-child(odd) { backgroun
 html[class*="theme-dark"] table.cargoTable.noMerge tr:nth-child(even) { background: unset; }
 html[class*="theme-dark"] .mw-datatable th .oo-ui-iconWidget { filter: invert(1); }
 table.cargoTable { display: block }
-
-/* #endregion [[Special:CreateAccount]] */
-
 /* #region Math */
 .mwe-math-fallback-image-inline {
     filter: var(--math-filter);
