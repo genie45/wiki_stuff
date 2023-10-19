@@ -127,11 +127,11 @@ mw.loader.using('skins.vector.legacy.js', function() {
     // Normalise tab distance and force collapsing on main page
     $.collapsibleTabs.calculateTabDistance = function () {
         if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
-            return 0;
+            return -1;
         }
 
         var ret = _realCalculateTabDistance();
-        return ret < 0 ? -1 : ret;
+        return ret <= 0 ? -1 : ret;
     };
 
     // Request a reevaluation on main page
