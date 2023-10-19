@@ -135,9 +135,11 @@ mw.loader.using('skins.vector.legacy.js', function() {
     };
 
     // Request a reevaluation on main page
-    if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
-        $.collapsibleTabs.handleResize();
-    }
+    $( function () {
+        if ( document.body.classList.contains( 'rootpage-ARK_Wiki' ) ) {
+            $.collapsibleTabs.handleResize();
+        }
+    } );
 });
 // #endregion
 
