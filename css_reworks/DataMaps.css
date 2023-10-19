@@ -51,8 +51,8 @@
 .ext-datamaps-container .datamap-popup .datamap-popup-subtitle {
     color: var(--datamaps-popup-subtitle-text-color);
 }
-.ext-datamaps-popup-link,
-.leaflet-container .leaflet-popup-close-button{
+html[ class*="theme-dark" ] .ext-datamaps-popup-link,
+html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button{
     filter: invert(1) brightness(55%);
 }
 .map-notice ~ .tabber .tabber__tab {
