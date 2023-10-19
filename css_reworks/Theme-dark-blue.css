@@ -28,8 +28,8 @@
     --article-navigation-item-background-color: #202537fa;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color: #242837;
-    --articlenav-border-color: #3c3e40;
-    --articlenav-border-color--tiny: #a3a7ab;
+    --article-navigation-item-underline-color: #91CBC7;
+    --article-navigation-item-underline-color--active: #7FE4DD;
     --code-background-color: #131522;
     --code-border-color: #638c9d;
     --content-text-top-border-color: #97bde1;
