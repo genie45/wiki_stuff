@@ -29,7 +29,7 @@
     --sidebar-to-content-margin: 0;
     --sidebar-padding: 2.4rem 0 1rem 1.2em;
     /* Page content frame */
-    --content-frame-image: url(/images/a/a6/Border_frame_dark.png?20231016);
+    --content-frame-image: url(/images/a/a6/Border_frame_dark.png?20231019) /*[[File:Border frame dark.png]]*/;
     --content-frame-slice: 620 643 0 643;
     --content-frame-widths: 405px 380px 0px 380px;
     --content-frame-outset: 13px 20px 12px;
@@ -55,7 +55,7 @@
     --layout-allotment--article-navigation: 0fr;
     /* Search */
 	--search-height: 3em;
-    --search-button-overlay-image: url(/images/1/1c/Search_hlna.png?20231016);
+    --search-button-overlay-image: url(/images/1/1c/Search_hlna.png?20231016) /*[[File:Search hlna.png]]*/;
     --search-button-overlay-offset--right: -1.9rem;
     --search-button-overlay-offset--top: -2.4rem;
     /* Advertisements - adjusting to fit the layout better. We're faking the horizontal content margin in the rail ad. */
@@ -82,13 +82,13 @@
         calc(var(--content-horizontal-margin) * -1 + var(--ad-left-shared-offset));
     /* Frontpage */
     --fp-gap: 0.9rem;
-    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231017);
+    --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231017) /*[[File:FP promo image.jpg]]*/;
     /* Sticky header */
     --sticky-header-height: 0px;
     --sticky-search-border-radius: 4px;
     --sticky-button-border-radius: 4px;
     /* Common icons */
-    --icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231017);
+    --icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231017) /*[[File:Skin iconsheet.svg]]*/;
     --icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20231017#edit);
     --icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20231017#talk);
     --icon-history: url(/images/9/9e/Skin_iconsheet.svg?20231017#history);
