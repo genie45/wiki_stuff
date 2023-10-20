@@ -3956,7 +3956,7 @@ pre, .mw-code, code {
     border-color: var(--code-border-color);
 }
 code {
-    word-break: break-word;
+    word-wrap: break-word;
 }
 
 pre.force-wrap,
