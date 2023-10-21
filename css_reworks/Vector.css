@@ -1015,11 +1015,11 @@ ul {
 .vector-menu-tabs .mw-list-item a:hover,
 .vector-menu-tabs .mw-list-item.selected a,
 .vector-menu-tabs .mw-list-item.selected a:visited,
-.vector-menu-dropdown:hover .vector-menu-heading span,
-.vector-menu-dropdown .mw-list-item a:hover,
-.vector-menu-dropdown .mw-list-item.selected a,
-.vector-menu-dropdown .mw-list-item.selected a:hover ,
-.vector-menu-dropdown .mw-list-item.selected a:visited { 
+.vector-menu-dropdown:not(#p-themes):hover .vector-menu-heading span,
+.vector-menu-dropdown:not(#p-themes) .mw-list-item a:hover,
+.vector-menu-dropdown:not(#p-themes) .mw-list-item.selected a,
+.vector-menu-dropdown:not(#p-themes) .mw-list-item.selected a:hover ,
+.vector-menu-dropdown:not(#p-themes) .mw-list-item.selected a:visited { 
     color: var(--content-default-link-color); 
 }
 /* Hide text for watch/unwatch */
