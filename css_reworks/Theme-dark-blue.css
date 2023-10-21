@@ -25,11 +25,12 @@
     --content-border-color--rgb: 43, 84, 123;
     --content-default-link-color: #9efbff;
     --content-default-link-color--rgb: 154, 205, 50;
-    --article-navigation-item-background-color: #202537fa;
+    --article-navigation-item-background-color--selected: #1b2035;
     --article-navigation-item-border-color: var(--content-border-color);
-    --article-navigation-dropdown-background-color: #242837;
+    --article-navigation-dropdown-background-color:#242837;
     --article-navigation-item-underline-color: #91CBC7;
     --article-navigation-item-underline-color--active: #7FE4DD;
+    --article-navigation-item-background-color:#202537;
     --code-background-color: #131522;
     --code-border-color: #638c9d;
     --content-text-top-border-color: #97bde1;
