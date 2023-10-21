@@ -85,6 +85,8 @@
     --fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231017) /*[[File:FP promo image.jpg]]*/;
     /* Sticky header */
     --sticky-header-height: 0px;
+    --sticky-header-padding: 0 1rem;
+    --sticky-header-search-height: 2.2rem;
     --sticky-search-border-radius: 4px;
     --sticky-button-border-radius: 4px;
     /* Common icons */
@@ -111,7 +113,7 @@ body {
 }
 body.is-sticky-header-visible {
     --sticky-header-height: 3rem;
-    --search-button-overlay-offset--top: -0.9rem;
+    --search-button-overlay-offset--top: -1rem;
 }
 @media screen and (min-width: 1261px) {
     body.rootpage-ARK_Wiki {
@@ -210,9 +212,13 @@ body.is-sticky-header-visible {
         /* Advertisements */
         --ad-slot-top--top-spacing: calc(var(--search-height) + 0.7rem);
         /* Sticky header */
-        --sticky-header-height: 40px;
+        --sticky-header-padding: 0 0.8rem;
         --sticky-search-border-radius: 0;
         --sticky-button-border-radius: 0;
+    }
+    body.is-sticky-header-visible {
+        --sticky-header-height: 2.6rem;
+        --search-button-overlay-image: none;
     }
 }
 /* #endregion */
