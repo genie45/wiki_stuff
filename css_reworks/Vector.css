@@ -272,10 +272,15 @@ html {
     --sidebar-content-divider-color: rgba(var(--content-border-color--rgb), 0.4);
     /* Search */
     --search-background-color: #272a2fdd;
+    --sticky-search-background-color: #fff6;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
+    --sticky-search-border-color: #313131;
     --search-text-color: var(--content-text-color);
     --search-text-color--placeholder: #aaa;
+    --sticky-search-text-color: #aaa;
+    --sticky-search-placeholder-text-color: #333e;
+    /* [[Special:Search]] */
     --search-result-data-text-color: #aaa;
     /* Table of contents */
     --toc-background-color: #252b26;
@@ -464,10 +469,6 @@ html {
     --sticky-header-shadow-color: #0000004a;
     --sticky-header-text-color: #fff;
     --sticky-header-link-color: #fff;
-    --sticky-search-background-color: #fff6;
-    --sticky-search-text-color: #222;
-    --sticky-search-border-color: #313131;
-    --sticky-search-placeholder-text-color: #333e;
     --sticky-button-text-color: #222;
     --sticky-button-border-color: #222;
     --sticky-button-background-color: #fff4;
