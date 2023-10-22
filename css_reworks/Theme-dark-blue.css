@@ -25,23 +25,28 @@
     --content-border-color--rgb: 43, 84, 123;
     --content-default-link-color: #9efbff;
     --content-default-link-color--rgb: 154, 205, 50;
+    --code-background-color: #131522;
+    --code-border-color: #638c9d;
+    --content-text-top-border-color: #97bde1;
+    --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
+    --reference-background-color--highlight: #5e5e5e;
+    /* Article navigation */
     --article-navigation-item-background-color--selected: #1b2035;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color:#242837;
     --article-navigation-item-underline-color: #91CBC7;
     --article-navigation-item-underline-color--active: #7FE4DD;
     --article-navigation-item-background-color:#202537;
-    --code-background-color: #131522;
-    --code-border-color: #638c9d;
-    --content-text-top-border-color: #97bde1;
-    --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
-    --reference-background-color--highlight: #5e5e5e;
     /* Search */
     --search-background-color: #0d193269;
+    --sticky-search-background-color: #263246;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
+    --sticky-search-border-color: #70a9db;
     --search-text-color: #c4f1ff;
     --search-text-color--placeholder: #96b8c3;
+    --sticky-search-text-color: #caf2ff;
+    --sticky-search-placeholder-text-color: #cee8f4;
     /* Site notice */
     --sitenotice-background-color: #0002;
     --sitenotice-border-color: var(--content-border-color);
@@ -213,10 +218,6 @@
     --sticky-header-shadow-color: #0000004a;
     --sticky-header-text-color: #52cef4;
     --sticky-header-link-color: #a0f0ff;
-    --sticky-search-background-color: #3e4653;
-    --sticky-search-text-color: #caf2ff;
-    --sticky-search-border-color: #70a9db;
-    --sticky-search-placeholder-text-color: #cee8f4;
     --sticky-button-text-color: #E0F5FF;
     --sticky-button-border-color: #081324;
     --sticky-button-background-color: #374c82;
@@ -273,7 +274,7 @@
     --diff-context-background-color: #6e92c036;
     --diff-context-text-color: #e0e0e0;
     --diff-context-border-color: #9b9b9b;
-    --pagehist-selected-background-color: #01060c;
+    --pagehist-selected-background-color: #0b1b2d;
     --pagehist-selected-text-color: var(--content-text-color);
     --pagehist-last-visit-color: #000;
 }
