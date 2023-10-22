@@ -155,17 +155,17 @@
     --ark-kibbletable-border-color: #1b7514a6;
     --ark-kibbletable-background-color: #bfcea036;
     /* Math */
-    --math-filter: invert(1);
+    --math-filter: none;
     /* OOUI */
     /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
-    --oo-ui-icon-filter--normal: invert(1);
+    --oo-ui-icon-filter--normal: none;
     --oo-ui-icon-filter--black: brightness(0);
     --oo-ui-icon-filter--normal-progressive: none;
     --oo-ui-icon-filter--destructive: none;
     --oo-ui-icon-filter--error: none;
     --oo-ui-icon-filter--alert: none;
     --oo-ui-icon-filter--success: none;
-    --oo-ui-icon-filter--required: invert(1);
+    --oo-ui-icon-filter--required: none;
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
