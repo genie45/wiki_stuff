@@ -416,40 +416,6 @@ html {
     --oo-ui-icon-filter--alert: none;
     --oo-ui-icon-filter--success: none;
     --oo-ui-icon-filter--required: invert(1);
-    --oo-ui-widget-disabled-opacity: 0.5;
-    --oo-ui-button-background-color--framed: #343737;
-    --oo-ui-button-background-color--framed-progressive: var(--content-default-link-color);
-    --oo-ui-button-background-color--quiet-hover: rgba(var(--content-default-link-color--rgb), 0.15);
-    --oo-ui-button-background-color--progressive-hover: #bde370;
-    --oo-ui-button-background-color--quiet-destructive-hover: #d73333;
-    --oo-ui-button-background-color--toggled: #678a21;
-    --oo-ui-button-border-color--quiet-destructive: #d73333;
-    --oo-ui-button-border-color: #709720;
-    --oo-ui-button-text-color--framed: var(--content-text-color);
-    --oo-ui-button-text-color--framed-progressive: #000;
-    --oo-ui-button-text-color--frameless: var(--content-text-color);
-    --oo-ui-button-text-color--frameless-hover: #b2dd5b;
-    --oo-ui-button-text-color--frameless-progressive: var(--content-text-link-color);
-    --oo-ui-button-text-color--frameless-progressive-hover: #b2dd5b;
-    --oo-ui-button-text-color--quiet: var(--content-default-link-color);
-    --oo-ui-button-text-color--quiet-hover: #98c63b;
-    --oo-ui-button-text-color--quiet-destructive: #d73333;
-    --oo-ui-button-text-color--toggled: var(--oo-ui-button-text-color--framed-progressive);
-    --oo-ui-input-background-color: #343737;
-    --oo-ui-input-background-color--readonly: #2f2f2f;
-    --oo-ui-input-border-color: rgba(var(--content-border-color--rgb), 0.7);
-    --oo-ui-input-text-color: #fff;
-    --oo-ui-input-text-color--readonly: #aaa;
-    --oo-ui-dropdown-input-background-color--open: #3c4040;
-    --oo-ui-dropdown-input-background-color--hover: #3c4040;
-    --oo-ui-option-background-color--selected: #bfb2;
-    --oo-ui-option-background-color--highlight: #deffde33;
-    --oo-ui-option-background-color--selected-highlight: #bfb3;
-    --oo-ui-tag-input-background-color: var(--oo-ui-input-background-color);
-    --oo-ui-tag-input-background-color--outlined: #444848;
-    --oo-ui-warning-background-color: #625a4d;
-    --oo-ui-warning-text-color: #fff9e6;
-    --oo-ui-notice-background-color: var(--ark-arkitex-background-color);
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -2495,18 +2461,9 @@ div.photo-text {
 }
 
 /* Map feedback buttons */
-#mw-indicator-map-feedback {
-    --oo-ui-button-border-color: #ac205d;
-    --oo-ui-button-background-color--framed: #ac205d29;
-    --oo-ui-button-background-color--progressive-hover: #ac205d90;
-}
 #mw-indicator-map-feedback .oo-ui-buttonElement-button {
     padding-right: 1.1em;
 }
-/* #endregion */
-
-/* #region [[Template:Achievement]] */
-
 /* #endregion */
 
 /* #region [[Template:Interactive Regionmap]] */
