@@ -4980,6 +4980,10 @@ img[src*="/Xbox_Series.svg/"] {
 }
 /* #endregion */
 
+/* Popups - set text colour */
+.oo-ui-defaultOverlay {
+    color: var(--content-text-color);
+}
 /* Icons */
 .oo-ui-iconElement-icon {
     filter: var(--oo-ui-icon-filter--normal);
