@@ -3824,7 +3824,7 @@ img[src*="/Xbox_Series.svg/"] {
 
 /* #region OOUI */
 
-/* #region Boilerplate */
+/* #region Boilerplate - https://github.com/alex4401/ohno-ui */
 .oo-ui-buttonElement.oo-ui-widget-enabled>.oo-ui-buttonElement-button:focus {
   outline-color: var(--wmui-outline-color-base--focus)
 }
