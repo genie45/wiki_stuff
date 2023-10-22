@@ -3784,9 +3784,22 @@ img[src*="/Xbox_Series.svg/"] {
 }
 /* #endregion */
 
-/* #region [[Special:RecentChanges]] filters */
+/* #region [[Special:RecentChanges]] legend */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
-.mw-changeslist-legend { background-color: transparent; }
+.mw-changeslist-legend {
+    background-color: transparent;
+}
+@media screen and (max-width: 720px) {
+    .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend,
+    .mw-changeslist-legend {
+        display: block;
+        margin: 0 auto;
+        float: unset;
+    }
+}
+/* #endregion */
+
+/* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
     background-color: var(--oo-ui-tag-input-background-color);
     border-color: var(--content-border-color);
