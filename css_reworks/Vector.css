@@ -4999,28 +4999,26 @@ img[src*="/Xbox_Series.svg/"] {
 }
 /* Message widgets */
 .mw-message-box {
-    border-color: rgba(var(--content-border-color--rgb), 0.5);
-    background-color: var(--oo-ui-notice-background-color);
-    color: var(--content-text-color);
+    border-color: var(--wmui-border-color-notice);
+    background-color: var(--wmui-background-color-notice--framed);
 }
 .mw-message-box-error {
-    background-color: #5e4746;
-    color: #fee;
+    background-color: var(--wmui-background-color-error--framed);
+    border-color: var(--wmui-border-color-error);
 }
-.warningbox,
 .mw-message-box-warning {
-    background-color: var(--oo-ui-warning-background-color);
-    color: var(--oo-ui-warning-text-color);
+    background-color: var(--wmui-background-color-warning--framed);
+    border-color: var(--wmui-border-color-warning);
 }
 .mw-message-box-success {
-    background-color: #253330;
+    background-color: var(--wmui-background-color-success--framed);
+    border-color: var(--wmui-border-color-success);
 }
 /* Tab layout */
 .client-js div#preferences,
 .mw-prefs-buttons,
-.mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed,
-.mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout option {
-    border-color: var(--content-border-color);
+.mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed {
+    border-color: var(--wmui-border-color-base);
 }
 /* Forms */
 .mw-htmlform-ooui .mw-htmlform-matrix tbody tr:nth-child(2n) td {
