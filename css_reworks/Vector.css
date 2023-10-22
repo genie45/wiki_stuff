@@ -3801,33 +3801,31 @@ img[src*="/Xbox_Series.svg/"] {
 
 /* #region [[Special:RecentChanges]] filters */
 .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
-    background-color: var(--oo-ui-tag-input-background-color);
-    border-color: var(--content-border-color);
-}
-.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
-    background-color: var(--oo-ui-input-background-color);
-    border-color: var(--content-border-color);
+    background-color: var(--wmui-background-color-base);
+    border-color: var(--wmui-border-color-base);
 }
 .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
-.mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
-    color: var(--oo-ui-input-text-color);
-}
+.mw-rcfilters-ui-itemMenuOptionWidget-label-desc,
 .mw-rcfilters-ui-tagItemWidget-popup-content,
-.mw-rcfilters-ui-itemMenuOptionWidget-label-title {
+.mw-rcfilters-ui-itemMenuOptionWidget-label-title,
+.mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label,
+.mw-rcfilters-ui-filterMenuHeaderWidget-title,
+.mw-rcfilters-ui-viewSwitchWidget label.oo-ui-labelWidget {
     color: var(--content-text-color);
 }
 .mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk),
-.mw-rcfilters-ui-datePopupWidget {
-    border-color: var(--content-border-color);
+.mw-rcfilters-ui-datePopupWidget,
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+    border-color: var(--wmui-border-color-base);
 }
 .mw-rcfilters-ui-filterMenuSectionOptionWidget,
-.mw-rcfilters-ui-filterMenuHeaderWidget-header {
-    background-color: var(--content-border-color);
-    border-color: var(--content-border-color);
+.mw-rcfilters-ui-filterMenuHeaderWidget-header,
+.mw-rcfilters-ui-menuSelectWidget-footer {
+    background-color: transparent;
+    border-color: var(--wmui-border-color-base);
 }
-.mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label,
-.mw-rcfilters-ui-filterMenuHeaderWidget-title {
-    color: var(--oo-ui-button-text-color--framed-progressive);
+.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted:not(.oo-ui-optionWidget-selected) {
+    background-color: var(--wmui-background-color-base);
 }
 .mw-rcfilters-ui-filterMenuHeaderWidget-title {
     padding-left: 0.8em;
