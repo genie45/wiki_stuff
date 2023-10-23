@@ -1,0 +1,405 @@
+/* [[de:MediaWiki:Theme-dark-ab.css]] * [[es:MediaWiki:Theme-dark-ab.css]] * [[fr:MediaWiki:Theme-dark-ab.css]] * [[it:MediaWiki:Theme-dark-ab.css]] * [[ja:MediaWiki:Theme-dark-ab.css]] * [[pl:MediaWiki:Theme-dark-ab.css]] * [[pt-br:MediaWiki:Theme-dark-ab.css]] * [[ru:MediaWiki:Theme-dark-ab.css]] * [[th:MediaWiki:Theme-dark-ab.css]] */
+/* CSS placed here will affect users with the "dark-ab" theme enabled */
+
+/* #region Theme variables */
+:root {
+    /* Body */
+    --page-background-image: url(/images/d/db/Bg_ab.jpg?20231023) /*[[File:Bg ab.jpg]]*/;
+    /* Logo assets */
+    --wiki-logo-source--frame: url(/images/7/77/Framed_logo_ab.png?20231023) /*[[File:Framed logo ab.png]]*/;
+    --wiki-logo-source--wordmark: url(/images/0/01/Framed_logo_wordmark_en.png?20231017) /*[[File:Framed logo wordmark.png]]*/;
+    --wiki-logo-source--horizontal: url(/images/7/79/Logo_horiz.png?20231016) /*[[File:Logo horiz.png]]*/;
+    /* Page content frame */
+    --content-frame-image: url(/images/0/0b/Border_frame_ab.png?20231023) /*[[File:Border frame ab.png]]*/;
+
+    --theme-accent-color: #9e5ba8;
+    --theme-accent-color--rgb: 181, 32, 181;
+    --page-background-color: #10081B;
+    --page-background-color--rgb: 16, 8, 27;
+    --content-background-color: #10081B;
+    --content-background-color--rgb: 16, 8, 27;
+    --content-text-color: #fcebff;
+    --content-header-color: #d4e6ff;
+    --content-text-link-color: #75cff9;
+    --content-border-color: #a079c1;
+    --content-border-color--rgb: 77, 123, 159;
+    --content-default-link-color: #75aef9;
+    --content-default-link-color--rgb: 117, 207, 249;
+    --code-background-color: #15092c;
+    --code-border-color: #4192d0;
+    --content-text-top-border-color: #97bde1;
+    --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
+    --reference-background-color--highlight: #5e5e5e;
+    /* Article navigation */
+    --article-navigation-item-background-color: #202237bd;
+    --article-navigation-item-background-color--selected: #241431bd;
+    --article-navigation-item-border-color: var(--content-border-color);
+    --article-navigation-dropdown-background-color: #16192a;
+    --article-navigation-item-underline-color: #8dd5ff;
+    --article-navigation-item-underline-color--active: #50a1b4;
+    /* Search */
+    --search-background-color: #2123449c;
+    --sticky-search-background-color: #71254b9c;
+    --search-border-color: #bfa0f4;
+    --search-border-color--active: var(--content-border-color);
+    --sticky-search-border-color: #ff00fa;
+    --search-text-color: #ffe9fc;
+    --sticky-search-text-color: #cff5ff;
+    --search-text-color--placeholder: #9eb1c1;
+    --sticky-search-placeholder-text-color: #bac9d0;
+    /* Site notice */
+    --sitenotice-background-color: #0002;
+    --sitenotice-border-color: var(--content-border-color);
+    /* Sidebar */
+    --sidenav-header-background: #b186ce;
+    --sidenav-header-background--rgb: 69, 140, 196;
+    --sidenav-header-text-color: #55d2ff;
+    --sidenav-background-color: #3d3e3d50;
+    --sidenav-text-color: #c7e5ff;
+    --sidenav-text-hover-color: var(--content-text-link-color);
+    --toolbar-background-color: #563367ce;
+    --toolbar-list-background-color: #2c0e3bfa;
+    --toolbar-border-color: #eebeff;
+    --sidenav-toggle-icon-filter: invert(1);
+    --ad-content-divider-color: var(--sidebar-content-divider-color);
+    --sidebar-background-color: rgba(90, 68, 155, .1);
+    --sidebar-content-divider-color: #5ba2c3;
+    /* Table of contents */
+    --toc-background-color: #301e3c9e;
+    --toc-number-color: #b8def7;
+    /* Tabbers */
+    --tabber-shadow-color: var(--ark-arkitex-border-color);
+    --tabber-shadow-active-color: #4a1b60;
+    --tabber-shadow-hover-color: #644993;
+    --tabber-background-hover-color: #301740;
+    --tabber-text-hover-color: #bdeaff;
+    --tabber-background-active-color: #3d225b;
+    --tabber-bottom-active-color: var(--tabber-shadow-hover-color);
+    /* Tables */
+    --table-background-color: #1a132c;
+    --table-border-color: #915d98;
+    --table-heading-background-color: #321c3b;
+    --gray-table-background-color: #250820;
+    --red-table-background-color: #451c2a;
+    /* Frontpage */
+    --fp-heading-text-color: #d2afd9;
+    --fp-heading-border-color: #82d2df;
+    --fp-box-background-color: #1d132b;
+    --fp-box-border-color: #7149a2;
+    --fp-box-shadow-color: #4a5153;
+    --fp-box-border-color--2: #674eb5;
+    --fp-box-background-color--2: #23152d;
+    --fp-box-mainheading-text-color: #eaafe7;
+    --fp-labelled-icon-border-color: var(--content-default-link-color);
+    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
+    --fp-social-icon-background: #201326cc;
+    --fp-promo-shadow-color--1: #00000024;
+    --fp-promo-shadow-color--2: #0003;
+    --fp-promo-shadow-color--text: #000;
+    --fp-promo-text-color: #c58ce3;
+    --fp-promo-link-color: #63b1f7;
+    /* Ambox */
+    --ark-ambox-background-color: #3c36414d;
+    --ark-ambox-border-color: #8d6fa9;
+    --ark-ambox-blue: #0000aa;
+    --ark-ambox-gray: #555555;
+    --ark-ambox-green: #00aa06;
+    --ark-ambox-purple: #a655b2;
+    --ark-ambox-red: #aa0000;
+    --ark-ambox-yellow: #aaaa00;
+    --ark-ambox-cyan: #00ABA2;
+    --ark-ambox-orange: #ffa500;
+    /* Template:Navbox */
+    --ark-navbox-title-text-color: var(--content-text-color);
+    --ark-navbox-title-link-color: #e6c0ff;
+    --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
+    --navbox-border-color: #3e83ae;
+    --navbox-row-zebra-colour: #fff1;
+    --ark-navboxgroup-title-background-color: #1b1020;
+    --ark-navboxgroup-title-text-color: var(--content-text-color);
+    --ark-navboxgroup-title-border-color: #8c51a6;
+    /* Arkitexure */
+    --ark-arkitex-background-color: #22182d8f;
+    --ark-arkitex-border-color: var(--sidenav-header-background);
+    --ark-arkitex-border-color--rgb: var(--sidenav-header-background--rgb);
+    --ark-arkitex-accent-color: #4289bb;
+    --ark-arkitex-left-color: #271431;
+    --ark-arkitex-right-color: #301e3c;
+    /* PaintRegion */
+    --ark-paintregion-background-color: #130e23;
+    --ark-paintregion-border-color: var(--content-border-color);
+    /* Template:DossierText & Template:Quote */
+    --ark-cite-quote-color: #5f9ff2d9;
+    --ark-dossier-background-color: #1e182db3;
+    --ark-dossier-border-color: #61cfe6a6;
+    --ark-dossier-text-color: #bac7f7;
+    --ark-dossiernote-background-color: #2b1e39;
+    --ark-dossiernote-border-color: #a37fbf;
+    /* Module:LootTable */
+    --ark-loottable-background-color: #0f091e9a;
+    --ark-loottable-header-color: #0b58599a;
+    /* Difficulty level colors */
+    --ark-difficulty-gamma: #4edb17;
+    --ark-difficulty-beta: #19cff9;
+    --ark-difficulty-alpha: #f76450;
+    --ark-difficulty-none: #BCEEFA;
+    /* Template:Mission */
+    --ark-mission-background-color: #22172f;
+    --ark-mission-text-color: #cfe4f9;
+    --ark-mission-border-color: var(--theme-accent-color);
+    /* Template:HoverNote */
+    --ark-hovertext-text-color: #4FB5FF;
+    /* Kibble tables */
+    --ark-kibbletable-border-color: #4a7da5a6;
+    --ark-kibbletable-background-color: #b17ed81a;
+    /* Math */
+    --math-filter: invert(1);
+    /* OOUI */
+    /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
+    --oo-ui-icon-filter--normal: invert(1);
+    --oo-ui-icon-filter--black: brightness(0);
+    --oo-ui-icon-filter--normal-progressive: invert(100%) sepia(61%) saturate(5891%) hue-rotate(162deg) brightness(101%) contrast(101%);
+    --oo-ui-icon-filter--destructive: none;
+    --oo-ui-icon-filter--error: none;
+    --oo-ui-icon-filter--alert: none;
+    --oo-ui-icon-filter--success: none;
+    --oo-ui-icon-filter--required: invert(1);
+    /* DataMaps */
+    --datamaps-notice-border-color: var(--content-border-color);
+    --datamaps-notice-background-color: var(--ark-arkitex-right-color);
+    --datamaps-container-background-color: var(--table-background-color);
+    --datamaps-container-top-background-color: var(--tabber-background-hover-color);
+    --datamaps-container-select-background--rgb: var(--content-border-color--rgb);
+    --datamaps-container-legend-background-color: var(--toc-background-color);
+    --datamaps-container-legend-selected-background-color: var(--toc-background-color);
+    --datamaps-popup-background-color: var(--content-background-color);
+    --datamaps-popup-text-color: var(--content-text-color);
+    --datamaps-popup-text-link-color: var(--content-text-link-color);
+    --datamaps-popup-subtitle-text-color: #9b9b9b;
+    --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
+    --datamaps-tabber-background-color: #1f334db5;
+    /* Sticky header */
+    --sticky-header-background-color: rgb(24, 60, 106);
+    --sticky-header-shadow-color: #0000004a;
+    --sticky-header-text-color: #f4f152;
+    --sticky-header-link-color: #f9e2ff;
+    --sticky-button-text-color: #faf77b;
+    --sticky-button-border-color: #d084d7;
+    --sticky-button-background-color: #6e3d8a;
+    --sticky-button-hover-background-color: #701d1bb0;
+    /* [[Template:ResourceMap]] only used on mod versions of data maps */
+    --trm-map-notice-border-color: #7FE7FF;
+    --trm-map-notice-background-color: #6e92c06b;
+    --trm-map-container-border-color: #000;
+    --trm-map-container-background-color: var(--ark-dossier-background-color);
+    --trm-map-checkbox-unchecked-color: #f5aaaa;
+    --trm-map-checkbox-checked-color: #05bb25;
+    --trm-map-spawninfo-border-color: #222;
+    /* Vector-menu styling */
+    --vector-underline-hover-color: #6eeeec;
+    --vector-underline-hover-active-color: #6fb4ea;
+    --vector-menu-background-color: var(--articlenav-background-color);
+    --vector-menu-border-color: var(--articlenav-border-color);
+    --vector-menu-link-color: var(--content-default-link-color);
+    /* Adminlist */
+    --adminlist-background-color: #c8c8c811;
+    --adminlist-border-color: var(--content-border-color);
+    /* toc links and file toc */
+    --catlinks-background-color: var(--table-heading-background-color);
+    --catlinks-border-color: var(--table-border-color);
+    --catlinks-text-color: #80E7FF;
+    /* Creature nav */
+    --creature-nav-default-background-color: #f70404;
+    --creature-nav-hover-shadow-color-1: #aaca;
+    --creature-nav-hover-shadow-color-2: #111;
+    --creature-nav-creature-color--white: #D5F2F2;
+    --creature-nav-creature-color--yellow: #E5DFAC;
+    --creature-nav-creature-color--lime: #CEF294;
+    --creature-nav-creature-color--brown: #e5c6ac;
+    --creature-nav-creature-color--purple: #CEACE5;
+    --creature-nav-creature-color--orange: #FAD6A5;
+    --creature-nav-creature-color--grey: #C4C4C4;
+    --creature-nav-creature-color--green: #a6ffa9;
+    --creature-nav-creature-color--cyan: #86e0f0;
+    --creature-nav-creature-color--pink: #ffb0eb;
+    --creature-nav-creature-color--red: #e5acb1;
+    --creature-nav-creature-color--yellowish: #c0a264;
+    /* History and diffs */
+    --diff-background-color: rgba(0,0,0,0.3);
+    --diff-plusminus-pos-color: #00d200;
+    --diff-plusminus-neg-color: #ff1010;
+    --diff-deletedline-background-color: #440000;
+    --diff-deletedline-text-color: #e62444;
+    --diff-deletedline-border-color: none;
+    --diff-deletedline-diffchange-background-color: #be666394;
+    --diff-addedline-background-color: #035c03;
+    --diff-addedline-text-color: #bfd959;
+    --diff-addedline-border-color: none;
+    --diff-addedline-diffchange-background-color: #51b85694; 
+    --diff-context-background-color: #6e92c036;
+    --diff-context-text-color: #e0e0e0;
+    --diff-context-border-color: #9b9b9b;
+    --pagehist-selected-background-color: #261433;
+    --pagehist-selected-text-color: var(--content-text-color);
+    --pagehist-last-visit-color: #000;
+}
+/* #endregion */
+
+/* #region OOUI theming variables */
+:root {
+    --wmui-color-base0: #a6d9eb;
+    --wmui-color-base10: #8ec9e1;
+    --wmui-color-base20: #a4d7fb;
+    --wmui-color-base30: #729bb5;
+    --wmui-color-base50: #4a839a;
+    --wmui-color-base70: #714c80;
+    --wmui-color-base80: #3f214a;
+    --wmui-color-base90: #371943;
+    --wmui-color-base100: #28112b;
+    --wmui-color-accent30: #58a3cd;
+    --wmui-color-accent50: #400925;
+    --wmui-color-accent90: #94c2e9;
+    --wmui-color-red30: #711616;
+    --wmui-color-red50: #9d2222;
+    --wmui-color-red90: #390d0b;
+    --wmui-color-yellow30: #ac6600;
+    --wmui-color-yellow50: #edab00;
+    --wmui-color-yellow90: #53410a;
+    --wmui-color-green30: #14866d;
+    --wmui-color-green50: #00af89;
+    --wmui-color-green90: #0d3129;
+    --wmui-color-green700: #096450;
+    --wmui-color-base10--lighten: #a6e4fa;
+    --wmui-color-accent50--lighten: #6e9bc3;
+    --wmui-color-red50--lighten: #b62929;
+    --wmui-color-green50--lighten: #1c6665;
+    --wmui-color-purple50: #6b4ba1;
+    --wmui-background-color-base: var(--wmui-color-base100);
+    --wmui-background-color-base--hover: var(--wmui-color-base80);
+    --wmui-background-color-base--disabled: var(--wmui-color-base80);
+    --wmui-background-color-base--read-only: var(--wmui-color-base90);
+    --wmui-background-color-code: var(--wmui-color-base90);
+    --wmui-background-color-framed: var(--wmui-color-base90);
+    --wmui-background-color-framed--hover: var(--wmui-color-base80);
+    --wmui-background-color-framed--active: var(--wmui-color-base80);
+    --wmui-background-color-filled--disabled: var(--wmui-color-base70);
+    --wmui-background-color-quiet: var(--wmui-background-color-base);
+    --wmui-background-color-quiet--hover: rgba(0, 24, 73, 0.02745098);
+    --wmui-background-color-quiet--active: rgba(0, 24, 73, 0.08235294);
+    --wmui-background-color-toolbar: var(--wmui-background-color-base);
+    --wmui-background-color-tool--hover: var(--wmui-background-color-base--hover);
+    --wmui-background-color-tool--active: var(--wmui-background-color-primary);
+    --wmui-background-color-tool--active-hover: var(--wmui-background-color-primary--hover);
+    --wmui-background-color-tabs: var(--wmui-color-base80);
+    --wmui-background-color-error--framed: var(--wmui-color-red90);
+    --wmui-background-color-warning--framed: var(--wmui-color-yellow90);
+    --wmui-background-color-success--framed: var(--wmui-color-green90);
+    --wmui-background-color-notice--framed: var(--wmui-color-base80);
+    --wmui-background-color-highlight: rgba(255, 182, 13, 0.4);
+    --wmui-color-base: var(--wmui-color-base10);
+    --wmui-color-base--hover: var(--wmui-color-base10--lighten);
+    --wmui-color-base--active: var(--wmui-color-base0);
+    --wmui-color-base--inverted: #030515;
+    --wmui-color-base--emphasized: var(--wmui-color-base0);
+    --wmui-color-base--subtle: var(--wmui-color-base30);
+    --wmui-color-base--disabled: var(--wmui-color-base30);
+    --wmui-color-filled--disabled: var(--wmui-color-base--inverted);
+    --wmui-color-accessory: var(--wmui-color-base20);
+    --wmui-color-placeholder: var(--wmui-color-base30);
+    --wmui-background-color-primary: var(--wmui-color-accent90);
+    --wmui-background-color-primary--hover: rgba(41, 98, 204, 0.1);
+    --wmui-color-primary: var(--wmui-color-accent90);
+    --wmui-color-primary--hover: var(--wmui-color-accent50--lighten);
+    --wmui-color-primary--active: var(--wmui-color-accent30);
+    --wmui-color-primary--focus: var(--wmui-color-primary);
+    --wmui-background-color-destructive: var(--wmui-color-red90);
+    --wmui-color-destructive: var(--wmui-color-red50);
+    --wmui-color-destructive--hover: var(--wmui-color-red50--lighten);
+    --wmui-color-destructive--active: var(--wmui-color-red30);
+    --wmui-color-destructive--focus: var(--wmui-color-destructive);
+    --wmui-color-secondary: var(--wmui-color-green50);
+    --wmui-color-secondary--hover: var(--wmui-color-green50--lighten);
+    --wmui-color-secondary--active: var(--wmui-color-green30);
+    --wmui-color-secondary--focus: var(--wmui-color-secondary);
+    --wmui-color-error: var(--wmui-color-red50);
+    --wmui-color-warning: var(--wmui-color-base0);
+    --wmui-color-success: var(--wmui-color-green30);
+    --wmui-color-success--framed: var(--wmui-color-base0);
+    --wmui-color-notice: var(--wmui-color-base0);
+    --wmui-color-tool--hover: var(--wmui-color-base--emphasized);
+    --wmui-color-tool--active: var(--wmui-color-primary);
+    --wmui-border-color-dialog: var(--wmui-border-color-base);
+    --wmui-border-color-menu: var(--wmui-border-color-base);
+    --wmui-border-color-base: var(--wmui-color-base50);
+    --wmui-border-color-base--darken14: var(    --wmui-color-base20);
+    --wmui-border-color-base--hover: var(--wmui-color-base50);
+    --wmui-border-color-base--active: var(--wmui-color-base30);
+    --wmui-border-color-base--focus: var(--wmui-color-primary--focus);
+    --wmui-border-color-base--disabled: var(--wmui-color-base70);
+    --wmui-border-color-filled--disabled: var(--wmui-color-filled--disabled);
+    --wmui-border-color-primary: var(--wmui-color-primary);
+    --wmui-border-color-primary--hover: var(--wmui-color-primary--hover);
+    --wmui-border-color-primary--active: var(--wmui-color-primary--active);
+    --wmui-border-color-primary--focus: var(--wmui-border-color-primary);
+    --wmui-border-color-destructive: var(--wmui-color-destructive);
+    --wmui-border-color-destructive--hover: var(--wmui-color-destructive--hover);
+    --wmui-border-color-destructive--active: var(--wmui-color-destructive--active);
+    --wmui-border-color-destructive--focus: var(--wmui-border-color-destructive);
+    --wmui-border-color-inset--focus: var(--wmui-color-base--inverted);
+    --wmui-border-color-input--hover: var(--wmui-border-color-base--active);
+    --wmui-border-color-heading: var(--wmui-color-base70);
+    --wmui-border-color-divider: var(--wmui-color-base50);
+    --wmui-border-color-wikitable: rgba(84, 89, 93, 0.3);
+    --wmui-border-color-error: var(--wmui-color-red30);
+    --wmui-border-color-warning: var(--wmui-color-yellow30);
+    --wmui-border-color-success: var(--wmui-color-green700);
+    --wmui-border-color-notice: var(--wmui-color-base30);
+    --wmui-border-width-base: 1px;
+    --wmui-box-shadow-base: inset 0 0 0 1px transparent;
+    --wmui-box-shadow-base--focus: inset 0 0 0 1px var(--wmui-color-accent50);
+    --wmui-box-shadow-primary--focus: inset 0 0 0 1px var(--wmui-color-primary), inset 0 0 0 2px var(--wmui-color-base--inverted);
+    --wmui-box-shadow-destructive--focus: inset 0 0 0 1px var(--wmui-color-destructive), inset 0 0 0 2px var(--wmui-color-base--inverted);
+    --wmui-box-shadow-filled--disabled: inset 0 0 0 1px var(--wmui-color-filled--disabled);
+    --wmui-box-shadow-card: 0 1px 1px rgba(0, 0, 0, 0.15);
+    --wmui-box-shadow-dialog: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    --wmui-box-shadow-menu: var(--wmui-box-shadow-dialog);
+    --wmui-outline-color-base--focus: transparent;
+    --wmui-text-shadow-base: 0 1px 1px var(--wmui-color-base--inverted);
+    --wmui-text-shadow-base--disabled: var(--wmui-text-shadow-base);
+    --wmui-background-color-base--active: var(--wmui-color-base80);
+    --wmui-background-color-frameless--hover: var(--wmui-background-color-quiet--hover);
+    --wmui-background-color-frameless--active: var(--wmui-background-color-quiet--active);
+    --wmui-background-color-pending-stripe: var(--wmui-color-base80);
+    --wmui-background-color-backdrop-light: rgba(255, 255, 255, 0.65);
+    --wmui-color-base--deemphasized: var(--wmui-color-base20);
+    --wmui-color-taboption: var(--wmui-color-base--hover);
+    --wmui-color-destructive-non-primary: #ff2424;
+    --wmui-border-color-framed-progressive--hover: var(--wmui-color-primary--hover);
+    --wmui-border-color-framed-destructive--hover: var(--wmui-color-destructive--hover);
+    --wmui-border-color-frameless: transparent;
+    --wmui-border-color-focus-inset: var(--wmui-color-base--inverted);
+    --wmui-border-color-dialog-bar: var(--wmui-color-base70);
+    --wmui-border-width-frameless-tab: 2px;
+    --wmui-border-color-toolbar: var(--wmui-color-base70);
+    --wmui-border-color-toolgroup: var(--wmui-color-base80);
+    --wmui-box-shadow-toolbar-top: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    --wmui-box-shadow-toolbar-bottom: 0 -1px 1px 0 rgba(0, 0, 0, 0.1);
+    --wmui-box-shadow-progressbar: var(--wmui-box-shadow-card);
+    --wmui-box-shadow-progressive-filled--focus: inset 0 0 0 1px var(--wmui-color-primary), inset 0 0 0 2px var(--wmui-color-base--inverted);
+    --wmui-box-shadow-frameless-indicator--focus: 0 0 0 2px var(--wmui-color-primary);
+    --wmui-box-shadow-action--focus: var(--wmui-box-shadow-base--focus), 0 0 0 1px var(--wmui-color-primary);
+    --wmui-box-shadow-toolbar-action-button--focus: inset 0 0 0 2px var(--wmui-color-primary), inset 0 0 0 3px var(--wmui-color-base--inverted);
+    --wmui-box-shadow-popuptoolgroup-tool--focus: inset 0 0 0 2px var(--wmui-color-primary--focus);
+    --wmui-box-shadow-input-binary--active: inset 0 0 0 1px var(--wmui-color-primary--active);
+    --wmui-box-shadow-error--focus: inset 0 0 0 1px var(--wmui-color-error);
+    --wmui-filter-drop-shadow-menu: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.3));
+    --wmui-background-color-input-binary--active: var(--wmui-color-primary--active);
+    --wmui-background-color-input-binary--checked: var(--wmui-color-primary);
+    --wmui-border-color-input-binary: var(--wmui-border-color-base--active);
+    --wmui-border-color-input-binary--active: var(--wmui-color-primary--active);
+    --wmui-border-color-input-binary--checked: var(--wmui-color-primary);
+    --wmui-border-width-radio--checked: 6px;
+    --wmui-background-color-filled--primary-disabled: #a0a;
+}
+/* #endregion */
