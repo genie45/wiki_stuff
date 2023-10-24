@@ -276,7 +276,7 @@ $(function() {
     ( function () {
         var I18n = arkCreateI18nInterface( 'DynamicSiteNotice', {
             en: {
-                Text_XboxPartnerEvent: '<a href="https://xbx.lv/3QbFHia" class="external" target="_blank">Tune into the Xbox Partner Preview on October 25th, at 17:00 UTC (10am Pacific / 1pm Eastern / Oct 26th, 4am AEDT) to witness the first gameplay preview of ARK: Survival Ascended.</a>',
+                Text_XboxPartnerEvent: '<a href="https://xbx.lv/3QbFHia" class="external" target="_blank">Tune into the Xbox Partner Preview on October 25th, at 17:00 UTC (10am Pacific / 1pm Eastern / Oct 26th, 4am AEDT) to witness the first gameplay preview of ARK: Survival Ascended. Click this link to learn more.</a>',
                 Text_ASAUpdateRelease: 'Articles will be brought up to date with ARK: Survival Ascended over the following weeks.',
             }
         } );
