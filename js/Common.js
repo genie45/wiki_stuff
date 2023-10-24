@@ -272,13 +272,24 @@ $(function() {
     } )();
     // #endregion
     
-    // #region Dynamic 1.39 upgrade site notice
-    //( function () {
-	//    mw.config.values.wgSiteNoticeId = 3;
-    //	mw.loader.using( [ 'ext.dismissableSiteNotice', 'ext.dismissableSiteNotice.styles' ] );
-    //	var snContent = 'A wiki platform update is currently being finished.';
-    //	$( '#siteNotice' ).html( '<div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">dismiss</a>]</div><div style="margin-right:none" class="mw-dismissable-notice-body"><div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div></div></div>' );
-    //} )();
+    // #region Dynamic site notice
+    ( function () {
+        var I18n = arkCreateI18nInterface( 'DynamicSiteNotice', {
+            en: {
+                Text_XboxPartnerEvent: '<a href="https://xbx.lv/3QbFHia" class="external" target="_blank">Tune into the Xbox Partner Preview on October 25th, at 17:00 UTC (10am Pacific / 1pm Eastern / Oct 26th, 4am AEDT) to witness the first gameplay preview of ARK: Survival Ascended.</a>',
+                Text_ASAUpdateRelease: 'Articles will be brought up to date with ARK: Survival Ascended over the following weeks.',
+            }
+        } );
+
+        // PROCEDURES:
+        // - IF ASA LAUNCHES DURING EVENT: bump wgSiteNoticeId, swap text key to Text_ASAUpdateRelease
+        // - IF ASA DOESN'T LAUNCH AND EVENT ENDS: comment out the notice, switch to Text_ASAUpdateRelease for future
+
+	    mw.config.values.wgSiteNoticeId = 4;
+    	mw.loader.using( [ 'ext.dismissableSiteNotice.styles' ] );
+    	var snContent = I18n( 'Text_XboxPartnerEvent' );
+    	$( '#siteNotice' ).html( '<div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div>' + $( '#siteNotice' ).html() );
+    } )();
     // #endregion
 
     // #region Interwiki dropdown
