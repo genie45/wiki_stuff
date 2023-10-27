@@ -24,7 +24,7 @@
     --content-border-color: #6e8c78;
     --content-border-color--rgb: 110, 140, 120;
     --content-frame-border-color: var(--content-border-color);
-    --content-default-link-color: #012013;    /* top tab, spawn command box*/
+    --content-default-link-color: #043e26;    /* top tab, spawn command box*/
     --content-default-link-color--rgb: 154, 205, 50;
     --code-background-color: #def7ee;
     --code-border-color: #7b9d63;
@@ -36,8 +36,8 @@
     --article-navigation-item-background-color--selected: #d9ead6;
     --article-navigation-item-border-color: var(--content-border-color);
     --article-navigation-dropdown-background-color: #e1e3d3fa;
-    --article-navigation-item-underline-color: #086808;
-    --article-navigation-item-underline-color--active: #0e5e17;
+    --article-navigation-item-underline-color: #087b08;
+    --article-navigation-item-underline-color--active: #0e5616;
     /* Search */
     --search-background-color: #dbe8cd69;
     --sticky-search-background-color: #ecebe2;
@@ -128,7 +128,7 @@
     --dino-icon-overlay--reaperq: linear-gradient(130deg, rgb(196, 69, 210) 0%, rgb(39, 8, 70) 80%);
     /* Ambox */
     --ark-ambox-background-color: #97bb854d;
-    --ark-ambox-border-color: #999999;
+    --ark-ambox-border-color: #094405;
     --ark-ambox-blue: #0000aa;
     --ark-ambox-gray: #555555;
     --ark-ambox-green: #00aa06;
@@ -164,7 +164,7 @@
     --ark-dossiernote-background-color: #e1ecd0;
     --ark-dossiernote-border-color: #2a572f;
     /* Module:LootTable */
-    --ark-loottable-background-color: #021e289a;
+    --ark-loottable-background-color: #b2d4c59a;
     --ark-loottable-header-color: #0b58599a;
     /* Difficulty level colors */
     --ark-difficulty-gamma: #4edb17;
@@ -214,7 +214,7 @@
     --sticky-button-text-color: #edfdff;
     --sticky-button-border-color: #081324;
     --sticky-button-background-color: #2c4a2c;
-    --sticky-button-hover-background-color: #3E4D75;
+    --sticky-button-hover-background-color: #315932;
     /* [[Template:ResourceMap]] only used on mod versions of data maps */
     --trm-map-notice-border-color: #7FE7FF;
     --trm-map-notice-background-color: #6e92c06b;
