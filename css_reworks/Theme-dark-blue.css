@@ -101,7 +101,7 @@
     --fp-promo-link-color: #7ef1ff;
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
-    --ark-ambox-border-color: #999999;
+    --ark-ambox-border-color: #578eb0;
     --ark-ambox-blue: #0000aa;
     --ark-ambox-gray: #555555;
     --ark-ambox-green: #00aa06;
@@ -137,7 +137,7 @@
     --ark-dossiernote-background-color: #1a2534;
     --ark-dossiernote-border-color: #3786bf;
     /* Module:LootTable */
-    --ark-loottable-background-color: #021e289a;
+    --ark-loottable-background-color: #0216289a;
     --ark-loottable-header-color: #0b58599a;
     /* Difficulty level colors */
     --ark-difficulty-gamma: #4edb17;
@@ -151,8 +151,8 @@
     /* Template:HoverNote */
     --ark-hovertext-text-color: #4FB5FF;
     /* Kibble tables */
-    --ark-kibbletable-border-color: #2d74bea6;
-    --ark-kibbletable-background-color: #6e92c036;
+    --ark-kibbletable-border-color: #5bb4d0;
+    --ark-kibbletable-background-color: #5d6ba136;
     /* Math */
     --math-filter: invert(1);
     /* OOUI */
@@ -230,17 +230,17 @@
     --diff-plusminus-pos-color: #00d200;
     --diff-plusminus-neg-color: #ff1010;
     --diff-deletedline-background-color: #440000;
-    --diff-deletedline-text-color: #e62444;
+    --diff-deletedline-text-color: #ffa9ae;
     --diff-deletedline-border-color: none;
     --diff-deletedline-diffchange-background-color: #be666394;
-    --diff-addedline-background-color: #035c03;
-    --diff-addedline-text-color: #bfd959;
+    --diff-addedline-background-color: #023d13;
+    --diff-addedline-text-color: #cfff82;
     --diff-addedline-border-color: none;
     --diff-addedline-diffchange-background-color: #51b85694; 
-    --diff-context-background-color: #6e92c036;
+    --diff-context-background-color: #535c7836;
     --diff-context-text-color: #e0e0e0;
     --diff-context-border-color: #9b9b9b;
-    --pagehist-selected-background-color: #0b1b2d;
+    --pagehist-selected-background-color: #261433;
     --pagehist-selected-text-color: var(--content-text-color);
     --pagehist-last-visit-color: #000;
 }
