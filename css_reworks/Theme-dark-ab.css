@@ -230,14 +230,14 @@
     --diff-plusminus-pos-color: #00d200;
     --diff-plusminus-neg-color: #ff1010;
     --diff-deletedline-background-color: #440000;
-    --diff-deletedline-text-color: #e62444;
+    --diff-deletedline-text-color: #ffa9ae;
     --diff-deletedline-border-color: none;
     --diff-deletedline-diffchange-background-color: #be666394;
-    --diff-addedline-background-color: #035c03;
-    --diff-addedline-text-color: #bfd959;
+    --diff-addedline-background-color: #023d13;
+    --diff-addedline-text-color: #cfff82;
     --diff-addedline-border-color: none;
     --diff-addedline-diffchange-background-color: #51b85694; 
-    --diff-context-background-color: #6e92c036;
+    --diff-context-background-color: #809ac736;
     --diff-context-text-color: #e0e0e0;
     --diff-context-border-color: #9b9b9b;
     --pagehist-selected-background-color: #261433;

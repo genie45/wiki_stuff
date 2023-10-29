@@ -1639,14 +1639,33 @@ table .number { text-align: right; }
 /* #region Table of Contents, category list, file ToC */
 #toc {
     max-width: 395px;
-    padding: 0.4rem 1.1rem;
+    margin-top: .5rem;
+    padding: 0;
     border-radius: 2px;
 }
+#toc > ul,
+#toc > .toctitle {
+    padding: .4rem 1.1rem;
+}
+#toc > .toctitle {
+    padding-bottom: 0;
+}
 #toc > ul {
-    max-height: calc(1.7em * 15);
+    padding-top: 0;
+    max-height: calc(1.7em * 15.5);
     overflow-y: auto;
     overflow-x: hidden;
+    /* Scroll shadows :) */
+    background:
+        /* Top */
+        linear-gradient( to top, #0000 0%, var(--toc-background-color) 80% ) center top / 100% 60px no-repeat,
+        linear-gradient( to top, transparent 5%, #0003 ) center top / 100% 30px no-repeat,
+        /* Bottom */
+        linear-gradient( to bottom, #0000 0%, var(--toc-background-color) 80% ) center bottom / 100% 60px no-repeat,
+        linear-gradient( transparent 10%, #0003 ) center bottom / 100% 30px no-repeat;
+    background-attachment: local, scroll, local, scroll;
 }
+
 div#toc,
 div.toc,
 div.mw-warning,
