@@ -3,8 +3,8 @@
 	"mixins": [
 		"Maps/Standard group definitions",
 		"Maps/Loot crate icons",
-		"Maps/Island Obelisks",
-		"Maps/Island Caves"
+		"Maps/Island Obelisks/ASA",
+		"Maps/Island Caves/ASA"
 	],
 	"background": { "image": "The Island map ASA.jpg" },
 	"groups": {},
