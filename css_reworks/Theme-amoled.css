@@ -144,10 +144,10 @@
     --sticky-header-shadow-color: #0000004a;
     --sticky-header-text-color: #fff;
     --sticky-header-link-color: #fff;
-    --sticky-search-background-color: #fff6;
-    --sticky-search-text-color: #222;
-    --sticky-search-border-color: #313131;
-    --sticky-search-placeholder-text-color: #333e;
+    --search-background-color--sticky: #fff6;
+    --search-text-color--sticky: #222;
+    --search-border-color--sticky: #313131;
+    --search-text-color--placeholder-sticky: #333e;
     --sticky-button-text-color: #222;
     --sticky-button-border-color: #222;
     --sticky-button-background-color: #fff4;

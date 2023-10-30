@@ -40,14 +40,15 @@
     --article-navigation-item-underline-color--active: #0e5616;
     /* Search */
     --search-background-color: #dbe8cd69;
-    --sticky-search-background-color: #ecebe2;
+    --search-background-color--sticky: #ecebe2;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
-    --sticky-search-border-color: #144a09;
+    --search-border-color--sticky: #144a09;
     --search-text-color: #021e00;
-    --sticky-search-text-color: #074212;
+    --search-text-color--sticky: #074212;
     --search-text-color--placeholder: #313f1c;
-    --sticky-search-placeholder-text-color: #244d46;
+    --search-text-color--placeholder-sticky: #244d46;
+	--search-button-filter--sticky: invert(1) brightness(20%);
     /* Site notice */
     --sitenotice-background-color: #0002;
     --sitenotice-border-color: var(--content-border-color);

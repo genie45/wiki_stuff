@@ -7,11 +7,12 @@
     z-index: 20;
     color: var(--sticky-header-text-color);
     display: flex;
+    gap: var(--sticky-header-item-spacing);
     box-shadow: 0 3px 12px 0 var(--sticky-header-shadow-color);
     align-items: center;
     padding: var(--sticky-header-padding);
     background: var(--sticky-header-background-color);
-    transition: transform .3s, background .1s;
+    transition: transform .3s, background .1s, height .3s;
 }
 
 .ark-top {
@@ -42,16 +43,10 @@ html {
     transform: translateY(-2.8rem);
 }
   
-#ark-sticky-header > *:not(.sticky-search-box) {
-    flex-grow: 1;
-    flex-basis: 80%;
-}
-  
 #ark-sticky-header > .sticky-wiki-name {
     font-size: 108%;
     font-weight: 600;
     white-space: nowrap;
-    margin-right: 0.75em;
 }
 
 #ark-sticky-header > .sticky-wiki-name a {
@@ -89,7 +84,7 @@ html {
 #ark-sticky-header > .sticky-search-box .vector-search-box-inner {
     width: 100%;
     max-width: unset;
-    background: var(--sticky-search-background-color);
+    background: var(--search-background-color--sticky);
     border-radius: var(--sticky-search-border-radius);
 }
   
@@ -97,13 +92,17 @@ html {
     height: var(--sticky-header-search-height);
     padding-left: 0.8em;
     font-size: 0.85em;
-    color: var(--sticky-search-text-color);
-    border-color: var(--sticky-search-border-color);
+    color: var(--search-text-color--sticky);
+    border-color: var(--search-border-color--sticky);
     border-radius: var(--sticky-search-border-radius);
 }
   
 #ark-sticky-header > .sticky-search-box input::placeholder {
-    color: var(--sticky-search-placeholder-text-color);
+    color: var(--search-text-color--placeholder-sticky);
+}
+
+#ark-sticky-header .vector-search-box-inner .searchButton {
+    filter: var( --search-button-filter--sticky );
 }
 
 #ark-sticky-header > .sticky-buttons {
