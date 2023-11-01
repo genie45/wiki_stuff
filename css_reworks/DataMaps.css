@@ -28,33 +28,78 @@
 .ext-datamaps-container-leaflet.leaflet-container {
     background: #0b0b0b4d;
 }
-.ext-datamaps-container .leaflet-popup-content-wrapper, .ext-datamaps-container .leaflet-popup-tip {
-    background: var(--datamaps-popup-background-color);
-    color: var(--datamaps-popup-text-color);
+
+/* #region Controls */
+.leaflet-control {
+    color: var(--wmui-color-base);
 }
-.ext-datamaps-container-leaflet .datamap-popup .datamap-popup-location {
-    color: inherit;
-    opacity: 0.8;
+.leaflet-bar {
+    background-color: var(--wmui-background-color-base);
+    border-color: var(--wmui-border-color-base);
 }
-.ext-datamaps-container .leaflet-marker-icon {
-    filter: drop-shadow(0 0 2px #fff);
+.ext-datamaps-container .leaflet-bar button {
+    color: var(--wmui-color-base);
+    border-color: var(--wmui-border-color-base);
+}
+.ext-datamaps-control-expandable[aria-expanded="true"] {
+    background-color: var(--wmui-background-color-framed);
+    border-color: var(--wmui-border-color-base--active);
+    opacity: 0.98;
 }
 .ext-datamaps-control button > span[class*="oo-ui-icon-"] {
     filter: var(--oo-ui-icon-filter--normal);
 }
-.leaflet-container a {
-    color: var(--datamaps-popup-text-link-color)
+.leaflet-bar button:hover {
+    background-color: var(--wmui-background-color-base--hover);
 }
-.leaflet-control {
-    color: #000;
+.leaflet-bar button:focus {
+    background-color: var(--wmui-background-color-base--active);
 }
-.ext-datamaps-container .datamap-popup .datamap-popup-subtitle {
+/* #endregion */
+
+/* #region Popups */
+.ext-datamaps-container .leaflet-popup-content-wrapper,
+.ext-datamaps-container .leaflet-popup-tip {
+    background: var(--datamaps-popup-background-color);
+    color: var(--datamaps-popup-text-color);
+    border: 1px solid var(--wmui-border-color-toolbar);
+}
+.ext-datamaps-container-leaflet .ext-datamaps-popup .ext-datamaps-popup-location {
+    color: inherit;
+    opacity: 0.8;
+}
+.ext-datamaps-popup-header .ext-datamaps-popup-title {
+    color: var(--wmui-color-base--emphasized);
+}
+.ext-datamaps-container .ext-datamaps-popup .ext-datamaps-popup-subtitle {
     color: var(--datamaps-popup-subtitle-text-color);
 }
 html[ class*="theme-dark" ] .ext-datamaps-popup-link,
-html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button{
+html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button {
     filter: invert(1) brightness(55%);
 }
+/* #endregion */
+
+/* #region Search */
+.ext-datamaps-control-search ul.ext-datamaps-control-search-results {
+    background-color: var(--wmui-background-color-base);
+    border-color: var(--wmui-border-color-base);
+}
+.ext-datamaps-control-search ul.ext-datamaps-control-search-results li:focus,
+.ext-datamaps-control-search ul.ext-datamaps-control-search-results li[data-highlighted="true"] {
+    background: var(--wmui-background-color-base--active);
+    color: var(--wmui-color-accessory);
+}
+/* #endregion */
+
+.ext-datamaps-container .leaflet-marker-icon {
+    filter: drop-shadow(0 0 2px #fff);
+}
+.leaflet-container a {
+    color: var(--datamaps-popup-text-link-color)
+}
+
+/* #region Tabbers */
 .map-notice ~ .tabber .tabber__tab {
     padding: 0.7em 1em;
     font-size: 110%;
@@ -63,17 +108,20 @@ html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button{
 .map-notice ~ .tabber .tabber__tab--active {
     background: var(--datamaps-tabber-background-active-color);
 }
+/* Scroll animation may be laggy on some devices */
+.map-notice ~ .tabber .tabber__section {
+    scroll-behavior: revert;
+}
+/* #endregion */
+
 /* 7b3509f backport */
 @media screen and (max-width: 720px) {
     .ext-datamaps-control-expandable .ext-datamaps-control-expandable-content > .oo-ui-menuLayout {
         height: 56vh;
     }
 }
-/* Scroll animation may be laggy on some devices */
-.map-notice ~ .tabber .tabber__section {
-    scroll-behavior: revert;
-}
-/* Spawn maps */
+
+/* #region Spawn maps */
 .datamap-csm-legend-rect {
     display: inline-block;
     vertical-align: middle;
@@ -119,21 +167,4 @@ html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button{
 .datamap-explorer-note-id {
 	opacity: 0.4;
 }
-
-/* adjustments for dark theme */
-html[class*="theme-dark"] .ext-datamaps-control-expandable {
-    background: #222;
-}
-
-html[class*="theme-dark"] .leaflet-control {
-	background-color: #444;
-    color: #eaecf0;
-}
-
-html[class*="theme-dark"] .leaflet-bar button {
-    color: #eaecf0;
-}
-
-html[class*="theme-dark"] .leaflet-bar button:hover, html[class*="theme-dark"] .leaflet-bar button:focus {
-	background-color: #757575;
-}
+/* #endregion */
