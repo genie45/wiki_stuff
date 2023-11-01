@@ -1819,30 +1819,30 @@ ul#filetoc {
 .dinolink--reaperq { background-image: var(--dino-icon-overlay--reaperq); }
 
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-	.dinolink { filter: var(--dino-icon-overlay--normal); }
-	.dinolink--aberrant { filter: var(--dino-icon-overlay-fallback--aberrant); }
-	.dinolink--balpha { filter: var(--dino-icon-overlay-fallback--balpha); }
-	.dinolink--bbeta { filter: var(--dino-icon-overlay-fallback--bbeta); }
-	.dinolink--bgamma { filter: var(--dino-icon-overlay-fallback--bgamma); }
-	.dinolink--x { filter: var(--dino-icon-overlay-fallback--x); }
-	.dinolink--r { filter: var(--dino-icon-overlay-fallback--r); }
-	.dinolink--vr { filter: var(--dino-icon-overlay-fallback--vr); }
-	.dinolink--corrupt { filter: var(--dino-icon-overlay-fallback--corrupt); }
-	.dinolink--event { filter: var(--dino-icon-overlay-fallback--event); }
-	.dinolink--brute { filter: var(--dino-icon-overlay-fallback--brute); }
-	.dinolink--mtek { filter: var(--dino-icon-overlay-fallback--mtek); }
-	.dinolink--alpha { filter: var(--dino-icon-overlay-fallback--alpha); }
-	.dinolink--tek { filter: var(--dino-icon-overlay-fallback--tek); }
-	.dinolink--enraged { filter: var(--dino-icon-overlay-fallback--enraged); }
-	.dinolink--wyvf { filter: var(--dino-icon-overlay-fallback--wyvf); }
-	.dinolink--wyvi { filter: var(--dino-icon-overlay-fallback--wyvi); }
-	.dinolink--wyvl { filter: var(--dino-icon-overlay-fallback--wyvl); }
-	.dinolink--wyvp { filter: var(--dino-icon-overlay-fallback--wyvp); }
-	.dinolink--wyvb { filter: var(--dino-icon-overlay-fallback--wyvb); }
-	.dinolink--wyvt { filter: var(--dino-icon-overlay-fallback--wyvt); }
-	.dinolink--wyve { filter: var(--dino-icon-overlay-fallback--wyve); }
-	.dinolink--reaperk { filter: var(--dino-icon-overlay-fallback--reaperk); }
-	.dinolink--reaperq { filter: var(--dino-icon-overlay-fallback--reaperq); }
+	.dinolink:not(*:root) { filter: var(--dino-icon-overlay--normal); }
+	.dinolink--aberrant:not(*:root) { filter: var(--dino-icon-overlay-fallback--aberrant); }
+	.dinolink--balpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--balpha); }
+	.dinolink--bbeta:not(*:root) { filter: var(--dino-icon-overlay-fallback--bbeta); }
+	.dinolink--bgamma:not(*:root) { filter: var(--dino-icon-overlay-fallback--bgamma); }
+	.dinolink--x:not(*:root) { filter: var(--dino-icon-overlay-fallback--x); }
+	.dinolink--r:not(*:root) { filter: var(--dino-icon-overlay-fallback--r); }
+	.dinolink--vr:not(*:root) { filter: var(--dino-icon-overlay-fallback--vr); }
+	.dinolink--corrupt:not(*:root) { filter: var(--dino-icon-overlay-fallback--corrupt); }
+	.dinolink--event:not(*:root) { filter: var(--dino-icon-overlay-fallback--event); }
+	.dinolink--brute:not(*:root) { filter: var(--dino-icon-overlay-fallback--brute); }
+	.dinolink--mtek:not(*:root) { filter: var(--dino-icon-overlay-fallback--mtek); }
+	.dinolink--alpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--alpha); }
+	.dinolink--tek:not(*:root) { filter: var(--dino-icon-overlay-fallback--tek); }
+	.dinolink--enraged:not(*:root) { filter: var(--dino-icon-overlay-fallback--enraged); }
+	.dinolink--wyvf:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvf); }
+	.dinolink--wyvi:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvi); }
+	.dinolink--wyvl:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvl); }
+	.dinolink--wyvp:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvp); }
+	.dinolink--wyvb:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvb); }
+	.dinolink--wyvt:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvt); }
+	.dinolink--wyve:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyve); }
+	.dinolink--reaperk:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperk); }
+	.dinolink--reaperq:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperq); }
 }
 /* #endregion */
 
