@@ -350,6 +350,31 @@ html {
     --dino-icon-overlay--wyve: linear-gradient(130deg, rgb(15, 100, 51) 0%, rgb(42, 17, 232) 80%);
     --dino-icon-overlay--reaperk: linear-gradient(130deg, rgb(0, 61, 255) 0%, rgb(136, 200, 31) 100%);
     --dino-icon-overlay--reaperq: linear-gradient(130deg, rgb(52, 176, 49) 0%, rgb(136, 200, 31) 80%);
+	/* Fallback for Chrome */
+    --dino-icon-overlay-fallback--normal: invert(73%) sepia(25%) saturate(6347%) hue-rotate(349deg) brightness(104%) contrast(97%);
+    --dino-icon-overlay-fallback--aberrant: invert(17%) sepia(84%) saturate(4556%) hue-rotate(308deg) brightness(83%) contrast(90%);
+    --dino-icon-overlay-fallback--balpha: invert(8%) sepia(79%) saturate(3335%) hue-rotate(334deg) brightness(136%) contrast(115%);
+    --dino-icon-overlay-fallback--bbeta: invert(16%) sepia(98%) saturate(3484%) hue-rotate(208deg) brightness(89%) contrast(89%);
+    --dino-icon-overlay-fallback--bgamma: invert(42%) sepia(100%) saturate(2194%) hue-rotate(83deg) brightness(97%) contrast(94%);
+    --dino-icon-overlay-fallback--x: invert(40%) sepia(89%) saturate(586%) hue-rotate(114deg) brightness(100%) contrast(94%);
+    --dino-icon-overlay-fallback--r: invert(9%) sepia(70%) saturate(5290%) hue-rotate(329deg) brightness(107%) contrast(101%);
+    --dino-icon-overlay-fallback--vr: invert(66%) sepia(17%) saturate(735%) hue-rotate(193deg) brightness(96%) contrast(91%);
+    --dino-icon-overlay-fallback--corrupt: invert(13%) sepia(88%) saturate(5780%) hue-rotate(274deg) brightness(77%) contrast(106%);
+    --dino-icon-overlay-fallback--event: invert(83%) sepia(28%) saturate(2323%) hue-rotate(9deg) brightness(110%) contrast(88%);
+    --dino-icon-overlay-fallback--brute: invert(49%) sepia(49%) saturate(4034%) hue-rotate(12deg) brightness(102%) contrast(84%);
+    --dino-icon-overlay-fallback--mtek: invert(15%) sepia(65%) saturate(6085%) hue-rotate(253deg) brightness(66%) contrast(107%);
+    --dino-icon-overlay-fallback--alpha: invert(17%) sepia(78%) saturate(4457%) hue-rotate(355deg) brightness(91%) contrast(91%);
+    --dino-icon-overlay-fallback--tek: invert(41%) sepia(86%) saturate(880%) hue-rotate(184deg) brightness(103%) contrast(105%);
+    --dino-icon-overlay-fallback--enraged: invert(11%) sepia(80%) saturate(4672%) hue-rotate(300deg) brightness(85%) contrast(99%);
+    --dino-icon-overlay-fallback--wyvf: invert(13%) sepia(60%) saturate(5302%) hue-rotate(2deg) brightness(87%) contrast(92%);
+    --dino-icon-overlay-fallback--wyvi: invert(74%) sepia(13%) saturate(1992%) hue-rotate(154deg) brightness(101%) contrast(84%);
+    --dino-icon-overlay-fallback--wyvl: invert(24%) sepia(87%) saturate(2787%) hue-rotate(237deg) brightness(74%) contrast(92%);
+    --dino-icon-overlay-fallback--wyvp: invert(87%) sepia(6%) saturate(5212%) hue-rotate(57deg) brightness(92%) contrast(90%);
+    --dino-icon-overlay-fallback--wyvb: invert(11%) sepia(39%) saturate(6917%) hue-rotate(355deg) brightness(100%) contrast(109%);
+    --dino-icon-overlay-fallback--wyvt: invert(61%) sepia(38%) saturate(668%) hue-rotate(45deg) brightness(104%) contrast(90%);
+    --dino-icon-overlay-fallback--wyve: invert(45%) sepia(84%) saturate(489%) hue-rotate(332deg) brightness(104%) contrast(88%);
+    --dino-icon-overlay-fallback--reaperk: invert(80%) sepia(39%) saturate(594%) hue-rotate(351deg) brightness(91%) contrast(91%);
+    --dino-icon-overlay-fallback--reaperq: invert(48%) sepia(65%) saturate(7494%) hue-rotate(270deg) brightness(86%) contrast(102%);
     /* Ambox */
     --ark-ambox-background-color: #0000004D;
     --ark-ambox-border-color: #999999;
@@ -1795,6 +1820,33 @@ ul#filetoc {
 .dinolink--wyve { background-image: var(--dino-icon-overlay--wyve); }
 .dinolink--reaperk { background-image: var(--dino-icon-overlay--reaperk); }
 .dinolink--reaperq { background-image: var(--dino-icon-overlay--reaperq); }
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+	.dinolink { filter: var(--dino-icon-overlay--normal); }
+	.dinolink--aberrant { filter: var(--dino-icon-overlay-fallback--aberrant); }
+	.dinolink--balpha { filter: var(--dino-icon-overlay-fallback--balpha); }
+	.dinolink--bbeta { filter: var(--dino-icon-overlay-fallback--bbeta); }
+	.dinolink--bgamma { filter: var(--dino-icon-overlay-fallback--bgamma); }
+	.dinolink--x { filter: var(--dino-icon-overlay-fallback--x); }
+	.dinolink--r { filter: var(--dino-icon-overlay-fallback--r); }
+	.dinolink--vr { filter: var(--dino-icon-overlay-fallback--vr); }
+	.dinolink--corrupt { filter: var(--dino-icon-overlay-fallback--corrupt); }
+	.dinolink--event { filter: var(--dino-icon-overlay-fallback--event); }
+	.dinolink--brute { filter: var(--dino-icon-overlay-fallback--brute); }
+	.dinolink--mtek { filter: var(--dino-icon-overlay-fallback--mtek); }
+	.dinolink--alpha { filter: var(--dino-icon-overlay-fallback--alpha); }
+	.dinolink--tek { filter: var(--dino-icon-overlay-fallback--tek); }
+	.dinolink--enraged { filter: var(--dino-icon-overlay-fallback--enraged); }
+	.dinolink--wyvf { filter: var(--dino-icon-overlay-fallback--wyvf); }
+	.dinolink--wyvi { filter: var(--dino-icon-overlay-fallback--wyvi); }
+	.dinolink--wyvl { filter: var(--dino-icon-overlay-fallback--wyvl); }
+	.dinolink--wyvp { filter: var(--dino-icon-overlay-fallback--wyvp); }
+	.dinolink--wyvb { filter: var(--dino-icon-overlay-fallback--wyvb); }
+	.dinolink--wyvt { filter: var(--dino-icon-overlay-fallback--wyvt); }
+	.dinolink--wyve { filter: var(--dino-icon-overlay-fallback--wyve); }
+	.dinolink--reaperk { filter: var(--dino-icon-overlay-fallback--reaperk); }
+	.dinolink--reaperq { filter: var(--dino-icon-overlay-fallback--reaperq); }
+}
 /* #endregion */
 
 /* #region [[Template:SpawningMap]] & [[MediaWiki:SpawnMaps.js]]: rarity colouring */
