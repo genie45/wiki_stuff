@@ -30,10 +30,10 @@
 }
 
 /* #region Controls */
-.leaflet-control {
+.ext-datamaps-container .leaflet-control {
     color: var(--wmui-color-base);
 }
-.leaflet-bar {
+.ext-datamaps-container .leaflet-bar {
     background-color: var(--wmui-background-color-base);
     border-color: var(--wmui-border-color-base);
 }
@@ -41,7 +41,7 @@
     color: var(--wmui-color-base);
     border-color: var(--wmui-border-color-base);
 }
-.ext-datamaps-control-expandable[aria-expanded="true"] {
+.ext-datamaps-container .ext-datamaps-control-expandable[aria-expanded="true"] {
     background-color: var(--wmui-background-color-framed);
     border-color: var(--wmui-border-color-base--active);
     opacity: 0.98;
@@ -49,10 +49,10 @@
 .ext-datamaps-control button > span[class*="oo-ui-icon-"] {
     filter: var(--oo-ui-icon-filter--normal);
 }
-.leaflet-bar button:hover {
+.ext-datamaps-container .leaflet-bar button:hover {
     background-color: var(--wmui-background-color-base--hover);
 }
-.leaflet-bar button:focus {
+.ext-datamaps-container .leaflet-bar button:focus {
     background-color: var(--wmui-background-color-base--active);
 }
 /* #endregion */
