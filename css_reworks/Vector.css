@@ -4961,7 +4961,8 @@ img[src*="/Xbox_Series.svg/"] {
 /* #endregion */
 
 /* Popups - set text colour */
-.oo-ui-defaultOverlay {
+.oo-ui-defaultOverlay,
+.oo-ui-windowManager {
     color: var(--content-text-color);
 }
 /* Icons */
