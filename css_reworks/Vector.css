@@ -1818,31 +1818,33 @@ ul#filetoc {
 .dinolink--reaperk { background-image: var(--dino-icon-overlay--reaperk); }
 .dinolink--reaperq { background-image: var(--dino-icon-overlay--reaperq); }
 
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-	.dinolink:not(*:root) { filter: var(--dino-icon-overlay-fallback--normal); }
-	.dinolink--aberrant:not(*:root) { filter: var(--dino-icon-overlay-fallback--aberrant); }
-	.dinolink--balpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--balpha); }
-	.dinolink--bbeta:not(*:root) { filter: var(--dino-icon-overlay-fallback--bbeta); }
-	.dinolink--bgamma:not(*:root) { filter: var(--dino-icon-overlay-fallback--bgamma); }
-	.dinolink--x:not(*:root) { filter: var(--dino-icon-overlay-fallback--x); }
-	.dinolink--r:not(*:root) { filter: var(--dino-icon-overlay-fallback--r); }
-	.dinolink--vr:not(*:root) { filter: var(--dino-icon-overlay-fallback--vr); }
-	.dinolink--corrupt:not(*:root) { filter: var(--dino-icon-overlay-fallback--corrupt); }
-	.dinolink--event:not(*:root) { filter: var(--dino-icon-overlay-fallback--event); }
-	.dinolink--brute:not(*:root) { filter: var(--dino-icon-overlay-fallback--brute); }
-	.dinolink--mtek:not(*:root) { filter: var(--dino-icon-overlay-fallback--mtek); }
-	.dinolink--alpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--alpha); }
-	.dinolink--tek:not(*:root) { filter: var(--dino-icon-overlay-fallback--tek); }
-	.dinolink--enraged:not(*:root) { filter: var(--dino-icon-overlay-fallback--enraged); }
-	.dinolink--wyvf:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvf); }
-	.dinolink--wyvi:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvi); }
-	.dinolink--wyvl:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvl); }
-	.dinolink--wyvp:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvp); }
-	.dinolink--wyvb:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvb); }
-	.dinolink--wyvt:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvt); }
-	.dinolink--wyve:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyve); }
-	.dinolink--reaperk:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperk); }
-	.dinolink--reaperq:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperq); }
+@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-moz-appearance:none)) { 
+	@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+		.dinolink:not(*:root) { filter: var(--dino-icon-overlay-fallback--normal); }
+		.dinolink--aberrant:not(*:root) { filter: var(--dino-icon-overlay-fallback--aberrant); }
+		.dinolink--balpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--balpha); }
+		.dinolink--bbeta:not(*:root) { filter: var(--dino-icon-overlay-fallback--bbeta); }
+		.dinolink--bgamma:not(*:root) { filter: var(--dino-icon-overlay-fallback--bgamma); }
+		.dinolink--x:not(*:root) { filter: var(--dino-icon-overlay-fallback--x); }
+		.dinolink--r:not(*:root) { filter: var(--dino-icon-overlay-fallback--r); }
+		.dinolink--vr:not(*:root) { filter: var(--dino-icon-overlay-fallback--vr); }
+		.dinolink--corrupt:not(*:root) { filter: var(--dino-icon-overlay-fallback--corrupt); }
+		.dinolink--event:not(*:root) { filter: var(--dino-icon-overlay-fallback--event); }
+		.dinolink--brute:not(*:root) { filter: var(--dino-icon-overlay-fallback--brute); }
+		.dinolink--mtek:not(*:root) { filter: var(--dino-icon-overlay-fallback--mtek); }
+		.dinolink--alpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--alpha); }
+		.dinolink--tek:not(*:root) { filter: var(--dino-icon-overlay-fallback--tek); }
+		.dinolink--enraged:not(*:root) { filter: var(--dino-icon-overlay-fallback--enraged); }
+		.dinolink--wyvf:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvf); }
+		.dinolink--wyvi:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvi); }
+		.dinolink--wyvl:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvl); }
+		.dinolink--wyvp:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvp); }
+		.dinolink--wyvb:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvb); }
+		.dinolink--wyvt:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyvt); }
+		.dinolink--wyve:not(*:root) { filter: var(--dino-icon-overlay-fallback--wyve); }
+		.dinolink--reaperk:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperk); }
+		.dinolink--reaperq:not(*:root) { filter: var(--dino-icon-overlay-fallback--reaperq); }
+	}
 }
 /* #endregion */
 
@@ -2491,6 +2493,12 @@ div.photo-text {
 /* #endregion */
 
 /* #region Page indicators */
+#mw-indicator-zz-mod-content {
+	border: 1px solid var(--wmui-border-color-base);
+	opacity: 0.8;
+	padding: 0.4rem 0.3rem;
+	border-radius: 2px;
+}
 #mw-indicator-mod > a:last-child {
     font-size: 24px;
     line-height: 32px;
