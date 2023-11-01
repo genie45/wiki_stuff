@@ -81,12 +81,12 @@ html[ class*="theme-dark" ] .leaflet-container .leaflet-popup-close-button {
 /* #endregion */
 
 /* #region Search */
-.ext-datamaps-control-search ul.ext-datamaps-control-search-results {
+.ext-datamaps-container .ext-datamaps-control-search ul.ext-datamaps-control-search-results {
     background-color: var(--wmui-background-color-base);
     border-color: var(--wmui-border-color-base);
 }
-.ext-datamaps-control-search ul.ext-datamaps-control-search-results li:focus,
-.ext-datamaps-control-search ul.ext-datamaps-control-search-results li[data-highlighted="true"] {
+.ext-datamaps-container .ext-datamaps-control-search ul.ext-datamaps-control-search-results li:focus,
+.ext-datamaps-container .ext-datamaps-control-search ul.ext-datamaps-control-search-results li[data-highlighted="true"] {
     background: var(--wmui-background-color-base--active);
     color: var(--wmui-color-accessory);
 }

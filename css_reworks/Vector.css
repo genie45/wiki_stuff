@@ -454,6 +454,8 @@ html {
     --datamaps-container-select-background--rgb: var(--content-border-color--rgb);
     --datamaps-container-legend-background-color: var(--toc-background-color);
     --datamaps-container-legend-selected-background-color: var(--toc-background-color);
+    --datamaps-popup-background-color: var(--wmui-background-color-base);
+    --datamaps-popup-text-color: var(--wmui-color-base);
     --datamaps-popup-subtitle-text-color: #9b9b9b;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #52711550;
