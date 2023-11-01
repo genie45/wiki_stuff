@@ -1819,7 +1819,7 @@ ul#filetoc {
 .dinolink--reaperq { background-image: var(--dino-icon-overlay--reaperq); }
 
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-	.dinolink:not(*:root) { filter: var(--dino-icon-overlay--normal); }
+	.dinolink:not(*:root) { filter: var(--dino-icon-overlay-fallback--normal); }
 	.dinolink--aberrant:not(*:root) { filter: var(--dino-icon-overlay-fallback--aberrant); }
 	.dinolink--balpha:not(*:root) { filter: var(--dino-icon-overlay-fallback--balpha); }
 	.dinolink--bbeta:not(*:root) { filter: var(--dino-icon-overlay-fallback--bbeta); }
