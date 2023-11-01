@@ -420,6 +420,7 @@ html {
     --oo-ui-icon-filter--alert: none;
     --oo-ui-icon-filter--success: none;
     --oo-ui-icon-filter--required: invert(1);
+	--known-black-icon-filter: invert(100%);
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -3759,8 +3760,9 @@ table.status-effect-backg {
 
 /* #region Invert [[File:PS.svg]] colors for better visibility on dark theme */
 img[src*="/PS.svg/"],
-img[src*="/Xbox_Series.svg/"] {
-    filter: invert(100%);
+img[src*="/Xbox_Series.svg/"],
+img[src*="/CurseForge.svg/"] {
+    filter: var( --known-black-icon-filter );
 }
 /* #endregion */
 

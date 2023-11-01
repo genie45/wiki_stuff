@@ -193,6 +193,7 @@
     --oo-ui-icon-filter--alert: none;
     --oo-ui-icon-filter--success: none;
     --oo-ui-icon-filter--required: none;
+	--known-black-icon-filter: none;
     /* DataMaps */
     --datamaps-notice-border-color: var(--content-border-color);
     --datamaps-notice-background-color: var(--ark-arkitex-right-color);
@@ -425,12 +426,6 @@
     --wmui-border-color-input-binary--checked: var(--wmui-color-primary);
     --wmui-border-width-radio--checked: 6px;
     --wmui-background-color-filled--primary-disabled: #a0a;
-}
-/* #endregion */
-
-/* #region Do not invert PS and Xbox icons */
-img[src*="/PS.svg/"], img[src*="/Xbox_Series.svg/"] {
-    filter: none;
 }
 /* #endregion */
 
