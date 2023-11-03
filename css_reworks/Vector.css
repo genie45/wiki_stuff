@@ -648,7 +648,7 @@ html {
     --wmui-background-color-frameless--hover: var(--wmui-background-color-quiet--hover);
     --wmui-background-color-frameless--active: var(--wmui-background-color-quiet--active);
     --wmui-background-color-pending-stripe: var(--wmui-color-base80);
-    --wmui-background-color-backdrop-light: rgba(255, 255, 255, 0.65);
+    --wmui-background-color-backdrop-light: #0d0c0ca6;
     --wmui-color-base--deemphasized: var(--wmui-color-base20);
     --wmui-color-taboption: var(--wmui-color-base--hover);
     --wmui-color-destructive-non-primary: #f83013;
