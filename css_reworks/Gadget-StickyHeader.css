@@ -84,14 +84,13 @@ html {
 #ark-sticky-header > .sticky-search-box .vector-search-box-inner {
     width: 100%;
     max-width: unset;
-    background: var(--search-background-color--sticky);
-    border-radius: var(--sticky-search-border-radius);
 }
   
 #ark-sticky-header > .sticky-search-box .vector-search-box-input {
     height: var(--sticky-header-search-height);
     padding-left: 0.8em;
     font-size: 0.85em;
+    background: var(--search-background-color--sticky);
     color: var(--search-text-color--sticky);
     border-color: var(--search-border-color--sticky);
     border-radius: var(--sticky-search-border-radius);
