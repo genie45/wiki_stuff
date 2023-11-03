@@ -1405,6 +1405,11 @@ ul {
 	color: inherit;
 	padding: 0.1rem 0.5em;
 }
+@media screen and (max-width: 720px) {
+	.suggestions-result {
+		padding: 0.15rem 0.5em;
+	}
+}
 .suggestions-result-current {
 	background-color: var( --search-suggestion-background-color--hover );
 }
