@@ -1744,9 +1744,7 @@ table .number { text-align: right; }
 }
 
 div#toc,
-div.toc,
-div.mw-warning,
-div.mw-message-warning {
+div.toc {
 	background-color: var(--toc-background-color);
 	border-color: var(--content-border-color);
 }
@@ -5106,14 +5104,18 @@ img[src*="/CurseForge.svg/"] {
 .mw-message-box {
     border-color: var(--wmui-border-color-notice);
     background-color: var(--wmui-background-color-notice--framed);
+	color: var(--content-text-color);
 }
 .mw-message-box-error {
     background-color: var(--wmui-background-color-error--framed);
     border-color: var(--wmui-border-color-error);
 }
-.mw-message-box-warning {
+.mw-message-box-warning,
+div.mw-warning,
+div.mw-message-warning {
     background-color: var(--wmui-background-color-warning--framed);
     border-color: var(--wmui-border-color-warning);
+	color: var(--content-text-color);
 }
 .mw-message-box-success {
     background-color: var(--wmui-background-color-success--framed);
