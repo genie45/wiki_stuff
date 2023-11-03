@@ -181,6 +181,9 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #1b7514a6;
     --ark-kibbletable-background-color: #bfcea036;
+    /* [[Template:ModListEntry]] */
+    --ark-mod-entry-border-color: #1a3f02;
+    --ark-mod-entry-background-color: #f0ffd4;
     /* Math */
     --math-filter: none;
     /* OOUI */
