@@ -1216,6 +1216,30 @@ ul {
 }
 /* #endregion */
 
+/* #region ThemeToggle: experiment with an explicit label */
+#p-themes-label::before {
+	content: "Theme: ";
+	font-size: 0.8em;
+	font-weight: 400;
+  }
+  body #p-personal li#p-themes .vector-menu-heading {
+	display: grid;
+	grid-template-areas: "a c" "b c";
+	padding-top: 0;
+	padding-bottom: 0;
+  }
+  #p-themes-label::before {
+	grid-area: a;
+  }
+  #p-themes-label > .vector-menu-heading-label {
+	grid-area: b;
+	font-size: 0.9em;
+  }
+  #p-themes-label::after {
+	grid-area: c;
+  }
+/* #endregion */
+
 /* #region Responsive grid layout */
 /* #region Article title area (indicators, language switcher) */
 #firstHeading {
