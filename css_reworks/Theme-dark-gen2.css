@@ -38,11 +38,13 @@
     --article-navigation-item-underline-color: #e4cb90;
     --article-navigation-item-underline-color--active: #cfa058;
     /* Search */
-    --search-background-color: #7f27609c;
+    --search-background-color--rgb: 79, 25, 64;
+    --search-background-color-opacity: 0.8;
+    --search-background-color-opacity--active: 0.9;
     --search-background-color--sticky: #71254b9c;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
-    --search-border-color--sticky: #dbbe70;
+    --search-border-color--sticky: #b56937;
     --search-text-color: #ffe9fc;
     --search-text-color--sticky: #fff6ca;
     --search-text-color--placeholder: #fffde4;
@@ -91,7 +93,7 @@
     --fp-box-background-color--2: #230d1a;
     --fp-box-mainheading-text-color: #ffe7a3;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-labelled-icon-background: #310e27;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #43382d5c;
     --fp-promo-shadow-color--1: #00000024;
@@ -153,6 +155,9 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #ff6d00a6;
     --ark-kibbletable-background-color: #d87e8c1a;
+    /* [[Template:ModListEntry]] */
+    --ark-mod-entry-border-color: #c65319;
+    --ark-mod-entry-background-color: #311e33;
     /* Math */
     --math-filter: invert(1);
     /* OOUI */

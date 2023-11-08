@@ -38,7 +38,9 @@
     --article-navigation-item-underline-color--active: #7FE4DD;
     --article-navigation-item-background-color:#202537;
     /* Search */
-    --search-background-color: #0d193269;
+    --search-background-color--rgb: 15, 16, 38;
+    --search-background-color-opacity: 0.75;
+    --search-background-color-opacity--active: 0.85;
     --search-background-color--sticky: #263246;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
@@ -153,6 +155,9 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #5bb4d0;
     --ark-kibbletable-background-color: #5d6ba136;
+    /* [[Template:ModListEntry]] */
+    --ark-mod-entry-border-color: #52afe4;
+    --ark-mod-entry-background-color: #192031;
     /* Math */
     --math-filter: invert(1);
     /* OOUI */

@@ -273,7 +273,6 @@ html {
     --sidebar-background-color: rgba(var(--content-border-color--rgb), 0.05);
     --sidebar-content-divider-color: rgba(var(--content-border-color--rgb), 0.4);
     /* Search */
-    --search-background-color: #272a2fdd;
 	--search-background-color--rgb: 39, 42, 47;
 	--search-background-color-opacity: 0.87;
 	--search-background-color-opacity--active: 0.98;

@@ -38,11 +38,13 @@
     --article-navigation-item-underline-color: #8dd5ff;
     --article-navigation-item-underline-color--active: #50a1b4;
     /* Search */
-    --search-background-color: #2123449c;
+    --search-background-color--rgb: 35, 28, 54;
+    --search-background-color-opacity: 0.65;
+    --search-background-color-opacity--active: 0.85;
     --search-background-color--sticky: #71254b9c;
     --search-border-color: #bfa0f4;
     --search-border-color--active: var(--content-border-color);
-    --search-border-color--sticky: #ff00fa;
+    --search-border-color--sticky: #b186c8;
     --search-text-color: #ffe9fc;
     --search-text-color--sticky: #cff5ff;
     --search-text-color--placeholder: #9eb1c1;
@@ -65,7 +67,7 @@
     --sidebar-background-color: rgba(90, 68, 155, .1);
     --sidebar-content-divider-color: #5ba2c3;
     /* Table of contents */
-    --toc-background-color: #301e3c9e;
+    --toc-background-color: #24162f9e;
     --toc-number-color: #b8def7;
     /* Tabbers */
     --tabber-shadow-color: var(--ark-arkitex-border-color);
@@ -91,7 +93,7 @@
     --fp-box-background-color--2: #23152d;
     --fp-box-mainheading-text-color: #eaafe7;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: var(--ark-arkitex-background-color);
+    --fp-labelled-icon-background: #1f1931;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #201326cc;
     --fp-promo-shadow-color--1: #00000024;
@@ -153,6 +155,9 @@
     /* Kibble tables */
     --ark-kibbletable-border-color: #4a7da5a6;
     --ark-kibbletable-background-color: #b17ed81a;
+    /* [[Template:ModListEntry]] */
+    --ark-mod-entry-border-color: #69b0c2;
+    --ark-mod-entry-background-color: #291b3a;
     /* Math */
     --math-filter: invert(1);
     /* OOUI */
@@ -184,7 +189,7 @@
     --sticky-button-text-color: #faf77b;
     --sticky-button-border-color: #d084d7;
     --sticky-button-background-color: #6e3d8a;
-    --sticky-button-hover-background-color: #701d1bb0;
+    --sticky-button-hover-background-color: #781e82b0;
     /* [[Template:ResourceMap]] only used on mod versions of data maps */
     --trm-map-notice-border-color: #7FE7FF;
     --trm-map-notice-background-color: #6e92c06b;

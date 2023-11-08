@@ -39,8 +39,9 @@
     --article-navigation-item-underline-color: #087b08;
     --article-navigation-item-underline-color--active: #0e5616;
     /* Search */
-    --search-background-color: #dbe8cd69;
-    --search-background-color--sticky: #ecebe2;
+    --search-background-color--rgb: 231, 237, 216;
+    --search-background-color-opacity: 0.7;
+    --search-background-color-opacity--active: 0.85;
     --search-border-color: var(--content-border-color);
     --search-border-color--active: var(--content-border-color);
     --search-border-color--sticky: #144a09;
@@ -93,7 +94,7 @@
     --fp-box-background-color--2: #ebf9f1;
     --fp-box-mainheading-text-color: #101d2f;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: #91b08b80;
+    --fp-labelled-icon-background: #a8c2a3;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
     --fp-social-icon-background: #bcce987d;
     --fp-promo-shadow-color--1: #00000024;
