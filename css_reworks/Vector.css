@@ -3699,7 +3699,8 @@ table.status-effect-backg {
 /* #region Invert [[File:PS.svg]] colors for better visibility on dark theme */
 img[src*="/PS.svg/"],
 img[src*="/Xbox_Series.svg/"],
-img[src*="/CurseForge.svg/"] {
+img[src*="/CurseForge.svg/"],
+img[src*="/Missing.png/"]:not(.dinolink) {
     filter: var( --known-black-icon-filter );
 }
 /* #endregion */
