@@ -1801,6 +1801,7 @@ ul#filetoc {
 /* Make ToCs float to the right on pages with no infobox */
 #content .mw-parser-output > #toc { float: right; clear: right; margin-left: 1.4em; }
 #content .mw-parser-output .info-framework ~ #toc,
+#content .mw-parser-output .arkitect ~ #toc,
 #content .mw-parser-output .infobox-tabber ~ #toc { float: none; clear: none; margin-left: 0; }
 
 /* #region Sidebar sticky ToC */
