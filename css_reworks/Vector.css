@@ -418,6 +418,12 @@ html {
     /* Module:LootTable */
     --ark-loottable-background-color: #021e289a;
     --ark-loottable-header-color: #0b58599a;
+    /* [[Module:PaintRegions]] */
+	--ark-paintregion-background-color: #555a62;
+	--ark-paintregion-border-color--rgb: var(--content-border-color--rgb);
+	--ark-paintregion-background-color--unused: var(--ark-paintregion-background-color);
+	--ark-paintregion-border-color--unused: #e51616;
+	--ark-paintregion-border-color--unused--rgb: 229, 22, 22;
     /* Difficulty level colors */
     --ark-difficulty-gamma: #4edb17;
     --ark-difficulty-beta: #19cff9;
