@@ -4,101 +4,104 @@
 /* #region Theme variables */
 :root {
     /* Body */
-    --page-background-image: url(/images/d/db/Bg_ab.jpg?20231023) /*[[File:Bg ab.jpg]]*/;
+    --page-background-image: url(/images/5/50/Bg_se.jpg?20231116) /*[[File:Bg se.jpg]]*/;
     /* Logo assets */
-    --wiki-logo-source--frame: url(/images/7/77/Framed_logo_ab.png?20231023) /*[[File:Framed logo ab.png]]*/;
+    --wiki-logo-source--frame: url(/images/2/2f/Framed_logo_se.png?20231116) /*[[File:Framed logo se.png]]*/;
     /* Page content frame */
-    --content-frame-image: url(/images/0/0b/Border_frame_ab.png?20231023) /*[[File:Border frame ab.png]]*/;
+    --content-frame-image: url(/images/c/c6/Border_frame_se.png?20231116) /*[[File:Border frame se.png]]*/;
 
     --theme-accent-color: #9e5ba8;
     --theme-accent-color--rgb: 181, 32, 181;
-    --page-background-color: #10081B;
-    --page-background-color--rgb: 16, 8, 27;
-    --content-background-color: #10081B;
-    --content-background-color--rgb: 16, 8, 27;
-    --content-text-color: #fcebff;
-    --content-header-color: #d4e6ff;
-    --content-text-link-color: #75cff9;
-    --content-border-color: #a079c1;
-    --content-border-color--rgb: 77, 123, 159;
-    --content-default-link-color: #75aef9;
+    --page-background-color: #edd591;
+    --page-background-color--rgb: 237, 213, 145;
+    --content-background-color: #edd591;
+    --content-background-color--rgb: 237, 213, 145;
+    --content-text-color: #2b2103;
+    --content-header-color: #2b473e;
+    --content-text-link-color: #28472d;
+    --content-border-color: #9acfe4;
+    --content-border-color--rgb: 0, 94, 74;
+    --content-default-link-color: #005e4a;
     --content-default-link-color--rgb: 117, 207, 249;
-    --code-background-color: #15092c;
-    --code-border-color: #4192d0;
+    --code-background-color: #b9c8c6;
+    --code-border-color: #3b5130;
     --content-text-top-border-color: #97bde1;
     --footer-background-color: rgba(var(--content-background-color--rgb), 0.8);
     --reference-background-color--highlight: #5e5e5e;
+    --ark-mod-entry-border-color: #ffa722;
+    --ark-mod-entry-background-color: #cacfa5;
     /* Article navigation */
-    --article-navigation-item-background-color: #202237bd;
-    --article-navigation-item-background-color--selected: #241431bd;
+    --article-navigation-item-background-color: #eedfaa;
+    --article-navigation-item-background-color--selected: #d0ddb0;
     --article-navigation-item-border-color: var(--content-border-color);
-    --article-navigation-dropdown-background-color: #16192a;
-    --article-navigation-item-underline-color: #8dd5ff;
-    --article-navigation-item-underline-color--active: #50a1b4;
+    --article-navigation-dropdown-background-color: #e4d5a1;
+    --article-navigation-item-underline-color: #168400;
+    --article-navigation-item-underline-color--active: #265500;
     /* Search */
-    --search-background-color--rgb: 35, 28, 54;
-    --search-background-color-opacity: 0.65;
-    --search-background-color-opacity--active: 0.85;
-    --search-background-color--sticky: #71254b9c;
-    --search-border-color: #bfa0f4;
+    --search-background-color: #2123449c;
+    --search-background-color--rgb: 196, 186, 132;
+    --search-background-color-opacity: 0.85;
+    --search-background-color-opacity--active: 0.95;
+    --search-background-color--sticky: #dbc086;
+    --search-border-color: #7ac8f5;
     --search-border-color--active: var(--content-border-color);
-    --search-border-color--sticky: #b186c8;
-    --search-text-color: #ffe9fc;
-    --search-text-color--sticky: #cff5ff;
-    --search-text-color--placeholder: #9eb1c1;
-    --search-text-color--placeholder-sticky: #bac9d0;
+    --search-border-color--sticky: #86b5c8;
+    --search-text-color: #312d04;
+    --search-text-color--sticky: #0f2703;
+    --search-text-color--placeholder: #5c5839;
+    --search-text-color--placeholder-sticky: #454f11;
     /* Site notice */
     --sitenotice-background-color: #0002;
     --sitenotice-border-color: var(--content-border-color);
     /* Sidebar */
-    --sidenav-header-background: #b186ce;
+    --sidenav-header-background: #b7dde6;
     --sidenav-header-background--rgb: 69, 140, 196;
-    --sidenav-header-text-color: #55d2ff;
+    --sidenav-header-text-color: #122902;
     --sidenav-background-color: #3d3e3d50;
-    --sidenav-text-color: #c7e5ff;
+    --sidenav-text-color: #292103;
     --sidenav-text-hover-color: var(--content-text-link-color);
-    --toolbar-background-color: #563367ce;
-    --toolbar-list-background-color: #2c0e3bfa;
-    --toolbar-border-color: #eebeff;
+    --toolbar-background-color: #456733ce;
+    --toolbar-list-background-color: #f7ffe7;
+    --toolbar-border-color: #9bcdf5;
     --sidenav-toggle-icon-filter: invert(1);
     --ad-content-divider-color: var(--sidebar-content-divider-color);
-    --sidebar-background-color: rgba(90, 68, 155, .1);
-    --sidebar-content-divider-color: #5ba2c3;
+    --sidebar-background-color: rgba(150, 190, 188, .32);
+    --sidebar-content-divider-color: #b5e0e8;
     /* Table of contents */
-    --toc-background-color: #24162f9e;
-    --toc-number-color: #b8def7;
+    --toc-background-color: #dfcf95;
+    --toc-number-color: #9e4700;
     /* Tabbers */
     --tabber-shadow-color: var(--ark-arkitex-border-color);
-    --tabber-shadow-active-color: #4a1b60;
-    --tabber-shadow-hover-color: #644993;
-    --tabber-background-hover-color: #301740;
+    --tabber-shadow-active-color: #a86e02;
+    --tabber-shadow-hover-color: #538262;
+    --tabber-background-hover-color: #afc2a8;
     --tabber-text-hover-color: #bdeaff;
-    --tabber-background-active-color: #3d225b;
+    --tabber-background-active-color: #b9c8b0;
     --tabber-bottom-active-color: var(--tabber-shadow-hover-color);
     /* Tables */
-    --table-background-color: #1a132c;
-    --table-border-color: #915d98;
-    --table-heading-background-color: #321c3b;
-    --gray-table-background-color: #250820;
-    --red-table-background-color: #451c2a;
+    --table-background-color: #c8d1a0;
+    --table-border-color: #7e4506;
+    --table-heading-background-color: #adbbb7;
+    --gray-table-background-color: #a3b78d;
+    --red-table-background-color: #d5a68d;
     /* Frontpage */
-    --fp-heading-text-color: #d2afd9;
-    --fp-heading-border-color: #82d2df;
-    --fp-box-background-color: #1d132b;
-    --fp-box-border-color: #7149a2;
+    --fp-heading-text-color: #373c1e;
+    --fp-heading-border-color: #8f6f0e;
+    --fp-box-background-color: #c2d3b8;
+    --fp-box-border-color: #cc9e00;
     --fp-box-shadow-color: #4a5153;
-    --fp-box-border-color--2: #674eb5;
-    --fp-box-background-color--2: #23152d;
-    --fp-box-mainheading-text-color: #eaafe7;
+    --fp-box-border-color--2: #697a42;
+    --fp-box-background-color--2: #c3cfcc;
+    --fp-box-mainheading-text-color: #332202;
     --fp-labelled-icon-border-color: var(--content-default-link-color);
-    --fp-labelled-icon-background: #1f1931;
+    --fp-labelled-icon-background: #c4ca96;
     --fp-social-icon-border-color: rgba(var(--content-border-color--rgb), 0.7);
-    --fp-social-icon-background: #201326cc;
+    --fp-social-icon-background: #262513cc;
     --fp-promo-shadow-color--1: #00000024;
     --fp-promo-shadow-color--2: #0003;
     --fp-promo-shadow-color--text: #000;
-    --fp-promo-text-color: #c58ce3;
-    --fp-promo-link-color: #63b1f7;
+    --fp-promo-text-color: #c6eab3;
+    --fp-promo-link-color: #c4dff7;
     /* Ambox */
     --ark-ambox-background-color: #3c36414d;
     --ark-ambox-border-color: #8d6fa9;
@@ -112,30 +115,30 @@
     --ark-ambox-orange: #ffa500;
     /* Template:Navbox */
     --ark-navbox-title-text-color: var(--content-text-color);
-    --ark-navbox-title-link-color: #e6c0ff;
+    --ark-navbox-title-link-color: #383200;
     --ark-navbox-title-background-color: var(--ark-arkitex-background-color);
-    --navbox-border-color: #3e83ae;
+    --navbox-border-color: #c0d1ab;
     --navbox-row-zebra-colour: #fff1;
-    --ark-navboxgroup-title-background-color: #1b1020;
+    --ark-navboxgroup-title-background-color: #cccc9a;
     --ark-navboxgroup-title-text-color: var(--content-text-color);
-    --ark-navboxgroup-title-border-color: #8c51a6;
+    --ark-navboxgroup-title-border-color: #acd4f7;
     /* Arkitexure */
-    --ark-arkitex-background-color: #22182d8f;
+    --ark-arkitex-background-color: #4d60356e;
     --ark-arkitex-border-color: var(--sidenav-header-background);
     --ark-arkitex-border-color--rgb: var(--sidenav-header-background--rgb);
-    --ark-arkitex-accent-color: #4289bb;
-    --ark-arkitex-left-color: #271431;
-    --ark-arkitex-right-color: #301e3c;
+    --ark-arkitex-accent-color: #a5d1ec;
+    --ark-arkitex-left-color: #bcc6a2;
+    --ark-arkitex-right-color: #bfc48b;
     /* PaintRegion */
-    --ark-paintregion-background-color: #130e23;
+    --ark-paintregion-background-color: #ddd8a5;
     --ark-paintregion-border-color: var(--content-border-color);
     /* Template:DossierText & Template:Quote */
-    --ark-cite-quote-color: #5f9ff2d9;
-    --ark-dossier-background-color: #1e182db3;
-    --ark-dossier-border-color: #61cfe6a6;
-    --ark-dossier-text-color: #bac7f7;
-    --ark-dossiernote-background-color: #2b1e39;
-    --ark-dossiernote-border-color: #a37fbf;
+    --ark-cite-quote-color: #8d5100d9;
+    --ark-dossier-background-color: #a0b398b3;
+    --ark-dossier-border-color: #917f13a6;
+    --ark-dossier-text-color: #1e1a02;
+    --ark-dossiernote-background-color: #9bb7a6;
+    --ark-dossiernote-border-color: #b7a226;
     /* Module:LootTable */
     --ark-loottable-background-color: #0f091e9a;
     --ark-loottable-header-color: #0b58599a;
@@ -145,24 +148,21 @@
     --ark-difficulty-alpha: #f76450;
     --ark-difficulty-none: #BCEEFA;
     /* Template:Mission */
-    --ark-mission-background-color: #22172f;
-    --ark-mission-text-color: #cfe4f9;
+    --ark-mission-background-color: #bec8a2;
+    --ark-mission-text-color: #292703;
     --ark-mission-border-color: var(--theme-accent-color);
     /* Template:HoverNote */
-    --ark-hovertext-text-color: #4FB5FF;
+    --ark-hovertext-text-color: #0e4403;
     /* Kibble tables */
-    --ark-kibbletable-border-color: #4a7da5a6;
+    --ark-kibbletable-border-color: #c27500a6;
     --ark-kibbletable-background-color: #b17ed81a;
-    /* [[Template:ModListEntry]] */
-    --ark-mod-entry-border-color: #69b0c2;
-    --ark-mod-entry-background-color: #291b3a;
     /* Math */
     --math-filter: invert(1);
     /* OOUI */
     /* Useful for colourisation filters: https://codepen.io/sosuke/pen/Pjoqqp */
     --oo-ui-icon-filter--normal: invert(1);
     --oo-ui-icon-filter--black: brightness(0);
-    --oo-ui-icon-filter--normal-progressive: invert(100%) sepia(61%) saturate(5891%) hue-rotate(162deg) brightness(101%) contrast(101%);
+    --oo-ui-icon-filter--normal-progressive: invert(9%) sepia(9%) saturate(5483%) hue-rotate(9deg) brightness(97%) contrast(98%);
     --oo-ui-icon-filter--destructive: none;
     --oo-ui-icon-filter--error: none;
     --oo-ui-icon-filter--alert: none;
@@ -180,14 +180,14 @@
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #332352b5;
     /* Sticky header */
-    --sticky-header-background-color: rgb(24, 60, 106);
+    --sticky-header-background-color: rgb(41, 54, 36);
     --sticky-header-shadow-color: #0000004a;
-    --sticky-header-text-color: #f4f152;
-    --sticky-header-link-color: #f9e2ff;
-    --sticky-button-text-color: #faf77b;
-    --sticky-button-border-color: #d084d7;
-    --sticky-button-background-color: #6e3d8a;
-    --sticky-button-hover-background-color: #781e82b0;
+    --sticky-header-text-color: #fe00ff;
+    --sticky-header-link-color: #f0861b;
+    --sticky-button-text-color: #fe00ff;
+    --sticky-button-border-color: #4c7736;
+    --sticky-button-background-color: #94a7b7;
+    --sticky-button-hover-background-color: #baccd7b0;
     /* [[Template:ResourceMap]] only used on mod versions of data maps */
     --trm-map-notice-border-color: #7FE7FF;
     --trm-map-notice-background-color: #6e92c06b;
@@ -226,21 +226,21 @@
     --creature-nav-creature-color--red: #e5acb1;
     --creature-nav-creature-color--yellowish: #c0a264;
     /* History and diffs */
-    --diff-background-color: rgba(0,0,0,0.3);
+    --diff-background-color: rgba(0, 0, 0, .25);
     --diff-plusminus-pos-color: #00d200;
     --diff-plusminus-neg-color: #ff1010;
-    --diff-deletedline-background-color: #440000;
-    --diff-deletedline-text-color: #ffa9ae;
+    --diff-deletedline-background-color: #ea9f9f;
+    --diff-deletedline-text-color: #62080d;
     --diff-deletedline-border-color: none;
     --diff-deletedline-diffchange-background-color: #be666394;
-    --diff-addedline-background-color: #023d13;
-    --diff-addedline-text-color: #cfff82;
+    --diff-addedline-background-color: #b3eac3;
+    --diff-addedline-text-color: #1f4f00;
     --diff-addedline-border-color: none;
     --diff-addedline-diffchange-background-color: #51b85694; 
-    --diff-context-background-color: #809ac736;
+    --diff-context-background-color: #4b473c36;
     --diff-context-text-color: #e0e0e0;
     --diff-context-border-color: #9b9b9b;
-    --pagehist-selected-background-color: #261433;
+    --pagehist-selected-background-color: #baced3;
     --pagehist-selected-text-color: var(--content-text-color);
     --pagehist-last-visit-color: #000;
 }
@@ -248,31 +248,31 @@
 
 /* #region OOUI theming variables */
 :root {
-    --wmui-color-base0: #a6d9eb;
-    --wmui-color-base10: #8ec9e1;
-    --wmui-color-base20: #a4d7fb;
-    --wmui-color-base30: #729bb5;
-    --wmui-color-base50: #4a839a;
-    --wmui-color-base70: #714c80;
-    --wmui-color-base80: #3f214a;
-    --wmui-color-base90: #371943;
-    --wmui-color-base100: #28112b;
-    --wmui-color-accent30: #58a3cd;
-    --wmui-color-accent50: #400925;
-    --wmui-color-accent90: #94c2e9;
+    --wmui-color-base0: #2f2003;
+    --wmui-color-base10: #100e01;
+    --wmui-color-base20: #0098d5;
+    --wmui-color-base30: #0f1e02;
+    --wmui-color-base50: #49671d;
+    --wmui-color-base70: #e3e8b7;
+    --wmui-color-base80: #d1e3e0;
+    --wmui-color-base90: #f5fae1;
+    --wmui-color-base100: #d7efd8;
+    --wmui-color-accent30: #b56b07;
+    --wmui-color-accent50: #400c09;
+    --wmui-color-accent90: #8d480f;
     --wmui-color-red30: #711616;
-    --wmui-color-red50: #9d2222;
-    --wmui-color-red90: #390d0b;
+    --wmui-color-red50: #c82c2c;
+    --wmui-color-red90: #e7a5a2;
     --wmui-color-yellow30: #ac6600;
     --wmui-color-yellow50: #edab00;
-    --wmui-color-yellow90: #53410a;
-    --wmui-color-green30: #14866d;
+    --wmui-color-yellow90: #ffe89e;
+    --wmui-color-green30: #0c6c3a;
     --wmui-color-green50: #00af89;
-    --wmui-color-green90: #0d3129;
+    --wmui-color-green90: #a2dea4;
     --wmui-color-green700: #096450;
-    --wmui-color-base10--lighten: #a6e4fa;
-    --wmui-color-accent50--lighten: #6e9bc3;
-    --wmui-color-red50--lighten: #b62929;
+    --wmui-color-base10--lighten: #102802;
+    --wmui-color-accent50--lighten: #733802;
+    --wmui-color-red50--lighten: #971111;
     --wmui-color-green50--lighten: #1c6665;
     --wmui-color-purple50: #6b4ba1;
     --wmui-background-color-base: var(--wmui-color-base100);
@@ -300,11 +300,11 @@
     --wmui-color-base: var(--wmui-color-base10);
     --wmui-color-base--hover: var(--wmui-color-base10--lighten);
     --wmui-color-base--active: var(--wmui-color-base0);
-    --wmui-color-base--inverted: #030515;
+    --wmui-color-base--inverted: #f9fce6;
     --wmui-color-base--emphasized: var(--wmui-color-base0);
     --wmui-color-base--subtle: var(--wmui-color-base30);
     --wmui-color-base--disabled: var(--wmui-color-base30);
-    --wmui-color-filled--disabled: var(--wmui-color-base--inverted);
+    --wmui-color-filled--disabled: #495945;
     --wmui-color-accessory: var(--wmui-color-base20);
     --wmui-color-placeholder: var(--wmui-color-base30);
     --wmui-background-color-primary: var(--wmui-color-accent90);
@@ -332,7 +332,7 @@
     --wmui-border-color-dialog: var(--wmui-border-color-base);
     --wmui-border-color-menu: var(--wmui-border-color-base);
     --wmui-border-color-base: var(--wmui-color-base50);
-    --wmui-border-color-base--darken14: var(    --wmui-color-base20);
+    --wmui-border-color-base--darken14:var(--wmui-color-base50);
     --wmui-border-color-base--hover: var(--wmui-color-base50);
     --wmui-border-color-base--active: var(--wmui-color-base30);
     --wmui-border-color-base--focus: var(--wmui-color-primary--focus);
@@ -374,7 +374,7 @@
     --wmui-background-color-backdrop-light: rgba(255, 255, 255, 0.65);
     --wmui-color-base--deemphasized: var(--wmui-color-base20);
     --wmui-color-taboption: var(--wmui-color-base--hover);
-    --wmui-color-destructive-non-primary: #ff2424;
+    --wmui-color-destructive-non-primary: #ae1600;
     --wmui-border-color-framed-progressive--hover: var(--wmui-color-primary--hover);
     --wmui-border-color-framed-destructive--hover: var(--wmui-color-destructive--hover);
     --wmui-border-color-frameless: transparent;
