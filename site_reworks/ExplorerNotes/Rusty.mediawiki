@@ -19,35 +19,35 @@ Rusty Stafford is from modern day Kentucky.
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Grad Journal Rusty #1 (Aberration)
-| text = Well we ain't in Kentucky no more, I can tell you that. Never heard of a cave this big, and sure as hell ain't heard of no glowing rocks. Even Uncle Chester'd be pinching himself if he could see this, and he thinks a tribe of mutant squirrels runs the government.<br/><br/>Good news: I ain't in this boat alone. Bad news: I'm sharing it with a bunch of know-it-all city boys and one quiet city girl. Maybe they know what's what in a classroom, but they're all wet behind the ears when it comes to real survival. Man versus nature and all that.<br/><br/>Looks like it'll be up to me to save the day then. Like my pappy always said: if you want a cat skinned right, do it your damn self.
+| transcript = Well we ain't in Kentucky no more, I can tell you that. Never heard of a cave this big, and sure as hell ain't heard of no glowing rocks. Even Uncle Chester'd be pinching himself if he could see this, and he thinks a tribe of mutant squirrels runs the government.<br/><br/>Good news: I ain't in this boat alone. Bad news: I'm sharing it with a bunch of know-it-all city boys and one quiet city girl. Maybe they know what's what in a classroom, but they're all wet behind the ears when it comes to real survival. Man versus nature and all that.<br/><br/>Looks like it'll be up to me to save the day then. Like my pappy always said: if you want a cat skinned right, do it your damn self.
 | author = Rusty
 | icon = NoteGradStudent.png
 }}
 
 {{Explorer Note
 | title = Grad Journal Rusty #2 (Aberration)
-| text = One of these days, I'm gonna knock Trent's flapping jaw right back to Jersey! Boy thinks the sun comes up just to hear him crow. Not that the sun rises regular like around here, but y'all get the point.<br/><br/>And Imamu? Don't know why everyone listens to him. I'm the one putting food on the table. Back home if we didn't hunt, we didn't eat, so I just made myself a bow and went to work. Nothing to it.<br/><br/>At least Emilia's helped me make some tools. She's timid as a mouse, but sharp as those picks we fashioned. They oughta help us get past these rock walls. Ain't too sure about giving one to that Rusky fella, Boris, but like my cousin Otis always said: keep your enemies close, and a gun closer.
+| transcript = One of these days, I'm gonna knock Trent's flapping jaw right back to Jersey! Boy thinks the sun comes up just to hear him crow. Not that the sun rises regular like around here, but y'all get the point.<br/><br/>And Imamu? Don't know why everyone listens to him. I'm the one putting food on the table. Back home if we didn't hunt, we didn't eat, so I just made myself a bow and went to work. Nothing to it.<br/><br/>At least Emilia's helped me make some tools. She's timid as a mouse, but sharp as those picks we fashioned. They oughta help us get past these rock walls. Ain't too sure about giving one to that Rusky fella, Boris, but like my cousin Otis always said: keep your enemies close, and a gun closer.
 | author = Rusty
 | icon = NoteGradStudent.png
 }}
 
 {{Explorer Note
 | title = Grad Journal Rusty #3 (Aberration)
-| text = Hell yeah! I bagged him!<br/><br/>So there I was, stalking through the brush like a lion...or a bear...or a bear-lion. Anyway we'd come up over that rock wall a while back, so I figured I'd rustle up some supper.<br/><br/>That's when I saw him: the biggest damn rat to ever live. I mean this fella was so huge, his footsteps sounded like he'd turned the ground into a drum, but I caught him dead in the eye! Rat meat ain't exactly a t-bone steak, but it'll feed us for days. <br/><br/>Bet this gets everyone kissing my boots like they're covered in honey, even Imamu! Like my ma's great-aunt Bessie always said: respect ain't given, it's eaten.
+| transcript = Hell yeah! I bagged him!<br/><br/>So there I was, stalking through the brush like a lion...or a bear...or a bear-lion. Anyway we'd come up over that rock wall a while back, so I figured I'd rustle up some supper.<br/><br/>That's when I saw him: the biggest damn rat to ever live. I mean this fella was so huge, his footsteps sounded like he'd turned the ground into a drum, but I caught him dead in the eye! Rat meat ain't exactly a t-bone steak, but it'll feed us for days. <br/><br/>Bet this gets everyone kissing my boots like they're covered in honey, even Imamu! Like my ma's great-aunt Bessie always said: respect ain't given, it's eaten.
 | author = Rusty
 | icon = NoteGradStudent.png
 }}
 
 {{Explorer Note
 | title = Grad Journal Rusty #4 (Aberration)
-| text = It ain't right! I killed the varmint that pretty-boy Trent was stuffing his face with, and he's still got the stones to laugh at me just because I stumbled over my words again. So what if I can't talk like Imamu? What's Trent done, earn some trophies playing pigskin back home? I've been keeping us alive!<br/><br/>Still shouldn't have made a fuss over it. Boris had to hold me back or else I'd have...and now? Trent's avoiding me, Imamu's scolding me and Emilia's too scared to even look at me.<br/><br/>It's like my second cousin, twice removed, Ernest, always said: if you lose your temper, you'd best make sure you find it, because tempers are mighty expensive.
+| transcript = It ain't right! I killed the varmint that pretty-boy Trent was stuffing his face with, and he's still got the stones to laugh at me just because I stumbled over my words again. So what if I can't talk like Imamu? What's Trent done, earn some trophies playing pigskin back home? I've been keeping us alive!<br/><br/>Still shouldn't have made a fuss over it. Boris had to hold me back or else I'd have...and now? Trent's avoiding me, Imamu's scolding me and Emilia's too scared to even look at me.<br/><br/>It's like my second cousin, twice removed, Ernest, always said: if you lose your temper, you'd best make sure you find it, because tempers are mighty expensive.
 | author = Rusty
 | icon = NoteGradStudent.png
 }}
 
 {{Explorer Note
 | title = Grad Journal Rusty #5 (Aberration)
-| text = I can't stand it no more. They think I don't hear all that whispering about how I how I ain't stable? How I can't be trusted?<br/><br/>Well fine. These new caves are even stranger than before, with all the glowing and whatnot, and I bet they've got even nastier critters lurking about. If I can bag myself one of those, they'll realize I'm as trustworthy as the day is long. Maybe Emilia will even speak to me again.<br/><br/>Like my ancestor, the great pioneer Floyd-William Stafford the Third always said: the only way a man can be a man is if he's man enough to know when it's time to be a man. And right now? It's time for Rusty Stafford to be a man!
+| transcript = I can't stand it no more. They think I don't hear all that whispering about how I how I ain't stable? How I can't be trusted?<br/><br/>Well fine. These new caves are even stranger than before, with all the glowing and whatnot, and I bet they've got even nastier critters lurking about. If I can bag myself one of those, they'll realize I'm as trustworthy as the day is long. Maybe Emilia will even speak to me again.<br/><br/>Like my ancestor, the great pioneer Floyd-William Stafford the Third always said: the only way a man can be a man is if he's man enough to know when it's time to be a man. And right now? It's time for Rusty Stafford to be a man!
 | author = Rusty
 | icon = NoteGradStudent.png
 }}</div>

@@ -19,210 +19,210 @@ John Dahkeya is a gang leader and robber turned lawman. He appears to be an Apac
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Dahkeya Note #1 (Scorched Earth)
-| text = Old habits die hard. I suppose I'm living proof.<br/><br/>I woke up stark naked who knows where with who knows what lodged in my arm, but just weeks later and I’m already back to robbing folks at gunpoint. This place may not be Texas or the Arizona Territory, but I’m the same John Dahkeya.<br/><br/>I don’t know why that makes me restless. I didn’t mind this life before, but then I didn’t exactly choose it. I just stumbled into it, or at least that’s what I told myself. So much for that. Maybe this is just who I am.
+| transcript = Old habits die hard. I suppose I'm living proof.<br/><br/>I woke up stark naked who knows where with who knows what lodged in my arm, but just weeks later and I’m already back to robbing folks at gunpoint. This place may not be Texas or the Arizona Territory, but I’m the same John Dahkeya.<br/><br/>I don’t know why that makes me restless. I didn’t mind this life before, but then I didn’t exactly choose it. I just stumbled into it, or at least that’s what I told myself. So much for that. Maybe this is just who I am.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #2 (Scorched Earth)
-| text = Sometimes the pennies a man won’t part with willingly are worth less than the words he’ll share with any stranger. Some of my new partners don’t see that.<br/><br/>Blondie’s particularly blind to it. He’s always looking for an excuse to pull the trigger, and he’s stubborn as hell. He even still gets mad we call him Blondie, as if any of us can pronounce that name of his.<br/><br/>But if Blondie were calling the shots, that hunter wouldn’t have told us about the group gathering to the southeast, and they’ll have a lot more for the taking than animal hides.
+| transcript = Sometimes the pennies a man won’t part with willingly are worth less than the words he’ll share with any stranger. Some of my new partners don’t see that.<br/><br/>Blondie’s particularly blind to it. He’s always looking for an excuse to pull the trigger, and he’s stubborn as hell. He even still gets mad we call him Blondie, as if any of us can pronounce that name of his.<br/><br/>But if Blondie were calling the shots, that hunter wouldn’t have told us about the group gathering to the southeast, and they’ll have a lot more for the taking than animal hides.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #3 (Scorched Earth)
-| text = I can’t believe how easy this was. There weren’t many guards here to begin with, and the few they’ve got are more likely to shoot you a smile than a bullet. We just walked right in.<br/><br/>The settlement is even bigger than we expected. It’s impressive, protection aside. Everyone working together to build their own little paradise, not that it’ll last. If you ask them, they’ll credit their leader, a woman called Raia.<br/><br/>The others have spread out to find where the supplies are stored, but I’m feeling curious. Maybe I’ll go find this mystery woman. Might be interesting.
+| transcript = I can’t believe how easy this was. There weren’t many guards here to begin with, and the few they’ve got are more likely to shoot you a smile than a bullet. We just walked right in.<br/><br/>The settlement is even bigger than we expected. It’s impressive, protection aside. Everyone working together to build their own little paradise, not that it’ll last. If you ask them, they’ll credit their leader, a woman called Raia.<br/><br/>The others have spread out to find where the supplies are stored, but I’m feeling curious. Maybe I’ll go find this mystery woman. Might be interesting.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #4 (Scorched Earth)
-| text = I don’t know what brought me to this desert. My old man would say it was the spirits of our ancestors. Other folks might say God. Whatever it was, after talking to that woman, I realize now that I’ve been wasting what it’s given to me.<br/><br/>I have no history here. There are no posters showing off my sneering face, no posses hunting me. I can be any man I choose. So today, I’m making a choice – the folks here don’t deserve to be robbed. What they deserve is protection, and I’m the man to protect them.<br/><br/>Hell, maybe they’ll even call me Sheriff.
+| transcript = I don’t know what brought me to this desert. My old man would say it was the spirits of our ancestors. Other folks might say God. Whatever it was, after talking to that woman, I realize now that I’ve been wasting what it’s given to me.<br/><br/>I have no history here. There are no posters showing off my sneering face, no posses hunting me. I can be any man I choose. So today, I’m making a choice – the folks here don’t deserve to be robbed. What they deserve is protection, and I’m the man to protect them.<br/><br/>Hell, maybe they’ll even call me Sheriff.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #5 (Scorched Earth)
-| text = Blondie didn't approve of my decision. I've never been very good at persuasion, so I let my pistol make my case. The others saw it my way after that.<br/><br/>Convincing Raia was a lot less trouble. She knew the settlement's guards weren't exactly the cream of the crop, and that if I'd wanted trouble, I'd have already made it. When Raia talks, people listen. I can tell that much from watching her, but in a lawless place like this, words aren't enough. It didn't take long for us to come to terms.<br/><br/>Well, I suppose I'd better inspect the troops. Maybe a few of them can shoot.
+| transcript = Blondie didn't approve of my decision. I've never been very good at persuasion, so I let my pistol make my case. The others saw it my way after that.<br/><br/>Convincing Raia was a lot less trouble. She knew the settlement's guards weren't exactly the cream of the crop, and that if I'd wanted trouble, I'd have already made it. When Raia talks, people listen. I can tell that much from watching her, but in a lawless place like this, words aren't enough. It didn't take long for us to come to terms.<br/><br/>Well, I suppose I'd better inspect the troops. Maybe a few of them can shoot.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #6 (Scorched Earth)
-| text = Now I know how the old man felt while he was teaching me how to hunt. We stopped seeing eye to eye even before I left the tribe, but I'll always thank him for the time he spent telling me the same damn things over and over again. Must have drove him wold inside, but he never showed it.<br/><br/>Hasn't been easy to imitate that patience. Half of this sorry bunch is green as grass, and the half that isn't would rather hold a spear than a gun. At least they're improving, even if it's at the speed of molasses.<br/><br/>Her highness stops by on occasion, but thankfully it's just for a gander. This'd be even harder with distractions.
+| transcript = Now I know how the old man felt while he was teaching me how to hunt. We stopped seeing eye to eye even before I left the tribe, but I'll always thank him for the time he spent telling me the same damn things over and over again. Must have drove him wold inside, but he never showed it.<br/><br/>Hasn't been easy to imitate that patience. Half of this sorry bunch is green as grass, and the half that isn't would rather hold a spear than a gun. At least they're improving, even if it's at the speed of molasses.<br/><br/>Her highness stops by on occasion, but thankfully it's just for a gander. This'd be even harder with distractions.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #7 (Scorched Earth)
-| text = My patchwork posse had their first real test today. Some of our gatherers ran into those big lizards a few miles west of the village, and one of them managed to come call for help. Luckily the others had tucked themselves away in an outcropping and we got everyone back safe and sound.<br/><br/>Well, except for the Frenchman. He forgot that when you shoot at those big bastards, they'll shoot right back. Took them hours to get those barbs out of his arm.<br/><br/>When we got back, I think I heard the words thank you more than any other day in my life. I didn't real know what to say in return.
+| transcript = My patchwork posse had their first real test today. Some of our gatherers ran into those big lizards a few miles west of the village, and one of them managed to come call for help. Luckily the others had tucked themselves away in an outcropping and we got everyone back safe and sound.<br/><br/>Well, except for the Frenchman. He forgot that when you shoot at those big bastards, they'll shoot right back. Took them hours to get those barbs out of his arm.<br/><br/>When we got back, I think I heard the words thank you more than any other day in my life. I didn't real know what to say in return.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #8 (Scorched Earth)
-| text = The townsfolk may be grateful for my protection, but that doesn't mean they like me. I don't mind. If they're looking for social graces, they ought to find her highness.<br/><br/>Raia hates that nickname. She thinks I'm calling her stuck up, and I suppose I am. Just a little. Can't imagine the woman's hands ever saw callus before she got here.<br/><br/>That's not the whole of it, though. Take this business with that tower. She's got folks from all sorts of places praying to the dam* thing, and she never really asked them to. They just want to follow her lead. It's like she's wearing an invisible crown. Can't decide wether that's comforting or concerning.
+| transcript = The townsfolk may be grateful for my protection, but that doesn't mean they like me. I don't mind. If they're looking for social graces, they ought to find her highness.<br/><br/>Raia hates that nickname. She thinks I'm calling her stuck up, and I suppose I am. Just a little. Can't imagine the woman's hands ever saw callus before she got here.<br/><br/>That's not the whole of it, though. Take this business with that tower. She's got folks from all sorts of places praying to the dam* thing, and she never really asked them to. They just want to follow her lead. It's like she's wearing an invisible crown. Can't decide wether that's comforting or concerning.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #9 (Scorched Earth)
-| text = My band of misfit lawmen may finally be coming together. It's been a whole week since someone shot themselves in the leg or pissed their britches over a raptor. Maybe I'll finally be able to get some decent shut eye.<br/><br/>Probably too much to hope for. Every day, Nosti grows a little bigger and I have a few more problems to solve. These giant bugs from the other day, for example. Found two of them playing around with a pickaxe a few miles north of the river. I've never heard of any animals using tools, not outside of the legends the elders used to tell about Big Owl and Coyote. Doesn't seem natural. 
+| transcript = My band of misfit lawmen may finally be coming together. It's been a whole week since someone shot themselves in the leg or pissed their britches over a raptor. Maybe I'll finally be able to get some decent shut eye.<br/><br/>Probably too much to hope for. Every day, Nosti grows a little bigger and I have a few more problems to solve. These giant bugs from the other day, for example. Found two of them playing around with a pickaxe a few miles north of the river. I've never heard of any animals using tools, not outside of the legends the elders used to tell about Big Owl and Coyote. Doesn't seem natural. 
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #10 (Scorched Earth)
-| text = Something damaged a water pipe outside of town yesterday, and when a crew went to repair it, they were attacked by a whole mess of mantises. My boys and I drove them off, but we were too late to save the engineers.<br/><br/>I know it sounds crazy, but I think those mantises cut through that pipe on purpose to draw us out. If I'm right, then I'm more concerned about them than anything.<br/><br/>In the stories about Big Owl and Coyote, Big Owl was the huge, scary one, but Coyote was more dangerous because he was clever. He'd trick man and monster alike, and everyone feared him. I never believed those stories, but I sure remember the lesson.
+| transcript = Something damaged a water pipe outside of town yesterday, and when a crew went to repair it, they were attacked by a whole mess of mantises. My boys and I drove them off, but we were too late to save the engineers.<br/><br/>I know it sounds crazy, but I think those mantises cut through that pipe on purpose to draw us out. If I'm right, then I'm more concerned about them than anything.<br/><br/>In the stories about Big Owl and Coyote, Big Owl was the huge, scary one, but Coyote was more dangerous because he was clever. He'd trick man and monster alike, and everyone feared him. I never believed those stories, but I sure remember the lesson.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #11 (Scorched Earth)
-| text = I was worried that Raia would fight some of the new precautions my boys have been taking, but I guess I've earned a looser leash. I suppose I ought to lay off the "highness" talk then. Seems only fair.<br/><br/>The other day we even shot the breeze a little. First time we've talked about something besides what needs doing. Seems we're both a little worn out.<br/><br/>Unlike me, she's used to being respectable and responsible, but being in charge means everyone wants your time and attention.<br/><br/>This place hasn't been easy on either of us or anyone else, but I'm still kicking so far. Come what may, I don't plan on stopping.
+| transcript = I was worried that Raia would fight some of the new precautions my boys have been taking, but I guess I've earned a looser leash. I suppose I ought to lay off the "highness" talk then. Seems only fair.<br/><br/>The other day we even shot the breeze a little. First time we've talked about something besides what needs doing. Seems we're both a little worn out.<br/><br/>Unlike me, she's used to being respectable and responsible, but being in charge means everyone wants your time and attention.<br/><br/>This place hasn't been easy on either of us or anyone else, but I'm still kicking so far. Come what may, I don't plan on stopping.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #12 (Scorched Earth)
-| text = Something like this was bound to happen one day. The bigger the town gets, the more value Raia has to it, and what happens to valuable things? People try to steal them.<br/><br/>It wasn't a bad idea, holding her for ransom like that. Too bad for those raiders this is my town.<br/><br/>I picked most of them off with a rifle as they tried to force her onto a pack animal, and my men finished a few others as they fled. One tried surrendering, but I had to send a message. If you pull a stunt like that in my goddamn town, you wont get any mercy. Not a single shred of it.
+| transcript = Something like this was bound to happen one day. The bigger the town gets, the more value Raia has to it, and what happens to valuable things? People try to steal them.<br/><br/>It wasn't a bad idea, holding her for ransom like that. Too bad for those raiders this is my town.<br/><br/>I picked most of them off with a rifle as they tried to force her onto a pack animal, and my men finished a few others as they fled. One tried surrendering, but I had to send a message. If you pull a stunt like that in my goddamn town, you wont get any mercy. Not a single shred of it.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #13 (Scorched Earth)
-| text = That woman's got some nerve. I save her hide and the next day, Raia's scolding me for putting down a "defenseless" kidnapper. Hardly even thanked me first.<br/><br/>What did she expect me to do? Give him free room and board for the rest of his days? Let him go so he can tell every bandit in the desert how soft we are?<br/><br/>I told her that if she didn't like the way I protected her then she can protect herself. Should have kept my damn mouth shut. Now I'm stuck teaching her how to shoot three times a week. Gonna be at it forever, too. She couldn't hit a bison's äss from five paces.
+| transcript = That woman's got some nerve. I save her hide and the next day, Raia's scolding me for putting down a "defenseless" kidnapper. Hardly even thanked me first.<br/><br/>What did she expect me to do? Give him free room and board for the rest of his days? Let him go so he can tell every bandit in the desert how soft we are?<br/><br/>I told her that if she didn't like the way I protected her then she can protect herself. Should have kept my damn mouth shut. Now I'm stuck teaching her how to shoot three times a week. Gonna be at it forever, too. She couldn't hit a bison's äss from five paces.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #14 (Scorched Earth)
-| text = I do believe that my pupil is the first dead eye Egyptian priestess the world's ever seen. It took a few months but Raia's too stubborn to quit.<br/><br/>I shouldn't have been so hard on her. Trying to keep your faith and traditions in a dog eat dog world isn't easy. HeIl I couldn't even do it myself, and that was before giant lizards were looking to take a bite out of my backside. <br/><br/>During one lesson, she told me this story about how her goddess had a nice side and a nasty one. I think she meant something else, but the way I see it we're the goddess. She's nice, I'm nasty, and we keep each other in check.
+| transcript = I do believe that my pupil is the first dead eye Egyptian priestess the world's ever seen. It took a few months but Raia's too stubborn to quit.<br/><br/>I shouldn't have been so hard on her. Trying to keep your faith and traditions in a dog eat dog world isn't easy. HeIl I couldn't even do it myself, and that was before giant lizards were looking to take a bite out of my backside. <br/><br/>During one lesson, she told me this story about how her goddess had a nice side and a nasty one. I think she meant something else, but the way I see it we're the goddess. She's nice, I'm nasty, and we keep each other in check.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #15 (Scorched Earth)
-| text = Even after all this time in Nasti, I have trouble sleeping in the same bed every night. Sometimes I'll just toss and turn until I give up and go to sleep beneath the stars.<br/><br/>Hell, I'm not sure we ever slept in (the) same spot twice back in the Russo gang. Thought I'd live that way forever, wild and free like Doc Russo. Probably die guns blazing like him too. Sounded better to me than withering away with the rest of my tribe as the world passed us by.<br/><br/>I don't think Doc would recognize me now. I'm not the "Apache nephew" he taught to read and shoot. Matter of fact, if he were here, I'd probably have to shoot him.
+| transcript = Even after all this time in Nasti, I have trouble sleeping in the same bed every night. Sometimes I'll just toss and turn until I give up and go to sleep beneath the stars.<br/><br/>Hell, I'm not sure we ever slept in (the) same spot twice back in the Russo gang. Thought I'd live that way forever, wild and free like Doc Russo. Probably die guns blazing like him too. Sounded better to me than withering away with the rest of my tribe as the world passed us by.<br/><br/>I don't think Doc would recognize me now. I'm not the "Apache nephew" he taught to read and shoot. Matter of fact, if he were here, I'd probably have to shoot him.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #16 (Scorched Earth)
-| text = I expected those mantises to come back, but not like this. They came at the village from two sides at the same time, and the way they moved... they were more coordinated than any wolf pack. They worked together like men would.<br/><br/>Took nearly half a day to fend them off, and they didn't leave us without scars. If attacks like this become common, we're going to be in a heap of trouble, so I've decided to round up my best men to track these monsters down. We've got to at least find out where they're coming from.
+| transcript = I expected those mantises to come back, but not like this. They came at the village from two sides at the same time, and the way they moved... they were more coordinated than any wolf pack. They worked together like men would.<br/><br/>Took nearly half a day to fend them off, and they didn't leave us without scars. If attacks like this become common, we're going to be in a heap of trouble, so I've decided to round up my best men to track these monsters down. We've got to at least find out where they're coming from.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #17 (Scorched Earth)
-| text = We've been tracking these damn things for ages. I can't believe the traveled so far just to attack us. Something like that has to be deliberate. I already knew these bugs were smart, but if they're that determined to kill us, then we've got to wipe them out here and now.<br/><br/>That's easier said than done. There's a whole mess of them here. Can't say I've heard of any mantises living in a group like this, but I'm no expert when it comes to animals. Certainly not in this crazy place.<br/><br/>At any rate, I've got to come up with some kind of plan. Shooting them one by one won't do the trick.
+| transcript = We've been tracking these damn things for ages. I can't believe the traveled so far just to attack us. Something like that has to be deliberate. I already knew these bugs were smart, but if they're that determined to kill us, then we've got to wipe them out here and now.<br/><br/>That's easier said than done. There's a whole mess of them here. Can't say I've heard of any mantises living in a group like this, but I'm no expert when it comes to animals. Certainly not in this crazy place.<br/><br/>At any rate, I've got to come up with some kind of plan. Shooting them one by one won't do the trick.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #18 (Scorched Earth)
-| text = I'm glad I decided to take Sasha with me. The Russian showed up in Nosty less than a month ago, but she already knew her way around a gun. Says she learned it in a place called Gru. Never heard of it, but apperently they teach you all sorts of tricks there like how to make bombs more powerful than dynamite.<br/><br/>The caves the mantises are holed up in are filled with sulfur, so if we set Sasha's bombs in the right spot, we should be able to wipe them all out at once...provided we can shoot our way in and out without becoming mantis chow.<br/><br/>Well "Captain," time to earn your title.
+| transcript = I'm glad I decided to take Sasha with me. The Russian showed up in Nosty less than a month ago, but she already knew her way around a gun. Says she learned it in a place called Gru. Never heard of it, but apperently they teach you all sorts of tricks there like how to make bombs more powerful than dynamite.<br/><br/>The caves the mantises are holed up in are filled with sulfur, so if we set Sasha's bombs in the right spot, we should be able to wipe them all out at once...provided we can shoot our way in and out without becoming mantis chow.<br/><br/>Well "Captain," time to earn your title.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #19 (Scorched Earth)
-| text = I can't recall the journey back to town, but I remember the caverns. The mantises didn't take too kindly to our intrusion. Took half my men with them before we blew them to hell.<br/><br/>Well, most of them. One came at us while we were celebrating and I pushed Sasha out of the way like a damn fool. Nearly got myself skewered.<br/><br/>Now Raia's got me all cooped up until I finish recovering. Threatened to tie me to the bed if I tried to leave. I'd probably drive myself nuts if she didn't keep me company so often. She was even here when I first woke up. I admit, I was glad to see the sight.
+| transcript = I can't recall the journey back to town, but I remember the caverns. The mantises didn't take too kindly to our intrusion. Took half my men with them before we blew them to hell.<br/><br/>Well, most of them. One came at us while we were celebrating and I pushed Sasha out of the way like a damn fool. Nearly got myself skewered.<br/><br/>Now Raia's got me all cooped up until I finish recovering. Threatened to tie me to the bed if I tried to leave. I'd probably drive myself nuts if she didn't keep me company so often. She was even here when I first woke up. I admit, I was glad to see the sight.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #20 (Scorched Earth)
-| text = How long have I wanted this? I can't place it exactly, but it feels like I always have. I suppose that's how I know it's right.<br/><br/>It's not just that Raia's beautiful. I've known beautiful women before, but I never got the same feeling when I looked at them. I never felt this at home around them, or anyone for that matter. What happened between us when I was stuck in that room, it wasn't a heat of the moment decision. At least I don't think.<br/><br/>All I know is that now, I don't mind sleeping in the same bed every night. Not anymore.
+| transcript = How long have I wanted this? I can't place it exactly, but it feels like I always have. I suppose that's how I know it's right.<br/><br/>It's not just that Raia's beautiful. I've known beautiful women before, but I never got the same feeling when I looked at them. I never felt this at home around them, or anyone for that matter. What happened between us when I was stuck in that room, it wasn't a heat of the moment decision. At least I don't think.<br/><br/>All I know is that now, I don't mind sleeping in the same bed every night. Not anymore.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #21 (Scorched Earth)
-| text = Maybe I should change my name again. Seems fitting. I started calling myself John about a week after joining up with Doc Russo. The others never called me Dahkeya anyway, so I figured they may as well call me by a name I chose myself.<br/><br/>That was part of it, but I think that deep down, I also knew that the boy who earned the name Dahkeya was gone for good. Now I think the outlaw named John Dahkeya is gone too, so it would make sense to call myself something else.<br/><br/>Then again, that may just confuse folks. Probably not worth the hassle. Besides, I kind of like the way it sounds with an Egyptian accent.
+| transcript = Maybe I should change my name again. Seems fitting. I started calling myself John about a week after joining up with Doc Russo. The others never called me Dahkeya anyway, so I figured they may as well call me by a name I chose myself.<br/><br/>That was part of it, but I think that deep down, I also knew that the boy who earned the name Dahkeya was gone for good. Now I think the outlaw named John Dahkeya is gone too, so it would make sense to call myself something else.<br/><br/>Then again, that may just confuse folks. Probably not worth the hassle. Besides, I kind of like the way it sounds with an Egyptian accent.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #22 (Scorched Earth)
-| text = Things have been quiet for a while now. Downright pleasant, even. At least, that was the case until one of our hunting parties went missing about five days ago. Well they're not missing anymore, at least what's left of them.<br/><br/>We scoured every inch of their camp and still can't figure out who attacked them. There aren't many prints from animals, and what ones we found aren't like any creature I've seen. There are scorch marks aplenty, though. Maybe it was a group of raiders with some of those new, flame spewing weapons that I've heard tell about?<br/><br/>Whoever it was, I'll see it to it that they live just long enough to regret it.
+| transcript = Things have been quiet for a while now. Downright pleasant, even. At least, that was the case until one of our hunting parties went missing about five days ago. Well they're not missing anymore, at least what's left of them.<br/><br/>We scoured every inch of their camp and still can't figure out who attacked them. There aren't many prints from animals, and what ones we found aren't like any creature I've seen. There are scorch marks aplenty, though. Maybe it was a group of raiders with some of those new, flame spewing weapons that I've heard tell about?<br/><br/>Whoever it was, I'll see it to it that they live just long enough to regret it.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #23 (Scorched Earth)
-| text = We finally tracked down our culprit this morning, and damn was he one big, mean son of a gun. He had wings like a bat, a head like lizard and spat fire from his mouth. I've never seen anything like it, not even here. Fortunately, anything will die if you put enough bullets in its head.<br/><br/>One of my men called it a wyvern, but he'd never actually seen one before. Said it was just a legend. No one in town had seen one either.<br/><br/>So where'd it come from? Did it just suddenly fly here from parts unknown? This whole affair doesn't sit right with me. Gives me a bad feeling.
+| transcript = We finally tracked down our culprit this morning, and damn was he one big, mean son of a gun. He had wings like a bat, a head like lizard and spat fire from his mouth. I've never seen anything like it, not even here. Fortunately, anything will die if you put enough bullets in its head.<br/><br/>One of my men called it a wyvern, but he'd never actually seen one before. Said it was just a legend. No one in town had seen one either.<br/><br/>So where'd it come from? Did it just suddenly fly here from parts unknown? This whole affair doesn't sit right with me. Gives me a bad feeling.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #24 (Scorched Earth)
-| text = Folks have been spotting a lot more of these wyvern creatures, and they're not just throwing fire every which way, either. Some spit lightning or acid.<br/><br/>On top of that, those big pillars are acting funny. I checked with Sasha, since she doesn't buy into that Hathor business, and she sees it too. It's making me restless. Between this and the mantises, it's starting to feel like this place wants us gone.<br/><br/>I know that can't be right. There were no spirits of the land to stop the frontiersman back home, and there are none here. Still, I should talk to Raia. If that tower's dangerous, she shouldn't be worshipping it.
+| transcript = Folks have been spotting a lot more of these wyvern creatures, and they're not just throwing fire every which way, either. Some spit lightning or acid.<br/><br/>On top of that, those big pillars are acting funny. I checked with Sasha, since she doesn't buy into that Hathor business, and she sees it too. It's making me restless. Between this and the mantises, it's starting to feel like this place wants us gone.<br/><br/>I know that can't be right. There were no spirits of the land to stop the frontiersman back home, and there are none here. Still, I should talk to Raia. If that tower's dangerous, she shouldn't be worshipping it.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #25 (Scorched Earth)
-| text = I shouldn't have expected her to listen. Raia's kept her faith this long, so there was no way a few wyverns and a talking to were going to change that, even if that talking to came from me.<br/><br/>Still, I'm not about to take any chances. Whether it's wyverns, mantises or giant towers, nothing's harming this town and it's especially not harming her. Her prayer groups are getting extra guards and I don't care if she likes it.<br/><br/>I expect she won't. In fact, I'll probably have to sleep under the stars for the for the next few nights. Oh well. I suppose that's what you'd call a "long-term investment".
+| transcript = I shouldn't have expected her to listen. Raia's kept her faith this long, so there was no way a few wyverns and a talking to were going to change that, even if that talking to came from me.<br/><br/>Still, I'm not about to take any chances. Whether it's wyverns, mantises or giant towers, nothing's harming this town and it's especially not harming her. Her prayer groups are getting extra guards and I don't care if she likes it.<br/><br/>I expect she won't. In fact, I'll probably have to sleep under the stars for the for the next few nights. Oh well. I suppose that's what you'd call a "long-term investment".
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #26 (Scorched Earth)
-| text = For all my caution, I could have never prepared for this.<br/><br/>Yesterday, the towers started flashing and glowing like a damn lightning storm. When I saw that, I saddled up one of our cats and went to find Raia as fast as I could. Within minutes, the ground was crumbling beneath us, like the land was trying to swallow the Nosti whole.<br/><br/>Once I swung Raia up onto the saddle, I had to ride like a man possessed, our cat leaping across broken buildings as they slipped into the ground. Even then we barely made it, but we're the only ones. I spotted Sasha hanging onto a ledge as we escaped, but I couldn't get to him in time.<br/><br/>We're all that's left.
+| transcript = For all my caution, I could have never prepared for this.<br/><br/>Yesterday, the towers started flashing and glowing like a damn lightning storm. When I saw that, I saddled up one of our cats and went to find Raia as fast as I could. Within minutes, the ground was crumbling beneath us, like the land was trying to swallow the Nosti whole.<br/><br/>Once I swung Raia up onto the saddle, I had to ride like a man possessed, our cat leaping across broken buildings as they slipped into the ground. Even then we barely made it, but we're the only ones. I spotted Sasha hanging onto a ledge as we escaped, but I couldn't get to him in time.<br/><br/>We're all that's left.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #27 (Scorched Earth)
-| text = I wish I were better with words. I just don't know what to tell Raia after all that's happened. A loss like that is always going to ache, but nothing I do or say seems to ease the hurt at all. You know things are ugly when I'm the optimistic one.<br/><br/>For now, I've just got to keep us focused on staying alive, step by step. We're going back to the basics: finding water, finding food and finding shelter. This snaggletoothed cat and I are all she's got left, and that means I've got to be steady for her. Somehow, we'll make it through this.
+| transcript = I wish I were better with words. I just don't know what to tell Raia after all that's happened. A loss like that is always going to ache, but nothing I do or say seems to ease the hurt at all. You know things are ugly when I'm the optimistic one.<br/><br/>For now, I've just got to keep us focused on staying alive, step by step. We're going back to the basics: finding water, finding food and finding shelter. This snaggletoothed cat and I are all she's got left, and that means I've got to be steady for her. Somehow, we'll make it through this.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #28 (Scorched Earth)
-| text = So far so good. The cat has helped keep the critters away, so I've conserved ammunition, and we're all stocked up on supplies. For the immediate future, I'd say we're safe and secure.<br/><br/>Further than "immediate" though? I'm not so sure. Neither of us are builders, and there are bigger, tougher animals than long-toothed cats out there. Eventually we'll need to find some new friends. Nosti was the biggest settlement in the desert, but it couldn't have been the only one.<br/><br/>I'd heard rumors that a hunting party had seen some buildings to the west. Sounds like as good a place to start as any.
+| transcript = So far so good. The cat has helped keep the critters away, so I've conserved ammunition, and we're all stocked up on supplies. For the immediate future, I'd say we're safe and secure.<br/><br/>Further than "immediate" though? I'm not so sure. Neither of us are builders, and there are bigger, tougher animals than long-toothed cats out there. Eventually we'll need to find some new friends. Nosti was the biggest settlement in the desert, but it couldn't have been the only one.<br/><br/>I'd heard rumors that a hunting party had seen some buildings to the west. Sounds like as good a place to start as any.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #29 (Scorched Earth)
-| text = Damn it all to hell! I had everything under control. We were going to make it, but I just had to go searching for that town. What a stupid, bone-headed decision!<br/><br/>It's not that the rumor was wrong. There are buildings, all right: crumbling, abandoned buildings that are half-buried in sand...and home to a group of damned wyverns that attacked us on the way in. We managed to give them the slip by taking shelter in this big, circular building, but they've been circling it ever since.<br/><br/>We've got enough supplies for nearly a week. Hopefully they'll lose interest before we start to run dry.
+| transcript = Damn it all to hell! I had everything under control. We were going to make it, but I just had to go searching for that town. What a stupid, bone-headed decision!<br/><br/>It's not that the rumor was wrong. There are buildings, all right: crumbling, abandoned buildings that are half-buried in sand...and home to a group of damned wyverns that attacked us on the way in. We managed to give them the slip by taking shelter in this big, circular building, but they've been circling it ever since.<br/><br/>We've got enough supplies for nearly a week. Hopefully they'll lose interest before we start to run dry.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}
 
 {{Explorer Note
 | title = Dahkeya Note #30 (Scorched Earth)
-| text = The wyverns haven't left. They're fixated on us. Well if they want me so bad, they'll get it. I'm not foolhardy enough to fight them on my own, but I can at least insist that Raia take our mount. If things go south, then she'll have a chance to run.<br/><br/>Raia, if that happens and you're reading this, don't go crying on my account. The time we've had is more than I could have hoped for. Besides, it'd be downright selfish of me to keep you to myself when you've got so much to offer the world.<br/><br/>As for me, I've only got one true talent, and those ugly, overgrown lizards will find out just what that is when I drag them to hell.
+| transcript = The wyverns haven't left. They're fixated on us. Well if they want me so bad, they'll get it. I'm not foolhardy enough to fight them on my own, but I can at least insist that Raia take our mount. If things go south, then she'll have a chance to run.<br/><br/>Raia, if that happens and you're reading this, don't go crying on my account. The time we've had is more than I could have hoped for. Besides, it'd be downright selfish of me to keep you to myself when you've got so much to offer the world.<br/><br/>As for me, I've only got one true talent, and those ugly, overgrown lizards will find out just what that is when I drag them to hell.
 | author = John Dahkeya
 | icon = NoteDahkeya.png
 }}</div>

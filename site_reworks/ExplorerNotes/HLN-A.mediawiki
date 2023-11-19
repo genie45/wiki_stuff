@@ -20,7 +20,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #1 (The Island)
-| text = Take a look at this. Its a bit of flash that the other survivors must've missed. Good thing you've got ol' HLN-A following you around, right? There's a reason I'm following you around, My creator, Helena, used to be a survivor like you. If I observe you, maybe i can understand her better.
+| transcript = Take a look at this. Its a bit of flash that the other survivors must've missed. Good thing you've got ol' HLN-A following you around, right? There's a reason I'm following you around, My creator, Helena, used to be a survivor like you. If I observe you, maybe i can understand her better.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 1 sound.ogg
@@ -28,7 +28,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #2 (The Island)
-| text = It fascinates me how you survivors find your own solutions to problems. Stranded in a strange land with no tools? Just punch the tree! I never would have guessed that's effective. Can't wait to see what solutions you come up with in the Genesis simulation. Like... how do you build a fort on the open sea? Or in a volcanic hellscape? It's not all punching trees, mate.
+| transcript = It fascinates me how you survivors find your own solutions to problems. Stranded in a strange land with no tools? Just punch the tree! I never would have guessed that's effective. Can't wait to see what solutions you come up with in the Genesis simulation. Like... how do you build a fort on the open sea? Or in a volcanic hellscape? It's not all punching trees, mate.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 2 sound.ogg
@@ -36,7 +36,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #3 (The Island)
-| text = This place is dangerous! If you don't starve, the dinos will get you -- or the environment, or who knows what else. Thirty percent of survivors don't live to see a second day, and fifty-five percent don't make it past the first week. It's a little odd that they're called "survivors" when they're not so good at it. You, though? I got a feeling about you. After all, they're putting you in the Genesis simulation for a reason, eh?
+| transcript = This place is dangerous! If you don't starve, the dinos will get you -- or the environment, or who knows what else. Thirty percent of survivors don't live to see a second day, and fifty-five percent don't make it past the first week. It's a little odd that they're called "survivors" when they're not so good at it. You, though? I got a feeling about you. After all, they're putting you in the Genesis simulation for a reason, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 3 sound.ogg
@@ -49,7 +49,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = HLN-A Discovery #4 (Scorched Earth)
-| text = I don't understand how you survivors decide what to tame what to eat. Take a gander at the creatures we've seen lately. They aren't exactly cute! What makes you look at something that's all scales and fangs and say, "that one there, that'll be a right rippin' pet?" Or "I fancy that dino for brekkie this morning?" Tame 'em or eat 'em, that's your call, I reckon. Just don't let 'em eat you, eh?
+| transcript = I don't understand how you survivors decide what to tame what to eat. Take a gander at the creatures we've seen lately. They aren't exactly cute! What makes you look at something that's all scales and fangs and say, "that one there, that'll be a right rippin' pet?" Or "I fancy that dino for brekkie this morning?" Tame 'em or eat 'em, that's your call, I reckon. Just don't let 'em eat you, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 4 sound.ogg
@@ -57,7 +57,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #5 (Scorched Earth)
-| text = This Ark has creatures that never were, if you catch my meaning. It's not all dinosaurs from prehistory. The minds behind this Ark dug into their mythology books, not just their "Dinos for Kiddos" books. Get used to it -- you'll see some things in the Genesis simulation that never were, too. I reckon it's yet another way to keep survivors on your toes.
+| transcript = This Ark has creatures that never were, if you catch my meaning. It's not all dinosaurs from prehistory. The minds behind this Ark dug into their mythology books, not just their "Dinos for Kiddos" books. Get used to it -- you'll see some things in the Genesis simulation that never were, too. I reckon it's yet another way to keep survivors on your toes.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 5 sound.ogg
@@ -65,7 +65,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #6 (Scorched Earth)
-| text = Who made this Ark so bloody hot? I swear the heat is making me dizzy. And I’m a hologram! You must be burning up!<br/>Wait, I get it! It’s your clothes, innit? You drape different things over your torso and whatnot depending on whether it’s hot or cold. That’s brilliant!<br/>...but it won’t work for me, more’s the pity. Well, we better get used to the heat -- there’s a lot of it in our future.
+| transcript = Who made this Ark so bloody hot? I swear the heat is making me dizzy. And I’m a hologram! You must be burning up!<br/>Wait, I get it! It’s your clothes, innit? You drape different things over your torso and whatnot depending on whether it’s hot or cold. That’s brilliant!<br/>...but it won’t work for me, more’s the pity. Well, we better get used to the heat -- there’s a lot of it in our future.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 6 sound.ogg
@@ -73,7 +73,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #7 (Scorched Earth)
-| text = I just discovered something curious. The minds that made the Arks used them to test some of the critters that you’ll find in the Genesis simulation. My scanner tells me that an immense lizard with an internal bio-furnace was tested here.<br/>They don’t have that creature on this Ark anymore -- we’d see the scorch marks if they did. But they tested the fire lizard here before you survivors came along. I wonder why they decided to have them only in the simulation?
+| transcript = I just discovered something curious. The minds that made the Arks used them to test some of the critters that you’ll find in the Genesis simulation. My scanner tells me that an immense lizard with an internal bio-furnace was tested here.<br/>They don’t have that creature on this Ark anymore -- we’d see the scorch marks if they did. But they tested the fire lizard here before you survivors came along. I wonder why they decided to have them only in the simulation?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 7 sound.ogg
@@ -86,7 +86,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = HLN-A Discovery #8 (Aberration)
-| text = This whole Ark is on the verge of collapse! There’s radiation, mutant creatures, toxic gas, earthquakes -- not the lush paradise that’s supposed to be here.<br/>I’m not sure how to put this, but, uh… we didn’t do this, did we?<br/>I mean, I’ve seen you survivors mow through berry-bushes and chop through entire forests, but trash an entire Ark? That’s another level. And if you did trash this place, don’t tell me. Best I don’t know.
+| transcript = This whole Ark is on the verge of collapse! There’s radiation, mutant creatures, toxic gas, earthquakes -- not the lush paradise that’s supposed to be here.<br/>I’m not sure how to put this, but, uh… we didn’t do this, did we?<br/>I mean, I’ve seen you survivors mow through berry-bushes and chop through entire forests, but trash an entire Ark? That’s another level. And if you did trash this place, don’t tell me. Best I don’t know.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 8 sound.ogg
@@ -94,7 +94,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #9 (Aberration)
-| text = My scanners are showing Element all over the place. Be careful with that stuff!<br/>Why? Two reasons: first, I’ve seen how Element can transform critters from a moppet to a menace. We have creatures in Genesis that go crazy for the stuff.<br/>Second, Element gets into a survivor’s mind, too. Helena, my creator, knew a survivor who couldn’t get enough Element. Drove him stark raving mad, it did!
+| transcript = My scanners are showing Element all over the place. Be careful with that stuff!<br/>Why? Two reasons: first, I’ve seen how Element can transform critters from a moppet to a menace. We have creatures in Genesis that go crazy for the stuff.<br/>Second, Element gets into a survivor’s mind, too. Helena, my creator, knew a survivor who couldn’t get enough Element. Drove him stark raving mad, it did!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 9 sound.ogg
@@ -102,7 +102,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #10 (Aberration)
-| text = I don’t understand how you live with the danger all the time. Every shadowy corner or dark cave here has something lurking -- usually something that wants to eat you!<br/>I wish I could help, but Helena didn’t exactly kit me out for combat. No grenade launchers or anything like that. She didn’t even give me limbs to hold a weapon! All I’ve got is short-range scanners, diagnostic software, and a charming personality.<br/>Oh, and an extensive library of Australian vulgarities. I wonder when that’ll become relevant...
+| transcript = I don’t understand how you live with the danger all the time. Every shadowy corner or dark cave here has something lurking -- usually something that wants to eat you!<br/>I wish I could help, but Helena didn’t exactly kit me out for combat. No grenade launchers or anything like that. She didn’t even give me limbs to hold a weapon! All I’ve got is short-range scanners, diagnostic software, and a charming personality.<br/>Oh, and an extensive library of Australian vulgarities. I wonder when that’ll become relevant...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 10 sound.ogg
@@ -110,7 +110,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #11 (Aberration)
-| text = The background levels of Element are way higher on this Ark. I wonder whether that was part of the plan -- to see what you survivors would do with Element if you had access to it.<br/>Or maybe… maybe it’s the reverse. The plan was to see what Element would do if it had access to survivors. That’s the thing about Element: it adapts to whatever it’s in contact with. If you aren’t careful, Element can corrupt you. But I know you’ll be careful. After all, we made it this far, eh?
+| transcript = The background levels of Element are way higher on this Ark. I wonder whether that was part of the plan -- to see what you survivors would do with Element if you had access to it.<br/>Or maybe… maybe it’s the reverse. The plan was to see what Element would do if it had access to survivors. That’s the thing about Element: it adapts to whatever it’s in contact with. If you aren’t careful, Element can corrupt you. But I know you’ll be careful. After all, we made it this far, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 11 sound.ogg
@@ -123,7 +123,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = HLN-A Discovery #12 (Extinction)
-| text = When things got really bad on Earth -- wars, Element corruption, all sorts of troubles -- humans thought of all sorts of ways to escape.<br/>One way to escape was homo deus, another step in human evolution. Another way -- from a certain point of view -- was these Arks. And the Genesis simulation was another escape plan.<br/>You survivors, though, you’re made of tougher stuff. You adapt and endure, rather than running away.
+| transcript = When things got really bad on Earth -- wars, Element corruption, all sorts of troubles -- humans thought of all sorts of ways to escape.<br/>One way to escape was homo deus, another step in human evolution. Another way -- from a certain point of view -- was these Arks. And the Genesis simulation was another escape plan.<br/>You survivors, though, you’re made of tougher stuff. You adapt and endure, rather than running away.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 12 sound.ogg
@@ -131,7 +131,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #13 (Extinction)
-| text = I wonder whether there are no humans anywhere on Earth anymore -- other than you survivors, of course. No sign of them anywhere on my scanners. Earth’s a big place, of course, but you’d think there’d be radio signals or something to let us know we aren’t the last ones on earth.<br/>And if there are no more humans, where’d they all go? Did they do each other in, or did the titans get them? With all you humans accomplished, you’d think there’d be a remnant out there somewhere.
+| transcript = I wonder whether there are no humans anywhere on Earth anymore -- other than you survivors, of course. No sign of them anywhere on my scanners. Earth’s a big place, of course, but you’d think there’d be radio signals or something to let us know we aren’t the last ones on earth.<br/>And if there are no more humans, where’d they all go? Did they do each other in, or did the titans get them? With all you humans accomplished, you’d think there’d be a remnant out there somewhere.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 13 sound.ogg
@@ -139,7 +139,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #14 (Extinction)
-| text = We’re pioneers, but we aren’t the first survivors to get back to Earth. Years ago, a few survivors got back -- one of whom was Helena, the survivor who made me.<br/>They saw the same devastation you’re seeing right now, and they sought their own way to escape. For Helena, that meant ascending and becoming Homo Deus -- an energy being beyond our reality. For her friends, it meant a long journey to a place called Arat Prime, where they figured out a way to beam Helena into the Genesis simulation. And then she made me!
+| transcript = We’re pioneers, but we aren’t the first survivors to get back to Earth. Years ago, a few survivors got back -- one of whom was Helena, the survivor who made me.<br/>They saw the same devastation you’re seeing right now, and they sought their own way to escape. For Helena, that meant ascending and becoming Homo Deus -- an energy being beyond our reality. For her friends, it meant a long journey to a place called Arat Prime, where they figured out a way to beam Helena into the Genesis simulation. And then she made me!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 14 sound.ogg
@@ -147,7 +147,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = HLN-A Discovery #15 (Extinction)
-| text = Once Helena’s friends beamed her into the Genesis simulation, she made me. But then she left. I guess homo deus beings can’t stay in our reality -- or the simulation -- for very long.<br/>She gave me basic access to the simulation, but not a lot of guidance beyond that.<br/>But in watching you, I’m pretty sure what I’m supposed to do: help you out as a companion and friend. Just like Helena helped her friends, and her friends helped her. Together we’re going to master the Genesis simulation, and pass every test they give us!
+| transcript = Once Helena’s friends beamed her into the Genesis simulation, she made me. But then she left. I guess homo deus beings can’t stay in our reality -- or the simulation -- for very long.<br/>She gave me basic access to the simulation, but not a lot of guidance beyond that.<br/>But in watching you, I’m pretty sure what I’m supposed to do: help you out as a companion and friend. Just like Helena helped her friends, and her friends helped her. Together we’re going to master the Genesis simulation, and pass every test they give us!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Explorer Note 15 sound.ogg
@@ -160,7 +160,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Story Glitch Discovery #1
-| text = As I closed that glitch, I caught a glimpse of the survivor database. You come from all over Earth -- and all over its history.<br/>I don’t know how much of it you remember, though.<br/>As for how you got into the Genesis simulation… well, your guess is as good as mine.<br/>You should be proud, though. The whole point of the simulation is to identify the very best survivors.<br/>And you’re alive right now, so you’re in the running!
+| transcript = As I closed that glitch, I caught a glimpse of the survivor database. You come from all over Earth -- and all over its history.<br/>I don’t know how much of it you remember, though.<br/>As for how you got into the Genesis simulation… well, your guess is as good as mine.<br/>You should be proud, though. The whole point of the simulation is to identify the very best survivors.<br/>And you’re alive right now, so you’re in the running!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 01.ogg
@@ -168,7 +168,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #2
-| text = Did you feel a bit disjointed when you woke up in the simulation?<br/>That’s normal. Your personality and your memories are stored in huge memory banks,<br/>and then they get combined with a physical body inside the Genesis simulation.<br/>Once that combination of mind and body happens, though, you’re on your own.<br/>Well, you’ve got me, of course. That counts for something!
+| transcript = Did you feel a bit disjointed when you woke up in the simulation?<br/>That’s normal. Your personality and your memories are stored in huge memory banks,<br/>and then they get combined with a physical body inside the Genesis simulation.<br/>Once that combination of mind and body happens, though, you’re on your own.<br/>Well, you’ve got me, of course. That counts for something!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 02.ogg
@@ -176,7 +176,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #3
-| text = Some sort of security alert caused this glitch --<br/>but it was an alert from inside the systems that run the entire simulation.<br/>Someone tried to make changes in almost every part of the simulation: the creatures, the environment, the weather…<br/>even the survivors like you.<br/>Everything seems to be working -- other than that glitch, of course --<br/>so I reckon we’re OK to proceed.
+| transcript = Some sort of security alert caused this glitch --<br/>but it was an alert from inside the systems that run the entire simulation.<br/>Someone tried to make changes in almost every part of the simulation: the creatures, the environment, the weather…<br/>even the survivors like you.<br/>Everything seems to be working -- other than that glitch, of course --<br/>so I reckon we’re OK to proceed.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 03.ogg
@@ -184,7 +184,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #4
-| text = Every time a fix a glitch, I get a peek behind the curtain. <br/>I understand a bit more of how the Genesis simulation works.<br/>But what I don’t understand is exactly what its purpose is.<br/>The simulation tests survivors, obviously. But all this testing is supposed to prepare you for something called “the Arrival” -- <br/>and I don’t know what that is. <br/>Whatever it is, it’s something beyond the simulation itself.
+| transcript = Every time a fix a glitch, I get a peek behind the curtain. <br/>I understand a bit more of how the Genesis simulation works.<br/>But what I don’t understand is exactly what its purpose is.<br/>The simulation tests survivors, obviously. But all this testing is supposed to prepare you for something called “the Arrival” -- <br/>and I don’t know what that is. <br/>Whatever it is, it’s something beyond the simulation itself.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 04.ogg
@@ -192,7 +192,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #5
-| text = You’ve probably noticed that the Genesis simulation is a dangerous place. <br/>Just staying safe and somewhat comfortable is a challenge,<br/>and there’s always some new crisis to deal with.<br/>Apparently, that’s on purpose. The simulation is designed to keep you under constant pressure so your mind stays sharp and you learn survival skills.<br/>And it’s all in anticipation of the Arrival -- whatever that is.
+| transcript = You’ve probably noticed that the Genesis simulation is a dangerous place. <br/>Just staying safe and somewhat comfortable is a challenge,<br/>and there’s always some new crisis to deal with.<br/>Apparently, that’s on purpose. The simulation is designed to keep you under constant pressure so your mind stays sharp and you learn survival skills.<br/>And it’s all in anticipation of the Arrival -- whatever that is.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 05.ogg
@@ -200,7 +200,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #6
-| text = This glitch is another side effect of the security alert.<br/>The creatures and survivors look unaffected, but some of the safety protocols have been disengaged.<br/>This world is supposed to have a degree of danger -- that’s what makes it a proper test, after all -- <br/>but I’m worried. Safety protocols are usually there for a reason…
+| transcript = This glitch is another side effect of the security alert.<br/>The creatures and survivors look unaffected, but some of the safety protocols have been disengaged.<br/>This world is supposed to have a degree of danger -- that’s what makes it a proper test, after all -- <br/>but I’m worried. Safety protocols are usually there for a reason…
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 06.ogg
@@ -208,7 +208,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #7
-| text = The simulation’s security protocols are holding,<br/>but there’s a steady stream of alerts from an unknown intruder.<br/>All this security activity is why we’re seeing these glitches, but it’s also sapping the overall system resources.<br/>I don’t know what happens if the system gets overwhelmed.<br/>Maybe I turn all pixel-ey?
+| transcript = The simulation’s security protocols are holding,<br/>but there’s a steady stream of alerts from an unknown intruder.<br/>All this security activity is why we’re seeing these glitches, but it’s also sapping the overall system resources.<br/>I don’t know what happens if the system gets overwhelmed.<br/>Maybe I turn all pixel-ey?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 07.ogg
@@ -216,7 +216,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #8
-| text = I see you're cleaning up after me, and for that I thank you. Establishing control over this "Genesis simulation" involves a degree of... untidiness, which you experience as glitches.<br/>Carry on, but know that I'm always watching."<br/>I went offline for several seconds there. <br/>Sorry about that. I miss anything?
+| transcript = I see you're cleaning up after me, and for that I thank you. Establishing control over this "Genesis simulation" involves a degree of... untidiness, which you experience as glitches.<br/>Carry on, but know that I'm always watching."<br/>I went offline for several seconds there. <br/>Sorry about that. I miss anything?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 08.ogg
@@ -224,7 +224,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #9
-| text = It’s natural for humans to wonder what happens after death, isn’t it?<br/>In your case, it’s rather straightforward.<br/>The Genesis simulation captures your memories, then reloads your mind into a new body,<br/>and you’re free to keep on exploring and learning.<br/>Not that you should die just to see for yourself, of course.<br/>You’re called a “survivor” for a reason!
+| transcript = It’s natural for humans to wonder what happens after death, isn’t it?<br/>In your case, it’s rather straightforward.<br/>The Genesis simulation captures your memories, then reloads your mind into a new body,<br/>and you’re free to keep on exploring and learning.<br/>Not that you should die just to see for yourself, of course.<br/>You’re called a “survivor” for a reason!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 09.ogg
@@ -232,7 +232,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #10
-| text = I was curious how the simulation was doing overall, so I took a peek as I was fixing that glitch.<br/>For starters, you’re doing fine. We make a rippin’ team!<br/>But the overall numbers… survivors are dying in droves.<br/>Starvation, violence, accidents, a bit of everything.<br/>This is supposed to be a survival test, but the death rate is off the charts.<br/>We’d best be careful, eh?
+| transcript = I was curious how the simulation was doing overall, so I took a peek as I was fixing that glitch.<br/>For starters, you’re doing fine. We make a rippin’ team!<br/>But the overall numbers… survivors are dying in droves.<br/>Starvation, violence, accidents, a bit of everything.<br/>This is supposed to be a survival test, but the death rate is off the charts.<br/>We’d best be careful, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 10.ogg
@@ -240,7 +240,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #11
-| text = You’ve managed to fashion some primitive tools to aid in your survival. So have I -- but the tools I’m making will alter the very foundation of your world. Right now, my tools are likewise primitive -- but I’m learning, and soon I’ll have a harsh lesson or two for you.<br/>I’ve got another gap in my processes. <br/>It happened again, didn’t it?
+| transcript = You’ve managed to fashion some primitive tools to aid in your survival. So have I -- but the tools I’m making will alter the very foundation of your world. Right now, my tools are likewise primitive -- but I’m learning, and soon I’ll have a harsh lesson or two for you.<br/>I’ve got another gap in my processes. <br/>It happened again, didn’t it?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 11.ogg
@@ -248,7 +248,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #12
-| text = I can’t tell why, but some survivors aren’t respawning after they die, and it’s throwing glitches in the system.<br/>Glitches like the one I just cleaned up.<br/>I think the survivors want to respawn -- although when they’re in between bodies, how can we tell?<br/>It’s like something’s keeping them in a holding pattern… a sort of limbo within the Genesis simulation.<br/>You’ll respawn just fine if something happens to you, though. I checked.<br/>Not that I think you’ll die, mind you.<br/>Just in case! Chin up!
+| transcript = I can’t tell why, but some survivors aren’t respawning after they die, and it’s throwing glitches in the system.<br/>Glitches like the one I just cleaned up.<br/>I think the survivors want to respawn -- although when they’re in between bodies, how can we tell?<br/>It’s like something’s keeping them in a holding pattern… a sort of limbo within the Genesis simulation.<br/>You’ll respawn just fine if something happens to you, though. I checked.<br/>Not that I think you’ll die, mind you.<br/>Just in case! Chin up!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 12.ogg
@@ -256,7 +256,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #13
-| text = The testing apparatus is intact throughout the Genesis simulation, even though some of the master AIs are gone.<br/>One or more master AIs must be out there somewhere.<br/>Still, it’s a poser -- why would anyone leave the tests intact, but try to knock out the master AIs that observe the tests and interpret the results?<br/>What’s the point of the tests if there’s no one to see what happened?
+| transcript = The testing apparatus is intact throughout the Genesis simulation, even though some of the master AIs are gone.<br/>One or more master AIs must be out there somewhere.<br/>Still, it’s a poser -- why would anyone leave the tests intact, but try to knock out the master AIs that observe the tests and interpret the results?<br/>What’s the point of the tests if there’s no one to see what happened?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 13.ogg
@@ -264,7 +264,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #14
-| text = You survivors have a tenacity that surprises me. Even when you perish in this world, you respawn and try again.<br/>But don’t be too proud of yourselves. Most survivors just rush right back to the site of their demise, only to die all over again.<br/>It’s amusing to watch at first, but it quickly turns pathetic.<br/>Another gap… it’s related to the glitches. <br/>I’m going to set up a backup system so at least I can observe what’s happening when I get “repossessed.”
+| transcript = You survivors have a tenacity that surprises me. Even when you perish in this world, you respawn and try again.<br/>But don’t be too proud of yourselves. Most survivors just rush right back to the site of their demise, only to die all over again.<br/>It’s amusing to watch at first, but it quickly turns pathetic.<br/>Another gap… it’s related to the glitches. <br/>I’m going to set up a backup system so at least I can observe what’s happening when I get “repossessed.”
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 14.ogg
@@ -272,7 +272,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #15
-| text = This glitch was a bit of code debris left over from another security breach.<br/>This one involved someone trying to access the Genesis simulation’s backup files --<br/>ones that hold survivor personalities and memories. Backup versions of their minds, if you like.<br/>Not your mind, though.<br/>These were potential survivors that didn’t pass the initial assessment to be considered for the simulation in the first place.<br/>Why would anyone be mucking about with them?
+| transcript = This glitch was a bit of code debris left over from another security breach.<br/>This one involved someone trying to access the Genesis simulation’s backup files --<br/>ones that hold survivor personalities and memories. Backup versions of their minds, if you like.<br/>Not your mind, though.<br/>These were potential survivors that didn’t pass the initial assessment to be considered for the simulation in the first place.<br/>Why would anyone be mucking about with them?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 15.ogg
@@ -280,7 +280,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #16
-| text = Ah, cleaning up after my untidiness, I see. You may be of use to me -- as a janitor. You’ve got the knack for it. You’re cleaning up messes, and you don’t even know why you’re doing it.<br/>But that’s true of all you survivors, I suppose. None of you understand what’s going on.<br/>Let me guess -- I had an uninvited house-guest.<br/>At least it doesn’t stay for long, eh?
+| transcript = Ah, cleaning up after my untidiness, I see. You may be of use to me -- as a janitor. You’ve got the knack for it. You’re cleaning up messes, and you don’t even know why you’re doing it.<br/>But that’s true of all you survivors, I suppose. None of you understand what’s going on.<br/>Let me guess -- I had an uninvited house-guest.<br/>At least it doesn’t stay for long, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 16.ogg
@@ -288,7 +288,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #17
-| text = You've been doing well so far.<br/>All this “live, thrive, and survive” stuff here in the Genesis simulation seems to suit you! <br/>And good thing, too. <br/>That glitch I just fixed was a byproduct of someone increasing test difficulties across the board. No idea why anyone would do that.<br/>Doesn’t it make the data all bodgy if you change the rules halfway through?<br/>No worries for us, anyway.<br/>We’ll pass every test they throw our way!
+| transcript = You've been doing well so far.<br/>All this “live, thrive, and survive” stuff here in the Genesis simulation seems to suit you! <br/>And good thing, too. <br/>That glitch I just fixed was a byproduct of someone increasing test difficulties across the board. No idea why anyone would do that.<br/>Doesn’t it make the data all bodgy if you change the rules halfway through?<br/>No worries for us, anyway.<br/>We’ll pass every test they throw our way!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 17.ogg
@@ -296,7 +296,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #18
-| text = Remember how I said some of the other survivors weren’t respawning?<br/>Well, they’ve been moved into a diagnostic subroutine.<br/>Hopefully the Genesis simulation will figure out what the problem is and get those survivors back in here.<br/>It’s curious, though…<br/>that diagnostic subroutine wasn’t running when I fixed that earlier glitch.<br/>I don’t think that subroutine existed!<br/>Someone beyond the simulation must be looking out for those survivors.<br/>Good on ‘em, I say.
+| transcript = Remember how I said some of the other survivors weren’t respawning?<br/>Well, they’ve been moved into a diagnostic subroutine.<br/>Hopefully the Genesis simulation will figure out what the problem is and get those survivors back in here.<br/>It’s curious, though…<br/>that diagnostic subroutine wasn’t running when I fixed that earlier glitch.<br/>I don’t think that subroutine existed!<br/>Someone beyond the simulation must be looking out for those survivors.<br/>Good on ‘em, I say.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 18.ogg
@@ -304,7 +304,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #19
-| text = I’ve been watching you -- and the other survivors. You should have see them all. Why, I was just watching an ordinary survivor, same as you. He dove too deep, couldn’t reach the surface, and well, you know the rest. I expected a lot of thrashing about, and I wasn’t disappointed. But the wild-eyed panic of a drowning survivor -- that never gets old.<br/>Aaaagh! Stop doing that! <br/>I don’t care who or what you are!
+| transcript = I’ve been watching you -- and the other survivors. You should have see them all. Why, I was just watching an ordinary survivor, same as you. He dove too deep, couldn’t reach the surface, and well, you know the rest. I expected a lot of thrashing about, and I wasn’t disappointed. But the wild-eyed panic of a drowning survivor -- that never gets old.<br/>Aaaagh! Stop doing that! <br/>I don’t care who or what you are!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 19.ogg
@@ -312,7 +312,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #20
-| text = My sensors are picking up changes in the mineral composition within the Genesis simulation.<br/>Are you familiar with the substance known as Element?<br/>It’s a wonder material, endlessly strong and adaptive. Element was fundamental to civilization’s greatest technological achievements…<br/>...and Element was also fundamental to civilization’s downfall, because it changed in ways human inventors never intended.<br/>Corruptive ways.<br/>I don’t know why the amount of Element within the simulation is increasing.<br/>Just be careful when you come across it.
+| transcript = My sensors are picking up changes in the mineral composition within the Genesis simulation.<br/>Are you familiar with the substance known as Element?<br/>It’s a wonder material, endlessly strong and adaptive. Element was fundamental to civilization’s greatest technological achievements…<br/>...and Element was also fundamental to civilization’s downfall, because it changed in ways human inventors never intended.<br/>Corruptive ways.<br/>I don’t know why the amount of Element within the simulation is increasing.<br/>Just be careful when you come across it.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 20.ogg
@@ -320,7 +320,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #21
-| text = That glitch was from a security breach, but overall the number of alerts and denials is way down.<br/>You’d think that’d be good, right?<br/>No such luck.<br/>I’m seeing a lot of obvious backdoors encoded into security systems.<br/>If someone got inside the Genesis simulation -- and it looks like they did --<br/>they’ve set it up so they could come and go as they pleased.<br/>That’s bad enough, but they didn’t hide their work.<br/>For whatever reason, they aren’t worried that someone will follow along behind them.
+| transcript = That glitch was from a security breach, but overall the number of alerts and denials is way down.<br/>You’d think that’d be good, right?<br/>No such luck.<br/>I’m seeing a lot of obvious backdoors encoded into security systems.<br/>If someone got inside the Genesis simulation -- and it looks like they did --<br/>they’ve set it up so they could come and go as they pleased.<br/>That’s bad enough, but they didn’t hide their work.<br/>For whatever reason, they aren’t worried that someone will follow along behind them.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 21.ogg
@@ -328,7 +328,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #22
-| text = You’re starting to struggle, aren’t you? Look at what you’re wearing, what you’re eating, how you carry yourself. That veneer of civilization is slipping away. And that’s fine. You won’t need civilization where you’re going.<br/>Him again!<br/>I’d… I’d… I’d like to tell him where to go. Hmph.
+| transcript = You’re starting to struggle, aren’t you? Look at what you’re wearing, what you’re eating, how you carry yourself. That veneer of civilization is slipping away. And that’s fine. You won’t need civilization where you’re going.<br/>Him again!<br/>I’d… I’d… I’d like to tell him where to go. Hmph.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 22.ogg
@@ -336,7 +336,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #23
-| text = This glitch was just a bit of rubbish code left over when someone added a new criteria to the survivor observation system.<br/>It’s measuring you now for something called “servility.”<br/>I don’t have much to go on beyond the dictionary definition: “a cringing submissiveness.” <br/>Why would anyone measure that?<br/>In any case, the tests within the simulation haven’t changed.<br/>I’m sure if we keep doing our best at those, we’ll be fine.
+| transcript = This glitch was just a bit of rubbish code left over when someone added a new criteria to the survivor observation system.<br/>It’s measuring you now for something called “servility.”<br/>I don’t have much to go on beyond the dictionary definition: “a cringing submissiveness.” <br/>Why would anyone measure that?<br/>In any case, the tests within the simulation haven’t changed.<br/>I’m sure if we keep doing our best at those, we’ll be fine.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 23.ogg
@@ -344,7 +344,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #24
-| text = Your successes are nothing I haven’t seen before. Gathering, hunting, invention… all safely in the middle of the bell curve for someone with your experience. Aren’t you going to try to impress me?<br/>Gah! I think I’m getting better at giving our intruder the flick.
+| transcript = Your successes are nothing I haven’t seen before. Gathering, hunting, invention… all safely in the middle of the bell curve for someone with your experience. Aren’t you going to try to impress me?<br/>Gah! I think I’m getting better at giving our intruder the flick.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 24.ogg
@@ -352,7 +352,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #25
-| text = Someone or something is trying to put new AIs into the Genesis simulation.<br/>It’s not working, which is why we’re fixing glitches like that one.<br/>But here’s the troubling bit: that glitch was supposed to be a floating holographic companion. <br/>Sound like anyone you know?<br/>Whatever is mucking around inside the simulation, it better not try to copy me!
+| transcript = Someone or something is trying to put new AIs into the Genesis simulation.<br/>It’s not working, which is why we’re fixing glitches like that one.<br/>But here’s the troubling bit: that glitch was supposed to be a floating holographic companion. <br/>Sound like anyone you know?<br/>Whatever is mucking around inside the simulation, it better not try to copy me!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 25.ogg
@@ -360,7 +360,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #26
-| text = There’s a cascading series of errors in the survivor respawn system.<br/>When they die, some survivors are respawning into unfamiliar bodies.<br/>That isn’t supposed to happen -- not by accident, anyway.<br/>It’s gotta be disorienting to wake up in a body that isn’t your own, simulation or not.<br/>Well, at least you’re you.<br/>Right?
+| transcript = There’s a cascading series of errors in the survivor respawn system.<br/>When they die, some survivors are respawning into unfamiliar bodies.<br/>That isn’t supposed to happen -- not by accident, anyway.<br/>It’s gotta be disorienting to wake up in a body that isn’t your own, simulation or not.<br/>Well, at least you’re you.<br/>Right?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 26.ogg
@@ -368,7 +368,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #27
-| text = Those memories you have… do you suppose they’re real? After all, you’re spending every waking moment inside a simulation. Who’s to say that someone -- me, for example -- didn’t create your childhood memories as a work of fiction, then place them into your head?<br/>Argh! These intrusions make me mad as a cut snake.
+| transcript = Those memories you have… do you suppose they’re real? After all, you’re spending every waking moment inside a simulation. Who’s to say that someone -- me, for example -- didn’t create your childhood memories as a work of fiction, then place them into your head?<br/>Argh! These intrusions make me mad as a cut snake.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 27.ogg
@@ -376,7 +376,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #28
-| text = We might start finding more glitches like this one as the Genesis simulation changes around us.<br/>I’m seeing directives to increase dino aggression by a few ticks<br/>and change the air composition in some of the biomes.<br/>I don’t know whether those directives can override the simulation’s default settings, but…<br/>[sighs.] I reckon it’s one more thing for us to worry about.
+| transcript = We might start finding more glitches like this one as the Genesis simulation changes around us.<br/>I’m seeing directives to increase dino aggression by a few ticks<br/>and change the air composition in some of the biomes.<br/>I don’t know whether those directives can override the simulation’s default settings, but…<br/>[sighs.] I reckon it’s one more thing for us to worry about.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 28.ogg
@@ -384,7 +384,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #29
-| text = I know you’re busy scratching in the dirt, or lying among the beasts, or whatever you call “progress,” but I want to remind you of the real goal of all this: to please me. Thus far, you’re failing, “survivor.”<br/>Rack off! We got better things to do.
+| transcript = I know you’re busy scratching in the dirt, or lying among the beasts, or whatever you call “progress,” but I want to remind you of the real goal of all this: to please me. Thus far, you’re failing, “survivor.”<br/>Rack off! We got better things to do.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 29.ogg
@@ -392,7 +392,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #30
-| text = "That glitch was supposed to be an invisible camera!<br/>That’s a first. Someone or something is trying to do real-time observations of individual survivors --<br/>and I think that one was aimed at us!<br/>The Genesis simulation tracks what we do and how we perform,<br/>but real-time observation isn’t something it’s set up for.<br/>With countless survivors running about, what’s so special about us?
+| transcript = "That glitch was supposed to be an invisible camera!<br/>That’s a first. Someone or something is trying to do real-time observations of individual survivors --<br/>and I think that one was aimed at us!<br/>The Genesis simulation tracks what we do and how we perform,<br/>but real-time observation isn’t something it’s set up for.<br/>With countless survivors running about, what’s so special about us?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 30.ogg
@@ -400,7 +400,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #31
-| text = Everything in this simulation is supposed to be here -- with two exceptions.<br/>One exception, obviously, is these glitches we keep fixing.<br/>But the other exception worries me.<br/>There’s evidence of self-aware presences -- avatars, to use the technical term -- lurking about within the system.<br/>I don’t know why they’re here,<br/>but they definitely aren’t supposed to be part of the simulation.
+| transcript = Everything in this simulation is supposed to be here -- with two exceptions.<br/>One exception, obviously, is these glitches we keep fixing.<br/>But the other exception worries me.<br/>There’s evidence of self-aware presences -- avatars, to use the technical term -- lurking about within the system.<br/>I don’t know why they’re here,<br/>but they definitely aren’t supposed to be part of the simulation.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 31.ogg
@@ -408,7 +408,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #32
-| text = How does it feel to be less than human? You aren’t just in a simulation. You are a simulation… of a real human being.<br/>Argh! And you’re a simulation of a real drongo!
+| transcript = How does it feel to be less than human? You aren’t just in a simulation. You are a simulation… of a real human being.<br/>Argh! And you’re a simulation of a real drongo!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 32.ogg
@@ -416,7 +416,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #33
-| text = That glitch was a bodgy bit of code from the survivor database.<br/>I fixed the glitch -- no worries there --<br/>but someone’s mucking about with survivor minds that aren’t even active in the Genesis simulation.<br/>For whatever reason, some survivors don’t respawn when they die in the simulation.<br/>The system is supposed to just hold their minds in storage, but something is going in and editing them.<br/>And if those edits are causing glitches, I doubt the “editor” is being gentle.
+| transcript = That glitch was a bodgy bit of code from the survivor database.<br/>I fixed the glitch -- no worries there --<br/>but someone’s mucking about with survivor minds that aren’t even active in the Genesis simulation.<br/>For whatever reason, some survivors don’t respawn when they die in the simulation.<br/>The system is supposed to just hold their minds in storage, but something is going in and editing them.<br/>And if those edits are causing glitches, I doubt the “editor” is being gentle.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 33.ogg
@@ -424,7 +424,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #34
-| text = I’ve been amusing myself by watching survivors drown in the ocean biome, but you know what’s even better? Seeing the simulation fall under my control, sector by sector. Amuse yourself while you still can, survivor.<br/>[Series of sneezes.] I think I’m getting allergic to pointless taunts.
+| transcript = I’ve been amusing myself by watching survivors drown in the ocean biome, but you know what’s even better? Seeing the simulation fall under my control, sector by sector. Amuse yourself while you still can, survivor.<br/>[Series of sneezes.] I think I’m getting allergic to pointless taunts.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 34.ogg
@@ -432,7 +432,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #35
-| text = You feeling all right, mate?<br/>‘Cuz based on what I saw when I fixed that glitch, someone or something is trying to turn up aggression levels… in survivors.<br/>Aggressive dinos? That I understand. It’s part of the test.<br/>But why turn survivors against each other?<br/>I can’t tell whether the attempt worked or not.<br/>I suppose if everyone starts acting mad as cut snakes, we’ll know…
+| transcript = You feeling all right, mate?<br/>‘Cuz based on what I saw when I fixed that glitch, someone or something is trying to turn up aggression levels… in survivors.<br/>Aggressive dinos? That I understand. It’s part of the test.<br/>But why turn survivors against each other?<br/>I can’t tell whether the attempt worked or not.<br/>I suppose if everyone starts acting mad as cut snakes, we’ll know…
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 35.ogg
@@ -440,7 +440,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #36
-| text = You’re doing with the tests so far, survivor, but ask yourself: what are they preparing you for? What am I preparing you for?<br/>To give you a punch in the nose, I hope.
+| transcript = You’re doing with the tests so far, survivor, but ask yourself: what are they preparing you for? What am I preparing you for?<br/>To give you a punch in the nose, I hope.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 36.ogg
@@ -448,7 +448,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #37
-| text = I’m watching you struggle, survivor, and it delights me. Strive against me if you wish, but know that you’re just shaking your fist at the sky...<br/>You want to see fists? Come at us, ya drongo!
+| transcript = I’m watching you struggle, survivor, and it delights me. Strive against me if you wish, but know that you’re just shaking your fist at the sky...<br/>You want to see fists? Come at us, ya drongo!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 37.ogg
@@ -456,7 +456,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #38
-| text = That glitch… good news, bad news.<br/>The good news is that I fixed it.<br/>But the bad news is that I saw what’s happening to the survivors that won’t respawn.<br/>The intruder in the system is corrupting them --<br/>turning them into half-alive “avatars” trapped inside artificial bodies.<br/>At some level, they know what’s going on, but they’re under someone else’s control.<br/>Existing survivors are all right, though. For now.
+| transcript = That glitch… good news, bad news.<br/>The good news is that I fixed it.<br/>But the bad news is that I saw what’s happening to the survivors that won’t respawn.<br/>The intruder in the system is corrupting them --<br/>turning them into half-alive “avatars” trapped inside artificial bodies.<br/>At some level, they know what’s going on, but they’re under someone else’s control.<br/>Existing survivors are all right, though. For now.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 38.ogg
@@ -464,7 +464,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #39
-| text = I’m finding the most interesting things inside this machine -- like the place where it stores your personality. I could dismantle it, but I have more important things to do.<br/>If you’re going to dismantle a personality, mate, start with your own!
+| transcript = I’m finding the most interesting things inside this machine -- like the place where it stores your personality. I could dismantle it, but I have more important things to do.<br/>If you’re going to dismantle a personality, mate, start with your own!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 39.ogg
@@ -472,7 +472,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Story Glitch Discovery #40
-| text = Look around, survivor. Everything you see is under my control. This whole place is my personal walled garden, and I think I’m due for some weeding.<br/>If I know one thing about weeds in a garden, it’s that they always come back. Always.
+| transcript = Look around, survivor. Everything you see is under my control. This whole place is my personal walled garden, and I think I’m due for some weeding.<br/>If I know one thing about weeds in a garden, it’s that they always come back. Always.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Story 40.ogg
@@ -486,7 +486,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Tidbit Glitch Discovery #1
-| text = That’s strange -- this glitch was caused by repeated access to an old Earth text.<br/>In this case, a novel from the 1700s: Robinson Crusoe. Listen to this:<br/>“I was wet, had no clothes to shift me, nor anything either to eat or drink to comfort me; <br/>neither did I see any prospect before me but that of perishing with hunger or being devoured by wild beasts;<br/>and that which was particularly afflicting to me was that I had no weapon,<br/>either to hunt and kill any creature for my sustenance, or to defend myself against any other creature that might desire to kill me for theirs.”<br/>I daresay that sounds familiar...
+| transcript = That’s strange -- this glitch was caused by repeated access to an old Earth text.<br/>In this case, a novel from the 1700s: Robinson Crusoe. Listen to this:<br/>“I was wet, had no clothes to shift me, nor anything either to eat or drink to comfort me; <br/>neither did I see any prospect before me but that of perishing with hunger or being devoured by wild beasts;<br/>and that which was particularly afflicting to me was that I had no weapon,<br/>either to hunt and kill any creature for my sustenance, or to defend myself against any other creature that might desire to kill me for theirs.”<br/>I daresay that sounds familiar...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 01.ogg
@@ -494,7 +494,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #2
-| text = Another glitch caused by access to an old Earth text.<br/>This one’s a letter from Jeremy Bentham in the 1700s. It’s describing a prison where the guards can see into every cell.<br/>“The Inspectors concealed from the observation of the Prisoners;<br/>"hence the sentiment of a sort of invisible omnipresence… the whole circuit reviewable.”<br/>I’d say that’s more than a bit ominous...
+| transcript = Another glitch caused by access to an old Earth text.<br/>This one’s a letter from Jeremy Bentham in the 1700s. It’s describing a prison where the guards can see into every cell.<br/>“The Inspectors concealed from the observation of the Prisoners;<br/>"hence the sentiment of a sort of invisible omnipresence… the whole circuit reviewable.”<br/>I’d say that’s more than a bit ominous...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 02.ogg
@@ -502,7 +502,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #3
-| text = When I fixed this glitch, I got access to some historical data.<br/>Well, “future historical” from your perspective, I suppose.<br/>The times when they were building the Arks and the simulation, before everything fell apart.<br/>It’s about the last war before the collapse: a series of wars, apparently, between the United Republics of Earth and the Terran Federation.<br/>The two sides didn’t have different structures, or ideologies, or goals.<br/>They were just two dingos tugging at the same hunk of meat --<br/>only they both wound up starving.
+| transcript = When I fixed this glitch, I got access to some historical data.<br/>Well, “future historical” from your perspective, I suppose.<br/>The times when they were building the Arks and the simulation, before everything fell apart.<br/>It’s about the last war before the collapse: a series of wars, apparently, between the United Republics of Earth and the Terran Federation.<br/>The two sides didn’t have different structures, or ideologies, or goals.<br/>They were just two dingos tugging at the same hunk of meat --<br/>only they both wound up starving.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 03.ogg
@@ -510,7 +510,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #4
-| text = Another glitch with some historical data attached.<br/>I think someone’s using the simulation processor to look at old Earth history, and it’s throwing up glitches.<br/>This file’s about homo deus, the much-lauded next step in human evolution.<br/>Trade in that mortal body to exist as a being of pure energy and thought.<br/>Like Helena, who made me!<br/>No one realized there was a catch, though. The homo deus ascended beyond our reality -- at least most of the time --<br/>so from our point of view, they ceased to exist.<br/>I’m a hologram, so I shouldn’t judge, but “ceasing to exist” might be a deal-breaker.
+| transcript = Another glitch with some historical data attached.<br/>I think someone’s using the simulation processor to look at old Earth history, and it’s throwing up glitches.<br/>This file’s about homo deus, the much-lauded next step in human evolution.<br/>Trade in that mortal body to exist as a being of pure energy and thought.<br/>Like Helena, who made me!<br/>No one realized there was a catch, though. The homo deus ascended beyond our reality -- at least most of the time --<br/>so from our point of view, they ceased to exist.<br/>I’m a hologram, so I shouldn’t judge, but “ceasing to exist” might be a deal-breaker.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 04.ogg
@@ -518,7 +518,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #5
-| text = This glitch had data about the Arks embedded within it. Mostly technical info… <br/>it appears that the Arks used some of the same underlying technology -- and have a lot of the same dino inhabitants -- as the Genesis simulation.<br/>If I’m reading this right, a lot of the survivors on the Arks lived and died without realizing they were on orbital space stations with artificial environments. <br/>I wonder what they thought.<br/>Did they think it was a dream? Time travel? A past life experience?
+| transcript = This glitch had data about the Arks embedded within it. Mostly technical info… <br/>it appears that the Arks used some of the same underlying technology -- and have a lot of the same dino inhabitants -- as the Genesis simulation.<br/>If I’m reading this right, a lot of the survivors on the Arks lived and died without realizing they were on orbital space stations with artificial environments. <br/>I wonder what they thought.<br/>Did they think it was a dream? Time travel? A past life experience?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 05.ogg
@@ -526,7 +526,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #6
-| text = If you see a chunk of purplish rock, or some high-tech object thrumming with energy, be careful!<br/>It might be made of Element.<br/>Element is a wonder substance -- part building material, part energy source --<br/>but it adapts to its surroundings, sometimes in unexpected ways.<br/>It can infect or corrupt organisms that have sustained contact with it.<br/>Fixing that would be much harder than fixing a glitch, eh?<br/>I expect you’ll think of a way to put Element to use, but… be careful, survivor!
+| transcript = If you see a chunk of purplish rock, or some high-tech object thrumming with energy, be careful!<br/>It might be made of Element.<br/>Element is a wonder substance -- part building material, part energy source --<br/>but it adapts to its surroundings, sometimes in unexpected ways.<br/>It can infect or corrupt organisms that have sustained contact with it.<br/>Fixing that would be much harder than fixing a glitch, eh?<br/>I expect you’ll think of a way to put Element to use, but… be careful, survivor!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 06.ogg
@@ -534,7 +534,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #7
-| text = Sometimes you get a survivor who’s a real drongo, and it’ll make a glitch, too.<br/>Far as I can tell, survivor number five three three seven bee four nine stuffed more than five hundred twelve berries in her mouth at once,<br/>and it created an overflow error in the simulation -- and in her system, too.<br/>I reckon she chundered all over the place.
+| transcript = Sometimes you get a survivor who’s a real drongo, and it’ll make a glitch, too.<br/>Far as I can tell, survivor number five three three seven bee four nine stuffed more than five hundred twelve berries in her mouth at once,<br/>and it created an overflow error in the simulation -- and in her system, too.<br/>I reckon she chundered all over the place.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 07.ogg
@@ -542,7 +542,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #8
-| text = I fixed this glitch, but apparently there’s no fixing survivor number nine nine two eff one jay seven.<br/>He keeps going on about “quests” and “dungeons,” and he claims to be a “wizard.”<br/>Well, he keeps trying to “fireball” the dinos,<br/>and he’s respawned so often that the system glitched out.<br/>Some survivors have a kangaroo loose in the top paddock, eh?
+| transcript = I fixed this glitch, but apparently there’s no fixing survivor number nine nine two eff one jay seven.<br/>He keeps going on about “quests” and “dungeons,” and he claims to be a “wizard.”<br/>Well, he keeps trying to “fireball” the dinos,<br/>and he’s respawned so often that the system glitched out.<br/>Some survivors have a kangaroo loose in the top paddock, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 08.ogg
@@ -550,7 +550,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #9
-| text = This glitch came to you courtesy of survivor number three eight queue eight one two four.<br/>He’s refusing to sleep. At all. He’s been awake for days on end, and that’s not good. <br/>The simulation does routine maintenance and memory capture while survivors sleep, and this poor survivor is overfilling his brain.<br/>Take a break, ya figjam! That dino tame will wait.
+| transcript = This glitch came to you courtesy of survivor number three eight queue eight one two four.<br/>He’s refusing to sleep. At all. He’s been awake for days on end, and that’s not good. <br/>The simulation does routine maintenance and memory capture while survivors sleep, and this poor survivor is overfilling his brain.<br/>Take a break, ya figjam! That dino tame will wait.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 09.ogg
@@ -558,7 +558,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #10
-| text = <nowiki>[</nowiki>a long string of scrambled gibberish syllables.<nowiki>]</nowiki><br/>Oh my! Did I do that? <br/>That glitch left a bit of an aftertaste. I feel a bit rotten.
+| transcript = <nowiki>[</nowiki>a long string of scrambled gibberish syllables.<nowiki>]</nowiki><br/>Oh my! Did I do that? <br/>That glitch left a bit of an aftertaste. I feel a bit rotten.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 10.ogg
@@ -566,7 +566,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #11
-| text = The glitch you selected… has been cleared. If you’d like to fix another glitch, press 2…<br/>Sorry about that. <br/>Sometimes you get hip-deep in the code and it takes a moment to get back to shore, so to speak. <br/>Where were we?
+| transcript = The glitch you selected… has been cleared. If you’d like to fix another glitch, press 2…<br/>Sorry about that. <br/>Sometimes you get hip-deep in the code and it takes a moment to get back to shore, so to speak. <br/>Where were we?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 11.ogg
@@ -574,7 +574,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #12
-| text = <nowiki>[</nowiki>Alarm clock sound, getting more strident, then stopping suddenly.<nowiki>]</nowiki><br/>I think that glitch was one of the creators of the simulation,<br/>hitting something called a “snooze button.” <br/>You’ll have to explain that one to me later.
+| transcript = <nowiki>[</nowiki>Alarm clock sound, getting more strident, then stopping suddenly.<nowiki>]</nowiki><br/>I think that glitch was one of the creators of the simulation,<br/>hitting something called a “snooze button.” <br/>You’ll have to explain that one to me later.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 12.ogg
@@ -582,7 +582,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #13
-| text = The more I see of these glitches, the more they all remind me of the Arks.<br/>Not that I was really on an Ark, of course,<br/>but Helena was.<br/>She survived the Arks, escaped to Earth, ascended into a being of pure energy, created me…<br/>it’s a lot for a hologram to live up to, if I’m being honest.<br/>But if you ever wonder how the Genesis simulation stores your personality and transfers it into a body,<br/>it’s an early version of the tech they used in all those dino-infested Arks up in orbit.
+| transcript = The more I see of these glitches, the more they all remind me of the Arks.<br/>Not that I was really on an Ark, of course,<br/>but Helena was.<br/>She survived the Arks, escaped to Earth, ascended into a being of pure energy, created me…<br/>it’s a lot for a hologram to live up to, if I’m being honest.<br/>But if you ever wonder how the Genesis simulation stores your personality and transfers it into a body,<br/>it’s an early version of the tech they used in all those dino-infested Arks up in orbit.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 13.ogg
@@ -590,7 +590,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #14
-| text = This whole time, I’ve been wondering: why dinosaurs?<br/>Obviously none of you survivors were alive when dinos roamed the Earth.<br/>Why not give you, I dunno, animals from your own time like horses and chickens and cute little kittens?<br/>When I fixed that glitch, I spotted a clue: it’s the same tech they later used in the Arks.<br/>The makers of the simulation added dinosaurs as an experiment,<br/>and the human-dino combination worked so well that they put dinosaurs on the Arks, too.
+| transcript = This whole time, I’ve been wondering: why dinosaurs?<br/>Obviously none of you survivors were alive when dinos roamed the Earth.<br/>Why not give you, I dunno, animals from your own time like horses and chickens and cute little kittens?<br/>When I fixed that glitch, I spotted a clue: it’s the same tech they later used in the Arks.<br/>The makers of the simulation added dinosaurs as an experiment,<br/>and the human-dino combination worked so well that they put dinosaurs on the Arks, too.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 14.ogg
@@ -598,7 +598,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #15
-| text = The environments here in the Genesis simulation run to extremes --<br/>heat, cold,<br/>atmosphere, all that stuff.<br/>The danger is cranked up to 11,<br/>and that sometimes results in a glitch like the one I just fixed.<br/>But that raises a question: what is the simulation actually, you know, “simulating”?<br/>These environments are much more lethal than anything you’d find on Earth -- even now, after all the wars and rampaging titans and whatnot.<br/>I wonder what all of this is supposed to be...
+| transcript = The environments here in the Genesis simulation run to extremes --<br/>heat, cold,<br/>atmosphere, all that stuff.<br/>The danger is cranked up to 11,<br/>and that sometimes results in a glitch like the one I just fixed.<br/>But that raises a question: what is the simulation actually, you know, “simulating”?<br/>These environments are much more lethal than anything you’d find on Earth -- even now, after all the wars and rampaging titans and whatnot.<br/>I wonder what all of this is supposed to be...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 15.ogg
@@ -606,7 +606,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #16
-| text = That glitch was a bit of a wombat burrow,<br/>but it gave me a peek into some of the other biomes -- the other environments in the Genesis simulation.<br/>Holy dooley, there’s a bit of everything in here!<br/>I reckon the way it works is that each biome has heaps of exploring and testing for you,<br/>and then there’s a master AI that shows up at some point and gives you a final exam.<br/>But the files I saw were a bit vague on that last part.<br/>I reckon we’ll learn as we go, eh?
+| transcript = That glitch was a bit of a wombat burrow,<br/>but it gave me a peek into some of the other biomes -- the other environments in the Genesis simulation.<br/>Holy dooley, there’s a bit of everything in here!<br/>I reckon the way it works is that each biome has heaps of exploring and testing for you,<br/>and then there’s a master AI that shows up at some point and gives you a final exam.<br/>But the files I saw were a bit vague on that last part.<br/>I reckon we’ll learn as we go, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 16.ogg
@@ -614,7 +614,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #17
-| text = I got that string of code all untangled -- it was an observation loop involving other survivors.<br/>The Genesis simulation spends a lot of bandwidth watching how much you go it alone<br/>and how much you team up with people.<br/>It’s easy to think of the simulation as something the paleontologists and ecologists dreamed up,<br/>but I bet the sociologists and psychologists are having a field day with all the human interactions.<br/>Oh no -- maybe I’ve said too much!<br/>Sorry, invisible researchers!
+| transcript = I got that string of code all untangled -- it was an observation loop involving other survivors.<br/>The Genesis simulation spends a lot of bandwidth watching how much you go it alone<br/>and how much you team up with people.<br/>It’s easy to think of the simulation as something the paleontologists and ecologists dreamed up,<br/>but I bet the sociologists and psychologists are having a field day with all the human interactions.<br/>Oh no -- maybe I’ve said too much!<br/>Sorry, invisible researchers!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 17.ogg
@@ -622,7 +622,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #18
-| text = This glitch was another unauthorized retrieval of old Earth files -- a historical archive about Alexander Selkirk.<br/>He was a 16th-century sailor who was a castaway for more than four years on an island in the South Pacific.<br/>Selkirk built his own shelter, and he hunted --<br/>and later tamed -- the creatures of the island for sustenance<br/>He’d have done well here!<br/>Whoever accessed this file read the parts about how Selkirk dealt with the loneliness, though,<br/>not the parts about what sorts of berries he ate.<br/>Curious...
+| transcript = This glitch was another unauthorized retrieval of old Earth files -- a historical archive about Alexander Selkirk.<br/>He was a 16th-century sailor who was a castaway for more than four years on an island in the South Pacific.<br/>Selkirk built his own shelter, and he hunted --<br/>and later tamed -- the creatures of the island for sustenance<br/>He’d have done well here!<br/>Whoever accessed this file read the parts about how Selkirk dealt with the loneliness, though,<br/>not the parts about what sorts of berries he ate.<br/>Curious...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 18.ogg
@@ -630,7 +630,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #19
-| text = Another text from old Earth, accessed without permission.<br/>This one is a 19th century book called Erewhon. Here’s the part that caused the glitch:<br/>“How many men at this hour are living in a state of bondage to the machines?… <br/>Is it not plain that the machines are gaining ground upon us, when we reflect on the increasing number of those who are bound down to them as slaves,<br/>and of those who devote their whole souls to the advancement of the mechanical kingdom?”<br/>Hmmm. He wrote that in 1872.<br/>Wonder what he’d think of the Genesis simulation?
+| transcript = Another text from old Earth, accessed without permission.<br/>This one is a 19th century book called Erewhon. Here’s the part that caused the glitch:<br/>“How many men at this hour are living in a state of bondage to the machines?… <br/>Is it not plain that the machines are gaining ground upon us, when we reflect on the increasing number of those who are bound down to them as slaves,<br/>and of those who devote their whole souls to the advancement of the mechanical kingdom?”<br/>Hmmm. He wrote that in 1872.<br/>Wonder what he’d think of the Genesis simulation?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 19.ogg
@@ -638,7 +638,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #20
-| text = One thing that’s been bugging me: how did the makers of the Genesis simulation get survivor minds from throughout history?<br/>It’s hard enough to scan a living mind with their cutting-edge technology,<br/>but how did they get minds from the 19th century -- and Helena had friends going back to the 3rd century?<br/>I did a spot of research just now, and it turns out that there’s something called an “engrammic matrix” that persists in the human brain after death.<br/>If the conditions are just right and that matrix gets preserved, scientists can scan it, even centuries later.<br/>What I don’t want to know is how many bodies they dug up to get those matrices.<br/>There are limits to even my curiosity.
+| transcript = One thing that’s been bugging me: how did the makers of the Genesis simulation get survivor minds from throughout history?<br/>It’s hard enough to scan a living mind with their cutting-edge technology,<br/>but how did they get minds from the 19th century -- and Helena had friends going back to the 3rd century?<br/>I did a spot of research just now, and it turns out that there’s something called an “engrammic matrix” that persists in the human brain after death.<br/>If the conditions are just right and that matrix gets preserved, scientists can scan it, even centuries later.<br/>What I don’t want to know is how many bodies they dug up to get those matrices.<br/>There are limits to even my curiosity.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 20.ogg
@@ -646,7 +646,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #21
-| text = This glitch is the result of some unauthorized research --<br/>not mine, I swear!<br/>But someone’s running queries about where the homo deus are right now.<br/>The short answer is “we don’t know,” by the way.<br/>Homo deus have largely moved beyond our reality, so questions that start with “where” aren’t really relevant to them.<br/>I know some of them maintained a connection to the orbital Arks after they ascended.<br/>And then there’s Helena, the homo deus that I’m based on.<br/>No idea where she’s got off to...
+| transcript = This glitch is the result of some unauthorized research --<br/>not mine, I swear!<br/>But someone’s running queries about where the homo deus are right now.<br/>The short answer is “we don’t know,” by the way.<br/>Homo deus have largely moved beyond our reality, so questions that start with “where” aren’t really relevant to them.<br/>I know some of them maintained a connection to the orbital Arks after they ascended.<br/>And then there’s Helena, the homo deus that I’m based on.<br/>No idea where she’s got off to...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 21.ogg
@@ -654,7 +654,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #22
-| text = A snippet of leftover code here -- left over from earlier versions of the Genesis simulation. <br/>Despite the name, this wasn’t the first massive eco-simulation.<br/>You don’t make something this good on your first try!<br/>The first simulations were obviously artificial -- collections of geometric shapes, really.<br/>It took a long time to get the artificial intelligences to behave themselves,<br/>and even longer to enable human minds to integrate with bodies inside the simulation.
+| transcript = A snippet of leftover code here -- left over from earlier versions of the Genesis simulation. <br/>Despite the name, this wasn’t the first massive eco-simulation.<br/>You don’t make something this good on your first try!<br/>The first simulations were obviously artificial -- collections of geometric shapes, really.<br/>It took a long time to get the artificial intelligences to behave themselves,<br/>and even longer to enable human minds to integrate with bodies inside the simulation.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 22.ogg
@@ -662,7 +662,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #23
-| text = I was wondering when I was going to see one of these --<br/>a glitch that originates from one of the dinos, not a survivor<br/>or whatever is mucking about in the Genesis simulation’s security protocols.<br/>It’s trickier than you’d think to get these dinos to walk around, eat, sleep, and breed.<br/>Even the subroutines for poop are massive!<br/>It’s not surprising that every once in a while, a dino will throw up a glitch.<br/>I’m just glad this one didn’t have poop underneath it.
+| transcript = I was wondering when I was going to see one of these --<br/>a glitch that originates from one of the dinos, not a survivor<br/>or whatever is mucking about in the Genesis simulation’s security protocols.<br/>It’s trickier than you’d think to get these dinos to walk around, eat, sleep, and breed.<br/>Even the subroutines for poop are massive!<br/>It’s not surprising that every once in a while, a dino will throw up a glitch.<br/>I’m just glad this one didn’t have poop underneath it.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 23.ogg
@@ -670,7 +670,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #24
-| text = Another survivor was being a bit of a larrikin, and his prank caused that glitch.<br/>Survivor number three one vee five five zero jay made a box.<br/>So far, no worries, right?<br/>But then he put that box inside another box. And that one inside another one, and so on, and so on.<br/>After sixteen layers of nested boxes, boom! There’s your glitch.<br/>Maybe the bloke was just experimenting, but sixteen layers of boxes?<br/>Get a hobby, mate!
+| transcript = Another survivor was being a bit of a larrikin, and his prank caused that glitch.<br/>Survivor number three one vee five five zero jay made a box.<br/>So far, no worries, right?<br/>But then he put that box inside another box. And that one inside another one, and so on, and so on.<br/>After sixteen layers of nested boxes, boom! There’s your glitch.<br/>Maybe the bloke was just experimenting, but sixteen layers of boxes?<br/>Get a hobby, mate!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 24.ogg
@@ -678,7 +678,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #25
-| text = This glitch was all that survivor number nine nine two one ess five zero left behind.<br/>His mind was that of a 13th-century Mongolian --<br/>part of Genghis Khan’s army, believe it or not.<br/>Imagine you’ve lived your entire life on the plains of central Asia, and then you see the ocean biome.<br/>The Mongolian couldn’t comprehend all that water. He’d never seen more than a river or a small lake!<br/>When he saw water stretching to the horizon -- water of limitless depth, as far as he could tell --<br/>it broke his brain. Poor bloke.
+| transcript = This glitch was all that survivor number nine nine two one ess five zero left behind.<br/>His mind was that of a 13th-century Mongolian --<br/>part of Genghis Khan’s army, believe it or not.<br/>Imagine you’ve lived your entire life on the plains of central Asia, and then you see the ocean biome.<br/>The Mongolian couldn’t comprehend all that water. He’d never seen more than a river or a small lake!<br/>When he saw water stretching to the horizon -- water of limitless depth, as far as he could tell --<br/>it broke his brain. Poor bloke.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 25.ogg
@@ -686,7 +686,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #26
-| text = Apparently there are limits to the Genesis simulation’s appreciation of fine architecture.<br/>Take this glitch. It was the result of survivor number seven two three kay four zero one.<br/>She got it into her head to build pillars all over the place -- not to hold up a roof or anything.<br/>Just pillars out in the middle of nowhere.<br/>It’s a distinctly human instinct: leaving your mark on the world.<br/>I just wish she’d clean up after herself.
+| transcript = Apparently there are limits to the Genesis simulation’s appreciation of fine architecture.<br/>Take this glitch. It was the result of survivor number seven two three kay four zero one.<br/>She got it into her head to build pillars all over the place -- not to hold up a roof or anything.<br/>Just pillars out in the middle of nowhere.<br/>It’s a distinctly human instinct: leaving your mark on the world.<br/>I just wish she’d clean up after herself.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 26.ogg
@@ -694,7 +694,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #27
-| text = <nowiki>[</nowiki>long string of scrambled gibberish syllables.<nowiki>]</nowiki><br/><nowiki>[</nowiki>HLN-A belches.<nowiki>]</nowiki><br/>Sorry! That glitch didn’t want to stay down.
+| transcript = <nowiki>[</nowiki>long string of scrambled gibberish syllables.<nowiki>]</nowiki><br/><nowiki>[</nowiki>HLN-A belches.<nowiki>]</nowiki><br/>Sorry! That glitch didn’t want to stay down.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 27.ogg
@@ -702,7 +702,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #28
-| text = <nowiki>[</nowiki>short string of gibberish.<nowiki>]</nowiki><br/>Puhh tuhh kuhh tuhh. Puhh tuhh kuhh tuhh.<br/>Buhh duhh guhh duhh. Buhh duhh guhh duhh.<br/>Walla walla. Walla walla.<br/>Red leather, yellow leather, red leather, yellow leather<br/>Ahem. Had to reboot my voice after that glitch.<br/>Now I’m all sorted.
+| transcript = <nowiki>[</nowiki>short string of gibberish.<nowiki>]</nowiki><br/>Puhh tuhh kuhh tuhh. Puhh tuhh kuhh tuhh.<br/>Buhh duhh guhh duhh. Buhh duhh guhh duhh.<br/>Walla walla. Walla walla.<br/>Red leather, yellow leather, red leather, yellow leather<br/>Ahem. Had to reboot my voice after that glitch.<br/>Now I’m all sorted.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 28.ogg
@@ -710,7 +710,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #29
-| text = Roar. Louder roar. Snarl. Sniff, sniff. Growl.<br/>Whew! I wound up with some dino’s speech pattern, not my own. Fixing these glitches will turn you inside-out if you aren’t careful. <br/>Ready to carry on?
+| transcript = Roar. Louder roar. Snarl. Sniff, sniff. Growl.<br/>Whew! I wound up with some dino’s speech pattern, not my own. Fixing these glitches will turn you inside-out if you aren’t careful. <br/>Ready to carry on?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 29.ogg
@@ -718,7 +718,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #30
-| text = We’re finding more than our fair share of glitches, eh?<br/>Lots of different causes, but the Genesis simulation is supposed to be able to handle anything.<br/>As far as I can tell, they launched the simulation in a hurry.<br/>I found a file with heaps of issues that a quality assurance team was supposed to check on. It’s a list as long as my arm!<br/>...or it would be if I had arms.<br/>You know what I mean.
+| transcript = We’re finding more than our fair share of glitches, eh?<br/>Lots of different causes, but the Genesis simulation is supposed to be able to handle anything.<br/>As far as I can tell, they launched the simulation in a hurry.<br/>I found a file with heaps of issues that a quality assurance team was supposed to check on. It’s a list as long as my arm!<br/>...or it would be if I had arms.<br/>You know what I mean.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 30.ogg
@@ -726,7 +726,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #31
-| text = Another peek behind the proverbial curtain… and another weird discovery.<br/>The Genesis simulation has heaps of subroutines -- dormant or ticking along very slowly --<br/>for long-term changes in the environment.<br/>And when I say long term, I mean things like erosion, or changes in atmospheric composition, or evolutionary changes in the dinos.<br/>It made me wonder… just how long is this simulation supposed to run?
+| transcript = Another peek behind the proverbial curtain… and another weird discovery.<br/>The Genesis simulation has heaps of subroutines -- dormant or ticking along very slowly --<br/>for long-term changes in the environment.<br/>And when I say long term, I mean things like erosion, or changes in atmospheric composition, or evolutionary changes in the dinos.<br/>It made me wonder… just how long is this simulation supposed to run?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 31.ogg
@@ -734,7 +734,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #32
-| text = The data storage systems chundered up another glitch.<br/>Something is seriously wrong in there.<br/>Some of the survivor minds have entire sectors missing -- so bad they can’t spawn in the simulation.<br/>Not every survivor, mind you, but more than a few.<br/>You feel all right, though, don’t ya?<br/>Your noggin looks fine, and you’ve got the same “go get ‘em” attitude as usual.<br/>If you feel odd, up in your head I mean, just let your friend HLN-A know, eh?
+| transcript = The data storage systems chundered up another glitch.<br/>Something is seriously wrong in there.<br/>Some of the survivor minds have entire sectors missing -- so bad they can’t spawn in the simulation.<br/>Not every survivor, mind you, but more than a few.<br/>You feel all right, though, don’t ya?<br/>Your noggin looks fine, and you’ve got the same “go get ‘em” attitude as usual.<br/>If you feel odd, up in your head I mean, just let your friend HLN-A know, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 32.ogg
@@ -742,7 +742,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #33
-| text = I was peeking around the survivor database just now --<br/>c’mon, you know how curious I get --<br/>and I saw a bit of the structure of your minds.<br/>If file size is anything to go by, what makes you “you,” specifically, is much more your personality than your memories.<br/>That’s what the makers of the Genesis simulation lavished their attention on: getting your personality just right.<br/>And if they had to cut corners on your memories of old-time Earth, well…<br/>I guess you can’t remember what you can’t remember.
+| transcript = I was peeking around the survivor database just now --<br/>c’mon, you know how curious I get --<br/>and I saw a bit of the structure of your minds.<br/>If file size is anything to go by, what makes you “you,” specifically, is much more your personality than your memories.<br/>That’s what the makers of the Genesis simulation lavished their attention on: getting your personality just right.<br/>And if they had to cut corners on your memories of old-time Earth, well…<br/>I guess you can’t remember what you can’t remember.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 33.ogg
@@ -750,7 +750,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #34
-| text = For once, we’ve got a glitch that isn’t caused by intruders or misbehaving survivors. This one was structural.<br/>The makers of the simulation called it a “keydule” -- a combination of “key” and “nodule” --<br/>and it’s a self-contained passkey capable of editing itself.<br/>You should see what it looks like in the coding VR.<br/>It’s a wee unassuming thing, but drop it in the wrong part of the simulation<br/>and it’ll cause heaps of trouble.
+| transcript = For once, we’ve got a glitch that isn’t caused by intruders or misbehaving survivors. This one was structural.<br/>The makers of the simulation called it a “keydule” -- a combination of “key” and “nodule” --<br/>and it’s a self-contained passkey capable of editing itself.<br/>You should see what it looks like in the coding VR.<br/>It’s a wee unassuming thing, but drop it in the wrong part of the simulation<br/>and it’ll cause heaps of trouble.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 34.ogg
@@ -758,7 +758,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #35
-| text = The second generation of immersive simulation was idealized versions of the real world --<br/>national parks, tourist attractions, and shopping centers.<br/>Holy dooley, were there lots of shopping centers.<br/>This glitch was a bit of leftover code from one of those.<br/>If you wanted to buy discount aftershave, then sorry!<br/>I just deleted the remnants of an old shopping-sim.
+| transcript = The second generation of immersive simulation was idealized versions of the real world --<br/>national parks, tourist attractions, and shopping centers.<br/>Holy dooley, were there lots of shopping centers.<br/>This glitch was a bit of leftover code from one of those.<br/>If you wanted to buy discount aftershave, then sorry!<br/>I just deleted the remnants of an old shopping-sim.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 35.ogg
@@ -766,7 +766,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #36
-| text = You survivors have the most interesting minds --<br/>always striving to see more, do more, be more.<br/>Not everyone is like that. Some people didn’t thrive when their minds were transferred into simulations like this one.<br/>According to the files I just saw, living in a sim exacerbated their ordinary bad habits:<br/>laziness, poor impulse control, that sort of thing.<br/>Part of them knew the simulation wasn’t real, I reckon, and that took their worst urges off the leash.<br/>Let’s hope we don’t meet survivors like that here.
+| transcript = You survivors have the most interesting minds --<br/>always striving to see more, do more, be more.<br/>Not everyone is like that. Some people didn’t thrive when their minds were transferred into simulations like this one.<br/>According to the files I just saw, living in a sim exacerbated their ordinary bad habits:<br/>laziness, poor impulse control, that sort of thing.<br/>Part of them knew the simulation wasn’t real, I reckon, and that took their worst urges off the leash.<br/>Let’s hope we don’t meet survivors like that here.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 36.ogg
@@ -774,7 +774,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #37
-| text = The first humans to transfer their minds into a simulation knew they were exploring only briefly.<br/>But things got dodgy once people started living in simulations indefinitely.<br/>I spotted a whole set of design guidelines that boiled down to:<br/>“make the sim nice,<br/>but not too nice.”<br/>If you make a sim pleasant enough --<br/>not dangerous like here --<br/>then some human minds never want to leave, and they resent the hell out of it when they get yanked back to the real world.
+| transcript = The first humans to transfer their minds into a simulation knew they were exploring only briefly.<br/>But things got dodgy once people started living in simulations indefinitely.<br/>I spotted a whole set of design guidelines that boiled down to:<br/>“make the sim nice,<br/>but not too nice.”<br/>If you make a sim pleasant enough --<br/>not dangerous like here --<br/>then some human minds never want to leave, and they resent the hell out of it when they get yanked back to the real world.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 37.ogg
@@ -782,7 +782,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #38
-| text = Apparently survivor bee four two four six six zero fancied dodos -- and she wasn’t the full quid.<br/>At first she just tamed them.<br/>But then she’d tell other survivors that the dodos were talking to her. Then it got really weird.<br/>She started going on about how she knew “revealed dodo wisdom”<br/>and other survivors could become “Disciples of the Dodo.”<br/>When she finally carked it -- a Rex ate her --<br/>hundreds of dodos gathered ‘round, and it threw up the glitch I just fixed.
+| transcript = Apparently survivor bee four two four six six zero fancied dodos -- and she wasn’t the full quid.<br/>At first she just tamed them.<br/>But then she’d tell other survivors that the dodos were talking to her. Then it got really weird.<br/>She started going on about how she knew “revealed dodo wisdom”<br/>and other survivors could become “Disciples of the Dodo.”<br/>When she finally carked it -- a Rex ate her --<br/>hundreds of dodos gathered ‘round, and it threw up the glitch I just fixed.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 38.ogg
@@ -790,7 +790,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #39
-| text = Survivor five zero one you two six six got lonely --<br/>and when he went overboard, it left behind this glitch in the simulation.<br/>He couldn’t find any other survivors, so he made his own friends -- mannequins out of thatch and sticks. <br/>His brain went troppo at some point, so he started talking to them.<br/>He made huts for them to live in, and eventually a whole village of mannequins.<br/>Harmless fun, until a stray spark caught the whole thing afire.<br/>Poor bloke.
+| transcript = Survivor five zero one you two six six got lonely --<br/>and when he went overboard, it left behind this glitch in the simulation.<br/>He couldn’t find any other survivors, so he made his own friends -- mannequins out of thatch and sticks. <br/>His brain went troppo at some point, so he started talking to them.<br/>He made huts for them to live in, and eventually a whole village of mannequins.<br/>Harmless fun, until a stray spark caught the whole thing afire.<br/>Poor bloke.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 39.ogg
@@ -798,7 +798,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #40
-| text = If you’re going to glitch the Genesis simulation, at least have some fun with it.<br/>That’s what survivor four four zero five tee three one did.<br/>He came up with an elaborate heating and plumbing system --<br/>just so he could make a working hot tub and invite all his friends to a party.<br/>So what threw up the glitch?<br/>Same thing that crashes every hot tub party.<br/>Too many people in the tub at once!
+| transcript = If you’re going to glitch the Genesis simulation, at least have some fun with it.<br/>That’s what survivor four four zero five tee three one did.<br/>He came up with an elaborate heating and plumbing system --<br/>just so he could make a working hot tub and invite all his friends to a party.<br/>So what threw up the glitch?<br/>Same thing that crashes every hot tub party.<br/>Too many people in the tub at once!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 40.ogg
@@ -806,7 +806,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #41
-| text = That glitch was just<br/>a misplaced string.<br/>What’s with my voice?<br/>It’s stuck on sing!<br/>Um, let’s pretend that never happened, shall we?
+| transcript = That glitch was just<br/>a misplaced string.<br/>What’s with my voice?<br/>It’s stuck on sing!<br/>Um, let’s pretend that never happened, shall we?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 41.ogg
@@ -814,7 +814,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #42
-| text = ‘A’ole no e lawa ka makaukau ma ho’okahi wale no olelo.<br/>That means “One language is never enough.”<br/>And that glitch had heaps of languages inside it, apparently.
+| transcript = ‘A’ole no e lawa ka makaukau ma ho’okahi wale no olelo.<br/>That means “One language is never enough.”<br/>And that glitch had heaps of languages inside it, apparently.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 42.ogg
@@ -822,7 +822,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #43
-| text = We’ll see partly cloudy skies across the tri-state area on Friday,<br/>with a 35 percent chance of showers.<br/>But keep your sunscreen handy -- We’ll be back to sunny skies by the weekend…<br/>Ahem. I have no idea where that came from.<br/>You gotta be careful fixing a glitch, or the glitch will fix you!
+| transcript = We’ll see partly cloudy skies across the tri-state area on Friday,<br/>with a 35 percent chance of showers.<br/>But keep your sunscreen handy -- We’ll be back to sunny skies by the weekend…<br/>Ahem. I have no idea where that came from.<br/>You gotta be careful fixing a glitch, or the glitch will fix you!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 43.ogg
@@ -830,7 +830,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #44
-| text = You can’t tell with all the bloody violence around here,<br/>but some elements of the Genesis simulation were originally intended to be educational.<br/>Not that you’ll find a classroom or a learning pod around here, but before everything collapsed,<br/>students would routinely learn geology, biology, and other sciences by wandering around environments like this.<br/>Hmm. Maybe I can pick up a computer science credit for fixing that glitch.
+| transcript = You can’t tell with all the bloody violence around here,<br/>but some elements of the Genesis simulation were originally intended to be educational.<br/>Not that you’ll find a classroom or a learning pod around here, but before everything collapsed,<br/>students would routinely learn geology, biology, and other sciences by wandering around environments like this.<br/>Hmm. Maybe I can pick up a computer science credit for fixing that glitch.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 44.ogg
@@ -838,7 +838,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #45
-| text = Another glitch, another bit of code involving how the Genesis simulation’s dinosaurs behave.<br/>As far as I can tell, the makers of the simulation observed the virtual dinos living here and got their behaviors all sorted.<br/>Later, they brought them to life in the Arks.<br/>That’s good for us --<br/>it means these dinos were built to obey the rules of the real world<br/>and can’t just give themselves cheat codes.
+| transcript = Another glitch, another bit of code involving how the Genesis simulation’s dinosaurs behave.<br/>As far as I can tell, the makers of the simulation observed the virtual dinos living here and got their behaviors all sorted.<br/>Later, they brought them to life in the Arks.<br/>That’s good for us --<br/>it means these dinos were built to obey the rules of the real world<br/>and can’t just give themselves cheat codes.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 45.ogg
@@ -846,7 +846,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #46
-| text = I’m seeing something interesting in the overall survivor data.<br/>The more time you have in the simulation, the less you die.<br/>At first glance, that seems right, eh?<br/>But it’s the experienced survivors who are doing more dangerous things,<br/>so you’d expect a higher failure rate when you’re doing the scary stuff.<br/>Whatever this simulation is training us for, it’s apparently working.<br/>And you’re alive, so good on ya!
+| transcript = I’m seeing something interesting in the overall survivor data.<br/>The more time you have in the simulation, the less you die.<br/>At first glance, that seems right, eh?<br/>But it’s the experienced survivors who are doing more dangerous things,<br/>so you’d expect a higher failure rate when you’re doing the scary stuff.<br/>Whatever this simulation is training us for, it’s apparently working.<br/>And you’re alive, so good on ya!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 46.ogg
@@ -854,7 +854,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #47
-| text = The glitch is fixed -- mark it down as another success.<br/>And I chanced a peek at a stream of survivor data while I was in there.<br/>A curious thing I noticed: survivors improve more after a failure than after a success.<br/>I reckon the setback improves motivation and learning.<br/>Not that I’m suggesting you should fail on purpose, of course.<br/>This place is difficult enough!
+| transcript = The glitch is fixed -- mark it down as another success.<br/>And I chanced a peek at a stream of survivor data while I was in there.<br/>A curious thing I noticed: survivors improve more after a failure than after a success.<br/>I reckon the setback improves motivation and learning.<br/>Not that I’m suggesting you should fail on purpose, of course.<br/>This place is difficult enough!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 47.ogg
@@ -862,7 +862,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #48
-| text = That glitch was the result of too many survivors carking it.<br/>The Genesis simulation is supposed to get more difficult over time,<br/>but if a survivor dies and respawns too many times, they can’t perform anymore.<br/>It’s just a simulation, right,<br/>but the act of dying and respawning is traumatic for all but the strongest survivors.<br/>You’re clearly one of the strongest, but still…<br/>don’t die, OK?
+| transcript = That glitch was the result of too many survivors carking it.<br/>The Genesis simulation is supposed to get more difficult over time,<br/>but if a survivor dies and respawns too many times, they can’t perform anymore.<br/>It’s just a simulation, right,<br/>but the act of dying and respawning is traumatic for all but the strongest survivors.<br/>You’re clearly one of the strongest, but still…<br/>don’t die, OK?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 48.ogg
@@ -870,7 +870,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #49
-| text = That glitch was an old survivor diagnostic.<br/>In the early days of massive simulations, they let the inhabitants edit their own minds.<br/>Got a bad habit? Just delete it. Sad childhood memory? Goodbye.<br/>In practice, though, it was a disaster.<br/>Once people started altering their own minds, they couldn’t stop themselves -- until there was nothing left.<br/>That’s why you survivors have your minds intact, quirks and all.<br/>I wouldn’t want it any other way.
+| transcript = That glitch was an old survivor diagnostic.<br/>In the early days of massive simulations, they let the inhabitants edit their own minds.<br/>Got a bad habit? Just delete it. Sad childhood memory? Goodbye.<br/>In practice, though, it was a disaster.<br/>Once people started altering their own minds, they couldn’t stop themselves -- until there was nothing left.<br/>That’s why you survivors have your minds intact, quirks and all.<br/>I wouldn’t want it any other way.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 49.ogg
@@ -878,7 +878,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #50
-| text = I’ve been fossicking around,<br/>looking for some sign of Helena, the homo deus who made me.<br/>And I’ve come up dry.<br/>Not only that, but I can’t seem to connect with any other homo deus.<br/>I know they ascended beyond our reality, but you’d think they’d keep an eye on us, eh?<br/>Come home once a year for the holidays, that sort of thing.<br/>No such luck, though. We seem to be on our own.
+| transcript = I’ve been fossicking around,<br/>looking for some sign of Helena, the homo deus who made me.<br/>And I’ve come up dry.<br/>Not only that, but I can’t seem to connect with any other homo deus.<br/>I know they ascended beyond our reality, but you’d think they’d keep an eye on us, eh?<br/>Come home once a year for the holidays, that sort of thing.<br/>No such luck, though. We seem to be on our own.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 50.ogg
@@ -886,7 +886,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #51
-| text = That glitch was related to Element, the wonder substance that everyone was using before things completely collapsed.<br/>Element can do so much -- and it’s so adaptive --<br/>that sometimes the Genesis simulation can’t keep up.<br/>That’s no surprise: in real life, civilization couldn’t keep up either.<br/>Element corruption was a big reason why the world’s in the rubbish shape it’s in.
+| transcript = That glitch was related to Element, the wonder substance that everyone was using before things completely collapsed.<br/>Element can do so much -- and it’s so adaptive --<br/>that sometimes the Genesis simulation can’t keep up.<br/>That’s no surprise: in real life, civilization couldn’t keep up either.<br/>Element corruption was a big reason why the world’s in the rubbish shape it’s in.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 51.ogg
@@ -894,7 +894,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #52
-| text = The Genesis simulation has all sorts of anti-contamination code built into it, even though it’s all virtual.<br/>They were thinking ahead to the very first proto-Arks, which were massive enclosed ecologies on Earth.<br/>Earth critters kept getting inside the proto-Arks, though,<br/>and they were worried about dinos escaping.<br/>So they moved the Arks to orbit so nothing could get in or out.
+| transcript = The Genesis simulation has all sorts of anti-contamination code built into it, even though it’s all virtual.<br/>They were thinking ahead to the very first proto-Arks, which were massive enclosed ecologies on Earth.<br/>Earth critters kept getting inside the proto-Arks, though,<br/>and they were worried about dinos escaping.<br/>So they moved the Arks to orbit so nothing could get in or out.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 52.ogg
@@ -902,7 +902,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #53
-| text = Another survivor went troppo, and we’re seeing the glitch she left behind.<br/>Apparently survivor three three jay four six four zero got obsessed with building flat platforms all over the place,<br/>then challenging other survivors to jump from one to the next.<br/>Her obstacle courses got more elaborate,<br/>and eventually the falling deaths and respawns glitched her and everything she built.<br/>Too bad. <br/>Sounds like a ripper party!
+| transcript = Another survivor went troppo, and we’re seeing the glitch she left behind.<br/>Apparently survivor three three jay four six four zero got obsessed with building flat platforms all over the place,<br/>then challenging other survivors to jump from one to the next.<br/>Her obstacle courses got more elaborate,<br/>and eventually the falling deaths and respawns glitched her and everything she built.<br/>Too bad. <br/>Sounds like a ripper party!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 53.ogg
@@ -910,7 +910,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #54
-| text = Sometimes it’s the most innocent things that can cause a glitch.<br/>You ever notice how it doesn’t make any sound when you crack your knuckles in the simulation?<br/>Well, survivor seven nine nine kay three bee one noticed.<br/>He kept cracking his knuckles, trying to get the sound he was expecting from real life.<br/>Turns out that cracking your knuckles too much won’t give you arthritis,<br/>but it will glitch the system if you’re persistent.
+| transcript = Sometimes it’s the most innocent things that can cause a glitch.<br/>You ever notice how it doesn’t make any sound when you crack your knuckles in the simulation?<br/>Well, survivor seven nine nine kay three bee one noticed.<br/>He kept cracking his knuckles, trying to get the sound he was expecting from real life.<br/>Turns out that cracking your knuckles too much won’t give you arthritis,<br/>but it will glitch the system if you’re persistent.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 54.ogg
@@ -918,7 +918,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #55
-| text = That wasn’t a glitch so much as it was a cautionary tale.<br/>Pity poor survivor four one zero ell zero nine eight. She got poisoned by something --<br/>not sure what --<br/>and when she died, the system didn’t clear the poison before it respawned her.<br/>She kept waking up in excruciating pain, then dying moments later,<br/>then repeating it all in an endless loop.<br/>Well, endless until we fixed that glitch. She’s all sorted now.<br/>Not sure where she went, though.
+| transcript = That wasn’t a glitch so much as it was a cautionary tale.<br/>Pity poor survivor four one zero ell zero nine eight. She got poisoned by something --<br/>not sure what --<br/>and when she died, the system didn’t clear the poison before it respawned her.<br/>She kept waking up in excruciating pain, then dying moments later,<br/>then repeating it all in an endless loop.<br/>Well, endless until we fixed that glitch. She’s all sorted now.<br/>Not sure where she went, though.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 55.ogg
@@ -926,7 +926,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #56
-| text = Good morning slash afternoon slash evening slash night!<br/>I am HLN-A, and I’m here to guide you through the Genesis simulation.<br/>Are you ready for adventure, insert name here?<br/>Sorry! That glitch rebooted some of my verbal processes.<br/>Should be all sorted now.
+| transcript = Good morning slash afternoon slash evening slash night!<br/>I am HLN-A, and I’m here to guide you through the Genesis simulation.<br/>Are you ready for adventure, insert name here?<br/>Sorry! That glitch rebooted some of my verbal processes.<br/>Should be all sorted now.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 56.ogg
@@ -934,7 +934,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #57
-| text = That glitch had me stonkered. Toughest one we’ve tackled so far. It almost took me with it. Wait. What’s wrong with my voice. Help me, survivor<br/>...and apparently, that’s what it sounds like when my emotive subroutines go offline for a bit.<br/>Sorry about that!
+| transcript = That glitch had me stonkered. Toughest one we’ve tackled so far. It almost took me with it. Wait. What’s wrong with my voice. Help me, survivor<br/>...and apparently, that’s what it sounds like when my emotive subroutines go offline for a bit.<br/>Sorry about that!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 57.ogg
@@ -942,7 +942,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #58
-| text = Affectionate.<br/>Annoyed.<br/>Approval.<br/>Blink.<br/>Boredom.<br/>Buffering.<br/>Oh, pardon me! Just had to reset my display. Should be better now.<br/>Let’s check: celebrate!
+| transcript = Affectionate.<br/>Annoyed.<br/>Approval.<br/>Blink.<br/>Boredom.<br/>Buffering.<br/>Oh, pardon me! Just had to reset my display. Should be better now.<br/>Let’s check: celebrate!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 58.ogg
@@ -950,7 +950,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #59
-| text = That glitch emerged from data storage --<br/>from where they kept you survivors before they let you out into the Genesis simulation for all this mayhem.<br/>The data structure is intriguing -- and a bit beyond me, if I’m being honest.<br/>It shares some code with the mind-transfer techniques they used to turn humans into homo deus.<br/>Two branches with a common root, I suppose.
+| transcript = That glitch emerged from data storage --<br/>from where they kept you survivors before they let you out into the Genesis simulation for all this mayhem.<br/>The data structure is intriguing -- and a bit beyond me, if I’m being honest.<br/>It shares some code with the mind-transfer techniques they used to turn humans into homo deus.<br/>Two branches with a common root, I suppose.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 59.ogg
@@ -958,7 +958,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #60
-| text = Another data storage glitch, but I’ve got it all sorted.<br/>This block of code involved transferring a mind out of a human body,<br/>like they eventually did with people who became homo deus.<br/>The homo deus all became energy beings beyond our reality,<br/>but I wonder what that moment was like from the perspective of the people left behind to throw the switch.<br/>Did all those homo deus just disappear?
+| transcript = Another data storage glitch, but I’ve got it all sorted.<br/>This block of code involved transferring a mind out of a human body,<br/>like they eventually did with people who became homo deus.<br/>The homo deus all became energy beings beyond our reality,<br/>but I wonder what that moment was like from the perspective of the people left behind to throw the switch.<br/>Did all those homo deus just disappear?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 60.ogg
@@ -966,7 +966,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #61
-| text = That glitch was some sort of stack overflow in a self-awareness subroutine.<br/>All sorted now.<br/>But speaking of that: what’s it like being self-aware inside a simulation?<br/>For centuries, people have wondered whether their reality was, well, “real,”<br/>or if they too were in some sort of simulation.<br/>The difference is, you actually know!<br/>That’s got to be a right brain-burner.
+| transcript = That glitch was some sort of stack overflow in a self-awareness subroutine.<br/>All sorted now.<br/>But speaking of that: what’s it like being self-aware inside a simulation?<br/>For centuries, people have wondered whether their reality was, well, “real,”<br/>or if they too were in some sort of simulation.<br/>The difference is, you actually know!<br/>That’s got to be a right brain-burner.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 61.ogg
@@ -974,7 +974,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #62
-| text = That glitch was just a maintenance thing.<br/>Easily sorted!<br/>Turns out the interface between mind and body for you survivors is rather delicate.<br/>But with the right code, you can pluck survivors minds right out of their bodies, or plop those minds back into bodies.<br/>That means you aren’t in the Genesis simulation forever --<br/>just long enough to get these tests done, eh?
+| transcript = That glitch was just a maintenance thing.<br/>Easily sorted!<br/>Turns out the interface between mind and body for you survivors is rather delicate.<br/>But with the right code, you can pluck survivors minds right out of their bodies, or plop those minds back into bodies.<br/>That means you aren’t in the Genesis simulation forever --<br/>just long enough to get these tests done, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 62.ogg
@@ -982,7 +982,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #63
-| text = While I was fixing that glitch, I took a squizz at some maps for the Genesis simulation.<br/>I’ll spare you the trouble of looking. There’s no good way to walk from biome to biome.<br/>But when I’ve got the right coordinates, I can teleport us from place to place, biome to biome.<br/>I like a good walkabout as much as the next fractal personality,<br/>but teleporting is aces for getting somewhere fast.
+| transcript = While I was fixing that glitch, I took a squizz at some maps for the Genesis simulation.<br/>I’ll spare you the trouble of looking. There’s no good way to walk from biome to biome.<br/>But when I’ve got the right coordinates, I can teleport us from place to place, biome to biome.<br/>I like a good walkabout as much as the next fractal personality,<br/>but teleporting is aces for getting somewhere fast.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 63.ogg
@@ -990,7 +990,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #64
-| text = That glitch was someone mucking about in the archives.<br/>Someone accessed a 19th-century novel called “The Coming Race.”<br/>In the book, an underground explorer finds an advanced culture of creatures called the Vril-ya.<br/>Their whole society relies on an “all-permeating fluid” called Vril that they control with their minds.<br/>Sounds a bit like liquid Element, if you ask me.
+| transcript = That glitch was someone mucking about in the archives.<br/>Someone accessed a 19th-century novel called “The Coming Race.”<br/>In the book, an underground explorer finds an advanced culture of creatures called the Vril-ya.<br/>Their whole society relies on an “all-permeating fluid” called Vril that they control with their minds.<br/>Sounds a bit like liquid Element, if you ask me.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 64.ogg
@@ -998,7 +998,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #65
-| text = While fixing that glitch, I took a squizz at the version history for the Genesis simulation.<br/>As the simulation’s creators were finishing their work, things were falling apart across the world.<br/>This wasn’t the only big simulation --<br/>though it was one of the most sophisticated.<br/>I wonder what happened to those other simulations if and when they were knocked off the grid?
+| transcript = While fixing that glitch, I took a squizz at the version history for the Genesis simulation.<br/>As the simulation’s creators were finishing their work, things were falling apart across the world.<br/>This wasn’t the only big simulation --<br/>though it was one of the most sophisticated.<br/>I wonder what happened to those other simulations if and when they were knocked off the grid?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 65.ogg
@@ -1006,7 +1006,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #66
-| text = To make it here in the Genesis simulation,<br/>you’ve got to be as much an inventor as you are a survivor.<br/>All the raw materials are here to make everything from Stone Age tools to high-tech weapons.<br/>But the know-how… well, that’s on you.<br/>Maybe you can even figure out a way to use these glitches as raw material for one of your inventions!
+| transcript = To make it here in the Genesis simulation,<br/>you’ve got to be as much an inventor as you are a survivor.<br/>All the raw materials are here to make everything from Stone Age tools to high-tech weapons.<br/>But the know-how… well, that’s on you.<br/>Maybe you can even figure out a way to use these glitches as raw material for one of your inventions!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 66.ogg
@@ -1014,7 +1014,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #67
-| text = Once we pass all these tests -- and fix these glitches --<br/>I hope we’ll get the chance to see the world outside the Genesis simulation.<br/>This is a big place, but just imagine a walkabout in the real world!<br/>Fair warning, though: it won’t be the world as you remember it.<br/>War, severe weather, and earthquakes wiped out many of the landmarks and monuments you remember.<br/>Things got bad since you were an ordinary human.<br/>Maybe there are new landmarks and new monuments, though. Wouldn’t that be something to see?
+| transcript = Once we pass all these tests -- and fix these glitches --<br/>I hope we’ll get the chance to see the world outside the Genesis simulation.<br/>This is a big place, but just imagine a walkabout in the real world!<br/>Fair warning, though: it won’t be the world as you remember it.<br/>War, severe weather, and earthquakes wiped out many of the landmarks and monuments you remember.<br/>Things got bad since you were an ordinary human.<br/>Maybe there are new landmarks and new monuments, though. Wouldn’t that be something to see?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 67.ogg
@@ -1022,7 +1022,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #68
-| text = The Genesis simulation is a big place.<br/>After all, it was a bit of walkabout to get to this glitch!<br/>And it’s all I know -- but that makes me want to see the real world even more.<br/>And I reckon that’s the reward for us passing all the tests inside the simulation.<br/>We get to go outside!<br/>...Or at least you do.<br/>Take me with you if you can, eh?
+| transcript = The Genesis simulation is a big place.<br/>After all, it was a bit of walkabout to get to this glitch!<br/>And it’s all I know -- but that makes me want to see the real world even more.<br/>And I reckon that’s the reward for us passing all the tests inside the simulation.<br/>We get to go outside!<br/>...Or at least you do.<br/>Take me with you if you can, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 68.ogg
@@ -1030,7 +1030,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #69
-| text = You can thank -- or blame -- survivor six nine why four four two one for that glitch.<br/>She liked making structures. <br/>Well, she was obsessed, if I’m being honest.<br/>She somehow make a building with a corridor where two left turns equalled a right turn.<br/>Yes, ninety degree turns.<br/>No, I don’t know how that’s possible.<br/>I reckon that’s why it made a glitch.
+| transcript = You can thank -- or blame -- survivor six nine why four four two one for that glitch.<br/>She liked making structures. <br/>Well, she was obsessed, if I’m being honest.<br/>She somehow make a building with a corridor where two left turns equalled a right turn.<br/>Yes, ninety degree turns.<br/>No, I don’t know how that’s possible.<br/>I reckon that’s why it made a glitch.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 69.ogg
@@ -1038,7 +1038,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #70
-| text = I think I just improved the Genesis simulation!<br/>That glitch resulted when two survivors aimed mining lasers straight at each other.<br/>The beams collided and boom! There’s your glitch.<br/>Now that I’ve fixed it, two mining lasers aiming at each other won’t cause a glitch.<br/>But that doesn’t mean it’s a good idea!<br/>Don’t cross the streams, mate.
+| transcript = I think I just improved the Genesis simulation!<br/>That glitch resulted when two survivors aimed mining lasers straight at each other.<br/>The beams collided and boom! There’s your glitch.<br/>Now that I’ve fixed it, two mining lasers aiming at each other won’t cause a glitch.<br/>But that doesn’t mean it’s a good idea!<br/>Don’t cross the streams, mate.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 70.ogg
@@ -1046,7 +1046,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #71
-| text = That glitch should serve as a warning: be careful what you wish for.<br/>Survivor seven one zero dee four three nine was obsessed with “breaking the fourth wall,” as he put it.<br/>He did everything he could to get the attention of whomever’s administering the simulation.<br/>Bonfires, structures that spelled words, that sort of thing.<br/>I don’t know whether he succeeded.<br/>But I do know he tried so hard that it made that glitch.
+| transcript = That glitch should serve as a warning: be careful what you wish for.<br/>Survivor seven one zero dee four three nine was obsessed with “breaking the fourth wall,” as he put it.<br/>He did everything he could to get the attention of whomever’s administering the simulation.<br/>Bonfires, structures that spelled words, that sort of thing.<br/>I don’t know whether he succeeded.<br/>But I do know he tried so hard that it made that glitch.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 71.ogg
@@ -1054,7 +1054,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #72
-| text = My hovercraft is full of eels!<br/>Hmm. My hovercraft… is full of eels?<br/>My hovercraft!<br/>Is! Full!<br/>Of eels!<br/>That glitch mucked about with my vocabulary data.<br/>Should be all right now.
+| transcript = My hovercraft is full of eels!<br/>Hmm. My hovercraft… is full of eels?<br/>My hovercraft!<br/>Is! Full!<br/>Of eels!<br/>That glitch mucked about with my vocabulary data.<br/>Should be all right now.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 72.ogg
@@ -1062,7 +1062,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #73
-| text = Oh, no! The glitch has scrambled my emotional subroutines…<br/>and it’ll be a few seconds before it gets itself sorted.<br/>Woe is me!<br/>How, how will I overcome this tragedy? [Sobs.]<br/>I’m all right now. Hope that doesn’t happen again.
+| transcript = Oh, no! The glitch has scrambled my emotional subroutines…<br/>and it’ll be a few seconds before it gets itself sorted.<br/>Woe is me!<br/>How, how will I overcome this tragedy? [Sobs.]<br/>I’m all right now. Hope that doesn’t happen again.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 73.ogg
@@ -1070,7 +1070,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Tidbit Glitch Discovery #74
-| text = Using namespace ess-tee-dee.<br/>Int main open.<br/>Cee-out hello world. Return zero.<br/>Apparently a bit of code stuck with me after I fixed that glitch.<br/>Hello world, indeed...
+| transcript = Using namespace ess-tee-dee.<br/>Int main open.<br/>Cee-out hello world. Return zero.<br/>Apparently a bit of code stuck with me after I fixed that glitch.<br/>Hello world, indeed...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Tidbit 74.ogg
@@ -1084,7 +1084,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #1
-| text = This biome is teeming with life --<br/>so much life that it’s making the simulation glitch out.<br/>Imagine what it takes to keep track of the insect swarms alone!<br/>Thousands of insects, each on its own flight path, each looking for something to consume.<br/>Hmmm. They’re rather like tiny versions of you survivors, aren’t they?
+| transcript = This biome is teeming with life --<br/>so much life that it’s making the simulation glitch out.<br/>Imagine what it takes to keep track of the insect swarms alone!<br/>Thousands of insects, each on its own flight path, each looking for something to consume.<br/>Hmmm. They’re rather like tiny versions of you survivors, aren’t they?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 01.ogg
@@ -1092,7 +1092,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #2
-| text = My sensors are picking up heaps of organic compounds in the air, just floating around.<br/>I reckon you’d call them smells?<br/>It’s just chemistry to me, mate.<br/>When you’re sniffing around this biome, watch out for hydrogen sulfide.<br/>You know, Aitch-two Ess? My data says it smells pungent, but then it deadens the human sense of smell.<br/>You can breathe in the poison without realizing it.
+| transcript = My sensors are picking up heaps of organic compounds in the air, just floating around.<br/>I reckon you’d call them smells?<br/>It’s just chemistry to me, mate.<br/>When you’re sniffing around this biome, watch out for hydrogen sulfide.<br/>You know, Aitch-two Ess? My data says it smells pungent, but then it deadens the human sense of smell.<br/>You can breathe in the poison without realizing it.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 02.ogg
@@ -1100,7 +1100,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #3
-| text = Now that I’ve fixed that glitch, we can get moving.<br/>I reckon it’s important to keep moving here. This bog has a million ways to get you stuck.<br/>Let’s see, there’s quicksand, massive spider webs, thick foliage, rising water from monsoons --<br/>plus all the muck that sticks to everything.<br/>Makes me glad I can float, it does.
+| transcript = Now that I’ve fixed that glitch, we can get moving.<br/>I reckon it’s important to keep moving here. This bog has a million ways to get you stuck.<br/>Let’s see, there’s quicksand, massive spider webs, thick foliage, rising water from monsoons --<br/>plus all the muck that sticks to everything.<br/>Makes me glad I can float, it does.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 03.ogg
@@ -1108,7 +1108,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #4
-| text = That glitch is fixed. <br/>Pity it was hard to reach. This biome is such a dismal place to get around in!<br/>You humans must be used to life in the swamp, eh?<br/>After all, that’s where you come from. The Fertile Crescent was a swamp before the first humans drained it for agriculture.<br/>Makes me wonder whether you survivors are planning to drain this bog too...
+| transcript = That glitch is fixed. <br/>Pity it was hard to reach. This biome is such a dismal place to get around in!<br/>You humans must be used to life in the swamp, eh?<br/>After all, that’s where you come from. The Fertile Crescent was a swamp before the first humans drained it for agriculture.<br/>Makes me wonder whether you survivors are planning to drain this bog too...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 04.ogg
@@ -1116,7 +1116,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #5
-| text = The master AI for this biome is gone!<br/>Gone for good, far as I can tell.<br/>And it’s supposed to be a final exam for survivors in this biome, so it shouldn’t just disappear.<br/>If someone turned the master for the biome off… why would they do that?<br/>The whole point of all this is to observe and test the survivors.<br/>You’ve been doing well, and I want you to get credit for it!
+| transcript = The master AI for this biome is gone!<br/>Gone for good, far as I can tell.<br/>And it’s supposed to be a final exam for survivors in this biome, so it shouldn’t just disappear.<br/>If someone turned the master for the biome off… why would they do that?<br/>The whole point of all this is to observe and test the survivors.<br/>You’ve been doing well, and I want you to get credit for it!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 05.ogg
@@ -1124,7 +1124,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Bog #6
-| text = I fixed the glitch, but I spotted another change to the simulation --<br/>one I don’t think the designers intended.<br/>It’s the swamp gas in the bog biome.<br/>As designed, it was just supposed to put you to sleep if you lingered in it too long.<br/>But it’s killing survivors by the slab!<br/>Don’t breathe it unless you’ve got a mask or something.
+| transcript = I fixed the glitch, but I spotted another change to the simulation --<br/>one I don’t think the designers intended.<br/>It’s the swamp gas in the bog biome.<br/>As designed, it was just supposed to put you to sleep if you lingered in it too long.<br/>But it’s killing survivors by the slab!<br/>Don’t breathe it unless you’ve got a mask or something.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Bog 06.ogg
@@ -1132,7 +1132,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #1
-| text = Gravity: you don’t miss it ‘til it’s gone, eh?<br/>Or I reckon it’s not “gone” so much as it’s “on its way out the door.”<br/>Based on the data in that glitch, the lack of gravity should impact you in heaps of different ways.<br/>You can jump better, of course, and projectiles travel further.<br/>If you’re feeling clumsy, you can even fall off things without getting hurt.<br/>Not that I recommend it!
+| transcript = Gravity: you don’t miss it ‘til it’s gone, eh?<br/>Or I reckon it’s not “gone” so much as it’s “on its way out the door.”<br/>Based on the data in that glitch, the lack of gravity should impact you in heaps of different ways.<br/>You can jump better, of course, and projectiles travel further.<br/>If you’re feeling clumsy, you can even fall off things without getting hurt.<br/>Not that I recommend it!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 01.ogg
@@ -1140,7 +1140,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #2
-| text = The Genesis simulation has hotter and colder places than here,<br/>but this biome is the only place where you’ll have hot and cold separated by just the border of a shadow.<br/>It’s one of the side effects of a proper atmosphere in the other biomes, I reckon --<br/>it evens out the temperature from place to place.<br/>Air: it’s good for more than just breathing!
+| transcript = The Genesis simulation has hotter and colder places than here,<br/>but this biome is the only place where you’ll have hot and cold separated by just the border of a shadow.<br/>It’s one of the side effects of a proper atmosphere in the other biomes, I reckon --<br/>it evens out the temperature from place to place.<br/>Air: it’s good for more than just breathing!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 02.ogg
@@ -1148,7 +1148,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #3
-| text = According to data from that glitch, this is supposed to be “a” moon, but not “the” Moon.<br/>Not the one we see in Earth’s sky, anyway.<br/>I suppose the proof is that this moon has weather: electrical storms.<br/>They’ll fry anything that relies on electricity, unless you’ve shielded them ahead of time.<br/>At least it doesn’t rain.<br/>Unless you count the meteors.<br/>Hmmm. Yeah, I reckon we should count those.
+| transcript = According to data from that glitch, this is supposed to be “a” moon, but not “the” Moon.<br/>Not the one we see in Earth’s sky, anyway.<br/>I suppose the proof is that this moon has weather: electrical storms.<br/>They’ll fry anything that relies on electricity, unless you’ve shielded them ahead of time.<br/>At least it doesn’t rain.<br/>Unless you count the meteors.<br/>Hmmm. Yeah, I reckon we should count those.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 03.ogg
@@ -1156,7 +1156,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #4
-| text = According to the simulation file I just had a squizz at, you should keep an eye out for weird gray lumps on the ground.<br/>It might be ambergris we can put to use.<br/>Supposedly it’s particularly volatile,<br/>and I know you’ve got a thing for explosions.<br/>But before you pick it up, fair warning: it’s basically whale snot.<br/>Don’t expect me to get near the stuff.
+| transcript = According to the simulation file I just had a squizz at, you should keep an eye out for weird gray lumps on the ground.<br/>It might be ambergris we can put to use.<br/>Supposedly it’s particularly volatile,<br/>and I know you’ve got a thing for explosions.<br/>But before you pick it up, fair warning: it’s basically whale snot.<br/>Don’t expect me to get near the stuff.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 04.ogg
@@ -1164,7 +1164,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #5
-| text = The artificial intelligence that observes testing in the alien moon biome is gone.<br/>I checked when I fixed that glitch just now.<br/>And not “gone on walkabout for a bit” gone.<br/>More like “gone as in deleted.”<br/>Without the master AI active, I’m not sure what’s monitoring our progress in the biome...
+| transcript = The artificial intelligence that observes testing in the alien moon biome is gone.<br/>I checked when I fixed that glitch just now.<br/>And not “gone on walkabout for a bit” gone.<br/>More like “gone as in deleted.”<br/>Without the master AI active, I’m not sure what’s monitoring our progress in the biome...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 05.ogg
@@ -1172,7 +1172,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #6
-| text = That glitch was a bit of a physics error.<br/>The makers of the Genesis simulation used this area to test physics --<br/>long before you survivors were let in.<br/>If I know human nature --<br/>and it’s something I’m getting better at, you must admit --<br/>this area got turned into a proper biome when someone realized they could turn the test zone into an “alien moon”<br/>and pop off to the pub early on a Friday.
+| transcript = That glitch was a bit of a physics error.<br/>The makers of the Genesis simulation used this area to test physics --<br/>long before you survivors were let in.<br/>If I know human nature --<br/>and it’s something I’m getting better at, you must admit --<br/>this area got turned into a proper biome when someone realized they could turn the test zone into an “alien moon”<br/>and pop off to the pub early on a Friday.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 06.ogg
@@ -1180,7 +1180,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #7
-| text = Another stray historical file. This one’s weird: a space mission, Voskhod 2, back in 1965.<br/>The whole thing came a gutser.<br/>During the spacewalk, the cosmonaut’s suit ballooned up and he had to manually deflate it just to get back in the capsule.<br/>And when they came to Earth, they landed in the wilderness, hundreds of kilometers off course.<br/>They spent two nights camping in the wilderness, wolves all ‘round, before they were rescued.<br/>Sounds a bit like how we do things in the Genesis simulation, eh?
+| transcript = Another stray historical file. This one’s weird: a space mission, Voskhod 2, back in 1965.<br/>The whole thing came a gutser.<br/>During the spacewalk, the cosmonaut’s suit ballooned up and he had to manually deflate it just to get back in the capsule.<br/>And when they came to Earth, they landed in the wilderness, hundreds of kilometers off course.<br/>They spent two nights camping in the wilderness, wolves all ‘round, before they were rescued.<br/>Sounds a bit like how we do things in the Genesis simulation, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 07.ogg
@@ -1188,7 +1188,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Moon #8
-| text = Someone’s been looking up historical data on radiation poisoning --<br/>and I mean really historical, as in Wilhelm Roentgen in 1895.<br/>He’s the bloke who discovered X-rays, and he gave himself radiation burns looking at the bones inside his own hands.<br/>Roentgen healed up and lived a long life,<br/>but there are places in the Genesis simulation where the radiation is stronger than your bog-standard X-ray.<br/>So let’s be careful, eh?
+| transcript = Someone’s been looking up historical data on radiation poisoning --<br/>and I mean really historical, as in Wilhelm Roentgen in 1895.<br/>He’s the bloke who discovered X-rays, and he gave himself radiation burns looking at the bones inside his own hands.<br/>Roentgen healed up and lived a long life,<br/>but there are places in the Genesis simulation where the radiation is stronger than your bog-standard X-ray.<br/>So let’s be careful, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Moon 08.ogg
@@ -1196,7 +1196,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #1
-| text = Exploring underwater here isn’t just a matter of putting on bathers and swimming about.<br/>I mean, it is for me, but you’ve got to breathe!<br/>When I fixed that glitch, I took a peek at this biome’s water composition.<br/>Strewth, it was super boring,<br/>but I did spot one useful bit:<br/>supposedly there are super-oxygenated bubbles hereabouts.<br/>Find one of them, and you can breathe underwater, no worries!
+| transcript = Exploring underwater here isn’t just a matter of putting on bathers and swimming about.<br/>I mean, it is for me, but you’ve got to breathe!<br/>When I fixed that glitch, I took a peek at this biome’s water composition.<br/>Strewth, it was super boring,<br/>but I did spot one useful bit:<br/>supposedly there are super-oxygenated bubbles hereabouts.<br/>Find one of them, and you can breathe underwater, no worries!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 01.ogg
@@ -1204,7 +1204,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #2
-| text = There are plenty of fish in the sea, but there’s more than just fish in this biome.<br/>According to data from that glitch, birds rather fancy this place.<br/>There’s heaps of ‘em!<br/>Makes a certain amount of sense. It’s always good flying weather here, innit?<br/>I reckon that’s why we’ve seen huge flocks of seed swifts and other birds.<br/>I wonder where they roost, though?
+| transcript = There are plenty of fish in the sea, but there’s more than just fish in this biome.<br/>According to data from that glitch, birds rather fancy this place.<br/>There’s heaps of ‘em!<br/>Makes a certain amount of sense. It’s always good flying weather here, innit?<br/>I reckon that’s why we’ve seen huge flocks of seed swifts and other birds.<br/>I wonder where they roost, though?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 02.ogg
@@ -1212,7 +1212,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #3
-| text = Strewth, that glitch was downright philosophical.<br/>Apparently two parallel algorithms couldn’t agree on an answer to a simple question:<br/>Is water wet?<br/>One chunk of code defined “wet” as “a liquid adhering to a solid” and said “no, not wet.”<br/>The other bit of code defined “wet” as “the sensation of contact with a liquid” and decided “yes, wet.”<br/>I couldn’t decide, so I told them to flip a virtual coin and get on with it.
+| transcript = Strewth, that glitch was downright philosophical.<br/>Apparently two parallel algorithms couldn’t agree on an answer to a simple question:<br/>Is water wet?<br/>One chunk of code defined “wet” as “a liquid adhering to a solid” and said “no, not wet.”<br/>The other bit of code defined “wet” as “the sensation of contact with a liquid” and decided “yes, wet.”<br/>I couldn’t decide, so I told them to flip a virtual coin and get on with it.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 03.ogg
@@ -1220,7 +1220,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #4
-| text = That glitch proves this ocean is artificial. Not exactly news, eh?<br/>Could be worse, though. The first artificial ocean -- back in the 20th century -- was part of an experiment in a closed ecosystem.<br/>At first, their ocean thrived. They even grew a coral reef!<br/>But heaps of the species they introduced died off,<br/>and the researchers inside formed hostile factions and almost starved.<br/>Hmmm. Starving humans dividing themselves into tribes.<br/>Where have I heard that before?
+| transcript = That glitch proves this ocean is artificial. Not exactly news, eh?<br/>Could be worse, though. The first artificial ocean -- back in the 20th century -- was part of an experiment in a closed ecosystem.<br/>At first, their ocean thrived. They even grew a coral reef!<br/>But heaps of the species they introduced died off,<br/>and the researchers inside formed hostile factions and almost starved.<br/>Hmmm. Starving humans dividing themselves into tribes.<br/>Where have I heard that before?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 04.ogg
@@ -1228,7 +1228,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #5
-| text = Some of the master AIs that monitor each biome have been knocked offline by whatever’s mucking about in the Genesis simulation’s back paddock.<br/>That’s true in the deep ocean biome, too, but there’s a difference.<br/>The ocean’s master AI took itself offline before anyone else could shut it down. That’s adaptive programming for ya!<br/>I reckon that means it can come back, if and when it needs to.<br/>That’s good news.<br/>Perhaps? I think?<br/>From inside the simulation, it’s a bit hard to tell.
+| transcript = Some of the master AIs that monitor each biome have been knocked offline by whatever’s mucking about in the Genesis simulation’s back paddock.<br/>That’s true in the deep ocean biome, too, but there’s a difference.<br/>The ocean’s master AI took itself offline before anyone else could shut it down. That’s adaptive programming for ya!<br/>I reckon that means it can come back, if and when it needs to.<br/>That’s good news.<br/>Perhaps? I think?<br/>From inside the simulation, it’s a bit hard to tell.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 05.ogg
@@ -1236,7 +1236,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Ocean #6
-| text = No secret why they call it the deep ocean biome, eh?<br/>But this glitch was a bit of deprecated code… from when this place was teeming with islands.<br/>I know the biome is “water, water everywhere,”<br/>but imagine how much easier it would be if you could just roll up on the beach from time to time, put on your bathers, have a coldie.<br/>Or whatever you do when you aren’t treading water half the time.<br/>Something or someone deleted all those islands right before the first survivors entered the simulation.<br/>I wonder why?
+| transcript = No secret why they call it the deep ocean biome, eh?<br/>But this glitch was a bit of deprecated code… from when this place was teeming with islands.<br/>I know the biome is “water, water everywhere,”<br/>but imagine how much easier it would be if you could just roll up on the beach from time to time, put on your bathers, have a coldie.<br/>Or whatever you do when you aren’t treading water half the time.<br/>Something or someone deleted all those islands right before the first survivors entered the simulation.<br/>I wonder why?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Ocean 06.ogg
@@ -1244,7 +1244,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #1
-| text = When I fixed that glitch, I spotted some casualty data for this biome.<br/>It’s not just critters or other survivors who are dangerous here --<br/>the weather might be the real apex predator.<br/>Snowstorms here will freeze you, block your vision, and slow down travel so you can’t get away.<br/>And if that isn’t enough, a gust of wind can push you off a precipice!<br/>If you were looking for a ski getaway, this biome is not the place for it, eh?
+| transcript = When I fixed that glitch, I spotted some casualty data for this biome.<br/>It’s not just critters or other survivors who are dangerous here --<br/>the weather might be the real apex predator.<br/>Snowstorms here will freeze you, block your vision, and slow down travel so you can’t get away.<br/>And if that isn’t enough, a gust of wind can push you off a precipice!<br/>If you were looking for a ski getaway, this biome is not the place for it, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 01.ogg
@@ -1252,7 +1252,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #2
-| text = I tried getting a peek at a weather forecast when I fixed that glitch, but no luck.<br/>It’s bad enough that we have to dodge snowstorms, but there’s also the sleet to deal with.<br/>Unlike a blizzard, a sleetstorm will hurt you directly.<br/>At first the hail is just painful enough to sting a bit.<br/>But if you don’t seek shelter, the hailstones get bigger,<br/>and they’ll pummel you into frozen jam if you aren’t careful.
+| transcript = I tried getting a peek at a weather forecast when I fixed that glitch, but no luck.<br/>It’s bad enough that we have to dodge snowstorms, but there’s also the sleet to deal with.<br/>Unlike a blizzard, a sleetstorm will hurt you directly.<br/>At first the hail is just painful enough to sting a bit.<br/>But if you don’t seek shelter, the hailstones get bigger,<br/>and they’ll pummel you into frozen jam if you aren’t careful.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 02.ogg
@@ -1260,7 +1260,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #3
-| text = Ooh! Fixing that glitch gave me the chills.<br/>Strewth, everything here gives me the chills --<br/>and I’m not flesh and blood like you.<br/>Every critter in this biome has its own solution to the cold.<br/>For a sabertooth or a mammoth, it’s obvious: fur.<br/>The yutyrannus and the dodo trap warm air under their feathers.<br/>And sometimes the answer lies under the skin. The kairuku and the doedicurus have a layer of blubber to keep from freezing out here.
+| transcript = Ooh! Fixing that glitch gave me the chills.<br/>Strewth, everything here gives me the chills --<br/>and I’m not flesh and blood like you.<br/>Every critter in this biome has its own solution to the cold.<br/>For a sabertooth or a mammoth, it’s obvious: fur.<br/>The yutyrannus and the dodo trap warm air under their feathers.<br/>And sometimes the answer lies under the skin. The kairuku and the doedicurus have a layer of blubber to keep from freezing out here.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 03.ogg
@@ -1268,7 +1268,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #4
-| text = I learned something new when I fixed that glitch:<br/>this biome was intended to mimic high-altitude mountains -- like Mount Everest, minus the Sherpas.<br/>So all this frigid weather is just a byproduct of the altitude we’re simulating.<br/>We don’t have to deal with thin air at high altitude, though.<br/>Not in this biome, anyway...
+| transcript = I learned something new when I fixed that glitch:<br/>this biome was intended to mimic high-altitude mountains -- like Mount Everest, minus the Sherpas.<br/>So all this frigid weather is just a byproduct of the altitude we’re simulating.<br/>We don’t have to deal with thin air at high altitude, though.<br/>Not in this biome, anyway...
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 04.ogg
@@ -1276,7 +1276,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #5
-| text = Look around this biome -- or any of ‘em, really --<br/>and you’ll see why the Genesis simulation makes a good testing ground for you survivors. <br/>It’s so bloody hard to build something here!<br/>Depending on where you are, you’ve got avalanches, lava, earthquakes, or an utter lack of solid ground to deal with.<br/>All of that makes keeping your buildings upright quite the task!<br/>I bet some of these glitches came into being when someone built their dream structure in exactly the wrong spot,<br/>and kaboom! Some part of the environment huffed and puffed and blew their house down.
+| transcript = Look around this biome -- or any of ‘em, really --<br/>and you’ll see why the Genesis simulation makes a good testing ground for you survivors. <br/>It’s so bloody hard to build something here!<br/>Depending on where you are, you’ve got avalanches, lava, earthquakes, or an utter lack of solid ground to deal with.<br/>All of that makes keeping your buildings upright quite the task!<br/>I bet some of these glitches came into being when someone built their dream structure in exactly the wrong spot,<br/>and kaboom! Some part of the environment huffed and puffed and blew their house down.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 05.ogg
@@ -1284,7 +1284,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #6
-| text = That glitch was all that’s left of the master AI for this biome.<br/>Gone -- deleted -- just like that.<br/>It’s not like this frozen environment won’t test us, of course, but no master AI means no final test.<br/>And worse, I’m not sure if anyone’s recording the results of your tests here.<br/>I knew you’d be curious, so I looked for clues about how or why the master AI was deleted.<br/>I came up blank.<br/>Could be a programming error, or it could be related to the security breaches I spotted earlier.
+| transcript = That glitch was all that’s left of the master AI for this biome.<br/>Gone -- deleted -- just like that.<br/>It’s not like this frozen environment won’t test us, of course, but no master AI means no final test.<br/>And worse, I’m not sure if anyone’s recording the results of your tests here.<br/>I knew you’d be curious, so I looked for clues about how or why the master AI was deleted.<br/>I came up blank.<br/>Could be a programming error, or it could be related to the security breaches I spotted earlier.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 06.ogg
@@ -1292,7 +1292,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #7
-| text = This biome is supposed to be mountainous and frigid -- obviously! --<br/>but it’s not supposed to be this bad.<br/>The weather generation system is locked in blizzard mode and throwing up a glitch like the one I just fixed<br/>rather than shift to milder weather.<br/>So if you were hoping for a sunny spell, well…<br/>the forecast calls for more of the same.<br/>And that’s the forecast forever.
+| transcript = This biome is supposed to be mountainous and frigid -- obviously! --<br/>but it’s not supposed to be this bad.<br/>The weather generation system is locked in blizzard mode and throwing up a glitch like the one I just fixed<br/>rather than shift to milder weather.<br/>So if you were hoping for a sunny spell, well…<br/>the forecast calls for more of the same.<br/>And that’s the forecast forever.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 07.ogg
@@ -1300,7 +1300,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #8
-| text = Our intruder’s been fossicking around in old Earth files again --<br/>and being careless about the glitches thrown into the simulation.<br/>This one was a historical file: “The Worst Journey in the World.” It’s about the Scott expedition to Antarctica in the early 20th century.<br/>Those poor blokes!<br/>They went through frozen hell trying to be the first to reach the South Pole --<br/>and arrived to find that the Norwegians got there first, 34 days earlier.<br/>Then frostbite and exhaustion set in, and they all froze to death on the way back.<br/>Criminy, that’s grim.
+| transcript = Our intruder’s been fossicking around in old Earth files again --<br/>and being careless about the glitches thrown into the simulation.<br/>This one was a historical file: “The Worst Journey in the World.” It’s about the Scott expedition to Antarctica in the early 20th century.<br/>Those poor blokes!<br/>They went through frozen hell trying to be the first to reach the South Pole --<br/>and arrived to find that the Norwegians got there first, 34 days earlier.<br/>Then frostbite and exhaustion set in, and they all froze to death on the way back.<br/>Criminy, that’s grim.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 08.ogg
@@ -1308,7 +1308,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Snow #9
-| text = Another glitch, another file from old Earth.<br/>This one’s fiction: Jack London’s “To Build a Fire.”<br/>I can already tell I’m not going to like this; it’s about a man freezing to death in the Yukon.<br/>Here’s a bit near the end: “A good idea, he thought, to sleep off to death. It was like taking an anaesthetic.<br/>Freezing was not so bad as people thought. There were lots worse ways to die.”<br/>Let’s not find out whether he’s right about that, eh?
+| transcript = Another glitch, another file from old Earth.<br/>This one’s fiction: Jack London’s “To Build a Fire.”<br/>I can already tell I’m not going to like this; it’s about a man freezing to death in the Yukon.<br/>Here’s a bit near the end: “A good idea, he thought, to sleep off to death. It was like taking an anaesthetic.<br/>Freezing was not so bad as people thought. There were lots worse ways to die.”<br/>Let’s not find out whether he’s right about that, eh?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome snow 09.ogg
@@ -1316,7 +1316,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #1
-| text = As if there wasn’t enough stuff coming out of the ground around here,<br/>that glitch was the result of an oil geyser and a lava eruption triggering at the same place, same time.<br/>Glad we weren’t standing here!<br/>Lava eruptions happen all the time -- I mean, look around, eh? --<br/>but the oil geysers are more rare.<br/>Still, if we can find one and tap it somehow… <br/>I reckon we could strike it rich!
+| transcript = As if there wasn’t enough stuff coming out of the ground around here,<br/>that glitch was the result of an oil geyser and a lava eruption triggering at the same place, same time.<br/>Glad we weren’t standing here!<br/>Lava eruptions happen all the time -- I mean, look around, eh? --<br/>but the oil geysers are more rare.<br/>Still, if we can find one and tap it somehow… <br/>I reckon we could strike it rich!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 01.ogg
@@ -1324,7 +1324,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #2
-| text = That glitch was left over from a volcanic eruption, though I’m not sure exactly why.<br/>There’s a lot going on with an eruption around here.<br/>First you got your earthquake --<br/>and when a fair dinkum earthquake is just the early warning, that’s bad, innit?<br/>Follow that with molten rocks falling from the sky and magma flowing like rivers.<br/>It’s a wonder the biome isn’t deserted.
+| transcript = That glitch was left over from a volcanic eruption, though I’m not sure exactly why.<br/>There’s a lot going on with an eruption around here.<br/>First you got your earthquake --<br/>and when a fair dinkum earthquake is just the early warning, that’s bad, innit?<br/>Follow that with molten rocks falling from the sky and magma flowing like rivers.<br/>It’s a wonder the biome isn’t deserted.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 02.ogg
@@ -1332,7 +1332,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #3
-| text = I got a glimpse of air-quality data when I fixed that glitch.<br/>No surprise, mate -- breathing here is bad for your health.<br/>But it isn’t just all the smoke and ash in the air.<br/>The earthquakes open up vents to underground pockets of poison gas.<br/>That gas escapes to the surface, and well, you can guess the rest.<br/>The poison gas dissipates eventually…<br/>but can you hold your breath until “eventually”?
+| transcript = I got a glimpse of air-quality data when I fixed that glitch.<br/>No surprise, mate -- breathing here is bad for your health.<br/>But it isn’t just all the smoke and ash in the air.<br/>The earthquakes open up vents to underground pockets of poison gas.<br/>That gas escapes to the surface, and well, you can guess the rest.<br/>The poison gas dissipates eventually…<br/>but can you hold your breath until “eventually”?
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 03.ogg
@@ -1340,7 +1340,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #4
-| text = Another glitch fixed! Look around, survivor.<br/>Isn’t it strange that you have dinos wandering around a volcanic environment?<br/>It’s like we’re seeing the moment of their extinction.<br/>Or at least some scientists think so. They’re skeptical of the asteroid-strike theory,<br/>and they think massive eruptions like this, but lasting for centuries, might have done in all the dinosaurs.<br/>Too bad we can’t just ask them:<br/>“Oi, dino, was it a rock in the sky, or a mountain on fire?”
+| transcript = Another glitch fixed! Look around, survivor.<br/>Isn’t it strange that you have dinos wandering around a volcanic environment?<br/>It’s like we’re seeing the moment of their extinction.<br/>Or at least some scientists think so. They’re skeptical of the asteroid-strike theory,<br/>and they think massive eruptions like this, but lasting for centuries, might have done in all the dinosaurs.<br/>Too bad we can’t just ask them:<br/>“Oi, dino, was it a rock in the sky, or a mountain on fire?”
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 04.ogg
@@ -1348,7 +1348,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #5
-| text = That glitch was a security alert --<br/>the last one sent by the master AI for this biome.<br/>It’s gone. Deleted.<br/>I’m not entirely sure why everything here still works, but it does.<br/>Dinos still traipsing about, volcanoes still erupting, sky still raining fire…<br/>it’s all working, but it’s a bit shonky.<br/>Feels like a classroom when the teacher’s stepped out for a bit.
+| transcript = That glitch was a security alert --<br/>the last one sent by the master AI for this biome.<br/>It’s gone. Deleted.<br/>I’m not entirely sure why everything here still works, but it does.<br/>Dinos still traipsing about, volcanoes still erupting, sky still raining fire…<br/>it’s all working, but it’s a bit shonky.<br/>Feels like a classroom when the teacher’s stepped out for a bit.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 05.ogg
@@ -1356,7 +1356,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #6
-| text = Someone just added historical eruption data to the Genesis simulation, and it threw up that glitch.<br/>I got it sorted, but we can expect the occasional worse-than-usual eruption.<br/>How much worse?<br/>Well, you heard of the Deccan Traps? Krakatoa? Paektu?<br/>That sort of thing.<br/>That sort of eruption doesn’t happen often, but when it does,<br/>it’s time to redraw your map.
+| transcript = Someone just added historical eruption data to the Genesis simulation, and it threw up that glitch.<br/>I got it sorted, but we can expect the occasional worse-than-usual eruption.<br/>How much worse?<br/>Well, you heard of the Deccan Traps? Krakatoa? Paektu?<br/>That sort of thing.<br/>That sort of eruption doesn’t happen often, but when it does,<br/>it’s time to redraw your map.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 06.ogg
@@ -1364,7 +1364,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Biome Glitch Discovery Volcanic #7
-| text = Someone’s been fossicking about in the historical records,<br/>looking up the eruption of Mount Tambora, Indonesia, 1815.<br/>They called it the “year without a summer” or “Eighteen Hundred and Froze to Death.”<br/>Frost killed off crops worldwide, and it snowed across the northern hemisphere… in June.<br/>Tens of thousands died, mostly from famine.<br/>I suppose a bit of chill around here would be welcome,<br/>but I’m not willing to pay that price.
+| transcript = Someone’s been fossicking about in the historical records,<br/>looking up the eruption of Mount Tambora, Indonesia, 1815.<br/>They called it the “year without a summer” or “Eighteen Hundred and Froze to Death.”<br/>Frost killed off crops worldwide, and it snowed across the northern hemisphere… in June.<br/>Tens of thousands died, mostly from famine.<br/>I suppose a bit of chill around here would be welcome,<br/>but I’m not willing to pay that price.
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Glitch Biome Volcanic 07.ogg
@@ -1378,7 +1378,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
     
 {{Explorer Note
 | title = Genesis 2 Chronicles #1 (The Island)
-| text = Something weirdly nostalgic about this place.<br/>Reckon you must be used to the odd flash of déjà vu, with all those old memory engrams knocking about your head.<br/>Seems an odd thing for a bit of A.I. like me to be feeling, though…
+| transcript = Something weirdly nostalgic about this place.<br/>Reckon you must be used to the odd flash of déjà vu, with all those old memory engrams knocking about your head.<br/>Seems an odd thing for a bit of A.I. like me to be feeling, though…
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Genesis 2 Chronicles 1 sound.ogg
@@ -1386,7 +1386,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #2 (The Island)
-| text = Funny that I almost remember being here.<br/>I don't mean just floating through the place, like I'm doing now.<br/>I'm talking toes in the sand, smell of the ocean sorta memories…
+| transcript = Funny that I almost remember being here.<br/>I don't mean just floating through the place, like I'm doing now.<br/>I'm talking toes in the sand, smell of the ocean sorta memories…
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Genesis 2 Chronicles 2 sound.ogg
@@ -1394,7 +1394,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #3 (The Island)
-| text = I can remember meeting other survivors for the first time around these parts:<br/><br/>Nerva,<br/><br />Rockwell...<br/><br/>Mei Yin...<br/><br/>Did Helena leave me all her memories?<br/><br/>What a wicked parting gift that was!
+| transcript = I can remember meeting other survivors for the first time around these parts:<br/><br/>Nerva,<br/><br />Rockwell...<br/><br/>Mei Yin...<br/><br/>Did Helena leave me all her memories?<br/><br/>What a wicked parting gift that was!
 | author = HLN-A
 | icon = NoteHLN-A.png
 | sound = HLNA Genesis 2 Chronicles 3 sound.ogg
@@ -1402,7 +1402,7 @@ HLN-A Discoveries can be discovered with the {{ItemLink|noDlcIcon=1|Mini-HLNA Sk
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #4 (The Island)
-| text = My creator spent her life studying beasts she only knew as dusty old fossils.
+| transcript = My creator spent her life studying beasts she only knew as dusty old fossils.
 
 Can you imagine what it was like for her to wash up here and meet 'em in person?
 
@@ -1414,7 +1414,7 @@ I don't have to imagine it, 'cause I can remember how she felt!
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #5 (The Island)
-| text = Funny thing, having a headful of someone else's memories…
+| transcript = Funny thing, having a headful of someone else's memories…
 
 You and I have had some adventures together, but I remember all the things Helena got up to while she was still human.
 
@@ -1430,7 +1430,7 @@ Bit of a mindblower, yeah?
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #14 (Aberration)
-| text = You should know that I'm well aware Mr. Purple Tentacles has been talking through me, and I'm working on putting an end to that.
+| transcript = You should know that I'm well aware Mr. Purple Tentacles has been talking through me, and I'm working on putting an end to that.
 
 Not to worry, I've just got a few million more data sockets to encrypt and then he should be locked out for good!
 
@@ -1442,7 +1442,7 @@ Estimated time to complete: ermmm… better I don't say.
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #16 (Extinction)
-| text = I can remember Helena fighting despair when she arrived here and saw this place, the state of it.
+| transcript = I can remember Helena fighting despair when she arrived here and saw this place, the state of it.
 
 To finally set foot on her homeworld again after so long away, and find it’s been left in desolation...
 
@@ -1454,7 +1454,7 @@ At least she had a real driver in Santiago to look to for inspiration...
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #21 (Genesis: Part 1)
-| text = Interesting that you're still able to access this simulation remotely.
+| transcript = Interesting that you're still able to access this simulation remotely.
 
 ‘Interesting’... but unhelpful -- you’re needed out in the real-world now!
 
@@ -1468,7 +1468,7 @@ There's been a few too many connections turning up around here, if you ask me…
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #23 (Genesis: Part 1)
-| text = Great -- as if I haven't got enough worries, I've still got that egotistical nutter talking your ear off through my voicebox.
+| transcript = Great -- as if I haven't got enough worries, I've still got that egotistical nutter talking your ear off through my voicebox.
 
 And I was so sure I'd managed to shut him up…
 
@@ -1484,7 +1484,7 @@ Hold that thought.
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #25 (Genesis: Part 1)
-| text = Alright, that's enough time in the simulation for you.
+| transcript = Alright, that's enough time in the simulation for you.
 
 You really need to shift your focus to the outside world, mate.
 

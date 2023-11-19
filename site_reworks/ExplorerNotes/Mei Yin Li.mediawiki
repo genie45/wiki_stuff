@@ -19,7 +19,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Mei Yin Note #1 (The Island)
-| text = '''Traditional Chinese'''
+| transcript = '''Traditional Chinese'''
 
 今處何地 何以至此
 
@@ -34,7 +34,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #2 (The Island)
-| text = '''Traditional Chinese'''
+| transcript = '''Traditional Chinese'''
 
 今有衣衫護具 雖襤褸簡陋 有可用之石矛 仍須鐵匠磨礪 岸汀之上 有肥鳥 其行慢 常捕之 不知此鳥何以存活於此 然幸得其肉
 
@@ -47,7 +47,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #3 (The Island)
-| text = '''Traditional Chinese'''
+| transcript = '''Traditional Chinese'''
 
 憶當年 保家護民於叛亂之變 數月所得甚於先前數年 其理可用於今時 男輕女於戰時 人或狠於野獸
 
@@ -62,7 +62,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #4 (The Island)
-| text = '''Traditional Chinese'''
+| transcript = '''Traditional Chinese'''
 
 今日大勝
 
@@ -79,7 +79,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #5 (The Island)
-| text = '''Traditional Chinese'''
+| transcript = '''Traditional Chinese'''
 
 村民以寇之刀劍護具相贈 留吾過夜 吾大驚 竟諳其語 村人唇動異常 聽若故里之言 村人曰 皆因吾等腕上之器也 不明其意 然村人不吾欺
 
@@ -94,7 +94,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #6 (The Island)
-| text = 
+| transcript = 
 
 吾听闻 村民言馴獸易 然 初試险丧吾之性命 此物为二足巨蜥 形如寇之坐骑 村民名之猛龍 然此獸壯 虽施以毒矢使之昏迷 仍能刺吾之臂 然吾及時避之
 
@@ -107,7 +107,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #7 (The Island)
-| text = 
+| transcript = 
 
 猛龍日壯 隨烏騅其後 而烏騅聽命於吾 獸若無人騎則不成隊 然仍可緊密前行 久之 但凡獵於平原之上 獸群可聽吾之指令 或攻或退
 
@@ -122,7 +122,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #8 (The Island)
-| text = 
+| transcript = 
 
 吾之防 妙也 赤鷹族進攻之法 有如余部 率眾獸 攜槍支 全以蠻力沖襲而來 枉顧周遭其他 未料吾之伏擊 出其不意 襲以側翼
 
@@ -135,7 +135,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #9 (The Island)
-| text = 
+| transcript = 
 
 得知護送之行兇多吉少 不料途遇正規軍
 
@@ -150,7 +150,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #10 (The Island)
-| text = 
+| transcript = 
 
 吾今為雇兵邪？ 先前未多思慮 而今人謂吾為雇兵 不喜此號 雇兵為利而戰 吾為生而戰 二者質不同 非也？
 
@@ -165,7 +165,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #11 (The Island)
-| text = 
+| transcript = 
 
 始馴形大獸者 吾之獸群 助之以速疾 然不足也 正所谓 纵有千擊速攻 若力微則無用 要勝新軍 需有重擊之力
 
@@ -180,7 +180,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #12 (The Island)
-| text = 
+| transcript = 
 
 吾居於島上 嗚呼哀哉 此乃受詛咒之島
 
@@ -195,7 +195,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #13 (The Island)
-| text = 
+| transcript = 
 
 良久以來 今大笑 有人自魚鄉部落而來 欲使吾護其左右 然其未呼吾名 喚曰獸林女王 听闻此 吾不禁大笑
 
@@ -208,7 +208,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #14 (The Island)
-| text = 
+| transcript = 
 
 吾常思 吾父何所想也 吾列隊而戰 其將以吾為榮乎 吾知其願有壹子 是以秘而訓吾 其或喜見吾為獸林女王焉 吾母弗認同也 村民窮途末路 當吾與之戰黃巾軍 眾人無謂吾之男女 然吾母弗能諒之 許不願見哉
 
@@ -225,7 +225,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #15 (The Island)
-| text = 
+| transcript = 
 
 吾終尋壹獸 此獸非吾可命之 然以獸稱之仍不足矣 其乃魔也
 
@@ -240,7 +240,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #16 (The Island)
-| text = 
+| transcript = 
 
 有女名海蓮娜 昨至吾營 非為顧吾 其言本為學者 学島上之獸 望觀吾之獸群 吾始拒之所求 因不明其所為 何能將獸交與此女 且與此島探究学术 是瘋人邪？ 然其志坚不棄 少時以誠相服
 
@@ -253,7 +253,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #17 (The Island)
-| text = 
+| transcript = 
 
 及海蓮娜至 吾常瞟之 不知其著何述于其大书 近若無言 已无感其之存在 然疑问从未停止 所幸 问题并非总是与獸類之糞相关 偶爾論如烹飪之常事 吾等皆不善 然若一起烹製 其味美於生肉
 
@@ -266,7 +266,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #18 (The Island)
-| text = 
+| transcript = 
 
 南方之戰非常也 繪鯊部落至此顧兵 其族正與新軍斗 吾知其凶险 迟疑不定 先前新軍強也 至上次交鋒以來 日精壯大 吾亦有所進 然繪鯊部已絕望異常 吾弗能拒之
 
@@ -279,7 +279,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #19 (The Island)
-| text = 
+| transcript = 
 
 吾獸為繪鯊所缺也 其長於海戰 於地則缺前鋒之猛 無此 其部難以與新軍相衡 更決計不可能打敗之 當吾之獸群如狂狼從後側攻入新軍 戰勢大變
 
@@ -292,7 +292,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #20 (The Island)
-| text = 
+| transcript = 
 
 常覺吾生尖牙或犄角而不知 若非此 緣何他人視我如斯 戰時繪鯊為吾鼓氣 然戰后 鮮與吾交談 異地扎寨 非論謀略而不喚 吾不明
 
@@ -307,7 +307,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #21 (The Island)
-| text = 
+| transcript = 
 
 怒時思其果 吾謹記於心 然仍不禁勃然大怒 烏騅亦處遠處
 
@@ -322,7 +322,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #22 (The Island)
-| text = 
+| transcript = 
 
 早該料想至此 縱吾置尊嚴於不顧 彼魯莽之繪鯊則不然 受其之命 今晨始歸吾營地之長途也
 
@@ -339,7 +339,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #23 (The Island)
-| text = 
+| transcript = 
 
 其為吾之所有 大战挣扎过后 魔兽之力 已可为吾所使
 
@@ -354,7 +354,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #24 (The Island)
-| text = 
+| transcript = 
 
 吾智也 于飛行之獸上試此獸王之捕獵之技 當其跌落碎石之下 眼泛舊時之仇光 旋即不聽吾之號令 然不多時 其又重歸我之掌控 然觀此事仍乃兇險之極
 
@@ -367,7 +367,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #25 (The Island)
-| text = 
+| transcript = 
 
 吾錯焉 興許如此 光柱離地表愈近 吾愈憂心忡忡
 
@@ -384,7 +384,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #26 (The Island)
-| text = 
+| transcript = 
 
 如吾受制于懼 留獸王于后 吾與海蓮娜或已亡矣 皆因其力才可斗巨猿 猿之怒令吾獸多有傷亡 然則皆勝利之價也 亦為希望之價也
 
@@ -399,7 +399,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #27 (The Island)
-| text = 
+| transcript = 
 
 懦夫哉新軍 全力可擋其兵 然其待吾等自光柱而歸 然攻之 吾獸皆乏 未及吾之撤退之令 獸王已大怒 其後所望皆空
 
@@ -414,7 +414,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #28 (The Island)
-| text = 
+| transcript = 
 
 吾之親已故 至死皆勇猛 襲吾之物巨大 及烏騅傷 其愈快也 然無物可與烏騅言魄 埋其于所倒之處 亦為其最后救吾之處
 
@@ -427,7 +427,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #29 (The Island)
-| text = 
+| transcript = 
 
 如吾所料 新軍於最後光柱之處 其返時見之 即尾隨其行 然其之眾 吾所不敵 其如若見吾 吾之將死 然吾知如何避其注意 掩吾之氣息以防彼獸
 
@@ -440,7 +440,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #30 (The Island)
-| text = 
+| transcript = 
 
 新軍開光柱之門 吾等隨其進入 此前吾將海蓮娜於籠中放出 少時即悔 其心專於四周之神奇 及新軍之眾皆死 而吾將殺其之首 海蓮娜竟欲阻之 將其擊昏 願其無礙 不可令其礙吾之大事
 
@@ -455,7 +455,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #31 (The Island)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I suspect Nerva knew that he would not fare well in battle. After taking a couple blows from my sword, he dashed off into the darkness. However, I know he was deeply wounded. His blood cannot lie. I suspect this command center was created by something with technology far beyond most normal comprehension.<br/><br/>In the distance I can see several worlds, one that is clearly a place I've been. I am now sure that there are more of these worlds. That scoundrel Nerva must have escaped before he could meet his death. Little does he know, I won't give up that easily, I will find him in whatever realm he travels to.<br/><br/>There is a terminal that sits upon a platform near the end of the command center. Surely, through some combination of codes, that must unlock travel to other worlds. But it does not. It only adds another foe to be slain by the Beast Queen.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -468,7 +468,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Mei Yin Note #1 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Where have I been taken? When I tried to pull my sword from that machine, there was a bright flash and suddenly I was in this desolate place. Whatever that device was, I must have broken it.<br/><br/>Nerva's corpse travelled with me, blood still seeping from the wound I left in his chest. Despite what he's done, part of me thinks that I should bury him. He was a tyrant, but he still died a warrior's death.<br/><br/>For now, I will bandage the wound on my face and rest. It is night here, and it will be safer to explore in the light of day.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -476,7 +476,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #2 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I was fortunate today. The sun was rising as I finished bandaging my wounds, and had I not glanced at it, I would never have seen Nerva's body. It was three hundred paces away, right where I left it, and it was smoldering. The sunlight was burning it.<br/><br/>I remembered a cave that I had spotted earlier, and ran for it as fast as I could. My legs ached and smoke was rising from my armor by the time I arrived, yet I was still alive.<br/><br/>So now the sun was trying to kill me. Perhaps I was delirious, but I laughed at the notion. Monsters and armies have failed, so let the sun have its chance. I will defeat it too.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -484,7 +484,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #3 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Yesterday, I realized that I could rest no longer. I had no more spare cloth for bandages and had eaten nearly all the moss nearby. Rather than risk the heat of the sun on the surface, I ventured deeper into the caverns.<br/><br/>It was a treacherous descent, but I am glad I went. This cave is larger than I could have imagined. In fact, it is hardly a cave at all. A great forest flourishes down here. It is as if this whole land is backwards.<br/><br/>However, there is one thing that is familiar to me. The air is thick with the sound and smell of wild beasts. I must remain on my guard.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -492,7 +492,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #4 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = The light down here does not burn like the light on the surface, even the light that comes from the ceiling. I do not understand why, but I am glad for it.<br/><br/>I was attacked by a pack of small monsters with spines on their backs. In another life, they would have terrified me, but now I fear no beast. I slew many of them, but more kept appearing. Even after killing the largest of them, they did not hesitate. <br/><br/>Only when I neared a strange, glowing pillar did they retreat. They seem to fear the unusual light it emits. I should use that weakness against them.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -500,7 +500,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #5 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I finally removed the bandages from my face. While I avoided infection, the wound will surely scar. I do not mind, and neither does my new companion.<br/><br/>In fact, I had just removed my bandages when I first saw him. From the branch of a great tree, he stared down at me with curious eyes. I stared back just as curiously. It looked almost like a young deer, but its fur was colorful and it glowed like a fallen star. He reminded me of the paintings I'd seen of Qilin, but he seemed too small.<br/><br/>Whatever he is, he approached me so innocently that I could not leave him behind. So now he is Xiao, my little light in the dark.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -508,7 +508,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #6 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Navigating the forest has been easier with Xiao at my side. His light has both guided and protected me. The small, spined monsters that I fought before returned in numbers, but they cowered and fled before Xiao's light, as they did from the glowing pillar. So long as Xiao is with me, I need not fear them.<br/><br/>Yet Xiao's power is not an endless well. If he does not periodically extinguish his light to rest, it will fade with time on its own. I must be careful when wandering into the darkest parts of this forest, lest Xiao's light go out and we are both put at risk.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -516,7 +516,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #7 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Even with Xiao's help, I can only do so much on foot. I need a reliable steed that can carry me swiftly through the forest and help me gather resources. Fortunately, I may have found such a beast.<br/><br/>The other night, I heard many howls in the distance. When I investigated, I found a pack of strange beasts that looked like hairless wolves. They are ugly, vicious creatures but they are the perfect size for riding.<br/><br/>For now, I shall stalk the pack. When one of the wolves is separated from the others, then I will knock it out with my arrows, and claim it for my own.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -524,7 +524,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #8 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I have named my wolf Shi, for he is so black that he seems to swallow all the light around him. No beast can replace Wuzhui, but Shi is swift and fierce. Upon his back, I can travel across the forest with ease.<br/><br/>Yet I know that Shi alone is not enough. In these lands, the strong will dominate the weak, and they will try to destroy those who do not submit. I am reminded of this every time my scar aches. To survive I must grow stronger. It is time to rebuild my army.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -532,7 +532,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #9 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Yesterday, I stalked a giant shelled beast, with large claws that it could use like hands. Though slow, it seemed strong. I decided it would be a good addition to my army, but before I could attempt to bring it down, something swooped down from the sky to attack it.<br/><br/>It was a great lizard, but not one like the ones I had seen before. No, this beast was a true dragon, long of body with a feathery mane. It used the feathers on its arms to ride the wind and tore its prey's shell asunder with iron claws. When it was finished with its meal, it scaled the cavern wall and became one with the shadows, vanishing entirely from my sight.<br/><br/>I have found my new prey. Soon, I shall command the might of a dragon.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -540,7 +540,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #10 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = The dragon was even more formidable than I expected. At first, Shi was able to dance around the beast while I riddled it with arrows, but I underestimated how far its feathered arms could take it. Its sudden leap left Shi's leg wounded and I was flung from the saddle. <br/><br/>The crippled wolf did not last long after that, and I only survived myself by taking to the trees. By the time the dragon succumbed to my knockout poison, its hide was full of arrows.<br/><br/>I buried Shi where he fell. Though he did not serve me long, he did so loyally. Thanks to him, I possess the strength of a dragon. I am the Beast Queen once more.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -548,7 +548,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #11 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Travelling through the cave is easy thanks to my dragon, who I have named Ao Yue. I have discovered that the cave is even larger than I imagined. Beyond the forest, there are tunnels that lead further down into the earth, to a land of glistening water and plants that glow like Xiao does.<br/><br/>How far down does it go? If I keep going, will I find the end of the world? I do not know, but I will press on. I cannot return home, or even to the island I came from. My enemy lies dead far behind me, and I have found no friends or allies. I have no aim beyond simply  surviving. So for now, all I can do is move forward.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -556,7 +556,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #12 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = The beasts of this land grow stranger the deeper I go. Yesterday I was attacked by a swarm of flying demons with writhing tentacles in place of heads. I think they were after Xiao. Where some monsters feared his light, these ones hungered for it.<br/><br/>However, they were no match for Ao Yue's fangs and my blade together. Still, I will keep Xiao close and have him extinguish his light for now. I could not bear it if he came to harm. Of everyone I have met in these lands, only Xiao has stayed by my side of his own will. Even Wuzhui had to be laid low first.<br/><br/>I suppose there was that woman from the island too, but she is gone. Besides, I struck her. I doubt we were friends
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -564,7 +564,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #13 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I am not alone in these caves after all. The footprints I found today belonged to no beast, that much is certain.<br/><br/>Yet if humans left those footprints, they move like no one I have ever seen. They are deep, as though their feet hit the ground with great force, and they often have huge gaps between them. No man can leap that far, yet there are no beast tracks that accompany them.<br/><br/>Perhaps if I move carefully, I can track and observe them. Whether they are friend or foe, I should learn more about them before I act.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -572,7 +572,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #14 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Where did I make my mistake? I moved in silence and never once left the shadows, but somehow they saw me. I mounted Ao Yue in an instant, but somehow they still caught up to me.<br/><br/>Had we fought, the battle may have been difficult. There were only four of them and I had Ao Yue, but their weapons and armor glowed like moonlight and their movements were swift.<br/><br/>I was about to strike first when one of them raised her hands and took off her helmet, revealing a human face and hair the color of sunset. She convinced her friends to lower their weapons, but even as I write, I keep one hand on mine. We may share a camp tonight, but I dare not sleep.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -580,7 +580,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #15 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = The armored ones had many questions when they awoke. They were surprised that I had raised Ao Yue myself, and even more surprised that I came from a different land of monsters. That seemed important to them.<br/><br/>I asked questions too. They say it is their armor that lets them see at night and move with such speed. I did not believe it until the orange haired woman let me wear her helmet. With it I could see through darkness as though it were bathed in green light, or see the red shadows of distant creatures. It was like magic.<br/><br/>They asked if I wanted to stay in their village for a time. I doubt I will stay long...but I want to see more of this magic.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -588,7 +588,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #16 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = This village is as strange as the armor its residents wear. They use tools containing light and sleep in glowing metal cases. They offered one to me, but I refused. I have slept outside with Ao Yue and Xiao instead. I have no desire to sleep in something that looks like a coffin.<br/><br/>They claim that their tools are not magic, but machines. I do not understand how that is possible. On the island, there were many weapons and tools that were new to me, but they were made of real things. How does one touch light, much less shape it?<br/><br/>It is wondrous and beautiful, but I wish I understood it. I will have to try harder.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -596,7 +596,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #17 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = It is no use. These machines are beyond my comprehension I cannot even make the simplest of their tools work properly. Compared to this, training with a spear or sword seems simple.<br/><br/>I have tried to earn my keep by helping with chores and other tasks, but I usually get in the way or slow things down. Compared to the others, I am like a child, and they treat me as such.<br/><br/>This was a mistake. I belong in the forest with the beasts, not among these people in their glowing metal halls. I will ask them for supplies and depart within the week.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -604,7 +604,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #18 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I asked the woman with orange hair if I could take some supplies when I left, but she refused to do so for free. She said if I wanted the supplies, I had to try to use their armor first. It seemed like a trick, but I wanted to try the armor anyway, so I accepted.<br/><br/>If I have been tricked, then I have never been so glad to be fooled. When I am in that armor, my blood dances in my veins and I can feel the world around me. It is as if I was asleep for my whole life, and I only awoke when I put the armor on.<br/><br/>I cannot leave after feeling that, not until I at least master the armor. Perhaps then, but not now.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -612,7 +612,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #19 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Discretion is the key to the armor. When I started, I would leap further than I intended, turn too sharply or grip objects too tightly. Now I am in complete control. I could scale a mountain while carrying an egg and never break it, but also smash stone or fight a beast bare handed.<br/><br/>Once I got used to the armor, my experience as a warrior helped me learn quickly. I can already outpace Juzi in a race and beat her in the sparring ring. I try to go easy on her now. She helped me a lot so I do not wish to shame her.<br/><br/>I should call her by her proper name too, but Diana sounds too serious for a woman that laughs so much. Juzi fits her better. She doesn't mind it, but I don't think she knows I've named her after an orange.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -620,7 +620,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #20 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Three days ago, I was asked to help the villagers obtain a clutch of dragon eggs. Only then did it occur to me that they did not have many creatures at their command. They relied far more on their tools. Perhaps this is why they were so impressed with Ao Yue.<br/><br/>The hunt went well. I had to do much of the work and explain many things, but the others were grateful. It also let me test the limits of my armor. By now, using it is no different to me than wielding a sword, and I welcomed the challenge.<br/><br/>After the hunt, no one treats me like a child anymore, even when their tools confuse me. I suppose we all have different things that we excel at.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -628,7 +628,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #21 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I have turned into something of a stable master. The others are still unused to the presence of so many beasts, and have to be taught how to care for them. It is a lot of work, but I do not mind. It has been comforting to be around so many beasts again.<br/><br/>I have also taught them some lessons in close quarters combat. While their weapons are powerful, most of these people are not warriors. They have not tasted war. Juzi claims she was a soldier, but that she fought by flying metal ships through the clouds. She says she will show me how if we ever escape these caves. I doubt it, but it is nice to imagine.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -636,7 +636,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #22 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Juzi has finally convinced me to start sleeping in the metal pods the others use. I must admit, I slept more soundly, though perhaps that was because I knew she could no longer pester me about it.<br/><br/>I do many things like the other villagers now. I eat like them, I dress like them, and I work with them. I still struggle with their tools and I know that I can never truly be one of them, but that was true during the Yellow Turban Rebellion too. Those who I fought beside were my comrades, but I could never be a true soldier like they were. If that is my place in this village, then I do not mind staying for a while longer. It is not so bad.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -644,7 +644,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #23 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I must move quickly. The tribe sent a party into the depths of the caverns, where rivers of violet fire flow freely and nothing grows. They sought something important, something that could help the whole village, but they have not returned.<br/><br/>There is no response when we call for them through our messenger boxes. The other villagers fear them lost to the terrible demons that lurk there. I refuse to believe that. Juzi is with them.<br/><br/>I have equipped Ao Yue with armor and weapons like my own, and donned armor that will protect me from the violet fire. Whatever beasts or demons lie in our path, we will destroy them utterly, and bring Juzi's team back.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -652,7 +652,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #24 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = This is a place of death. The ground is scarred and barren, and there is no light or movement save that of the violet fire. Even Ao Yue does not seem to like it. The living should not tread here.<br/><br/>Why would Juzi come here? What was so important that she would risk this place, and why would she not tell me? Whatever the reason, it has already cost some of her teammates their lives. I found their bodies earlier today, mangled and partially devoured beside the remains of their beasts. Thankfully Juzi was not among them.<br/><br/>Great towers of crystal loom ahead, where the violet fire has frozen solid. Perhaps she has found shelter there.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -660,7 +660,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #25 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I shall have to find whoever forged this gun and thank them with all my heart. Its strength saved the day.<br/><br/>With my weapon's enhanced sight, I spotted two survivors running from a huge monster, but a crystal formation stood in my way. Rather than go around it, I sent Ao Yue ahead and fired through it. My aim was true, and the demon reeled. By the time it recovered, Ao Yue was upon it, and we finished it together.<br/><br/>I knew one of the survivors was Juzi when she ran up to hug me. I am unused to such gestures, but I think she understood how grateful I was for her safety. Her teammate is wounded, but alive. With rest, he will survive.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -668,7 +668,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #26 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Even now, I cannot convince Juzi to leave. I even tried using her real name, Diana, to show her I was serious, but she will not hear it. She says the plans she was looking for are too important, but what could be worth what happened to her teammate?<br/><br/>It was disgusting. He started spasming in the middle of the night, and then a smaller version of the monster that was attacking them burst from his chest and tore out his heart. Blood and bone sprayed everywhere, and I was too stunned to act until it leaped at me. Fortunately I was able to hold it off until Juzi could shoot it.<br/><br/>Whatever we are seeking, I fear we will face even worse dangers to obtain it.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -676,7 +676,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #27 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Juzi said that the item she sought was in some ruins not far from where we were camped. However, when she called them ruins, I had not expected to see buildings like the ones in our own village. It was puzzling, to see buildings that looked at once ancient and new.<br/><br/>I had little time to dwell on the ruins, for we were quickly set upon by more of the great demons. They rushed us, slobbering and gnashing as Juzi scrambled to find what she was looking for. I was able to hold them off with Ao Yue's cannons, but by the time Juzi found her prize, we were being overrun.<br/><br/>To my shame, I had to leave Ao Yue behind to hold the demons off while we escaped. It pained me to hear his roars as we fled, but his sacrifice saved our lives. Forgive me, my loyal friend.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -684,7 +684,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #28 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = Without Ao Yue, we had to move cautiously. Another battle with the demons could prove fatal, but we managed to avoid their sight. All that was left was the climb.<br/><br/>With no mount, we had to use climbing picks to slowly make our way upwards. It was a long and treacherous ascent, and we both nearly fell several times. Fortunately, we were there to catch and support each other, and through our combined strength, we safely reached the caverns above.<br/><br/>After the climb, we lay there for a long time. I cannot remember if we laughed or cried. Perhaps both. Juzi says that the item she found could help the entire village, but I do not care. I am just so glad we are both still alive.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -692,7 +692,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #29 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = We received a hero's welcome when we limped back to the village. The others say that Juzi's treasure will help complete a magic door that can take us out of this place. They speak of escape and of returning home. <br/><br/>That should excite me more. I used to long for those things, yet what comforts me most is that when they speak of their future, they include me in it. I am finally one of them, not as a mercenary or out of desperation, but because I am wanted.<br/><br/>I owe it to Juzi, I think. No, to Diana. She trusted me before anyone else. I will not forget that.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -700,7 +700,7 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #30 (Aberration)
-| text = [Incomplete transcription.]
+| transcript = [Incomplete transcription.]
 | translation = I have been thinking of home lately. It is so far away now. I think that perhaps, it is out of reach. Even if the others can complete their magic door, I do not think I will ever see it again.<br/><br/>I can accept that now. I can move past it. I have a new home now, I think, and while I am still not used to its oddities, I feel as though it is mine. Each day I grow more adept with the tools here, and more used to my routine. It has become normal to me.<br/><br/>And now that this place is my home, I swear that no harm will come to it. I shall protect it with my life.
 | author = Mei Yin
 | icon = NoteMeiYin.png
@@ -713,210 +713,210 @@ Mei Yin (美盈) is a Chinese warrior, her notes are themed like ancient poems a
 
 {{Explorer Note
 | title = Mei Yin Note #1 (Extinction)
-| text = I have had no urge to record my thoughts since your loss, or rather I have been avoiding it. Before speaking with Helena today, how many times did I even dare to say your name, Diana?<br/><br/>You revealed facets of my heart and mind that had been hidden even to me, and in you I found something that I had always been missing but could never name. How does one carry on after losing something like that? Even now I cannot say. I only know that it was draining and painful, and would have been even worse had I done so alone.<br/><br/>For those who yet live, I know I must endure, but I shall carry you with me every step, around my neck and in my heart to the very end. Always.
+| transcript = I have had no urge to record my thoughts since your loss, or rather I have been avoiding it. Before speaking with Helena today, how many times did I even dare to say your name, Diana?<br/><br/>You revealed facets of my heart and mind that had been hidden even to me, and in you I found something that I had always been missing but could never name. How does one carry on after losing something like that? Even now I cannot say. I only know that it was draining and painful, and would have been even worse had I done so alone.<br/><br/>For those who yet live, I know I must endure, but I shall carry you with me every step, around my neck and in my heart to the very end. Always.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #2 (Extinction)
-| text = Controlling this armored giant has grown easier, but it will never feel familiar. Though its limbs move as mine do, that is in itself disquieting, and sometimes I get lost in the flashing lights that surround me. <br/><br/>Helena is far more attuned to her giant's abilities than I am, though as in all things, she underestimates herself. Ever since I cast that monstrous old man into the depths, she's been there to pull me back. Not just from the fall, but the abyss itself.<br/><br/>I will still never understand why she was so interested in studying animal excrement when we first met, but after walking this path with her, I can recognize the strength of her spirit. I will do all I can to protect it.
+| transcript = Controlling this armored giant has grown easier, but it will never feel familiar. Though its limbs move as mine do, that is in itself disquieting, and sometimes I get lost in the flashing lights that surround me. <br/><br/>Helena is far more attuned to her giant's abilities than I am, though as in all things, she underestimates herself. Ever since I cast that monstrous old man into the depths, she's been there to pull me back. Not just from the fall, but the abyss itself.<br/><br/>I will still never understand why she was so interested in studying animal excrement when we first met, but after walking this path with her, I can recognize the strength of her spirit. I will do all I can to protect it.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #3 (Extinction)
-| text = We have arrived at the structure Helena wanted to investigate, and I fear if we do not enter soon that she will faint from anticipation. She has been hopping to and fro like a rabbit while we set up camp, babbling excitedly about what might be inside.<br/><br/>I have never shared her curiosity for such mysteries. Things are the way they are, the why of it does not matter. Unless it will help us survive, then I do not care who built the empty palaces of this land or what their purpose was.<br/><br/>However, I trust Helena's wisdom. Hopefully whatever we find here will sate her, and perhaps grant me a moment of blissful silence at that.
+| transcript = We have arrived at the structure Helena wanted to investigate, and I fear if we do not enter soon that she will faint from anticipation. She has been hopping to and fro like a rabbit while we set up camp, babbling excitedly about what might be inside.<br/><br/>I have never shared her curiosity for such mysteries. Things are the way they are, the why of it does not matter. Unless it will help us survive, then I do not care who built the empty palaces of this land or what their purpose was.<br/><br/>However, I trust Helena's wisdom. Hopefully whatever we find here will sate her, and perhaps grant me a moment of blissful silence at that.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #4 (Extinction)
-| text = I dislike this place. Helena says it is an archive for lost knowledge, but it reminds me of the chambers we explored with Santiago, where beasts and men slept in countless glass coffins. If the halls where I battled Nerva were at the edge of heaven, then that place was surely one of the Ten Courts of Hell.<br/><br/>These halls do not radiate with that same evil, but it still does not feel like a place where men are meant to tread. There is sign of neither earth nor sky here, it is all unnatural metal and machines so foreign that even Diana's comrades cannot master them.<br/><br/>I will speak with Kazuma about tightening our patrols. We must remain vigilant.
+| transcript = I dislike this place. Helena says it is an archive for lost knowledge, but it reminds me of the chambers we explored with Santiago, where beasts and men slept in countless glass coffins. If the halls where I battled Nerva were at the edge of heaven, then that place was surely one of the Ten Courts of Hell.<br/><br/>These halls do not radiate with that same evil, but it still does not feel like a place where men are meant to tread. There is sign of neither earth nor sky here, it is all unnatural metal and machines so foreign that even Diana's comrades cannot master them.<br/><br/>I will speak with Kazuma about tightening our patrols. We must remain vigilant.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #5 (Extinction)
-| text = These halls did hide one marvel, I shall grant them that. I found it during my patrols, tucked away in a small chamber all its own, and while I do not know its purpose, its beauty is without question.<br/><br/>It is shaped like a jewel, with a surface of polished stone and shimmering metal, glowing proudly with a magnificent golden light. Though it floats above the ground, it is too sturdy to move, and though its light is warm, it is cool to the touch.<br/><br/>Helena will surely want to see this. However, until we fully understand it, I will be sure to supervise her study sessions.
+| transcript = These halls did hide one marvel, I shall grant them that. I found it during my patrols, tucked away in a small chamber all its own, and while I do not know its purpose, its beauty is without question.<br/><br/>It is shaped like a jewel, with a surface of polished stone and shimmering metal, glowing proudly with a magnificent golden light. Though it floats above the ground, it is too sturdy to move, and though its light is warm, it is cool to the touch.<br/><br/>Helena will surely want to see this. However, until we fully understand it, I will be sure to supervise her study sessions.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #6 (Extinction)
-| text = I do not understand what happened. When I had touched the artifact, it did not respond at all, but as soon as Helena made contact, its golden glow became a blinding flash. By the time my vision cleared, the artifact was shattered. All that remained was a small gemstone made of pure sunlight, floating in its place. Was the rest of it merely a shell?<br/><br/>Thankfully, Helena was uninjured, but my carelessness was still inexcusable. I swore that I would protect her, and I have nearly failed already. I should have been more thorough.<br/><br/>I am not one to repeat my mistakes. Before Helena could reach the gem, I snatched it from the air. I won't let her touch it unless I am certain it is safe.
+| transcript = I do not understand what happened. When I had touched the artifact, it did not respond at all, but as soon as Helena made contact, its golden glow became a blinding flash. By the time my vision cleared, the artifact was shattered. All that remained was a small gemstone made of pure sunlight, floating in its place. Was the rest of it merely a shell?<br/><br/>Thankfully, Helena was uninjured, but my carelessness was still inexcusable. I swore that I would protect her, and I have nearly failed already. I should have been more thorough.<br/><br/>I am not one to repeat my mistakes. Before Helena could reach the gem, I snatched it from the air. I won't let her touch it unless I am certain it is safe.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #7 (Extinction)
-| text = I am tempted to smash this gemstone to pieces, though I am not certain how I would do so. When I hold it, I can feel its texture and weight, yet it casts no shadow and makes no sound when I tap its sides. It's as though it is at once here and somewhere far away.<br/><br/>But Helena insists it is the key to answering her many questions, so for now I let her study it from a safe distance. At first my precautions earned me her ire, though it lacked true venom, and in time, she admitted my judgement was prudent.<br/><br/>She says the gem might be capable of great change. I couldn't follow everything she described, but she is more cautious around it now. That is enough for me,<br/><br/>Unfortunately, the gem may soon be the least of our concerns.
+| transcript = I am tempted to smash this gemstone to pieces, though I am not certain how I would do so. When I hold it, I can feel its texture and weight, yet it casts no shadow and makes no sound when I tap its sides. It's as though it is at once here and somewhere far away.<br/><br/>But Helena insists it is the key to answering her many questions, so for now I let her study it from a safe distance. At first my precautions earned me her ire, though it lacked true venom, and in time, she admitted my judgement was prudent.<br/><br/>She says the gem might be capable of great change. I couldn't follow everything she described, but she is more cautious around it now. That is enough for me,<br/><br/>Unfortunately, the gem may soon be the least of our concerns.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #8 (Extinction)
-| text = A horde grows on the horizon, larger than we have ever seen, and led by a demon who stands so tall that mountains bask in his shadow. When we realized it was headed our way, we picked up our camp and made for the wastes. Yet as we moved, the horde followed. This is not mere misfortune, it is a hunt, and we are the prey.<br/><br/>Helena claimed the gemstone may be able to help us, but I still forbade her from touching it. When we fight back-to-back, I can watch over her, but I can't protect her from something I don't understand.<br/><br/>No, should battle be joined, we shall meet them head on. No matter the size of our foes, I will fight with all that I am, and for the sake of everyone here, I will win. I must.
+| transcript = A horde grows on the horizon, larger than we have ever seen, and led by a demon who stands so tall that mountains bask in his shadow. When we realized it was headed our way, we picked up our camp and made for the wastes. Yet as we moved, the horde followed. This is not mere misfortune, it is a hunt, and we are the prey.<br/><br/>Helena claimed the gemstone may be able to help us, but I still forbade her from touching it. When we fight back-to-back, I can watch over her, but I can't protect her from something I don't understand.<br/><br/>No, should battle be joined, we shall meet them head on. No matter the size of our foes, I will fight with all that I am, and for the sake of everyone here, I will win. I must.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #9 (Extinction)
-| text = This is my failure. At first we forced the enemy back, so when their master finally set foot on the battlefield, I tried to slay him myself. That was our undoing. Even in my armored giant, I couldn't even scratch his hide. Such disgusting weakness.<br/><br/>Were it not for my second blunder, surely I would have died, but Helena had stolen the sunlit gem from me before the battle. Before the demon could crush me, she opened the shell of her giant, held the gem aloft, and placed it in the metal mark upon her wrist.<br/><br/>A terrible scream rang out in my mind, but it must have been worse for the monsters. They recoiled in confusion, and I knew that would be our only chance. All but Helena and I lay dead or dying, and Helena herself lacked the strength to stand. So I cradled her in my giant's hands, and ran.<br/><br/>In shame and defeat, I ran.
+| transcript = This is my failure. At first we forced the enemy back, so when their master finally set foot on the battlefield, I tried to slay him myself. That was our undoing. Even in my armored giant, I couldn't even scratch his hide. Such disgusting weakness.<br/><br/>Were it not for my second blunder, surely I would have died, but Helena had stolen the sunlit gem from me before the battle. Before the demon could crush me, she opened the shell of her giant, held the gem aloft, and placed it in the metal mark upon her wrist.<br/><br/>A terrible scream rang out in my mind, but it must have been worse for the monsters. They recoiled in confusion, and I knew that would be our only chance. All but Helena and I lay dead or dying, and Helena herself lacked the strength to stand. So I cradled her in my giant's hands, and ran.<br/><br/>In shame and defeat, I ran.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #10 (Extinction)
-| text = I am a disgrace of a protector. Those were Diana's people, a living memory of her. She entrusted them to me, and I failed them all, just as I failed Santiago, Wuzhui and Diana herself. A true warrior should die defending what they love and care for, yet I have let it all turn to ash while I somehow escape the flames. Every time.<br/><br/>Even now, the only person I could save barely clings to life. Veins of light creep across Helena's skin, and she only wakes for minutes at a time. When she does, she speaks in poems that make no sense. She says a distant tomb is calling her name, and that we must go there. I asked if the tomb would cure her, but she only answered in riddles. Every time she wakes, her voice sounds further away.<br/><br/>Helena, you must stay with me. Your heartbeat and your shallow breath, they are all I have left.
+| transcript = I am a disgrace of a protector. Those were Diana's people, a living memory of her. She entrusted them to me, and I failed them all, just as I failed Santiago, Wuzhui and Diana herself. A true warrior should die defending what they love and care for, yet I have let it all turn to ash while I somehow escape the flames. Every time.<br/><br/>Even now, the only person I could save barely clings to life. Veins of light creep across Helena's skin, and she only wakes for minutes at a time. When she does, she speaks in poems that make no sense. She says a distant tomb is calling her name, and that we must go there. I asked if the tomb would cure her, but she only answered in riddles. Every time she wakes, her voice sounds further away.<br/><br/>Helena, you must stay with me. Your heartbeat and your shallow breath, they are all I have left.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #11 (Extinction)
-| text = Helena shakes and sweats in her sleep, and she no longer opens her eyes. All I have left to guide me is the notes and maps that she scribbled out in a delirious frenzy.<br/><br/>Sometimes she mumbles nonsense or moans in pain. I have to crush bits of food into a fine powder and pour it down her throat with water. When we move, I strap her to a corner in my giant's control chamber and stop frequently to make sure she is all right.<br/><br/>It is only because of my mistakes that she is in this state, and I worry that she is fading. If I lose her too, then my failures will be complete. I do not know what I would do.<br/><br/>Please, let her hold on. Don't take her too. Please.
+| transcript = Helena shakes and sweats in her sleep, and she no longer opens her eyes. All I have left to guide me is the notes and maps that she scribbled out in a delirious frenzy.<br/><br/>Sometimes she mumbles nonsense or moans in pain. I have to crush bits of food into a fine powder and pour it down her throat with water. When we move, I strap her to a corner in my giant's control chamber and stop frequently to make sure she is all right.<br/><br/>It is only because of my mistakes that she is in this state, and I worry that she is fading. If I lose her too, then my failures will be complete. I do not know what I would do.<br/><br/>Please, let her hold on. Don't take her too. Please.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #12 (Extinction)
-| text = I have little trust in prophets or visions, but I fear that the tomb Helena spoke of may be her only chance. She does not respond to my presence anymore. Nothing I do rouses her. I only hope her maps are accurate.<br/><br/>Yet even if they are, we still have so far to go. Though we have left the poisoned wastes behind, before us lies a land of ice and snow. A storm rages above, and even in the armored giant, progress is slow. Each step is a labor, and I feel the giant growing weaker. It will need to feed on the violet fire - the element, as Diana called it - if we hope to continue.<br/><br/>I will have to brave the cold alone.
+| transcript = I have little trust in prophets or visions, but I fear that the tomb Helena spoke of may be her only chance. She does not respond to my presence anymore. Nothing I do rouses her. I only hope her maps are accurate.<br/><br/>Yet even if they are, we still have so far to go. Though we have left the poisoned wastes behind, before us lies a land of ice and snow. A storm rages above, and even in the armored giant, progress is slow. Each step is a labor, and I feel the giant growing weaker. It will need to feed on the violet fire - the element, as Diana called it - if we hope to continue.<br/><br/>I will have to brave the cold alone.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #13 (Extinction)
-| text = There is a shooting pain in my left arm. I think it may be broken. It happened when I was searching for Element. The storm and the journey had sapped my strength, and the pack of beasts caught me off guard. After a fierce battle, those I failed to slay finally fled, but the fight had taken its toll.<br/><br/>It took me half a day to get back to camp. I kept slipping and falling in the snow. Each time my body told me not to get up, and a few times I almost listened. I wanted to so desperately. The pain. The cold. The exhaustion. I just wanted it to end.<br/><br/>Maybe that's what this is. My limit. My end.
+| transcript = There is a shooting pain in my left arm. I think it may be broken. It happened when I was searching for Element. The storm and the journey had sapped my strength, and the pack of beasts caught me off guard. After a fierce battle, those I failed to slay finally fled, but the fight had taken its toll.<br/><br/>It took me half a day to get back to camp. I kept slipping and falling in the snow. Each time my body told me not to get up, and a few times I almost listened. I wanted to so desperately. The pain. The cold. The exhaustion. I just wanted it to end.<br/><br/>Maybe that's what this is. My limit. My end.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #14 (Extinction)
-| text = As I slept in the belly of the armored giant and the storm howled outside, I dreamed. I was home again, in our little village in the Yi Province. It was during the rebellion. Everyone was huddled together in an empty grainery, debating surrender. Arguments went back and forth until at last I stood, grabbed a spear, and made for the exit.<br/><br/>"See? Even this girl would rather die for her emperor than give in to that scum," one man declared.<br/><br/>"You're wrong," I replied, turning to face him. "I have no intention of dying. I will survive."<br/><br/>The others talked about our memories not being our own, that the home I sought for so long may have never existed at all. Perhaps that is true, but those words are mine, more than anything in the world. This is not the end. This is not where I fall.<br/><br/>I will survive!
+| transcript = As I slept in the belly of the armored giant and the storm howled outside, I dreamed. I was home again, in our little village in the Yi Province. It was during the rebellion. Everyone was huddled together in an empty grainery, debating surrender. Arguments went back and forth until at last I stood, grabbed a spear, and made for the exit.<br/><br/>"See? Even this girl would rather die for her emperor than give in to that scum," one man declared.<br/><br/>"You're wrong," I replied, turning to face him. "I have no intention of dying. I will survive."<br/><br/>The others talked about our memories not being our own, that the home I sought for so long may have never existed at all. Perhaps that is true, but those words are mine, more than anything in the world. This is not the end. This is not where I fall.<br/><br/>I will survive!
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #15 (Extinction)
-| text = Those beasts that attacked me are mine. I retraced my steps to make sure that I found the same pack, and then I bent them to my will.<br/><br/>They moved as though they could walk on air, leaping from one invisible stepping stone to another before pouncing at me. It made their movements hard to predict, but once I was able to snare them in a steel trap, their advantage was gone. Though they flung arrows of ice at me from afar, it was not enough to deter me.<br/><br/>Once asleep, I coaxed them into obedience, and they accepted me as the leader of their pack. Their strength will help me on my journey, but I will need more still. This is just the beginning.
+| transcript = Those beasts that attacked me are mine. I retraced my steps to make sure that I found the same pack, and then I bent them to my will.<br/><br/>They moved as though they could walk on air, leaping from one invisible stepping stone to another before pouncing at me. It made their movements hard to predict, but once I was able to snare them in a steel trap, their advantage was gone. Though they flung arrows of ice at me from afar, it was not enough to deter me.<br/><br/>Once asleep, I coaxed them into obedience, and they accepted me as the leader of their pack. Their strength will help me on my journey, but I will need more still. This is just the beginning.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #16 (Extinction)
-| text = My arm is nearly healed. I can control the armored giant without pain, and it no longer protests when I use it to carry weight or strike. The timing could not be better, for I have just brought more beasts into the fold.<br/><br/>Great owls with feathers as white as the snow they soar over swooped down at me from on high, but I avoided their talons and brought them down. Now their great vision helps me scout ahead with ease.<br/><br/>With my pack growing in number and my strength returning, it's time to set out. Keep fighting for just a while longer, Helena. I will see you to that tomb, I swear it.
+| transcript = My arm is nearly healed. I can control the armored giant without pain, and it no longer protests when I use it to carry weight or strike. The timing could not be better, for I have just brought more beasts into the fold.<br/><br/>Great owls with feathers as white as the snow they soar over swooped down at me from on high, but I avoided their talons and brought them down. Now their great vision helps me scout ahead with ease.<br/><br/>With my pack growing in number and my strength returning, it's time to set out. Keep fighting for just a while longer, Helena. I will see you to that tomb, I swear it.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #17 (Extinction)
-| text = As we travel, I continue to bring more beasts to my side. Amongst the overgrown palaces, I tamed lizards that fire thorns like arrows, floating caterpillars that carry my supplies with ease and a dozen more.<br/><br/>They do not have the same bond or discipline as my first pack, but their strength is formidable. Combined they are a force to be reckoned with, marching in the shadow of my armored giant, and ready to fight any monsters who would stand in my way.<br/><br/>It's time that I remind this world just who I am. I shall etch it in the earth as I march on towards the tomb, so that it may never forget. I am still the Beast Queen, and I shall not be denied.
+| transcript = As we travel, I continue to bring more beasts to my side. Amongst the overgrown palaces, I tamed lizards that fire thorns like arrows, floating caterpillars that carry my supplies with ease and a dozen more.<br/><br/>They do not have the same bond or discipline as my first pack, but their strength is formidable. Combined they are a force to be reckoned with, marching in the shadow of my armored giant, and ready to fight any monsters who would stand in my way.<br/><br/>It's time that I remind this world just who I am. I shall etch it in the earth as I march on towards the tomb, so that it may never forget. I am still the Beast Queen, and I shall not be denied.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #18 (Extinction)
-| text = According to the maps, we are nearing the tomb's location. I have made short work of the monsters and disfigured beasts that have stood in our way, and the path ahead seems clear. However something looms behind us, growing ever closer.<br/><br/>It's another horde, and while it lacks the mountainous demon that attacked us before, there are other, lesser devils in its place. Though smaller than their master, they are still far larger than any normal beast, and their might will be considerable.<br/><br/>Fortunately, my pack is outpacing them. We should arrive at the tomb well ahead of the horde, and if I can heal Helena quickly, we may be able to avoid it all together.
+| transcript = According to the maps, we are nearing the tomb's location. I have made short work of the monsters and disfigured beasts that have stood in our way, and the path ahead seems clear. However something looms behind us, growing ever closer.<br/><br/>It's another horde, and while it lacks the mountainous demon that attacked us before, there are other, lesser devils in its place. Though smaller than their master, they are still far larger than any normal beast, and their might will be considerable.<br/><br/>Fortunately, my pack is outpacing them. We should arrive at the tomb well ahead of the horde, and if I can heal Helena quickly, we may be able to avoid it all together.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #19 (Extinction)
-| text = It did not take long to find the entrance to the cave, and when we reached it, Helena stirred. Though she did not awake completely, I could hear her speaking to me.<br/><br/>"The Tomb of Ascension. Find the altar."<br/><br/>There is no time to waste. I have left most of my beasts to guard the entrance while I bring a trusted few  to clear the cave. There are pockets of malformed creatures here, and before I can see to Helena, I will need to rid the tomb of these these unnatural beasts and their poisoned blood.<br/><br/>This close to my goal, there is an extra drop of fury flowing through my veins, and any enemies that block my path today will be quickly torn asunder.
+| transcript = It did not take long to find the entrance to the cave, and when we reached it, Helena stirred. Though she did not awake completely, I could hear her speaking to me.<br/><br/>"The Tomb of Ascension. Find the altar."<br/><br/>There is no time to waste. I have left most of my beasts to guard the entrance while I bring a trusted few  to clear the cave. There are pockets of malformed creatures here, and before I can see to Helena, I will need to rid the tomb of these these unnatural beasts and their poisoned blood.<br/><br/>This close to my goal, there is an extra drop of fury flowing through my veins, and any enemies that block my path today will be quickly torn asunder.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #20 (Extinction)
-| text = The last of the feral beasts have been wiped out, and I have found my way into the cavern's heart. It seems far too beautiful for a tomb, even an emperor's. Surely the name carries some different meaning.<br/><br/>Crystals grow along the walls like flowers, sprouting from vines of gold. They bathe the room in a gentle glow, but in the center of the chamber, they are overpowered by a light from above that shines down on an ornate dais.<br/><br/>Atop the altar, there is a device of some kind. It reminds me of the beds that Diana's people used, but grander in scale and artistry. That must be where I am meant to place Helena, and once I do, that machine will heal her. It has to.
+| transcript = The last of the feral beasts have been wiped out, and I have found my way into the cavern's heart. It seems far too beautiful for a tomb, even an emperor's. Surely the name carries some different meaning.<br/><br/>Crystals grow along the walls like flowers, sprouting from vines of gold. They bathe the room in a gentle glow, but in the center of the chamber, they are overpowered by a light from above that shines down on an ornate dais.<br/><br/>Atop the altar, there is a device of some kind. It reminds me of the beds that Diana's people used, but grander in scale and artistry. That must be where I am meant to place Helena, and once I do, that machine will heal her. It has to.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #21 (Extinction)
-| text = It's working, I am certain of it. When I placed Helena upon the central altar and stepped away, the machine hummed and sang in response. The light of the crystals burned brighter as well, and the once stale cavern air became warm and soothing.<br/><br/>Helena immediately improved. She has stopped sweating, and her breathing is stable. Blinking golden specks float about her like fireflies while she sleeps, as peaceful as I have seen her. The whole chamber has that effect. Even as I watch over her, I can feel my heart slow to a serene, steady beat.<br/><br/>Unfortunately, the process is gradual, and with each moment the pursuing horde grows nearer. I need to buy time.
+| transcript = It's working, I am certain of it. When I placed Helena upon the central altar and stepped away, the machine hummed and sang in response. The light of the crystals burned brighter as well, and the once stale cavern air became warm and soothing.<br/><br/>Helena immediately improved. She has stopped sweating, and her breathing is stable. Blinking golden specks float about her like fireflies while she sleeps, as peaceful as I have seen her. The whole chamber has that effect. Even as I watch over her, I can feel my heart slow to a serene, steady beat.<br/><br/>Unfortunately, the process is gradual, and with each moment the pursuing horde grows nearer. I need to buy time.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #22 (Extinction)
-| text = I have sealed the chamber and left a pair of my beasts to guard it, just in case any of the smaller monsters slip past me. It will take time to open it again, but after this battle, I will be afforded some patience.<br/><br/>I assembled the rest of my beasts and my armored giant in a defensive formation beyond the entrance to the cave. In the distance, I can see the horde approaching. They outnumber my pack, and it will not be long before they are upon us.<br/><br/>On this ground, I will make my stand, with neither retreat nor mercy in my heart. In the end, every last one of those monsters will lie dead, or I will.<br/><br/>Let them come. We'll be ready, right, Diana?
+| transcript = I have sealed the chamber and left a pair of my beasts to guard it, just in case any of the smaller monsters slip past me. It will take time to open it again, but after this battle, I will be afforded some patience.<br/><br/>I assembled the rest of my beasts and my armored giant in a defensive formation beyond the entrance to the cave. In the distance, I can see the horde approaching. They outnumber my pack, and it will not be long before they are upon us.<br/><br/>On this ground, I will make my stand, with neither retreat nor mercy in my heart. In the end, every last one of those monsters will lie dead, or I will.<br/><br/>Let them come. We'll be ready, right, Diana?
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #23 (Extinction)
-| text = I have beaten back the first wave, but not without cost. Though my own beasts fight with more ferocity than these untamed monsters, my ranks have begun to thin, and the towering demons have yet to enter the fray. That has made it easier for me to tear through the lesser creatures with my armored giant, but their patience makes me wary.<br/><br/>Beneath me, I can feel something stirring from the tomb. The machine is continuing to work. If I can just hold the horde off for a while longer, Helena will awaken and we can leave this place.<br/><br/>But first, I must hold.
+| transcript = I have beaten back the first wave, but not without cost. Though my own beasts fight with more ferocity than these untamed monsters, my ranks have begun to thin, and the towering demons have yet to enter the fray. That has made it easier for me to tear through the lesser creatures with my armored giant, but their patience makes me wary.<br/><br/>Beneath me, I can feel something stirring from the tomb. The machine is continuing to work. If I can just hold the horde off for a while longer, Helena will awaken and we can leave this place.<br/><br/>But first, I must hold.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #24 (Extinction)
-| text = Again and again, the monsters come. It seems as though there is no end to their number, but I know that cannot be true. I must keep fighting.<br/><br/>Yet as time passes, that grows far more difficult to do. One by one my beasts are falling, and I can only rest at times like these, in the gaps between assaults. My eyelids are heavy, my muscles sore and only writing like this is keeping my mind from growing hazy.<br/><br/>The gigantic demons still stand idle, letting their lessers wear down my forces so they can strike me when I am at my weakest. Yet they cannot wait forever, for the tomb continues to rumble below. Eventually their patience will run out, and in that moment, this battle will be decided.
+| transcript = Again and again, the monsters come. It seems as though there is no end to their number, but I know that cannot be true. I must keep fighting.<br/><br/>Yet as time passes, that grows far more difficult to do. One by one my beasts are falling, and I can only rest at times like these, in the gaps between assaults. My eyelids are heavy, my muscles sore and only writing like this is keeping my mind from growing hazy.<br/><br/>The gigantic demons still stand idle, letting their lessers wear down my forces so they can strike me when I am at my weakest. Yet they cannot wait forever, for the tomb continues to rumble below. Eventually their patience will run out, and in that moment, this battle will be decided.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #25 (Extinction)
-| text = At last, the time is at hand. The towering demons have begun to stir. Though my beasts lay dead and my armored giant is damaged, I have slain the last of their minions. It is down to them, and it is down to me, just as it was always meant to end.<br/><br/>Come then! I am Li Mei-Yin of Yi, Beast Queen of the Jungle, the Depths and the Wastes! If you dare to challenge me, then come and let us duel to the death!
+| transcript = At last, the time is at hand. The towering demons have begun to stir. Though my beasts lay dead and my armored giant is damaged, I have slain the last of their minions. It is down to them, and it is down to me, just as it was always meant to end.<br/><br/>Come then! I am Li Mei-Yin of Yi, Beast Queen of the Jungle, the Depths and the Wastes! If you dare to challenge me, then come and let us duel to the death!
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #26 (Extinction)
-| text = I am victorious. Though my armored giant groans and sparks, and though blood stains my lips and drips down my armor, I am victorious.<br/><br/>It was a long, grueling battle. I had no advantage in power, so I goaded my immense foes into striking, and then counterattacked them at their joints. Once I had slowed their movements even further, I picked at their weakest points, wearing them down before finally going for the kill. However it was far from easy, and there were moments where I was nearly cornered.<br/><br/>But in the end, the great demons lie dead while I am still standing. Now as soon as I have the strength to not only stand, but move, I should see to Helena.
+| transcript = I am victorious. Though my armored giant groans and sparks, and though blood stains my lips and drips down my armor, I am victorious.<br/><br/>It was a long, grueling battle. I had no advantage in power, so I goaded my immense foes into striking, and then counterattacked them at their joints. Once I had slowed their movements even further, I picked at their weakest points, wearing them down before finally going for the kill. However it was far from easy, and there were moments where I was nearly cornered.<br/><br/>But in the end, the great demons lie dead while I am still standing. Now as soon as I have the strength to not only stand, but move, I should see to Helena.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #27 (Extinction)
-| text = I arrived in the tomb to a chorus of light. The machines and crystals pulsed with a heavenly rhythm, and hundreds of those golden fireflies danced about Helena to the same melody. Her body itself glowed like the sun, floating untethered above the altar.<br/><br/>I was so in awe that when the whole chamber flashed and Helena's flesh turned to light, I could only watch. It was not until Helena's radiance floated skyward that I could find my voice and call out her name. By then the light of the crystals had begun to dim, and there was no trace of her left.<br/><br/>Somehow, I know that this is the end she was seeking, and that wherever her soul may be, it is safe and content. Yet I cannot help but mourn, for now I am left alone.
+| transcript = I arrived in the tomb to a chorus of light. The machines and crystals pulsed with a heavenly rhythm, and hundreds of those golden fireflies danced about Helena to the same melody. Her body itself glowed like the sun, floating untethered above the altar.<br/><br/>I was so in awe that when the whole chamber flashed and Helena's flesh turned to light, I could only watch. It was not until Helena's radiance floated skyward that I could find my voice and call out her name. By then the light of the crystals had begun to dim, and there was no trace of her left.<br/><br/>Somehow, I know that this is the end she was seeking, and that wherever her soul may be, it is safe and content. Yet I cannot help but mourn, for now I am left alone.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #28 (Extinction)
-| text = I am certain that I succeeded, and yet my hands and heart are empty. For the first time in so long, I am devoid of purpose. There is nothing to fight or run from. Is this what peace feels like?<br/><br/>When I exited the cave, I simply entered my armored giant and left. I did not have a destination in mind, just some faint instinct that perhaps I should go this way. So here I wander, alone in a land of poison and empty palaces, to no end but the one I choose.<br/><br/>It's unfortunate. The sky is so clear today. It would have been the perfect time to fulfill the promise around my neck.
+| transcript = I am certain that I succeeded, and yet my hands and heart are empty. For the first time in so long, I am devoid of purpose. There is nothing to fight or run from. Is this what peace feels like?<br/><br/>When I exited the cave, I simply entered my armored giant and left. I did not have a destination in mind, just some faint instinct that perhaps I should go this way. So here I wander, alone in a land of poison and empty palaces, to no end but the one I choose.<br/><br/>It's unfortunate. The sky is so clear today. It would have been the perfect time to fulfill the promise around my neck.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #29 (Extinction)
-| text = My armored giant has stopped moving, and I do not know how to fix it. I suppose I have been fortunate that it lasted as long as it did. Had it given out before we reached the tomb, I may not have been able to protect Helena.<br/><br/>If I want to carry on without it, I will need to get to work soon. I am low on supplies, and when one is surviving on their own, there is always much to be done. Food. Shelter. Safety. Maybe I will even find time to clean the blood from my face.<br/><br/>Yet for now, all I truly want to do is sleep. Perhaps I will dream of flying.
+| transcript = My armored giant has stopped moving, and I do not know how to fix it. I suppose I have been fortunate that it lasted as long as it did. Had it given out before we reached the tomb, I may not have been able to protect Helena.<br/><br/>If I want to carry on without it, I will need to get to work soon. I am low on supplies, and when one is surviving on their own, there is always much to be done. Food. Shelter. Safety. Maybe I will even find time to clean the blood from my face.<br/><br/>Yet for now, all I truly want to do is sleep. Perhaps I will dream of flying.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}
 
 {{Explorer Note
 | title = Mei Yin Note #30 (Extinction)
-| text = I awoke to the sound earthshaking footsteps. A towering demon was upon me, and though I struggled against its minions on foot, my situation was desperate.<br/><br/>Suddenly, an armored giant crashed to the earth. It struck down the demon, scattered its beasts and knelt before me. From within stepped a woman with hair the color of sunset, or perhaps more aptly, a tangerine. My Juzi, my love - Diana.<br/><br/>For a moment, I thought I was dead or dreaming, but she felt too real to deny. I left her lips smeared with tears and blood, but she wouldn't let me apologize. It's just as well. I was not that sorry.<br/><br/>I do not know how or why this is possible, but neither do I care. All I know is that I am going to hold onto this feeling and never let it go. Never again.
+| transcript = I awoke to the sound earthshaking footsteps. A towering demon was upon me, and though I struggled against its minions on foot, my situation was desperate.<br/><br/>Suddenly, an armored giant crashed to the earth. It struck down the demon, scattered its beasts and knelt before me. From within stepped a woman with hair the color of sunset, or perhaps more aptly, a tangerine. My Juzi, my love - Diana.<br/><br/>For a moment, I thought I was dead or dreaming, but she felt too real to deny. I left her lips smeared with tears and blood, but she wouldn't let me apologize. It's just as well. I was not that sorry.<br/><br/>I do not know how or why this is possible, but neither do I care. All I know is that I am going to hold onto this feeling and never let it go. Never again.
 | author = Mei Yin
 | icon = NoteMeiYin.png
 }}</div>
