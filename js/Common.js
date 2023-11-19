@@ -517,7 +517,7 @@ $(function() {
 	        anchorEl.className = 'section-link';
 	        headingEl.parentElement.appendChild( anchorEl );
 	    } );
-	} );
+	} )();
 	// #endregion
 });
 /* End DOM ready */
