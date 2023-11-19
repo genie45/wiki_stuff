@@ -487,8 +487,8 @@ $(function() {
         }
     }
     // #endregion
-    // #region add a link button to headings
-    $( function () {
+    // #region Section heading jump links
+    ( function () {
 	    document.querySelectorAll( 'span.mw-headline[ id ]' ).forEach( function ( headingEl ) {
 	        var anchorEl = document.createElement( 'a' );
 	        anchorEl.href = '#' + mw.util.escapeIdForLink( headingEl.id );
@@ -497,7 +497,7 @@ $(function() {
 	        headingEl.parentElement.appendChild( anchorEl );
 	    } );
 	} );
-	// #endregion heading link button
+	// #endregion
 });
 /* End DOM ready */
 
