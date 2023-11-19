@@ -407,6 +407,65 @@ $(function() {
     } );
     // #endregion
 
+    // #region Sticky table headers
+    ( function () {
+        var STICKY_THEAD_CLASS = 'ark-sticky-thead',
+            bodyElement = document.getElementById( 'bodyContent' );
+        var lastStickyThead = null,
+            tables = null;
+
+
+        var
+            updateStickyTheads = mw.util.debounce(
+                function ( infoSet ) {
+                    if ( lastStickyThead !== null ) {
+                        lastStickyThead.classList.remove( STICKY_THEAD_CLASS );
+                    }
+
+                    infoSet.some( function ( table ) {
+                        var bounds = table.getBoundingClientRect(),
+                            tableBottom = bounds.top + bounds.height,
+                            thead = table.tHead;
+                        if ( bounds.top <= 0 && tableBottom >= 0 ) {
+                            var theadBounds = thead.getBoundingClientRect();
+                            if ( tableBottom - theadBounds.height * 3 >= 0 ) {
+                                thead.style.setProperty( '--table-header-offset', ''.concat( 0 - theadBounds.top - 1, 'px' ) );
+                                thead.classList.add( STICKY_THEAD_CLASS );
+                                lastStickyThead = thead;
+                                return true;
+                            }
+                        }
+                    } );
+                },
+                40
+            ),
+            setupStickyTheads = function ( tablesToCheck ) {
+                if ( tablesToCheck == null ) {
+                    return;
+                }
+
+                tables = [];
+                tablesToCheck.forEach( function ( table ) {
+                    if ( table.tHead ) {
+                        tables.push( table );
+                    }
+                } );
+
+                if ( tables.length > 0 ) {
+                    window.addEventListener( 'scroll', handleFixedHeader, {
+                        passive: true
+                    } );
+                    window.addEventListener( 'resize', handleFixedHeader, {
+                        passive: true
+                    } );
+                    updateStickyTheads();
+                }
+            };
+
+        setupStickyTheads( bodyElement.querySelectorAll( 'table.wikitable' ) );
+    } )();
+    // #endregion
+
     // #region Arkitecture - collapsible sections
     document.querySelectorAll( '[data-arkitecture-collapsible]' ).forEach( function ( sectionElement ) {
         var captionElement = sectionElement.children[ 0 ];

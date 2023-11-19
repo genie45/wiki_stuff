@@ -3429,8 +3429,8 @@ table.mw-abuselog-details tr td {
 .mw-datatable tr:hover td {
     background-color: #fff2;
 }
-
-/* Used for tables that are too wide, and slip under ads or offscreen */
+/* #endregion */
+/* #region Wide tables */
 .widetable {
     overflow-x: auto;
     margin-top: 1em;
@@ -3449,6 +3449,16 @@ table.mw-abuselog-details tr td {
     }
 }
 /* #endregion */
+/* #region Sticky table heads */
+.ark-sticky-thead {
+    box-shadow: 0 9px 13px -5px #0004;
+    outline: 1px solid var(--content-border-color);
+    position: relative;
+    transform: translateY( calc( var( --table-header-offset ) + var( --sticky-offset ) ) );
+    z-index: 1;
+}
+/* #endregion */
+
 
 /* #region Special:Search */
 .mw-search-profile-tabs,
