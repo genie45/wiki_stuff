@@ -4995,7 +4995,8 @@ div.mw-message-warning {
 /* #endregion */
 
 /* #region Echo */
-.mw-echo-ui-notificationItemWidget {
+.mw-echo-ui-notificationItemWidget,
+.mw-echo-ui-placeholderItemWidget {
 	background-color: var(--wmui-background-color-base--read-only);
 	border-color: var(--wmui-border-color-base);
 }
@@ -5003,7 +5004,8 @@ div.mw-message-warning {
 	background-color: var(--wmui-background-color-base--hover);
 }
 .mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-head,
-.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer {
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer,
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer .mw-echo-ui-notificationBadgeButtonPopupWidget-footer-buttons .oo-ui-buttonElement:last-child {
 	border-color: var(--wmui-border-color-base);
 }
 .mw-echo-ui-notificationItemWidget-content-message-header {
