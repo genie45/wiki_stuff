@@ -20,7 +20,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Helena Note #1
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I’ve lost count of how many sunrises I’ve seen since I arrived on this island. Hundreds, I’d imagine, yet each one seems more beautiful than the last. Sometimes, I like to take Athena out just before dawn and watch it while flying through the morning sky. It’s in these simple moments that I realize just how lucky I am.<br/><br/>Not that I was unhappy exploring the reefs and rainforests back, in Oz, but I wasn’t ever going to spot a Bronto stomping about the outback, was I? Since I got here, I’ve had the opportunity to study creatures that no other biologist has even witnessed. I’ll always be grateful for that.
 | author = Helena
 | icon = NoteHelena.png
@@ -29,7 +29,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #2
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I’d been holding out for a change in weather before studying the wildlife of this island’s peculiar tundra region, but I think it’s safe to say that it’s not forthcoming. Clearly this planet has no axial tilt, and therefore, no seasons. That ice and snow isn’t melting anytime soon.<br/><br/>Can’t say I’m happy about it. The cold and I are not the best of mates, I can tell you that, but I’ll just have to suck it up. The climate during the Jurassic and cretaceous periods that many of this island’s creatures hail from was fairly uniform, so an arctic region is quite the oddity. It’d be plain stubborn of me not to have a Captain Cook.
 | author = Helena
 | icon = NoteHelena.png
@@ -38,7 +38,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #3
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The tribe that calls themselves The Howling Wolves has really made this northern adventure a lot easier. Well, them and Athena. She’s right at home here. I don’t think I’ll ever be able to repay Rockwell for just up and giving me, an Argentavis. He’s said our conversations are payment enough, but I still feel guilty. I should remember to collect some floral samples for him while I’m here.<br/><br/>Anyway, tagging along with the wolves has been a good introduction to the region, but I think I’m ready to making my own way. To make real scientific conclusions, I need to observe these animals undisturbed in their natural habitat for long periods of time.
 | author = Helena
 | icon = NoteHelena.png
@@ -47,7 +47,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #4
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = What a day! There I am, putting the finishing touches on the mammoth dossier, when all of a sudden, a Tyrannosaurus starts attacking the herd. Strewth! A Tyrannosaurus wading through the bloody snow!<br/><br/>I asked The Howling Wolves at the nearest camp, and apparently, this is a common thing. They’re not new to the region. It just doesn’t make sense. How can a Tyrannosaurus survive in this climate? And how can the introduction of an apex predator not shift the entire ecosystem?
 | author = Helena
 | icon = NoteHelena.png
@@ -56,7 +56,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #5
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, I've combed through more carnivore droppings, than I care to calculate, and I can't say they provided many answers. All the predators in this region have very similar diets. With so many different predators hunting the same prey, the populations of all these species shouldn't be sustainable. Yet I've found nothing to indicate that any population shift is actually happening.<br/><br/>It's just bizarre! The longer I'm here, the more I realize that this region shouldn't exist. Its climate is out of sync with the rest of the island, many of the creatures here are millions of years ahead of the dinosaurs and the ecosystem is almost static!<br/><br/>Something's off. I need to review my notes.
 | author = Helena
 | icon = NoteHelena.png
@@ -65,7 +65,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #6
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Helena, you're a dipstick.<br/><br/>Going through my notes, I've realised that there are more predators than prey across this entire island by almost double. That's the opposite of how any ecosystem is supposed to work. I can't believe it took a Tyrannosaurus frolicking through the snow for me to see this. It's plain as day.<br/><br/>What to make of it? Add in the human factor, and it's impossible for this island to continue as it is by natural means. So, what, is this island's wildlife being monitored and curated somehow?<br/><br/>I should speak with Rockwell. Maybe he's come to a similar conclusion.
 | author = Helena
 | icon = NoteHelena.png
@@ -74,7 +74,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #7
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I never thought this island was normal, exactly. I mean, there are giant obelisks floating in the sky, for Pete's sake. Not to mention that cave I found, which hid a platform similar to those found at the base of said obelisks. Well, similar except for those oddly shaped holes that were carved into its podium.<br/><br/>I guess I just didn't care about all that. So long as I had my beautiful, unique and untainted ecosystem to study, I was happy. But now...<br/><br/>No, I shouldn't write it off just yet. Not before I arrive at Rockwell's. There's still a chance that my data is off or, that I missed something obvious. I won't give up on my paradise just yet.
 | author = Helena
 | icon = NoteHelena.png
@@ -83,7 +83,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #8
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I really need to visit Rockwell more. It's so energizing to be around someone of his experience that still has so much excitement for his work, and talking to him always helps me gain perspective.<br/><br/>As for the Island's ecological abnormalities, Rockwell reassured me that I was jumping to conclusions. He made a great point: Just because this place doesn't follow the scientific laws we're used to, doesn't mean it follows no scientific laws at all. After all, science is about discovery, and new discoveries can invalidate old principles.<br/><br/>So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm  no scientist.
 | author = Helena
 | icon = NoteHelena.png
@@ -92,7 +92,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #9
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = On Rockwell's recommendation, I've headed south to start an in depth study of the Island's marine life with the help of a tribe called the Painted Sharks. Because the ecosystem of the ocean that surrounds the Island is separate from the ecosystem on the mainland, correlating patterns between them might help me isolate and understand this island's scientific abnormalities.<br/><br/>Also, after freezing my ass off for so long, I could really use an extended stay on a tropical island. Marine biology was never my strongest field, but I do love the ocean. If nothing else, it should be beautiful there.
 | author = Helena
 | icon = NoteHelena.png
@@ -101,7 +101,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #10
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The Painted Sharks have treated me like I'm the bloody queen since I showed them Rockwell's letter of recommendation. I don't think I've eaten better in my entire time on the Island. Not that it's a high bar, I'm a horrible cook. Oh, and they've been of tremendous help with my research, of course.<br/><br/>So far, my estimates of the predator-prey balance are consistent with the ecosystems on the mainland. The water is simply teeming with shoals of megalodons, and they are extremely aggressive. Perhaps that's a side effect of having limited prey? Sharks aren't known as territorial creatures. I'll have to study them further.
 | author = Helena
 | icon = NoteHelena.png
@@ -110,7 +110,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #11
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Still no anwsers as to why the Megalodons are so territorial, but I was privy to something even more extraordinary: Megalodon Mating Behavior! No one's ever witnessed Great Whites rooting around back home, so that alone is monumental, but I got something even better.<br/><br/>I know, what could possibly top watching Megalodons having a naughty, right? Tracking the female! I was able to observe her for almost the full gestation period, and get this, it only lasts one week. One Week! No wonder the population is so high. These are spitting out pups forty-four times the rate of Aussie Great Whites.<br/><br/>I should compare how they behave in captivity.
 | author = Helena
 | icon = NoteHelena.png
@@ -119,7 +119,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #12
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = So, in addition to all of the oddities I found with wild megalodons, here's the real cherry on top: Taming them is a piece of piss. A bit of training and they're more obedient than the family dog.<br/><br/>Now, I've heard of sharks getting very rudimentary training over a year or so, but not to this extent. Certainly not so easily. Sharks aren't mammals or even avians, they're fish. They rely more on instinct, or to put it simply, they're not very smart. You shouldn't be able to ride one like a jet ski.<br/><br/>I'm trying to keep an open mind like Rockwell suggested, but this just feels wrong.
 | author = Helena
 | icon = NoteHelena.png
@@ -128,7 +128,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #13
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, this seals it. Just when I thought I'd made some sense of the notes I took while visiting the Painted Sharks, I spotted the nail in the proverbial coffin: Roos. A whole herd of giant Roos were just hopping about the countryside like they'd always been there.<br/><br/>As much as I love Roos, they just shouldn't be here, period. They evolved in Oz and Oz only sixty million years after the dinosaurs went extinct among a bevy of other marsupials. If I know any genus, it's this one, and Procoptodon should not exist here.<br/><br/>This island isn't an ecosystem, its a zoo.
 | author = Helena
 | icon = NoteHelena.png
@@ -137,7 +137,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #14
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Not too long ago, I thought this place was a far off utopia where I could study all the world's lost wonders. Now that I'm certain it's not natural at all, I have to say, it's lost a lot of luster.<br/><br/>Interference from mankind hasn't helped. Most tribes have learned to live in harmony with their slice of the island, but some aren't content with that. One is even trying to conquer all the others, and natural or not, this ecosystem won't be any better off if it's burned down in some great war.<br/><br/>The sunrises are still beautiful, though. At least nothing can change that.
 | author = Helena
 | icon = NoteHelena.png
@@ -146,7 +146,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #15
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Of all the abnormalities that I've observed, the tamed Megalodons stick out to me. It was almost like they were stray dogs who were resocialized, as though they had a genetic history of human obedience.<br/><br/>Most of my observations have been in the wild, but I think I may learn a thing or two if I observe domesticated creatures more closely. I need to study their diets, their mating patterns, how they socialize with other species... all that.<br/><br/>Rumor has it that there's some woman that's tamed a whole mess of them all by herself, so many that they call her The Beast Queen of the Jungle. Maybe she'll have some useful insights.
 | author = Helena
 | icon = NoteHelena.png
@@ -155,7 +155,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #16
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I suppose it was a bit naive of me to think that someone with the monicker of "Beast Queen" would roll out the red carpet. I guess I got used to all the friendly treatment that being an associate of Rockwell's earned me.<br/><br/>She did let me stay at least, and she hasn't instructed her dinosaurs to kill me yet, so that's a positive. Not that she'd really need the dinosaurs. If that glare of hers gets any more intense, I'll probably just burst into flames on the spot.<br/><br/>Strewth, I hope she eases up. Sifting through raptor excrement with someone watching is harder than you might think.
 | author = Helena
 | icon = NoteHelena.png
@@ -164,7 +164,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #17
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = There's nothing special about the diet of these tamed creatures when compared to their wild counterparts. Part of that is the Beast Queen's doing, as she takes them on regular hunting excursions for training purposes.<br/><br/>Curiously, they never have to range too far. There is an abundance of prey nearby, despite the size of her pack. That this has held true regardless of her domesticated creature's remarkable birth and growth rates makes it even more unusual.<br/><br/>Oh, and I did finally get her name - Li Mei-Yin. She's gotten a little less glarey, too. In hindsight, maybe starting by studying her animals' feces just gave her the wrong impression...
 | author = Helena
 | icon = NoteHelena.png
@@ -173,7 +173,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #18
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The most interesting thing that I've observed about Mei-Ying's animals has been what they don't do - they never fight.<br/><br/>Among creatures that have been domesticated for generations like cats or dogs, that's normal, but there's a reason zoos keep their animals in separate enclosures. Certain instincts are hard to curb, and there should definitely be more disputes among such a diverse group.<br/><br/>Mei-Ying has even integrated a herd of herbivores into her army, as their thick hides have proven resistant to fire and explosives. Yet despite being surrounded by carnivores, they remain untouched. It doesn't make sense.<br/><br/>That's not to take anything away from Mei-Yin. She works hard to treat and train her animals well. She's not bad company either, at least when she's not mute and I don't go full biologist. Sometimes it's felt like speaking a new language, but it's been kind of refreshing.
 | author = Helena
 | icon = NoteHelena.png
@@ -182,7 +182,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #19
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = After going over my notes from Mei-Yin's camp, I've concluded that the animals on this island are not only used to humans, but used to captivity. Even with their accelerated growth rates, their behavior indicates that they have been regularly domesticated for decades at least. Otherwise, they'd never obey the whims of mankind so easily.<br/><br/>With that in mind, I believe that my theory about this island being curated is back in play. In fact, it's possible that not only are animal populations being controlled, but that the animals themselves are genetically modified. However, before I bring this to Rockwell, there's one more rumor that I want to confirm.
 | author = Helena
 | icon = NoteHelena.png
@@ -191,7 +191,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #20
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = This is the smoking gun. It has to be. I simply can't be convinced that this place is natural after finding an island populated entirely by carnivores.<br/><br/>Even if they fed off of each other, which is awfully dubious given that carnivore meat is much more likely to carry harmful parasites than herbivore meat, the landmass is so small and their population is so dense that they could never maintain it. Yet there it is, hidden away off the northeast coast of the Island. Someone would have to put them there on purpose.<br/><br/>There's no way that Rockwell can deny my theory now.
 | author = Helena
 | icon = NoteHelena.png
@@ -200,7 +200,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #21
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = As I expected, Rockwell couldn't deny my theory, but I can't say that I have his endorsement either. He didn't seem terribly engrossed in the subject, frankly. Something else seems to have captured his attention as of late: the Island's obelisks..<br/><br/>Apparently, Rockwell stumbled upon a way to interact with the towering monuments while spelunking, of all things. I guess he felt the need to scratch that old intrepid explorer itch of his. It's pretty impressive, considering his age.<br/><br/>Now that I think about it, the obelisks could be linked to my own findings. Their nature has always been a mystery, and Rockwell made some intriguing observations. I should follow up.
 | author = Helena
 | icon = NoteHelena.png
@@ -209,7 +209,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #22
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Though I've been received by the Iron Brotherhood, they didn't seem very pleased to see me, especially when I mentioned Rockwell. That's a first. Add that to the rather deserted, gloomy state of their compound, and I'm starting to feel a bit apprehensive. Their leader can't return from his hunting expedition soon enough.<br/><br/>All I've confirmed so far is that yes, they gathered all of the artifacts Rockwell sought and yes, the artifacts were able to activate one of the obelisks. You'd think they'd be celebrating such a monumental discovery, but it's just killjoys as far as the eye can see. Go figure.
 | author = Helena
 | icon = NoteHelena.png
@@ -218,7 +218,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #23
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I keep glancing at the artifact. I understand why the Iron Brotherhood's leader didn't want it. Since it has no apparent use, all it does is remind him of the tribesman who died seizing it from that giant spider.<br/><br/>Can it really be useless, though? They described the artifacts that activated the obelisk as looking similar to it, so I headed to the nearest obelisk to see if I could get a response. No luck. Maybe it activates something else?<br/><br/>Of course! The platform in the cave! It's a long shot, but it's the only thing I can think of that's similar to the obelisks. Definitely worth a try.
 | author = Helena
 | icon = NoteHelena.png
@@ -227,7 +227,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #24
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Unbelievable! The artifacts perfectly fits one of the slots in the platform's pedestal. How did I not notice that right away? I really am a dipstick.<br/><br/>So if this key, such as it is, was acquired by activating one of the obelisks, then it follows that the other two keys can be obtained by activating the other two obelisks. Then, with all three keys, maybe this platform will lead to whatever is controlling the Island's ecosystem.<br/><br/>If the other obelisks work the way that the first one did, that means I have to find a whole mess of artifacts first, and I don't think I can do that alone...
 | author = Helena
 | icon = NoteHelena.png
@@ -236,7 +236,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #25
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, the Howling Wolves are quickly tracking down the artifacts, but after hearing about what happened to the Iron Brotherhood, that's as far as they'll go. It's understandable, but it leaves me in a tight spot. If a giant spider and I get in a scrap, the spider's winning for sure.<br/><br/>Even with Athena on my side, I prefer to avoid danger, not confront it. My aim's piss poor and I've got fists like marshmallows. If I want a fair go at actually surviving whatever happens when the obelisk activates, I'll need backup.<br/><br/>Negotiation Notes: Don't mention feces. Don't look directly at the glare. Bring chili (UNBURNED).
 | author = Helena
 | icon = NoteHelena.png
@@ -245,7 +245,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #26
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Now, I know you don't get a nickname like "Beast Queen" without being one tough lady, but when I saw that giant ape, I still thought we were buggered. Fortunately, Mei-Yin's got more intestinal fortitude than yours truly, and somehow, someway she was able to pull out a win. Glad I'm on her good side!.<br/><br/>I already found the second key, but I want to take a look around here before we head back through the portal. This ape either lived here, or was released when we activated the obelisk. Finding out how it survived in this isolated environment or how it got here could prove useful.
 | author = Helena
 | icon = NoteHelena.png
@@ -254,7 +254,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #27
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = So, these are the conquerors that I heard about way back when. Not a great first impression. Mei-Yin and I weren't quite mates, but watching her creatures get slaughtered like that certainly wasn't pleasant. I'm not a fan of the prisoner lifestyle, either.<br/><br/>The leader introduced himself as Gaius Marcellus Nerva, and he's not a complete bogan, I'll give him that. He let me keep my personal effects and our conversations have been civil so far. I get the feeling that'll change if I don't cooperate, though.<br/><br/>Not that I have much choice. They already took the keys. The only way I'm seeing this through is as a "guest" of the New Legion."
 | author = Helena
 | icon = NoteHelena.png
@@ -263,7 +263,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #28
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = This Nerva bloke's FIGJAM incarnate. He seems to think that he's Jupiter's gift to the Island or some rubbish like that. I think his ego was actually tangible when the Legion returned from to the obelisk with the third key and the head of a dragon in tow.<br/><br/>Sadly, as much as I would enjoy seeing him fall flat on his face, I need him and I need the New Legion. So, when he "asked" me to guide his forces to the hidden cave, I obliged without protest.<br/><br/>What he'll do with me afterwards, I don't know.
 | author = Helena
 | icon = NoteHelena.png
@@ -272,7 +272,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #29
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = When Nerva and his band return from the cave, they'll decide my fate, so this may be my final chance to reflect. I may as well take advantage of it.<br/><br/>I realize that had I just ignored the signs and accepted this paradise at face value, I'd still be happy and free. Would that have been better? I don't think so. After a lot of thought, I've decided that I'd rather die seeking the truth than living in an illusion. That, as Rockwell would say, is the path of a true scientist.<br/><br/>Not that I'm Galileo battling the church or anything, but hey, it's something to hold onto.
 | author = Helena
 | icon = NoteHelena.png
@@ -281,7 +281,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #30
-| location = 
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-00|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, I'm not dead, and as it turns out, neither was Mei-Yin. In fact, it was her who freed me, and insisted we follow Nerva through the portal in the cave.<br/><br/>A horrifying scene awaited us. All of Nerva's men lay dead amongst the shards of a mysterious metal, but Nerva's body was missing. Forgetting my present company, I suggested a peaceful approach if we encountered him. That earned me one hell of a knockout punch.<br/><br/>When I came to, I searched the whole station, but the only signs of Mei-Yin and Nerva were a few ounces of dried blood. No bodies, and no victor.<br/><br/>There, floating outside the window and surrounded by machinery, was the very island that I had been living on, and it too was orbiting high above the Earth along with countless other stations just like it. The ecosystem on the Island wasn't just curated, it was completely artificial from the ground up!<br/><br/>What in the hell is all this, why would anyone construct it, and how could they have possibly kept it hidden from the world? I don't have the answers to any of these questions or the dozens of others that keep popping into my head, but somehow, I mean to find out. Somehow, I'll find the truth.
 | author = Helena
 | icon = NoteHelena.png
