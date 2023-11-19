@@ -426,10 +426,11 @@ $(function() {
                         lastStickyThead.classList.remove( STICKY_THEAD_CLASS );
                     }
 
-                    tables.some( function ( table ) {
+                    tables.some( function ( info ) {
+                        var table = info.table,
+                            thead = info.thead;
                         var bounds = table.getBoundingClientRect(),
-                            tableBottom = bounds.top + bounds.height,
-                            thead = table.tHead;
+                            tableBottom = bounds.top + bounds.height;
                         if ( bounds.top <= 0 && tableBottom >= 0 ) {
                             var theadBounds = thead.getBoundingClientRect();
                             if ( tableBottom - theadBounds.height * 3 >= 0 ) {
@@ -450,8 +451,18 @@ $(function() {
 
                 tables = [];
                 tablesToCheck.forEach( function ( table ) {
-                    if ( table.tHead ) {
-                        tables.push( table );
+                    var thead = table.tHead;
+                    if ( !thead ) {
+                        var firstRow = table.rows[ 0 ];
+                        thead = firstRow && firstRow.querySelectorAll(':scope > th').length === firstRow.children.length
+                            && firstRow;
+                    }
+
+                    if ( thead ) {
+                        tables.push( {
+                            table: table,
+                            thead: thead
+                        } );
                     }
                 } );
 
