@@ -1757,10 +1757,13 @@ table .number { text-align: right; }
     padding-bottom: 0;
 }
 #toc > ul {
-    padding-top: 0;
-    max-height: calc(1.7em * 15.5);
+    margin-bottom: 0;
+    padding-top: 0.2rem;
+    max-height: calc(1.7em * 15.7);
+    box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
+    border-top: 1px solid var(--content-border-color);
     /* Scroll shadows :) */
     background:
         /* Top */
@@ -1770,6 +1773,10 @@ table .number { text-align: right; }
         linear-gradient( to bottom, #0000 0%, var(--toc-background-color) 80% ) center bottom / 100% 60px no-repeat,
         linear-gradient( transparent 10%, #0003 ) center bottom / 100% 30px no-repeat;
     background-attachment: local, scroll, local, scroll;
+}
+.mw-content-ltr .toc ul ul,
+.mw-content-rtl .mw-content-ltr .toc ul ul {
+    margin-left: 1.2em;
 }
 
 div#toc,
@@ -5208,7 +5215,6 @@ div.gallerytext {
         display: block;
         float: none;
         margin: 2em 0;
-        padding: 9px;
     }
     #content .mw-parser-output .tocright {
         float: none;
