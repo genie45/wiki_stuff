@@ -4929,7 +4929,8 @@ img[src*="/Missing.png/"]:not(.dinolink) {
 
 /* Popups - set text colour */
 .oo-ui-defaultOverlay,
-.oo-ui-windowManager {
+.oo-ui-windowManager,
+.mw-echo-ui-overlay {
 	color: var(--content-text-color);
 }
 /* Icons */
@@ -4990,6 +4991,30 @@ div.mw-message-warning {
 /* Forms */
 .mw-htmlform-ooui .mw-htmlform-matrix tbody tr:nth-child(2n) td {
 	background-color: #fff4;
+}
+/* #endregion */
+
+/* #region Echo */
+.mw-echo-ui-notificationItemWidget {
+	background-color: var(--wmui-background-color-base--read-only);
+	border-color: var(--wmui-border-color-base);
+}
+.mw-echo-ui-notificationItemWidget:hover {
+	background-color: var(--wmui-background-color-base--hover);
+}
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-head,
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer {
+	border-color: var(--wmui-border-color-base);
+}
+.mw-echo-ui-notificationItemWidget-content-message-header {
+	color: var(--content-text-color);
+}
+.mw-echo-ui-notificationItemWidget-content-message-body {
+	color: var(--wmui-color-base--deemphasized);
+}
+.mw-echo-ui-notificationItemWidget-content-actions-timestamp,
+.mw-echo-ui-menuItemWidget > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+	color: var(--wmui-color-base--subtle);
 }
 /* #endregion */
 
