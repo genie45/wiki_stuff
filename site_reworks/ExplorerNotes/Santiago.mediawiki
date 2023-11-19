@@ -1,0 +1,534 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Santiago]]
+[[fr:Notes des explorateurs/Santiago]]
+[[ja:Explorer Notes/Santiago]]
+[[ru:Заметки Первопроходцев/Сантьяго]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Santiago is a member of the Federation Armed Forces from the future.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Extinction Explorer Notes===
+<div class="mw-collapsible-content">
+
+{{Explorer Note
+| title = Santiago's Log #1 (Extinction)
+| text = I wish everyone would just shut up for five seconds. I already know this is bad, we all do. So keep your hyperventilating to yourself, all right? Jesus.<br/><br/>When we stepped through my gateway and teleported to the surface, we thought we'd escaped the worst of it, but it turns out this planet is a burnt out, post-apocalyptic nightmare. Some people feel like we're back to square one.<br/><br/>But objectively, we're not. We've got TEK equipment, supplies, some tamed animals and a decent number of human assets. That's plenty of tools at our disposal. All I need is for people to give me some space and let me think. This is just another code that needs cracking.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #2 (Extinction)
+| text = Think we've found a decent spot to set up shop. That crater up ahead should have everything we need. <br/><br/>Mei-Yin scouted it out with some of her pets, so that's at least one other person who isn't panicking. Not that I expected her to after she took the "suicide" out of that suicide mission back on the station. Di really knew how to pick a winner.<br/><br/>While we travel, I've been putting together some equipment. Nothing too complicated, just some basic gear to help me take a few measurements of our new environment. Gravity, soil composition, atmosphere, etc. I've got a good idea of what they'll tell me, but it's worth confirming.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #3 (Extinction)
+| text = Some of the readings were outside my estimates, but this is definitely Earth. That same old, self-absorbed ball of dirt.<br/><br/>I figured as much. According to that biologist, Helena, people from my time are the most advanced humans on those stations. That means they couldn't have been built too far in the future, and last I knew, the Federation and the URE were still stuck on Earth. It wasn't for lack of technology, just the usual suspects - politicians.<br/><br/>They could barely share one planet, much less space. People like to talk about having AI overlords as a nightmare scenario, but if we were ruled by machines, I might be looking at a flourishing Martian landscape instead of this ravaged one on Earth. Doesn't sound all that bad when you think about it. I mean, look what happened with humans in charge...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #4 (Extinction)
+| text = Construction on Camp Omega is going well. Things usually do when I have a project to focus on. I'd prefer something more challenging than living quarters, stables and basic defenses, but this'll keep me busy for now.<br/><br/>I'm the de-facto leader of this outfit these days, I realize that. No one else still among the living is qualified, so fine, I'll do the job. I just can't stand being bothered with every little disagreement or emotional breakdown. I've got real work to do, solving real problems.<br/><br/>That's why I made the Federation set me up in that mountain villa as part of my contract. My little hideaway, with just me and whatever puzzle they needed me to solve. It was perfect. Had a great sound system too. Assuming my memories are real, anyway.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #5 (Extinction)
+| text = Tried chatting with Helena a little about this Earth situation. Smart girl, probably smarter than anyone else I've met here, but I think she has a hard time telling when I'm messing with her and when I'm just a being jerk.<br/><br/>Not her fault. There's a reason why the Federation suits only visited me when they absolutely had to. Didn't matter how high ranking they were, I'd never mince words with any of them. I knew they'd have to take it. They needed me.<br/><br/>So yeah, I can be a pain to deal with, unless you're someone like Di. She may not have been an engineer or scientist, but she had a PhD in talking shit. Miss that ginger lunatic.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #6 (Extinction)
+| text = Camp Omega's basically up and running, complete with a functioning infrastructure, and we've got resources to spare. Lots of them.<br/><br/>The surface of the planet is brimming with Element. After just a couple expeditions to the edge of the wastes, we've practically filled our storehouses. I'm not sure what we're going to do with it all.<br/><br/>I'm not sure how there's so much of it. Element wasn't nearly this common in our time. Granted, all the Element that those stations are made of had to come from somewhere, so theoretically this city could have been built on top of an undiscovered vein. This much of it would turn even the smallest village into a metropolis overnight. But if that was what happened here, then where's the mine? May need to take a few more readings.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #7 (Extinction)
+| text = I ran the numbers. We're living in a scientific impossibility. Element simply couldn't expand fast enough to reach this level of density under natural conditions, even with millennia of uninterrupted growth. That means something accelerated it at an alarming rate, even if this area's readings are an outlier. Well I say "something," but there's an obvious answer here: man.<br/><br/>Any tech that runs on Element emits a few molecules of it back into the atmosphere, which take root in the soil. It's kind of like pollination, but the scale's so small and we consume it so fast that it's practically negligible. To spread it to any significant degree, you'd need a huge spike in Element proliferation.<br/><br/>A spike you'd get from, say, a century of open warfare with Element based weaponry. And the best of that weaponry? That'd be mine.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #8 (Extinction)
+| text = Sure, there's a chance it wasn't weapons. The civilian applications for Element were spreading daily, after all. I would know, I took a few corporate espionage gigs under the table, just to see if I could. If they started cutting enough corners on filtration...<br/><br/>No, I have to face the implications here. Not that I was ever a paragon of virtue, I knew I was engineering prepackaged death, but it should never have gone this far.<br/><br/>Then again, if I'm just a clone of the original Santiago, am I really responsible? I keep saying "me" and "I," but it's not my fault that I have his memories. Although if I accept that, what's left of me? Either I'm a horseman of the apocalypse, or I'm nothing at all.<br/><br/>Deal with this later. There's work to do.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #9 (Extinction)
+| text = The situation's changed on us yet again. We saw some big monsters in those caves, but those guys we spotted a few hours ago dwarf all of them. It's not even close. Add the mechanized drones we've been dealing with, and all of a sudden our firepower seems pretty underwhelming.<br/><br/>I wonder if those behemoths are the result of Element mutation. Depending on how you look at it, that would make them my problem in more ways than one. Fine then. If they're a problem, I'll just make a solution same as always, and I won't do it by dismissing my identity. I'll lean into it. <br/><br/>Yeah, I've got just the thing. It's interesting how the worst circumstances are always the catalyst for my best ideas.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #10 (Extinction)
+| text = Giant bipedal battlemechs.<br/><br/>When I told everyone that was my big idea, I'm not sure what I got more of, blank stares or nervous laughter. I think the ones that were laughing hoped I would join in. I didn't.<br/><br/>Hey, I get it, I know how it sounds. It's just like I said though, if I'm going to accept my identity as Santiago, then I may as well lean into it. If the original me really engineered armageddon into reality with crazy high tech weaponry, then I'm going to reverse it with an even crazier high tech weapon.<br/><br/>Some people may call that fighting fire with with fire, but I call it fighting a small gun with a much bigger gun.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #11 (Extinction)
+| text = Turns out no one else had a better plan, so the wheels are in motion. I've already got teams working on the hangars and gathering resources while I hammer out the schematics.<br/><br/>Building these MEKs is going to be one of the hardest things I've ever done, maybe the hardest. With the Gateway Project, I could use the Obelisks as a blueprint, but these are all me. Luckily, having an eidetic memory means I can call on everything I ever studied about robotics, so I'm not starting from scratch.<br/><br/>Besides, this is my true Iove. They say constantly crunching away on a big project will make anyone burn out, but for me it feels like a dip in a lazarus pit. I live for the grind.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #12 (Extinction)
+| text = The final MEK designs are complete. Based on the skills and experience of our potential pilots, I decided to emphasize the energy sword as its primary weapon and divert a bit less power to the precision TEK cannon.<br/><br/>That's just the base model though. Each MEK has a modification slot where equipment can be swapped to suit the pilot's tendencies and mission parameters. There's a reactive shield dome to protect the team and force close quarters combat, an artillery cannon for back line support, and shoulder mounted missile launchers for when you just want to say "to hell with this thing in particular."<br/><br/>That alone would make them worth the effort, but I haven't even gotten to the best part...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #13 (Extinction)
+| text = I designed these MEKs to make the most of our resources, so while alone they're devastating fighting machines, together they're more than the sum of their parts. I mean that literally - we have the resources to make four of them, but when they're all in close proximity, they can fuse into an an even more powerful MEK. A MegaMEK, if you will.<br/><br/>I got the idea when I was messing with the teleportation tech we we found on those hunter/killer robots that roam the city. Instead of physically linking the MEKs together like puzzle pieces, I combine them on the atomic level via teleportation. It's my masterpiece, the ultimate fighting machine, with the most efficient Element reactor and most powerful energy sword ever constructed. None of those monsters will stand a chance against it, no matter how big.<br/><br/>As long as we find some pilots that can handle it, that is.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #14 (Extinction)
+| text = The number of assets we have with any piloting experience at all is practically nil, so I've focused on making the controls as accessible as possible.<br/><br/>I landed on a combination of a neural link and gyroscopic, full body motion sensors for what I call Beta Level piloting. Basically, once they're linked up, the MEK will mimic the pilot's movements and an automated system will handle the messy details.<br/><br/>But because I just can't help myself, I also added an array of hard light consoles and a stronger connection to the nervous system for Alpha Level piloting. That'll offer refined control over every bit of the MEK, but it would take a stud pilot like Di to utilize it. I can't possibly build a machine without leaving a way for it to reach its full potential though, even if no one here can unleash it.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #15 (Extinction)
+| text = MEK Pilot Evaluation: Candidate #004 - Li Mei-Yin<br/><br/>I admit, when I decided to go with simplified controls that mimicked the movements of the pilot, I had Mei-Yin in mind. This isn't about pity or nepotism either, she's objectively the best close quarters fighter we have, and based on our interview, no one's as battle hardened.<br/><br/>She answered both tactical and moral dilemmas quickly and decisively. The later's a little scary, but we need a pilot like that, someone who won't hesitate when the safety of the group's on the line.<br/><br/>The only question is her emotional state. I don't know what stage of grief she's supposed to be in, but when the fighting starts, there's a chance she loops right back to anger. Still, even with her blood running a little hot, she's clearly a top candidate.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #16 (Extinction)
+| text = MEK Pilot Evaluation: Candidate #013 - Helena Walker<br/><br/>This one caught me off guard. I knew from experience that Helena could handle herself in a crisis and improvise quickly, and she did well enough on the interview. Creative, level headed...not much killer instinct but we don't need four Mei-Yins.<br/><br/>So she was solid, but not spectacular, at least until we hooked her up in the prototype and looked at her synchronization ratings. She had every gauge maxed out! It's as if her nervous system is more advanced than everyone else's, like it can just process information at a higher rate.<br/><br/>I wonder, could she open a neural link with even more advanced technology? Maybe that's a question for another time, but for now, I think I've found my second pilot.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #17 (Extinction)
+| text = MEK Pilot Evaluation: Candidate #022 - Takaya Kazuma<br/><br/>URE lugheads like Kazuma are why I had no problem helping the Terran Federation. Loud, obnoxious, self-righteous and above all? Naive. He struggled making tough calls in the interview because he didn't think we should "have to" make sacrifices. It's a cute sentiment, but we're trying to survive here. <br/><br/>I've got to walk the talk though. His memories may end just after the academy, but he's one of our few assets left with real military training. Sync scores are solid too. Loud mouthed URE zealot or not, he might be our best remaining option. My personal bias is irrelevant.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #18 (Extinction)
+| text = MEK Pilot Evaluation: Final Candidate - Santiago<br/><br/>Outside of testing, I rarely want to use anything I engineer. Part of it is that my ideas are never as exciting to me once they're realized, like I got it out of my system, but I also just think it ruins the purity of it. Great painters don't hang their own work on the wall, do they?<br/><br/>Unfortunately, this time I don't have a choice. I know the MEKs better than anyone, and only Helena has a better sync rating. That's probably because I tested the synchronization system on myself. Stupid mistake.<br/>Looks like my workload just doubled.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #19 (Extinction)
+| text = Now that construction has reached Phase III, I need to have a lot more face time with our top candidates. The MEKs will still be usable by anyone, but if we can get them specifically tuned to their primary pilots' preferences and behaviors, we can maximize their combat efficiency. Plus, they have to get used to actually controlling them.<br/><br/>Not really looking forward to this part. I'm the kind of guy who can't help but take the wheel after thirty seconds of watching someone struggle with a computer console, and these are my greatest creations, not an internet browser. Could get painful...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #20 (Extinction)
+| text = Mei-Yin's taking the longest to get used to her cockpit. Understandable, since there's not even a word for it in ancient Chinese. Luckily her endurance lets her practice for longer intervals, so she'll catch up eventually.<br/><br/>Our sessions are also the quietest. You'd think we'd have more of a rapport by now, but Di was always our mutual connection. So with Mei-Yin it's all business, even if she's struggling or I start to get impatient.<br/><br/>The only time she went off-topic was when she invited me to a workout, and since I'm a pilot now, I agreed. My legs regretted it afterwards, but our next session went far better. Not friendlier, not chattier, just smoother. It's like we've reached some strange, silent, anti-social understanding. I'm not sure I get it, but I guess I don't mind.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #21 (Extinction)
+| text = Helena's sessions have become an exercise in frustration. Her synchronization never drops a single grade, and when I explain what she's doing wrong she understands. But for some reason, she's just hit a wall when it comes to execution.<br/><br/>She's working as hard as anyone, and she's so damned earnest about wanting to help out that I kind of regret being so short with her. I've even tried to hide just how far behind she's falling. Maybe she needs to focus on something external, like a carrot on a stick.<br/><br/>She's always talking about how she wants to find the truth behind those stations, and my scanners picked up an unusual signal the other day. I'm no one's idea of a life coach, but I think that may do the trick.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #22 (Extinction)
+| text = That carrot worked pretty well. As soon as I mentioned the signal I'd detected in the wastes, it was like a second reactor started up in Helena's brain. The signal's not even a sure bet, just a vague chance at finding some answers, but she leapt at it.<br/><br/>I got caught up in her enthusiasm and ended up saying more than I'd intended though. I hadn't meant to bring up the clone situation or whether we're responsible for our past lives, but maybe I needed to get it off my chest. Not sure it helped.<br/><br/>Anyway, by our next MEK session, Helena was back on track. In hindsight, seems like it was a confidence issue, like she's convinced herself that her sync rating is a fluke. Better tone down the criticism for a bit.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #23 (Extinction)
+| text = If nothing else, my own sessions have been a moment of peace. I still don't want to pilot one of my own masterpieces in combat, but when it's just me and my MEK in the hangar, I feel like I can finally relax.<br/><br/>It's not just that I've been working long hours. I did that plenty of times on the Gateway Project, and our TEK bomb before then. It's that I'm working long hours and dealing with people at the same time, all the time. The pilot sessions have been getting better, but running everything else on top of that?<br/><br/>"Santiago, a water pipe broke. Santiago, so and so is hogging all the ammo." Constant interruptions.<br/><br/>Maybe I'll just hide in the cockpit and nap for a while. No one would know...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #24 (Extinction)
+| text = It should just work! The MEKs' power systems fuse perfectly during my teleportation sims, so why does the reactor keep sputtering? The errors I'm getting don't make any sense, but if I ignore them and they turn out to be right, the fusion process could end in a catastrophic reactor meltdown.<br/><br/>Unbelievable! Here of all places is where I screw up? The most critical juncture of this entire damned enterprise?<br/><br/>I'd never make a mistake like this back home, but maybe that's because the original Santiago was better than I am. If I'm just a crude approximation then some degradation would...no, I'm fixing this. Just like I always have.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #25 (Extinction)
+| text = Simulation 157B was another failure. Error 612-A4, same as always. Almost no change in reactor coupling.<br/><br/>I've had projects fail, but not like this. Not this spectacularly, just inches from the finish line. Why'd it have to be this one? This is the pièce de résistance on my lifelong resume, it's the thing that will wipe my whole ledger clean. It needs to work, or my legacy is this dead hunk of rock orbiting around the sun.<br/><br/>Thirty more simulations. I can get thirty more simulations in before I'll need to sleep. If I can just get a different error code, then I can start to isolate the variables involved. Just give me something to go on here, anything at all.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #26 (Extinction)
+| text = I can't believe those idiots did something so cheesy. I really want to hate them for it.<br/><br/>Not sure what simulation I was on when I finally crashed, but I woke up to Helena and Kazuma dragging me off to deal with some "emergency." If I wasn't still half asleep, I'd probably have realized they were full of it, but as it was, I didn't catch on until I saw the cake.<br/><br/>We can't really tell what day it is, but I guess everyone decided that today was June 26th - my birthday. According to them, that meant I couldn't work. I had to eat that crappy cake and "have fun." Kill me.<br/><br/>Fine. The cake wasn't that bad, and maybe it was a little "fun." Can't ever tell them though, my reputation would be shot. These idiots...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #27 (Extinction)
+| text = I can't believe that the solution to the energy flow problem was so basic. After being held hostage by the birthday committee for a day, I figured it out within a few hours of getting back to work. Turns out all I really needed to do was step back and get a new perspective on it.<br/><br/>Everything's been going better since then, actually. Pilot training is nearly complete, we've assembled most of the parts and the whole team is working at peak efficiency. Even Kazuma didn't make me want to throttle him for a change.<br/><br/>Don't get me wrong, these guys are still a bunch of corny idiots. They're just my corny idiots, that's all.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #28 (Extinction)
+| text = With the MEKs entering their final phase of construction, I decided to give our pilot team a little reward and simulate the MegaMEK fusion procedure. We won't be able to do it for real for another couple weeks, but the sim is pretty accurate.<br/><br/>It went a lot better than I expected. By our third try, we had it down pat. The only thing that held us up was a lot of joking about who would control which body part. Mei-Yin patently refused to switch off of the sword arm and Helena was convinced that she'd trip us if she took the legs.<br/><br/>I know it goes against my principles as an engineer, but after that, I think I'm actually excited to pilot this thing. Purity be damned.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #29 (Extinction)
+| text = It's too soon. They found us too soon!<br/><br/>Those big monsters we saw, the ones that prompted this whole MEK project in the first place? There's some of them headed towards Camp Omega, and they're bringing a legion of help - mechanized drones, mutated animals, the works.<br/><br/>We're moving as fast as we can, but even working around the clock we may have to face them down with just one active MEK. Two tops. The others will be close, but we can't skimp on the final boot up procedure without endangering the pilot. I know those three would be willing to risk that, but I'm not.<br/><br/>Why did it have to be now? Another half a day and we'd be able to link up. We were that close.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Santiago's Log #30 (Extinction)
+| text = One MEK, that's all we've got, and it's only because I'd been using my own machine for beta testing. There's no way I can take all of them, even with infantry support, but if I launch now and get their attention, I can lead them on a chase until the others are ready to go.<br/><br/>It's a shame. We don't have the resources to replace my MEK, and without it my final masterpiece will never take shape. I'd have liked to see it, but more than that? I'd have liked to experience that moment where we all fused together for real, and our bizarre little squad became the most powerful team the world's ever seen.<br/><br/>But if it means giving these idiots a chance to survive this, then I'll give it all up, because in the end? Those are my idiots.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Genesis 2 Chronicles===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Genesis 2 Chronicles #15 (Aberration)
+| text = Thought I'd leave a little something behind for posterity's sake, for anyone following behind us. Listen-this ARK you're on is poisoned.
+
+The whole system's breaking down. You're going to need to do whatever you can to get yourself down to the surface. And look us up when you get there, okay?
+
+Now let's just hope this crazy plan of ours works...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Genesis 2 Chronicles #17 (Extinction)
+| text = Welcome back to Earth.<br/>If you're reading this, maybe I didn't make it.<br/>Whatever -- as long as someone's there to read this note, that means there's still at least one survivor left.<br/><br/>Our world's not what it used to be.<br/>Find yourself some shelter from the titans, and... just hang in there, okay?<br/>Personal Note: yea, there are titans now...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Genesis 2 Chronicles #18 (Extinction)
+| text = Someone's still reading this.
+
+Good.
+
+Your best bet right now is to find my friends at Camp Omega, if you can.
+
+They're good people, and they'll need all the help they can get.
+
+Have 'em train you up on the MEKs I built.
+
+Stop those titans, save the world.
+
+That's all that matters.
+
+Personal Note: Fight fire with a BIGGER fire...
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Genesis 2 Chronicles #19 (Extinction)
+| text = Still can't get over that clone factory we found up on that ARK.
+
+Sorry if that's a spoiler. I get it---it's a lot to process.
+
+Not your original body, not your original memories.
+
+We're all knockoffs here.
+
+Who knows how many Santiagos are out there?
+
+Maybe you're another me, reading about myself here at the end of the world...
+
+What a depressing thought.
+
+Personal Note: I could use some of Halsted Moonshine right now.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+
+{{Explorer Note
+| title = Genesis 2 Chronicles #20 (Extinction)
+| text = Just hope that worked, that I managed to buy Camp Omega some time.
+
+Whoever you are, maybe you know if it all worked out, whether those idiots pulled it together.
+
+Maybe you were even there.
+
+Maybe you pitched in.
+
+I'm just gonna say you did, how's that?
+
+All I know is I'm not gonna be around to see for myself.
+
+So...thanks, pal.
+
+Personal Note: See you in a bit D.
+| author = Santiago
+| icon = NoteSantiago.png
+}}
+</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+
+===Genesis: Part 2===
+<div class="mw-collapsible-content">
+
+{{Explorer Note
+| title = Explorer Note Santiago 1
+| text = Really, really hate these neural uplinks.<br/><br/>Last thing I need's a record of all my unconscious thoughts.<br/><br/>Guess I better review all my entries before commiting.<br/><br/>Okay, okay...begin.<br/><br/>So here I am, on site for Genesis.<br/><br/>Led my share of teams before, but this project  is...yeah.<br/><br/>How do I describe an attempt to recreate everything and everyone that ever lived on Earth?<br/><br/>This one's so big, it's got the feds working with the URE.<br/><br/>Damn, that probably sounded sarcastic.<br/><br/>Whoever's accessing this-I know how important this project is, how serious things are.<br/><br/>We've barely got time to cram our message in a bottle and pitch it overboard before the end.<br/><br/>It shouldn't come as a shock that both sides of the Element War could team up in the face of a global extinction event.<br/><br/>Just never thought I'd live to see it.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 2
+| text = What made me think I could help lead this project?<br/><br/>Sure, I'd only had an overview of what they're trying to do here, but you'd have to get a lightyear away to start taking it all in.<br/><br/>I've been trying to catch up by speed-scrolling through all their documentation, and it's making me wish I had Uma's processing power.<br/><br/>Oh yeah...forgot to mention I'm working for one of them now-a transhuman named Uma.<br/><br/>If only the me of over a decade ago could see me now.<br/><br/>I know we've all supposedly been at peace for years, but it's still sort of hard to take in how fast things have changed.<br/><br/>I mean it-I can barely remember how I ended up where I am now, working for people who were trying to kill me not so long ago.<br/><br/>It took this long for the stubborn bastards running the Terran Federation to accept what their enemy was telling them-that our planet is terminally ill.<br/><br/>The evidence must've been damned convincing, for them to let the transhumans help us with our getaway plan.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 3
+| text = The scale of this thing, I dunno...<br/><br/>I keep getting caught in spirals, trying to picture all the variables for when I start making decisions around here.<br/><br/>How do you even start a list of essential items you need to make a backup of nature?<br/><br/>What do you pack to relocate to another planet?<br/><br/>I mean, we barely got far enough out into the dark to bring back evidence of alien life to argue about: a few amino acids, traces of something like chlorophyll...<br/><br/>Nothing like definitive proof we're not the only show in town.<br/><br/>If we'd found that proof, I wouldn't have to feel like it's on me to save the only things that ever looked up and thought about all those lights in the sky.<br/><br/>Heh, guess our transhumanist friends would argue differently.<br/><br/>Sorry...never been superstitious, or religious-whatever the term should be.<br/><br/>I'd, uh, better search the right term before uploading this.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 4
+| text = At first, transhumanism seemed like a mirror version of those old-timey crystal-healing nuts who rejected modern medicine-wackos grooving on the energies of the miracle discovery powering all our shiny tek junk.<br/><br/>Used to think I was just as big on tek, back when I was hacking media feeds and jailbreaking police bots in the favelas.<br/><br/>But when they started with all their brain modification and neuroprosthetics, I stopped understanding 'em.<br/><br/>Not that I agreed with the fed crackdown...<br/>If someone wanted to disappear up their own interface port and commune with the infinite, I figured that was their business.<br/><br/>Who'd have thought we'd all end up going to war over that bullshit?<br/><br/>My project partner Uma would say Element's the proof of a higher power out there somewhere, trying to help us reach it.<br/><br/>If it really was a sacred gift from the stars, we've wasted it burning down our own home around us.<br/><br/>Hell, I personally designed weapons powered by that stuff.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 5
+| text = Uma's been after me to choose some team leads, so I've been scanning her shortlist for standouts.<br/><br/>Alesya's thesis work, "Environmental Transport of Energetic Compounds," jumped out at me...<br/><br/>It keeps me up at night knowing I designed munitions that permanently poisoned battlefields, so I'd love to promote someone into central planning who understands how to keep that Element junk from polluting our biomes.<br/><br/>Her high-level military clearance with the Terran Federation doesn't hurt either.<br/><br/>I'd feel better with that whiz kid Yongki running our engram reconstruction project, too.<br/><br/>He's a humanist zealot, so I think it's safe to assume his genius is all-natural and not from enhancement.<br/><br/>Nothing against Uma or the rest of them, but I'd rather have a regular human building our brain bank.<br/><br/>Yeah...better hold this upload. In fact, keep my journal local-only going forward, unless I say it's okay to commit any new entries.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 6
+| text = Even the name of this project bugs me, if I'm being honest.<br/><br/>'Genesis' sounds like what someone with delusions of godhood would call it-just begging for the same kind of fear and hate transhumanists got, once they started evangelizing to us heathens.<br/><br/>This goes public, and we'll have mobs organizing to shut us down.<br/><br/>People didn't react well when they found out that their ancestors' bones had been dug up and gene-sequenced by researchers with no cultural sensitivity...<br/><br/>What happens when it gets out that we want to build an archive of everyone that ever lived on Earth?
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 7
+| text = I've been trying to understand the transhumanist mindset because something occurred to me...<br/><br/>If we want this project to work out, we'll need to convert zealots of our own to the cause: true believers who'll raise their kids to believe.<br/><br/>How else will we convince people to give up lifetimes-their children's lifetimes-for this pipe dream?<br/><br/>It's like we're laying the foundation for a cathedral so our distant descendants can pray in it.<br/><br/>By the time that day comes, this plan to restart life on Earth or elsewhere could be the last religion left around.<br/><br/>I'm sure I'll never live to see the launch of any interstellar colony ship or satellite ark swarm, whichever ends up being our final choice for relocating our archive.<br/><br/>So I need to make sure the project is set up for the future, with people dedicated to seeing it through no matter what that takes.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 8
+| text = I've been stuck for weeks with our vivarium team, trying to get them to reach a consensus on ecosystem inclusion.<br/><br/>What's the least amount of terrestrial lifeforms you'd need to recreate nature?<br/><br/>If all you had left were humans, chickens, honey bees, catfish, algae, alfalfa, yeast, and some pinto beans, could you say you'd saved life on Earth?<br/><br/>We don't honestly expect to be able to preserve every form of life that ever existed, but it only seems smart to back up as much as possible-extinct or otherwise-in case there's a possible balance that we missed out on the first time.<br/><br/>What if pterosaurs were still around when hominids started domesticating animals?<br/><br/>Maybe that could've led to a civilization better equipped to survive ecodisasters...<br/><br/>That's the same approach our antecedent group is using to archive every human mind and body that ever lived.<br/><br/>Say things didn't work out so well for some warrior queen_what if she'd been born with better eyesight, or a stronger immune system?<br/><br/>What if she had a pet mammoth?
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 9
+| text = I finally realized the only way to solve our deadlock over biome conservation was to ask Yongki to model variations for us in the Genesis engine.<br/><br/>I knew there'd be a cost to running his team ragged to get us rough simulations way ahead of schedule, but that's nothing compared to the cost of building physical versions.<br/><br/>His sims will let us rule out the more extreme suggestions, and find a balance of habitats almost everyone can agree on.<br/><br/>I'd probably still be nursing a migraine while experts screamed at each other, if Yongki's team wasn't pulling off the impossible.<br/><br/>I really owe the kid.<br/><br/>Even in early development his sims are really immersive, and you can see the potential for training colonists while they're still in hibernation.<br/><br/>Ideally, they'll wake up with all the skills necessary to hit the ground running on their new home planet.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 10
+| text = Uma actually seemed glad to see me back in my office again this morning.<br/><br/>She asked if I'd give her a full situation report on our biome decisions over dinner, and I was only too happy to cut out early for a fancy meal.<br/><br/>Figured I'd earned that much, breaking up all those arguments over nematode diversity.<br/><br/>Uma even grinned when I shared my pain over ancho-rubbed ribeyes and merlot.<br/><br/>Hadn't even been sure one of them could smile, so that felt like a win.<br/><br/>I spotted Yongki drinking by himself at the bar, and called him over to ask if they'd solved their perceptual foregrounding problem.<br/><br/>The kid seemed jittery around us. He's been working with transhumans longer than me, so what was that about?<br/><br/>Couldn't tell if Uma didn't notice him squirming, was too polite to say anything about it, or didn't care either way.<br/><br/>You know what?<br/><br/>Better follow up on this.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 11
+| text = Yongki kept on acting weird all day.<br/><br/>Once I caught on that he was ducking me, I tried to put myself in places where we'd have to cross paths.<br/><br/>When we did, he kept conversations so professional that it felt like he was messing with me.<br/><br/>Whiz kids like him can be twitchy...<br/><br/>I thought maybe I just couldn't read him, any more than I can guess what kind of complicated data crunching Uma's doing at any given time.<br/><br/>So I opted for the direct approach-said he'd hurt my feelings, and just when I thought we'd had a good vibe going.<br/><br/>That got him to laugh and loosen up a bit, so I offered to buy him a round at the canteen and build on that.<br/><br/>A few pints later, I had him sharing pics of his husband and kids.<br/><br/>Never would've figured a young guy like Yongki for a family man.<br/><br/>I thought about the all-nighters he'd been putting in, and pulled rank to order him home for a few days.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 12
+| text = Well, Yongki made me regret pushing him to share what his deal was with me.<br/><br/>Dunno what I expected, but it sure wasn't some conspiracy theory about my background...<br/><br/>I could see the kid was still on edge even after the time off with his family, so I dragged him back to the canteen for another one-on-one.<br/><br/>It only took a couple rounds of shots for him to open up.<br/><br/>First he told me he'd heard a rumor that I'd been killed near the end of the war.<br/><br/>Then he admitted to trying to access my personnel file for proof of life, only to find himself locked out.<br/><br/>Even though he'd admitted to crossing a serious line, I laughed it off and pointed out I was sitting right there next to him.<br/><br/>I stopped laughing when he told me he'd found a listing for my engram in his archive that was non-accessible, even at his security level.<br/><br/>That was news to me.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 13
+| text = I know the kid had no business trying to peek at my personnel file, but I get why a true believer like Yongki would have a hard time trusting his former enemies.<br/><br/>Maybe I understand his paranoia a little too well...<br/>I'm no patriot, but it is hard to let go of all the wartime propaganda about transhumans wanting to make us into hosts for some invasive hivemind.<br/><br/>I wanted to prove Yongki wrong, but when I brought up my own file, I got stuck on the part where it summed up my postwar activities.<br/><br/>Pretty much everything it said I did just before joining Genesis felt wrong.<br/><br/>Then I realized that my own service record didn't sit right with me.<br/><br/>Sure, I remembered the things my record said I did near the end of the war, but I didn't feel anything about those memories, one way or the other.<br/><br/>I don't like the implications of that.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 14
+| text = After I looked up my own record last night and freaked out, I tried to cover my tracks with a few hours of random searches through the database.<br/><br/>I stumbled across the first major screw up by Yongki's division: between emulation and archiving, they somehow got two distinct historical identities entangled.<br/><br/>The dominant personality-a gold prospector from Alta California-was also given the memories of an Alexandrian occultist from the Roman Principate.<br/><br/>It'd tie up resources to unravel and recompile them, so I flagged the whole mess to fix if or when we ever have any downtime.<br/><br/>Mashing up two sets of genetics would just give us a new offspring that never organically happened, but this is like we stitched a random pair of souls together.<br/><br/>Hope my warning flag keeps that poor bastard from ever getting incarnated.<br/><br/>I can't picture an AI ever glitching out enough to resurrect an aberrant engram.<br/><br/>This one's legitimately gonna haunt me, though-honestly wish I could just erase my ever knowing about it.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 15
+| text = Yongki offered to resign over the mangled engram I found in his archive yesterday, but instead I ordered him to knock off early and come drink with me in the canteen.<br/><br/>I don't like that the kid's my only sounding board for my paranoia, but he gave me these doubts to begin with!<br/><br/>He's also the only one qualified to tell me if what I'm afraid of is even possible.<br/><br/>I knew his team already had a zillion engrams in their brain bank, including my own.<br/><br/>I made my joining the project conditional on their agreement not to emulate and archive me for resurrection.<br/><br/>Clearly they had that capacity anyway, over my objections.<br/><br/>What if that rumor Yongki heard was true, that I'd died near the end of the war?<br/><br/>Was it so crazy to imagine that the transhumans just booted up another copy of me, after editing my memories to fill the gap?<br/><br/>Could I be Santigo 2.0?
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 16
+| text = So I confronted Uma, and she confirmed that I'm a clone of the original Santiago.<br/><br/>And yeah, they gave me false memories to cover for the time it took to back up my personality and grow a new body to put it in.<br/><br/>Wish I could say she seemed remorseful while confirming my most paranoid fears.<br/><br/>Uma just stood back and waited while I flipped out.<br/><br/>Once I'd worn myself out, she pointed out that we were trying to save the world here.<br/><br/>In Uma's mind, the ends justified whatever means were necessary.<br/><br/>They'd already restored me from a backup by the time I joined Genesis on the condition that they didn't put me in their archive.<br/><br/>She said I'd been given a leadership role as important as any human ever had.<br/><br/>There were politicians and military commanders who dreamed their whole lives of being able to make a difference or leave a legacy like I would.<br/><br/>Was she expecting gratitude?<br/><br/>Imagine that.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 17
+| text = There's not much I can do about this extra life I've been given, especially knowing that they can just bring me back again from their archive...<br/><br/>In a way, the transhumans in the United Republics of Earth sort of got their revenge on me by extending my life using their damned technology.<br/><br/>Some people would be glad for another chance to get things right, but I had my time in the sun.<br/><br/>Uma tells me I died a hero my first time around, that I helped end the war.<br/><br/>I guess I'll have to take her word for it, since they didn't let me remember how that went down.<br/><br/>I remember a childhood in São Paulo, a life spent designing tek gear and munitions for the feds, but I'm not really that guy anymore, am I?<br/><br/>If my engram is cloned again to colonize some alien world in the far future, that Santiago wouldn't remember this version of me either.<br/><br/>Maybe he'd be better off that way.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 18
+| text = When I told Yongki that Uma confirmed everything, I reminded the kid that-unlike him-I'd always had clearance to look up my own file.<br/><br/>Yongki told me then that he'd searched the database for his own name and found his husband and daughters there in the archive.<br/><br/>It looked to him like they'd been scanned and emulated from the moment they arrived here to live and work, consent or not.<br/><br/>He said he shouldn't have expected any less from the enemy, and I had to remind him that we weren't enemies anymore.<br/><br/>The poor kid looked haunted and desperate, but I think-I hope-I managed to talk him off the ledge and back into the fold.<br/><br/>We need him to help us finish Genesis if we're going to save the world.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 19
+| text = Never saw Uma as the impulsive type, but this morning she cleared our schedules and took me on a day trip to see the Farm.<br/><br/>We borrowed a plane from the project fleet, so we could hop an orbital shuttle out of Jiuquan.<br/><br/>I hadn't left the surface in years, and embarrassed myself with a bout of zero-G sickness.<br/><br/>If Uma was disappointed in me, she didn't let it show.<br/><br/>The Farm was over the Serengeti when we caught up with it.<br/><br/>After all the time I'd spent arguing with biotechs over species inclusion, it was strange to walk through some paddocks and see the genuine article up close.<br/><br/>I stopped to touch a newly-cloned mammoth calf, and it wrapped its trunk around my wrist.<br/><br/>Wasn't expecting to feel a connection to some lab animal, but it felt like neither of us wanted to let go.<br/><br/>Two lost souls dragged back from oblivion, holding onto each other in orbit...
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 20
+| text = While we were up on the Farm, I tracked down Alesya to ask if there was any way to decontaminate all the soil and rock being hauled into orbit.<br/><br/>She said I was asking her for the impossible.<br/><br/>Of course raw Element was going to be raised from the surface, along with veins of every other metal.<br/><br/>There's no existing technology to remove xenotoxins from that volume of material, at least not in the timeframe we're dealing with.<br/><br/>That got me thinking about using meks to clean up our biomes over the long haul.<br/><br/>We really had no idea how long it was going to take for our colony ship to find a habitable world-it could end up jumping around the galaxy for millennia.<br/><br/>Decontamination would be a huge job, calling for herds of machines roaming the ship's interior.<br/><br/>Before I knew it, I was sketching a tek version of the giant Pleistocene horses we'd seen striding across one of the Farm’s pastures...
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 21
+| text = The Farm is a prototype for the artificial biomes in our colony ship and for Uma's ARK network.<br/><br/>Oh right...<br/><br/>Forgot to mention that on our way back to Earth, Uma told me the transhumans are going ahead with their ARK concept, as soon as we get our colony ship off the ground.<br/><br/>They figure a diversity of plans gives the best long-term odds for humanity's survival.<br/><br/>They want to use a version of our archive in a network of satellite proving grounds, where they can test life forms for optimal survival outcomes.<br/><br/>Once they pick their best candidates, they hope to detoxify and reseed the Earth from orbit.<br/><br/>I was surprised to hear about transhumans planning to repopulate with regular, non-augmented humans.<br/><br/>I guess the idea of resurrecting dead people in cloned bodies is a kind of transhumanism, but I can't help noticing their plan to rebuild the world doesn't seem to include themselves.<br/><br/>Not sure what to make of that.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 22
+| text = Our research and development machinists were already hard at work building out tools and gear for our future generational crew, so I felt bad piling on.<br/><br/>I wouldn't have bothered them if I didn't think my design was worth adding to the R&D workload.<br/><br/>There's no way a human crew could find and remove every trace of raw Element contamination from the biomes on our colony ship without automation on a massive scale.<br/><br/>What good is authority though, if you can't abuse it for a worthy cause?<br/><br/>Besides, I have to admit it feels good to design something that's not some kind of military tek.<br/><br/>I like the idea of these things scrubbing away every trace of the toxin I'd once helped pollute battlefields with.<br/><br/>I probably shouldn't have kept my idea off the books for now, but I feel like Uma won't shut this down once she sees a real world prototype of my stryder concept.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 23
+| text = Shared my stryder idea with Alesya over a secure channel, and she gave me some great feedback for improving the concept.<br/><br/>She suggested tricking out my mek workhorse with interchangeable instrument arrays for more functionality, and to throw in manual control, in case our ship's crew wants to saddle 'em up for any jobs in the future.<br/><br/>Good thinking.<br/><br/>I winced when she said she wished she had one of my striders back when she was sampling battlefield contaminants.<br/><br/>But she probably has no idea I'd designed a lot of the weapons that caused the damage she used to study.<br/><br/>At least, I hope she doesn't.<br/><br/>I signed off after promising Alesya a stryder or two to try out on the Farm.<br/><br/>I'm curious if something that big clomping around will disrupt the artificial ecosystem they've got going up in orbit.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 24
+| text = Still can't believe I managed to talk Uma into taking the day off to try hoversailing with me.<br/><br/>She claimed she'd never been on one, but she picked it up without my help.<br/><br/>Didn't need me to show her how to keep her balance, or how to lean back against the wind...<br/><br/>Maybe she can just download any skill she needs, on demand.<br/><br/>What would that be like?<br/><br/>Over dinner, I was telling her how I'd ridden the windward wall of El Chorro Gorge, when she just sort of blipped out on me.<br/><br/>It was like someone else was looking at me through Uma's eyes.<br/><br/>She asked why I'd been diverting R&D resources for a mek prototype, and I wriggled like a germ under a microscope.<br/><br/>I must've managed a convincing defense of my stryder idea, because Uma was back again just as fast as she'd gone away.<br/><br/>She nodded and went back to spearing cauliflower with her fork like nothing had happened.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 25
+| text = After that weirdness with Uma last night, it's obvious I've never really gotten to know her at all.<br/><br/>All the conscious stuff we humans do in our waking lives must be autonomic for transhumans: listening to each other, shooting the shit, making plans...<br/><br/>I doubt they have to think about any of that unless they want to, any more than we need to concentrate on breathing.<br/><br/>I'll probably never get how she-or any of them-really thinks or feels.<br/><br/>But I feel like I've been wasting my time even trying.<br/><br/>It was their idea to bring me back and stuck me here!<br/><br/>Have they only ever noticed me when I've managed to annoy them?<br/><br/>Maybe I'd finally have their full attention if I went to central processing right now and deleted their precious archive.<br/><br/>It'd serve them right if I just walked in there and set off an EMP right in the middle of the whole damned thing.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 26
+| text = Okay, I've calmed down.<br/><br/>Hurt feelings aside, I'd never do anything to risk this project-I've totally bought into our mission here.<br/><br/>I’ve spent too much of my life breaking things, and it matters to me that I've been given this chance to make amends.<br/><br/>I owe it to my species to try to help us escape extinction.<br/><br/>If our shot at survival means I have to swallow my dumb pride, then it's no contest.<br/><br/>I'm only human-more or less.<br/><br/>They cloned me against my will and gave me a bunch of fake memories to cover that up, but supposedly because they needed me to be a part of this.<br/><br/>Uma more or less said I was a natural leader, so that has to count for something.<br/><br/>Maybe I actually envy my transhuman benefactors a little...<br/><br/>It must be great to be able to set aside all their feelings and really focus on what it's going to take to save the world.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 27
+| text = I was nose down again in orbital manifests when Yongki asked me to come try some new training sim he was running in the Genesis engine.<br/><br/>I hadn't checked in on the kid since he figured out that he'd been archived against his will, so I dragged myself across campus to his lab.<br/><br/>He plugged us into his sim, but it just looked like one of the same arctic scenarios he'd already run by me.<br/><br/>Yongki dialed something in midair, and the wind started howling louder.<br/><br/>Then he leaned in so our fur hoods were almost touching, and said he needed a place to talk where no one could hear us.<br/><br/>He wanted to know if Uma had 'gotten to me.'<br/><br/>I told him he was way out of line.<br/><br/>After a long pause, he asked if I'd sit in with him when he confronted her about the recording thing.<br/><br/>I said sure, and he killed the sim.<br/><br/>On the way back to my office, I wondered if he might've left me on the ice otherwise.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 28
+| text = So the three of us met this morning, and Uma admitted that they shouldn't have recorded Yongki for the archive without his consent.<br/><br/>Then she gave him the same pitch I'd gotten, about how vital he was to humanity's survival and the ends justifying the means.<br/><br/>Yongki called Uma inhuman.<br/><br/>She asked how she could prove to him she cared, and the kid challenged her to come out drinking with us.<br/><br/>All night, Yongki kept clumsily trying to pry information out of Uma.<br/><br/>That backfired on him when she finally got tired of his badgering, and let us know how little time anyone on Earth actually has left.<br/><br/>After we absorbed that news, Yongki said he’d rather spend his remaining years with his family.<br/><br/>She told him she'll accept his resignation only if he still feels the same when he sobers up.<br/><br/>He swore he was going to stumble back on site and resign at the crack of late afternoon tomorrow, but I really hope he doesn't.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 29
+| text = This morning I spotted Yongki walking through headquarters, looking pale as a ghost.<br/><br/> I could see he wasn't just hung over.<br/><br/>I knew the look because I'd been there myself, just recently.<br/><br/>He was wandering in the direction of the archive until I steered him into my office instead.<br/><br/>Yongki looked past me, muttering about how he'd just quit.<br/><br/>I hugged him to show I understood.<br/><br/>Then he whispered something for my ears only, something I knew I wouldn't forget as long as I lived.<br/><br/>Which it turned out was only about half a second longer-as long as it took for his vest to blast us into superheated plasma.<br/><br/>But now all those chunks of us are reversing direction and reintegrating, so Uma can lean in and try to hear Yongki's last words.<br/><br/>And now we're flying apart again, passing through her like she isn't there, because of course she wasn't in my office when this actually happened.<br/><br/>I stopped existing at the point of that explosion-or really, really soon afterwards.<br/><br/>I'm just an emulation of the late Santiago 2.0 now, that Uma's running in her damned Genesis engine.<br/><br/>Sucks to be me, huh?
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Santiago 30
+| text = Uma reintegrates me one last time in the simulation of my ruined office, so she can ask what Yongki’s last words were to me and finish her post mortem.<br/><br/>I think I feel sorry to disappoint her...<br/><br/>There wasn't time for my neural interface to record whatever the kid said.<br/><br/>I throw the question back at her, and ask what he said when he resigned.<br/><br/>Uma says Yongki hated that he couldn't stop her kind from resurrecting his family in some strange future-a future that wasn't theirs.<br/><br/>There's no recognizable human emotion on her avatar's face, but maybe that's just a glitch in my emulated perception.<br/><br/>Then Uma surprises me by apologizing-for keeping secrets, and for failing to keep me safe.<br/><br/>She thanks me for all the work I've done for Genesis, and wishes future versions of me better luck when and wherever they wake up.<br/><br/>I tell her, "Don't worry about me-I'm a survivor."<br/><br/>That actually gets a smile out of her.<br/><br/>I try to hold onto this feeling as she shuts me down.
+| author = Santiago
+| icon = NoteSantiagoGenesis2.png
+}}
+</div>
+</div>

@@ -1,0 +1,54 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Imamu]]
+[[fr:Notes des explorateurs/Imamu]]
+[[ja:Explorer Notes/Imamu]]
+[[ru:Заметки Первопроходцев/Имаму]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Imamu is a modern day graduate student.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Journals===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Grad Journal Imamu #1 (Aberration)
+| text = Where five once stood, one remains. Trent is dead and I am alone. By the time I killed the the devil that tore its way out of his body, his hazard suit had been reduced to bloody rags.<br/><br/>It was hard to bear. Even before arriving in this place, I had seen the cost of war, but I am not like Boris or the soldiers that guarded my family's estate. I cannot look into the face of death with cold, unwavering eyes.<br/><br/>Yet even in this darkest hour, I must push onward. For the sake of my fallen comrades, I will endure. However long the night, the dawn will break, and I intend to see it.
+| author = Imamu
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Imamu #2 (Aberration)
+| text = Boris' notes remind me of those who still practice Vodun in my homeland. The "Master" he speaks of is like a spirit of this land, and these artifacts are its talismans or fetishes. Perhaps these were the delusional scrawlings of a madman, but I cannot dismiss them. Despite his betrayal, Boris was no fool.<br/><br/>I do feel something when I look at the two artifacts we discovered. It is most likely simple nervousness, for I am unused to carrying such burdens alone. My parents believed that royal hands should be free of calluses, so I always relied on servants for everything, right up until the moment I snuck off to college.<br/><br/>I don't think I can ever return to that life. Not after all I've seen.
+| author = Imamu
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Imamu #3 (Aberration)
+| text = Trent, my friend, your sacrifice was not in vain. At long last, I have found the third artifact we sought. It took many failed expeditions, but to get lost is to learn the way. For every wrong turn, I mapped out a new part of these caverns, and now I know them as well as I know myself.<br/><br/>I will gather my creatures and head for the terminal in the morning. If Boris' notes were right, these artifacts should be able to activate it. I'm not sure what will happen after that, but it can't be worse than the fate that awaits me here.<br/><br/>If only the others were alive to see this day. If only I'd been able to save them too...
+| author = Imamu
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Imamu #4 (Aberration)
+| text = Now that I've gathered all three artifacts together as I travel to the terminal, I feel a...pull in my mind. No, a whisper. If this is what Boris was speaking of, then he wasn't mad after all. There is a voice here. There is a Master.<br/><br/>What is it? A spirit, a god or some alien force? Whatever it is, its presence is heavy. Though I am well rested, every time I hear it, I grow tired. My pets feel it too, and even they know enough to be afraid.<br/><br/>My hands are shaking as I write this. Only the memory of those who died for this moment pushes me forward. Rusty, Emilia, Boris and Trent...lend me your strength. Let us face this final challenge together.
+| author = Imamu
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Imamu #5 (Aberration)
+| text = Abandon hope! Do not seek the Master!<br/><br/>No one could prepare for his limitless power. No one could fathom his terrible majesty.<br/><br/>I've been a fool this whole time. All of us, we were nothing but fools! We never had a chance of surviving this terrible place. Only death awaited us in the end, only him!<br/><br/>This is a prison with no exit. It is an endless hell.<br/><br/>There is no escape from the Master! There is no escape from Rockwell!
+| author = Imamu
+| icon = NoteGradStudent.png
+}}</div>
+</div>

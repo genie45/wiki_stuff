@@ -1,0 +1,260 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Gaius Marcellus Nerva]]
+[[es:Notas de Explorador/Gaius Marcellus Nerva]]
+[[fr:Notes des explorateurs/Gaius Marcellus Nerva]]
+[[ja:Explorer Notes/Gaius Marcellus Nerva]]
+[[ru:Заметки Первопроходцев/Гай Марцелл Нерва]]
+{{MissingTranslations|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Gaius Marcellus Nerva is a Roman Centurion who wrote his notes in Latin.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===The Island Explorer Notes===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Nerva Note #1 (The Island)
+| text = Vere molestum est me de terra hac vasta, malae bestiae titanic et magis quam maxime. Intelliguntur animalia esse feros. Etiam ceterorum domantur, non quidem humanitatis, sed vir, ponitur esse homo est animal, non est hic, in sordibus vitiorum per pugnam et ciborum reliquias sicut stray canes.<br/><br/>Et ex ipsis persuasum me duce cohortem simul, et simul saluti ordinem invenimus. Donec indocti adhaesionis cohaesionis. Ad me ducta.
+| translation = It is the chaos of this land that is truly disturbing to me, even more than its most titanic and vicious beasts. Animals are meant to be savage. Even when tamed, they are not truly civilized, but man? Man is supposed to be above the animal, yet the people here live in squalor and fight viciously over scraps like stray dogs.<br/><br/>I have convinced some of them to band together under my leadership, and together, we have found safety and order. Unfortunately, they are untrained and lack cohesion. I'll have to fix that.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #2 (The Island)
+| text = Est peccatum meum ego primam huius chao Dacia. Dignitatis multis interrogatus, cur puer centurionis inde sequi habebant. Accepit eam ad confidunt, sed necesse fuit. Et unum militem habere non potui me interrogas proelio disciplinam ne deficiat.<br/><br/>Indisciplinato formatione nostrorum se fluunt, et proximavit legio esset exposita. Non est hic. Haec cavernas saxorum a viro usque ad mulierem nocte, et non unum, sed expertus sum, quam patiens et in Dacia. Ut procul a Roma, pro certo scio - insula haec scire posset.
+| translation = I am reminded of my first command in Dacia. Many men questioned my rank, wondering why they had to follow a Centurion so young. It took time to earn their trust, but it was necessary. I could not have even a single soldier questioning me in battle, lest our discipline fail.<br/><br/>Without discipline, our century's formation would crumble, and the legion would be exposed. It is the same here. These ragged men and women will not become a unit overnight, but I am patient and more experienced than I was in Dacia. I may be far from the Rome, but I know this for certain - this island will know its might.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #3 (The Island)
+| text = Exercitatione facilius crevit mecum criminibus ad videre results. Denique hoc inveni quod terebras et chores fons solis ardore cohibere nequit. Mane vexillo volantes super thesaurum invenit.><br/><br/>Legione Signum Fuit Imperii, sed uno loco insulae aquila volans lacerta et verborum in lingua. Dicunt mihi uera nuntiantur "Novum legionem recipite". Fateor ridebam ad visum.<br/><br/>Bene est. Suus ‘vicis ut expiscor si ego legionnaires creatus est. Nos ire in tenebras.
+| translation = Training grew easier once my charges began to see the results. In fact, they've found such a wellspring of enthusiasm that their drills and chores alone cannot contain it. This morning, I found a flag flying above the armory.<br/><br/>It was the symbol of the Imperial Legion, but with one of the island's flying lizards replacing the eagle and words in a foreign language replacing SPQR. I'm told they say "The New Legion." I admit, I smiled at the sight.<br/><br/>Very well then. It's time to find out if I've created true Legionnaires. We march at dawn.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #4 (The Island)
+| text = Curabitur mollis target experiri novi electi mei, et parum putasses resistentia. Gens autem erat adhuc infantulus oppugnavit, sed uelut cuneum vidissent quosdam eventum. Quomodo possum, si quid incidit velociter viam provolarunt. Fuere etiam qui non procul fugere conatus.<br/><br/>Et munimenta vagaretur commeatibus nos vexillum nostrum dirui humo seminavit in sterquilinio. Omnis fera et tribus simulator scire: The Legione Pervenit.
+| translation = I knew I'd chosen a soft target to test my men, but I had expected a little more resistance. The tribe we assaulted was young, but supposedly they had seen some success as raiders. I cannot see how, given how swiftly they fell into disarray. Some even attempted to flee but they did not get far.<br/><br/>After scouring their fortifications for supplies, we razed them to the ground and planted our flag among the ashes. Let every savage and tribal pretender know: the New Legion has arrived.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #5 (The Island)
+| text = Tandem plenus sum super volucres munimina. Patet solutio singulae olim obstruxerant cogitabant. Quivis hostibus finis est actus potistatis. Et omnino pro trying ut intercluderent volaces, ut apparet, creati in cavernis aeriis, quae eliceret hostes in praesidiis hostium occidere.<br/><br/>Grata erga architectum solutio. Quos iam pridem ad construendum tectum super omnem munitiobem conatur. Facti sumus nimis ampla esse practica, mox tamen erit maior. Primum primum primum est sellum, et erit defectus Blackthumbs suspicor multis anti finem.
+| translation = I am finally satisfied with our defenses against flying creatures. The solution was obvious once I stopped thinking of them as special. With any foe, the goal is to control their actions. So instead of trying to block flyers completely, we created apparent holes in our aerial defenses that entice attackers into kill zones.<br/><br/>Our architect was grateful for the solution. He had been dreading trying to build a roof over the whole fortress. We have grown too large for that to be practical, and soon we will be larger still. Our first true war begins soon, and I suspect many Blackthumbs shall defect before its end.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #6 (The Island)
+| text = Nec muito mihi hoc assuescet arma - multi vocantur "sclopeta" secundum unam legati. Et mortifera sunt longe accuratius quam arcu. Sed telo ullo modo se gerit ut efficax. Blackthumbs in manibus sunt, iis nihil curae.<br/><br/>In proelio ad ursum potuimus Blackthumbs cadat in unda descendens nostra firma et bestiis quas videram ante vi efficanur. Nostrorum impetus non unita, dispersi sunt cum illis. Hoc facit omnis differentia.
+| translation = It did not take long for me to grow accustomed to the weapons of this world - many of which are called "guns" according to one of my lieutenants. They are far more accurate and deadly than any bow, but like any weapon, they are only as effective as their wielder. In the hands of the Blackthumbs, they are of no concern.<br/><br/>In battle, we have been able to bait the Blackthumbs into attacking a wave of durable but disposable beasts before descending upon them with our main force. Our attacks are concentrated while theirs are scattered. That makes all the difference.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #7 (The Island)
+| text = Et Blackthumbs sunt. Dux ferox suos et noluit pugnare necesse. Nos tandem ad vesperam et obtulerunt super caput ejus. Suspicor magis nunc deditionem erit. Blackthumbs ad primum, sed non ultimus.<br/><br/>Ita plane video. Haec est sors. Dii me adducite huc ordine, nisi ab his tacuit. Janus trahi transvexit spatio temporis ponte Martem dedisse me fortitudo mea et ecce ego creaturus nomen imperii.
+| translation = The Blackthumbs are destroyed. Their leader was defiant, but his tribesmen did not wish to fight the inevitable. They offered us his head last evening. I suspect surrenders will be more frequent now. The Blackthumbs were the first, but they shall not be the last.<br/><br/>Yes, I see it clearly. This is destiny. The gods have brought me here to bring order, to save these people from their own savagery. Janus pulled me across a bridge of time and space, Mars lent me his strength and now I shall create my own empire in their name.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #8 (The Island)
+| text = Legio enim permis ad indutias relaxantur bello at nunc. Sed necesse est tempus ut reducantur ad victoriam iter consilium viribus ante iter. Non ab Augusto imperium unire multorum currentium in bellum post. Talia tempus, et quod maius est, notitia.<br/><br/>Ut scribis, exploratores posuisset videretque eas destinata si qui terrarum nobis opponat. Blackthumbs mihi dubium non est simile. Antonius satis probatur per unum et inveniam illum, et praeparabitur umbraculum.
+| translation = I have allowed the Legion to take a reprieve from war, at least for now. We need time to gather our strength and plan our road to conquest before we march again. Augustus did not unite the Empire by rushing into battle, after all. Such things take time, and more importantly, information.<br/><br/>As I write, my scouts are mapping out the surrounding lands and observing any tribes that may oppose us. I have no doubt they are not all like the Blackthumbs. One could very well prove to by my Marc Antony, and when I find him, I will be prepared.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #9 (The Island)
+| text = Ideo prundens in tempore suo genere, non autem in ordine, animo vero esse quod complacentia. Ut range trans beaches gerit exploratores meum, et ego feci certus ut vi de nostro iure in populationibus fuit! Scuta et nostra infirmi - tumque vel maxime viculis commeatus - sed mihi satis est hominum naturae acuta contra. Dum eos servare vix spolia ex his studiis animum, ut has adiuverunt.<br/><br/>Non latuit actionum tamen. Multa mihi dicere exploratoribus nostris finibus declinare pariter nunc sunt tribus. Bonum. Legio nomen tam verendum serviemus.
+| translation = While a prudent general must take his time to plan, I realize that comfort breeds complacence. So as my scouts range across the beaches and jungles, I have made sure to lead our main force out on regular raids. Our targets have been weak - mostly small villages or unsuspecting convoys - but they resist enough to keep my men's instincts sharp. Letting them keep the meager spoils of these exercises has helped morale as well.<br/><br/>Our actions have not gone unnoticed, however. My scouts say many tribes are avoiding our territory altogether now. Good. A fearsome reputation will serve the Legion well.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #10 (The Island)
+| text = Daret ut purus quis enarrabit recens admota legio praesidio primo gustu aduersitatibus? Et ante diem, ratio videtur inconveniens.<br/><br/>Viderint nostram, quia sicut varii diripuimus nos inveniebamus laevo super obsessum aturba ferarum. Licet creaturae minoris quantitatis numero celeriter percusserunt, et percusserunt simul moratus. Per nos persecuti sunt propter bonum, quod praesidio praeteriit. Impossible, et maculosa, et in uno factus est omnium. Quis est? Si Mars et benedixerit mihi, non Minervae me molestas?<br/><br/> Non, nisi paratus esset. Et non erunt ultra.
+| translation = Who could have imagined that a simple convoy would give the New Legion its first taste of adversity? Before today, the idea would seem absurd.<br/><br/>They must have seen our approach, because just as we spotted our prey, we found our left flank beset upon by a pack of beasts. Though the creatures were smaller in size and number, they struck fast, they struck together and they never lingered. By the time we chased them off for good, the convoy was long gone. Impossibly, I spotted but a single rider throughout it all. Who is she? If Mars has blessed me, does Minerva harry me?<br/><br/>No, I was simply unprepared. I will not be again.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #11 (The Island)
+| text = Videtur quod simplex quis enarrabit quia quidam ex nobis vicini commeatu fessi populationibus nostris. Hodie proponitur quaestuosam mercaturam accepit legatum gens inter duas divisi tribus, ut caveat ne irrumpat in agros sociorum aut tribus aut commeatus.<br/><br/> Nulla mihi commercia pacta, sed occasione nesciunt. Quin potius statim deditus, quam proposui in neutram sanciendum foedus site suis principes.<br/><br/>Longum putavi. Tempus recens admota legio iter suum prosequi.
+| translation = It seems that some of our neighbors have grown weary of our raiding. Today, I received an envoy from the Golden Arrows who proposed a lucrative trade agreement between our two tribes, with the caveat that we never encroach on the territory or convoys of the Golden Arrows or any of their allies.<br/><br/>I have no interest in trade agreements, but I do know how to seize an opportunity. So instead of accepting right away, I proposed that we ratify the agreement with his tribe's leaders on a neutral site.<br/><br/>I have planned long enough. It is time for the New Legion to resume its march.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #12 (The Island)
+| text = News responsio ad ultimum vitae meae potius tela rogationem crescente celeriter, et pauci in ea agere videtur inuaserant. Quis ipsos culpare? Sine ducibus, sagittis celeriter involutus. Et creverunt Noveae Legio significantly fere in potestatem pernoctare.<br/><br/>Nisi aliud accipient de possessione eorum managed interdatur ulla satis diu veniet gradiens ad alium mittere legatus stic agebat, vir scilicet Edmundus Rockwell. Datum eventus ultima unam accepi, ego paene non credunt illa: sed si hoc est speciale. Reliquae partes videntur respicere illum media insula peritus. Non videbit.
+| translation = News of my rather definitive response to the Arrows' proposal has spread quickly, but few seem keen to act on it. Who can blame them? Without their leaders, the Arrows quickly folded, and the New Legion grew significantly in power practically overnight.<br/><br/>The other tribes only managed to interrupt their cowering long enough to send another envoy, a man named Edmund Rockwell. Given the results of the last one I received, I almost didn't believe it, but apparently this man is special. The other tribes seem to respect him as a neutral party and expert on the island. We shall see.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #13 (The Island)
+| text = Rockwell non nimis exquiro, et miratus sum. Qui modus loquendi cura est, sed plane habet acutum radentem pilos adsumes eum et intellectus scientiae latitudinem patentem. Si occurrerit tantum dimidium diem, vici huius insulae pretiosum notitia, quae appellari ARK.<br/><br/>Erit punctum in quo degit mittam praecursorem habere solebat. Super peritia in ARK hic cognitus elixirs creare singularem habent effectus. Ergo oportet me de inimicis meis serva manus.
+| translation = I did not expect much from Edmund Rockwell, but he has surprised me. He has a curious way of speaking, but he clearly possesses a razor sharp intellect and a wide breadth of knowledge. Though we only met for half a day, I gained invaluable information about this island, which is apparently called the ARK.<br/><br/>I shall have to send a scout to pinpoint where Rockwell lives. In addition to his expertise on the ARK, he is known to create elixirs that have extraordinary effects. It would behoove me to keep those out of my enemies' hands.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #14 (The Island)
+| text = Videtur quod non possit nisi qui incredulus Rokwell ani adipiscing. Proxima ad vexandos animos populi congregati proeliantur multosque pertinaciter succedentes orae castella et in faciendo eam confirmatus et ipsarum indoli congruunt. Quorum magnum populationibus fuit, nisi si a marisque. Et palam non posuisti super terram.<br/><br/>Si domi oceani litoribus nostris inde detraham praesidiorum copiis oppugnare et in continenti visum. Insula quondam in praesidium, et ablata est de copiis auxilio, et ad eam possit Nicolas lapidum ad otium.
+| translation = It seems I was not the only one who was skeptical of Rockwell's ability to curb my ambitions. The nearby Painted Sharks mustered up the courage to harass several of our coastal fortresses, but in doing so, they confirmed their nature. During their raids, they only attacked from the air and sea. They patently refused to set foot on land.<br/><br/>If the Sharks are at home in the ocean, then I will pull our coastal forces back and attack their outposts on the mainland. Once their island fortress is cut off from support and supplies, I can whittle it down to rubble at my leisure.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #15 (The Island)
+| text = Ea res cum praesidio fuit, unco denti. Eques revertentes hoc tempore monitionis copia. Renuntiationes alicuius "Bestia Regina" auribus meis viribus unitis cum aliis diebus obsidione. Quia non est subtritus en agmina eius praesidio dubio est. Non solum auxilium conteram obsidionem primum et secundum esse recens admota Legio est in plena fuga.<br/><br/>Hoc non potest. Et non sinebat ea. Vincam omnia quasi universa tradita insula vincam, si prius hoc dicta domina perdendum.
+| translation = The incident with the convoy was no fluke. The rider has returned, and this time we had plenty of warning. Reports of some "Beast Queen" joining forces with the Sharks reached my ears days before the siege. Her ranks have swelled since the convoy but there is no doubt it is her. Not only did she help break the siege, but for the first time in its existence, the New Legion is in full retreat.<br/><br/>This cannot continue. I will not allow it. I will conquer the Sharks, as I will conquer the entire ARK, but first I must destroy this so called queen.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #16 (The Island)
+| text = Li Mei-Yin, Bestia, Regina Jungle. Quod nomen est inimica. Nomen quod iam pertaesum est, et iterum modicum et non audierunt.<br/><br/>Evenit ut eidem non mercenarius neque tribus est etiam Sharks Pingitur. Ut ut placeat, ego quidem non vicit. Simplex officium dimittere eam a me, et scio quia facere. Seminbus plantavit iam victoriae.
+| translation = Li Mei-Yin, the Beast Queen of the Jungle. That is the name of my foe. It is a name that I have already grown weary of, but soon I will never hear it again.<br/><br/>It turns out that she is a mercenary not beholden to any tribe, including the Painted Sharks. So as satisfying as it may be, I need not actually defeat her. I must simply divorce her from her employers, and I know exactly how to do it. The seeds of my victory are already planted.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #17 (The Island)
+| text = Regina iam non esse. Quod facile esse. Parva amet legionnaires plantavit explosives in castra sua relicta cum intempesta nocte conspici poterat.<br/><br/>In explosions traxit operam reginae sed turpis scripto suspicatus progressus ad hostium. Post discessum fuit ante res dupliciter.<br/><br/>Cum a barbarica pugna belli huius brevi finietur. Weve 'iam agi de legione ad fines Sharks. Mox ubi praevalet adversus eos - undas.
+| translation = The Beast Queen is no longer a concern. It was a simple matter, really. A small team of legionnaires planted explosives in the Sharks' camp in the dead of night while leaving hers conspicuously untouched.<br/><br/>Predictably, the explosions drew the Beast Queen's attention but the Sharks mistook her advance for an enemy attack. After that, it was only a matter of time before they parted ways.<br/><br/>With that barbarian removed from the conflict, this land war will end shortly. We've already pushed the Sharks out of Legion territory. Soon we will face them where they are strongest - the open sea.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #18 (The Island)
+| text = Et accepto locum ultimum continentis, ex attritione vertit bellum. Dum ego aedificare convenit classis, ad opes, ad nihilum redigas, et continue mihi non volaces, ut permanerent lacessere, et maxime compositum. Cum nos denique scaena impetum nostrorum, et Alexandria erit dissipata, et in thesauris spiritus inanes.<br/><br/>Interea et rei huius insular iam navali potentia. Pars creaturarum in mari ballista potest portare parva suggestum in retro, faciens eos a genus curiosus longae. Ego sum interest quomodo se habeant. Utinam illi offerre possunt vel, ante proelium facit voluntatem omnino.
+| translation = After taking the Painted Sharks' last foothold on the mainland, this war has turned into one of attrition. While I construct a proper fleet, the Sharks' resources will continue to dwindle and my flyers will continue to harass their main compound. When we finally stage our invasion, their spirits will be broken and their storehouses empty.<br/><br/>In the meantime, I've been investigating this island's potential for naval warfare. Some sea creatures can carry a small ballista  platform on their back, making them a curious sort of warship. I'm interested to see how they'll fare. Hopefully the Sharks can offer a skirmish or two before their will breaks completely.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #19 (The Island)
+| text = Hodie in annalibus historiae vive. Hodie, erexit vexillum cum Legione Nova, quam Picta Sharks, fracto castra, et in tempore illo, est vere natus imperium meum. Intra momentum, dominica potestate recens admota Legio est, in hac insula.<br/><br/>Satisne cum isto animo, copias dedi celebrare victoria trium dierum spatium, si non intersit. Numquam ego opera mea, et non abscondetur in dilecto metas.<br/><br/>Cum in hanc insulam feci novitati contentus ero. Tunc requiesca.
+| translation = Today shall live forever in the annals of history. Today, I raised the New Legion flag above the Painted Sharks' battered fortress, and in that moment, my empire was truly born. In that moment, the New Legion became the dominant power on this island.<br/><br/>With that in mind, I've given my troops three days respite to celebrate our victory, though I shall not take part. My work is never done, and I mustn't lose sight of my true goals.<br/><br/>Only when I have brought this island into a new age shall I be content. Only then shall I rest.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #20 (The Island)
+| text = Cum tandem postquam exploratores attulere Rockwell domo obviam profectus est statim. Dum alii invenire quod magis instaret praeuertendum quae deleget, non dubitavi. Mentem a pretiosum resource Rockwell est in hac insula. Consulens eum habere pretiosum.<br/><br/>Utrum Rockwell offer non accipit mihi, et visitatio dividends iam solvit. Videtur autem ibi aliquanto tempore ingentes obelisci investigantibus in hac insula, et magnae fortitudinis. Dimitte populum meum ut theorizes. Si forte dicatur potestas corripiatur, tum eorum quae possum me oportet doceatis.
+| translation = When my scouts reported that they had finally found Rockwell's compound, I set out to meet him at once. While that meant delegating matters that others might find more pressing, I did not hesitate. Minds like Rockwell's are a precious resource on this island. To have him as an advisor would be invaluable.<br/><br/>Whether Rockwell accepts my offer or not, my visit has already paid dividends. Apparently, he has spent some time researching the massive obelisks on this island, and theorizes that they may hold great power. If there is any chance that said power can be wielded, then I must learn all that I can about them.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #21 (The Island)
+| text = Non teneant haec statuas. Videtur quod ex uno responso Rockwell totam edidit, cum aliqua oblatio. Poteratne fierci monumentum ingenti sunt dii si placabo hostiam erunt mihi sunt confortatique divitiis.<br/><br/>Ita vero. Ut haec insula ab Iano ferre me elegisti me regem, et valet ad probandum per deos rite peractis. Bene autem quod et ego nutum Rockwell meo consilio ego hanc causam agere. Et erunt mihi numine deorum imperio.
+| translation = These obelisks are fascinating. Apparently, Rockwell managed to coax a response out of one of them with an offering of some kind. Could it be that they are some grand monument to the gods? If I appease them with a sacrifice, will they grant me their power?<br/><br/>Yes, of course. Janus may have chosen me to rule this island by bringing me here, but I must prove my worth to the other gods by completing this ritual. Well, now that I have Rockwell's council at my beck and call, I shall pass this trial with ease. Then the power of the gods will be mine to command.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #22 (The Island)
+| text = Postquam studium meum exploratores fama, quod manere potest concludi quod paucis itinere resistere Legione Nova. Sed sunt insulae niveo tundras rem agi putatote. De tribu dominatur in regione, lupis, viribus atrox esse noscuntur. Magis maximus, a diuturna bellum esset, in proximo est impossibile, ut in tempestas.<br/><br/>Etiam nunc gelido vitabitis. Pro tribus minoribus et adjungant, et confirmet in possessiones et investigare statuas cum Legione Nova, Rockwell. Si solveritis mihi potestatem, et septentrionalis conundrum.
+| translation = After studying my scouts' reports, I have concluded that few tribes remain who can successfully resist the New Legion's march. However, the island's snowy tundras are a matter of concern. The dominant tribe in the region, the Howling Wolves, are known to be fierce fighters. More importantly, a prolonged invasion would prove nigh impossible in that weather.<br/><br/>Yes, for now I shall avoid the frozen north. Instead I will annex the smaller tribes, consolidate the New Legion's holdings and investigate the obelisks with Rockwell. Perhaps their power can solve my northern conundrum.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #23 (The Island)
+| text = Legione Nova capitale indiget veri, qui virtutem et maiestatem continet. Nescivi anima mea et recordans dies Romae. Numidiam mea patria in suis miraculis, nunquam posset ilia civitas magna. Ego semper in timore.<br/><br/>Cadent a latere insulae maxime in praesentia - suum necessitatem constituit. Olim duci intra muros hortatur et novam vivet. Quid cum maiorum aedificavi ego volo esse inspiratum sit. Volo ostendere quod ubicunque nati sunt, pro ipsorum fatorum accepta.
+| translation = The New Legion needs a true capital, one that embodies our strength and grandeur. I realized it while recalling my first day in Rome. My hometown in Numidia had its wonders, but it could never match the splendor of that great city. I was in constant awe.<br/><br/>Most on this island are consumed by the present - their immediate needs and struggles. Yet a new generation will live within our walls one day. When they see what their forefathers have built, I want them to be as inspired as I was. I want to show them that no matter where they are born, their destinies are theirs for the taking.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #24 (The Island)
+| text = Et accepit perturbativa Latin. Videtur Bestia resurfaced Regina cum maiore numero quam prius: et in ipsa moventur. Immo, quod directe ad alterum iter statuas.<br/><br/>De missione quam peius potest incidere barbaras statuas suas. Semper et noceat, sed virtutem Bestiae Reginam pose omnia dira minatur aedificavi.<br/><br/>Moveremus permoveo ad custodiam mean ego vi et eius simul. Futurum est autem heac insula in statera grana dependeant.
+| translation = I have received disturbing news. Apparently, the Beast Queen has resurfaced with an even larger contingent than before, and she is on the move. Worse still, she is travelling directly towards one of the obelisks.<br/><br/>I can think of no worse scenario than the obelisks falling into the those barbaric hands. She has always been a nuisance, but with their power, the Beast Queen would pose a dire threat to everything I have built.<br/><br/>I must mobilize my main force and move to intercept her at once. The future of this island may hang in the balance.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #25 (The Island)
+| text = Obeliscus cum exercitu venisset, timui sera essemus. The Queen nusquam invenitur. Eram ut caecus cum essem in regione quaerendum fulgor. Subito barbarorum multitudo erat placitum coram nobis et commissum est bellum.<br/><br/>Si est atrociter a terrore possederunt monsterum novum, amicus et hostis contra eam pariter. Si aliquid fit praesens caede perfecta. In fine Bestia Regina deletis copiis et ipsa mortalia vulnera profugisset. Tandem, comminatus est.<br/><br/>Interesingly, nos captus de notitia Rockwell est in die certaminis. Si scit aliquid de obeliscis, quod non Rockwell.
+| translation = When my army arrived at the obelisk, I feared we were too late. The Beast Queen was nowhere to be found. I was about to order a search of the area when I was blinded by a flash of light. Suddenly, the barbarian horde was right before us, and battle was joined.<br/><br/>Though the savage possessed a fearsome new monster, it attacked ally and enemy alike. If anything, its presence made the slaughter more complete. By the end, the Beast Queen's forces were annihilated, and she herself had fled with mortal wounds. At last, her threat is ended.<br/><br/>Interestingly, we also captured an acquaintance of Rockwell's during the battle. Perhaps she knows something about the obelisks that Rockwell does not.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #26 (The Island)
+| text = Postquam dixerat Walker activum autem obeliscus expectari monstrum quoddam, sed bello huic nihil suspicabamur volumus vereris Cereris Draconibus. Non quod dissimilis. Graue erat in ea perampla atque feris etiam currus Dei. Dianae sibi temperari non dubito, et tamen recens admota legio est resisterent.<br/><br/>Et animas hominum multas et plura animalia constant, sed dignum fuerat. Walker, secundum, tertium key aperir hoc non comparari potest, est enim mihi de spelunca illa. Et statuas et hanc vim meam, et insulae imperio.
+| translation = Walker had told us to expect some kind of monster after activating the obelisk, but I never imagined that we would battle one of Ceres' dragons. No, that's not right. It was too colossal and wild for even a god's chariot. I doubt Diana herself could control it, and yet, the New Legion felled it.<br/><br/>It cost the lives of many men and even more beasts, but it was worth the sacrifice. According to Walker, the third key we acquired may allow me to open this cave she speaks of. Then the power of the obelisks and this very island will be mine to command.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #27 (The Island)
+| text = Ita genium barbaros istos. Theyve odoratusque infirmitatem nostram.<br/><br/>Inter proeliis cum nostris, et de draconis bestia reginae, et Novae Legio est scriptor principalis conflictatus exercitus, et infrequenti. Et luminare minus circumveniamur a tribuum occupaverit terram, ut petita qui ierant ad castra nostra et nos cum sudore et sanguine.<br/><br/>Finis. Et habeant ad tempus suis victoriis celebrata est. Inflictis vulneribus res nobis isti putant se habere. Si vis habere statuas et omne gramen eorum reddam accipe. Cum enim virtus, ut faciam eis quia verum poenitet.
+| translation = Damn these barbarians. They've smelled our weakness.<br/><br/>Between our battles with the Beast Queen and the dragon, the New Legion's main army has been distracted and depleted. Lesser tribes have taken advantage by raiding our camps and seizing territory that we claimed with our blood and sweat.<br/><br/>Fine. Let them have their temporary victories. Let them imagine that they have inflicted real wounds upon us. When I obtain the power of the obelisks, they will pay for every blade of grass they take from me. With that power, I will make them know true regret.<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #28 (The Island)
+| text = Sollicitus est mei. Nuntiabatur resonare lupis ululantibus quod sint in ipso itiner. Statim petere pro Novae Legio cor induxerit. Reversi volunt tutare domum. Interlligo ex instinctu, non in honore meo, providum iudicatote. Rockwell est in tantum ut animus meus de viribus vision.<br/><br/>Nos prope est spelunca. Habet potestatem habeo iterum ego uti frangere et parvis copiis lupis. Quidquid consequitur faciunt non deletur. Et omnis insula unire unum gloriosi.<br/><br/>Mox ut youll 'animadverto. Et videbit universa caro. Ego in hac insula destinatum imperatorem! Ego sum Deus sua futura!
+| translation = My men are uneasy. News reached us that the Howling Wolves are on the march, heading straight for the heart of New Legion territory. Some want to turn back and defend our home. I understand the instinct, but they lack my foresight. Only Rockwell has the strength of mind to see my vision.<br/><br/>We are nearly to the cave. Once I hold the power it contains, I can use it to crush the Howling Wolves and their petty forces. Whatever gains they make will be erased. I'll unite the entire island in a single, glorious battle.<br/><br/>Soon they'll see. Everyone will see. I am this island's destined emperor. I am its destined god!<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #29 (The Island)
+| text = Et alii non exspectassent bellum cetus tanto magis. Sed hic sto, vicit? Iacere hominum meus mortuus est, meus mortuus bestias mentiri, sed etiam non resistere?<br/><br/>Etiam non vidit huic simile est Rockwell est. Num est aliquid in praetorium di. Num hic est virtus Dei statuas: exspecto enim dignus vindice adiuvet domini rogum<br/><br/>Cum enim ego non opus bestias seu hominum. Sola sua potentia et mihi hanc insulam vincere. Mihi opus non invenient eam et dici quod meum est.<br/><br/>Laudate enim lani ducis hic! Laudate Mars fortitudinem suam ad tueris! Dico quod tanta nomina, victoria tua?
+| translation = I had not expected to battle another monster, much less one so powerful. Yet here I stand, victorious! My men lie dead, my beasts lie dead, yet I still stand!<br/><br/>Even Rockwell has never seen anything like this place. Surely it is some hall of the gods. Surely the power of the obelisks is here, waiting for a worthy champion to wield it. With it, I will not need beasts or men. Its power alone will win me this island. I need only find it, and claim what is mine.<br/><br/>Praise Janus for taking me here! Praise Mars for lending me his strength! I claim this great victory in your names!<br/><br/>Gaius Marcellus Nerva<br/><br/>Victory through discipline
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}
+
+{{Explorer Note
+| title = Nerva Note #30 (The Island)
+| text = Nihil! Quo modo nihil erit? Nam ego quidem assidue infirmitatibus constringor, et nihil inveniet te?<br/><br/>Immolabam facta mea hominum regno meo omnia nihil habeo ad te. Ego enim cuncta citus abiit? Quod? Nam per visum?<br/><br/>Quid sit fraus huic? Quid est hoc? Victimam et ego aliquid de iocus divinum? Enim operor non intellego. Et Imperatoris fideliter servivit. Cur non trahere lane de servitio suo ordine producat est nisi hic?<br/><br/>Ego enim exclamavit responsa, sed ne dis respondeo. Dereliquerunt me. Omnes audio vox mea est, haec verba off in maledictione reputabitur halls - prodiderat destituta et sola.
+| translation = Nothing! How can there be nothing? I have searched ceaselessly, and yet I find NOTHING!<br/><br/>I sacrificed my men, my kingdom, everything. I have nothing left to give. Everything I've bled for is gone! For what? For a view?<br/><br/>What trickery is this? What is this place? Am I the victim of some divine joke? I don't understand. I served the Emperor loyally. Why would Janus pull me from his service if not to bring order here?<br/><br/>I've cried out for answers, but the gods never respond. They have abandoned me. All I hear is my own voice, echoing off these cursed halls - betrayed, destitute and alone.
+| author = Gaius Marcellus Nerva<br/>Victoria Per Disciplinam
+| icon = NoteNerva.png
+}}</div>
+</div>

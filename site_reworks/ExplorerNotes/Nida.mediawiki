@@ -1,0 +1,226 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[fr:Notes des explorateurs/Nida]]
+[[ru:Заметки Первопроходцев/Нида]]
+{{MissingTranslations|es|ja|de|it|pl|pt-br}}
+</noinclude>__NOTOC__
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Genesis: Part 2===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Explorer Note Nida 1
+| text = Perri started in with another sermon about our sacred mission today when she found me modeling creature behavior for my latest sim.<br/><br/>I tried to explain that I was on break, that I wasn't doing anything wrong, but she wouldn't hear it.<br/><br/>As if I haven't had it drilled into my head over and over that the survival of all life from our homeworld depends on our sacred efforts...<br/><br/>I work as hard as anyone on the ship, so why do I keep getting shamed for having a hobby?<br/>It's not like a half-cycle spent away from soil sampling is going to jeopardize humanity's hopes of re-establishing itself on a new planet.<br/><br/>Besides, I know from the server logs that Perri played my last sim along with most of the crew.<br/><br/>What's wrong with dipping out off-shift and immersing yourself in some harmless escapism?
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 2
+| text = I used to think it was pathetic that our ancestors couldn't come up with a better name for our homeworld than Earth.<br/><br/>But a lifetime spent digging around in synthetic loam kind of makes you appreciate how amazing it must have felt to feel solid ground under your feet.<br/><br/>We're told in historical media that people have always dreamed of sailing between the stars.<br/>After a few generations of doing just that, I'm here to say their dream is wearing thin.<br/><br/>I guess it's like that old saying about the grass looking greener on the next ring over-people on Earth must've been sure there was a better world out here someplace.<br/><br/>Maybe it is out here, but we haven't found it yet.<br/>In the meantime, I like to doodle around in the margins of Genesis, so my crewmates can plug into a simulation and experience an actual sunrise now and then.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 3
+| text = Life on this ship is an endless, monotonous routine.<br/><br/>All of us were raised in this place to be drones tending a hive of cocooned future colonists.<br/><br/>We've been told everything has to be just right when it's time for them to hatch and start training for planetfall, so day after day I service the capillary irrigation systems and monitor trace gas fluctuations in the atmosphere for the good of humanity.<br/><br/>I know I should be grateful to even be alive, given that all life on our homeworld went extinct.<br/>But I also know I can't be the only crew member who daydreams about faking my own death to escape this tedium.<br/><br/>Even if that meant hiding in the superstructure for the rest of my days, at least I'd be living for myself.<br/><br/>Shame on me, I guess.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 4
+| text = Working in the dirt was what I was born to do, at least according to my engrammatic aptitude test.<br/><br/>An artificial intelligence weighed my soul and decided it saw a future soil scientist.<br/> I do have to grudgingly admit I'm good at my day job, but my real passion is coding convincingly randomized events and reactive social intelligence simulations.<br/><br/>So that's what I'm tinkering with when I'm not feeding soil probe samples into a chromatograph.<br/><br/>I know, I know-my work to confirm nutrient transport and healthy geochemical cycling by microbial soil communities is an important part of maintaining this vital biological archive of ours.<br/><br/>The fate of humanity depends on our success, bla bla bla.<br/><br/>It's just that I envy having the kind of freedom people seemed to have in the past to follow their dreams, at least according to our library of historical media.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 5
+| text = I know what I saw, but I don't blame anyone for thinking I made it up.<br/><br/>I mean, I do come up with simulated fantasy scenarios in my free time.<br/><br/>But that's the thing...<br/><br/>If I hadn't been reverse-engineering Genesis simulation code, I never would have noticed these anomalies in the system.<br/><br/>We've been visited by something transhuman-I saw the evidence inside Genesis!<br/><br/>Maybe I shouldn't be leaving a record of this, but I think someone left a superluminal link open back to Arat Prime that one of them used to find us out here- one of the... Homo deus.<br/><br/>There, I put a name to it.<br/><br/>Guess there's no harm now in admitting that I've been trying to hack my way into a semi-forbidden cache of information about them in the archive.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 6
+| text = We weren't kept completely in the dark about our estranged transhuman cousins, but I think there's been a concerted generational effort to repress those memories.<br/><br/>Maybe our ancestors were afraid we'd see some appeal in the idea of accelerating our own evolution if we learned more about Homo deus.<br/><br/>If so, that seems silly, because there are kiloparsecs between us and the refined xenomaterial they needed to do it.<br/><br/>Historical archives say the Element War was fought over divergent ideas about how to deal with our polluted biosphere and dwindling resources.<br/><br/>Our ancestors in the Terran Federation thought they'd finally found a clean source of power for their grand geoengineering schemes to hack and repair the planet.<br/><br/>The United Republics of Earth wanted to hack themselves using that same power, and survive by becoming more than human.<br/><br/>Neither side was right.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 7
+| text = Here's how I discovered we'd had a visitor...<br/><br/>I noticed a really sophisticated artificial intelligence running in Genesis that wasn't native to our engine.<br/><br/>So I boxed it up and plugged myself into that box to say hello.<br/><br/>Our intruder turned out to be friendly, and curious about me. It called itself HLN-A.<br/><br/>I asked where it came from, and it told me its creator was what I would've called a Homo deus.<br/><br/>That might've made the hairs stand up on the back of my avatar's neck, if I'd bothered with that level of simulation.<br/><br/>I asked the AI if it'd been hiding onboard since before we launched, and it claimed it only came online within the last three thousand cycles or so.<br/>But how, I wondered?<br/><br/>I asked if that meant its creator was still with us.<br/>All I got was some cryptic answer about how she'd left a part of herself behind as a gift.<br/><br/>Then I got kicked from my own sim.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 8
+| text = After my one quick chat with HLN-A, I couldn't seem to track her down again inside the Genesis simulation.<br/><br/>It's like she'd learned how to conceal herself since our encounter.<br/><br/>Of course no one believed me.<br/><br/>For a while there, I wasn't sure I believed me.<br/><br/>Then the glitches started showing up in Genesis.<br/><br/>Patching the simulation code seemed like a low-priority concern, though it was definitely unusual.<br/><br/>But before anyone could address that situation, we started seeing cascading faults in our real world systems.<br/><br/>Things got bad enough that we had to evacuate and seal off biomes in the forward ring!<br/><br/>I'd like to think that my crewmates would circle back to taking my close encounter with a transhuman-created artificial intelligence seriously, if there was time or resources to investigate further.<br/><br/>But everyone's in full-on disaster mode now.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 9
+| text = I assumed at first that HLN-A was causing the system failures spreading through the rings.<br/><br/>We'd been raised to believe that people had barely escaped an Earth overrun by transhumanism and Element pollution.<br/><br/>It seemed logical to assume the AI I'd found embedded in our simulation engine by a transhuman entity would try to sabotage our mission.<br/><br/>Now that I'm looking over eyewitness reports from the affected areas, I'm less sure.<br/><br/>Why would HLN-A contaminate biomes with weird new lifeforms?<br/><br/>How would an artificial intelligence, even one created by a Homo deus, be able to rearrange the framework of the ship at the molecular level?<br/><br/>However or whyever these things are being done, we're in serious trouble.<br/><br/>I thought I'd done a good job of firewalling any access points out of Genesis, but clearly I wasn't able to shut out whatever is running wild through our systems.<br/><br/>I can't believe this is really happening.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 10
+| text = We're losing people trying to stop whatever it is that's invading our ship.<br/><br/>I want to join the fight to retake the forward ring, but I keep getting told I'm needed back here, to maintain and monitor our remaining ecosystems for contamination.<br/><br/>I know the real reason they don't want me fighting is because in their eyes, I'm still just a kid.<br/><br/>But no one would even know we'd had an intruder if I hadn't discovered it.<br/><br/>I keep turning that over in my mind while I'm maintaining autosamplers or waiting for phase analysis results on soil biota: how and why would a transhuman's artificial intelligence disrupt our shipboard systems?<br/><br/>Would this entity really resent our mission enough to reach across thousands of lightyears and try to scuttle our ship?<br/><br/>That just seems unusually vindictive for one of them, especially after all this time.<br/><br/>I can't make this make sense.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 11
+| text = We've all given the Genesis simulation's 'survive as long as you can while taming an unfamiliar and hostile environment' scenario a spin, if only to see what that's like for our colonist cargo.<br/><br/>One of my more popular sims turned Genesis inside out, with alien megafauna rampaging through a simulated version of our ship's biomes.<br/><br/>I never expected to experience something like that firsthand.<br/><br/>Aberrant, wild creatures are prowling the forward ring, and tearing anyone apart that dares to enter their territory.<br/><br/>This is no simulation.<br/><br/>Out here in the real world, my crewmates aren't ever going to respawn.<br/><br/>I've never felt fear like this before.<br/><br/>At least the adrenaline is keeping me hard at work even though I'm beyond exhausted.<br/><br/>I've been able to confirm that the biomes in our ring haven't been contaminated yet, so that's something.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 12
+| text = They're talking about detaching our ring if things keep getting worse, to try to keep our biomes uncontaminated.<br/><br/>I hope it doesn't come to that, but we have to do what we can to preserve the remaining biomes in the face of our rapidly dwindling odds.<br/><br/>I've been working on a whole system of backup automation to hopefully keep everything running as long as possible when-I mean if-we're all wiped out.<br/><br/>Our ship holds the last archival specimens of life from Earth, and there's an extinction-level event in progress.<br/><br/>I got nauseous just now while I was running microbial gas exchange models, because any stupid mistake I make could suffocate all the remaining Terran lifeforms in the universe.<br/><br/>If I forget to carry a number someplace, it could mean that no flower will ever push up through the soil and bloom again.<br/><br/>I have to get this right.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 13
+| text = I can't just keep running through the same research tasks while my crewmates are fighting an invasive force.<br/><br/>This morning while I was in a trench checking on our irrigation capillaries, I impulsively pried open a hatch and dropped into the drainage and reclamation system.<br/><br/>Below the bedrock, there's a maze of pipes and tunnels that extends throughout the entire ship.<br/>I used to sneak down there as a kid and wander for kilometers trying to get lost.<br/><br/>We had to memorize the schematics for these subsystems as part of our training, in case we had to repair some catastrophic failure deep in the network.<br/><br/>I remember resenting all the times I had to draw maps of those tunnels in timed tests, but all that rote memorization may end up saving my sorry life.<br/><br/>At any rate, I finally got a firsthand glimpse of what we're dealing with.<br/><br/>Not sure how I'll sleep again after experiencing it for myself.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 14
+| text = They've sealed off the invaded areas of our ship, but I still have my clearance to access the maintenance subsystems.<br/><br/>I know how to get through a series of airlocks into the other ring without contaminating ours.<br/><br/>Once I popped up from under the dirt, I found myself in some kind of unrecognizable surrealist landscape.<br/><br/>What could have changed everything there so much, so fast?<br/><br/>I was glad I'd brought a sampling kit and even more glad I was wearing a clean suit up there.<br/><br/>The flora and fauna had been mutated to a point where everything looked potentially lethal, and it was reactive to my presence.<br/><br/>Grasses had become these thin tubules with bulblike structures that undulated hypnotically.<br/><br/>I flinched when a stalk brushed my glove and left a sticky residue.<br/><br/>Inside my clean suit I started shuddering all over, and wondering why I'd worked so hard to sneak into that place.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 15
+| text = It's an understatement to say that being in the contaminated forward ring shook me up.<br/><br/>I've spent my whole life trying to simulate alien environments, but the first time I found myself actually inside one, I couldn't wait to escape.<br/><br/>I was having a panic attack, a rush of xenophobia, and severe vertigo all at once.<br/><br/>It was like every cell in my body was screaming that I didn't belong there.<br/><br/>As soon as I had some samples bottled up, I rushed to get back into the access tunnels to get the hell out of there.<br/><br/>That was when I saw one of those things...<br/><br/>At a distance, you might mistake it for a big cat: feline, predatory.<br/><br/>But it had strange, feathery spines like a venomous tropical fish, and its gaze was weirdly aware.<br/><br/>I was afraid to break eye contact while I felt desperately for the hatch.<br/><br/>A second and third creature appeared in my peripheral vision as I dove into the tunnel and sealed it tight behind me.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 16
+| text = I spent a frantic few minutes hyperventilating and waiting for the first of five underground airlocks to cycle after leaving the contaminated zone.<br/><br/>Even after I'd run through three levels of decontamination and had shed the personal protection equipment I'd worn in the hot zone, I felt unclean.<br/><br/>The entire time I was crawling aft through kilometers of ducts and accessways, I felt like there was something at my heels.<br/><br/>I expected to get in all kinds of trouble when I got back to our ring, but no one had time for that kind of thing now.<br/><br/>Perri surprised me with a hug when she saw I was still alive, and I surprised myself by breaking into sobs of relief.<br/><br/>At least it wasn't for nothing-I guess I was the first to bring back samples of the contamination to test.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 17
+| text = Xenobiology isn't really my thing-I generally do biochemical work at the micro level.<br/><br/>I know how to run samples of the invasive flora and fauna from the contaminated ring through our array of analytical equipment, but when it comes to interpreting the results I'm mostly at a loss.<br/><br/>Anyone could see that these invaders are wildly exotic and demonstrably hostile, but beyond that, I'd just be guessing at what I'm looking at.<br/><br/>That said, I'm relatively sure that a lot of what I sampled were genetically-modified organisms-like our maewings-possibly created using commandeered equipment in the other ring.<br/><br/>Unlike maewings, all of these organisms seem to have been created to establish an aggressive perimeter defense.<br/><br/>Defense of what, I'm not exactly sure...<br/><br/>I'm back to suspecting our Homo deus visitor is responsible, but I haven't even mentioned the most damning evidence-I think I'm seeing traces of Element in these samples, the same alien material that poisoned our home planet.<br/><br/>Element, incorporated into living, mutated tissue.<br/>If I'm right, this is extremely bad news.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 18
+| text = My findings about the invasive lifeforms I sampled in the other ring set off a full-on panic response in the crew.<br/>Our engineers are speeding up their plan to detach our ring from the ship entirely, hoping to keep our biological archives from being contaminated.<br/><br/>Everyone's afraid to talk about what might be happening to the human colonist cargo in our sister ring because that's too horrible to think about.<br/><br/>Whether the transhuman entity that visited our ship is still with us, or whether the artificial intelligence she left behind took over half of our systems, something is using the ship as a petri dish for engineering exotic and dangerous new lifeforms.<br/><br/>For the first time since our ancestors left Earth parsecs behind, we might be fighting-and losing-a war with a hostile transhuman force.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 19
+| text = So I did something else impulsive, maybe even treasonous.<br/><br/>Hey, someone had to try something!<br/><br/>While almost everyone else was preoccupied with retaking the ship, I tried to reestablish contact with HLN-A, that invasive intelligence I'd found in the Genesis simulation.<br/><br/>This time I used a sort of process of elimination.<br/><br/>Assuming it managed to create a digital blind spot to hide in, I figured I could find it by establishing where it wasn’t.<br/><br/>Like using infrared to search for a heat signature against a snowfield.<br/><br/>Once I'd colored in all the negative space, I jumped into that void in the simulation and found myself immediately pleading with the AI to stop the corruption of our ship systems.<br/><br/>I should've sent someone braver in to negotiate...
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 20
+| text = I logged out of my second close encounter with our rogue artificial intelligence more confused than ever.<br/><br/>If its creator really wasn't here with us anymore, what exactly was invading the other ring?<br/><br/>Wait-what was it that HLN-A said, about colonists being woken up prematurely?<br/><br/>That's something I can check out...<br/><br/>Sure enough, colonists are stirring all over the ship.<br/><br/>I can only confirm a few instances of anyone outside their pods and loose in the rings so far, but we definitely have a new disaster in progress.<br/><br/>What's worse is that I can't seem to track down anyone in charge at the moment to report this to.<br/><br/>It looks like the rest of the crew has gone to ground, and I'm thinking I should probably seek shelter for myself at this point.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 21
+| text = I packed up everything I needed to keep an eye on our automated environmental maintenance, and dropped into the subsurface tunnels and ductwork to hide.<br/><br/>Good thing I know my way around the superstructure-I can hold out down here indefinitely if I have to.<br/><br/>Even if I don't feel like it's safe enough to pop my head up for fresh food, enough provisions and stores are accessible for several lifetimes.<br/><br/>Won't be much of a life to look forward to, though.<br/><br/>I've spent what seems like cycles down here trying to raise anyone else from the crew, but the whole com system seems to be on the blink.<br/><br/>I can't even reach Genesis anymore to kill time in a sim.<br/><br/>After all my years spent studying soil biota, guess I know what it feels like to be a burrowing insect hoping to escape notice.<br/><br/>Turns out it kinda sucks.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 22
+| text = After a lot of crawling around conduits and splicing cables together, I was able to patch into surveillance feeds to get a topside view.<br/><br/>The experience wasn't like watching archival records, but it was definitely educational.<br/><br/>For one thing, I confirmed that some of the crew were still alive up there-I called out when I saw Perri working on a terminal junction before I remembered that she couldn't hear me.<br/><br/>Closer to the junction with the core, it's obvious that progress stalled out on the engineering project to detach our ring.<br/><br/>It looks like the crew had to abandon their work sites, though I'm hoping that's not for good-that sort of thing is way beyond my abilities, and these biomes can only stay uncontaminated for so long if we can't put some space between us and whatever's taking over our sister ring.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 23
+| text = I found some documentation on the engineering plan for ring separation, and I tried teaching myself the procedure.<br/><br/>Really, I did...<br/><br/>I just can't picture myself risking our ring like that.<br/><br/>If I screw up, I could send us careening back into the fuselage, tearing open these biomes and spilling everything out into naked vacuum.<br/><br/>I'm no hero, I'm just a dirt scientist.<br/><br/>Or I was, before all this happened.<br/><br/>Now I'm just another grub tunneling around underfoot and waiting for some predator to dig me up and make a meal of me.<br/><br/>Down here in the dark, I'm just trying to survive as long as I can.<br/><br/>It's been too long since I've spotted anyone else from my crew in topside surveillance footage.<br/><br/>Still, I've been lying awake thinking about who I did spot in the gardens up there-a colonist, alone and out in the open...<br/><br/>What if I'm the only one that knows about this?
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 24
+| text = I couldn't live with myself if I didn't try to help that lost colonist.<br/><br/>I keep picturing what it'd be like to wake up from Genesis in one of those tanks, with no support staff to greet or orient you.<br/><br/>Squinting in the artificial sunlight, wandering around strange forests and meadows with no idea what's bearing down on you, no matter what the simulation tried to prep you for.<br/><br/>While I'm working up the nerve to make a rescue attempt topside, I've relocated to a spot under the last sector I spotted him in on live surveillance feed.<br/><br/>I'm pretty sure I'm within a half kilometer of where the colonist is, or under that location at least.<br/><br/>Now I just need to come up with a plan to get their attention...
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 25
+| text = I'm an idiot...<br/><br/>I wasted a bunch of time trying to come up with a way to hack into a terminal on the surface so I can flash a message to the colonist wandering around our ring, and then it hit me-they had on an exosuit, which means a visor with heads-up displays.<br/><br/>I realized I can broadcast directly into that helmet, and put information right in front of the colonist's face!<br/><br/>I decided to try beaming a line-of-sight message at them by hacking a nearby infrared laser cluster..<br/><br/>I'm no communications expert, but the risk of a free space optical signal being intercepted seemed minimal and I figured it'd be hard to jam at short range.<br/><br/>What if doing this gives away my location, though?<br/>It occurs to me that our invader might be using this colonist as bait...
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 26
+| text = Once I made contact with the stray colonist I explained where and when we are, and tried to describe the threat we're facing.<br/><br/>I'm guessing that was probably a lot to absorb, depending on information recall from the Genesis simulation.<br/>I beamed over some schematics of the local subsurface crawlways and conduits, hopefully with the access hatches clearly highlighted.<br/><br/>Then I shut it all down and waited.<br/><br/>I had a long wait.<br/><br/>Almost half a cycle passed before something tripped the silent alarm I'd set on the hatches in this sector.<br/>My heart was in my throat-what was I going to do if one of those monstrosities found its way down here to me, wave a soil probe at it?<br/><br/>Lucky for me, it was just my new friend, the colonist.<br/><br/>I took it as a good sign that my colonist friend was conscientious enough to seal the hatch again.<br/><br/>Plus, I wasn't alone anymore.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 27
+| text = We sized each other up for a while before my new friend popped his helmet off to frown at me.<br/><br/>He wanted to know why a 'kid like me' was risking my neck for him.<br/><br/>Even though I was sick with relief to see another human face, his tone set me off.<br/><br/>I reminded him that I was the one who led him to safety.<br/><br/>He apologized for being short with me, and offered to shake hands.<br/><br/>I took his hand, hoping he wouldn't crush mine with that gauntlet he was still wearing.<br/><br/>We introduced ourselves—he said his name was Gabriel.<br/><br/>For the first time, I was glad for the training we'd had in colonist reintegration.<br/><br/>I could fall back on those conversational prompts, and remember to offer Gabriel food and drink from our stores.<br/><br/>And it felt good to play host.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 28
+| text = My new friend Gabriel turns out to have been a prospector in his previous life, during a time that was later called the Gold Rush.<br/><br/>He's been exhausting me with questions about mineral distribution on the rings, and he got really excited when I brought up the mining capabilities of our stryders.<br/><br/>I'm starting to appreciate the unlikelihood of the two of us winding up here at this moment in time.<br/><br/>It's like the beginning of a bad joke: "A miner and a soil scientist meet on a spaceship, at the end of history..."<br/><br/>Gabriel wants to rustle up some stryders to ride into the contaminated ring like some kind of cavalry, and it almost feels like we're living in one of my simulations.<br/><br/>Now if only I can convince myself that I've got what it takes to play the hero in real life...
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 29
+| text = Gabriel asked me not to call him a colonist.<br/>He resents being cast in that role, which I can respect.<br/><br/>Genesis simulation aside, the last thing he remembers before waking up on a spaceship was being waylaid and killed by a mob of settlers for his mining claim.<br/><br/>Impressive, to hold a grudge for almost a millennium, across thousands of parsecs.<br/><br/>No wonder I spotted him wandering a riverbank in the foothills-the setting must've reminded him of his native Gold Rush territory.<br/><br/>I wonder if he'd already tried panning the river for gold flakes.<br/><br/>He really lit up when I described how we could fit stryders with a pulverizing beam rig for excavation.<br/><br/>If I'm being honest, he seemed almost too interested in that configuration of the quadruped's head.<br/><br/>I guess a strip-mining rig might make a useful weapon against the kind of intrusive contamination that I'd seen in the other ring, like laser surgery to cut out skin tumors.<br/><br/>Maybe worth a try.
+| author = Nida
+| icon = NoteNida.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Nida 30
+| text = I don't think I trust Gabriel.<br/><br/>And that's not just because it was disappointing to finally meet one of these people, after dedicating my life to keeping their glorious future alive.<br/><br/>I don't know that I expected gratitude exactly, but I sure didn't expect one of them to be so irritable and self-involved.<br/><br/>I'm trying to remind myself that he never asked to have his memories reconstructed and jammed into a new body on some generation ship in interstellar space.<br/><br/>All of that aside, something is just off about Gabriel.<br/><br/>I know that our systems are breaking down, but it feels like he was rushed through the Genesis simulation without time for any of his orientation to take.<br/><br/>And how messed up are our protocols that this is the first guy who got revived, out of all the personalities we have archived?<br/><br/>Guess I'll just have to fall back on my training and hope for the best.
+| author = Nida
+| icon = NoteNida.png
+}}
+</div>
+</div>

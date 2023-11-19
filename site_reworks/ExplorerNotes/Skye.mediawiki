@@ -1,0 +1,24 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Skye]]
+[[fr:Notes des explorateurs/Skye]]
+[[ja:Explorer Notes/Skye]]
+[[ru:Заметки Первопроходцев/Скай]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Journals===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Grad Journal Skye #1 (Aberration)
+| text = Far out! This place is kinda like that dream I had.<br/><br/>So it went like this: I ride some tram thing to like, the biggest, weirdest zoo in the universe, right? Only instead of normal animals, there's dinosaurs! Totally cool...until they all escape just like in every horror movie ever made. Duh! Anyway, Dream-Me hops into a truck with some ripped, badass dudes, and we just start driving around, shooting dinosaurs and stuff. I felt like a legit action hero!<br/><br/>So I guess this place isn't exactly the same. There's dinosaurs, but I don't have guns or a truck. Also I'm completely alone... <br/><br/>But it's still just a dream, right? I mean, obviously! I don't even know why I'm writing this down, it's all in my head. All I need to do is walk off that cliff, and I'll wake up right before I hit the ground.
+| author = Skye
+| icon = NoteGradStudent.png
+}}</div>
+</div>

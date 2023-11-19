@@ -1,0 +1,54 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Emilia Müller]]
+[[fr:Notes des explorateurs/Émilia Müller]]
+[[ja:Explorer Notes/Emilia Müller]]
+[[ru:Заметки Первопроходцев/Эмилия Мюллер]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Emilia Müller is a modern day graduate school engineering student.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Journals===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Grad Journal Emilia #1 (Aberration)
+| text = Oh, Rusty, you idiot. If I ever get the chance to return this journal, I want you to know that we always trusted you. We were just worried about the pressure you put on yourself. Even Trent misses you, despite all of his stupid, alpha male chest thumping.<br/><br/>Boris is the real jerk here. Everyone else wants to look for you, but he keeps insisting that it's not worth it. How can he be so heartless? It's like he's a robot or something. He hardly even seems frightened by this place! I wish I could say this same. I feel like I'm trapped in a nightmare, and each day it gets worse.<br/><br/>Please be out there, Rusty. We need to stick together and find a way home. God, I just want go home...
+| author = Emilia
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Emilia #2 (Aberration)
+| text = How do Trent and Imamu stay so motivated? The other day, we built a series of ziplines to help us get around, and it felt like they did all the heavy lifting, even though I'm the engineering student. Compared to them, I've done next to nothing since Rusty disappeared.<br/><br/>I'm not even good at sleeping anymore. I wake up at every sound, afraid that those wolf creatures we spotted might tear through our makeshift shelter and devour us. It's all I can think about, all the different ways we could die and all the ways it'd be my fault.<br/><br/>Ugh, being such a burden on everyone is the grossest feeling ever. So why can't I do anything about it?
+| author = Emilia
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Emilia #3 (Aberration)
+| text = I'm still not sure how he did it, but Imamu turned one of those nasty wolf-bat things into a pet. It even lets him ride on its back, and it can climb across the zip lines we set up. I think that made everyone a little more confident, so we decided to range out further in search of Rusty. Unfortunately, we found him.<br/><br/>Poor Rusty. The first thing we spotted was a bloody shirt and then...I can't even describe the rest. Just thinking about it makes me want to puke again.<br/><br/>Boris thinks that whatever got him might still be in the area, but I just don't have the strength to keep moving. After today, this all seems so hopeless. We're all going to die here.
+| author = Emilia
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Emilia #4 (Aberration)
+| text = What did I do to deserve this hell? I tried to be a good student, a good friend, a good sister...what did I do?<br/><br/>Those vicious little demons are still below us, waiting to rip us apart just like Imamu's pet. We managed to run to a cavern wall and climb up to this alcove using our picks, but now we're trapped.<br/><br/>This is it. This is where we die. Boris yelled at me after we escaped, said I'm the one to blame. He's probably right. We hadn't moved that far from where we found Rusty because I was too tired, and we didn't find a better place to hide because I was too scared and too slow.<br/><br/>I've killed us! God help me, I've killed all of us!
+| author = Emilia
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Emilia #5 (Aberration)
+| text = I've never been brave or adventurous. I was that kid that who always colored between the lines and followed every rule, no matter how arbitrary. No risks, no mistakes, just good grades and a forgettable face.<br/><br/>I'm still not brave, but I won't die like this. I won't let this gross, trembling wretch be the last version of me to draw breath. Maybe I've been worthless to the group in life, like Boris says, but my death won't be.<br/><br/>Once I finish this entry, I'm going to stuff this notebook into the first pack I see and tell everyone to make a break for it while I lure those things away. I probably won't make it very far, but if any of you are reading this, then I guess it was enough.<br/><br/>Goodbye. I'm sorry.
+| author = Emilia
+| icon = NoteGradStudent.png
+}}</div>
+</div>

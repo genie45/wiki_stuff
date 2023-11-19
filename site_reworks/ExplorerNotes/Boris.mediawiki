@@ -1,0 +1,54 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Boris]]
+[[fr:Notes des explorateurs/Boris]]
+[[ja:Explorer Notes/Boris]]
+[[ru:Заметки Первопроходцев/Борис]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Boris is a modern day graduate student.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Journals===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Grad Journal Boris #1 (Aberration)
+| text = The pawn sacrifices itself to defend the king. At least Emilia Müller realized that in the end. That is all that can be said for her.<br/><br/>The others think me callous, but this is simply the way of things. Even here amongst the demons, these rules apply. For example, the largest of the pack that slew Emilia summoned and commanded its lesser brethren.<br/><br/>However, I do not think that was a king. No, it serves something grander. I could feel its bond, the same bond that I've felt in the strange metal that inhabits these caves. It's almost like a melody of some kind, a siren song drifting up from the depths. Down there is where the true king lies, and I intend to find him.
+| author = Boris
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Boris #2 (Aberration)
+| text = Though our number was once five, only two of us have ever mattered. Only Imamu and I posses the strength of will and presence of mind to discover this place's secrets. If he can discard his inner weakness, perhaps we may find it together. If he cannot, then in the end it will come to blood.<br/><br/>The more he wastes his time comforting that brainless mule, Trent, the more I fear it will be the latter. A shame, but I will do what I must. The deeper we delve, the stronger I hear the call, and I am destined to answer it. This labyrinth is mine to conquer, of nothing else have I been so certain.
+| author = Boris
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Boris #3 (Aberration)
+| text = When I called this place a labyrinth, it occurred to me that eventually I would have to face its minotaur, though I had not expected that day to come so soon.<br/><br/>It was a towering, savage hellspawn, with wicked claws and a tail like a great, spiny serpent. We were fending off another pack of those hairless demons when it burst forth from the ground, roaring and hissing. Needless to say, we immediately fled.<br/><br/>Yet fortune is often borne of chaos. In our haste, we lost our sense of direction, and stumbled upon something wondrous - a glowing metal artifact unlike anything I have ever seen. If these caverns are the labyrinth and that alien creature the minotaur, then surely this is its treasure.
+| author = Boris
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Boris #4 (Aberration)
+| text = Yes, I understand now! All of this is by design. This place, these creatures, our arrival...he orchestrated it all as a test. This artifact isn't the prize, it is simply a token, proof that I am worthy! It is the key that will unlock the path below, and at its end I will find the king. There I will find the Master.<br/><br/>Although if this is the key, then where is the door? That terminal we passed by earlier? Yes, that must be it. I need only convince the others to head in that direction, and then... <br/><br/>It is as I said before, sacrifices must be made. That is the way of things. That is the way of the Master.
+| author = Boris
+| icon = NoteGradStudent.png
+}}
+
+{{Explorer Note
+| title = Grad Journal Boris #5 (Aberration)
+| text = I said I was willing to die and that appears to be the natural course of action. On the way back from the terminal I was attacked by a pack of ravagers and negligently injured. Ah, I was so foolish to try and rush back! My injuries are far too severe to make it back to camp in good health.<br/><br/>When we were scouting locations for a camp, we were malnourished. In a state of clumsiness, Rusty slipped and fell a great distance off the edge of a cliff. He pleaded with me to carry him, but I knew this wasn't a reasonable request. It would have been foolish to let his body go to waste.<br/><br/>Now I have the same fate, although, it won't all be a waste. It seems I've found a clue to unlocking the terminals. An artifact. Trent and Imamu must continue where I have failed. Unlocking the key to existence.
+| author = Boris
+| icon = NoteGradStudent.png
+}}</div>
+</div>

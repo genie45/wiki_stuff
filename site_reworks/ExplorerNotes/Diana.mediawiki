@@ -1,0 +1,375 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Diana Altaras]]
+[[fr:Notes des explorateurs/Diana Altaras]]
+[[ja:Explorer Notes/Diana Altaras]]
+[[ru:Заметки Первопроходцев/Диана Алтарас]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Diana Altaras is a United Republics of Earth (URE) Armed Forces pilot from the future.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Logs===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Diana Log #1 (Aberration)
+| text = I shouldn't be leading this group.<br/>Wow, that felt good to admit. If I'd kept that bottled up in my head any longer, my brain was going to explode. I mean, I know why everyone's looking to me: I'm URE Armed Forces. "Fighting for a free and united Earth," yadda yadda yadda, but I'm just a pilot! Throw me in any squadron you want and I'll be your top stick, bet the house on it, just don't expect me to command the damned thing.<br/><br/>All I can really do is try to keep everyone's spirits up. Sure we're in the ass end of nowhere, but a smile and a few laughs can go a long way in even the worst of situations. Can't make rations out of it but hey, baby steps.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #2 (Aberration)
+| text = You know, this whole "staving off the ever looming spectre of despair" thing would be a lot easier without all the dinosaurs. Did I not mention those? I should have mentioned those. Anyway, turns out that raptor attacks aren't so great for morale. True story.<br/><br/>At least the weather's holding up. We've had clear skies for three days now. It was a good idea to start giving people callsigns, too. Getting a new callsign from my squadron always made me feel closer to them, whatever it was. Hopefully it works with this bunch.<br/><br/>The newbie suggested Rubberneck for me, since I keep looking at the sky, but I can't help it. It really is gorgeous here. A perfect blue.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #3 (Aberration)
+| text = I feel so much lighter now! Sure, part of that might come from sleeping in an actual bed, but mostly I'm just relieved that my ragtag band of rascals is in better hands.<br/><br/>This larger group we joined is way more organized. They've been setting up shelters, mining Element and establishing a perimeter for weeks. Not surprising. One of the leaders is URE special forces, after all.<br/><br/>Weirdly, some of the the people here are from the Federation, but given our situation, even the Feddies are being team players. Hope that truce holds up when we get this TEK gear up and running...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #4 (Aberration)
+| text = The more the camp's grown, the more tense things have become with the Feddies, so today I decided to break the ice. Whatever's happening between the United Republics of Earth and the Terran Federation in the rest of the world doesn’t matter. We're all in this together, right?<br/><br/>Of course, with my dumb luck, I didn't make nice with just any old Feddie. I unknowingly buddied up to Santiago. Yeah, as in the Santiago that's so famous he's only got one name, as in the guy who hacked into URE command one day and reverse engineered our latest TEK armor the next. That Santiago.<br/><br/>Turns out he's really into pop music. Super disappointed he's missing the new season of URE Idol. Go figure.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #5 (Aberration)
+| text = The top brass finally agreed on a plan today. According to our makeshift engineering corps, we've got the resources to cobble together an off-brand, flight ready suit of TEK armor in a month or two. One person will then take that armor and leave in search of help: me.<br/><br/>I'm fully certified for TEK armor, so I've got a good shot at succeeding, and I'm pretty sure that my new buddy was the one who got the other Feddies on board. I was the only pick they could agree on.<br/><br/>It's a lot of pressure, but this is the kind I like. No big group decisions, just a set of wings and an impossible mission. That's what Diana Altaras is all about.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #6 (Aberration)
+| text = Oh baby, did I miss real speed! And the sky! Missed you too, beautiful. That prototype jetpack might not compare to my fighter, but the rush I got was way better than I'd hoped. Guess I've been stuck here for longer than I thought.<br/><br/>Santiago's been joking about how much I owe him, but he's more right than he knows. I promised to bring him some music for the ride back to civilization. Least I can do for that little nerd.<br/><br/>The full set of armor should be done by next week. Then it's finally showtime.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #7 (Aberration)
+| text = So much for that. Less than a day after I set out, my mission hit a wall, or more specifically, an invisible energy barrier that extends around this entire area. Definitely in my bottom ten landings of all time, by the way. My shoulder's still feeling it.<br/><br/>Once I reported back, I took Santiago to inspect the barrier. He thinks it's also the culprit that's responsible for jamming our long range signals. So basically, as long as this barrier exists, we have no way to reach the outside world. We're completely isolated.<br/><br/>Unless, of course, we find a way to take it down.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #8 (Aberration)
+| text = We've finally found our target. Apparently those three obelisks on the horizon are attached to some crazy teleportation tech, and each one is linked to a fourth signal high above us.<br/><br/>Whatever's up there is what we need to take out.<br/><br/>Santiago says he can get us there by bypassing the security on one of the obelisk's platforms. Trouble is, we don't know what'll be waiting for us, and not everyone here's combat ready. So we're going to take the diplomatic approach and make our mysterious hosts a present.<br/><br/>The leaders don't want to risk spoiling the surprise, so we're discretely building it in pieces. The whole bomb won't even be assembled until the minute the operation starts. Our captors won't know what hit them.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #9 (Aberration)
+| text = Months of planning, a squad of guys armed to the teeth and the biggest homemade bomb you've ever seen...and we still weren't prepared. How could we be? I don't think anyone could have been ready for that insane, shapeshifting whatever-it-was.<br/><br/>It attacked us as soon as we carted the package to the center of the platform. We were getting taken out so fast that we just set the bomb on a short fuse and made a break for it. Less than half of us managed to dive off of the platform in time, and I could feel the heat of the explosion as I fell.<br/><br/>If I hadn't stabilized Santiago on the way down, he'd have been paste too. Of course with everything that's been happening since we blew up that platform, we all might be screwed anyway.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #10 (Aberration)
+| text = Things have gone sideways in a hurry, and I mean seriously FUBAR. Destroying that platform didn't just weaken the barrier trapping us here, it took out the whole freaking sky, or at least the giant hologram that was posing as it.<br/><br/>So yeah, turns out this entire landmass and everything on it is orbiting the Earth like some kind of artificial space island. Wild right? I'd appreciate the sheer insanity of that a lot more if this place didn't feel like it was falling apart.<br/><br/>We're taking all we can carry and making a break for that cave system we discovered a while back. If the atmosphere's thicker underground, then we've got a shot of pulling through.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #11 (Aberration)
+| text = Looks like we made it just in time. I backtracked to take a peek at the surface, and it's just one big fire. That's not a metaphor, I mean it's actually burning.<br/><br/>I guess some combination of the radiation that's leaking through the barrier and reflected sunlight is turning it into our own private hellscape. That's not exactly the kind of thing you want in your backyard, so the plan is to keep delving into these caverns.<br/><br/>The good news is that they're way bigger than we ever thought. We should be able to set up a pretty extensive base of operations, and after that...better not think that far ahead. Chin up and eyes forward, soldier.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #12 (Aberration)
+| text = Our base is looking pretty fancy these days. We even had enough spare Element to whip up some genuine Hyper Chambers. I'm feeling more rested than ever, yet somehow just as restless. There's no sky to lose myself in anymore, that's the problem. It's left me too much time to think.<br/><br/>Weirdly, I keep coming back to my necklace, the Star of David one my mother gave me. Sometimes I catch myself reaching for it, forgetting it's not there. Why is that? I've never been too religious.<br/><br/>Better take one of those gliders for a spin to clear my head - they're the only way to fly now that our jetpacks stopped working. Maybe I'll think of some dirtier jokes while I'm at it. Halsted one upped me on the last patrol and I can't let that stand.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #13 (Aberration)
+| text = I always knew Santiago would come up with a new plan! His taste in pop idols might be questionable, but if anyone can figure this place out, it's him.<br/><br/>After studying the obelisks in-depth, he's convinced that he can design an amped up version of their teleportation tech that can connect to more distant platforms. Specifically, it would be able to lock onto a signal we discovered a few weeks ago, one that's on a slightly different frequency than all the other obelisks we've detected. More importantly, it's far, far away from any of them.<br/><br/>The scale of this would be massive, we're talking years of work, but everyone agrees that it's our best move. The Gateway Project is officially underway.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #14 (Aberration)
+| text = I knew the Gateway Project would be gigantic, but it's still amazing to see how it's grown. We're not even halfway done and it's already a sight to behold.<br/><br/>The size is a product of how far we need to travel. The greater the distance, the bigger the teleportation matrix needs to be. Of course, that means we'll also need a lot more power, but we've got a solution for that too: the obelisks.<br/><br/>Those bad boys are tapped into this place's main power supply, so in theory we can hijack that power for ourselves. The caveat is that we'd need a massive surge of it all at once, and we're not certain how to pull that off. We'll crack that code eventually, though. I'm sure of it.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #15 (Aberration)
+| text = Why do I always get picked to check on the obelisk? I really wish they'd send someone else for a change.<br/><br/>Every time I have to scale these stupid walls with climbing picks, I wish my armor's jetpack still worked, even though it hasn't for years. We never did figure out why they lost so much functionality after the catastrophe. Something new in the atmosphere maybe. It's still worth wearing when we brave the surface, but I just feel so slow in it.<br/><br/>Oh! Speaking of armor, I found something weird on my last trip: a burnt out chestplate and some even crispier human remains. I don't know how, but I think we've got some new arrivals...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #16 (Aberration)
+| text = This woman, Mei-Yin... she's not like anyone I've ever met, and not just because she's from hundreds of years in the past. It's those eyes, they're just so intense. It's like staring into a storm.<br/><br/>She caused a real stir when we first brought her back to base with her pet monster, but everyone's used to her by now. Honestly I think she trusts us way less than we trust her. She only seems to speak when she's doing chores, and she's always got one hand on that sword of hers.<br/><br/>I guess that's what it takes to survive all alone like that, but hopefully she'll learn that it's okay to let her guard down. Maybe then I can really meet the person behind those eyes.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #17 (Aberration)
+| text = I don't think I really understood hard work until I met Mei.<br/><br/>Whether she's learning how to operate holographic controls or working on her aim, she basically tries as hard as she can all the time, and she hates asking for help. Instead, she'll just scrunch her eyebrows and glare at whatever she's working on until she can think of a solution. It's kind of adorable, to be honest.<br/><br/>The only time I think she takes it easy is when we're sparring. That really opened her up, by the way. She even gave me a callsign, Juzi, although she won't tell me what it means. I'd bet the answer on a match, but she'd kick my butt in a heartbeat if she got serious. Those muscles are cheat codes.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #18 (Aberration)
+| text = Well, looks like I'm off on another impossible mission. It's been way too long, if you ask me.<br/><br/>So those abandoned structures that scout team spotted a while back? Well we're still not sure who left them there, but Santiago says that he's detecting the emissions from what could be hypercharged, crystallized Element shards in their vicinity. We need those for the Gateway Project's focusing lens, and we haven't been able to make them ourselves.<br/><br/>The trouble is, we can't even survive down there without hazard suits, and half of that scout team got torn to pieces by the nastiest, ugliest creatures we've ever seen. This could get bumpy...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #19 (Aberration)
+| text = Mission Log: First Lieutenant Diana Altaras, URE 82nd Fighter Squadron<br/><br/>I'm leaving this for the record, in the event of mission failure. We lost most of the team soon after arriving in the area of operations. Roho and Flynn got picked off as we neared the target. Halsted and I are the last remaining assets.<br/><br/>I was able to confirm that the target is in the ruins, and have encoded the coordinates within this message. I'm going to leave this behind, and then we'll make one last run at it.<br/><br/>Oh, and if someone could read this to Mei: Sorry I'll never make good on that jet ride. You'd have loved it, I promise.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #20 (Aberration)
+| text = I finally finished the necklace. I could have had someone else make it, but that wouldn't have felt right, not after all Mei went through to help me. At first I was worried she didn't like it, but it turns out that she just felt guilty for receiving a gift without giving one.<br/><br/>Typical, right? So in exchange, I finally learned what Juzi meant - Tangerine. This whole time, she's been calling me Tangerine! Definitely not the worst ginger centric callsign I've had though, and totally worth it for that look on her face. She was so embarrassed!<br/><br/>In that moment, I almost leaned in and...but I don't think she understands how I feel. Not completely. Not yet.<br/><br/>That's okay. For once, I'm not in a rush. Once we step through that gateway, we'll have all the time in the world.
+| author = Diana
+| icon = NoteDiana.png
+}}</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Extinction Explorer Notes===
+<div class="mw-collapsible-content">
+
+{{Explorer Note
+| title = Diana Log #1 (Extinction)
+| text = Am I really alive? This doesn't look like any hell I've ever heard of, and I feel like heaven would have better groundskeeping. The problem is, I'm pretty sure I died.<br/><br/>I remember drawing that monster away from the gateway, a ton of pain, and Mei's face looking down at me. I held onto that sight as long as I could, until the darkness crept in, and I fell into a cold void. The rest is kind of fuzzy, but I remember a voice.<br/><br/>"Help. You have to help."<br/><br/>And now I'm here, butt-ass naked with a familiar hunk of metal stuck in my forearm. Yeah, I'm definitely alive, there's no way this stupid thing would itch so much if I were dead. Guess that means I'd better make myself some clothes, and maybe some kind of ointment...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #2 (Extinction)
+| text = Right before things went crazy, Santiago mentioned something about human cloning chambers over the radio. That's the only explanation for this comeback tour of mine that makes any sense: I'm a clone. So does that mean I'm just a copy of the original, or is it possible that my consciousness was stored somewhere and then put into a new body?<br/><br/>This is so weird, especially since it's never happened to anyone before. We lost plenty of people back on that station, but not one of them ever came back to life. Death was a one way ticket, period. So why am I the only exception? Is it that voice, did it do this to me?<br/><br/>Okay, that's creepy. The voice just answered me. It said, "Yes."
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #3 (Extinction)
+| text = All right, time to pull the plug on all this soul searching crap. I'm positive my memories are real, so whether I'm some off-brand clone or not, for the sake of those memories I'm going to treat this like a second chance. There's no way I'm going to waste it, no way!<br/><br/>I've got some basic equipment together now, and based on my surroundings, I'm definitely planetside. That means if the Gateway Project was successful, then Santiago, Helena, Mei-Yin and the others are somewhere out there. All I have to do is find them.<br/><br/>The voice mentioned something about help. If they're in trouble, then I hope they can hang on for a little longer. I'm on my way!
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #4 (Extinction)
+| text = I keep feeling these tugs on my mind as I travel, like I'm being led somewhere. Under normal circumstances I'd start to question my sanity for trusting the guidance of a disembodied voice, but considering recent events, I think I'd be even crazier to ignore it.<br/><br/>My creepy, unseen benefactor's being pretty vague though. When it comes to dealing with these security drones and general survival, I'm on my own, but that's nothing I can't handle. This city's got tons of cover if I need it and good vantage points for scouting ahead, so shaking off any bogeys shouldn't be a problem.<br/><br/>I've got to say though, after all that work we put into escaping that station, it's kind of a drag that the planet isn't any better off. Figures, right?
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #5 (Extinction)
+| text = So this city's the ultimate fate of civilization, huh? A bunch of crumbling, overgrown buildings, crawling with all the insects we left behind? I guess you can't say no one warned us.<br/><br/>A lot of people fought real hard to keep something like this from happening, myself included, and turns out the apocalypse showed up anyway. I always thought we'd stave it off myself. I guess I just believed in us, you know? Humanity, I mean.<br/><br/>But even knowing it was going to end up like this, I don't think I'd do anything different. Regrets aren't my style. Besides, there's a few of us humans still kicking. Who knows, someday these buildings could be full again, but until then I get a spacious corner apartment rent free. Not too shabby.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #6 (Extinction)
+| text = They were here, no doubt about that. There's scoring from TEK weapons all over, and while I can't pin down exactly how old they are, the gaps they burned in the foliage mean they're not ancient. The caliber on some of these are huge though, way bigger than a rifle. Don't tell me Santiago built a freaking tank?<br/><br/>Guess I'll find out soon enough. The tugging on my mind is growing stronger. Something's nearby that the voice wants me to see. Whatever it is, I'd better take a careful approach. I'm not exactly brimming with firepower, and I don't have Mei's gift for taming animals, so I'm all alone here. Can't afford any dumb mistakes.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #7 (Extinction)
+| text = You really outdid yourself with this mech, Santiago. Even busted up and slumped against a building, it's one impressive machine, and it looks like you made sure it went down swinging. Would've been a blast to put it through its paces together, like we did with that TEK armor when we first met. <br/><br/>It's not right that you died here all alone, after everything you did. The Gateway Project gave us hope for the future, and you made it possible. Honestly I'm not sure why the voice would bring me back and not you too. It doesn't seem fair.<br/><br/>Now said voice is saying "sorry" over and over again in my head, so it must have tried. Well don't worry, mysterious-ethereal-whatever-you-are, one miracle's enough. For both you and Santiago, I'll make it count. Bank on it.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #8 (Extinction)
+| text = It took a beating, but with a little more work, I think I can get this beauty running again.<br/><br/>It won't take long to get used to the controls, either. They were clearly designed so that even someone without a single hour in a simulator could take the wheel on a more basic level, but there's a lot of advanced settings here too. I'll have it dancing like a fifty ton ballerina in no time. It's enough to make a girl giddy.<br/><br/>Santiago, if you were here right now, I'd kiss you. You certainly deserve more than the grave I made for you, so I'll just have to pay my respects by showing off what your last brainchild can really do. Hope you're watching.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #9 (Extinction)
+| text = Systems online and engines purring. My MEK is go for launch, so whatever did this better watch its ass. Payback's coming.<br/><br/>I'm competent enough with TEK armor and a rifle, but if you really want to see me make magic happen, put me inside a cockpit. I might specialize in fighters, but I've aced all the simulations with just about every vehicle in the URE arsenal. It doesn't matter if it's got wheels, wings or legs, with a machine like this at my fingertips, there's no such thing as impossible.<br/><br/>All right, mystery voice, keep that target locked for me. Reinforcements are en route, and you'd better believe we're bringing the thunder.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #10 (Extinction)
+| text = My timing couldn't have been better. I followed the tugs on my mind until I came across a colossal, walking forest bearing down on a lone figure. I'm still not entirely sure what that thing was, but all it is now is the world's biggest salad.<br/><br/>As for the survivor, I knew who she was before I even saw the hypnotic tempest in those eyes. Who else stands so tall in the face of death? Who else could call me here from so far away? Who else but you, Li Mei-Yin?<br/><br/>Considering I came all the way back from the dead, I probably should have had a better line in my back pocket than, "Miss me, beautiful" But hey, I sure didn't hear her complaining.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #11 (Extinction)
+| text = That Mei held out for so long might be a bigger miracle than my second chance at life. When the elation wore off, she practically collapsed in my arms, as if her legs could no longer bear the weight she carried. <br/><br/>I haven't asked what happened yet, but I can see the hell she dragged herself through in the rings beneath her eyes and the bruises on her body, not to mention her damaged MEK. Just how many battles has she fought out here all by herself?<br/><br/>Well that ends today. After all she's done, she's earned her rest. It's my turn to take point.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #12 (Extinction)
+| text = Mei's been getting me caught up while we repair her MEK. Apparently her friend from the other station, Helena, became delirious after using some kind of artifact to fend off those big monsters. Long story short, that stunt put her in a coma, and she ended up dissolving into a beam of light.<br/><br/>In other words, they were knee deep in some seriously trippy shit. Of course, I was recently resurrected and hear a voice in my head, so I can't exactly throw stones.<br/><br/>It's too bad about Helena. We got along well, even if I only knew her for a short time, and she risked her life to help us back in those caves. Whatever happened to her, I hope she's at peace.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #13 (Extinction)
+| text = I needed to cannibalize some parts from my own machine to get it done, but Mei's MEK is back online. Time to move out, at least if this mystery voice can be trusted.<br/><br/>If you ask Mei, it shouldn't be. After all she went through with Helena, I get why she'd be cautious when it comes to unseen, prophetic entities, but this is the same voice that led me back to her. I can't dismiss it now.<br/><br/>I should probably stop calling it a voice though.Thinking about it, it doesn't really make a sound. Its words just...appear, like they were written in the back of my mind by an invisible hand. What should I use instead though? Does it have a name? Or maybe...did it used to?<br/><br/>Weird. It doesn't seem to know.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #14 (Extinction)
+| text = We've been travelling together for a couple days now, and Mei hasn't let me out of her sight for more than thirty seconds. While it's sweet that she's being so protective, we've had to talk a bit about separating our relationship in and out of combat.<br/><br/>See, while any good pilot has to watch their wingman's six, they also have to trust their ability to handle themselves. If she's constantly trying to save me, our MEKs are going to end up stomping on each other's toes. I think she's starting to understand that.<br/><br/>She didn't like my joke about getting another do over if I bit it again, though. My second coming's sponsor wasn't laughing either. Apparently, it's not sure it can replicate my revival. Fine by me, this last shot's all I need.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #15 (Extinction)
+| text = Now that we're fighting in sync, we've been able to handle any threat this place has thrown our way. Piece of cake! Those big guys though, like the walking forest I took down or the ones who made these tracks, they might be trouble in a sustained fight.<br/><br/>But based on what Mei's told me and the hidden systems I've discovered inside this puppy, Santiago had already built the perfect counter for them. Originally, there were four of these MEKs, and they were designed to fuse together into one giant, badass superweapon<br/><br/>With firepower like that, we'd smoke those lumbering titans in an instant, but unfortunately two of the MEKs were abandoned in battle. Too bad, I'd have loved to take it for a spin.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #16 (Extinction)
+| text = I think I can see where we're being led. I can't make out all the details yet, but there's a bunch of communication arrays that stand out against the horizon. Could be military, like a command post or major communications relay.<br/><br/>Whatever force is guiding us along bought itself a lot of trust by reuniting me with Mei-Yin, but now that our destination is within reach, I'm starting to get curious. What does it want us to do when we get there? Are there other survivors that we can contact with those arrays?<br/><br/>For once, I'm not getting a response to my questions. Maybe we're supposed to find out for ourselves...or maybe we should go in there with safeties off.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #17 (Extinction)
+| text = Structurally, this building's basically a bunker. The walls look durable enough to withstand a few dozen megatons of force, and they're built to last. That alone told me it was important, but it was nothing compared to the sprawling, circular control center we found inside.<br/><br/>Rows of consoles cascade out from middle of the room, and the walls are lined with massive screens. While everything here's wearing a fine coat of dust, I see lights flashing and status reports flowing. This entire facility is still operational, and it's the heart of everything we've been through - the space stations we were on are all being monitored right here!<br/><br/>Guess I know what we're here for now. Better roll up my sleeves, this is going to be a ton of data to sort through...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #18 (Extinction)
+| text = Mei says Helena called the space stations ARKs, and that they were meant to restore life to the planet. That's consistent with what I've found here, but there's a problem. The Reseed Protocol, the final step of the restoration process, is being blocked by what it calls "Element Toxicity Rating."<br/><br/>Now that I think about it, there are a ton of Element veins out there, way more than I remember. It must have spread across the whole planet. Based on these readings, it even infected the lower layers of its crust. After witnessing what raw Element can do to a living thing first hand, I can see how that'd be a problem.<br/><br/>It looks like the ARKs have some built in tech to reduce the ETR around them once they make landfall, but right now it's just too high for them to handle. Something's spreading it, and protecting it to boot. Those big monsters out there, they're the problem - the titans.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #19 (Extinction)
+| text = These titans remind me of combat drones. This control center has tracked their general migration patterns, and to my eye, they're almost like troop movements. When they decide to swarm something, they come from all over, like something's commanding them. Not to mention they spread Element everywhere they go. So basically, before the Reseed Protocol can be triggered, the titans need to be eliminated.<br/><br/>Normally I'd be all gung ho about an impossible mission like that, but the number of titans we'd have to take down is nuts. Mei and I might be a killer power couple, if I do say so myself, but even we'd die of old age before we ever made a dent in the their population.<br/><br/>There must be something we can do though. I did find lots of references to a place called "Arat Prime," off on the other side of the planet. Looks promising, but...well now isn't that interesting. Our favorite mystery being seems to think so too. Is that where it's leading us?
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #20 (Extinction)
+| text = Now that we know what this faceless tour guide in the sky actually wants from us, Mei and I had a long talk about next steps.<br/><br/>On the one hand, after going through the ringer, it's awfully tempting to settle down and just enjoy the apocalypse together. On the other hand, I've got a resurrection to repay, and keeping Earth from dying seems kind of important. I do live here, after all.<br/><br/>Who am I kidding? I was always voting for the dangerous option. As for Mei-Yin, I guess she's actually been hearing said guide herself these days, and amazingly that's all the convincing it took. She says she trusts the way it speaks, almost like it's familiar to her.<br/><br/>We must be out of our freaking minds to do this, but hey, at least we're going mad together.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #21 (Extinction)
+| text = Things have taken a bit of a turn, or rather we've taken one - in the exact opposite direction of that absurdly huge lizard we spotted.<br/><br/>As big as those other titans are, they're puny compared to this guy, and according to Mei-Yin, he packs a punch to match. She would know, she fought it before - when it killed all my other friends. While that means I owe him some retribution, it also means we're seriously outgunned.<br/><br/>Unfortunately, he keeps following us even when we change course, like he's got our scent. He's still a day or two behind us, but eventually he'll catch up. When he does, we need to have an escape plan, because barring a serious upgrade in firepower...wait. Maybe we have that after all...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #22 (Extinction)
+| text = This is an all or nothing gamble. If we can't repair the two MEKs that got left behind the last time this King of the Titans came out to play, then we're just going to die where everyone else did.<br/><br/>But if we can get them up and running somehow, then we can fuse all four of them and form Santiago's super weapon! With the damage these MEKs have sustained and only two pilots, it won't be at full capacity, but lucky for us I'm the top ace in the whole damn URE. As long the engine's running and the guns are loaded, I can give us a chance.<br/><br/>Okay, break's over. From here on, we're heading towards that battlefield at full burn.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #23 (Extinction)
+| text = I'd been bracing myself for this ever since we set out, but the sight of decaying corpses and shattered equipment was still hard to take. I knew everyone here for years, they were basically my new family. Pulling Kazuma out from beneath his MEK just about triggered the water works.<br/><br/>I can't mourn just yet though. There's no time, and I don't want to give Mei any more reasons to blame herself. What happened wasn't her fault, she made the right call. If she'd thrown her life away instead of escaping when she had the chance, we wouldn't have a shot at payback at all. So for now, we've got to put the blinders on and keep each other focused<br/><br/>Shit. It sounds so easy when I write it down...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #24 (Extinction)
+| text = Yes! Hell yeah! They actually started! They're still pretty banged up, even with the repairs, but both of the abandoned MEKs are operational. Now we've just got to fuse all four of them together.<br/><br/>We've got time to spare too. Our guest of honor is still a ways off. He's slowly lumbering towards us, like it's inevitable that we're going to roll over and die for him. Well guess what, asshole? The only thing that's gonna roll here is that nasty looking head of yours.<br/><br/>Man, my blood is pumping just thinking about it, but I'd better rein it in. When that thing gets here, I'm going to need every ounce of adrenaline I've got.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #25 (Extinction)
+| text = Santiago, you crazy little genius, I owe you another kiss. This baby's beautiful! I've never seen a weapon like it. The MEKs fused so completely that it's as if they were never separated at all, and the power this combined, MegaMEK is packing is off the charts.<br/><br/>Even though it's only at 70% capacity, it should still be enough to take that titan down. That sword looks like it could cut a skyscraper in half, and its defensive systems can take a serious beating.<br/><br/>The only tricky part is the fact that it needs four pilots, and we only have two. The good news? One of those pilots is me.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #26 (Extinction)
+| text = Okay, it's done. I've managed to slave the legs, head and left arm to my controls. Mei's better than me at hand-to-hand, so she'll still pilot the sword arm, but anything more than that would overwhelm her with information and technological complexity. <br/><br/>In other words, when we enter combat, I'm going to assume control of 75% of the MegaMEK's systems. It'll be a mental and physical strain, but I'm prepared to take it. Like I said, it's my turn to carry the load, and I'm in my wheelhouse here. If there's anyone who can handle this, it's me. Not like there's time for another plan anyway - the titan's almost here.<br/><br/>All right you ugly son of a bitch, let's go!
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #27 (Extinction)
+| text = The titan's initial assault was intense, but we fended it off by staying on the defensive. Something that powerful would be used to winning quickly, so we knew that if we could weather that first storm, it was sure to hesitate.<br/><br/>When that moment came, we turned up the heat. From there on it was a high octane slug-fest. Our clashes felt like they might shatter the ground beneath us, until we finally landed a critical blow to its torso.<br/><br/>Based on the way it flailed and hissed when we struck, I don't think it had ever been wounded so badly. So in the end, that was enough to send it packing, nursing the giant, bloody X that we carved into its chest.<br/><br/>Take that, asshole! And don't come back!
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #28 (Extinction)
+| text = Hopefully that's the last we see of that titan, because as sweet as some more permanent revenge would be, fighting it a second time might be pushing our luck.<br/><br/>By the time I exited the cockpit, my nose was bleeding, and hours later I'm still wobbly on my feet. Controlling three MEKs at once in a sustained combat scenario should definitely be filed under "don't try this at home," and trying to pilot all four is probably a fast track to an aneurysm.<br/><br/>On top of that, our MegaMEK is basically held together by bubble gum and dreams at this point. At full power and with four pilots, it might be able to kill that big bastard, but we're lacking on both fronts. So all told, we did as well as we could have hoped. Think I deserve a victory nap...
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #29 (Extinction)
+| text = We finished marking the last of the graves a few hours ago. It was hard to say goodbye, but having recently died myself, I know that sitting here and crying my eyes out for a week straight won't help them. Hopefully they find peace within that void, or something better beyond it.<br/><br/>Now it's just me, Mei-Yin and the long road ahead. Well, and the faceless presence that's guiding us down that road of course. I've already started to feel the tugs pulling me towards Arat Prime.<br/><br/>Not sure what's waiting for us there, but with Mei by my side and a dangerous mission in front of us, I'm just going to relax and enjoy the ride. I can admit that I'm certifiable for saying so, but this kind of life? It's just my speed.
+| author = Diana
+| icon = NoteDiana.png
+}}
+
+{{Explorer Note
+| title = Diana Log #30 (Extinction)
+| text = Mission Log: First Lieutenant Diana Altaras, URE 82nd Fighter Squadron, and Li Mei-Yin of Yi, Beast Queen of the Jungle, the Depths and the Wastes<br/><br/>If you're reading this, then like us, then you managed to break free of the ARKs. So welcome to Earth, kid. Hope you like ravaged hellscapes, because the bad news is you’re late to the apocalypse. The good news is you can do something about it.<br/><br/>The two of us are going to do what we can to help, but it won't be enough. You see those huge, ugly monsters out there? They need to be cleared out, or Earth can't recover. Also, if you see one with an X shaped scar on its chest, do me a favor and flip it off before you finish it.<br/><br/>We'll do our part. The rest is up to you. Good luck.
+| author = Diana
+| icon = NoteDiana.png
+}}
+</div>
+</div>

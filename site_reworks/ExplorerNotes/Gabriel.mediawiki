@@ -1,0 +1,226 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[fr:Notes des explorateurs/Gabriel]]
+[[ru:Заметки Первопроходцев/Габриэль]]
+{{MissingTranslations|es|ja|de|it|pl|pt-br}}
+</noinclude>__NOTOC__
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Genesis: Part 2===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Explorer Note Gabriel 1
+| text = I remember the days spent working my claim.<br/><br/>With my own two hands, I dug my fortune from the earth.<br/><br/>Then the Anglos took that from me, along with my land and my life.<br/><br/>And so I fell into darkness, only to rise again in Purgatory.<br/><br/>There I found myself beset by monsters and demons in a delirium of otherworldly domains.<br/><br/>While I struggled toward my expiation, an angel joined me and called out words of encouragement with a woman's voice.<br/><br/>She asked me to join her in mortal combat with her adversary, but I chose to follow a second voice that promised me reincarnation and restitution.<br/><br/>And so I woke again in a celestial garden, with a shining gem set in one of my new forearms.<br/><br/>The voice of my deliverer returned then, to guide me to a set of the same magical armor I'd worn in the afterlife.<br/><br/>I knew then my trials weren't over.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 2
+| text = I wandered lost in that garden for some time, transfixed by its impossible sky...<br/><br/>I could see that everything around me lay on the inner rim of a gleaming wheel that arched overhead, from horizon to horizon.<br/><br/>There was another wheel alongside this one, and together they rolled through the firmament.<br/><br/>The sight of them brought back something I'd heard slaves singing in the Anglos' gold mines: "Ezekiel saw a wheel, way up in the middle of the air..."<br/><br/>Then I recalled an old image of a snake looping around to devour itself.<br/><br/>Where had I seen that...?<br/><br/>In my adult life I figured anything spiritual had long since been ground out of me, but that was before I'd been banished to purgation.<br/><br/>I quieted my mind to listen for the voices of the exalted, only to hear from another soul lost in that garden. <br/><br/>My magic helmet showed me a hidden door in the ground nearby.<br/><br/>Did I dare enter?
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 3
+| text = I'm not proud to admit it took me a long while to work up the courage to venture underground.<br/><br/>The trapdoor led down into a sort of mineshaft, shored up with the same kind of smooth metal making up the wheel in the sky overhead.<br/><br/>Again I felt fear, before a young girl spoke to me from across the chamber.<br/><br/>At first I had trouble understanding her, but somehow her words gradually became sensible.<br/><br/>I thought I heard her call me 'conquistador', which confused me until I remembered my helmet, and removed it to set her at ease.<br/><br/>As I did that, I realized she'd said something more like 'colonizer'.<br/><br/>I resented being cast in the role of villain, but I saw that she wasn't afraid of me.<br/><br/>I told her she shouldn't have risked leading me to her hideaway, since she was alone and unarmed.<br/><br/>She waved away my concern, and introduced herself as Nida before offering something to eat and drink.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 4
+| text = This Nida claims to come from a long line of caretakers who lived out their lives tending their gardens in the sky.<br/><br/>She says we're under attack by some kind of invading force.<br/><br/>I was shown visions of creatures and lands twisted out of shape in the other garden-wheel.<br/><br/>I felt pathetic and weak, once I understood how far outside my own time and place I truly was.<br/><br/>Nida told me my trials in the netherworld that she called Genesis should have prepared me for our coming fight, but I was less sure.<br/><br/>Then she showed me the colossal mechanical mules the caretakers use to work the land, how those can cut through solid rock with spears of light as bright as the sun.<br/><br/>And I saw how we may not be as powerless as I'd feared.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 5
+| text = I finally asked Nida about the strange metal she calls Element.<br/><br/>I've been unable to keep my eyes off it.<br/><br/>She said it was among the strongest substances ever discovered, and that it powers nearly everything around us, from my magic armor to her giant, mechanical stryders.<br/><br/>I felt foolish for having risked and eventually given my life for a few pounds of gold, now that I see what can be done with this metal.<br/><br/>It's hard not to covet such wonders, though Nida said that their miracles came at a terrible cost.<br/><br/>She claimed Element polluted the Earth, and that now it was polluting their sky-gardens.<br/><br/>I asked if the invasive force taking over her wheels had brought this pollution with it.<br/><br/>Nida seemed surprised by my question but agreed that did seem like a strong possibility.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 6
+| text = That night I dreamt I was heating Nida's Element in a crucible, fixing its volatile form into material with endless potential.<br/><br/>I poured the result into a mold to cast a blade, hammering to fold the metal again and again, to strengthen it and work out its impurities.<br/><br/>As I lifted my blade to inspect its edge, I saw an unfamiliar reflection in its mirrored surface-the face of a sorcerer or cultist.<br/><br/>I looked around myself and saw that I was in a vaulted chamber of some dark catacomb, the center of its ceiling open to the bright, full moon overhead.<br/><br/>From the shadows of the chamber, a disembodied voice praised my work on the blade...<br/><br/>I woke in the warren of chambers under the garden, unsure of myself.<br/><br/>Was I a prospector bushwhacked by an Anglo mob in the country of the Mother Lode, or an ancient alchemist honing his mystic arts under the Mediterranean shore?
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 7
+| text = Nida's been training me on the workings of the stryders wandering the gardens above us.<br/><br/>She says they follow their own will but we can break them like gigantic wild mules, and use them to storm the other wheel.<br/><br/>I try to remind myself she's a clever girl from a time long after my own, but still it irritates me when she talks down to me as if I’m some niño tonto.<br/><br/>Maybe that's why I'm not convinced that I need to help fight her invader. <br/><br/>On the other hand, I sat out the war to defend the ranchos of Alta California from Anglo invaders, and those malparidos ended up killing me for my property.<br/><br/>I have here a rare chance to revenge myself on an occupying force, even if I have no claim to these gardens or their mineral wealth.<br/><br/>Maybe I can earn a larger plot of land on whatever world we eventually settle...
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 8
+| text = We ventured above ground to look for styders, and spotted two right away, roaming toward an outcropping of rocks.<br/>It was a long hike to reach them, and Nida insisted on doing it by night.<br/>For the first time, it occurred to me to wonder how there could even be day and night on these wheels.<br/>Did her people take the sun with them, when they flew off into the stars?<br/>Before we'd come topside, Nida showed me how to use her magic gear to look around in the dark.<br/>It was distracting - I'd keep stopping to gawk at things I shouldn’t be able to see at all.<br/>I took the lead since I was the one in armor, but the girl managed to keep pace with me.<br/>We caught up with the stryders while they were standing snout-to-snout, as if they were conversing somehow.<br/>They were so massive, it took my breath away to be close to them.<br/>Now I just had to trust that the girl knew how to tame those mechanical hulks.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 9
+| text = Nida stood at the feet of the colossal four-legged machines, and fiddled with some device in her hand.<br/><br/>One of the stryders dipped its head toward the ground and I made a fool of myself by jumping in front of her.<br/><br/>Even though I knew it was a machine, I'd still half-expected it to snatch her up in its metal jaws to eat her alive.<br/><br/>She shook her head at me with a smirk, and then she turned to grab handholds to haul herself up onto its neck.<br/><br/>From there, she was able to scramble up onto its back, where a sort of saddle platform folded into place seemingly from nowhere for her to stand on.<br/><br/>After a moment, the second stryder dropped its head for my benefit, but I opted to follow the girl up to where she was standing on the first one.<br/><br/>It seemed wiser to learn from her how to tame and ride these behemoths before attempting it myself.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 10
+| text = I spent the better part of the next day or two-or cycles, as Nida would say-learning from the girl, as she put a stryder through its paces.<br/><br/>High on the machine's back, we rode it uphill and into what looked like scablands riven by channels she hoped were deep enough to conceal us from view.<br/><br/>She showed me how to coax the machine into spearing canyon walls with a light bright enough to blast away rock.<br/><br/>I knew mining wasn't the point of her demonstration, but I couldn't resist asking Nida to drop the stryder's head low enough for me to climb down and inspect the rock cut for valuable ore.<br/><br/>I didn't find any trace of gold in the rubble pile, but a bright violet shard caught my eye.<br/><br/>Something made me snatch it up and hide it away before Nida could notice it.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 11
+| text = In my dreams that night I found myself back in the necropolis under...Alessandro?<br/><br/>No-Alexandria, on the coast of Egypt.<br/><br/>Even that deep under the city, I could smell the sea.<br/><br/>My torch lit sculpted images of double-crowned snakes, carved from the bedrock walls around me.<br/><br/>I was carrying dead weight over one shoulder-an orphan, taken from the steps of the Serapeum above.<br/><br/>The deepest halls of the catacomb were partially flooded, and cold salt water tugged at the trailing folds of my cloak.<br/><br/>A groan of confusion, and the child at my shoulder struggled in vain against the effects of the mandrake root.<br/><br/>I was confident in my dosage-she wouldn't be able to rouse herself from her delirium in time.<br/><br/>No-what was I doing?<br/><br/>I jerked awake on a canyon floor, staring up at our stryders standing watch over us, flashing their blue lights into the darkness.<br/><br/>I swore I could still feel the dream-dagger strapped to my leg.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 12
+| text = All through the next day, the unease of my dream sat with me.<br/><br/>I couldn't focus on whatever Nida was trying to tell me about the dire threat to her garden and its noble purpose.<br/><br/>We were riding giant machines across a landscape her people had managed to launch into the void, and still I was fretting over some occultist's scheme from thousands of years gone.<br/><br/>I couldn't be sure it was just a dream anymore.<br/><br/>I'd returned to that man's skin twice now, seen the light of another time through his eyes.<br/><br/>His life seemed no more remote, no less my own than the one I'd lived by the Río de los Americanos.<br/><br/>Which of these men was I?<br/><br/>Both?<br/><br/>Neither?<br/><br/>Had I really been dragged back from oblivion to fight for the people of this undreamt-of future?<br/><br/>Was I damned to skip like a stone across history for my barely-remembered mortal sins?
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 13
+| text = Near dark, the girl was excited to show me something.<br/><br/>She'd pried open one of her hidden doors and pressed her magic device against the machinery inside.<br/><br/>I didn't follow what she tried to explain to me next...<br/><br/>Nida said I was wired to connect to a sort of game she'd made, from my time in the shadowland she called Genesis.<br/><br/>Then she did something, and all at once I was on another world, in a new body.<br/><br/>There were no wheels overhead, only a setting sun scudded with clouds.<br/><br/>I struggled to understand-had I ever truly been in Nida's sky-garden?<br/><br/>I called to her, but instead heard the voice of the angel I'd met in Purgatory.<br/><br/>The angel told me something important.<br/><br/>Then I was yanked back into reality, if this was actually reality.<br/><br/>Nida grinned at me and asked what I thought, and I got sick all over the canyon floor.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 14
+| text = It wasn't too late to let go of the malice in my heart.<br/><br/>That was what the angel assured me in the dreamworld that Nida dropped me into, the one with the setting sun.<br/><br/>Speaking of Nida, the girl pouted for hours after I reacted poorly to the hallucination she forced on me.<br/><br/>I couldn't understand why she seemed to expect praise for what she'd done.<br/><br/>I don't trust my own sensations, my own memories.<br/><br/>I wonder if I've ever left perdition, if this ring of gardens might not be another breaking wheel for my infernal soul.<br/><br/>In the dark I lie awake, afraid to dream again, and wonder if this girl is some demon assigned to torment me.<br/><br/>And then his voice whispers to me, the one who woke me from Genesis and led me to my armor.<br/><br/>He tells me the angel lied.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 15
+| text = I was careless, and the girl found the treasure I'd been concealing.<br/><br/> I had taken out the shard of Element while she was sleeping, trying to remember what my other self had done in my dream to  fix its volatile form into workable metal.<br/><br/>I turned it back and forth in the dark.<br/><br/>Its glow was mesmerizing.<br/><br/>I must have fallen asleep trying to recover my dream-memory, and left it laying out by my side.<br/><br/>Nida warned me that the metal was dangerous to human flesh in this form, unstable.<br/><br/>She demanded to know what I was planning to do with it, if I'd cut myself with its sharp edges.<br/><br/>She scolded me like a child caught toying with fire, and I snapped at her like a wounded dog.<br/><br/>Neither of us spoke again for a long time after that.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 16
+| text = That other voice whispered to me again while Nida and I rode in silence toward the edge of the wheel.<br/><br/>It reassured me that the Element I'd recovered was my own to keep and asked why I'd let this girl draft me into fighting for a cause that was none of my concern.<br/><br/>Was I really in such a hurry to die again, after so little time back among the living?<br/><br/>We stopped to rest and eat in an alpine meadow.<br/><br/>While Nida was gathering berries I saw my moment.<br/><br/>I took advantage of the training she'd given me over the previous days to take one of the stryders and ride it away on my own for the canyonlands.<br/><br/>I wasn't sure if she'd be able to call the stryder back at a distance, but it's also possible that she decided to just let me go.<br/><br/>I was free now to use the power of this great machine of hers to my own ends.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 17
+| text = I rode my stolen stryder back toward where I thought the canyons might be, searching for the vein of ore we'd found before.<br/><br/>Every so often I'd stop the mechanical juggernaut and force it to blast at the rock outcroppings, dismounting to dig through mounds of rubble looking for the telltale violet glow of pure Element.<br/><br/>It didn't take me long to realize that all my methods of reckoning direction or distance were useless in this place.<br/><br/>By night there was no polestar to follow north.<br/>In fact, all the stars were strange to me.<br/><br/>By day their miraculous miniature sun threaded the wheels on its odd, straight track with no regard for east or west.<br/><br/>I was utterly lost again in the garden.<br/>I wondered if the girl was pressing on without me, to fight the invader in the other wheel.<br/><br/>If she ever tried to find me in the immensity of that landscape, I saw no sign.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 18
+| text = My dreams were fevered by regret during the time I fled from Nida.<br/><br/>In the dark I relived the helpless rage that set me after the claim-jumpers who followed me to search my tent.<br/><br/>Those men said I had no right to stay in their new American state.<br/><br/>They threatened to bring me to the local authorities to hang for some invented crime, their word against mine.<br/><br/>I broke away and circled back through the forest to kill them.<br/><br/>But they saw me coming and overpowered me.<br/><br/>I spat at them, gave them ideas by telling them what I'd have done to each of them if only I'd managed to catch them alone.<br/><br/>And they made me regret that.<br/><br/>With my last breath I cursed them, promising them that what they'd stolen from me would only bring them sorrow and torment.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 19
+| text = By daylight I fumed at myself for running off on my own.<br/><br/>My pride and stubborn self-reliance has only ever brought me ruination.<br/><br/>I turned my stryder back toward where I'd left Nida, near the edges of this wheel.<br/><br/>I set aside my own desire to recover the mineral wealth I had lost once, and my half-memories of a previous life's pursuit of power.<br/><br/>There was only this moment, and this chance to do something right, for once in my miserable existence.<br/><br/>I pushed the machine to its breaking point, urging it into a full gallop toward the girl I'd abandoned to an unfair fight.<br/><br/>As I re-crossed that landscape shame gnawed at me, for the way I'd reacted to the dream she'd painted for me.<br/><br/>She'd only wanted to show me a sunset on the world I was destined to tame, far from these gardens she and her people had kept alive for a future they never thought they'd see.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 20
+| text = Fear gripped my heart as I caught up with Nida near the edge of the wheel.<br/><br/> I had to fight my overwhelming urge to retreat again.<br/><br/>This close, I could plainly see how thin the glass was holding back all the land, water, and air from the cold void beyond.<br/><br/>The girl had dismounted her stryder by some sort of metal podium.<br/><br/>I climbed down off of my machine to join her.<br/><br/> She paid no mind to my approach, and went on tinkering with something near the base of the podium.<br/><br/> I fumbled through a pathetic apology directed at the back of her head, with no sign that she'd heard me.<br/><br/>Eventually, Nida stood up and touched a switch on the podium that opened a huge, circular door in front of us<br/>.<br/>The girl climbed back onto her stryder without a word, and headed through the doorway.<br/><br/> I scrambled to catch up and follow her into that other wheel.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 21
+| text = All manner of steam and blinding lights played over us as we passed through a series of antechambers astride our colossal machines. <br/><br/>At last, another of the circular doors opened and we passed through the portal into the befouled gardens beyond.<br/><br/>The sickly sweet stink of this place was nauseating.<br/><br/>We were confronted immediately by a vision of desecration-corpses of the sky-people hung on spikes and scattered about the entrance.<br/><br/>A warning for any remaining interlopers, no doubt.<br/><br/>At my distance from Nida her expression was unreadable, but I could imagine the girl's horror.<br/><br/>This might prove to be all that was left of her crewmates.<br/><br/>I dismounted to join her on the ground after she climbed down from her stryder.<br/><br/>Her face was wet with tears, but she radiated a righteous fury that I identified with all too well.<br/><br/>In silence, we buried her friends in the poisoned earth while our mechanical mounts shifted nervously above us on their bechromed hooves.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 22
+| text = Every moment spent in that unhallowed hellscape was a struggle to remain sensible.<br/><br/>What I experienced was beyond trepidation-the place pressed on me, like skeletal fingers were squeezing my scalp.<br/><br/>What had been done to the lands in that wheel was profane, a debasement of creation itself.<br/><br/>Something was unmaking the natural order, melting it to fix into unholy new forms for some unknowable end.<br/><br/>Bad enough that those poor sky-people had been massacred, but we could see now that all their generations of endeavor had been undone, from horizon to horizon.<br/><br/>Nida was inconsolable, not that I was in any shape to give comfort.<br/><br/>Not with that metronomic drone in my head, throbbing against my resolve.<br/><br/>You know what you need to do, it said.<br/><br/>I brought you back into this world.<br/><br/>I can make you whole, if you just do as I command.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 23
+| text = I forfeited all awareness of time and location in that toxic wasteland, no longer sure why we were there or what Nida thought we could do at this point to roll back catastrophe.<br/><br/>The thunder in my head exhausted me with demands for obedience, and at some point my waking mind fell into reverie.<br/><br/>I was lost again in the flooded labyrinth under Alexandria, shouldering my terrible burden to her final destination.<br/><br/>There was an eerie light in the darkness ahead, a purpurate glow from a secret sepulcher.<br/><br/>I dropped my guttering torch into the oily seawater lapping at my legs, to get a tighter grip on the insensible child I was carrying.<br/><br/>In that hidden chamber, I offered her up as sacrifice.<br/><br/>My lord promised vengeance against the cabal for banishing me.<br/><br/>Was its intonation coming from the shadows in that remembered vault, the glowing violet blade I'd forged, or the defiled wheel that was carrying Nida and I into the void?
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 24
+| text = I had no peace from the unceasing demands echoing in my mind.<br/><br/>They seemed to be coming from everywhere.<br/><br/>If Nida heard, she paid no mind.<br/><br/>The girl was locked into some unknown course of action.<br/><br/>Why wouldn't she share what she was planning with me?<br/><br/>Couldn't she see I'd joined her to offer what aid I could?<br/><br/>At the same time, our unnatural surroundings seemed to be pulsing a warning at us: YOU ARE UNWELCOME HERE-DO NOT INTERFERE.<br/><br/>Still the girl didn't react.<br/><br/>She must have seen-how could she remain so fixed in her purpose? <br/><br/>Finally I couldn't abide the tension any more, and signaled for her to stop and confer.<br/><br/>We dismounted and met at the feet of our stryders, though Nida kept her distance.<br/><br/>I asked what she was planning, and she asked why I was shouting.<br/><br/>She really didn't hear all the yowling.<br/><br/>That was when those strange finned creatures attacked us.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 25
+| text = Just ahead of the attack, our stryders sounded a shrill warning from on high.<br/><br/>I was glad that Nida had shown me how to rig our mounts with weapons at the ready, because they were able to open fire on the incoming predators while we scrambled for cover.<br/><br/>Explosions erupted all around us, spraying us with gobbets of the slimy groundcover.<br/><br/>Nida began to run to our right, then changed her mind and ducked back to the left.<br/><br/>She got to her hands and knees to dig in the muck underfoot, then turned to ask what I was waiting for.<br/><br/>I helped her rip away mats of gluey sludge to uncover a hidden hatch, just as the pride of attacking creatures crested the ridge above us.<br/><br/>Their weird, spiny manes thrummed with excitement as they spotted us.<br/><br/>Nida pried open the hatch and we dove into the darkness under the landscape.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 26
+| text = The tunnels under that defiled garden wheel were pitch-dark and fouled with sullage.<br/><br/>I lost my footing and we sloshed helplessly into cataracts of sleetch and putrescence that carried us leagues away from our attackers.<br/><br/>We scrabbled for purchase or handhold to slow our descent into the immeasurable depths, to little avail.<br/><br/>We slid further and further into that muculent ductwork, bits of flotsam devoured by a stygian monstrosity.<br/><br/>It felt like untold miles of malignant vasculature were crushing out my instinct to survive, overwhelming me with dread.<br/><br/>My wits caved in and I became desperate, mewling and clawing at the lining of those guts to escape.<br/><br/>I found something sharp in my hand and tore through those thick membranes, discharging the girl and I onto the floor of an abysmal chamber.<br/><br/>Exhausted beyond reason, I fell into unconsciousness.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 27
+| text = O Serapis, King of the Dead, Giver of Wealth, may my voice reach you in the depths of your chthonic dominion.<br/><br/>I am your humble servant, I who renamed myself Ixion.<br/><br/>Surely you are aware that all I have done was always, always in your honor.<br/><br/>The other adepts cast me from their circle, forced me to steal their papyri, so that I could build on their incomplete understanding of your arts.<br/><br/>In dreams, you told me how to refine the purpureal metal that would grant me divinity-with your blessing.<br/><br/>I ask you now to lend me the power to escape this indignity.<br/><br/>I gave you the girl, bled her at your altar and burned her in your hearth.<br/><br/>I freed her from her mortal tegument to reveal her holy energy.<br/><br/>Soldiers of the empire have me surrounded in your temple.<br/><br/>I beseech you to grant me the transcendence I sought from your arcane knowledge when they find me and cut me down.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 28
+| text = Life returned to me with a shrill brightness.<br/><br/>Weakly but with increasing desperation, I pulled out the tubes choking my airway.<br/><br/>I was drowning in viscous plasma, and then a lid opened so that I fell from my metal cocoon, blinded in the unaccustomed glare.<br/><br/>A diamond protruded from the flesh of my forearm.<br/><br/>I didn't understand-a moment ago I'd been in an afterworld populated by monsters.<br/><br/>Now I was in some metal nursery of cocoons like my own.<br/><br/>I wiped at the glass of one after another, to see people suspended in fluid and shot through with tubes and wires.<br/><br/>What was this place, and how did I come to be here?<br/><br/>Then there was a voice in my head, guiding me to a suit of supernatural armor.<br/><br/>I put it on, and the voice said, "Go now and find her."
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 29
+| text = Wheels chasing wheels.<br/><br/>A serpent devouring its own tail.<br/><br/>Oblivion swallowing awareness.<br/><br/>I woke again in the infernal throne room of my deliverer, his titanic excrescence exploded up one of the cavernous walls from floor to ceiling.<br/><br/>Every part of this place was him, eyes bulging from ulcerated flesh to gaze down on us, wounds become rictuses of triumph grinning from on high, tentacular limbs reaching for us from all sides.<br/><br/>There were too many sides in that vertiginous cavity, an impossibility of angles that never met.<br/><br/>I yelled to warn the girl, but of course she'd already taken it all in.<br/><br/>She was shouting her defiance up at the monumental face of our tormentor.<br/><br/>His voice came from all around as a deafening chorus.<br/><br/>He demanded that she submit and help him nurture his monstrous children by giving them new dreams.<br/><br/>He demanded that I help him mine the garden for a precious resource he called "Edmundium."<br/><br/>Of course we refused.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+
+{{Explorer Note
+| title = Explorer Note Gabriel 30
+| text = In the sarcoid cathedral of the antigod, we endured his seismic wrath.<br/><br/>Thunderous peals of his fury buffeted us.<br/><br/>Who were we to defy his cosmic malignity?<br/><br/>He promised we would submit one way or another, as something crawled up my back and attached itself to my head.<br/><br/>I felt my will to resist being drained away, and fell to my knees as the entirety of our environment roared in triumph.<br/><br/>It assured me I would go now to dig up more of the prima materia that belonged to him.<br/><br/>I remembered the elemental dagger clutched in my fist, and threw it to the girl.<br/><br/>"Go," I croaked with my dying strength.<br/><br/>As darkness overwhelmed me, I heard indignant howls follow Nida as she fled.<br/><br/>I hoped she would cut her way out and find a way to reverse this cycle of destruction.<br/><br/>Creation deserves its rightful turn in the sun.
+| author = Gabriel
+| icon = NoteGabriel.png
+}}
+</div>
+</div>

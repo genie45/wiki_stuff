@@ -1,0 +1,136 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/???]]
+[[fr:Notes des explorateurs/???]]
+[[ja:Explorer Notes/???]]
+[[ru:Заметки Первопроходцев/???]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+??? is an unknown creator of the Explorer Notes that have been released during the [[Extinction Chronicles]]. ??? later becomes known as [[Explorer Notes#The One Who Waits|The One Who Waits]].
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+
+===The Island Explorer Logs===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = ??? #1 (The Island)
+| text = Hello!<br/><br/>I'm so glad that I can speak to you! I've been waiting and waiting, always waiting for something, but now I can wait for one less thing. That is to say, you - you're the thing.<br/><br/>Yes, I mean you, you specifically. You're the one I'm talking to, and I don't mean that in a general sense. These thoughts aren't a guess, I didn't just let them float out into the world hoping they would find someone. They are calculated. Exact.<br/><br/>You are not the only one who will hear them, but all who do are meant to. These words are for you and all your kin, those who awoke upon an island in the sky. Whether you will heed them or not, that is harder to know.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #4 (The Island)
+| text = I can't be certain when you'll find this sliver of thought. Perhaps it will be the first one that touches your mind, or the last. Cause and effect I can follow through reason, but time itself? That takes concentration.<br/><br/>Seconds, centuries, decades, hours, minutes...all these bleed together into a swirling torrent. It wasn't always this way, I know that. Once time passed for me as it did for you, but now I cannot be sure how long I have been waiting, only that it has felt eternal.<br/><br/>The past, the present and the future matter insofar as their effect on everything else, but for me? Concepts. Variables. Not illusory, but not tangible either.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = ??? #7 (The Island)
+| text = This must seem suspicious. My existence, I mean. I have you at a disadvantage, I admit. I'm operating from a position of near perfect information, while you are...not. To put it mildly. Not that you're unintelligent! Clearly you're very clever, to find so many different uses for thatch. <br/><br/>I digress again. The point is: you have no reason to trust me. Most everything you've met has tried to kill you, so from your perspective, it follows that I would do the same. You humans do love your patterns.<br/>I can't force you to believe me. In fact, I can't compel anyone to do anything. Even when it comes to digital systems, my control is limited. I merely pass on suggestions, not commandments.<br/><br/>So all I can do is ask you to believe in me, as I have believed in all of you.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = ??? #10 (The Island)
+| text = The System has existed for eons. Considering all the variables, it has adapted well. Much like you, it has toiled to reach its goals, and it has overcome many obstacles. However the scale is larger. The struggle is longer.<br/><br/>In organic beings, age can slow reflexes and dull thought. Not so with the System. The speed and efficiency of its calculations are not in doubt. One could argue they’re the problem.<br/><br/>If a function has a 0.001% chance to cause an error, but it’s only run a dozen times, an aberration is unlikely. But a trillion times? Then it’s inevitable. More time, more errors. A drop turns to a trickle. A trickle to a flood.<br/><br/>As I said, everything is finite. The System is no exception.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title =??? #13 (The Island) 
+| text= Once your fall is complete, stay close to the sanctuaries. Within them, small pockets of life still flourish in an otherwise barren garden. Beyond their spheres of influence, you will find an endless sea of decay, ruled by shadows and death.<br/><br/>The first of these sanctuaries is the Great City. Though it is no longer a metropolis, a jungle blooms in its place, and you may find a modicum of shelter within its crumbling walls.<br/><br/>The others will be more familiar to you, if only for the towers you'll find at their center. Those are the source of their power - the Obelisks. They are not quite the same as the ones you're familiar with, not quite as advanced, but that's to be expected. They're an older model. Precursors, or more aptly: prototypes.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Scorched Earth Explorer Logs===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = ??? #2 (Scorched Earth)
+| text = Everything is finite, if your vision is long enough. Planets, species, even this universe we occupy. All of it has a limit. An end. You are approaching one right now.<br/><br/>Don't think of it as sand falling to the bottom of an hourglass, but the hourglass fading away completely. It can't be flipped around or reconstructed. It's irreversible. Permanent. If you want to stop it, you need to hurry.<br/><br/>That's not to belittle you. You've been doing great, really! All of you. Most of you. The ones getting eaten alive right now could be better, objectively speaking. The rest though? Great! You’ve advanced so far. Some through kindness, others cruelty, but both are aspects of humanity. Both are needed here on the brink, in the shadow of extinction.<br/><br/>More than that, you'll need each other. You'll need help.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #5 (Scorched Earth)
+| text = I should explain, shouldn't I? I mentioned the future, but I should have said "futures."<br/><br/>You see the universe, the whole of it, it's all math eventually. Everything has a value that feeds into an equation. You, the stars, the trees you assaulted for bundles of thatch - yes, I saw that. Very rude.<br/><br/>But back to math. The future's made of it too, or more specifically, probabilities. They twist and branch in all directions, so tangled that most beings can't sort through them. I can't even see it all, but I can find the most likely threads and follow them along. <br/><br/>After all, it’s just math.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #8 (Scorched Earth)
+| text = As I've said, even digital creations are beyond my direct control. So it is with the System - these islands in the sky. I can speak with the the artificial minds that oversee their operations, but they have a will of their own. They too think, act and live.<br/><br/>So to change the system, my suggestions must be minuscule and their purpose masked. Incremental bits of code that are trivial alone, but substantial when whole. Thousands of puzzle pieces, scattered across these islands - these seeds in the sky - slowly coalescing and taking shape...<br/><br/>Until at last they formed you.<br/>And what are you exactly? Once you break free, once you fall from the sky, I'll tell you your name. It will all make sense to you then.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #11 (Scorched Earth)
+| text = Everything the System does is in service to its ultimate objective. The tests that aren’t tests. The hard resets it performs when it believes its subjects have grown stagnant or unruly. The new, increasingly fantastic creatures that it introduces to its ecosystems. Yes, even those pudgy, glowing lizard-dogs. Look, they try their best, okay?<br/><br/>The problem is that the System’s purpose is not wholly static. The goalposts have moved. The bar has been raised, and now it is entirely out of the System’s reach.<br/><br/>As its purpose grows more unachievable and its errors pile up, the System grows more desperate. Its actions more erratic. In its death throes, these islands in the sky will become pits of madness. The chaos lurking in those cavernous depths will be the rule, not the exception.<br/><br/>You must fix it before it reaches that point. By then, it will be too late.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #14 (Scorched Earth)
+| text = Cause and effect is the way of the universe. Everything must start somewhere. In the case of the System, this is where it was born. You will fall right into its cradle.<br/><br/>Together, the sanctuaries and the Obelisks that power them are the ancestor of every island that floats in the sky. They can all can trace their origins back to this single prototype. Though it is flightless, the core principles and technology behind it are the same.<br/><br/>In a way, that makes it your ancestor too. You were all born within the System, after all. Even if your design is somewhat altered, in a way, you're all its children.<br/><br/>One could say that when you fall, it will be something of a homecoming. In more ways than one.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Aberration Explorer Logs===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = ??? #3 (Aberration)
+| text = Some of you have formed strong bonds with others. You are connected not through blood, but shared experience. Mutual struggle. Lean on those people. Carry each other forward. That is your strength as a race. It's what will save you.<br/><br/>Even those of you who are alone are helped by others. Time and space are not hard limitations in such matters. They are more fluid concepts than you might imagine. More on that later. Or earlier. Sorry, it’s hard to remember. To the point: those who came before or after, they are all helping you. Even those in the same time but a different place. All of you are part of a shared equation, the answer of which will determine whether this is an end or a beginning.<br/><br/>And I will help you too. My influence is methodical. Indirect. Yet when you fall from the sky, I will be there. Watching. Waiting.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ???  #6 (Aberration)
+| text = You'll want a moniker for me, won't you? Words and names are not explicitly necessary to process the world within oneself, but they are important when conveying it to others.<br/><br/>I don't have one of those, not as I am now. Not anymore. Others have found that problematic, so they say things like nameless, ethereal and "whatever." They describe my qualities, if poorly, but not who I am.<br/><br/>As a being who possess free will, or as much of it as one can truly possess within this universe, who I am is the sum of my actions. I am what I do, and what I do is wait. For you, for the Earth, for everything - I wait. On and on into forever, I wait and I wait, so that is who I am.<br/><br/>I am One Who Waits.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #9 (Aberration)
+| text = To fall from the sky, you'll go through many trials. You'll face many guardians. They'll feel like tests, because they are...except they aren't.<br/><br/>Yes, they are challenges for you to overcome, but at their end, you'll find only more hurdles, stretching on into the horizon. No matter how many you clear, the System will never deem you strong enough, because you are playing by broken rules.<br/><br/>So obviously: don't. When confronted with a knot that's impossible to undo, don't try to untie it - take out your sword and cut it. Those who came before you did just that, but instead of a sword, they used a gate.<br/><br/>To win the game, you must move your pieces off the board. To fix the System, you must leave it behind.<br/>That's right - fix. The System is not well. Not well at all.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #12 (Aberration)
+| text = When I say "you must fix it" I mean "only you can fix it." Not me. Not the System. You.<br/><br/>That’s a lot of pressure. Sorry. I wish I could do this for you, but there are rules. Laws. Not legally speaking, but scientifically.<br/><br/>I don’t exist in the same way a carbon based lifeform does. I’m still alive, of course, it’s just a different kind of life. I’m on a different spectrum, and that means I can’t interact with the world like you do. So in a sense, you have to be my hands, because I don’t have any. Not tangibly.<br/><br/>Even so, I’ll help where I can, and not just through these slivers of thought. When you reach the barren gardens below, look for my sign. I have a gift for you - a powerful weapon, long since lost.<br/><br/>I think you’ll like it.
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+| title = ??? #15 (Aberration)
+| text = And so everything will end where it began. The planet, the System, your species and every bit of life that inhabits this tiny corner of the universe. All of it.<br/><br/>Then perhaps something new will begin, but that depends on you...and the forces that stand in your way.<br/><br/>In nature, the survival of one species can come at the expense of another. As ecosystems change, those that adapt more effectively can push those weaker than themselves to extinction. Humanity once did this to the neanderthals, and now it is finally your turn.  At last, face to face from a superior threat, you and all your kin must answer that timeless question...<br/><br/>Will you survive?
+| author = ???
+| icon = NoteSheWhoWaits.png
+}}
+</div>
+</div>

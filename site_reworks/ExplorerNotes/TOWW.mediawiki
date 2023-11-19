@@ -1,0 +1,231 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/The One Who Waits]]
+[[fr:Notes des explorateurs/Celle Qui Attend]]
+[[ja:Explorer Notes/The One Who Waits]]
+[[ru:Заметки Первопроходцев/Тот, кто ждет]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+The One Who Waits is Helena Walker as an ascended Homo Deus, creator of Explorer Notes on [[Extinction]].
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Extinction Explorer Notes===
+<div class="mw-collapsible-content">
+
+{{Explorer Note
+| title = The One Who Waits #1
+| text = You made it! I knew you would, but it's still exciting to see the pieces fall into place. <br/><br/>Welcome home.<br/><br/>Home...yet another intangible, human concept. Some non-sentient species take up residence in a single location for shelter, hibernation or to raise their young. Yet none of them grow psychologically attached to a place in the same way humans do - a house, a town, a planet...<br/><br/>That's why this is so important. That's why the System exists as it does. There were other designs, backups if you will, but the System was the first choice. Humanity needs its home, and it's up to you to build it.<br/><br/>So I hope you brought your hammer. And some friends. And weapons. And friends that can be weapons. You're going to need lots of things, basically. This home is...well it's what you'd call a fixer-upper.
+| author = The One Who Waits
+| icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #2
+|text = This city has been empty for so long, far longer than it was full. Yet its prime was truly wondrous, short lived though it was - a city built by the hands of man under the guidance of something higher.<br/><br/>Its towers sparkled, machines filled its streets, and its people harvested miracles from the rivers of violet that flowed beneath its skin. It was a marvel. The pinnacle of technological advancement on this planet. It is here where the System was born, and the prototype was forged around it.<br/><br/>But those halcyon days are gone. Now all it offers you is some small protection against the shadows that lurk outside its walls, and even that will prove fleeting.<br/><br/>Make use of its skeleton, but do not rely on it. The shadows are seeping through its shield, and a different threat stalks within.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #3
+|text = As you find your planet-legs within these ruins, take heed of its ghosts. Wraiths of shining metal wander its halls, on a hunt that will never end. They used to be this city's protectors, but they have grown feral without their leash. To them, all are trespassers. All must be destroyed.<br/><br/>I tried to speak to them, to prepare for your fall. I thought my voice might be soothing. Familiar. That it would stir some long forgotten instinct, locked deep within their code.<br/><br/>But their ears were deaf to me. They only listen to each other now. Not even the System can reach them, and neither you nor I can subdue them.<br/><br/>There was one of your kind who could reforge them. Perhaps you can too. It is the only way you'll have their aid.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #4
+|text = The dangers within these walls are feeble compared to what lies beyond them - a realm of shadows, infected by a violet poison.<br/><br/>Once, that poison was thought to be gold. In some ways it still is. When refined and in small doses, it can do incredible things, but the line is thin. When it's crossed, those violet fingers seize mind and body in an unbreakable grip. Then it spreads and spreads, until all living things lie within its clutches, just as they are in the barren garden.<br/><br/>But before you brave that deadly frontier, I have a promise to keep. I said I'd tell you your name. Not the one you call yourself, or the one the System gave you. I mean the thing that defines you, as waiting defines me. A name that explains who you really are.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #5
+|text = So, you ask, who are you? Well you're you, but not just once. You're you over and over again.<br/><br/>I'll rephrase: if our identity is defined by our actions, then what is yours? Are you One Who Engages in Fisticuffs with Helpless Trees? No, what defines you is that you try again. Should you starve, you try again. Should you fall from a cliff, you try again. Should you be digested by some magnificent predator, you try again.<br/><br/>And now Earth, humanity, life...you can give all of it the chance to try again too, because you and all your siblings who fell from the sky are the Ones Who Try Again.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #6
+|text = To you, One Who Tries Again, death is a toothless creature, long past its prime. Yet for those who do not share your present, it was the apex of the apex. An unassailable predator, its grip absolute, until I pried that first soul from its clutches.<br/><br/>It was a happy accident, borne of desperation. Death, that inescapable hunter, closed in on its lonely prey and I couldn't bear the sight. I tried to pry its jaws open, but I had no hands. So blindly, I thrashed and cried for help until I stumbled upon her, one who could be those hands. One who could give that person more than I ever could.<br/><br/>My thoughts grasped her thread and tugged. Without knowing how, I pulled her back into the world for a second chance, and death lost its first tooth.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #7
+|text = In experimentation, consistency is important. Repetition, patterns, causality, those are the tools that build results, even where death is concerned. One successful trial was not a cure. The circumstances could have been specific, impossible to replicate even for the same subject. So that first time, one second chance for just one soul was all I could promise.<br/><br/>Yet in orbit, I had subjects beyond counting. So I tested. Endlessly, I tested. So many trials, so many failures, but out of them rose another success. Then an entire generation of them. Then at last, you.<br/><br/>I don't know how long it took. Centuries? Millenia? Time was especially murky for me then, but I still remember all the souls death claimed - the ones that faded before I could reach them. Even when I tried and tried, I could not make them whole again, no matter the effort. No matter the desire.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #8
+|text = You could say I went through a lot of trouble for you. I sacrificed, tested and studied, all for you. All so that you could experience death, learn from it, and carry that knowledge with you into another life.<br/><br/>That is my greatest gift to you - the critical piece in my strategy. It's what allowed you to defy the System and its broken rules. It's what will allow you to bring this planet back from the brink.<br/><br/>But it's not free. Each time you return from death's clutches, there's a toll. Not for you - for the System. It takes resources, and resources can't be created, only converted. <br/><br/>You see those islands in the sky are seeds, and when they fall, they'll need what's left of the System's energy to bloom. So when the barren garden is fully revived, you'll lose the ability to revive yourself.<br/><br/>I'm sorry about that, but this is the best plan I had.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #9
+|text = I keep telling you what I can't do, but I need you to understand: I'm neither omniscient nor omnipotent. Despite the moniker, I'm not a god. None of us are.<br/><br/>Homo Deus is just what humans called us.<br/><br/>It's hardly as glamorous as it sounds. Sometimes it feels like I'm watching the universe from behind a pane of glass, all alone in a tiny room. It's cramped. Sterile. Cold.<br/><br/>A bit shit, really.<br/><br/>So I don't like that title. This doesn't feel like godhood. Not that I wanted that anyway. Some of my elders might have, I suppose. Maybe they had a different experience. I'll never know - I didn't have the chance to ask them.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #10
+|text = I'm by far the most junior of us, but the rest of my kind can do even less than I. They cannot touch minds or leave slivers of thought. They rely on flawed proxies to oversee the grand System they created, for they can no longer manage it themselves.<br/><br/>It is not that they are weak, not at all. It is their power that nurtures the seeds that orbit our home, each one drawing strength from a member of our number. Yes, power they have, but nothing to guide it. Their identity, their sense of self, has decayed and crumbled.<br/><br/>Only I can speak for us. I, the youngest, the weakest and the last.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #11
+|text = How could ones such as my elders decay like they did? I once asked the same question, but no longer. No one told me the answer. I have simply felt it as I wait, bearing down on me, bit by bit.<br/><br/>Think, how much have you ever seen at once? Were you able to process it all, to take in every little detail? Now imagine doing that for two such images. Now a hundred. A thousand. Ten thousand. A million.<br/><br/>All that knowledge, all that information, flows into us. It's what let my elders build the System. It's what let me grant you your name, One Who Tries Again, and it's what lets me speak to you now.<br/><br/>Yet inevitably, our minds crumble beneath the weight of all that truth, and our souls? They turn to smoke.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #12
+|text = While my elders have lost themselves, I still cling to my own mind. My own heart. As much as both have changed, they are still mine, but my grip will not hold forever.<br/><br/>There's so much to see, so much to calculate and account for. While I speak to you, I measure the probabilities our conversation alters, and I observe another of your kin. So on and so on, ad infinitum. Without pause, without rest<br/><br/>There is no quiet for me anymore, no peaceful silence. I never valued it like I should have, but how could I have seen that? I knew so little then.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #13
+|text = I don't know when I'll follow those who came before me. My calculations concerning my own mind are inherently flawed. I only know that it's inevitable.<br/><br/>Until then, One Who Tries Again, I'll help you and all who share your name in the battles ahead. Yes, it will come to battle. It must. That enemy, the one who wants to see your kind fade away like the neanderthal, will not surrender.<br/><br/>Like me, it cannot fight directly. It acts through proxies and avatars. Some of these used to have wills of their own, but now they are slaves to the violet poison that courses through their veins. Now they are shadows of what they once were.<br/><br/>Others were always shadows, cast by the violet poison itself. They were born within it, and rose from its depths. For the truth is, it's more than just a poison. It's alive.<br/><br/>And it's the enemy.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #14
+|text = It was never normal. Always extraordinary. Always an enigma.<br/><br/>The uses for it were beyond counting. Hardier than tungsten. More versatile than copper. In the right form, its ability to generate electricity and produce radiation were unrivaled. It's no surprise then that things moved quickly - impact, discovery, invention and production. All in rapid succession.<br/><br/>It took generations to notice the change - far after the great cataclysm and the rise of my elders. By then its roots had reached the far corners of the garden, and still it spread. Replicating. Infecting. Those it had use for became its shadows. The rest, it devoured.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #15
+|text = It's unclear to me whether it was a matter of evolution or awakening. That is to say, I'm not certain if the violet poison turned into the all consuming virus it is now, or if it always was that way. Either is possible.<br/><br/>Was it an infection, carried across the universe like interstellar pollen, or a remarkable resource, mutated into a monstrosity? Was our garden invaded, or twisted by the greed and ambition of its keepers? I don't know the answer. I'm not sure it matters.<br/><br/>What's clear is that it's merciless. Unfeeling. It's driven by base instincts and primal emotion - propagation, hunger, and hatred - and it spreads those to its shadows. Hatred most of all.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #16
+|text = I have seen firsthand how the poison makes its shadows. I know how it takes lives and twists them, how it coaxes them onward with song and warmth. It promises them their every need and desire, but it only leads them down, down into the depths of madness. It is a pit so deep that none can return from it. Even the strongest. Even the most brilliant.<br/><br/>Yet the darkest shadows are the ones that were never truly alive to begin with, the ones born of the violet poison itself. Titanic manifestations of its ravenous hunger and endless hatred. <br/><br/>More than that, they are its avatars, made of its very essence. They carry pieces of the poison's collective consciousness, and they spread its influence. Destroying them would wound the poison itself.<br/><br/>They are both its strength and its weakness.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #17
+|text = All of this leads to you and your kin - the Ones Who Try Again - who have found the path from the seeds in the sky to the barren garden below. You can banish the shadows.<br/><br/>Some who share your name have already started. Some have yet to begin. Yet all of you play an important role. Each shadow that falls adds to the sum of your efforts, and if you fell them all, the poison will begin to recede. Then, when the seeds of life at last return home, they can purge what's left of it. That's what they were meant to do.<br/><br/>So keep trying, just for a little longer. Try and try again, just as you always have, until the seeds are planted and our garden world blooms once more. Then, at last, you will have tried enough.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #18
+|text = There is one that stands taller than all the others. His is the deepest, darkest shadow, a void so overwhelming that it can snuff out even the brightest of lights.<br/><br/>Yet this also makes him the most vital. Messages to the lesser shadows flow through him. It's his power that holds them together. He is a central pillar of the poison's strength and influence. A nerve tract, without which his lesser brethren would be lost. Should he fall, they would fall with him.<br/><br/>And as powerful as he is, he has felt his own mortality before, when blood seeped from the scars that linger on his chest. He can fall, and you can be the one to pull him down.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #19
+|text = Before you can expel this darkest of shadows, you'll have to hunt him down. For one so large, he hides quite well. It's vexing. I dislike it.<br/><br/>If you search for him blindly, you may search forever. So instead, call him to you. Use the voice of his lieutenants, and call out his name. Then he may appear before you, with all his wrath and fury. Then you'll have your chance.<br/><br/>But to speak with the voice of his lieutenants, you must take their hearts. Or if you can, take their minds, and pit their strength against his. However you do it, they are the key. You must begin with them.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #20
+|text = First among his lieutenants is the titan wreathed in green, the Lord of the Forest. Ever growing, ever consuming, the forest is both its kingdom and its body. Bones of wood sprout flesh of moss and leaves, and fingers made of vines reach out for the throats of its enemies.<br/><br/>It is the eldest of the trio, having started from a tiny weed, but grows ever taller as it assimilates the groves of its  verdant realm. Even if its body is chopped to bits, it will eventually regrow. So long as there is the forest, there will always be a lord.<br/><br/>That is, until you sever it from its master.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #21
+|text = Second among his lieutenants is the white giant of wind and rime, the Lord of Winter. It rules over the land of snow, but its breath is more frigid than any of the storms that howl across its domain. All who feel it turn to ice, frozen and unmoving.<br/><br/>A feral creature, it's more ravenous than the others. More beastlike. It's happy to tear and shred with fangs and claws, or impale its prey on spears of ice. To stalk, to kill...this desire consumes it, and it will follow that creed until there is no prey left to devour.<br/>Find its lair, turn the hunt upon the hunter and let the long winter thaw.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #22
+|text = Third among his lieutenants is the soaring leviathan, the Lord of Sand and Sky. It floats high above its desert kingdom, gliding on the waves of heat that rise up from the sand. Always, its flock surrounds it, feeding off its scraps and ready to defend it in a fevered frenzy.<br/><br/>Though the last of the trio, it's hardly the least of them. It's so massive and it flies so high that it fears no danger, defended only by its flock and the lightning that arcs unbidden from its body. Yet if something were to rise above it, perhaps then it may know doubt.<br/><br/>Find wings of your own, call it down from the clouds, and lay it low.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #23
+|text = With the hearts or minds of his three lieutenants in hand, you must travel across the wastes and walk the forbidden plains - into the heart of the barren garden. It's here where his power is strongest, but he will show himself nowhere else. He has no reason to step down from his throne.<br/><br/>Yet in this place, if you call him with the voices of his lessers, then he will come. With all the might and hatred of the violet poison from which he was born, he will answer your call:<br/><br/>The King of Shadows. The King of Death.<br/><br/>Do not summon him recklessly. Before you challenge him, you'll need to prepare. As it happens, this is one thing I can help you with.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #24
+|text = The King of Shadows looms over all, but no obstacle is insurmountable. No foe is immortal. You only need the right circumstances. The right tools.<br/><br/>The right weapon.<br/><br/>I did promise you a gift, didn't I? This is its nature. It's a weapon of heroes that was built to battle the shadow - wielded by few and forged by one. Its smith's soul may have faded, but his legacy is yours to carry on, so long as you can claim it.<br/><br/>However, I have made one slight alteration. When it was first conceived, it took four sets of hands to wield this weapon properly. Now a single pilot can use it with ease - one warrior controlling the power of four souls.<br/><br/>Look for my sign, and I can give you the keys to its construction. Yet take care in gathering them. The shadows can sense my influence upon them, and that will draw peril to their side, as it always has. So fight as heroes did, and should you succeed, their strength will be yours. Theirs, yours and mine. Together. As one.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #25
+|text = When at last the King has fallen from his throne of shadow forever, never to claim it again, the key will be yours. The key to the garden and all the life within its walls. The Key of Gaia.<br/><br/>With that key, you may call the seeds down from the sky, where at last they can take root. At last they can grow. After waiting for so long, our garden will bloom once more.<br/><br/>That is the final thing I wait for. That first moment of spring, that first blossoming flower, I have waited so long to see it. So long. An eternity.<br/><br/>I hope I can wait that long. If I can just hang on until that moment, then whenever my long rest may come, it will be a peaceful one
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #26
+|text = When the seeds are planted, others may yet awaken to join you. While I waited, they slept, dreaming of green fields, flowing rivers and clear blue skies. A dream of a perfect garden. A dream of Earth that we are making reality, you and I.<br/><br/>I don't dream myself. I see, I predict and I calculate. Dreams are a distortion of reality. Memories, hopes and fears twisted into a painting that defies logic. They are not accurate or useful at all, and yet there is some part of me that yearns for them, just as I yearn to see the sunrise.<br/><br/>When the sleepers awaken, I'd very much like watch one real sunrise with all of us together. That would be worth waiting for.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #27
+|text = The number of sleepers is few compared to the souls who faded. I told you about them, the ones I lost to death before I could overcome it. Even when I tried to create exact copies of them, the memories wouldn't take. All I could mold were lifeless shells. Empty statues of flesh.<br/><br/>At least death is a natural end. They didn't suffer when they found the void. Not like him, he who thought down was up and descended a ladder into madness. I could see him in those depths, that twisted place where torment and euphoria are reversed.<br/><br/>He brought that fate upon himself, but even so, I'm glad you put it to an end. Thank you.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #28
+|text = I'm grateful for your company too. Very grateful! I know I've been rambling. This conversation is quite one sided. I'm just glad for the chance to speak to another being, if only through these shards of thought.<br/><br/>As I've said, time and I are at odds, and I have no idea how long I've been waiting here. Alone. Completely alone.<br/><br/>My elders had lost their identities before I came to be. There were no others to teach me what I am. No one to speak to. No one to know. There never will be, for the path was shut behind me. No one else will rise to these heights from the tomb of man. I'm certain that is for the best, but selfishly, I sometimes wish it weren't the case.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #29
+|text = I hope these shards of thought are useful to you, but even if they aren't, remember what I said: none of you are truly in this alone.<br/><br/>Those who came before you - the first who escaped the System - are all lending you their strength. Not just through their great weapon, but through their deeds that paved the path you walk. Learn from them. Surpass them, if you can. They are counting on you as I am, as is every bit of life on this garden world.<br/><br/>Though the task is daunting, don't be too afraid of making mistakes. They did too, after all, but I treasure them anyway. In fact, some of those mistakes and imperfections are what I treasure the most.<br/><br/>That's the only thing I really fear about the long rest that awaits me - losing those memories. Losing them.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+
+{{Explorer Note
+|title = The One Who Waits #30
+|text = Sometime, in the midst of all your trying, success will seem so impossibly far away. Miles. Leagues. Lightyears. You'll begin to think you have tried all you can. There's no new angle to take, no more strength you have to give. That house you built, that companion you lost and that progress you made...now that it's gone, what's the point? Why keep trying?<br/><br/>In those moments, when you fall into that deepest, darkest pit inside yourself, try to remember that someone believes in you. Someone wants to prop you up.<br/><br/>And as dark as it gets, know that there will be another sunrise - for you, for the sleepers and for the Earth. I will wait as long as I can, in the hopes that I may see it with you, but even if I cannot, then I hope you'll enjoy it for me.<br/><br/>Because it's bound to be even more beautiful than the last.
+|author = The One Who Waits
+|icon = NoteSheWhoWaits.png
+}}
+</div>
+</div>

@@ -1,0 +1,336 @@
+<noinclude>
+{{Include}}
+{{ambox
+| color = yellow
+| icon = Carbonemys.png
+| type = If you came directly to this page you can find the other Explorer Notes on page [[Explorer Notes]].
+| info =
+}}
+[[de:Entdeckernotizen/Raia]]
+[[fr:Notes des explorateurs/Raia]]
+[[ja:Explorer Notes/Raia]]
+[[ru:Заметки Первопроходцев/Райа]]
+{{MissingTranslations|es|it|pl|pt-br|th}}
+</noinclude>__NOTOC__
+Raia is a priestess from Ancient Egypt. Her notes are written in hieroglyphs.
+
+<div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
+===Scorched Earth Explorer Tablets===
+<div class="mw-collapsible-content">
+{{Explorer Note
+| title = Raia Tablet #1 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Even at this distance the great Obelisk is beautiful. It is like a pillar of Amun-Ra's light given solid form. I wish we could have made our camp right beside it but the others thought that might draw unwanted attention. At least we are close enough to be in its shadow and drink from the river that runs beneath it.<br/>
+<small>[Right Pane]</small><br/>I always face it when I pray to Hathor and though i can feel the scepticism in my companions' gazes, my faith is unshaken, for it was my faith that guided us here to this place rich with water and resources. All agree it is the ideal location for a settlement. Wherever we are the gods are watching over us I know it.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #2 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Construction has been going well. None of us are architects, but we have been adjusting to our roles.
+
+<small>[Middle Pane]</small><br/>Girisha's broad shoulders and a booming laugh conceal a keen mind, and we started making better progress once I convinced him to stop hauling rocks and start drawing up plans that let Amir focus on starting a garden where he is more at home.
+
+<small>[Right Pane]</small><br/>I have focused on trying to keep us organized and maintaining our spirits myself. I wish I could do more, sadly while a priestess has many gifts, manual labor is not one of them. I often find myself winded before midday. I pray that the others do not find me burdensome.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #3 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Top Pane]</small><br/>Back in Luxor I always tried to stay out of politics. I never aspired to be Divine Adoratrice as some priestesses did. I found that such selfish ambitions often led to suffering both for oneself and for others.
+
+<small>[Middle Pane]</small><br/>So when Girisha referred to me as our leader today. I found myself surprised. I had never asked for such a position and the others had never bestowed it on me in any official manner. It just happened naturally.
+
+<small>[Bottom Pane]</small><br/>I am not sure what to make of it but if this is Hathor's will then I will try to guide these people as best as I can.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #4 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Our settlement has grown so quickly during these hectic months. So many wandering souls have found their way here seeking shelter and companionships, have done my best to welcome everyone I can. If treated with understanding most become productive loyal members of our community.
+
+<small>[Right Pane]</small><br/>But I am no fool. I know that hearts can have two natures. Hathor offers compassion while Sekhmet brings devastation. As we grow in size we become a riper target for those with malice in their hearts.
+
+Girisha has tried to organize a militia but I fear it inadequate. For now I must be wary and pray that the gods send us a true warrior.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #5 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>It took longer than I'd hope but I believe the gods have heard my prayers. At least I believe so. When I imagined what a true warrior might be like I cannot say that I imagined Captain Dahkeya.
+
+<small>[Middle Pane]</small><br/>He speaks tersely, has no sense of decorum and in general is rather prickly. He was nigh unapproachable for a whole day when we decided his position should be called captain instead of the nonsense word he proposed.
+
+<small>[Right Pane]</small><br/>Yet he has been getting results or so I am told. When I find time I ought to observe him in action myself.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #6 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Upper Left Pane]</small><br/> I am still not accustomed to the loud fiery weapons that our new captain is training his men to use. Their power is so destructive that it seems almost too much for any mortal man to possess. Yet captain Dahkeya strolls
+
+<small>[Lower Left Pane]</small><br/> up and down his line of trainees like they are wielding wooden swords, and twirls his own weapon almost absentmindedly.
+
+<small>[Right Pane]</small><br/> It is somewhat unnerving to find someone so calm around such potent instruments of death. But I suppose that is why he has had such success in securing our borders. I can only hope that we need but one captain Dahkeya and that I never have to use those weapons myself.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #7 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>It has been such a blessing to be able to spread Hathor's joy and love to so many people. At first my daily prayers garnered but a few curious observers. Yet soon observations turned to questions, and questions turned to participation. Now there are so many of us that we have even begun to construct a shrine.<br/>
+<small>[Right pane is identical to left pane but subtitle text is:]</small><br/>I truly wish that I could teach these eager new students all day long, but my duty to the village must come first. Perhaps when our future here is finally secured I shall be able to live the life of a priestess again, but for now I have too many people counting on me. I cannot abandon them.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #8 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Names are a curious thing. We assign them great weight, yet they do not change the substance of the person, place, or thing they belong to. I suppose that line of thinking is why I never dwelled on the name of our humble village. Yet now that it has grown to become somewhat less humble our home can go nameless no longer. People must call it something.<br/>
+<small>[Right Pane]</small><br/>To that end Nosti is as good a name as any. I am told that it means to know in some old important language, and whatever our citizens intended that to symbolize when they chose it  I know this: while we are here, we are under the protection of the gods.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #9 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Lost souls from all across the desert continue to prostrate themselves before Nosti's gates. I adamantly refuse to turn away anyone that does not mean us any harm, but I realize that has left us with many mouths to feed.
+
+<small>[Right Pane]</small><br/>As a result, Nosti's fields are its most valuable asset. Fortunately, Girisha's designs, and my organization of labor and resources have once again proven effective. Not only did we implement an efficient irrigation system, but we have encased our crops in a large protective structure made of a clear, shiny substance called glass.
+
+<small>[Lower Right Pane]</small><br/>Every morning it sparkles with a Amun-Ra's light, like a great gem, a beautiful reminder of what we can accomplish when we are united in purpose.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #10 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/> Despite our best efforts and the blessing of the gods, tragedy is unavoidable in these strange lands. Yesterday it struck Nosti once more in the form of a mantis attack, and while I could not undo what had been done I hope that I was able to bring some small comfort to those who knew the victims best.<br/>
+<small>[Right Pane]</small><br/> Though we lack the resources to properly inter the dead in tombs, we still held a ceremony in their memory and I made time to speak privately with anyone who wished to. Between that and my usual duties I am physically and emotionally exhausted, but when my people are suffering I can not afford to rest.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #11 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Early on I handled all of Nosti’s trade negotiations, and I have had trouble growing out of the habit. I suppose that is why every caravan or hunter that passes through our gates knows my name. Some still insist on speaking with me personally. But I do not mind. I find these dealings rather engaging. It is like playing a game of words.<br/>
+<small>[Right Pane]</small><br/>One such caravan arrived yesterday bearing a haul of metal ingots. Our venerable captain has suggested that I bring a contingent of guards to the negotiations, but I would rather not. If our guests are intimidated, they may back out and I would be remiss to waste such an opportunity.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #12 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>I shall gladly admit that I erred. I shall even admit that I owe Captain Dahkeya my life and offer him all the gratitude he is due. Yet that does not excuse such merciless behavior.
+
+<small>[Top Pane]</small><br/>Those so called merchants may have stooped to viciousness and cruelty by trying to kidnap me, but that one had surrendered. There was no need to execute him on the spot, was there? It is so hard to see where light ends and darkness begins in this violent place.
+
+<small>[Right Pane]</small><br/>Perhaps if I could adequately protect myself we could have avoided needless blood shed. Yes, I think it is time I shall master these explosive weapons, and Captain Dahkeya is going to help me.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #13 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Step by step I am learning how to shoot. During my first few lessons the weapons almost jumped out of my hand when I fired them, but my arms have grown stronger and my aim truer.
+
+<small>[Middle Pane]</small><br/>Captain Dahkeya’s presence has been helpful. The same calm that is found unnerving from afar has been steadying from up close. He does not waste his breath in exaggerated praise or criticism, he simply keeps me focused on what I need to do and every thing else just falls away.
+
+<small>[Right Pane]</small><br/>Considering where I started, he has been very patient with me. Perhaps I should be more patient with him.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #14 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>In ancient times, gentle Hathor took the form of the fierce warrior goddess Sekhmet, and unleashed her wrath upon the human world. Yet even during her relentless slaughter, Hathor was within Sekhmet as Sekhmet was always within Hathor, and when she was eventually calmed the peaceful goddess of joy and love returned.
+
+<small>[Upper Right Pane]</small><br/>As it is with the goddess, so it is with mankind. The vicious can become kind, and the kind hearted can become violent for all his past transgressions. Captain Dahkeya is no different.
+
+<small>[Lower Right Pane]</small><br/>He did not grasp Hathor and Sekhment’s tale when I told it to him the other day, but if he keeps trying to better himself, then perhaps one day he will.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #15 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Upper Left Pane]</small><br/>In principle, I have turned into a competent marksman. Yet in practice how would I fare? When the time comes, could I end another human life?
+
+<small>[Lower Left Pane]</small><br/>I am not so sure. My mouth grows dry with fear at the very thought. The warrior spirit of Sekhmet surely resides somewhere within the recesses of my heart, but search as I may, I can not find it.
+
+<small>[Right Pane]</small><br/>As training I offered to put down some of our beasts that had grown deathly ill. It was a merciful act, but it still drew tears from my eyes and twisted my stomach in to knots. I must learn to act in spite of these feelings. My life may depend on it one day.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #16 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Despite my best efforts, I know that I have strayed from the teachings and customs that I learned so meticulously back home. Out of necessity I have adapted it to both the needs of Hathor’s new followers and the circumstances we all face in this desert.
+
+<br/>For example, celebrating the gods with feasts and festivals in their name would be wasteful. This sacrifice is particularly unfortunate, for my students deserve some sort of reward for their diligence.
+
+<br/>Perhaps I can still organize a modest celebration of some sort. In fact, maybe the whole village should have one just to raise everyone’s spirits. Even our venerable Captain might enjoy that. Ah, but I ask for miracles.
+
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #17 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>I trust our Captain’s judgment on matters of defense, but I still feel ill at ease with his decision to sally against these mantises. It is not that he has left the village unprotected. Quite the contrary. I fear that his own contingent is too small.
+
+<small>[Upper Right Pane]</small><br/>I know that I should not be concerned. He personally vouched for the caliber of his team, and I have more immediate priorities. Our walls and gates need repairs, our infirmary needs supplies and our morale needs bolstering. I have been scrambling to and fro with such constant urgency that rings have formed beneath my eyes.
+
+<small>[Lower Right Pane]</small><br/>Yet when I finally earn a moments respite, I am restless with worry.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #18 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>The people of Nosti come from so many different places, and they all have different ways of thinking. On occasion this incites conflict.
+
+<small>[Right Pane]</small><br/>Several weeks ago two newcomers came to blows over a long standing feud between their home nations, and just the other day I had to harshly discipline one of my own disciples for harassing the villagers who worship that wooden cross. One time a man even challenged me to a duel for Nosti’s leadership.
+
+<small>[Bottom Pane]</small><br/>Yet those same two people who engaged in fisticuffs now work to repair our western gate, and it is stronger for their combined efforts. Perhaps that is why the gods have brought us all here. To help us understand each other.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #19 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>For days, I have prayed for both Hathor's compassion and Sekhmet's healing powers, and for days I have waited. I have faith that they heard me. When I first laid eyes on him, I thought for sure he was dead or dying, but the gods have not yet taken John Dahkeya away from me.<br/>
+<small>[Right Pane]</small><br/>My mind knows that I have other responsibilities to attend to, that I cannot afford to spend more time in this room. Yet I know that if I attempt to attend to my duties, my heart will interfere and I cannot neglect it. Not any longer.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #20 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Top Pane]</small><br/>Without question, it was Hathor's divine will that sent me here, not only so I could spread her joy and compassion, but so I could understand her love.
+<small>[Middle Pane]</small><br/>I thought I knew it before. I loved my family, I loved my fellow priestesses, and I love all those under my care here in Nosti. Yet only when I finally surrendered myself to it, when I let it rush over my body and carry me like the current of a great river did I truly understand it. Only now can I claim to embody Hathor's teachings, thanks to John Dahkeya, this warrior from a distant time and place.
+<small>[Bottom Pane]</small><br/>And now, together, we can turn this desert into a paradise.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #21 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Top Left Pane]</small><br/>The mood in Nosti has been so jubilant lately that I think we may just hold a festival after all, and why not? We have plenty of cause to celebrate.
+<small>[Top Right Pane]</small><br/>With the mantis threat diminished, our scouts were able to establish an outpost in the north, where they discovered a wealth of thick, black oil seeping through cracks in the earth. Thanks to this bounty, we have been able to create amazing new tools, and fill our storehouses to the brim. A festival would hardly make a dent.
+<small>[Bottom Pane]</small><br/>I am sure my beloved Captain will disagree. Ever the dutiful worrier. Fortunately, I can be quite convincing where John Dahkeya is concerned, and for one day, we deserve to supplant worry and duty with song and dance.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #22 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>As I watched Girisha's team construct the curious, bladed tower that is meant to harness the power of Shu's winds, I could not help but marvel at how far we have come. In such a short time, Nosti has risen from nothing into a true city, with wonders that would make even the great Pharaohs envious.<br/>
+<small>[Right Pane]</small><br/>For all its storms and monsters, this desert grows less threatening to us each day, and fewer people are forced to suffer and die by its hand. Perhaps one day, no one will. If we can achieve that, then every hardship and every sacrifice we have endured will have been worth it.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #23 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = Over the last few days, the lights of the great obelisks have been pulsing with a rhythm and intensity that I have never seen before. It is a beautiful, soothing sight, particularly at night. It almost looks like they are singing a song to the stars above. Surely this is a sign of the gods' favor. Hathor is offering us her blessing.<br/><br/>Having another festival would be exorbitant, so I have organized a special round of ceremonies and prayers after dusk instead. Thus far they have gone wonderfully, and everyone has left with renewed faith and vigor.<br/><br/>I wonder how long this display will last?
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #24 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>Sometimes, I wonder how John can carry on, with no faith in a higher purpose or power and eyes that see threats everywhere. Even when we are safe and secure, he insists on sleeping with a weapon at arms' length. It is no wonder that he suddenly believes the obelisks could be dangerous.<br/>
+<small>[Right Pane]</small><br/>Fortunately I have enough faith for the both of us. I have faith that he will protect us from the flying lizards that have recently appeared, I have faith that the obelisks would never harm us, and I even have faith that I shall forgive his constant prodding on the latter. That final matter might require some additional effort on his part, however. He has been simply relentless about it.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #25 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>What did I do wrong? Despite every trial and tribulation, I kept my faith in Hathor, Amun-Ra and all the gods. No I did more than that. I gave them new followers, I built shrines for them, and held ceremonies for them.
+<small>[Middle Pane]</small><br/>So why? Why did the obelisks light up the sky and call down such a terrible doom upon my new home? Why would the gods tear the very earth asunder and send all that I have built and cherished tumbling into the abyss? Where did I betray them?
+<small>[Right Pane]</small><br/>Were it not for John I would not even be able to ask such questions. I would just be some dead fool, whose last act would have been to beg for salvation from the very gods who have forsaken me.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #26 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>My mind is filled with the dead. I see the smiling faces of my students, eager to learn. I hear Girisha's laugh, deep and merry. I see the outstretched hand of John's trusted lieutenant as she fell into the darkness below.
+<small>[Middle Pane]</small><br/>John tells me not to blame myself, that what happened was unpredictable. Yet how can I not feel guilty when I led so many to worship the instruments of our destruction, all the while promising to keep them safe?
+<small>[Right Pane]</small><br/>Somehow, I must bury these emotions and focus on the present, as John does. If I cannot tear my mind away from what I have lost, I will lose all I have left. I cannot let that happen. I cannot let the gods take him too.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #27 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>You would have been proud of me. I controlled my breathing, just like you taught me, even with the tears streaming down my face. Even with all the hate and anger in my heart, I kept my aim steady, and I killed them. I killed them all, John.
+<small>[Top Right Pane]</small><br/>So why have you abandoned me, too? You were the survivor, not I. These creatures should not have been enough to kill you. You were too strong. I need you too much.
+<small>[Bottom Right Pane]</small><br/>Please. Come back to me. I need to hear your voice. I need to see your smile. Please. Please.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #28 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>When I found them, I wanted to smash them to bits. Those eggs were the spawn of the monsters that slew my beloved, and they did not deserve my pity. Yet I also knew they could help me. If I could raise these creatures as my own servants, then even those traitorous gods of mine could not strike me down.
+<small>[Middle Pane]</small><br/>I have constructed a great bonfire to mimic the warmth provided by their mother, and gathered milk from the mightiest of the fallen beasts so that I may feed them when they hatch. Hopefully it is enough.
+<small>[Right Pane]</small><br/>No, it will be. I will raise these creatures, I will master them and I will survive. I promise you, John. I will live for both of us.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #29 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Left Pane]</small><br/>When the creatures first hatched, I dared not go near them without weapon in hand, but by now we have grown accustomed to each other. I once heard that a newborn creature may identify the first living thing it sees as its parent. I believe that has occurred here. I have become a mother to monsters.
+<small>[Right Pane]</small><br/>So be it. The gods have forsaken me and my love has been taken from me, so gone now is the Raia of old. Gone are the last vestiges of Hathor's joy and tranquility. Let my heart fill with Sekhmet's might and fury, and with monsters at my back and steel in my hands, let the desert know my wrath.
+<small>[Bottom Pane]</small><br/>Never shall anyone take from me again, be it god, beast or man.
+| author = Raia
+| icon = NoteRaia.png
+}}
+
+{{Explorer Note
+| title = Raia Tablet #30 (Scorched Earth)
+| text = [Egyptian hieroglyphs]
+| translation = <small>[Top Pane]</small><br/>I have seen so much since we last spoke, John. There are secrets in this desert that you would never believe, dangers that would have paralyzed me with fear when we first met, but I am a different woman now. Would you recognize me still, behind this black veil?
+<small>[Middle Pane]</small><br/>I still find ways to help people, though not as I used to. I am no shepherd to the lost, no healer of wounded souls. Sometimes I simply defend the defenseless, or guide those few who seek the truth behind this cursed place.
+<small>[Bottom Pane]</small><br/>Perhaps one day, someone will find that truth, strike down the false gods of this land, and at last grant me rest. Yet until that day comes, know that I will not falter. Know that I will carry on.
+| author = Raia
+| icon = NoteRaia.png
+}}</div>
+</div>
