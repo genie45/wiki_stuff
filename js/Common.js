@@ -144,14 +144,6 @@ mw.loader.using('skins.vector.legacy.js', function() {
 // #endregion
 
 
-// #region Push is-steam-overlay class onto root node for Steam's overlay browsers due to a layout bug in Chrome 84
-if ( navigator.userAgent.indexOf( 'Valve Steam' ) > -1
-    && window.location.search.substr( 1 ).split( '&' ).indexOf( 'steambrowserhack=0' ) < 0 ) {
-    document.documentElement.classList.add( 'is-steam-overlay' );
-}
-// #endregion
-
-
 // #region Restore sidebar state
 var SIDEBAR_HIDDEN_CLASS = 'is-sidebar-hidden';
 if ( localStorage.getItem( SIDEBAR_HIDDEN_CLASS ) == '1' ) {
