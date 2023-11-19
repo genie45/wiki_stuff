@@ -442,7 +442,7 @@ $(function() {
                         }
                     } );
                 },
-                40
+                20
             ),
             setupStickyTheads = function ( tablesToCheck ) {
                 if ( tablesToCheck == null ) {
@@ -451,18 +451,19 @@ $(function() {
 
                 tables = [];
                 tablesToCheck.forEach( function ( table ) {
-                    var thead = table.tHead;
-                    if ( !thead ) {
-                        var firstRow = table.rows[ 0 ];
-                        thead = firstRow && firstRow.querySelectorAll(':scope > th').length === firstRow.children.length
-                            && firstRow;
-                    }
-
-                    if ( thead ) {
+                    if ( table.tHead ) {
                         tables.push( {
                             table: table,
-                            thead: thead
+                            thead: table.tHead
                         } );
+                    } else {
+                        var firstRow = table.rows[ 0 ];
+                        if ( firstRow && firstRow.querySelectorAll( ':scope > th' ).length === firstRow.children.length ) {
+                            tables.push( {
+                                table: table,
+                                thead: firstRow
+                            } );
+                        }
                     }
                 } );
 
