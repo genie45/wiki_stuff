@@ -421,12 +421,12 @@ $(function() {
 
         var
             updateStickyTheads = mw.util.debounce(
-                function ( infoSet ) {
+                function () {
                     if ( lastStickyThead !== null ) {
                         lastStickyThead.classList.remove( STICKY_THEAD_CLASS );
                     }
 
-                    infoSet.some( function ( table ) {
+                    tables.some( function ( table ) {
                         var bounds = table.getBoundingClientRect(),
                             tableBottom = bounds.top + bounds.height,
                             thead = table.tHead;
@@ -456,10 +456,10 @@ $(function() {
                 } );
 
                 if ( tables.length > 0 ) {
-                    window.addEventListener( 'scroll', handleFixedHeader, {
+                    window.addEventListener( 'scroll', updateStickyTheads, {
                         passive: true
                     } );
-                    window.addEventListener( 'resize', handleFixedHeader, {
+                    window.addEventListener( 'resize', updateStickyTheads, {
                         passive: true
                     } );
                     updateStickyTheads();
