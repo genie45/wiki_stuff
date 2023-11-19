@@ -268,12 +268,13 @@ $(function() {
     ( function () {
         var I18n = arkCreateI18nInterface( 'DynamicSiteNotice', {
             en: {
-                Text_XboxPartnerEvent: '<a href="https://xbx.lv/3QbFHia" class="external" target="_blank">Tune into the Xbox Partner Preview on October 25th, at 17:00 UTC (10am Pacific / 1pm Eastern / Oct 26th, 4am AEDT) to witness the first gameplay preview of ARK: Survival Ascended. Click this link to learn more.</a>',
                 Text_ASAUpdateRelease: 'Articles will be brought up to date with ARK: Survival Ascended over the following weeks.',
             },
             fr: {
-                Text_XboxPartnerEvent: '<a href="https://xbx.lv/3QbFHia" class="external" target="_blank">Restez branchés sur l\'Aperçu des partenaires Xbox le 25 octobre, à 17:00 UTC (10am Pacifique / 1pm Est / 19h Europe / 26 oct, 4am Australie) pour assister au premier aperçu de la mécanique de jeu d\'ARK: Survival Ascended. Cliquez ce lien pour en savoir plus.</a>',
                 Text_ASAUpdateRelease: 'Les articles sur ARK: Survival Ascended seront mis à jour dans les semaines à venir.',
+            },
+            ru: {
+                Text_ASAUpdateRelease: 'В течение следующих недель мы будем обновлять статьи, посвященные ARK: Survival Ascended.',
             }
         } );
 
@@ -283,7 +284,7 @@ $(function() {
 
 	    mw.config.values.wgSiteNoticeId = 4;
     	mw.loader.using( [ 'ext.dismissableSiteNotice.styles' ] );
-    	var snContent = I18n( 'Text_XboxPartnerEvent' );
+    	var snContent = I18n( 'Text_ASAUpdateRelease' );
     	$( '#siteNotice' ).html( '<div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div>' + $( '#siteNotice' ).html() );
     } )();
     // #endregion
