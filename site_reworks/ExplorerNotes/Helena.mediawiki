@@ -20,6 +20,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Helena Note #1
+| location = 
 | transcript = I’ve lost count of how many sunrises I’ve seen since I arrived on this island. Hundreds, I’d imagine, yet each one seems more beautiful than the last. Sometimes, I like to take Athena out just before dawn and watch it while flying through the morning sky. It’s in these simple moments that I realize just how lucky I am.<br/><br/>Not that I was unhappy exploring the reefs and rainforests back, in Oz, but I wasn’t ever going to spot a Bronto stomping about the outback, was I? Since I got here, I’ve had the opportunity to study creatures that no other biologist has even witnessed. I’ll always be grateful for that.
 | author = Helena
 | icon = NoteHelena.png
@@ -28,6 +29,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #2
+| location = 
 | transcript = I’d been holding out for a change in weather before studying the wildlife of this island’s peculiar tundra region, but I think it’s safe to say that it’s not forthcoming. Clearly this planet has no axial tilt, and therefore, no seasons. That ice and snow isn’t melting anytime soon.<br/><br/>Can’t say I’m happy about it. The cold and I are not the best of mates, I can tell you that, but I’ll just have to suck it up. The climate during the Jurassic and cretaceous periods that many of this island’s creatures hail from was fairly uniform, so an arctic region is quite the oddity. It’d be plain stubborn of me not to have a Captain Cook.
 | author = Helena
 | icon = NoteHelena.png
@@ -36,6 +38,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #3
+| location = 
 | transcript = The tribe that calls themselves The Howling Wolves has really made this northern adventure a lot easier. Well, them and Athena. She’s right at home here. I don’t think I’ll ever be able to repay Rockwell for just up and giving me, an Argentavis. He’s said our conversations are payment enough, but I still feel guilty. I should remember to collect some floral samples for him while I’m here.<br/><br/>Anyway, tagging along with the wolves has been a good introduction to the region, but I think I’m ready to making my own way. To make real scientific conclusions, I need to observe these animals undisturbed in their natural habitat for long periods of time.
 | author = Helena
 | icon = NoteHelena.png
@@ -44,6 +47,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #4
+| location = 
 | transcript = What a day! There I am, putting the finishing touches on the mammoth dossier, when all of a sudden, a Tyrannosaurus starts attacking the herd. Strewth! A Tyrannosaurus wading through the bloody snow!<br/><br/>I asked The Howling Wolves at the nearest camp, and apparently, this is a common thing. They’re not new to the region. It just doesn’t make sense. How can a Tyrannosaurus survive in this climate? And how can the introduction of an apex predator not shift the entire ecosystem?
 | author = Helena
 | icon = NoteHelena.png
@@ -52,6 +56,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #5
+| location = 
 | transcript = Well, I've combed through more carnivore droppings, than I care to calculate, and I can't say they provided many answers. All the predators in this region have very similar diets. With so many different predators hunting the same prey, the populations of all these species shouldn't be sustainable. Yet I've found nothing to indicate that any population shift is actually happening.<br/><br/>It's just bizarre! The longer I'm here, the more I realize that this region shouldn't exist. Its climate is out of sync with the rest of the island, many of the creatures here are millions of years ahead of the dinosaurs and the ecosystem is almost static!<br/><br/>Something's off. I need to review my notes.
 | author = Helena
 | icon = NoteHelena.png
@@ -60,6 +65,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #6
+| location = 
 | transcript = Helena, you're a dipstick.<br/><br/>Going through my notes, I've realised that there are more predators than prey across this entire island by almost double. That's the opposite of how any ecosystem is supposed to work. I can't believe it took a Tyrannosaurus frolicking through the snow for me to see this. It's plain as day.<br/><br/>What to make of it? Add in the human factor, and it's impossible for this island to continue as it is by natural means. So, what, is this island's wildlife being monitored and curated somehow?<br/><br/>I should speak with Rockwell. Maybe he's come to a similar conclusion.
 | author = Helena
 | icon = NoteHelena.png
@@ -68,6 +74,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #7
+| location = 
 | transcript = I never thought this island was normal, exactly. I mean, there are giant obelisks floating in the sky, for Pete's sake. Not to mention that cave I found, which hid a platform similar to those found at the base of said obelisks. Well, similar except for those oddly shaped holes that were carved into its podium.<br/><br/>I guess I just didn't care about all that. So long as I had my beautiful, unique and untainted ecosystem to study, I was happy. But now...<br/><br/>No, I shouldn't write it off just yet. Not before I arrive at Rockwell's. There's still a chance that my data is off or, that I missed something obvious. I won't give up on my paradise just yet.
 | author = Helena
 | icon = NoteHelena.png
@@ -76,6 +83,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #8
+| location = 
 | transcript = I really need to visit Rockwell more. It's so energizing to be around someone of his experience that still has so much excitement for his work, and talking to him always helps me gain perspective.<br/><br/>As for the Island's ecological abnormalities, Rockwell reassured me that I was jumping to conclusions. He made a great point: Just because this place doesn't follow the scientific laws we're used to, doesn't mean it follows no scientific laws at all. After all, science is about discovery, and new discoveries can invalidate old principles.<br/><br/>So before I latch onto my theory, I need to gather more empirical evidence. Otherwise, I'm  no scientist.
 | author = Helena
 | icon = NoteHelena.png
@@ -84,6 +92,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #9
+| location = 
 | transcript = On Rockwell's recommendation, I've headed south to start an in depth study of the Island's marine life with the help of a tribe called the Painted Sharks. Because the ecosystem of the ocean that surrounds the Island is separate from the ecosystem on the mainland, correlating patterns between them might help me isolate and understand this island's scientific abnormalities.<br/><br/>Also, after freezing my ass off for so long, I could really use an extended stay on a tropical island. Marine biology was never my strongest field, but I do love the ocean. If nothing else, it should be beautiful there.
 | author = Helena
 | icon = NoteHelena.png
@@ -92,6 +101,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #10
+| location = 
 | transcript = The Painted Sharks have treated me like I'm the bloody queen since I showed them Rockwell's letter of recommendation. I don't think I've eaten better in my entire time on the Island. Not that it's a high bar, I'm a horrible cook. Oh, and they've been of tremendous help with my research, of course.<br/><br/>So far, my estimates of the predator-prey balance are consistent with the ecosystems on the mainland. The water is simply teeming with shoals of megalodons, and they are extremely aggressive. Perhaps that's a side effect of having limited prey? Sharks aren't known as territorial creatures. I'll have to study them further.
 | author = Helena
 | icon = NoteHelena.png
@@ -100,6 +110,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #11
+| location = 
 | transcript = Still no anwsers as to why the Megalodons are so territorial, but I was privy to something even more extraordinary: Megalodon Mating Behavior! No one's ever witnessed Great Whites rooting around back home, so that alone is monumental, but I got something even better.<br/><br/>I know, what could possibly top watching Megalodons having a naughty, right? Tracking the female! I was able to observe her for almost the full gestation period, and get this, it only lasts one week. One Week! No wonder the population is so high. These are spitting out pups forty-four times the rate of Aussie Great Whites.<br/><br/>I should compare how they behave in captivity.
 | author = Helena
 | icon = NoteHelena.png
@@ -108,6 +119,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #12
+| location = 
 | transcript = So, in addition to all of the oddities I found with wild megalodons, here's the real cherry on top: Taming them is a piece of piss. A bit of training and they're more obedient than the family dog.<br/><br/>Now, I've heard of sharks getting very rudimentary training over a year or so, but not to this extent. Certainly not so easily. Sharks aren't mammals or even avians, they're fish. They rely more on instinct, or to put it simply, they're not very smart. You shouldn't be able to ride one like a jet ski.<br/><br/>I'm trying to keep an open mind like Rockwell suggested, but this just feels wrong.
 | author = Helena
 | icon = NoteHelena.png
@@ -116,6 +128,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #13
+| location = 
 | transcript = Well, this seals it. Just when I thought I'd made some sense of the notes I took while visiting the Painted Sharks, I spotted the nail in the proverbial coffin: Roos. A whole herd of giant Roos were just hopping about the countryside like they'd always been there.<br/><br/>As much as I love Roos, they just shouldn't be here, period. They evolved in Oz and Oz only sixty million years after the dinosaurs went extinct among a bevy of other marsupials. If I know any genus, it's this one, and Procoptodon should not exist here.<br/><br/>This island isn't an ecosystem, its a zoo.
 | author = Helena
 | icon = NoteHelena.png
@@ -124,6 +137,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #14
+| location = 
 | transcript = Not too long ago, I thought this place was a far off utopia where I could study all the world's lost wonders. Now that I'm certain it's not natural at all, I have to say, it's lost a lot of luster.<br/><br/>Interference from mankind hasn't helped. Most tribes have learned to live in harmony with their slice of the island, but some aren't content with that. One is even trying to conquer all the others, and natural or not, this ecosystem won't be any better off if it's burned down in some great war.<br/><br/>The sunrises are still beautiful, though. At least nothing can change that.
 | author = Helena
 | icon = NoteHelena.png
@@ -132,6 +146,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #15
+| location = 
 | transcript = Of all the abnormalities that I've observed, the tamed Megalodons stick out to me. It was almost like they were stray dogs who were resocialized, as though they had a genetic history of human obedience.<br/><br/>Most of my observations have been in the wild, but I think I may learn a thing or two if I observe domesticated creatures more closely. I need to study their diets, their mating patterns, how they socialize with other species... all that.<br/><br/>Rumor has it that there's some woman that's tamed a whole mess of them all by herself, so many that they call her The Beast Queen of the Jungle. Maybe she'll have some useful insights.
 | author = Helena
 | icon = NoteHelena.png
@@ -140,6 +155,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #16
+| location = 
 | transcript = I suppose it was a bit naive of me to think that someone with the monicker of "Beast Queen" would roll out the red carpet. I guess I got used to all the friendly treatment that being an associate of Rockwell's earned me.<br/><br/>She did let me stay at least, and she hasn't instructed her dinosaurs to kill me yet, so that's a positive. Not that she'd really need the dinosaurs. If that glare of hers gets any more intense, I'll probably just burst into flames on the spot.<br/><br/>Strewth, I hope she eases up. Sifting through raptor excrement with someone watching is harder than you might think.
 | author = Helena
 | icon = NoteHelena.png
@@ -148,6 +164,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #17
+| location = 
 | transcript = There's nothing special about the diet of these tamed creatures when compared to their wild counterparts. Part of that is the Beast Queen's doing, as she takes them on regular hunting excursions for training purposes.<br/><br/>Curiously, they never have to range too far. There is an abundance of prey nearby, despite the size of her pack. That this has held true regardless of her domesticated creature's remarkable birth and growth rates makes it even more unusual.<br/><br/>Oh, and I did finally get her name - Li Mei-Yin. She's gotten a little less glarey, too. In hindsight, maybe starting by studying her animals' feces just gave her the wrong impression...
 | author = Helena
 | icon = NoteHelena.png
@@ -156,6 +173,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #18
+| location = 
 | transcript = The most interesting thing that I've observed about Mei-Ying's animals has been what they don't do - they never fight.<br/><br/>Among creatures that have been domesticated for generations like cats or dogs, that's normal, but there's a reason zoos keep their animals in separate enclosures. Certain instincts are hard to curb, and there should definitely be more disputes among such a diverse group.<br/><br/>Mei-Ying has even integrated a herd of herbivores into her army, as their thick hides have proven resistant to fire and explosives. Yet despite being surrounded by carnivores, they remain untouched. It doesn't make sense.<br/><br/>That's not to take anything away from Mei-Yin. She works hard to treat and train her animals well. She's not bad company either, at least when she's not mute and I don't go full biologist. Sometimes it's felt like speaking a new language, but it's been kind of refreshing.
 | author = Helena
 | icon = NoteHelena.png
@@ -164,6 +182,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #19
+| location = 
 | transcript = After going over my notes from Mei-Yin's camp, I've concluded that the animals on this island are not only used to humans, but used to captivity. Even with their accelerated growth rates, their behavior indicates that they have been regularly domesticated for decades at least. Otherwise, they'd never obey the whims of mankind so easily.<br/><br/>With that in mind, I believe that my theory about this island being curated is back in play. In fact, it's possible that not only are animal populations being controlled, but that the animals themselves are genetically modified. However, before I bring this to Rockwell, there's one more rumor that I want to confirm.
 | author = Helena
 | icon = NoteHelena.png
@@ -172,6 +191,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #20
+| location = 
 | transcript = This is the smoking gun. It has to be. I simply can't be convinced that this place is natural after finding an island populated entirely by carnivores.<br/><br/>Even if they fed off of each other, which is awfully dubious given that carnivore meat is much more likely to carry harmful parasites than herbivore meat, the landmass is so small and their population is so dense that they could never maintain it. Yet there it is, hidden away off the northeast coast of the Island. Someone would have to put them there on purpose.<br/><br/>There's no way that Rockwell can deny my theory now.
 | author = Helena
 | icon = NoteHelena.png
@@ -180,6 +200,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #21
+| location = 
 | transcript = As I expected, Rockwell couldn't deny my theory, but I can't say that I have his endorsement either. He didn't seem terribly engrossed in the subject, frankly. Something else seems to have captured his attention as of late: the Island's obelisks..<br/><br/>Apparently, Rockwell stumbled upon a way to interact with the towering monuments while spelunking, of all things. I guess he felt the need to scratch that old intrepid explorer itch of his. It's pretty impressive, considering his age.<br/><br/>Now that I think about it, the obelisks could be linked to my own findings. Their nature has always been a mystery, and Rockwell made some intriguing observations. I should follow up.
 | author = Helena
 | icon = NoteHelena.png
@@ -188,6 +209,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #22
+| location = 
 | transcript = Though I've been received by the Iron Brotherhood, they didn't seem very pleased to see me, especially when I mentioned Rockwell. That's a first. Add that to the rather deserted, gloomy state of their compound, and I'm starting to feel a bit apprehensive. Their leader can't return from his hunting expedition soon enough.<br/><br/>All I've confirmed so far is that yes, they gathered all of the artifacts Rockwell sought and yes, the artifacts were able to activate one of the obelisks. You'd think they'd be celebrating such a monumental discovery, but it's just killjoys as far as the eye can see. Go figure.
 | author = Helena
 | icon = NoteHelena.png
@@ -196,6 +218,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #23
+| location = 
 | transcript = I keep glancing at the artifact. I understand why the Iron Brotherhood's leader didn't want it. Since it has no apparent use, all it does is remind him of the tribesman who died seizing it from that giant spider.<br/><br/>Can it really be useless, though? They described the artifacts that activated the obelisk as looking similar to it, so I headed to the nearest obelisk to see if I could get a response. No luck. Maybe it activates something else?<br/><br/>Of course! The platform in the cave! It's a long shot, but it's the only thing I can think of that's similar to the obelisks. Definitely worth a try.
 | author = Helena
 | icon = NoteHelena.png
@@ -204,6 +227,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #24
+| location = 
 | transcript = Unbelievable! The artifacts perfectly fits one of the slots in the platform's pedestal. How did I not notice that right away? I really am a dipstick.<br/><br/>So if this key, such as it is, was acquired by activating one of the obelisks, then it follows that the other two keys can be obtained by activating the other two obelisks. Then, with all three keys, maybe this platform will lead to whatever is controlling the Island's ecosystem.<br/><br/>If the other obelisks work the way that the first one did, that means I have to find a whole mess of artifacts first, and I don't think I can do that alone...
 | author = Helena
 | icon = NoteHelena.png
@@ -212,6 +236,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #25
+| location = 
 | transcript = Well, the Howling Wolves are quickly tracking down the artifacts, but after hearing about what happened to the Iron Brotherhood, that's as far as they'll go. It's understandable, but it leaves me in a tight spot. If a giant spider and I get in a scrap, the spider's winning for sure.<br/><br/>Even with Athena on my side, I prefer to avoid danger, not confront it. My aim's piss poor and I've got fists like marshmallows. If I want a fair go at actually surviving whatever happens when the obelisk activates, I'll need backup.<br/><br/>Negotiation Notes: Don't mention feces. Don't look directly at the glare. Bring chili (UNBURNED).
 | author = Helena
 | icon = NoteHelena.png
@@ -220,6 +245,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #26
+| location = 
 | transcript = Now, I know you don't get a nickname like "Beast Queen" without being one tough lady, but when I saw that giant ape, I still thought we were buggered. Fortunately, Mei-Yin's got more intestinal fortitude than yours truly, and somehow, someway she was able to pull out a win. Glad I'm on her good side!.<br/><br/>I already found the second key, but I want to take a look around here before we head back through the portal. This ape either lived here, or was released when we activated the obelisk. Finding out how it survived in this isolated environment or how it got here could prove useful.
 | author = Helena
 | icon = NoteHelena.png
@@ -228,6 +254,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #27
+| location = 
 | transcript = So, these are the conquerors that I heard about way back when. Not a great first impression. Mei-Yin and I weren't quite mates, but watching her creatures get slaughtered like that certainly wasn't pleasant. I'm not a fan of the prisoner lifestyle, either.<br/><br/>The leader introduced himself as Gaius Marcellus Nerva, and he's not a complete bogan, I'll give him that. He let me keep my personal effects and our conversations have been civil so far. I get the feeling that'll change if I don't cooperate, though.<br/><br/>Not that I have much choice. They already took the keys. The only way I'm seeing this through is as a "guest" of the New Legion."
 | author = Helena
 | icon = NoteHelena.png
@@ -236,6 +263,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #28
+| location = 
 | transcript = This Nerva bloke's FIGJAM incarnate. He seems to think that he's Jupiter's gift to the Island or some rubbish like that. I think his ego was actually tangible when the Legion returned from to the obelisk with the third key and the head of a dragon in tow.<br/><br/>Sadly, as much as I would enjoy seeing him fall flat on his face, I need him and I need the New Legion. So, when he "asked" me to guide his forces to the hidden cave, I obliged without protest.<br/><br/>What he'll do with me afterwards, I don't know.
 | author = Helena
 | icon = NoteHelena.png
@@ -244,6 +272,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #29
+| location = 
 | transcript = When Nerva and his band return from the cave, they'll decide my fate, so this may be my final chance to reflect. I may as well take advantage of it.<br/><br/>I realize that had I just ignored the signs and accepted this paradise at face value, I'd still be happy and free. Would that have been better? I don't think so. After a lot of thought, I've decided that I'd rather die seeking the truth than living in an illusion. That, as Rockwell would say, is the path of a true scientist.<br/><br/>Not that I'm Galileo battling the church or anything, but hey, it's something to hold onto.
 | author = Helena
 | icon = NoteHelena.png
@@ -252,6 +281,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #30
+| location = 
 | transcript = Well, I'm not dead, and as it turns out, neither was Mei-Yin. In fact, it was her who freed me, and insisted we follow Nerva through the portal in the cave.<br/><br/>A horrifying scene awaited us. All of Nerva's men lay dead amongst the shards of a mysterious metal, but Nerva's body was missing. Forgetting my present company, I suggested a peaceful approach if we encountered him. That earned me one hell of a knockout punch.<br/><br/>When I came to, I searched the whole station, but the only signs of Mei-Yin and Nerva were a few ounces of dried blood. No bodies, and no victor.<br/><br/>There, floating outside the window and surrounded by machinery, was the very island that I had been living on, and it too was orbiting high above the Earth along with countless other stations just like it. The ecosystem on the Island wasn't just curated, it was completely artificial from the ground up!<br/><br/>What in the hell is all this, why would anyone construct it, and how could they have possibly kept it hidden from the world? I don't have the answers to any of these questions or the dozens of others that keep popping into my head, but somehow, I mean to find out. Somehow, I'll find the truth.
 | author = Helena
 | icon = NoteHelena.png
@@ -264,6 +294,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Helena Note #1 (Scorched Earth)
+| location = 
 | transcript = I had to pick the desert. Why the hell did I pick the desert?<br/><br/>Well, I suppose "pick" is a rather strong word for it. I’m still not entirely certain just how I got that console working, but it suddenly started cycling through holographic images of different destinations far from the island that I’d been living on. Of course, I just had to go and press another button while it was showing off one that contained miles and miles of bloody desert, and here I am.<br/><br/>That’s just typical of me, isn’t it? Always leaping, never looking. Oh well, better make the best of it, and by that, I mean "better not die of heat exhaustion."
 | author = Helena
 | icon = NoteHelena.png
@@ -272,6 +303,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #2 (Scorched Earth)
+| location = 
 | transcript = My hunting skills are seriously out of practice. Not that I was ever spectacular, but I feel like I’d graduated from smashing bugs with a rock at some point.<br/><br/>At least I was thoroughly rewarded for my efforts. My hunch was spot on these big green bastards are carrying drinkable water on their backs, and thank goodness for that! I may have never known if I’d killed a red one first, since those carry oil instead. Far less useful when you’re dying of thirst, let me tell you.<br/><br/>I may be fighting the inevitable, though. I’m still on foot and still alone. Definitely miss Athena.
 | author = Helena
 | icon = NoteHelena.png
@@ -280,6 +312,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #3 (Scorched Earth)
+| location = 
 | transcript = I’m on a roll. By sheer coincidence, I stumbled into another group of survivors today, and they didn’t try to kill me or anything. If I didn’t know how probability actually worked, I’d say that this recent string of good luck is the universe making up for sending me to the bloody desert in the first place.<br/><br/>The caravaners were welcoming, and the creatures they ride are fascinating. They seem like dinosaurs, but they also appear to share some biology with camels. Bizarre! For all its oddities, the island never had anything like that.<br/><br/>I’ll have to study them… after a nap. All this desert survival’s left me knackered.
 | author = Helena
 | icon = NoteHelena.png
@@ -288,6 +321,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #4 (Scorched Earth)
+| location = 
 | transcript = If I’d ended up in this place instead of on that island, I’d have never imagined the ecosystem was natural. Not for two seconds.<br/><br/>Take these morellatops: they’re a cross between a ceratops, a morelladon and a camel, and the strangest part? There are places in its humps where you can stick a spigot and get clean drinking water. Tastes like piss, but not only is it safe, it doesn’t even harm the morellatops. It’s crackers.<br/><br/>Definitely the result of genetic engineering, but I knew that, didn’t I? It’s time to get to the “why.” Maybe studying the creatures here with my new perspective will yield some insight.
 | author = Helena
 | icon = NoteHelena.png
@@ -296,6 +330,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #5 (Scorched Earth)
+| location = 
 | transcript = Today, I caught a glimpse of what the caravaners call the "Endless Dunes". The desolate sea of sand that apparently surrounds the livable portion of the desert on all sides.<br/><br/>Now those dunes can't literally be endless, but it's easy to see why one would think that. Not only do they, stretch on to the horizon, but they're home to get to... get this... giant sand "worms" that will devour anything that sets foot in their domain.<br/><br/>I laughed that off at first. Then I saw a creature the size of a train burst up from the sand and devour a wild morellatops that had wandered into its territory. I suppose I'll just have to learn to walk without rhythm...
 | author = Helena
 | icon = NoteHelena.png
@@ -304,6 +339,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #6 (Scorched Earth)
+| location = 
 | transcript = As absurd as the Death Worms are, I see their purpose. They are a natural barrier.<br/><br/>If this whole place is a space station posing as a real ecosystem, then it needs to keep the wildlife and humans inside it contained in a way that appears natural. The island accomplished that by simply being an island, and the desert does it via the Death Worms.<br/><br/>Granted, a large population of predators with ludicrous kilocalorie needs would never last long in a place as devoid of prey, but as this is an artificial environment, the station can feed or, replace the Death Worms as needed. It's a little convoluted, but it makes sense.
 | author = Helena
 | icon = NoteHelena.png
@@ -312,6 +348,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #7 (Scorched Earth)
+| location = 
 | transcript = Time to go over the facts.<br/><br/>Like the island, this desert is a space station posing as a natural environment. It is inhabited by a large population of dangerous, genetically engineered creatures, and a small population of humans that are struggling to survive. This whole environment is then deliberately contained by a combination of a holographic horizon and natural barriers.<br/><br/>Assuming the other space stations are at all similiar, then this whole thing is starting to look like some kind of bizarre experiment on a grand scale. Yes, each station would represent an experimental group, and...<br/><br/>I'll have to continue this later. One of the caravan's scouts just returned in a panic. Something about rocks being alive, which is of course ridic.
 | author = Helena
 | icon = NoteHelena.png
@@ -320,6 +357,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #8 (Scorched Earth)
+| location = 
 | transcript = I long for the days when I thought a tyrannosaurus frolicking through the snow was the height of absurdity. Compared to yesterday, that seems commonplace.<br/><br/>As the scout had so eloquently put, the rocks were indeed alive. Alive, in the shape of a massive, bipedal golem and exceedingly angry. I was too shocked to scatter like the others when it charged, and for a moment, I was certain that I would die.<br/><br/>Then something even more ludicrous happened - lightning crashed into the golem, but it didn't come from the sky. It came from the mouth of a bloody dragon.<br/><br/>I don't recall much else. Fear and instinct pretty much took over for the rest of the day, and while that helped me survive, I'm once again on my own.
 | author = Helena
 | icon = NoteHelena.png
@@ -328,6 +366,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #9 (Scorched Earth)
+| location = 
 | transcript = I remember now, the dragon had a rider. Rather, the wyvern did. Two legs means its a wyvern. Strewth, listen to me, fighting to survive and still finding time for semantics.<br/><br/>The rider was covered up too well to get a good look at them. Could it have been Mei Yin? No, that's stupid. I don't know if she's even alive, much less in this desert with me. It would be just like her though, to have tamed the meanest thing here so quickly.<br/><br/>It's nice to pretend that a friend might be looking out for me, at least. We were sort of mates, right? Sort of.<br/><br/>I could really use one right now. A friend, I mean.
 | author = Helena
 | icon = NoteHelena.png
@@ -336,6 +375,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #10 (Scorched Earth)
+| location = 
 | transcript = Well, I found a new best mate. The little fuzzball isn't exactly what I meant, but I'll take her.<br/><br/>I've dubbed her species Renopila Amplexus. They're small, cuddly little herbivores, and as far as I can tell, taming one has no practical use. I just couldn't let the her starve to death, though. I guess all this rubbish with golems and wyverns has quelched what was left of my scientific instinct to leave nature to nature.<br/><br/>At least we provide each other with a little warmth at night, and her antics have helped to keep my spirits up. I suppose I'll need to give her a name.
 | author = Helena
 | icon = NoteHelena.png
@@ -345,6 +385,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #11 (Scorched Earth)
+| location = 
 | transcript = I may have been wrong about Renopila not having a practical use. Earlier today, my furry new companion started bouncing around so excitedly that I couldn't calm her down, and then soon enough it started raining.<br/><br/>I brushed that off as a coincidence, but soon after filling my waterskins and setting off once more, she started acting skittish. I decided to find shelter just in case, and within minutes light rainfall had turned into an electrical storm.<br/><br/>I'll need more evidence to draw any firm conclusions of course, but I wouldn't mind having a fuzzy little weather radar with me.<br/><br/>You know... It's a little on the nose, but Radar's not a bad name.
 | author = Helena
 | icon = NoteHelena.png
@@ -353,6 +394,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #12 (Scorched Earth)
+| location = 
 | transcript = Thank goodness that I decided to find some high ground two days ago, or I'd have never spotted this settlement. That's twice now that I've stumbled into my own salvation. I can't count on that happening again. I'll need to stay here for a while and prepare before setting out once more.<br/><br/>Fortunately, the villagers are willing to let me trade work for supplies and shelter. Another stroke of luck, and another factor I can't rely on. On the Island, Rockwell's name got me far, but here I'm just another stranger. Not everyone will trust or help me. I need to be prepared to survive on my own.
 | author = Helena
 | icon = NoteHelena.png
@@ -361,6 +403,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #13 (Scorched Earth)
+| location = 
 | transcript = In some ways, surviving on my own was less work. At least then I wasn't conscripted into manual labor. Ugh, my whole body feels sore!<br/><br/>I bet I wouldn't have to work if I were as adorable as Radar. The whole village is in love with her. I swear, they spoil her like a furry little princess. <br/><br/>Rockwell would be livid about this arrangement. I can just hear him ranting about treating scholars with propriety. I hope the old Brit is doing well. Maybe when I've broken this mystery wide open, I'll figure out a way to get him off the Island and we can discuss it all over tea like old times.
 | icon = NoteHelena.png
 | sound = Helena_ExpNote_(Scorched Earth)_13.ogg
@@ -368,6 +411,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #14 (Scorched Earth)
+| location = 
 | transcript = While my mind still can't recall the last time I fired a gun, my muscle memory is much better. According to my would be instructor, I wasn't a complete disaster on the firing range.<br/><br/>I'm no pacifist. Death and violence are a part of life, that's just nature. Yet a gun still makes me a little uncomfortable. The idea of shooting at another human just seems instinctively wrong to me. I couldn't even fire at the New Legion back on the island.<br/><br/>But I need to pull my weight. The villagers have been welcoming and patient with me. For their sakes, I need to practice.
 | author = Helena
 | icon = NoteHelena.png
@@ -376,6 +420,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #15 (Scorched Earth)
+| location = 
 | transcript = I may have to put my freshly polished marksmanship skills to the test sooner than I thought. A hunting party spotted a swarm of giant mantises heading in our direction.<br/><br/>Yes, giant mantises. I haven't spotted them with my own eyes, but the villagers have spoken of them every now and again. They say the insects have these little hands that can actually grip and wield weapons or tools. Sounds absolutely loony, but so is the idea of a mantis swarm at all. They must share Ghost Mantis' distaste for cannibalism.<br/><br/>No one seems keen on fighting them, but they're too close to outrun. Hopefully they'll just pass us by.
 | author = Helena
 | icon = NoteHelena.png
@@ -384,6 +429,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #16 (Scorched Earth)
+| location = 
 | transcript = My hopes that the Mantises would ignore the village were unfounded, and I think we were all wondering if this morning's sunrise would be our last. Despite all my practice, my rifle felt heavy and foreign in my shaking hands as the swarm advanced. Fortunately, they weren't our only visitors.<br/><br/>The villagers erupted in cheers as lightning and fire tore through the advancing insects from above. Some chanted a name: Wali al Aswad. The rider, still hidden behind black robes, didn't acknowledge the ovation. With swift efficiency, their small flight of Wyverns decimated the Mantis swarm and made for the horizon.<br/><br/>Wali al Aswad... I need to meet this person, if only to thank them.
 | author = Helena
 | icon = NoteHelena.png
@@ -392,6 +438,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #17 (Scorched Earth)
+| location = 
 | transcript = Just who or what Wali al Aswad is depends on who you ask. Some of the villagers have attached a religious connotation to the figure, believing it to be some sort of heavenly guardian who appears to worthy in their time of need, One villager is even convinced Wali is an extraterrestrial.<br/><br/>I don't deal in beliefs. I deal in empirical evidence, and that means nothing about Wali is certain until I can meet them. I won't forget this village's kindness, especially after granting me a morellatops and supplies for my journey, but this is why I'm here - to find answers.
 | author = Helena
 | icon = NoteHelena.png
@@ -400,6 +447,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #18 (Scorched Earth)
+| location = 
 | transcript = I'm definitely more prepared for this desert than before, and better equipped. With my morellatops offering a large, mobile supply of water and Radar looking out for the weather, the only threat I really have to worry about is major predators. Also giant golems.<br/><br/>I'm actually impressed with the shape I'm in, if I do say so myself. I think I even saw some ab definition the other day. Took me long enough. I've been living without sweets for ages, after all, You'd think I'd get fit much quicker.<br/><br/>Great, now I miss sweets. The things I'd to do taste chocolate again...
 | author = Helena
 | icon = NoteHelena.png
@@ -408,6 +456,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #19 (Scorched Earth)
+| location = 
 | transcript = It took weeks of searching, but I finally caught a glimpse of Wali al Aswad. I knew I was getting close when I found a series of fulgurite formations this morning, and sure enough, I spotted several wyverns later in the afternoon with a lone rider among them.<br/><br/>The rider clearly saw me too, because soon enough the wyverns were circling overhead. I waved and yelled in greeting, even calling out Mei Yin's name just in case. Yet without so much as a nod, the wyverns regrouped and flew off.<br/><br/>Wali's not a social butterfly it seems, but I'm not letting them off the hook that easily.
 | author = Helena
 | icon = NoteHelena.png
@@ -416,6 +465,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #20 (Scorched Earth)
+| location = 
 | transcript = Of course Wali lives on a bloody mountain. Of course they do. I saw their wyverns land at the summit yesterday, and they haven't left. This has to be their home...unfortunately.<br/><br/>The paths were too narrow for my morellatops, so I had to leave it behind. It should know to wander off if I don't return for it, not that I can really afford to worry about it. The climb's doing a fine job of kicking my ass even without distractions.<br/><br/>I swear, if I don't have a six pack after climbing a mountain in the bloody desert, I'm going to be awfully cross.
 | author = Helena
 | icon = NoteHelena.png
@@ -424,6 +474,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #21 (Scorched Earth)
+| location = 
 | transcript = I don't know what kind of reception I expected when I reached the summit, but laughter wasn't one of them. Yet that was exactly what I heard when I finally let myself collapse and started flinging every obscenity I could think of at this damned mountain - the bemused laughter of an old woman.<br/><br/>Wali al Aswad is definitely no guardian angel. She was quick to dismiss those particular rumors with remarks about how the gods have abandoned this wretched place.<br/><br/>As long I avoided that subject though, she's welcomed my questions with surprising warmth, though often enigmatically. I have a feeling that I'll need to be patient with her.
 | author = Helena
 | icon = NoteHelena.png
@@ -432,6 +483,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #22 (Scorched Earth)
+| location = 
 | transcript = It turns out that I didn't find Wali al Aswad. She found me.<br/><br/>While the portal I used to get here opened with little fanfare on my end, apparently the other side created quite the spectacle. According to Wali, it was easy for her to spot from atop her wyvern, and she started tailing me soon afterwards. I guess her timely interventions were no coincidence.<br/><br/>She didn't seem very surprised when I told her about the obelisks, their guardians or even that this desert is actually a space station. Either she knows more than she's saying, or experience has grinded the surprise right out of her.
 | author = Helena
 | icon = NoteHelena.png
@@ -440,6 +492,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #23 (Scorched Earth)
+| location = 
 | transcript = I really missed flying. There's no replicating the feeling, and no replacement for seeing a sunrise amongst the clouds.<br/><br/>Wali probably started these wyvern riding sessions just to give herself an escape hatch when our conversations get too personal, but I can't say I mind. Despite their appearance, riding a wyvern is just as pleasant as riding an argentavis, even without a saddle. By design, perhaps?<br/><br/>No matter. Genetically engineered or not, they are magnificent creatures. It's a risky proposition, but I absolutely must observe them in the wild sometime. I can't pass up an opportunity like that.
 | author = Helena
 | icon = NoteHelena.png
@@ -448,6 +501,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #24 (Scorched Earth)
+| location = 
 | transcript = Now that Wali has deemed by wyvern riding skills acceptable, she's finally agreed to show me around the region.<br/><br/>From what I can gather, Wali has been here for a very long time, maybe longer than Rockwell was on the island. She knows the history of every village and ruin. Apparently there was once a great city to the southeast, but it was wiped out at some point.<br/><br/>She's still mum on a lot of details, but I'll just have to keep prying. Radar's been helpful in that regard. Wali definitely seems to be in a better mood when the fuzzball's around. That little charmer's certainly earned her keep.
 | author = Helena
 | icon = NoteHelena.png
@@ -456,6 +510,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #25 (Scorched Earth)
+| location = 
 | transcript = I'm grateful that Wali allows me time to study the local wildlife, but I suspect she only does so out of amusement. She always says something like, "Why do you spend so much time on these scribbles that no one will read?"<br/><br/>I never have a good retort. It's true that no one else may ever read my dossiers, as I have no way to reproduce or distribute them as long as I'm trapped on one of these space stations. When I started them, they were a passion project, created out of my love for nature and its creatures.<br/><br/>Now? I guess they're just part of my identity. Writing them helps remind me who I am.
 | author = Helena
 | icon = NoteHelena.png
@@ -464,6 +519,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #26 (Scorched Earth)
+| location = 
 | transcript = I can't believe it! Wali spotted someone wandering in the desert the other day, and it turned out to be none other than Edmund Rockwell! I just about burst into tears when I recognized him.<br/><br/>Apparently, he heard that Nerva was holding me captive and sought to negotiate my release. That lead him to the cave, and eventually he wound up here. Awfully sweet of him to go through all that trouble for my sake!<br/><br/>Strangely, Wali claims that she saw a portal open up far away from her territory shortly before mine did. I guess that was Rockwell's, though Wali arrived at the scene too late to track him. Rockwell theorized that the portals may have taken us through time as well as space. Considering my present company, I'm inclined to agree with him.
 | author = Helena
 | icon = NoteHelena.png
@@ -472,6 +528,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #27 (Scorched Earth)
+| location = 
 | transcript = Wali has been much quieter since we found Rockwell. I guess she's just letting us catch up. However, she did say something interesting when we were recounting Nerva's ambitions for the Island.<br/><br/>"This place would never allow anyone to master it," she said, and when I asked her to explain, she told me that the great city to the southeast was destroyed by the obelisk itself.<br/><br/>Now it's just conjecture, but it's interesting to think about. Could the curators of these stations be monitoring human behavior and clipping its wings should the survivors ever band together and fly too close to the sun? If each station represents a different group in a larger experiment, "resetting" human progress would make a lot of sense.<br/><br/>It's a bit grim though, isn't it? Yikes.
 | author = Helena
 | icon = NoteHelena.png
@@ -480,6 +537,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #28 (Scorched Earth)
+| location = 
 | transcript = I don't think Rockwell's been sleeping much. I awoke last night to find him studying a strange piece of metal by firelight. I guess some tribe gave it to him as a gift, along with a very familiar looking artifact.<br/><br/>I insisted that we show those items to Wali, and she recognized them as the property of this station's lone guardian. With all that she knows, I'm not surprised that she's activated the obelisks before. Hell, it sounds like the old battle ax has even slain the beast herself!<br/><br/>Since we have said guardian's artifact, Wali says that we can leave this station at any time. I suppose we may as well. Rockwell's eager to depart, and as much as I like Wali, I've had my fill of sand.
 | author = Helena
 | icon = NoteHelena.png
@@ -488,6 +546,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #29 (Scorched Earth)
+| location = 
 | transcript = The transporter that can take us back to the "control center"  station is in the ruins of another city, south of the mountains. Wali believes that it was destroyed by the obelisks, just like the city in the southeast.<br/><br/>I didn't press her for details, not that I'd have gotten any. Wali's more tight lipped about those ruins than anything. I had to practically beg her to take me to the southeastern city, and while we were there, she spent most of her time just gazing out into the distance.<br/><br/>No sense in bringing her mood down with that rubbish now. After all that she's done for me, I'd like give her a nice, proper farewell.
 | author = Helena
 | icon = NoteHelena.png
@@ -496,6 +555,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #30 (Scorched Earth)
+| location = 
 | transcript = Having seen us through the ruins and safely to the platform, Wali has taken her leave. After doing so much for me, I was sad to see her go, but at least I got her to smile before she left. Well, me and Radar. I can't very well take the little critter with me, so I officially gave Wali ownership of her. They'll be good for each other, I think.<br/><br/>Gah, I wrote "Wali" up there. Twice! I suppose old habits die hard, but it's not really her name, is it? I always knew that was the case, but she'd never told me to call her anything else. At least not until now.<br/><br/>Well at any rate - cheers, Raia. It was a pleasure to have known you.
 | author = Helena
 | icon = NoteHelena.png
@@ -508,6 +568,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Helena Note #1 (Aberration)
+| location = 
 | transcript = Bloody hell, this place is weird. Don't get me wrong, it's fascinating too. Such an abundance of underground flora is completely unheard of, and because so many of the plants here are bioluminescent, the whole forest has an eery beauty to it.<br/><br/>That's just it though - eery is the operative word. I've been holding my rifle so tightly since we got here that I swear I've left dents in the grip.<br/><br/>We should have gone back to the Island. People know us there, they might have preferred help and supplies. Rockwell didn't want to hear it though, and I wasn't about to let him come here alone.
 | author = Helena
 | icon = NoteHelena.png
@@ -516,6 +577,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #2 (Aberration)
+| location = 
 | transcript = "You can't surprise me anymore, life," I said. "After wyverns, golems and giant sand worms, I'm ready for anything."<br/><br/>"What about flying squid-bat-murder-monsters?" life replied.<br/><br/>"Well, that is mildly surprising," I conceded.<br/><br/>By which I mean, I shot and cursed at those things all afternoon. At least, when I wasn't running from them. Thankfully after thinning their numbers a little, they decided that Rockwell and I weren't worth the trouble. Let's hope they don't change their minds. I'm not sure I have enough ammunition left to fend them off again.<br/><br/>And yes, I know that FSBMM isn't the most scientific of monikers, but I'm bloody upset with them right now so that's what I'm calling them...along with some other names I'd rather not write down.
 | author = Helena
 | icon = NoteHelena.png
@@ -524,6 +586,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #3 (Aberration)
+| location = 
 | transcript = While I can't say I'm enamored with this station's wildlife, I'm certainly grateful for its abundance of natural resources, particularly water. The permeability of the rocks here is astounding. The cavern walls are wet with condensation, and the floor is littered with pools of water.<br/><br/>After all that time in the desert, this is one change I can welcome with open arms! Thank God for hydration!<br/><br/>I don't mean that just for my own sake, either. Rockwell seems...distracted. The other day, I had to keep him from walking headlong into a poisonous mushroom. He wouldn't fare well in a harsher environment. Then again, at his age, I'm sure I'd lose a step too.
 | author = Helena
 | icon = NoteHelena.png
@@ -532,6 +595,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #4 (Aberration)
+| location = 
 | transcript = There's no mistaking it. That was a giant, armored mole rat. Thankfully it wasn't aggressive, so I was able to get a good look at it.<br/><br/>Its appearance made me realize something that I'd taken for granted. Every creature I've encountered has some basis on either a known species, or human legend. Golems and wyverns never existed on Earth, but humans did write stories about them. Even the FSBMMs (still cross with them) appear to be a pastiche of known fauna.<br/><br/>What does that mean? Are the curators of these stations human, do they merely possess extensive knowledge of humans or am I grasping at straws? I can't say, but it's worth pondering.
 | author = Helena
 | icon = NoteHelena.png
@@ -540,6 +604,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #5 (Aberration)
+| location = 
 | transcript = The FSBMMs returned, and I was right - I didn't have the firepower to fight them. Luckily someone else did.<br/><br/>It was incredible! I've never seen a human move that fast. One second, I'm a dead woman, and the next there's someone in glowing, silver armor tearing through those creatures like they were dodos. One got punched so hard it skipped off the cavern floor!<br/><br/>As if a superhuman savior wasn't shocking enough, when they lifted their visor, I found a familiar face. It was Mei-Yin! It took me a good minute to form a sentence after that. I must have looked like a complete dipstick, because I swear, she almost laughed.<br/><br/>At least I'm a living dipstick, and with her around, I just might stay that way.
 | author = Helena
 | icon = NoteHelena.png
@@ -548,6 +613,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #6 (Aberration)
+| location = 
 | transcript = What's the saying? Absence makes the heart grow fonder? On the Island, I wasn't sure where I stood with Mei Yin, but now we've been catching up like best mates. She apologized for socking me in the face, I learned how she arrived here and that she got her new scar while battling Nerva to the death... you know. Best mate things.<br/><br/>She also introduced us to some of her new allies at her camp, and here's where it gets loony - they're from the future! Well, my future, anyway.<br/><br/>It all fits, doesn't it? I never met anyone from my future before, but Mei Yin and Rockwell are from my past and the technology here is beyond anything from my present. Clearly the current year is far beyond 2008, but by how much?
 | author = Helena
 | icon = NoteHelena.png
@@ -556,6 +622,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #7 (Aberration)
+| location = 
 | transcript = The journey to the village was a bit tricky. Since Rockwell and I lack the high-tech armor the others wear, they had to help us along with rope ladders and zip-lines.<br/><br/>We made it eventually though, and it's quite the sight. The technology this tribe uses is incredible, although Rockwell was far more intrigued by it than I was. Mei Yin's friend, Diana, gave us the grand tour and he pelted her with questions the whole time.<br/><br/>Fortunately, Diana just smiled and answered his questions patiently. Apparently she was a pilot in her own time, which is the same era her fellow villagers are from. That there are so many people from one time period on one station seems unusual. I wonder what it means?"
 | author = Helena
 | icon = NoteHelena.png
@@ -564,6 +631,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #8 (Aberration)
+| location = 
 | transcript = I have to convince them to stop! There's no way the station will allow this.<br/><br/>"This place would never allow anyone to master it."<br/><br/>If it weren't for Raia's warning, I'd be ecstatic about what they were creating. A gateway that can help us escape the station and reach the planet below? It's brilliant, but the obelisks will kill everyone here before we can complete it, just like they destroyed the village Raia told me about. I'm sure of it.<br/><br/>Bloody hell, I'm going to look like an absolute madwoman. I've barely settled in here and I'm already coming to them with doomsday prophecies. I'll need to convince Mei Yin and Diana first. They're my best bet.
 | author = Helena
 | icon = NoteHelena.png
@@ -572,6 +640,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #9 (Aberration)
+| location = 
 | transcript = The tribe's leadership was surprisingly receptive to my ideas, but still a bit skeptical. Apparently they've already fiddled with one of the obelisks, and even damaged this station's control center. So while they believe my account of what happened in the desert, they think the threat is already contained. Thankfully Diana convinced them to lend me a small team to inspect the obelisk, just in case. Better than nothing, at least.<br/><br/>However, on this station, getting to an obelisk is something of a risky proposition. To reach them, we'll need to make a trip to the surface, which even Mei Yin says is dangerous. That means before I go, I'll need to get a crash course on that armor.
 | author = Helena
 | icon = NoteHelena.png
@@ -580,6 +649,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #10 (Aberration)
+| location = 
 | transcript = My time in the desert may have given me some skill with firearms and helped me get fit - despite failing to give me washboard abs much to my chagrin - but I'm still no soldier. That was evident to anyone who saw me flailing around in the training yard these past few days.<br/><br/>If it weren't for Mei Yin and Diana, I'd still be crashing my TEK Armor into rocks or tripping over myself like a drunken dodo. Plus, I always feel less silly when there's someone to laugh at my mistakes along with me.<br/><br/>Fortunately Mei Yin will be accompanying me to the obelisks, so this whole thing won't rest in my unsteady, armored hands. Thank God!
 | author = Helena
 | icon = NoteHelena.png
@@ -588,6 +658,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #11 (Aberration)
+| location = 
 | transcript = Mei Yin and I set out yesterday, alongside a bespectacled computer expert named Santiago. He'll be the one to actually examine the obelisk. He claims that he can hack into its terminal. If it's preparing to unleash a surge of power, as I suspect, then he says that he might be able to reroute it.<br/><br/>Rockwell, for his part, is staying behind. He's been aiding the village's scientists in their studies since we arrived and has become rather... engrossed. Every other sentence with him is about that bloody metal he named after himself. It's a bit troubling, but thankfully Diana said she'd look after him.<br/><br/>I can't spend time worrying after Rockwell now, though. The fate of that whole village might depend on this expedition. Focus up, Helena! Let's do this!
 | author = Helena
 | icon = NoteHelena.png
@@ -596,6 +667,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #12 (Aberration)
+| location = 
 | transcript = The structure of this space station must be vastly different from the others to allow for these massive caverns. Is that uncommon, or do many of the stations vary so radically from one another? I've only seen three. For all I know, they could come in all shapes and sizes.<br/><br/>Speaking of different, Mei Yin's been fairly talkative since we left, at least for her. She'll still grow quiet sometimes, but instead of trying to burn me to death with invisible eye lasers, she stares into the distance and idly fiddles with her necklace. I think it depicts a plane or spaceship of some kind. I wonder where she got it?
 | author = Helena
 | icon = NoteHelena.png
@@ -604,6 +676,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #13 (Aberration)
+| location = 
 | transcript = They weren't exaggerating when they said the surface was dangerous. Direct exposure to sunlight during the day will quickly burn a human to a crisp, even in this fancy armor.<br/><br/>That means we have to adjust our sleep schedules and wait just below the surface until night falls. When it does, we'll make a mad dash for the obelisk, let Santiago get in as much work as he dares, then run our asses back to safety.<br/><br/>Strewth! I thought that bloody desert was diabolical, but this tops it for sure! Why couldn't we do something simple, like flee from a pack of ravenous Allosaurus or something? This life I lead, I swear...
 | author = Helena
 | icon = NoteHelena.png
@@ -612,6 +685,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #14 (Aberration)
+| location = 
 | transcript = Santiago's still going over his readings from last night, but even without them, it seems clear that the obelisk was behaving oddly. It was pulsing wildly and the ground beneath it received regular tremors, as if the whole station was on the verge of tearing itself apart. If this obelisk goes off, it could mean armageddon for every living thing here.<br/><br/>Despite this, Santiago is insisting on analyzing his readings. The scientist in me is proud of his dedication to hard evidence, but the part of me that would rather not be obliterated by a mysterious, high tech space station really wishes he would hurry the hell up.
 | author = Helena
 | icon = NoteHelena.png
@@ -620,6 +694,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #15 (Aberration)
+| location = 
 | transcript = We shared our findings with the village by radio. Santiago's analysis confirmed what I suspected - the obelisks are highly unstable. They could be days away from reacting.<br/><br/>However, Santiago raised a good point. Even if the gateway project is shut down, we can't say for sure that it would stabilize the obelisks. It may be too late to dissuade the station from destroying the village. The only way to ensure our survival is to shut down the obelisks themselves.<br/><br/>According to Santiago, we can't do that from the obelisk's platforms, but he may be able to manipulate said platforms into teleporting us somewhere we could. Specifically? Into the heart of the station itself.<br/><br/>It's a huge risk, but it may be the only hope we have.
 | author = Helena
 | icon = NoteHelena.png
@@ -628,6 +703,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #16 (Aberration)
+| location = 
 | transcript = I can't believe it! We actually made it! We're inside the station! There's a platform here that Santiago was able to lock onto. Perhaps it was used while the station was being built?<br/><br/>The architecture here is similar to that of the control center I encountered before - a jagged cavern of metal, lit by an unearthly blue glow. There's a constant hum all around us, likely from the power being sent to all areas of the station.<br/><br/>Hopefully Santiago is able to find a map on that console he's been messing with. Then all we have to do is find a control room and shut down the obelisks. Simple, right? Right…
 | author = Helena
 | icon = NoteHelena.png
@@ -636,6 +712,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #17 (Aberration)
+| location = 
 | transcript = As we made our way deeper into the station, we passed through a massive chamber. It was so vast that I couldn't see the bottom of it from the bridge we were on. Yet it was packed full. From wall to wall, it was filled with specimen tubes, each containing creatures, fetuses or eggs.<br/><br/>I knew from the holograms that I'd seen on the Island's control center that each station created it's own creatures, but I'd never seen where the process actually occurred! There were specimens for every creature that lived on the station - from dinosaurs to huge, alien looking monsters. I would have loved to get more data from the room's consoles, but... <br/><br/>You know, after reading that aloud, I think Mei Yin was right. That idea really does sound stupid and dangerous. Good call.
 | author = Helena
 | icon = NoteHelena.png
@@ -644,6 +721,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #18 (Aberration)
+| location = 
 | transcript = Ever since I saw those strange holograms in the Island's control center, I'd considered this possibility in the back of mind, but I wasn't prepared to confront it. Not directly.<br/><br/>The room was similar to the one with the creatures, if much smaller. Specimen tubes lined the walls in neat rows and columns, but these all held the same species: Homo sapiens.<br/><br/>They weren't clones, exactly, at least not of each other. Each one was unique, and they were all adults.<br/><br/>I suppose I came from somewhere like this too - designed in that control center and then created in this factory. Does that mean my memories, they're all transplants? Fake? No, impossible. They're too vivid, too detailed. Maybe, somehow, the station can reach back in time and just... copy someone.<br/><br/>That seems unlikely, but I think I'll cling to it. It makes me feel more... real. At least that way, someone actually lived my life. Even if it wasn't me.
 | author = Helena
 | icon = NoteHelena.png
@@ -652,6 +730,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #19 (Aberration)
+| location = 
 | transcript = The human specimen room was hard on everyone, but I think it was the worst for Mei Yin. She's gone completely silent, trudging behind Santiago acting like an armored zombie. I've tried my best to explain everything and offer my support, but I'm not sure I helped.<br/><br/>When I think about it, it's incredible that she's made it this far with her sanity intact. In her time, they were nearly seven centuries away from inventing bloody gunpowder. The idea of a machine that creates human beings - and that it created you - would be unfathomable.<br/><br/>I hope she's all right, for all our sakes. Seeing her rattled like this makes me feel a lot less safe.
 | author = Helena
 | icon = NoteHelena.png
@@ -660,6 +739,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #20 (Aberration)
+| location = 
 | transcript = We finally found it! This has to be the obelisk's control room. Fortunately, the consoles here were similar to the ones in the control center that I've used before, so I was able to help Santiago get started.<br/><br/>He's been working on it for a while now, muttering and cursing to himself the whole time. I can't blame him. This is some baffling shit we've... ha! No way! He just said he cracked it! It certainly sounded like he did, too. There was a loud hum and... <br/><br/>Oh. Those are roars. Lots of roars. Time to run, then! I'll finish this later.
 | author = Helena
 | icon = NoteHelena.png
@@ -668,6 +748,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #21 (Aberration)
+| location = 
 | transcript = Right as Santiago finished hijacking the obelisk, the station unleashed a horde of creatures in self-defense, so we blasted the controls and ran like hell. Fortunately, Mei Yin's battle instinct brought her back to reality just in time, and she led the charge through a throng of fangs and claws, while Santiago and I did what we could as we raced to keep up.<br/><br/>Even though Santiago had prepared the platform for a quick getaway, it was a close call. I had to pull him through the portal just before it closed, but in the end, we made it. We're covered in guts and still a bit twitchy, but we made it!<br/><br/>Strewth, what a day! I need a pint and the world's longest nap, stat.
 | author = Helena
 | icon = NoteHelena.png
@@ -676,6 +757,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #22 (Aberration)
+| location = 
 | transcript = You'd think I'd be more enthused. We saved the village, I confirmed the true nature of these space stations and when the gateway project is complete, we could actually escape this madness. It's all good news really, so why am I not thrilled?<br/><br/>I tried sketching some of the wildlife we've spotted on the way back the village, but I stopped halfway through. What's the point? In the desert, I told myself it was a form of self-expression, but is it really? If a machine created me to behave a certain way, am I expressing myself or the will of the machine?<br/><br/>I really need that pint. Maybe several.
 | author = Helena
 | icon = NoteHelena.png
@@ -684,6 +766,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #23 (Aberration)
+| location = 
 | transcript = We contacted the village to tell them we succeeded. They were a lot more excited than we were. It was quite raucous actually - cheering, applause, and all that - enough that Santiago almost dropped the radio right out of his hands.<br/><br/>Even Mei Yin cracked a smile at that. She's coming around, if slowly. She just needed a bit of space, I think.<br/><br/>I'm starting to come to terms with everything myself. Even if my memories are someone else's or aren't real to begin with, what I've done since I arrived on these stations was my choice. What I do from now on is my choice. That's who Helena Walker is.<br/><br/>I think I'm okay with that.
 | author = Helena
 | icon = NoteHelena.png
@@ -692,6 +775,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #24 (Aberration)
+| location = 
 | transcript = We got another call from the village, but this one wasn't celebratory. In fact, best we can tell, it was a distress call. Santiago couldn't quite clear up the signal, but it had that sort of tone. We heard Diana's voice, panicked shouts, and someone mentioned Rockwell.<br/><br/>Since then we've picked up the pace. Hopefully we can make it back in time to help, and the situation isn't as dangerous as it sounded. If something were to happen to Rockwell, I can't help but feel like it would be my fault for neglecting him.<br/><br/>Damn it all. We've got to hurry!
 | author = Helena
 | icon = NoteHelena.png
@@ -700,6 +784,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #25 (Aberration)
+| location = 
 | transcript = I'd feared we would be too late, but I never expected the village to suffer such complete devastation. There were bodies and debris everywhere. I nearly retched at the sight. In the distance, I could just make out the culprit - a colossal, violet figure disappearing into the cavern's depths.<br/><br/>We raced to find Diana, but by the time we arrived, there was nothing we could do. She died of her wounds in Mei Yin's arms, somehow still smiling. However, before she passed, she was able to tell us the identity of the monster that had done this.<br/><br/>His name was Edmund Rockwell.
 | author = Helena
 | icon = NoteHelena.png
@@ -708,6 +793,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #26 (Aberration)
+| location = 
 | transcript = I can't let Mei Yin go after Rockwell alone. It's my fault that he was here. He's my responsibility! So why am I huddled here, writing down my thoughts as though I'm too afraid to say them aloud?<br/><br/>For weeks, we've been besieged by monsters that Rockwell either bent to his will or created himself, but today Mei Yin finally grew sick of hiding. She grabbed every weapon and able bodied beast she could and left to hunt him down alone. I've never seen her like that. Even Nerva never made her eyes burn with such hatred.<br/><br/>Damn it, she's going to get herself killed and it will be my fault! But how can I shoot him? He's my oldest friend. He helped me when I had no one else.<br/><br/>But it's my fault, so I have to try. I have to!
 | author = Helena
 | icon = NoteHelena.png
@@ -716,6 +802,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #27 (Aberration)
+| location = 
 | transcript = I caught up with Mei Yin and Rockwell among the flowing rivers of magma in the deepest pits of the caverns, where they were already in the midst of battle. By then, Rockwell had grown into a hulking monstrosity, lashing out with flailing tentacles.<br/><br/>I needed only one look at that hideous, misshapen face before I made up my mind. I fired until my trigger finger went numb, and together, we were able to divide his attention.<br/><br/>In his fury, Rockwell created a hole in the cavern floor, and with one final blow, Mei Yin forced him through it. She nearly fell in herself, but I managed to catch her arm just in time. Thank God I did. If she'd fallen…<br/><br/>Well, I'm just glad it's over.
 | author = Helena
 | icon = NoteHelena.png
@@ -724,6 +811,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #28 (Aberration)
+| location = 
 | transcript = To Sir Edmund Rockwell,<br/><br/>Know that I choose to remember you not as the monster you were in your final moments, nor as the secretive, obsessive man you became after I found you in the desert. I should have seen the signs then. If I had, perhaps I wouldn't have to mark this empty grave.<br/><br/>This grave is for the man you were, and the man I will remember. He was the man who I'd talk and laugh with over tea long into the night, and the man who'd offer me supplies and a steed without a second thought. He was a scientist, a scholar and gentlemen. Wherever that man is, I hope he is at peace.<br/><br/>Your friend always,<br/><br/>Helena Walker
 | author = Helena
 | icon = NoteHelena.png
@@ -732,6 +820,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #29 (Aberration)
+| location = 
 | transcript = The effects of the monster's rampage still linger. Mei Yin hasn't said a word since we returned. She just stares at that starship necklace, turning it over in her hand again and again. It took an hour of coaxing just to get her to eat.<br/><br/>At least the gateway project survived, through one miracle or another. Santiago is organizing the survivors into teams to complete it. He thinks they can finish it within two weeks.<br/><br/>I suspect I won't be welcome to join them when it activates. Not that I blame them. I brought Rockwell here with me. The people he killed, the destruction he caused... it's on my head. How could I ever ask forgiveness for that?
 | author = Helena
 | icon = NoteHelena.png
@@ -740,6 +829,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #30 (Aberration)
+| location = 
 | transcript = The gateway is set to be complete tomorrow, so last night, I packed up my things and prepared to say my farewells. Santiago protested, but ultimately understood. Mei Yin, on the other hand... <br/><br/>I've never seen her break down like that. It caught me completely off guard, as did the part where she wouldn't let go of my wrist. She kept saying that she'd already lost too much, and that she couldn't lose anything else. I couldn't just leave after that, even if I could break free of that iron grip (which I doubt I could).<br/><br/>So that pretty much settled it. Tomorrow, the gateway will open, and we'll touch down on the planet below. We'll finally escape this mad experiment, and we'll do it together.
 | author = Helena
 | icon = NoteHelena.png
@@ -756,6 +846,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #1 (Extinction)
+| location = 
 | transcript = It's been a while since my last entry, hasn't it? Between all that happened with Rockwell back on the station and the shock of arriving planetside, I've been in a bit of a rut. Even cataloguing the new species I've found has done little to ease my mind.<br/><br/>Things down here are so mental that some people are wondering if we were safer before. Honestly, they might be right. Maybe that was why we were trapped on those stations to begin with...<br/><br/>Luckily, Santiago's plans have given us all something to do. I'm hardly an ace with technology, much less giant bloody robots, but after all that's happened, I owe it to these people to lend a hand in whatever way I can.
 | author = Helena
 | icon = NoteHelena.png
@@ -764,6 +855,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #2 (Extinction)
+| location = 
 | transcript = It's hard to believe that this is actually Earth, but the proof Santiago provided is undeniable. The lack of night is disconcerting though, unless you really enjoy apocalyptic events. Could the Earth's rotation have slowed down, or worse, stopped entirely? <br/><br/>No, that's rubbish. With the atmosphere out of control, all those abandoned buildings would have been decimated by wind and those giant creatures would never survive the shifting oceans, extreme temperatures and weakened magnetic field. Yet, if all those space stations above us could somehow form a magnetic barrier and repair the atmosphere...well anything's possible at this point. <br/><br/>Maybe that's their real  purpose, or maybe they're behind this mess in the first place. Whatever the truth is, I have to find it. There's no way I'm getting squashed by some monster before I do.
 | author = Helena
 | icon = NoteHelena.png
@@ -772,6 +864,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #3 (Extinction)
+| location = 
 | transcript = These machines Santiago's building are brilliant! Somehow he's simplified the controls so that even a weirdo biologist like me can move these big blokes as if they're our own body. Me, piloting robots...I've completely lost control of my life, honestly.<br/><br/>Even Mei-Yin was able to synchronize with one, and for a second I swear she cracked the tiniest of smiles. I think that brought me more relief than the mechs themselves. She's fought so hard to get here, and been through so much, especially that nightmare with Rockwell and Diana. I hope that at the end of all this, I can help her find some shred of real happiness. She deserves it.
 | author = Helena
 | icon = NoteHelena.png
@@ -780,6 +873,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #4 (Extinction)
+| location = 
 | transcript = I had a talk with Santiago today. A real one I mean, not the sarcastic banter that's his preferred method of communication. I was pretty surprised, I didn't think that had an off switch.<br/><br/>He'd been thinking about the cloning chambers we found back on the station. Are we clones of real people? If so, are we responsible for their actions? And what was the point of it? All questions I'd asked myself, but rarely had a chance to discuss.<br/><br/>I told him that we can't control any of that, and that all we were really responsible for is how we lived from now on. I'm not sure that's the answer he wanted, but for now that's the best I have.
 | author = Helena
 | icon = NoteHelena.png
@@ -788,6 +882,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #5 (Extinction)
+| location = 
 | transcript = Why does it always feel like everyone's making sacrifices for me? Rockwell, Mei-Yin, Raia, Diana and now Santiago.<br/><br/>Just before we could finish powering on the mechs, the monsters finally attacked in force. Only one of the machines was operational, so Santiago used it to lure them away. By the time Mei-Yin and I managed to power on our suits and fend them off, he was gone. There was no sign of him.<br/><br/>Well it won't be for nothing, Santiago. With the tools you've given us, I'll find the truth behind all this. Then I'll have those better answers you were looking for, I promise.
 | author = Helena
 | icon = NoteHelena.png
@@ -796,6 +891,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #6 (Extinction)
+| location = 
 | transcript = With Camp Omega compromised, we've decided to head for the wastes. There's not many of us left, and there's only three mechs remaining - piloted by Mei-Yin, myself and a fiery URE bloke named Kazuma - so we can't form that super weapon Santiago designed. That means if we run into anything too big or too nasty, it'll be trouble.<br/><br/>Yet we don't have a choice. The answers are somewhere in that wasteland, and hopefully safety along with them.<br/><br/>God, this whole piloting thing still feels bizarre, but I guess my nervous system just linked up with the machine really well. And it's what I wanted, isn't it? I'm finally something more than dead weight for other people to lug around, I can do my part. I just hope I don't let everyone down.
 | author = Helena
 | icon = NoteHelena.png
@@ -804,6 +900,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #7 (Extinction)
+| location = 
 | transcript = The mutated creatures in this wasteland can be as vicious as they are grotesque, but so far we've been able to fend them off in the mechs. There've been a few close calls that have me worried though.<br/><br/>The other day, Mei-Yin just sort of charged in without warning and nearly got herself blindsided. Not that I'm any sort of tactical expert or anything, but it just seemed reckless. That's not an isolated incident either, she's constantly trying to take on more enemies than Kazuma and I. <br/><br/>I don't think it's a matter of ego. With Santiago gone, it's like she's put the burden of protecting the survivors on herself alone. Doesn't she realize that I'm right here, finally able to share the load? Somehow I need to make her see that.
 | author = Helena
 | icon = NoteHelena.png
@@ -812,6 +909,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #8 (Extinction)
+| location = 
 | transcript = It's funny how the one subject that managed to put Mei-Yin at ease still had to do with fighting. After a fashion, anyway.<br/><br/>I'd said that I wanted to talk strategy, but mostly I just ended up showing her all the ridiculous tag team moves I'd been sketching out for our mechs. The Dossier Driver, The BioBeast Bomb, G'day Mei-t...this stuff was gold! I can't believe she didn't go for any of them, but at least she lightened up a bit.<br/><br/>For a while it was almost like we were back on the Island, failing to cook a decent meal and chatting about raptors. Bloody hell, you know your life's a mess when "the good old days" has you stranded on an island full of dinosaurs, don't you? Yet here we are...
 | author = Helena
 | icon = NoteHelena.png
@@ -820,6 +918,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #9 (Extinction)
+| location = 
 | transcript = I'm still amazed we actually tried that, and more incredibly, it actually worked! When Mei-Yin said she wanted to try the Mei I Hel-p You maneuver, I thought maybe she'd taken a knock to the head, but we really pulled it off. If only Santiago was here to see it. What an absolute ripper!<br/><br/>To be honest though? I was terrified through the whole thing. I'm scared to death every time I get in that mech, but I'll keep doing it. I can't just rely on Mei-Yin all the time and even she can't fight all these battles alone. I think she's starting to see that too.
 | author = Helena
 | icon = NoteHelena.png
@@ -828,6 +927,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #10 (Extinction)
+| location = 
 | transcript = I know it's likely that my memories are implants, but they're so clear that I still think of them as mine. They still shape me. Maybe it's just denial, but I can't help it.<br/><br/>I remember growing up in Darwin - the sunsets on the coast, the splendor and fury of the storms in the wet season, and volunteering in Kakadu whenever I could. I was an obnoxious little bugger, chasing after my next great discovery but usually just finding trouble. I suppose that hasn't changed, has it? I'm still just hopping from one adventure to another.<br/><br/>And after this over, if we find what we're looking for in this wasteland, what then? Will that be it, my last adventure?<br/><br/>Somehow I doubt it.
 | author = Helena
 | icon = NoteHelena.png
@@ -836,6 +936,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #11 (Extinction)
+| location = 
 | transcript = Even though he's gone, Santiago keeps coming through for us. That signal he found, the one he talked to me about, I think we've finally locked onto it! We picked it up a few hours ago, and it's only been getting stronger!<br/><br/>With a bit of work, we should be able to triangulate its position. I'm not sure what exactly we'll find there, but if there's even the slightest chance that it's linked to those space stations or what happened to the planet, then we've got to investigate.<br/><br/>I think this is the spark we needed to lift everyone's spirits! We're one step closer!
 | author = Helena
 | icon = NoteHelena.png
@@ -844,6 +945,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #12 (Extinction)
+| location = 
 | transcript = Why is this a debate? We finally have a clue and everyone wants to go hide in a cave and what, just try not to die? Sure, we don't know what lies at the other end of that signal, but that's the point! You climb the mountain to find out what's at the peak!<br/><br/>We vote on the matter tomorrow, and my stomach's passing the time by tying itself into knots. Could I really have come all this way just to be stopped dead by a few raised hands? Part of me thinks that even if I lose the vote, I should head off on my own, but well, there's a bit of a complication.<br/><br/>Mei-Yin is voting for the other side.
 | author = Helena
 | icon = NoteHelena.png
@@ -852,6 +954,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #13 (Extinction)
+| location = 
 | transcript = Not everyone sees things the way I do, but that doesn't make them wrong. I owe Mei-Yin for reminding me of that fact. I can't remember exactly what it was I said to her, something about how the signal was the only thing in this bloody wasteland that mattered, but her reply stopped me cold.<br/><br/>"Your voice just then, it sounded like Rockwell's."<br/><br/>I didn't say much after that. For a change, Mei-Yin did most of the talking. Unlike me, she doesn't care about the mysteries of this place. The space stations, the end of the world, none of it. She just wants to keep us - me - safe.<br/><br/>I should be grateful for that. I mean, I am but...I need time to think.
 | author = Helena
 | icon = NoteHelena.png
@@ -860,6 +963,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #14 (Extinction)
+| location = 
 | transcript = It's been a day of reversals, I guess. I'd slunk off to brood somewhere, and Mei-Yin tracked me down to talk, mostly about a subject we'd been avoiding: Diana. Since she opened my wound, she'd open hers, she said.<br/><br/>It didn't feel like a fair trade. The way she clutches that necklace, and how she smiles when she remembers the woman who gave it to her, there's a gentleness there that she offers to nothing else. To persevere with a wound so deep that it may never heal, her will will must be extraordinary, but...<br/><br/>Maybe it helps that we're limping onward together, and maybe as long as we're here to prop each other up, we'll see this through.<br/><br/>In the end, Mei-Yin changed her vote, and the ayes had it. We're following the signal.
 | author = Helena
 | icon = NoteHelena.png
@@ -868,6 +972,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #15 (Extinction)
+| location = 
 | transcript = As the signal grew stronger, I'd been anticipating catching our first sight of the source. This afternoon, it finally happened.<br/><br/>It's a massive, monolithic structure that somehow looks ominous even on the horizon. I mean honestly, what was I expecting in a place like this, a pub? The ruins we've seen aren't exactly brimming with hospitality...or pints, for that matter. Sadly.<br/><br/>That said, it does seem to stand apart from the other buildings, almost as if it was built separately. That would make sense if it's connected to the stations somehow, and also explain why it has power. As to its purpose, well there's only one way to find out...
 | author = Helena
 | icon = NoteHelena.png
@@ -876,6 +981,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #16 (Extinction)
+| location = 
 | transcript = This place is even more gigantic and foreboding up close. If the architects were trying to instill an impending sense of dread in their visitors, then well done, they absolutely nailed it. Really, I campaigned for us to come here and now even I'm wary about going inside. That's a bit embarrassing, isn't it?<br/><br/>Well no sense in putting it off. The entrance is too small for the mechs, which means we could be in for days of exploring it on foot. Of course, we could cover more ground if we split up, but given the building's aesthetic and my rudimentary knowledge of horror films, I've expressly advised against it.<br/><br/>All right, here we go. Let's see what we can find.
 | author = Helena
 | icon = NoteHelena.png
@@ -884,6 +990,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #17 (Extinction)
+| location = 
 | transcript = There's a dark sort of beauty to this place. The technology we've found so far is beyond even our mechs or TEK armor, and there are rows upon rows of it, humming softly and pulsing with an eerie light. From the way it's organized, it almost looks like a library or a server room.<br/><br/>In fact, that's exactly what I suspect it is: an archive. In other words, my instincts were right! This is the place where we're finally going to uncover all the answers we've been seeking, it has to be! If the civilization that built those space stations stored their knowledge within these halls, the secrets behind everything we've been through must lie somewhere within.<br/><br/>All we need to do now is find a way to access it...
 | author = Helena
 | icon = NoteHelena.png
@@ -892,6 +999,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #18 (Extinction)
+| location = 
 | transcript = We finally managed to get a terminal working, and well, this is it. I almost can't believe it, but I've finally found it! The mystery behind those stations, the whole reason we even exist, it's all right here!<br/><br/>According to this, those space stations are deliberately designed bio-domes called "ARKs," and they're exactly what they sound like: lifeboats. Whatever happened to the Earth, whether it was Element based technology like Santiago suspected or something else, these ARKs were built to preserve and cultivate life in all forms - fauna, flora and of course, human - safely separated from the planet's poisoned surface.<br/><br/>But something's gone wrong. There's all sorts of errors here...maybe that's why they turned into such death traps. There's something about a "Reseed Protocol" too.<br/><br/>I'll need time to look this over.
 | author = Helena
 | icon = NoteHelena.png
@@ -900,6 +1008,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #19 (Extinction)
+| location = 
 | transcript = Sorry if I'm a bit loopy, I've been deciphering the information we found for two days straight. Stuff sleep anyway, I run on data.<br/><br/>So, that Reseed Protocol I mentioned? Apparently, that's the endgame for the ARKs - they're supposed to return to the planet, and when they do, all the life they're cultivating will spread across the surface. In theory, this might make the Earth habitable again.<br/><br/>That's where the errors come in: the Reseed Protocol never initialized. I can't quite figure out why though, it just says the "conditions have not been met."<br/><br/>Damn it, that can't be it! All the answers are here, but this is the only terminal we've gotten working. I've got to find another way to access the archives. Maybe that artifact Mei-Yin mentioned? She said it was pulsing with some sort of energy, so it probably has power. I'll ask her to show me where it is.
 | author = Helena
 | icon = NoteHelena.png
@@ -908,6 +1017,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #20 (Extinction)
+| location = 
 | transcript = Before Mei-Yin even showed me what she'd found, I knew I was in for something bizarre, but I didn't think it would be quite like this.<br/><br/>When I reached out to touch the artifact she found, it felt like my hand was caught in its gravitational pull. I couldn't stop myself from touching it. Some of the details are fuzzy after that, but the next thing I knew, the artifact was gone. Instead, I was staring at an enchanting, diamond shaped object - a prism of raw, cosmic energy.<br/><br/>I didn't get the chance to examine it any further before Mei-Yin confiscated it for safety. I guess I can't blame her caution, but I'm fine! Really! Sure, my head feels like a cracked eggshell and there's still tingles running across my body, but I'm physically uninjured. Somehow I have to convince her to let me study it.<br/><br/>It's just...when I touched it the artifact, I felt something. Saw something. I need to understand.
 | author = Helena
 | icon = NoteHelena.png
@@ -916,6 +1026,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #21 (Extinction)
+| location = 
 | transcript = When I said that things got "fuzzy" when I touched the artifact, that's not really the whole truth. I remember bits and pieces of it - images, flipping across my vision in rapid succession. At first they were hard to distinguish, but now that Mei-Yin has allowed me to study the prism at a distance, they're gradually becoming clearer.<br/><br/>A man made of light, monsters roaring, a sky on fire...they didn't seem like memories. At least not mine. If the prism put those images in my head, well that's a little frightening, honestly.<br/><br/>Mei-Yin's right. I need to tread carefully here. As much as I want to know the prism's secrets, if I delve for them too deeply, I could lose myself to it. We both saw where that could lead, back in that violet pit. I should apologize for pushing the matter...
 | author = Helena
 | icon = NoteHelena.png
@@ -924,6 +1035,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #22 (Extinction)
+| location = 
 | transcript = By now, Mei-Yin and I can understand each other with only a handful of words. I just said I was sorry for being short with her, and that was that. She knows how much this means to me, and I know that she's just wants to protect me, even from myself.<br/><br/>I even told her about the images I'm seeing. She dismissed them as nonsense, but I'm not so sure. They're growing clearer with every day I spend studying the prism, and one in particular keeps coming up.<br/><br/>In it, I see a single room, in the depths of a cave. It is both a tomb and a throne - where a coffin like structure sits on a raised platform, surrounded by silvery metal and glowing crystals. The walls glimmer and a light shines down from above, or is it rising up from below? I can't tell.<br/><br/>What does it mean? Anything at all? Or do I really just need to get more sleep?
 | author = Helena
 | icon = NoteHelena.png
@@ -932,6 +1044,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #23 (Extinction)
+| location = 
 | transcript = Possible hallucinations aside, the prism itself is fascinating. It's similar to one of Santiago's hard light constructs, but it seems more solid. At first I suspected it was plasmal Element, but I'm beginning to think that's unlikely.<br/><br/>However, I do know one thing for certain: its shape. Somehow, the prism has the same size and profile as the slot in the center of our wrist implants! Yes, yes, that may seem obvious, but I was so distracted by everything else that I never noticed.<br/><br/>So is that what it's for then? Am I meant to just pop it in there like a data drive? Oh God, what if that's all it is? Did I go through all this trouble just to see a family of cyborgs' holiday photo album? "Wait, do that one again! Mum closed her optical lenses!"<br/><br/>I joke, but if it really was just something mundane, if there were no answers...what would I do then?
 | author = Helena
 | icon = NoteHelena.png
@@ -940,6 +1053,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #24 (Extinction)
+| location = 
 | transcript = After studying the prism for all this time, I'm only certain of one thing - if I insert it into my implant, something will change forever. Myself, probably, but maybe not. Who's to say I'd even survive the experience? Whatever the case, I think that's what it wants from me, and it wants it urgently.<br/><br/>And me? I still want answers, but I keep seeing Rockwell's mutated visage and hearing Mei-Yin's words. Is this how he felt, towards the end?<br/><br/>Well I won't make his mistakes. Mei-Yin, Raia, Santiago and all the others who have helped me get here made sure of that. I'll only use the prism if I'm sure it can't hurt the people I care about, and if that means never learning the ultimate truth of the ARKs? So be it.
 | author = Helena
 | icon = NoteHelena.png
@@ -948,6 +1062,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #25 (Extinction)
+| location = 
 | transcript = Up until now, the images I've been seeing have been brief and disconnected, like a collage, but this last dream was different. It was a full, coherent vision - if it a bit abstract.<br/><br/>In it, I saw violet fingers clawing at bedrock, knuckle deep in soil. They reached further, stretching, splitting and spreading like a web as stone crumbled beneath them, until at last they found a molten heart, its cadence soft and steady. Without pity, they grasped it in their twisting tendrils and squeezed. The heart's rhythm slowed, then stopped altogether, and at last it turned to cold, lifeless stone.<br/><br/>As the heart died, strings of shadow shot from the violet fingers. I traced the them across cracked and drying flesh, and when the strands ended I saw it - an army of monstrous shadows, hunting for even the smallest glimmer of light. And they were marching right towards me.
 | author = Helena
 | icon = NoteHelena.png
@@ -956,6 +1071,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #26 (Extinction)
+| location = 
 | transcript = Any thought of those images being hallucinations evaporated when Kazuma came back from his scouting run this morning. An army of monsters is headed our way, and I don't think it's a coincidence.<br/><br/>They're after the prism, that has to be it. So if I get rid of it...no, I don't think that will work. Those monsters won't stop with the prism, they'll devour everyone who came into contact with it. Somehow I just get that feeling.<br/><br/>Ugh, why am I only getting visions of how doomed we are? Show me something I can do to save my friends, you lambent little bludger!<br/><br/>Damn it all. Maybe I'll think of something once we're on the move. For now, we've got to get the hell out of here.
 | author = Helena
 | icon = NoteHelena.png
@@ -964,6 +1080,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #27 (Extinction)
+| location = 
 | transcript = I've only slept once since leaving the archives, but in that brief moment of respite, another vision came to me.<br/><br/>I saw a ladder, stretching from beneath the earth to high above the clouds. I was climbing it, ascending rung by rung, and carrying someone over my shoulder. Our pace was slow but patient. Somewhere beyond the sky, I was sure the ladder had an end, even if I couldn't see it.<br/><br/>From below, monsters roared and raged. They couldn't climb the ladder, and they couldn't reach us. Even the tallest of them - a towering King of Death - could not harm us, and as I climbed, I could see a familiar light shining from within my wrist.<br/><br/>Is that it? Is that how I can help everyone, or was that me just seeing what I wanted to? I need to decide, and soon. We're running out of time.
 | author = Helena
 | icon = NoteHelena.png
@@ -972,6 +1089,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #28 (Extinction)
+| location = 
 | transcript = I feel like my stomach has twisted itself into a cat's cradle. When Mei-Yin refused to give me the prism, I well...I stole it. I know she wants to keep me safe, but our backs are against the wall here. If there's a chance this thing can save us, then I need to have it within reach.<br/><br/>Still, I know the danger it poses, so I'll only use it as a last resort. Not to solve any ancient mystery or make a grand discovery, but to help her and everyone else. If things are dire and the prism's the only chance I have to help, then it's worth the risk.<br/><br/>I'm sorry, Mei-Yin, but we promised that we'd prop each other up, didn't we? Maybe this isn't how you envisioned it, but this is the only way I can hold up my end of the bargain. I hope you can forgive me.
 | author = Helena
 | icon = NoteHelena.png
@@ -980,6 +1098,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #29 (Extinction)
+| location = 
 | transcript = It worked. The prism, it worked, but I hesitated. Now we're only two. Only two, everyone else is dead. Everyone else. Am I dying too? Is this how it feels? Is that why I keep seeing the tomb? The tomb, again and again. The tomb, the throne and the ladder.<br/><br/>The ladder. I see it once more. I'm climbing still, above the clouds and into the stars. I think I see the end, but when I try to grab the next rung, my hand turns to dust. I try to scream, but I make no sound.<br/><br/>I'm slipping away. I see their faces. Rockwell, Raia, Diana, Santiago, Mei-Yin...I reach for them. I have to find purchase. There must be something I can grasp. Something.<br/><br/>The tomb. The tomb!
 | author = Helena
 | icon = NoteHelena.png
@@ -988,6 +1107,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 
 {{Explorer Note
 | title = Helena Note #30 (Extinction)
+| location = 
 | transcript = I'm sorry, Mei-Yin. I'm sorry. The weight's all on your shoulders now. There's no one else who can carry it.<br/><br/>The tomb. The throne. You have to reach it. You have to take me there, to the Tomb of Ascension. I can show you the path, but you have to walk it alone. I wish it weren't true. I wish I could give you wings.<br/><br/>But I believe in your heart, so believe in mine. One last time. I need you to believe. Please. Ple...
 | author = Helena
 | icon = NoteHelena.png
