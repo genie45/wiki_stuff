@@ -16,7 +16,7 @@
 }
 
 .ark-top {
-    background: var(--icon-top) center / 1.5rem no-repeat #26405b;
+    background: var(--icon-top) center / 1.5rem no-repeat var( --return-to-top-background-color );
     position: fixed;
     left: 0.5rem;
     bottom: -2rem;

@@ -468,6 +468,8 @@ html {
     --datamaps-popup-subtitle-text-color: #9b9b9b;
     --datamaps-tabber-background-active-color: var(--tabber-background-active-color);
     --datamaps-tabber-background-color: #52711550;
+    /* Return to Top button */
+    --return-to-top-background-color: #26405b;
     /* Sticky header */
     --sticky-header-background-color: rgba(90, 123, 22, 0.98);
     --sticky-header-shadow-color: #0000004a;
