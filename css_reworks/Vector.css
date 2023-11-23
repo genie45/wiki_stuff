@@ -857,7 +857,7 @@ div#content {
 	#mw-head div#right-navigation {
 		position: static;
 		box-sizing: border-box;
-		padding: 0 0.5em;
+		padding: 0 .8rem 0 0.5rem;
 	}
 }
 /* #endregion */
@@ -1107,10 +1107,6 @@ ul {
 	cursor: pointer;
 	font-weight: bold;
 }
-#mw-panel .vector-menu-content {
-	background-image: none;
-	opacity: 0.8;
-}
 #mw-panel .vector-menu-content ul li a,
 #mw-panel .vector-menu-content ul li a:link,
 #mw-panel .vector-menu-content ul li a:visited {
@@ -1272,10 +1268,7 @@ ul {
 /* #endregion */
 /* #region Toolbar (1260px) */
 @media screen and (max-width: 1260px) {
-	div#mw-panel div.portal {
-		background: none;
-	}
-	div#mw-navigation div#mw-panel {
+	#mw-panel {
 		box-sizing: border-box;
 		grid-column: aside-left/aside-right;
 		grid-row: nav-start/content-end;
@@ -1284,23 +1277,26 @@ ul {
 		height: var(--toolbar-height);
 		overflow: visible;
 		overflow-x: clip;
-		margin: 0 -4px;
+		margin: 0 1rem;
 		padding: 0 .5em;
 		border: 1px solid var(--toolbar-border-color);
+		border-radius: 4px;
 		background-color: var(--toolbar-background-color);
 		box-shadow: inset 0 0 10px #000a;
 	}
-	#mw-panel .portal,
-	#mw-panel #p-logo + .portal {
+	#mw-panel .vector-menu-portal,
+	#mw-panel #p-logo + .vector-menu-portal {
 		position: relative;
 	}
-	#mw-panel #p-logo + .portal.expanded .body, #mw-panel .portal.expanded .body, #mw-panel #p-logo + .portal:hover .body, #mw-panel .portal:hover .body {
+	#mw-panel #p-logo + .vector-menu-portal.collapsed .vector-menu-content,
+	#mw-panel .vector-menu-portal.collapsed .vector-menu-content,
+	#mw-panel #p-logo + .vector-menu-portal:hover .vector-menu-content,
+	#mw-panel .vector-menu-portal:hover .vector-menu-content,
+	#mw-panel #p-logo + .vector-menu-portal h3 {
 		display: block;
 	}
-	#mw-panel #p-logo + .portal h3 {
-		display: block;
-	}
-	#mw-panel #p-logo + .portal h3, #mw-navigation #mw-panel .portal h3 {
+	#mw-panel #p-logo + .vector-menu-portal h3,
+	#mw-panel .vector-menu-portal h3 {
 		font-size: 12px;
 		font-weight: 400;
 		padding: 6px;
@@ -1309,14 +1305,16 @@ ul {
 		background-color: transparent;
 		color: #fff;
 	}
-	#mw-panel #p-logo + .portal h3, #mw-navigation #mw-panel > div h3 {
+	#mw-panel #p-logo + .vector-menu-portal h3,
+	#mw-navigation #mw-panel > div h3 {
 		margin: 0;
 	}
-	#mw-panel .portal, #mw-panel #p-logo + .portal {
+	#mw-panel .vector-menu-portal,
+	#mw-panel #p-logo + .vector-menu-portal {
 		margin: 0;
 		margin-left: 0px;
 	}
-	#p-cactions .vector-menu-content.body {
+	#p-cactions .vector-menu-content {
 		right: 0;
 		left: unset;
 	}
@@ -1328,8 +1326,8 @@ ul {
 		display: flex;
 	}
 	/* Dropdowns */
-	#mw-panel #p-logo + .portal .body,
-	#mw-panel .portal .body {
+	#mw-panel #p-logo + .vector-menu-portal .vector-menu-content,
+	#mw-panel .vector-menu-portal .vector-menu-content {
 		display: none;
 		position: absolute;
 		left: 0;
@@ -1344,13 +1342,13 @@ ul {
 		border-top: none;
 		box-shadow: 0 3px 10px #0002;
 	}
-	#mw-panel .portal .body ul {
+	#mw-panel .vector-menu-portal .vector-menu-content ul {
 		padding: 4px;
 	}
-	#mw-panel .portal .body li {
+	#mw-panel .vector-menu-portal .vector-menu-content li {
 		padding: .55em 0;
 	}
-	#mw-panel .portal .body ul a {
+	#mw-panel .vector-menu-portal .vector-menu-content ul a {
 		padding: 6px 8px;
 	}
 }
