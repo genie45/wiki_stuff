@@ -234,7 +234,7 @@ $(function() {
             return;
         }
         if(localStorage.getItem('sidebar_c_'+$id) === "y"){
-            $el.addClass('collapsed').find('.body').slideUp(0);
+            $el.addClass('collapsed');
         }
     });
     $("#mw-panel .portal").on("click", "h3", function(event){
@@ -246,11 +246,9 @@ $(function() {
         event.stopPropagation();
         $el.toggleClass('collapsed');
         if($el.hasClass('collapsed')){ // more consistent between class and slide status.
-            $el.find('.body').slideUp('fast');
             localStorage.setItem('sidebar_c_'+$id, "y");
         }
         else{
-            $el.find('.body').slideDown('fast');
             localStorage.setItem('sidebar_c_'+$id, "n");
         }
     });
