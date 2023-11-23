@@ -3724,6 +3724,7 @@ table.status-effect-backg {
 img[src*="/PS.svg/"],
 img[src*="/Xbox_Series.svg/"],
 img[src*="/CurseForge.svg/"],
+img[src*="/Patreon.svg/"],
 img[src*="/Missing.png/"]:not(.dinolink) {
 	filter: var( --known-black-icon-filter );
 }
