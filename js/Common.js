@@ -285,10 +285,8 @@ $(function() {
         // - IF ASA LAUNCHES DURING EVENT: bump wgSiteNoticeId, swap text key to Text_ASAUpdateRelease
         // - IF ASA DOESN'T LAUNCH AND EVENT ENDS: comment out the notice, switch to Text_ASAUpdateRelease for future
 
-	    mw.config.values.wgSiteNoticeId = 4;
-    	mw.loader.using( [ 'ext.dismissableSiteNotice.styles' ] );
     	var snContent = I18n( 'Text_ASAUpdateRelease' );
-    	$( '#siteNotice' ).html( '<div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div>' + $( '#siteNotice' ).html() );
+    	$( '#siteNotice' ).prepend( '<div id="localNotice" dir="ltr" lang="en"><p style="font-size: 110%">'+snContent+'</p></div>' );
     } )();
     // #endregion
 
