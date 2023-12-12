@@ -1787,6 +1787,14 @@ div.toc {
 .tocnumber {
 	color: var(--toc-number-color);
 }
+.toc .toctitle {
+	text-align: left;
+}
+.toctogglespan {
+	float: right;
+    line-height: 1.8;
+}
+
 ul#filetoc {
 	background-color: var(--catlinks-background-color);
 	color: var(--catlinks-text-color);
@@ -2167,6 +2175,29 @@ ul#filetoc {
 	background-color: var(--ark-ambox-background-color);
 	box-shadow: 2px 2px 5px 0px rgba(var(--content-border-color--rgb), 0.2);
 }
+.ambox.ambox--compact {
+    padding: .04rem .5em;
+}
+.ambox.ambox--compact + .ambox {
+	margin-top: -0.6em;
+}
+.ambox.disambig {
+	background: none;
+	max-width: unset;
+	margin: 0.9em 1em;
+	border-left: 0;
+	border-right: 0;
+	font-style: italic;
+	padding: 0.25em 0.5em;
+	box-shadow: none;
+}
+.ambox.disambig,
+.ambox.hatnote {
+    background-color: var(--ark-arkitex-background-color);
+    border: 1px solid var(--content-border-color);
+    opacity: 0.8;
+}
+
 /* Remove top margin above first ambox in the article */
 .mw-parser-output > .ambox:first-child {
 	margin-top: 0;
@@ -2200,18 +2231,6 @@ ul#filetoc {
 }
 .ambox-contents p {
   margin: 0.2em 0;
-}
-/* #endregion */
-/* #region [[Template:Disambigbox]] */
-.ambox.disambig {
-	background: none;
-	max-width: unset;
-	margin: 0.9em 1em;
-	border-left: 0;
-	border-right: 0;
-	font-style: italic;
-	padding: 0.25em 0.5em;
-	box-shadow: none;
 }
 /* #endregion */
 
@@ -2362,6 +2381,10 @@ table.valign-table > * > tr > td { vertical-align: top !important; }
 /* #region [[Template:Photo]] */
 ul.photo-nav {
 	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.65rem;
 }
 
 .photo-nav,
@@ -2389,24 +2412,25 @@ ul.photo-nav {
 }
 
 li.photo-bg {
-	margin: 8px 6px;
-	padding: 5px;
+	padding: 0.4rem;
 	position: relative;
-	display: inline-block;
-	min-height: 152px;
-	vertical-align: top;
 	text-align: center;
-	background: #c4c4c4;
-	border: 1px solid #b7b7b7;
+	background: var(--ark-arkitex-right-color);
+	border: 2px solid var(--content-border-color);
+	border-radius: 3px;
 	box-shadow: 0 0 8px #3337;
-	color: #112;
+	color: var(--content-text-link-color);
 }
 
-div.photo-text {
+li.photo-bg > .photo-image {
+	border: 1px solid var(--content-border-color);
+}
+
+li.photo-bg > .photo-text {
 	position: relative;
 	top: 4px;
-	padding: 6px 0 6px 0;
-	font-size: 16px;
+	padding: 6px 0;
+	font-size: 1.08rem;
 }
 
 /* Fix for photo-nav tabbers on map pages flowing under region maps at narrow widths */
