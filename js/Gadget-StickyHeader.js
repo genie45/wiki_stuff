@@ -13,20 +13,18 @@ function StickyHeader() {
         .attr( 'href', mw.config.get( 'wgScriptPath' ) || '/' )
         .prepend( $( '<img width=36 height=36 alt="" />' )
             .attr( 'src', $( 'link[rel="icon"]' ).attr( 'href' ) ) )
-        .appendTo( $( '<div class="sticky-wiki-name">' ).appendTo( this.$stickyHeaderCnt ) );
+        .appendTo( $( '<div class="ark-sticky-header__page-box">' ).appendTo( this.$stickyHeaderCnt ) );
     this._buildNameBox();
-    this.$stickySearchContainer = $( '<div class="sticky-search-box">' )
+    this.$stickySearchContainer = $( '<div class="ark-sticky-header__search-box">' )
         .appendTo( this.$stickyHeaderCnt );
-    this.$stickyButtonsCnt = $( '<div class="sticky-buttons">' )
+    this.$stickyButtonsCnt = $( '<div class="ark-sticky-header__button-box">' )
         .appendTo( this.$stickyHeaderCnt );
 
     var $toc = $( '#toc' );
 	if ( $toc.length > 0 ) {
-		this.$btnToC = $( '<a role="button" id="sticky-toc" class="with-icon">' )
-			.attr( 'title', I18n( 'ToC' ) )
+		this.$btnToC = this.constructButton( 'toc', null, I18n( 'ToC' ), null )
 			.append( $( '<div class="toc">' )
-				.append( $toc.find( '> ul' ).clone( true ) ) )
-			.appendTo( this.$stickyButtonsCnt );
+				.append( $toc.find( '> ul' ).clone( true ) ) );
 	}
 
     this.$btnEdit = this.cloneButton( 'edit', 'Edit' );
@@ -39,32 +37,30 @@ function StickyHeader() {
 }
 
 
-StickyHeader.prototype.cloneButton = function ( id, messageName ) {
+StickyHeader.prototype.constructButton = function ( id, href, title, message ) {
+    return $( '<a role="button" class="ark-sticky-header__button ark-sticky-header__button--with-icon" id="sticky-'+id+'">' )
+        .attr( {
+            href: href,
+            title: title
+        } )
+        .text( message !== null ? I18n( message ) : '' )
+        .appendTo( this.$stickyButtonsCnt );
+}
+
+
+StickyHeader.prototype.cloneButton = function ( id, constructButton ) {
     var $ca = $( '#ca-'+id+' > a' );
     if ( $ca.length > 0 ) {
-        return $( '<a role="button" class="with-icon" id="sticky-'+id+'">' )
-            .attr( {
-                href: $ca.attr( 'href' ),
-                title: $ca.attr( 'title' )
-            } )
-            .text( I18n( messageName ) )
-            .appendTo( this.$stickyButtonsCnt );
+        return this.constructButton( id, $ca.attr( 'href' ), $ca.attr( 'title' ), constructButton );
     }
     return null;
 };
 
 
 StickyHeader.prototype._buildNameBox = function () {
-    var self = this;
-	mw.loader.using( 'ext.themes.jsapi', function () {
-		mw.loader.require( 'ext.themes.jsapi' ).whenCoreLoaded( function() {
-			self.$stickyNameText = $( '<span> ').text( mw.config.get( 'wgSiteName' ) ).appendTo( self.$stickyName );
-			if ( !mw.config.get( 'wgIsMainPage' ) && MwSkinTheme.getCurrent() === 'dark-test-fullwidth2023' ) {
-				var pageTitle = $( '#firstHeading' ).length > 0 ? $( '#firstHeading' ).text() : mw.config.get( 'wgTitle' );
-				self.$stickyNameText.append( $( '<span class="sticky-page-title">' ).text( pageTitle ) );
-			}
-		} );
-	} );
+	var pageTitle = $( '#firstHeading' ).length > 0 ? $( '#firstHeading' ).text() : mw.config.get( 'wgTitle' );
+    this.$stickyNameText = $( '<span class="ark-sticky-header__wiki-title"> ').text( mw.config.get( 'wgSiteName' ) ).appendTo( this.$stickyName );
+	this.$stickyNameText.append( $( '<span class="ark-sticky-header__page-title">' ).text( pageTitle ) );
 };
 
 

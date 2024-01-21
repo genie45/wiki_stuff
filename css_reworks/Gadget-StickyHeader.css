@@ -1,22 +1,22 @@
 #ark-sticky-header {
     position: fixed;
-    height: var(--sticky-header-height);
-    top: calc(-1 * var(--sticky-header-height));
+    height: var( --sticky-header-height--expanded );
+    top: calc( -1 * var( --sticky-header-height ) );
     left: 0;
     right: 0;
     z-index: 20;
-    color: var(--sticky-header-text-color);
+    color: var( --sticky-header-text-color );
     display: flex;
-    gap: var(--sticky-header-item-spacing);
-    box-shadow: 0 3px 12px 0 var(--sticky-header-shadow-color);
+    gap: var( --sticky-header-item-spacing );
+    box-shadow: 0 3px 12px 0 var( --sticky-header-shadow-color );
     align-items: center;
-    padding: var(--sticky-header-padding);
-    background: var(--sticky-header-background-color);
+    padding: var( --sticky-header-padding );
+    background: var( --sticky-header-background-color );
     transition: transform .3s, background .1s, height .3s;
 }
 
 .ark-top {
-    background: var(--icon-top) center / 1.5rem no-repeat var( --return-to-top-background-color );
+    background: var( --icon-top ) center / 1.5rem no-repeat var( --return-to-top-background-color );
     position: fixed;
     left: 0.5rem;
     bottom: -2rem;
@@ -24,7 +24,7 @@
     width: 2rem;
     border-radius: 40%;
     opacity: 0.9;
-    box-shadow: -1px 2px 8px 1px var(--sticky-header-shadow-color);
+    box-shadow: -1px 2px 8px 1px var( --sticky-header-shadow-color );
     transition: transform .3s, opacity 0.05s;
 }
 
@@ -33,60 +33,62 @@
 }
 
 html {
-    scroll-padding-top: calc(var(--netbar-height) + var(--sticky-header-height) + 1em);
+    scroll-padding-top: calc( var( --netbar-height ) + var( --sticky-header-height ) + 1em );
 }
 
 .is-sticky-header-visible #ark-sticky-header {
-    transform: translateY(calc(var(--netbar-height) + var(--sticky-header-height)));
+    transform: translateY( calc( var( --netbar-height ) + var( --sticky-header-height--expanded ) ) );
 }
 .is-sticky-header-visible .ark-top {
-    transform: translateY(-2.8rem);
+    transform: translateY( -2.8rem );
 }
-  
-#ark-sticky-header > .sticky-wiki-name {
+
+/* #region Wiki and page title */
+.ark-sticky-header__page-box {
     font-size: 108%;
     font-weight: 600;
     white-space: nowrap;
 }
 
-#ark-sticky-header > .sticky-wiki-name a {
+.ark-sticky-header__page-box a {
 	display: flex;
 	align-items: center;
     color: var(--sticky-header-link-color);
 }
 
-#ark-sticky-header > .sticky-wiki-name > a > span {
+.ark-sticky-header__wiki-title {
     margin-left: 0.5em;
     font-size: 90%;
     line-height: 1.25;
 }
 
-#ark-sticky-header > .sticky-wiki-name > a > span > span {
+.ark-sticky-header__page-title {
     display: block;
     margin-left: 0;
     font-size: 70%;
 }
-  
-#ark-sticky-header > .sticky-search-box {
+/* #endregion */
+/* #region Search */
+.ark-sticky-header__search-box {
     flex-grow: 1;
     flex-basis: 100%;
 }
 
-#ark-sticky-header > .sticky-search-box > #p-search {
+.ark-sticky-header__search-box > #p-search {
     margin: 0;
     width: 100%;
 }
   
-#ark-sticky-header > .sticky-search-box form {
+.ark-sticky-header__search-box form {
     margin: 0;
 }
   
-#ark-sticky-header > .sticky-search-box .vector-search-box-inner {
+.ark-sticky-header__search-box .vector-search-box-inner {
     width: 100%;
     max-width: unset;
 }
   
-#ark-sticky-header > .sticky-search-box .vector-search-box-input {
+.ark-sticky-header__search-box .vector-search-box-input {
     height: var(--sticky-header-search-height);
     padding-left: 0.8em;
     font-size: 0.85em;
@@ -96,22 +98,23 @@ html {
     border-radius: var(--sticky-search-border-radius);
 }
   
-#ark-sticky-header > .sticky-search-box input::placeholder {
+.ark-sticky-header__search-box input::placeholder {
     color: var(--search-text-color--placeholder-sticky);
 }
 
-#ark-sticky-header .vector-search-box-inner .searchButton {
+.ark-sticky-header__search-box .vector-search-box-inner .searchButton {
     filter: var( --search-button-filter--sticky );
 }
-
-#ark-sticky-header > .sticky-buttons {
+/* #endregion */
+/* #region Buttons */
+.ark-sticky-header__button-box {
     display: flex;
     justify-content: flex-end;
 }
 
-#ark-sticky-header .sticky-buttons > a {
+.ark-sticky-header__button {
     color: var(--sticky-button-text-color);
-    padding: 0 0.5em;
+    padding: 0 0.22rem;
     border: 1px solid var(--sticky-button-border-color);
     height: 36px;
     display: flex;
@@ -119,42 +122,46 @@ html {
     align-items: center;
     border-left-width: 0;
     background-color: var(--sticky-button-background-color);
+    box-sizing: border-box;
 }
 
-#ark-sticky-header .sticky-buttons > a:hover,
-#ark-sticky-header .sticky-buttons > a:focus {
+.ark-sticky-header__button:hover,
+.ark-sticky-header__button:focus {
     background-color: var(--sticky-button-hover-background-color);
 }
 
-#ark-sticky-header .sticky-buttons > .with-icon {
-    padding: 0 0.3em;
-    background-position: center center;
-    background-repeat: no-repeat;
-    font-size: 0;
-    width: 32px;
-    background-size: 55%;
-}
-
-#ark-sticky-header .sticky-buttons > a:first-child {
+.ark-sticky-header__button:first-child {
     border-left-width: 1px;
     border-top-left-radius: var(--sticky-button-border-radius);
     border-bottom-left-radius: var(--sticky-button-border-radius);
 }
-#ark-sticky-header .sticky-buttons > a:last-child {
+.ark-sticky-header__button:last-child {
     border-top-right-radius: var(--sticky-button-border-radius);
     border-bottom-right-radius: var(--sticky-button-border-radius);
 }
 
-#ark-sticky-header #sticky-edit {
-    background-image: var(--icon-edit);
+.ark-sticky-header__button--with-icon {
+    font-size: 0;
+    width: 32px;
 }
-#ark-sticky-header #sticky-history {
-    background-image: var(--icon-history);
+.ark-sticky-header__button--with-icon::before {
+    content: '';
+    background: var( --sticky-button-icon-color );
+    height: 100%;
+    width: 100%;
+    mask: no-repeat center / contain;
 }
-#ark-sticky-header #sticky-talk {
-    background-image: var(--icon-talk);
+#ark-sticky-header #sticky-edit::before {
+    mask-image: var(--icon-edit);
 }
-
+#ark-sticky-header #sticky-history::before {
+    mask-image: var(--icon-history);
+}
+#ark-sticky-header #sticky-talk::before {
+    mask-image: var(--icon-talk);
+}
+/* #endregion */
+ 
 .is-sticky-header-visible #p-cactions .vector-menu-content {
 	display: none;
 }
@@ -193,28 +200,28 @@ html {
 /* #endregion */
 
 @media screen and (max-width: 720px) {
-    #ark-sticky-header > .sticky-wiki-name,
-    #ark-sticky-header > .sticky-buttons {
+    .ark-sticky-header__page-box,
+    .ark-sticky-header__button-box {
         flex-basis: unset;
     }
-    #ark-sticky-header > .sticky-wiki-name span {
+    .ark-sticky-header__page-box span {
         position: absolute;
         top: -50px;
         font-size: 1px;
     }
-    #ark-sticky-header > .sticky-search-box #searchInput {
-        height: var(--sticky-header-search-height);
+    .ark-sticky-header__search-box #searchInput {
+        height: var( --sticky-header-search-height );
         border-bottom: none;
         border-top: none;
     }
-    #ark-sticky-header .sticky-buttons {
+    .ark-sticky-header__button-box {
         display: none;
     }
-    #ark-sticky-header .sticky-buttons a {
+    .ark-sticky-header__button {
         padding: 0 0.5em;
-        height: var(--sticky-header-height);
+        height: var( --sticky-header-height );
     }
-    #ark-sticky-header .sticky-buttons a:first-child {
+    .ark-sticky-header__button:first-child {
         border-left-width: 0;
     }
 }

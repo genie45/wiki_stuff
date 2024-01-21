@@ -85,6 +85,7 @@
 	--fp-promo-image: url(/images/0/01/FP_promo_image.jpg?20231017) /*[[File:FP promo image.jpg]]*/;
 	/* Sticky header */
 	--sticky-header-height: 0px;
+	--sticky-header-height--expanded: 3rem;
 	--sticky-header-padding: 0 1rem;
 	--sticky-header-item-spacing: calc( 2rem + 2vw );
 	--sticky-header-search-height: 2.2rem;
@@ -113,7 +114,7 @@ body {
 	--sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
 }
 body.is-sticky-header-visible {
-	--sticky-header-height: 3rem;
+	--sticky-header-height: var( --sticky-header-height--expanded );
 	--search-button-overlay-offset--top: -1rem;
 }
 @media screen and (min-width: 1261px) {
@@ -491,6 +492,7 @@ html {
 	--sticky-button-border-color: #222;
 	--sticky-button-background-color: #fff4;
 	--sticky-button-hover-background-color: #a2bb6f;
+	--sticky-button-icon-color: var( --wmui-color-yellow50 );
 	/* [[Template:ResourceMap]] only used on mod versions of data maps */
 	--trm-map-notice-border-color: #7FE7FF;
 	--trm-map-notice-background-color: #6e92c06b;
