@@ -410,6 +410,7 @@ $(function() {
     // #region Sticky table headers
     ( function () {
         var STICKY_THEAD_CLASS = 'ark-sticky-thead',
+            MIN_ROWS_FOR_STICKY = 6,
             bodyElement = document.getElementById( 'bodyContent' );
         var lastStickyThead = null,
             tables = null;
@@ -447,6 +448,10 @@ $(function() {
 
                 tables = [];
                 tablesToCheck.forEach( function ( table ) {
+                    if ( table.rows.length < MIN_ROWS_FOR_STICKY ) {
+                        return;
+                    }
+
                     if ( table.tHead ) {
                         tables.push( {
                             table: table,
