@@ -439,7 +439,7 @@ $(function() {
                         }
                     } );
                 },
-                20
+                5
             ),
             setupStickyTheads = function ( tablesToCheck ) {
                 if ( tablesToCheck == null ) {
