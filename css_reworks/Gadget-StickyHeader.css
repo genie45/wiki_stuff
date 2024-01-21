@@ -1,7 +1,7 @@
 #ark-sticky-header {
     position: fixed;
     height: var( --sticky-header-height--expanded );
-    top: calc( -1 * var( --sticky-header-height ) );
+    top: 0;
     left: 0;
     right: 0;
     z-index: 20;
@@ -12,7 +12,8 @@
     align-items: center;
     padding: var( --sticky-header-padding );
     background: var( --sticky-header-background-color );
-    transition: transform .3s, background .1s, height .3s;
+    transform: translateY( -100% );
+    transition: transform .3s;
 }
 
 .ark-top {
@@ -37,7 +38,7 @@ html {
 }
 
 .is-sticky-header-visible #ark-sticky-header {
-    transform: translateY( calc( var( --netbar-height ) + var( --sticky-header-height--expanded ) ) );
+    transform: translateY( var( --netbar-height ) );
 }
 .is-sticky-header-visible .ark-top {
     transform: translateY( -2.8rem );
@@ -79,7 +80,7 @@ html {
     width: 100%;
 }
   
-.ark-sticky-header__search-box form {
+.ark-sticky-header__search-box .vector-search-box form {
     margin: 0;
 }
   
