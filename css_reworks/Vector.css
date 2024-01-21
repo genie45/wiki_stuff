@@ -130,6 +130,18 @@ body.is-sticky-header-visible {
 	}
 }
 /* #endregion */
+/* #region Screen grade: 3k and above */
+@media screen and (min-width: 2300px) {
+	html.client-js.theme-dark-gen2 {
+	    --layout-sidespace--dynamic: 4vw;
+	}
+}
+@media screen and (min-width: 2700px) {
+	html.client-js.theme-dark-gen2 {
+	    --layout-sidespace--dynamic: 9vw;
+	}
+}
+/* #endregion */
 /* #region Screen grade: medium desktop and above - sidebar hiding */
 @media screen and (min-width: 1260px) {
 	html.is-sidebar-hidden {
