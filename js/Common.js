@@ -90,6 +90,9 @@ window.arkConditionalModules = (window.arkConditionalModules||[]).concat( [
     // [[Template:Nav creatures]] grid filtering
     { sel: '.creature-roster',
       pages: [ 'MediaWiki:NavboxGrid.js' ] },
+    // [[Console commands]] filtering
+    { sel: '#console-filters',
+      pages: [ 'MediaWiki:CommandFilters.js' ] },
     // Common Data page fetch function if a wild stats calculator, spawn map or an interactive region map are present.
     // Separate request for cache efficiency (load once, not every time for a combination).
     { sel: [ '#wildStatCalc', '.data-map-container[data-spawn-data-page-name]', '.interactive-regionmap',
