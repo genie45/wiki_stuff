@@ -1,3 +1,10 @@
+/**
+ * This script is loaded from the English wiki on all international wikis.
+ * Translators do not need to copy it to their wiki.
+ */
+
+
+
 function buildCommandIndex( contentElement ) {
     var results = [];
     contentElement.querySelectorAll( 'div.console-command' ).forEach( function ( element ) {
