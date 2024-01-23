@@ -115,7 +115,7 @@ html {
 
 .ark-sticky-header__button {
     color: var(--sticky-button-text-color);
-    padding: 0 0.22rem;
+    padding: 0.22rem;
     border: 1px solid var(--sticky-button-border-color);
     height: 36px;
     display: flex;
@@ -148,18 +148,21 @@ html {
 .ark-sticky-header__button--with-icon::before {
     content: '';
     background: var( --sticky-button-icon-color );
-    height: 100%;
-    width: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
     mask: no-repeat center / contain;
 }
 #ark-sticky-header #sticky-edit::before {
-    mask-image: var(--icon-edit);
+    mask-image: var( --icon-edit );
+}
+#ark-sticky-header #sticky-toc::before {
+    mask-image: var( --icon-toc );
 }
 #ark-sticky-header #sticky-history::before {
-    mask-image: var(--icon-history);
+    mask-image: var( --icon-history );
 }
 #ark-sticky-header #sticky-talk::before {
-    mask-image: var(--icon-talk);
+    mask-image: var( --icon-talk );
 }
 /* #endregion */
  
@@ -170,7 +173,6 @@ html {
 /* #region Table of contents */
 #ark-sticky-header #sticky-toc {
     position: relative;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M7 15h12v2H7zm0-6h12v2H7zm0-6h12v2H7zM2 6h1V1H1v1h1zm1 9v1H2v1h1v1H1v1h3v-5H1v1zM1 8v1h2v1H1.5a.5.5 0 0 0-.5.5V13h3v-1H2v-1h1.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z'/%3E%3C/svg%3E%0A");;
     transition: border-bottom-left-radius .07s;
 }
 #ark-sticky-header #sticky-toc > .toc {
