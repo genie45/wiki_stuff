@@ -92,19 +92,20 @@
 	--sticky-search-border-radius: 4px;
 	--sticky-button-border-radius: 4px;
 	/* Common icons */
-	--icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20231017) /*[[File:Skin iconsheet.svg]]*/;
-	--icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20231017#edit);
-	--icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20231017#talk);
-	--icon-history: url(/images/9/9e/Skin_iconsheet.svg?20231017#history);
-	--icon-view: url(/images/9/9e/Skin_iconsheet.svg?20231017#view);
-	--icon-view-source: url(/images/9/9e/Skin_iconsheet.svg?20231017#edit-source);
-	--icon-contributions: url(/images/9/9e/Skin_iconsheet.svg?20231017#contributions);
-	--icon-more: url(/images/9/9e/Skin_iconsheet.svg?20231017#more);
-	--icon-top: url(/images/9/9e/Skin_iconsheet.svg?20231017#top);
-	--sidenav-toggle-icon: url(/images/9/9e/Skin_iconsheet.svg?20231017#expand-sidebar);
-	--sidenav-toggle-icon--hidden: url(/images/9/9e/Skin_iconsheet.svg?20231017#collapse-sidebar);
-	--sidebar-toggle-icon--open: url(/images/9/9e/Skin_iconsheet.svg?20231017#collapse-sidebar);
-	--sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20231017#expand-sidebar);
+	--icon-sheet-base: url(/images/9/9e/Skin_iconsheet.svg?20240123) /*[[File:Skin iconsheet.svg]]*/;
+	--icon-edit: url(/images/9/9e/Skin_iconsheet.svg?20240123#edit);
+	--icon-talk: url(/images/9/9e/Skin_iconsheet.svg?20240123#talk);
+	--icon-history: url(/images/9/9e/Skin_iconsheet.svg?20240123#history);
+	--icon-view: url(/images/9/9e/Skin_iconsheet.svg?20240123#view);
+	--icon-view-source: url(/images/9/9e/Skin_iconsheet.svg?20240123#edit-source);
+	--icon-contributions: url(/images/9/9e/Skin_iconsheet.svg?20240123#contributions);
+	--icon-more: url(/images/9/9e/Skin_iconsheet.svg?20240123#more);
+	--icon-top: url(/images/9/9e/Skin_iconsheet.svg?20240123#top);
+	--icon-toc: url(/images/9/9e/Skin_iconsheet.svg?20240123#toc);
+	--sidenav-toggle-icon: url(/images/9/9e/Skin_iconsheet.svg?20240123#expand-sidebar);
+	--sidenav-toggle-icon--hidden: url(/images/9/9e/Skin_iconsheet.svg?20240123#collapse-sidebar);
+	--sidebar-toggle-icon--open: url(/images/9/9e/Skin_iconsheet.svg?20240123#collapse-sidebar);
+	--sidebar-toggle-icon--collapsed: url(/images/9/9e/Skin_iconsheet.svg?20240123#expand-sidebar);
 	/* Bulletpoints - still embedding, using the sheet unfortunately caused problems */
 	--list-bulletpoint-image: url(data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22 fill=%22%23fff%22/%3E %3C/svg%3E);
 }
