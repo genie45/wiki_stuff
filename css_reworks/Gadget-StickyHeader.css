@@ -51,7 +51,9 @@ html {
     white-space: nowrap;
 }
 
-.ark-sticky-header__page-box a {
+.ark-sticky-header__page-box a,
+.ark-sticky-header__page-box a:visited,
+.ark-sticky-header__page-box a:link {
 	display: flex;
 	align-items: center;
     color: var(--sticky-header-link-color);
@@ -97,6 +99,10 @@ html {
     color: var(--search-text-color--sticky);
     border-color: var(--search-border-color--sticky);
     border-radius: var(--sticky-search-border-radius);
+}
+
+.ark-sticky-header__search-box .vector-search-box-inner:hover .vector-search-box-input {
+    background: var( --search-background-color--sticky-active );
 }
   
 .ark-sticky-header__search-box input::placeholder {

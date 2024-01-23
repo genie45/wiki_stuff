@@ -291,6 +291,7 @@ html {
 	--search-background-color-opacity: 0.87;
 	--search-background-color-opacity--active: 0.98;
 	--search-background-color--sticky: #fff6;
+	--search-background-color--sticky-active: #fff8;
 	--search-border-color: var(--content-border-color);
 	--search-border-color--active: var(--content-border-color);
 	--search-border-color--sticky: #313131;
