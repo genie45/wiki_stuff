@@ -1868,6 +1868,17 @@ ul#filetoc {
 /* #endregion */
 /* #endregion */
 
+/* #region VisualEditor */
+.ve-loading .ve-init-mw-desktopArticleTarget-targetContainer > :not(.ve-init-mw-desktopArticleTarget-toolbarPlaceholder):not(.ve-init-mw-desktopArticleTarget),
+.ve-loading .ve-init-mw-desktopArticleTarget-originalContent,
+.ve-activated:not(.ve-loading) .ve-init-mw-desktopArticleTarget-uneditableContent {
+	opacity: 1;
+}
+.ve-loading #bodyContent {
+	opacity: 0.6;
+}
+/* #endregion */
+
 /* #region Category list */
 #catlinks {
 	background: none;
