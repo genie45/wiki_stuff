@@ -16,8 +16,8 @@
     transition: transform .3s;
 }
 
-.ark-top {
-    background: var( --icon-top ) center / 1.5rem no-repeat var( --return-to-top-background-color );
+#ark-top-button {
+    background: var( --return-to-top-background-color );
     position: fixed;
     left: 0.5rem;
     bottom: -2rem;
@@ -29,7 +29,7 @@
     transition: transform .3s, opacity 0.05s;
 }
 
-.ark-top:hover {
+#ark-top-button:hover {
     opacity: 1;
 }
 
@@ -40,7 +40,7 @@ html {
 .is-sticky-header-visible #ark-sticky-header {
     transform: translateY( var( --netbar-height ) );
 }
-.is-sticky-header-visible .ark-top {
+.is-sticky-header-visible #ark-top-button {
     transform: translateY( -2.8rem );
 }
 
@@ -145,7 +145,8 @@ html {
     font-size: 0;
     width: 32px;
 }
-.ark-sticky-header__button--with-icon::before {
+.ark-sticky-header__button--with-icon::before,
+#ark-top-button::before {
     content: '';
     background: var( --sticky-button-icon-color );
     width: 1.5rem;
