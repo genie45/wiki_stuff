@@ -60,7 +60,9 @@ StickyHeader.prototype.cloneButton = function ( id, constructButton ) {
 StickyHeader.prototype._buildNameBox = function () {
 	var pageTitle = $( '#firstHeading' ).length > 0 ? $( '#firstHeading' ).text() : mw.config.get( 'wgTitle' );
     this.$stickyNameText = $( '<span class="ark-sticky-header__wiki-title"> ').text( mw.config.get( 'wgSiteName' ) ).appendTo( this.$stickyName );
-	this.$stickyNameText.append( $( '<span class="ark-sticky-header__page-title">' ).text( pageTitle ) );
+    if ( !mw.config.get( 'wgIsMainPage' ) ) {
+	    this.$stickyNameText.append( $( '<span class="ark-sticky-header__page-title">' ).text( pageTitle ) );
+    }
 };
 
 
