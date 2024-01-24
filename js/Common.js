@@ -26,7 +26,7 @@ window.arkCreateI18nInterfaceEx = function ( module, strings ) {
         {},
         strings[ 'en' ],
         strings[ lang ],
-        localStrings,
+        localStrings
     );
 };
 // #endregion
