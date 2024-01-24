@@ -3338,6 +3338,7 @@ li.photo-bg > .photo-text {
 }
 #p-lang-btn .vector-menu-content a {
 	font-weight: 500;
+	white-space: break-spaces;
 }
 /* #endregion */
 
