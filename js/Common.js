@@ -18,6 +18,17 @@ window.arkCreateI18nInterface = function(module, strings) {
                  || '<'+key+'>' );
     };
 };
+window.arkCreateI18nInterfaceEx = function ( module, strings ) {
+    var lang = mw.config.get( 'wgPageContentLanguage' );
+    var localStrings = window.arkLocalI18n && window.arkLocalI18n[ module ];
+
+    return Object.assign(
+        {},
+        strings[ 'en' ],
+        strings[ lang ],
+        localStrings,
+    );
+};
 // #endregion
 
 
