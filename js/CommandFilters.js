@@ -52,10 +52,11 @@ function constructSearchBar( commandIndex ) {
     function _reevaluate() {
         var query = searchInput.value.trim().toLowerCase();
         commandIndex.forEach( function ( command ) {
-            var isVisible = command.name.toLowerCase().includes( query );
+            var isVisible = query === '' || command.name.toLowerCase().includes( query );
             command.element.style.display = isVisible ? '' : 'none';
         } );
     }
+    _reevaluate = mw.util.debounce( _reevaluate, 80 );
 
     var container = document.createElement( 'div' );
     container.className = 'console-filters__search-box';
