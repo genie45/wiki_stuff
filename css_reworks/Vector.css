@@ -1772,6 +1772,16 @@ table .number { text-align: right; }
 #toc > .toctitle {
 	padding-bottom: 0;
 }
+#mw-toc-heading::before {
+	display: inline-block;
+	content: '';
+	width: 0.9rem;
+	height: 0.9rem;
+	mask: var(--icon-toc) center;
+	background: currentColor;
+	vertical-align: sub;
+	margin-right: 0.4rem;
+}
 #toc > ul {
 	margin-bottom: 0;
 	padding-top: 0.2rem;
