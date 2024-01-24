@@ -45,7 +45,7 @@ html {
     opacity: 1;
 }
 
-#ark-top-button::before {
+a#ark-top-button::before {
     display: block;
     mask-image: var(--icon-top);
 }
