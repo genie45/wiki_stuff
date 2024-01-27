@@ -2766,6 +2766,7 @@ li.photo-bg > .photo-text {
 
 /* Full container */
 .info-framework {
+	clear: right;
 	float: right;
 	width: 29em;
 	max-width: 100%;
