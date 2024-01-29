@@ -83,10 +83,10 @@ function buildSearchExecutor( commandIndex ) {
             commandIndex.forEach( function ( command ) {
                 var isVisible = true;
                 if ( this.query ) {
-                    isVisible &&= command.name.toLowerCase().includes( query );
+                    isVisible = isVisible && command.name.toLowerCase().includes( query );
                 }
                 if ( tags ) {
-                    isVisible &&= command.tags.some( function ( value ) {
+                    isVisible = isVisible && command.tags.some( function ( value ) {
                         return tags.includes( value );
                     } );
                 }
