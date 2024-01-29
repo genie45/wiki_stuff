@@ -75,7 +75,7 @@ StickyHeader.prototype.show = function () {
 
 StickyHeader.prototype.hide = function () {
     isVisible = false;
-    document.body.documentElement.remove( 'is-sticky-header-visible' );
+    document.documentElement.classList.remove( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$searchParent );
 };
 
