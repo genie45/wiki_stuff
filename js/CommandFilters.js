@@ -63,7 +63,7 @@ function gatherTags( setupElement ) {
 
 
 function buildSearchExecutor( commandIndex ) {
-    return {
+    var result = {
         query: null,
         enabledTags: {},
         update: function () {
@@ -94,6 +94,8 @@ function buildSearchExecutor( commandIndex ) {
             } );
         },
     };
+    result.update = result.update.bind( result );
+    return result;
 }
 
 
