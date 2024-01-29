@@ -68,14 +68,14 @@ StickyHeader.prototype._buildNameBox = function () {
 
 StickyHeader.prototype.show = function () {
     isVisible = true;
-    document.body.classList.add( 'is-sticky-header-visible' );
+    document.documentElement.classList.add( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$stickySearchContainer );
 };
     
 
 StickyHeader.prototype.hide = function () {
     isVisible = false;
-    document.body.classList.remove( 'is-sticky-header-visible' );
+    document.body.documentElement.remove( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$searchParent );
 };
 

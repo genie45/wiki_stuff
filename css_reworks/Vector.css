@@ -114,7 +114,7 @@ body {
 	/* Global position: sticky offset */
 	--sticky-offset: calc(var(--netbar-height) + var(--sticky-header-height));
 }
-body.is-sticky-header-visible {
+html.is-sticky-header-visible {
 	--sticky-header-height: var( --sticky-header-height--expanded );
 	--search-button-overlay-offset--top: -1rem;
 }
@@ -232,7 +232,7 @@ body.is-sticky-header-visible {
 		--sticky-header-item-spacing: 0.8rem;
 		--sticky-button-border-radius: 0;
 	}
-	body.is-sticky-header-visible {
+	html.is-sticky-header-visible {
 		--sticky-header-height: 2.6rem;
 		--search-button-overlay-image: none;
 	}

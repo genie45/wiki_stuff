@@ -17,10 +17,10 @@
 }
 
 html {
-    scroll-padding-top: calc( var( --netbar-height ) + var( --sticky-header-height ) + 1em );
+    scroll-padding-top: calc( var( --netbar-height ) + var( --sticky-header-height ) );
 }
 
-.is-sticky-header-visible #ark-sticky-header {
+html.is-sticky-header-visible #ark-sticky-header {
     transform: translateY( var( --netbar-height ) );
 }
 
