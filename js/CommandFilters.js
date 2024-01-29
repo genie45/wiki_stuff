@@ -11,7 +11,8 @@
 var Text = arkCreateI18nInterfaceEx( 'CommandFilters', {
     en: {
         SEARCH_TIP: 'Start typing to search through commands...',
-        TAGS: 'Tags (currently non-interactive)',
+        TAGS: 'Tags',
+        TAGS_TEXT: 'Select the types of commands you want to see below.',
     }
 } );
 
@@ -61,12 +62,50 @@ function gatherTags( setupElement ) {
 }
 
 
-function constructTagsBoard( commandIndex, tagRegistry ) {
+function buildSearchExecutor( commandIndex ) {
+    return {
+        query: null,
+        enabledTags: {},
+        update: function () {
+            if ( this.query.length === 0 ) {
+                this.query = null;
+            }
+
+            var tags = Object.entries( this.enabledTags )
+                .filter( function ( pair ) {
+                    return pair[ 1 ] === true;
+                } )
+                .map( function ( pair ) {
+                    return pair[ 0 ];
+                } );
+            tags = tags.length > 0 ? tags : null;
+
+            commandIndex.forEach( function ( command ) {
+                var isVisible = true;
+                if ( this.query ) {
+                    isVisible &&= command.name.toLowerCase().includes( query );
+                }
+                if ( tags ) {
+                    isVisible &&= command.tags.some( function ( value ) {
+                        return tags.includes( value );
+                    } );
+                }
+                command.element.style.display = isVisible ? '' : 'none';
+            } );
+        },
+    };
+}
+
+
+function constructTagsBoard( tagRegistry, searchExecutor ) {
     var container = document.createElement( 'div' );
     container.className = 'console-filters__tags-box console-filters__box';
     
     var heading = document.createElement( 'h4' );
     heading.textContent = Text.TAGS;
+    
+    var info = document.createElement( 'p' );
+    info.textContent = Text.TAGS_TEXT;
 
     var tagContainer = document.createElement( 'div' );
     tagContainer.className = 'console-filters__tags-container';
@@ -84,7 +123,12 @@ function constructTagsBoard( commandIndex, tagRegistry ) {
 
             var label = document.createElement( 'label' );
             label.textContent = displayName;
-            checkbox.name = label.for = 'console-filter__tag--' + name;
+            checkbox.name = label.htmlFor = 'console-filter__tag--' + name;
+
+            checkbox.addEventListener( 'change', function () {
+                tagRegistry[ name ] = checkbox.checked;
+                searchExecutor.update();
+            } );
 
             tagElement.appendChild( checkbox );
             tagElement.appendChild( label );
@@ -92,22 +136,19 @@ function constructTagsBoard( commandIndex, tagRegistry ) {
         } );
 
     container.appendChild( heading );
+    container.appendChild( info );
     container.appendChild( tagContainer );
     return container;
 }
 
 
-function constructSearchBar( commandIndex ) {
+function constructSearchBar( searchExecutor ) {
     var searchInput;
 
-    function _reevaluate() {
-        var query = searchInput.value.trim().toLowerCase();
-        commandIndex.forEach( function ( command ) {
-            var isVisible = query === '' || command.name.toLowerCase().includes( query );
-            command.element.style.display = isVisible ? '' : 'none';
-        } );
-    }
-    _reevaluate = mw.util.debounce( _reevaluate, 80 );
+    _reevaluate = mw.util.debounce( function () {
+        searchExecutor.query = searchInput.value.trim().toLowerCase();
+        searchExecutor.update();
+    }, 80 );
 
     var container = document.createElement( 'div' );
     container.className = 'console-filters__search-box';
@@ -116,8 +157,7 @@ function constructSearchBar( commandIndex ) {
     searchInput.type = 'text';
     searchInput.placeholder = Text.SEARCH_TIP;
     
-    searchInput.addEventListener( 'change', _reevaluate );
-    searchInput.addEventListener( 'keydown', _reevaluate );
+    searchInput.addEventListener( 'input', _reevaluate );
     
     container.appendChild( searchInput );
     return container;
@@ -126,11 +166,12 @@ function constructSearchBar( commandIndex ) {
 
 function main() {
 	var container = document.querySelector( '#console-filters' ),
-        tagRegistry = gatherTags( container )
-    	commandIndex = buildCommandIndex( container.parentElement );
+        tagRegistry = gatherTags( container ),
+    	commandIndex = buildCommandIndex( container.parentElement ),
+        searchExecutor = buildSearchExecutor( commandIndex );
     
-    container.appendChild( constructTagsBoard( commandIndex, tagRegistry ) );
-    container.appendChild( constructSearchBar( commandIndex ) );
+    container.appendChild( constructTagsBoard( tagRegistry, searchExecutor ) );
+    container.appendChild( constructSearchBar( searchExecutor ) );
 
 	container.setAttribute( 'data-loaded', true );
 }
