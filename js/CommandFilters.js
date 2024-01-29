@@ -22,7 +22,7 @@ function buildCommandIndex( contentElement ) {
     var results = [];
     contentElement.querySelectorAll( 'div.console-command' ).forEach( function ( element ) {
         var tags = ( element.getAttribute( 'data-tags' ) || '' )
-            .split( ';' )
+            .split( ' ' )
             .filter( function ( element ) {
                 return element.length > 0;
             } );
