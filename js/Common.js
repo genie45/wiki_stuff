@@ -542,7 +542,7 @@ $(function() {
 	        anchorEl.href = '#' + mw.util.escapeIdForLink( headingEl.id );
 	        anchorEl.title = 'Get a link to this section';
 	        anchorEl.className = 'section-link';
-	        headingEl.parentElement.appendChild( anchorEl );
+	        headingEl.after( anchorEl );
 	    } );
 	} )();
 	// #endregion
