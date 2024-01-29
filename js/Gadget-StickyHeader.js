@@ -1,4 +1,4 @@
-var I18n, instance, intersectPoint, isMobile;
+var Text, instance, intersectPoint, isMobile;
 var isBoundToTitle = !mw.config.get( 'wgIsMainPage' );
 
 
@@ -22,7 +22,7 @@ function StickyHeader() {
 
     var $toc = $( '#toc' );
 	if ( $toc.length > 0 ) {
-		this.$btnToC = this.constructButton( 'toc', null, I18n( 'ToC' ), null )
+		this.$btnToC = this.constructButton( 'toc', null, Text.ToC, null )
 			.append( $( '<div class="toc">' )
 				.append( $toc.find( '> ul' ).clone( true ) ) );
 	}
@@ -32,7 +32,7 @@ function StickyHeader() {
     this.$btnHistory = this.cloneButton( 'history', 'History' );
     
     this.$btnBackToTop = $( '<a id="ark-top-button" role="button" aria-hidden="true" href="#top">' )
-        .attr( 'title', I18n( 'BackToTop' ) )
+        .attr( 'title', Text.BackToTop )
         .insertAfter( '.content-wrapper' );
 }
 
@@ -43,7 +43,7 @@ StickyHeader.prototype.constructButton = function ( id, href, title, message ) {
             href: href,
             title: title
         } )
-        .text( message !== null ? I18n( message ) : '' )
+        .text( message !== null ? Text[ message ] : '' )
         .appendTo( this.$stickyButtonsCnt );
 }
 
@@ -115,7 +115,7 @@ var _handleScroll = throttle( function () {
 
 
 mw.loader.using( 'site', function () {
-    I18n = arkCreateI18nInterface( 'StickyHeader', {
+    Text = arkCreateI18nInterfaceEx( 'StickyHeader', {
         en: {
             BackToTop: 'Back to top',
             Edit: 'Edit',
