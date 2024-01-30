@@ -15,6 +15,8 @@ var Text = arkCreateI18nInterfaceEx( 'CommandFilters', {
         TAGS_TEXT: 'Select the types of commands you want to see below.',
     }
 } );
+var AND_TAGS = [ 'asa', 'ase' ],
+    AND_TAGS__NEXT = [ [ 'asa', 'ase' ], [ 'cheat' ] ];
 
 
 
@@ -29,6 +31,9 @@ function buildCommandIndex( contentElement ) {
 
         if ( tags.length === 0 ) {
             tags.push( 'fallback' );
+        }
+        if ( element.getAttribute( 'data-cheat' ) === '1' ) {
+            tags.push( 'cheat' );
         }
         if ( element.getAttribute( 'data-asa' ) === '1' ) {
             tags.push( 'asa' );
@@ -62,39 +67,62 @@ function gatherTags( setupElement ) {
 }
 
 
-function buildSearchExecutor( commandIndex ) {
+function buildSearchExecutor( commandIndex, tagRegistry ) {
     var result = {
         query: null,
         enabledTags: {},
+        andTags: AND_TAGS,
+
         update: function () {
-            if ( this.query.length === 0 ) {
+            if ( this.query && this.query.length === 0 ) {
                 this.query = null;
             }
 
-            var tags = Object.entries( this.enabledTags )
-                .filter( function ( pair ) {
-                    return pair[ 1 ] === true;
-                } )
-                .map( function ( pair ) {
-                    return pair[ 0 ];
-                } );
-            tags = tags.length > 0 ? tags : null;
+            var
+                query = this.query,
+                andTags = this.andTags,
+                enabledTags = Object.entries( this.enabledTags )
+                    .filter( function ( pair ) {
+                        return pair[ 1 ] === true;
+                    } )
+                    .map( function ( pair ) {
+                        return pair[ 0 ];
+                    } );
+            
+            enabledTags = enabledTags.length > 0 ? new Set( enabledTags ) : null;
+            andTags = enabledTags ? andTags.filter( function ( value ) {
+                return enabledTags.has( value );
+            } ) : null;
+            andTags = andTags && andTags.length > 0 ? andTags : null;
 
             commandIndex.forEach( function ( command ) {
                 var isVisible = true;
-                if ( this.query ) {
+                if ( query ) {
                     isVisible = isVisible && command.name.toLowerCase().includes( query );
                 }
-                if ( tags ) {
-                    isVisible = isVisible && command.tags.some( function ( value ) {
-                        return tags.includes( value );
+                if ( andTags ) {
+                    isVisible = isVisible && andTags.some( function ( value ) {
+                        return command.tags.includes( value );
                     } );
                 }
+                if ( enabledTags ) {
+                    isVisible = isVisible && command.tags.some( function ( value ) {
+                        return enabledTags.has( value );
+                    } );
+                }
+
                 command.element.style.display = isVisible ? '' : 'none';
             } );
+
+            console.log(andTags, enabledTags);
         },
     };
     result.update = result.update.bind( result );
+
+    Object.getOwnPropertyNames( tagRegistry ).forEach( function ( value ) {
+        result.enabledTags[ value ] = true;
+    } );
+
     return result;
 }
 
@@ -125,10 +153,10 @@ function constructTagsBoard( tagRegistry, searchExecutor ) {
 
             var label = document.createElement( 'label' );
             label.textContent = displayName;
-            checkbox.name = label.htmlFor = 'console-filter__tag--' + name;
+            checkbox.id = label.htmlFor = 'console-filter__tag--' + name;
 
             checkbox.addEventListener( 'change', function () {
-                tagRegistry[ name ] = checkbox.checked;
+                searchExecutor.enabledTags[ name ] = checkbox.checked;
                 searchExecutor.update();
             } );
 
@@ -170,7 +198,7 @@ function main() {
 	var container = document.querySelector( '#console-filters' ),
         tagRegistry = gatherTags( container ),
     	commandIndex = buildCommandIndex( container.parentElement ),
-        searchExecutor = buildSearchExecutor( commandIndex );
+        searchExecutor = buildSearchExecutor( commandIndex, tagRegistry );
     
     container.appendChild( constructTagsBoard( tagRegistry, searchExecutor ) );
     container.appendChild( constructSearchBar( searchExecutor ) );
