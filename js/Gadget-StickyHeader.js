@@ -4,6 +4,7 @@ var isBoundToTitle = !mw.config.get( 'wgIsMainPage' );
 
 function StickyHeader() {
     this.$search = $( '#p-search' );
+    this.$searchInput = this.$search.find( '#searchInput' );
     this.$searchParent = this.$search.parent();
     
     this.isVisible = false;
@@ -70,13 +71,25 @@ StickyHeader.prototype.show = function () {
     isVisible = true;
     document.documentElement.classList.add( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$stickySearchContainer );
+
+    this._tickSearchSuggestUpdate();
 };
-    
 
 StickyHeader.prototype.hide = function () {
     isVisible = false;
     document.documentElement.classList.remove( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$searchParent );
+
+    this._tickSearchSuggestUpdate();
+};
+    
+
+StickyHeader.prototype._tickSearchSuggestUpdate = function () {
+    if ( this.$searchInput.val().length <= 0 || !$( 'body > .suggestions' ).is( ':visible' ) ) {
+        return;
+    }
+
+    this.$searchInput.trigger( 'blur' ).trigger( 'keydown' ).trigger( 'keypress' ).trigger( 'keyup' );
 };
 
 
