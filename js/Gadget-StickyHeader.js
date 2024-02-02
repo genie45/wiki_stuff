@@ -111,7 +111,7 @@ StickyHeader.prototype._tickSearchSuggestUpdateInternal = function () {
         }
 
         var bottom = _this.$stickySearchContainer[ 0 ].getBoundingClientRect().bottom;
-        if ( bottom !== previousBottom && --lastCallCount > 0 ) {
+        if ( bottom !== previousBottom || --lastCallCount > 0 ) {
             $suggestions.css( 'top', bottom );
             previousBottom = bottom;
             requestAnimationFrame( _syncAnchors );
