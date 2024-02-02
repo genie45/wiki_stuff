@@ -68,7 +68,7 @@ StickyHeader.prototype._buildNameBox = function () {
 
 
 StickyHeader.prototype.show = function () {
-    isVisible = true;
+    this.isVisible = true;
     document.documentElement.classList.add( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$stickySearchContainer );
 
@@ -76,20 +76,48 @@ StickyHeader.prototype.show = function () {
 };
 
 StickyHeader.prototype.hide = function () {
-    isVisible = false;
+    this.isVisible = false;
     document.documentElement.classList.remove( 'is-sticky-header-visible' );
     this.$search.appendTo( this.$searchParent );
 
     this._tickSearchSuggestUpdate();
 };
-    
+
 
 StickyHeader.prototype._tickSearchSuggestUpdate = function () {
-    if ( this.$searchInput.val().length <= 0 || !$( 'body > .suggestions' ).is( ':visible' ) ) {
+    var _this = this;
+    requestAnimationFrame( function () {
+        _this._tickSearchSuggestUpdateInternal();
+    } );
+};
+
+
+StickyHeader.prototype._tickSearchSuggestUpdateInternal = function () {
+    var $suggestions = $( 'body > .suggestions' );
+    if ( this.$searchInput.val().length <= 0 || !$suggestions.is( ':visible' ) ) {
         return;
     }
 
+    // This *is* a nice hack, but causes flicker at certain breakpoints if fired too frequently, and the `top` anchor
+    // will be incorrect once the header slides out.
     this.$searchInput.trigger( 'blur' ).trigger( 'keydown' ).trigger( 'keypress' ).trigger( 'keyup' );
+
+    // So let's correct the anchor every frame until we reach no change in the header's height
+    var previousBottom = -1, lastCallCount = 2;
+    var _this = this;
+    function _syncAnchors() {
+        if ( !_this.isVisible ) {
+            return;
+        }
+
+        var bottom = _this.$stickySearchContainer[ 0 ].getBoundingClientRect().bottom;
+        if ( bottom !== previousBottom && --lastCallCount > 0 ) {
+            $suggestions.css( 'top', bottom );
+            previousBottom = bottom;
+            requestAnimationFrame( _syncAnchors );
+        }
+    }
+    requestAnimationFrame( _syncAnchors );
 };
 
 
@@ -122,7 +150,9 @@ var _handleScroll = throttle( function () {
             instance.show();
         }
     } else {
-        instance.hide();
+        if ( instance.isVisible ) {
+            instance.hide();
+        }
     }
 }, 100 );
 
