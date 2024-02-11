@@ -18,6 +18,7 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 <div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
 ===The Island Explorer Notes===
 <div class="mw-collapsible-content">
+<div class="explorer-notes">
 {{Explorer Note
 | title = Helena Note #1
 | location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-helena-01|lat 1.591, lon 97.851}} on [[The Island]] {{DLCIcon|The Island}}.
@@ -288,10 +289,12 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 | sound = Helena_ExpNote_(The Island)_30.ogg
 }}</div>
 </div>
+</div>
 
 <div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
 ===Scorched Earth Explorer Notes===
 <div class="mw-collapsible-content">
+<div class="explorer-notes">
 {{Explorer Note
 | title = Helena Note #1 (Scorched Earth)
 | location = 
@@ -562,10 +565,12 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 | sound = Helena_ExpNote_(Scorched Earth)_30.ogg
 }}</div>
 </div>
+</div>
 
 <div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
 ===Aberration Explorer Notes===
 <div class="mw-collapsible-content">
+<div class="explorer-notes">
 {{Explorer Note
 | title = Helena Note #1 (Aberration)
 | location = 
@@ -839,11 +844,12 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 [[File:Helena Walker explore note on Aberration.jpg|thumb|Helenas route on Aberration]]
 </div>
 </div>
+</div>
 
 <div class="toccolours mw-collapsible mw-collapsed" style="background: none; border: none;">
 ===Extinction Explorer Notes===
 <div class="mw-collapsible-content">
-
+<div class="explorer-notes">
 {{Explorer Note
 | title = Helena Note #1 (Extinction)
 | location = 
@@ -1113,5 +1119,6 @@ Helena is the creator of the [[Dossiers]]. She appears to be a biologist from mo
 | icon = NoteHelena.png
 | sound = Helena_ExpNote_(Extinction)_30.ogg
 }}
+</div>
 </div>
 </div>
