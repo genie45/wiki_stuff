@@ -11,13 +11,16 @@
 var Text = arkCreateI18nInterfaceEx( 'CommandFilters', {
     en: {
         SEARCH_TIP: 'Start typing to search through commands...',
-        TAGS: 'Tags',
+        TAGS: 'Categories',
         TAGS_TEXT: 'Select the types of commands you want to see below.',
+        COUNTER_TEXT: 'commands found',
+        FILTER_ASA: 'Survival Ascended',
+        FILTER_ASE: 'Survival Evolved',
+        FILTER_CHEAT: 'Include cheats',
     }
 } );
-var AND_TAGS = [ 'asa', 'ase' ],
-    AND_TAGS__NEXT = [ [ 'asa', 'ase' ], [ 'cheat' ] ];
 
+var FILTERS = [ 'cheat', 'asa', 'ase' ];
 
 
 function buildCommandIndex( contentElement ) {
@@ -71,7 +74,7 @@ function buildSearchExecutor( commandIndex, tagRegistry ) {
     var result = {
         query: null,
         enabledTags: {},
-        andTags: AND_TAGS,
+        specialTags: {},
 
         update: function () {
             if ( this.query && this.query.length === 0 ) {
@@ -80,41 +83,46 @@ function buildSearchExecutor( commandIndex, tagRegistry ) {
 
             var
                 query = this.query,
-                andTags = this.andTags,
                 enabledTags = Object.entries( this.enabledTags )
                     .filter( function ( pair ) {
                         return pair[ 1 ] === true;
                     } )
                     .map( function ( pair ) {
                         return pair[ 0 ];
-                    } );
+                    } ),
+                specials = this.specialTags;
             
             enabledTags = enabledTags.length > 0 ? new Set( enabledTags ) : null;
-            andTags = enabledTags ? andTags.filter( function ( value ) {
-                return enabledTags.has( value );
-            } ) : null;
-            andTags = andTags && andTags.length > 0 ? andTags : null;
 
+            var counter = 0;
             commandIndex.forEach( function ( command ) {
                 var isVisible = true;
-                if ( query ) {
-                    isVisible = isVisible && command.name.toLowerCase().includes( query );
+                if ( isVisible && specials.asa ) {
+                    isVisible = command.tags.includes( 'asa' );
                 }
-                if ( andTags ) {
-                    isVisible = isVisible && andTags.some( function ( value ) {
-                        return command.tags.includes( value );
-                    } );
+                if ( isVisible && specials.ase ) {
+                    isVisible = command.tags.includes( 'ase' );
                 }
-                if ( enabledTags ) {
-                    isVisible = isVisible && command.tags.some( function ( value ) {
+                if ( isVisible && !specials.cheat ) {
+                    isVisible = !command.tags.includes( 'cheat' );
+                }
+                if ( isVisible && query ) {
+                    isVisible = command.name.toLowerCase().includes( query );
+                }
+                if ( isVisible && enabledTags ) {
+                    isVisible = command.tags.some( function ( value ) {
                         return enabledTags.has( value );
                     } );
                 }
 
                 command.element.style.display = isVisible ? '' : 'none';
+
+                counter += isVisible ? 1 : 0;
             } );
 
-            console.log(andTags, enabledTags);
+            if ( this.counter ) {
+                this.counter.innerText = counter + ' ' + Text.COUNTER_TEXT;
+            }
         },
     };
     result.update = result.update.bind( result );
@@ -128,46 +136,82 @@ function buildSearchExecutor( commandIndex, tagRegistry ) {
 
 
 function constructTagsBoard( tagRegistry, searchExecutor ) {
-    var container = document.createElement( 'div' );
-    container.className = 'console-filters__tags-box console-filters__box';
-    
-    var heading = document.createElement( 'h4' );
-    heading.textContent = Text.TAGS;
-    
-    var info = document.createElement( 'p' );
-    info.textContent = Text.TAGS_TEXT;
+    function _constructTagToggle( id, displayName, className, defaultValue, isSpecial ) {
+        var tagElement = document.createElement( 'div' );
+        tagElement.className = className;
 
-    var tagContainer = document.createElement( 'div' );
-    tagContainer.className = 'console-filters__tags-container';
+        var checkbox = document.createElement( 'input' );
+        checkbox.type = 'checkbox';
+        checkbox.checked = defaultValue;
+        searchExecutor[ isSpecial ? 'specialTags' : 'enabledTags' ][ id ] = defaultValue;
 
-    Object.getOwnPropertyNames( tagRegistry )
-        .forEach( function ( name ) {
-            var displayName = tagRegistry[ name ];
+        var label = document.createElement( 'label' );
+        label.textContent = displayName;
+        checkbox.id = label.htmlFor = className + '--' + id;
 
-            var tagElement = document.createElement( 'div' );
-            tagElement.className = 'console-filters__tag';
-
-            var checkbox = document.createElement( 'input' );
-            checkbox.type = 'checkbox';
-            checkbox.checked = true;
-
-            var label = document.createElement( 'label' );
-            label.textContent = displayName;
-            checkbox.id = label.htmlFor = 'console-filter__tag--' + name;
-
-            checkbox.addEventListener( 'change', function () {
-                searchExecutor.enabledTags[ name ] = checkbox.checked;
-                searchExecutor.update();
-            } );
-
-            tagElement.appendChild( checkbox );
-            tagElement.appendChild( label );
-            tagContainer.appendChild( tagElement );
+        checkbox.addEventListener( 'change', function () {
+            searchExecutor[ isSpecial ? 'specialTags' : 'enabledTags' ][ id ] = checkbox.checked;
+            searchExecutor.update();
         } );
 
-    container.appendChild( heading );
-    container.appendChild( info );
-    container.appendChild( tagContainer );
+        tagElement.appendChild( checkbox );
+        tagElement.appendChild( label );
+
+        return tagElement;
+    }
+
+    function _constructTags() {
+        var container = document.createElement( 'div' );
+        container.className = 'console-filters__box--tags console-filters__box';
+    
+        var heading = document.createElement( 'h4' );
+        heading.textContent = Text.TAGS;
+    
+        var info = document.createElement( 'p' );
+        info.textContent = Text.TAGS_TEXT;
+
+        var tagContainer = document.createElement( 'div' );
+        tagContainer.className = 'console-filters__tags-container';
+
+        Object.getOwnPropertyNames( tagRegistry )
+            .forEach( function ( name ) {
+                tagContainer.appendChild( _constructTagToggle(
+                    name,
+                    tagRegistry[ name ],
+                    'console-filters__tag',
+                    false,
+                    false
+                ) );
+            } );
+
+        container.appendChild( heading );
+        container.appendChild( info );
+        container.appendChild( tagContainer );
+        return container;
+    }
+
+    function _constructFilters() {
+        var container = document.createElement( 'div' );
+        container.className = 'console-filters__box--filters console-filters__box';
+
+        FILTERS
+            .forEach( function ( name ) {
+                container.appendChild( _constructTagToggle(
+                    name,
+                    Text[ 'FILTER_' + name.toUpperCase() ],
+                    'console-filters__filter-toggle',
+                    true,
+                    true
+                ) );
+            } );
+
+        return container;
+    }
+
+    var container = document.createElement( 'div' );
+    container.className = 'console-filters__tags-section';
+    container.appendChild( _constructTags() );
+    container.appendChild( _constructFilters() );
     return container;
 }
 
@@ -188,6 +232,10 @@ function constructSearchBar( searchExecutor ) {
     searchInput.placeholder = Text.SEARCH_TIP;
     
     searchInput.addEventListener( 'input', _reevaluate );
+
+    searchExecutor.counter = document.createElement( 'div' );
+    searchExecutor.counter.className = 'console-filters__counter';
+    container.appendChild( searchExecutor.counter );
     
     container.appendChild( searchInput );
     return container;
@@ -204,6 +252,8 @@ function main() {
     container.appendChild( constructSearchBar( searchExecutor ) );
 
 	container.setAttribute( 'data-loaded', true );
+
+    searchExecutor.update();
 }
 
 
