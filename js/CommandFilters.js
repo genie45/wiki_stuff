@@ -200,7 +200,7 @@ function main() {
     	commandIndex = buildCommandIndex( container.parentElement ),
         searchExecutor = buildSearchExecutor( commandIndex, tagRegistry );
     
-    container.appendChild( constructTagsBoard( tagRegistry, searchExecutor ) );
+    container.insertAdjacentElement( 'beforebegin', constructTagsBoard( tagRegistry, searchExecutor ) );
     container.appendChild( constructSearchBar( searchExecutor ) );
 
 	container.setAttribute( 'data-loaded', true );
