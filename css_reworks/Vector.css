@@ -5281,15 +5281,30 @@ html[class*="theme-dark"] .CodeMirror-gutters {
 }
 /* #endregion */
 
+/* #region JSON tables */
+.mw-json tr {
+	background: var(--table-background-color);
+}
+.mw-json th, .mw-json td {
+	border-color: var(--table-border-color);
+}
+.mw-json-value, .mw-json-single-value {
+	background-color: var(--table-border-color);
+}
+.mw-json th {
+	background-color: var(--table-heading-background-color);
+}
+/* #endregion */
+
 /* #region Metadata infobox on File pages */
-.mw_metadata{
+.mw_metadata {
 	color: var(--sidenav-header-text-color);
 	background: var(--sidenav-header-background)
 }
-.mw_metadata a{
+.mw_metadata a {
 	color: var(--sidenav-header-text-color)
 }
-/* #endregion Metadat infobox */
+/* #endregion */
 
 /* #region Off-center icons */
 .vector-user-menu-legacy #pt-anonuserpage, .vector-user-menu-legacy #pt-userpage a { background-position: left 0.5em }
@@ -5297,7 +5312,7 @@ html[class*="theme-dark"] .CodeMirror-gutters {
 div.gallerytext {
 	padding: 2px;
 }
-/* #endregion off-center icons */
+/* #endregion */
 
 /* #region Mobile adjustments */
 @media screen and (max-width: 950px) {
