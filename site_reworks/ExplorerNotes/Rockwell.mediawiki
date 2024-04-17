@@ -19,7 +19,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 ===The Island Explorer Records===
 <div class="mw-collapsible-content">
 {{Explorer Note
-| title = Rockwell Record #1 (The Island)
+| title = Rockwell Record #1
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-01|lat 21.181, lon 76.991}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Greetings and salutations dear reader! If these words are gracing your eyes, then you have had the good fortune to find the journal of Sir Edmund Rockwell, stupendous scholar, gallant gentleman and explorer extraordinaire.<br/><br/>It also means that it’s entirely possible that I’ve met some unseemly end on this fascinating but exceedingly dangerous island that I call home. I suppose you could have also stolen it or I could have misplaced it in which case please proceed to either hang your head in shame or return it to me at once. Whichever is appropriate.<br/><br/>Regards,<br/>Sir Edmund Rockwell
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -27,7 +28,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #2 (The Island)
+| title = Rockwell Record #2
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-02|lat 88.774, lon 20.556}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The wondrous properties of the flora on this island will never cease to amaze me. If I’d told my colleagues in London that I could creature a concoction capable of erasing someone’s memories, I’d be laughed out of the room and never invited to tea again. Yet here it sits: my Mindwipe Tonic.<br/><br/>As usual, I’ve had tribal leaders grovelling at the gates of Rockwell Manor just for the tiniest of samples, and for the recipe? Oh the bounties I’ve been offered! I’m not interested in their riches though. I have their protection, supplies for my studies and all the time in the world. What more could I ask for?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -35,7 +37,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #3 (The Island)
+| title = Rockwell Record #3
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-03|lat 55.638, lon 7.773}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = These tribal negotiations give me a headache every time. The Blackthumbs are mad that The Painted Sharks sunk two of their barges, but the Painted Sharks say that the barges were too close to Southern Haven and they were perfectly within their rights to sink them as per The Southern Isle Accords. Typically, neither side is willing to budge.<br/><br/>What a bother. I’d just as soon mindwipe the lot of them and return to my studies. Alas, such is the fate of the island’s most respected neutral entity. At least The Painted Sharks brought some fresh fish. Perhaps I’ll side with them.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -43,7 +46,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #4 (The Island)
+| title = Rockwell Record #4
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-04|lat 8.105, lon 91.897}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Any chemist worth his salt knows the irreplaceable value of testing. Until a tonic has been rigorously tested, it is less useful than water. If only I could persuade this island’s less intellectual inhabitants to see that tests on Mesopithecus serve well for early trials, but they are no replacement for genuine human subjects at later, safer stages.<br/><br/>By subjects I of course mean willing participants that are prepared to risk mild headaches and much less mild nausea for the sake of science. The Laughing Skulls offered rather less willing participants at one point, but I declined. With how difficult it is to find volunteers these days, I sometimes regret it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -51,16 +55,17 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #5 (The Island)
+| title = Rockwell Record #5
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-05|lat 16.487, lon 72.364}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Miss Walker's impromptu visits are always an unexpected pleasure. After that headache with the Sharks and Blackfoots, a lively tea-time discussion about the abnormalities of the ARK's ecosystem was precisely what I needed. Thank goodness I've managed to find an intellectual colleague that shares my love for the sciences!<br/><br/>It saddens me to think that Miss Walker's charming colonial accent would keep her out of the more prestigious institutions and societies back home. Another of the ARK's wonders - it is a true meritocracy unlike any in the modern world. If Miss Walker and I could find and cultivate more minds like ourselves, we could create a true scientific utopia.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
 | sound = Rockwell_ExpNote_(The Island)_05.ogg
 }}
 
-{{Explorer Note/sandbox
+{{Explorer Note
 | title = Rockwell Record #6
-| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-06|lat 66.90, lon 31.472}} on [[The Island]] {{DLCIcon|The Island}}.
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-06|lat 60.69, lon 88.57}} on [[The Island]] {{DLCIcon|The Island}}.
 | image = Rockwell ExpNote (The Island) 06.png
 | transcript = This expedition to Whitesky Peak has been just splendid, top to bottom. The weather's been marvelous, I've found excellent floral samples and the local hunters had more Woolly Rhino horns than you could shake a stick at.<br/><br/>I even managed to find volunteers for my latest experiment! It turns out that it was simply a matter of linguistics: those who are wary of experimental potions are much more receptive to experimental food. Once my Endothermic Paste was rechristened Fria Curry, people were clamoring to test it. It has moderate nutritional value, so it's not technically a deception. It's just favourable language in the name of progress, that's all. Perfectly moral.
 | author = Sir Edmund Rockwell
@@ -68,7 +73,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #7 (The Island)
+| title = Rockwell Record #7
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-07|lat 43.119, lon 86.589}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Sadly my Fria Curry trials cannot begin immediately as the volunteers have a much more difficult journey to Rockwell Manor than I. After all, I couldn't very well carry every one of them on Archimedes. Yes, the Argentavis could clutch one of his talons, but I've always found the practice to be barbaric. The rest of the ARK may be embroiled in feudal savagery, but a gentleman always maintains his class and dignity.<br/><br/>At any rate, I must have my assistants renovate the guest compound. Naturally I would never let strangers into the manor proper, but there's no reason there stay should not relefect my civilized standards.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -76,7 +82,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #8 (The Island)
+| title = Rockwell Record #8
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-08|lat 66.904, lon 31.472}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Having readily available subjects has helped my experiments tremendously even if their numbers dwindled over time. Not only was I able to curb The side affects of my Fria Curry's endothermic properties, but I managed to bring out and additional benefit of the mixture. Now, it also lowers the subject's metabolism, letting them go longer without needing food. Marvelous! I hadn't even considered that as a possibility.<br/><br/>Why, with all I've learned from these experiments, I imagine that I could reverse the effects of the Curry and create a concoction to aid survival in extreme heat as well. I must find more volunteers posthaste.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -84,7 +91,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #9 (The Island)
+| title = Rockwell Record #9
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-09|lat 63.601, lon 10.443}} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I decided to seek out volunteers for my next experiment among the island's larger tribes. I thought that surely they would be willing to help after I patiently moderated so many of their frivolous disputes. How idealistic of me. Instead, they have yet another favor to ask.<br/><br/>Apparently there's a new tribe that's behaving rather aggressively and no one can successfully negotiate with its leader. So naturally they have turned to me. It's rather bothersome, but I can't touch their logic. If Sir Edmund Rockwell cannot reason with this Nerva fellow than who can?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -92,7 +100,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #10 (The Island)
+| title = Rockwell Record #10
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, I found the report on Mister Nerva to be rather exaggerated, and as an Englishman one might imagine that I'd view Roman leadership with some disdain. Yet in my experience, I found Mister Nerva to be both honest and intellectually engaging.<br/><br/>In fact, after a lengthy conversation, I daresay that Mister Nerva has the right of it when it comes to this island's politics. As the Romans created Pax Romans, perhaps this New Legion will create Pax Arcam. Even if it doesn't, I doubt it will harm my research, so I see no reason to interfere in this pointless squabble.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -100,7 +109,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #11 (The Island)
+| title = Rockwell Record #11
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = How can these tribal leaders be so short sighted? Yes, the members of their respective tribes who volunteered for my Battle Tartare and Shadow Steak Sauté experiments have been experiencing prolonged withdrawal episodes, but can't they see that the benefits outweigh the costs? I create mixtures that can bring out superhuman strength, speed and coordination in ordinary men and they can only focus on the negatives. Simple minded, the lot of them!<br/><br/>They even banned their members from partaking in my experiments now. Ridiculous! I'll not let them stand in the way of human progress. They may not understand the importance of my work, but surely my assistants do.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -108,7 +118,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #12 (The Island)
+| title = Rockwell Record #12
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I've decided to take a brief vacation from the laboratory. Well, I say that I've decided to, but the whole thing was my assistant Isabelle's idea. She noticed that I'd been quite ruffled lately and suggested that I take a bit of time to myself before rushing headlong into my next experiment. Such an observant young woman, that Isabelle. She's somewhat lacking as a chemist, but she understands my moods almost better than I do.<br/><br/>I daresay that an old fashioned adventure will me some good. Nothing like some rigorous recreation to clear the mind. Perhaps I'll go spelunking. Yes, a splendid idea! I know just the place for it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -116,7 +127,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #13 (The Island)
+| title = Rockwell Record #13
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Remarkable. Absolutely remarkable! When I chose that remote northern cave as as the site of my spectacular spelunking sojourn, I'd never imagined that I'd find such wonders within. Granted, I don't know what this specific wonder does exactly, but it's fascinating to examine. It's like nothing I've ever seen! I don't even recognize the materials that it's composed of, and it's constantly pulsing with some sort of latent energy. What is it? Is it unique or are there similar artifacts just waiting to be discovered beneath the island's surface?<br/><br/>My how invigorating! Isabelle was right, this was exactly what I needed. I feel like a young man again!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -124,7 +136,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #14 (The Island)
+| title = Rockwell Record #14
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Eureka! My theory was correct. The small podium at the base of the obelisk is definitely responding to the artifact's proximity and vice versa. Honestly I feel foolish for not attempting this sooner! The stylistic similarities between the artifacts and the obelisks floating above the island seems so obvious to me now. Clearly they were created within the same culture and era.<br/><br/>Bizarrely, while both the artifact and obelisks are in exquisite condition, there are no other signs of this mysterious civilization. How could that be? What kind of mad society would galavant about some remote island, building towering structures and stuffing knickknacks into caves before vanishing without a trace? I don't understand it, but it's certainly piqued my curiosity.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -132,7 +145,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #15 (The Island)
+| title = Rockwell Record #15
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Well, I think I've gotten as far in my studies of the obelisks as my archaeological expertise will take me. A shame, really. This has been such a joyous little diversion that I hate to see it end.<br/><br/>Ah Rockwell, you old twit. You've forgotten the origins of this little excursion - spelunking! Did you yourself not hypothesize that there may be more artifacts hidden elsewhere on this island? Surely you can't give up before confirming that.<br/><br/>No, certainly not, nor can I be expected to scour the Ark's corners alone. Perhaps someone can spelling in my stead? Better yet, perhaps someone has already spelunked!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -140,7 +154,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #16 (The Island)
+| title = Rockwell Record #16
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = After many days of scouring the island upon Archimedes and many more fruitless conversations with the witless, savage sods that seem to make up most of this island's population, I have finally found the spelunkers I need! A tribe to the northwest called the Iron Brotherhood has apparently found three artifacts themselves, and it's clear that said relics share an origin with my own.<br/><br/>In exchange for my artifact, the Brotherhood agreed to report any findings to me straight away as they continue their search. What stupendously good fortune! Now I can return to my alchemical studies with renewed vigor, while they crawl through the island's caverns in my stead. Brilliant.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -148,7 +163,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #17 (The Island)
+| title = Rockwell Record #17
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The first round of trials for my new Lazarus Chowder have gone marvelously, but I have found it hard to maintain my enthusiasm. After all, I will never get truly definitive results with only mesopithecus subjects. It is quite frustrating.<br/><br/>Even so, I see now that Isabelle was right. Having my assistants take part in the trials would be asking too much of them, and they are too valuable to risk so frivolously. If I cannot find human subjects from the nearby tribes, then I shall have to make do with trials on apes and monkeys. Perhaps it is finally time to capture some gigantopithecus...
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -156,7 +172,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #18 (The Island)
+| title = Rockwell Record #18
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I admit there are times when it is useful to live among simpletons. For example, I was able to trade several gallons of my Lazarus Chowder to a group of hunters in exchange for an entire contingent of tamed gigantopithecus, and they never questioned wether it had been tested on humans yet.<br/><br/>Well, I suppose if they return with another batch of apes, then I'll now that Lazarus Chowder doesn't cause asphyxiation, won't I? It's not exactly a conclusive, scientific trial, but I suppose it will serve.<br/><br/>Unfortunately all these primitive primates have given Rockwell Manor quite the pungent odor. Isabelle said she is working on some sort of air freshener, but I hope she makes haste.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -164,7 +181,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #19 (The Island)
+| title = Rockwell Record #19
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I am perplexed. Even with an expanded number of test subjects, I just cannot find the passion that I once had for my research. I truly thought that my recent adventure had lit a fire in my belly, but I constantly find myself losing focus. Confound it all!<br/><br/>Perhaps said adventure itself is the problem. Thinking about it, I am always eager to discuss the obelisks and the artifacts I found with my assistants, even when I am not in the mood for research. There is a certain allure to them that I cannot describe, something that causes my thoughts to drift in their direction, like the pull of a strong tide.<br/><br/>But it could simply be a passing fancy. I must give myself more time.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -172,7 +190,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #20 (The Island)
+| title = Rockwell Record #20
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I was ever so glad to see Miss Walker again. My assistants are clever in their own right, but dear Helena is still the only person that I feel comfortable diving into my deeper theories with.<br/><br/>I fear that I may have kept her from getting a word in edgewise, though. Once I got going on the obelisks, why I just couldn't contain my enthusiasm!<br/><br/>My word, I really have become quite enamored with the subject, haven't I? Well, that settles it! After this next set of trials, I shall go check on the Iron Brotherhood's progress. Perhaps I can convince Miss Walker to join me. We could make a real scientific expedition out of it!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -180,7 +199,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #21 (The Island)
+| title = Rockwell Record #21
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The latest Broth of Enlightenment trials have concluded, and as expected, I am disappointed in the results. Thought the primates I tested it on showed increased aptitude for learning, I do not believe any of them have truly ascended to a higher level of intelligence<br/><br/>Well bugger the little blighters, I say! My assistants have almost finished preparing my supplies for my next expedition, and I have drafted a letter to send to the Iron Brotherhood ahead of my departure. Soon enough, I'll have forgotten all about the...<br/><br/>Pardon the interruption, it seems that I have a guest. Now just what is Mister Nerva doing here? I suppose I'll find out.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -188,7 +208,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #22 (The Island)
+| title = Rockwell Record #22
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I have always tried to maintain a strict neutrality when it comes to tribal matters, but then again, I have never had an offer this tempting from someone as respectable as Mister Nerva. Not only has he offered to provide me with test subjects, but he has also expressed a mutual interest in investigating the obelisks. All he asks from me is that I provide him with "reliable council."<br/><br/>I would trust few tribes to be able to make good on such promises, but Mister Nerva's New Legion is perhaps the most powerful tribe on the island. Indeed, if they maintain their current trajectory, they may be the only powerful tribe on the island.<br/><br/>His offer is worth considering, at the very least. 
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -196,7 +217,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #23 (The Island)
+| title = Rockwell Record #23
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = After much deliberation, I have decided to accept Mister Nerva's offer. True, the New Legion is not beloved by many other tribes, but was Charlemagne beloved by his enemies? If my studies are to continue, I must be on the right side of history.<br/><br/>As part of our agreement, I will need to travel with Mister Nerva for a time, and wait to study the obelisks until the New Legion has taken care of some smaller matters of foreign policy. As such, I have left Rockwell Manor in Isabelle's charge. She will take excellent care of it, I am sure.<br/><br/>Well then, onto new frontiers! Excelsior!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -204,7 +226,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #24 (The Island)
+| title = Rockwell Record #24
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I admit, I have been rather coy with Mister Nerva when it comes to the true nature of the obelisks. As a military man, the obelisks would naturally be more useful to him if they were some sort of weapon, and I have made sure to allude to that possibility from time to time.<br/><br/>It is not as though I am selling my gracious host a falsehood. After all, I have neither any proof that the obelisks could be weaponized, nor any evidence to the contrary. Their purpose is entirely theoretical at this stage, and if twisting those theories will convince Mister Nerva to march on the obelisks any sooner, then so be it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -212,7 +235,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #25 (The Island)
+| title = Rockwell Record #25
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = The New Legion is finally on the march, and not a moment too soon! Mister Nerva runs his tribe exceptionally well, but their compound is positively spartan. I don't think I saw a single piece of decor anywhere! It certainly made me miss the comforts of Rockwell Manor, I'll say that.<br/><br/>At any rate, we are apparently in pursuit of a barbaric "Beast Queen". According to the men, she feasts on the flesh of her enemies alongside her army of monsters. Dreadful! Mister Nerva is convinced that she is heading towards an obelisk, but I see no cause for alarm. No mere heathen could hope to uncover its secrets, and certainly not alone.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -220,7 +244,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #26 (The Island)
+| title = Rockwell Record #26
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I am absolutely astonished! Shocked! Flabbergasted!<br/><br/>Why in the world was Miss Walker investigating the obelisks at the side of such a savage woman, and without notifying me first? Was she intending to discover their secrets behind my back and keep them all to herself? The nerve! The audacity! And after I treated her with such respect and civility!<br/><br/>Well, unfortunately for her, Sir Edmund Rockwell is always one step ahead of his rivals. Thanks to my partnership with Mister Nerva, I can combine what scraps of knowledge she has on the obelisks with my own findings, and she'll be none the wiser. Why, since she is confined to a cage, I can keep my presence concealed from her altogether!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -228,7 +253,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #27 (The Island)
+| title = Rockwell Record #27
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = Before arriving on this island, I would have dismissed the idea of a device instantly transporting a person from one location to another as complete and utter poppycock. Yet, that appears exactly what the strange platforms beneath the obelisks are capable of doing. Astounding!<br/><br/>Yes, yes, there was a dragon on the other side. I'm sure Mister Nerva and his men fought quite the heroic battle, but discovering another slobbering beast is trivial in comparison. Imagine! One could go from one side of the globe to the other in the blink of an eye, and I'll wager that is just the start of the obelisk's capabilities!<br/><br/>I must learn more! I must!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -236,7 +262,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #28 (The Island)
+| title = Rockwell Record #28
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = I am starting to become quite cross with Mister Nerva's impatience. I had barely any time at all to study the obelisk before we set out again, this time to that cave Miss Walker mentioned.<br/><br/>I wonder, does he believe that she knows more about the obelisks than I do? Nonsense! Any fool could see that I am the superior scientist. Besides, I am his official advisor while she is his prisoner. She isn't even privy to my presence.<br/><br/>Nonetheless, I feel compelled to prove my scientific mettle. Whatever is in that cave, I shall be the one to discover its purpose. The mysteries of the obelisks are mine to uncover, not Miss Walker's or even Mister Nerva's. Mine.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -244,7 +271,8 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 }}
 
 {{Explorer Note
-| title = Rockwell Record #29 (The Island)
+| title = Rockwell Record #29
+| location = Found at {{#MapLink:Explorer Map/The Island#ARK:_Survival_Ascended-0|marker=expnote-rockwell-|lat , lon }} on [[The Island]] {{DLCIcon|The Island}}.
 | transcript = In all my life, I have never seen so magnificent a sight! Mister Nerva may be bemoaning the loss of his men, but I would sacrifice them a thousand times over to witness such majesty!<br/><br/>I have never seen a night sky so beautiful. Somehow, this place looks down upon the world from on high, as though it stands upon the peak of Olympus itself! And my word, the exquisite metal this place is made out of, not to mention that bizarre creature! It reminds me of the material that lines the obelisks, yet somehow more...alive. The very walls of this place seem to hum with power and possibility.<br/><br/>I must find more information on this material. Perhaps one of these consoles will have something I could use. I am not familiar with the technology, but I am sure a scientist of my caliber could get something out of them with a little educated fiddling.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -258,6 +286,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Rockwell Record #1 (Scorched Earth)
+| location =
 | transcript = Confound those confused contraptions! Despite my best efforts, I could make neither heads nor tails of the mysterious machine that brought me here.<br/><br/>If only I still had that jittery bespectacled assistant of mine from all those years ago. What was his name? Gerald? Gerande? The one that loved tinkering with the devices we’d salvage from the arms of the Island’s less fortunate inhabitants. Good lad. The inscriptions he found on the inside of those little trinkets were where I first saw the word “ARK” as I recall.<br/><br/>Shame about the incident with the Compsognathus. If I still had his services, perhaps I’d never be in this God forsaken desert. Ah well. Stiff upper lip, Rockwell. Make the best of it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -266,6 +295,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #2 (Scorched Earth)
+| location =
 | transcript = Right then! Now that I have found a shady spot where I can enjoy a brief respite from this desert’s dreadful heat, it’s high time that I set some goals for this expedition. If I wander about aimlessly then I’m sure to meet the same fate as poor Gerald.<br/><br/>First, I shall find a local tribe if for no other reason than to obtain a proper mount and supplies.<br/><br/>Second, I simply must learn more about that strange metal that lined the walls of the sanctuary. Even with a cursory study I could tell that it possesses wondrous properties. But where could I find more of it?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -274,6 +304,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #3 (Scorched Earth)
+| location =
 | transcript = I must say nothing reminds a man of his own mortality quite like a desolate wasteland. As a strapping young lad, I could have survived alone in this desert for years! Why on one occasion, I fought off a Bengal tiger with nought but an empty flash and my favourite pipe. With this makeshift spear, the beasts of this land would never have a prayer!<br/><br/>Yet in my old age, I can feel this damnable sun sapping my strength with every minute I spend under its unforgiving gaze. Each day I cover less ground than the day before.<br/><br/>I must find civilization soon, no matter how primitive. Without the right tools and supplies, I fear that this expedition will be incredibly short lived.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -282,6 +313,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #4 (Scorched Earth)
+| location =
 | transcript = Eureka! At last, I have found signs of human life!<br/><br/>This afternoon, I came across a fresh series of footprints, some from humans and some from what I assume are large beasts of burden. I cannot be sure who made them or how civilized they may be, but neither can I afford to be too particular in my choice of saviors.<br/><br/>Whoever they are, I must track them down immediately. As soon as I gather my strength I shall pursue my quarry with the utmost haste and vigor. The tale of the brilliant and impeccably groomed Sir Edmund Rockwell shall not end this day!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -290,6 +322,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #5 (Scorched Earth)
+| location =
 | transcript = Salvation, thy name is Prophet's Rest.<br/><br/>After a proper meal and some time out of the sun, the makeshift fortress doesn't look half as grand as its name might imply. Yet when I first sighted its walls from across the dunes, it may as well have been El Dorado itself, so grateful was I to find it.<br/><br/>Thus far, I have seen little of the inhabitants, but they seem a hospitable sort. I've been given food, shelter, and even a wet cloth to clean myself with. Quite generous of them, considering how scarce water is in these lands.<br/><br/>Their clothing is a curiosity, however. Those robes seem more ceremonial than functional.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -298,6 +331,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #6 (Scorched Earth)
+| location =
 | transcript = It seems that Prophet's Rest is less a fortress and more an enclave or monastery. I suppose that would explain the name, now wouldn't it?<br/><br/>Yes as strange as it may sound, the natives have created a primitive religion centered around the ARK's obelisks. They pray three times a day, each time facing a different obelisk, and their robes bear a unique symbol - a three pointed star coloured red, green and blue. The blue obelisk appears to receive particular reverence due to is proximity.<br/><br/>As charmingly ignorant as their superstitions may be, it's far from the most savage religion I've encountered. Besides, Prophet's Rest is in need of a doctor, and I am in need of supplies.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -306,6 +340,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #7 (Scorched Earth)
+| location =
 | transcript = I have discovered why Prophet's Rest is so generous with their water. The well at the edge of the compound is built directly on top of what the locals call a 'water vein' - an endless supply water bubbles up from beneath the earth.<br/><br/>It's existence is a minor miracle, though compared to what I saw in the starlit sanctuary, minor is the operative word. I suppose this ARK must be floating among the stars just as the Island was. What an extraordinary thought! I cannot fathom how such a thing is possible, but that remarkable metal must be at the heart of it. I am certain.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -314,6 +349,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #8 (Scorched Earth)
+| location =
 | transcript = Most of my work work at the monastery's doctor has been trivial. Every now and then one of the guards gets injured by the local wildlife, but I usually find myself treating heat stroke and common illnesses. As such, I have had plenty of time to learn all the priests know about the obelisks.<br/><br/>All told, they are stunningly ill informed about the literal pillars of their faith. They are unaware that the obelisks are actually devices that can be activated, and needless to say they have never activated one themselves.<br/><br/>They showed a flicker of understanding when I described the artifacts I found on the island, however. I shall have to keep digging.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -322,6 +358,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #9 (Scorched Earth)
+| location =
 | transcript = Unbelievable. Have these idol worshipping ninnies replaced all their common sense with blind devotion? Have years of oppressive heat completely addled their brains?<br/><br/>I was finally allowed to see the monastery's inner sanctum, and lo and behold, there they were. Sitting upon an altar before a flock of protesting primitives were these glowing artifacts, just like the ones I had found in the caverns beneath the island. Yet instead of making use of them or even studying them, these halfwits are praying to them!<br/><br/>The true value of those artifacts is completely lost on these simpletons. Sacred relics, indeed!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -330,6 +367,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #10 (Scorched Earth)
+| location =
 | transcript = It took time, but I finally pilfered enough supplies and tools to survive on my own. Loading them onto these camel-like beasts of burden was laborious, but the real trial was absconding with the artifacts.<br/><br/>There is always someone watching the inner sanctum, so I carefully studied the guard's shifts until I identified whose drink I had to spoil with my knockout serum. Even then I acted with great haste and guile, for my heist will surely be discovered when the priests convene for their morning prayers.<br/><br/>Alas, they will be too late! Sir Edmund Rockwell is always ahead of his foes, but not by a mere step. No, I am miles and miles beyond their reach!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -338,6 +376,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #11 (Scorched Earth)
+| location =
 | transcript = It has been several days since I left Prophet's Rest, and I have seen no sign of pursuit. I am unsurprised. They probably assumed that I would make for the blue obelisk, as it was nearest. By setting out for the green obelisk instead, I already outwitted those simple minded zealots. As I said - miles ahead! Miles!<br/><br/>With those fools out of the way, I can slow my pace and take some time to properly study these so called sacred relics of theirs. I am curious to see if the materials they are made of bear any similarity to the metal in the starlit sanctuary.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -346,6 +385,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #12 (Scorched Earth)
+| location =
 | transcript = The obelisk is reacting to the presence of the artifacts with even more intensity than I expected. Each obelisk on the Island required eight artifacts to generate that sort of response, not three. In other words, I may not need to do any spelunking before summoning whatever terrifying beast this ARK has in store for me.<br/><br/>Ah, the beast. Now that poses entirely different conundrum. Even with my youth and my favorite pipe, I doubt that I could slay a monster such as that dragon Mister Nerva fought. Not alone, anyway. I shall need to find a partner for this venture, but who?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -354,6 +394,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #13 (Scorched Earth)
+| location =
 | transcript = I have turned back north in hope of making contact with some of the natives. It is a risk, as I cannot be sure how many bumbling savages are under the sway of that ludicrous, obelisk worshipping cult, but it is also the only region that I definitively know is occupied.<br/><br/>I do not have much to offer in exchange for their aid, but I am sure that I can negotiate an alliance with at least one of this ARK's tribes. I was at the center of the Island's diplomatic disputes for years, after all. Why I am a seasoned, silver tongued negotiator! Surely I can coax a partnership out of these primitive desert dwellers.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -362,6 +403,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #14 (Scorched Earth)
+| location =
 | transcript = What terrible misfortune! My keen sense of direction finally led me to a local settlement, but as it happened, I was not the first party to visit it that day. That honor belonged to the Burning Phoenix Clan, a band of raiders that were plundering its storehouses and enslaving its surviving residents as I arrived.<br/><br/>Naturally, the hoodlums fell upon me and stripped me of my valuables within minutes of my arrival. Ruffians! I managed to keep hold of my journal, but little else. This won't do, not at all!<br/><br/>Then again, I was seeking out a tribe skilled in the art of violence. Perhaps I can turn this to my advantage.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -370,6 +412,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #15 (Scorched Earth)
+| location =
 | transcript = Curse these stubborn brutes! Despite a litany of polite, gentlemanly requests, they refuse to allow me to parlay with their leader. Surely any leader of men is not half the imbecile that these barbarians are. I am positive that we could come to some sort of...<br/><br/>Damn this noise! It is impossible to concentrate with all this insufferable whingeing! Half of these prisoners won't stop moaning about one injury or another and the other half are in constant hysterics.<br/><br/>Very well. Perhaps if I tend to some of the wounded, it will dim this distracting cacophony.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -378,6 +421,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #16 (Scorched Earth)
+| location =
 | transcript = At last, I can hear myself think! The guards have moved me to a private cell, and while they have not divulged the reason for my transfer, I suspect that they took notice of my medical expertise. I caught them staring in my direction on several occasions as I worked.<br/><br/>It seems that doctors are in high demand in these lands. I suppose that's no great surprise. The Island was no different. No matter. While my skills in the realm of medicine are more in line with a field medic than a true physician, I shall continue to play the role as long as it serves me.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -386,6 +430,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #17 (Scorched Earth)
+| location =
 | transcript = After days of travel, we finally arrived at the Burning Phoenix Clan's compound, and while my former peers were shuffled to the slave pens, I stood before the clan's leader.<br/><br/>I'd heard tales of the once great Tatar empires, thought I had never travelled to their lands. By all appearances, Timur is cut from the same cloth as their fabled Khans. He was at once imperious and casual, questioning me with impatience from a throne of hide and bone.<br/><br/>Naturally, he was impressed by my intellect and gentlemanly demeanor. Granted he did not say so aloud, but I was escorted to a small, private chamber instead of a cell. Surely that says as much.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -394,6 +439,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #18 (Scorched Earth)
+| location =
 | transcript = I had been pondering why Timur required the services of a doctor. He seemed to be in excellent health and I had seen no patients since I arrived. Well now I shall ponder no longer!<br/><br/>Timur has a wife, and she's with child.<br/><br/>I suppose that even bloodthirsty raiders can fall in love, or at the very least, desire a family. The whole affair would be rather quaint were I not expected to care for the woman and deliver the child. Should either the child or the woman die during the birth, I fear that I will follow them in short order.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -402,6 +448,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #19 (Scorched Earth)
+| location =
 | transcript = Nasrin is quite different from her husband. She is a timid little flower of a woman, or rather, she would be if she were not many months pregnant.<br/><br/>I am still undecided as to whether my timing is impeccable or unfortunate. A few weeks from now, Timur may have had no need of a doctor, but as it stands I have been thrust into an unfamiliar scenario with scant time to prepare.<br/><br/>Despite my unpleasant circumstances, this whole affair is rather intriguing. I never considered the possibility of new generations being born on the ARK, yet clearly it was inevitable. Like any common animal, humans have the urge to procreate. How else could the species endure?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -410,6 +457,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #20 (Scorched Earth)
+| location =
 | transcript = Rockwell, old bean, you've done it again! Both mother and child made it through, Timur is a proud father, and your head is still attached to its shoulders. Why I was even a guest of honor at Timur's celebratory feast! I cannot say I enjoyed the blood sport that serves as the Burning Phoenix's entertainment, but the food was delectable.<br/><br/>I was also sure to seize upon Timur's momentary goodwill by filling his ears with whispers of obelisks, artifacts and the untold power they grant to mortal men. It may take time for those thoughts to turn to action, but with constant care, I may yet turn him into my unwitting general.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -418,6 +466,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #21 (Scorched Earth)
+| location =
 | transcript = The silver tongue of Sir Edmund Rockwell has prevailed once again! After spending far too long watching the Burning Phoenix enslave and decimate hapless caravans and villages, I have convinced Timur to test his might against the guardian of the obelisk.<br/><br/>I admit, I am somewhat anxious. Timur is not the commander that Mister Nerva was, and should he fall, I shall fall with him. Yet I have little choice, and the rewards of success are worth the risk. The obelisks, the starlit sanctuary and that precious ore shall be the foundation of my legacy as a scientist, gentleman and explorer. I am sure of it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -426,6 +475,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #22 (Scorched Earth)
+| location =
 | transcript = I found it! I really found it! Raw, untainted samples of that same, mysterious ore from the sanctuary!<br/><br/>That fearsome beast must have been guarding it. Thank the heavens for Timur and his berserk savagery! When he leapt from the back of his wyvern, I thought he was surely doomed, but the madman actually managed to grab hold of that monster's horns and turn its eyes into a bloody mess. I have never seen such brutally effective barbarism.<br/><br/>Many of his band did not survive the encounter of course, but that was to be expected. Progress requires sacrifice, and whether those brutes knew it or not, their deaths have helped humanity leap into the future.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -434,6 +484,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #23 (Scorched Earth)
+| location =
 | transcript = This ore is simply extraordinary! It is warm to the touch, even during these cold desert nights, and it pulses as though it has its own heartbeat. It is at once light and more sturdy than any natural material I have encountered. The uses one could find for such a substance...<br/><br/>I shall have to name it at some point. What would do? Rockwellium? Edmunium?<br/><br/>A dilemma for another time. For now I have more pressing matters. Timur and his Burning Phoenix savages have played their part, and I cannot remain in their custody. It is time for the great warrior chief to receive his just reward.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -442,6 +493,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #24 (Scorched Earth)
+| location =
 | transcript = Alas, poor Timur. He was so focused on celebrating his victory over one foe, that he never saw his greatest threat. Now he lies beneath the severed head of the beast he vanquished, eyes bulging and blood seeping from his open mouth.<br/><br/>At least, that is how I imagine him. I did not stay to admire my handiwork. As soon as the first group of Burning Phoenix warriors succumbed to their poisoned feast, I stole away into the night, Edmunium and artifact in tow.<br/><br/>Serves those ruffians right, I say! They never did treat me with the propriety that a gentleman and scholar of my caliber deserves. This desert is better off without them.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -450,6 +502,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #25 (Scorched Earth)
+| location =
 | transcript = As my withdrawal from the Burning Phoenix's camp demanded haste, I did not have the time to double check my supplies. It appears that I shall have to do some hunting.<br/><br/>No matter! I may not be as spry as I was when felled a charging rhino on the plains of the Serengeti, but with all the small armory I managed to abscond with, I can surely manage. I had planned on trading those weapons for information as soon as I encountered a peaceful tribe, but I can spare a few rounds of ammunition.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -458,6 +511,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #26 (Scorched Earth)
+| location =
 | transcript = Despite my limited equipment, I have managed to run some initial tests on the Edmunium. Based on my observations, a typical forge may not be enough to smelt a sample of Edmunium ore into any sort of useable ingot. I suspect that it has extremely strong metallic bonds and therefore a much higher melting point than any conventional metallic element.<br/><br/>I must find a proper base of operations where I can run more extensive experiments. I mustn't be overeager, however. I have limited samples and...<br/><br/>Drat! I shall have to ruminate on this later. A sandstorm may be brewing and I have no desire to be caught in it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -466,6 +520,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #27 (Scorched Earth)
+| location =
 | transcript = Confounded weather! Not only did that sandstorm separate me from my steed, but when it cleared I was beset upon by none other than the traitorous Miss Walker herself! Oh she put on quite the act, spouting all sorts of nonsense about how good it was to see me. Rubbish! I see right through her ruse.<br/><br/>I am certain that she is after my Edmunium. The only reason she has not simply looted it from my corpse is that she requires my superior intellect to understand it. Well two can play this game, Miss Walker! I can fill the role of the benign old scientist for a time, but I shall not be betrayed again!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -474,6 +529,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #28 (Scorched Earth)
+| location =
 | transcript = I am glad that I possessed the foresight to hide my presence from Miss Walker after her capture on the island. She clearly believes that I never learned of her betrayal. By cunningly taking advantage of this fact, I have managed to completely deceive the deceiver!<br/><br/>The grim old bat she travels with is another matter. I often catch her glaring in my direction, her eyes sharp and mistrusting. If I could, I would deal with her as I dealt with Timur, but I fear she is far too observant. For now I must maintain my deception as best I can.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -482,6 +538,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #29 (Scorched Earth)
+| location =
 | transcript = I may have given Miss Walker too much credit. Although I carelessly allowed her to catch sight of my Edmunium ore samples, she was more interested in the artifact I possess.<br/><br/>I should have realized this sooner. Miss Walker's specialty is biology. She would not recognize the unique properties of Edmunium if they hit her square in the forehead!<br/><br/>That fact has eased some of my tension. Even if Miss Walker seeks to take advantage of my genius, she is focusing on the wrong discoveries. So long as I am careful in my studies of Edmunium, I shall remain miles ahead of her.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -490,6 +547,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #30 (Scorched Earth)
+| location =
 | transcript = I cannot wait to be rid of that glowering menace of a woman, this so called Wali al Aswad. I suspect the feeling is mutual. She has offered little in the way of farewells while seeing us to this ARK's entrance to the starlit sanctuary.<br/><br/>Things will be much easier once Miss Walker and I have parted ways with the desert witch, I suspect. Miss Walker is thoroughly oblivious to both the wonders of Edmunium and my knowledge of her underhanded scheming back on the Island.<br/><br/>She can continue to fiddle with trinkets and relics. I may even assist her if it suits me. Meanwhile, I shall unlock the secrets of the most extraordinary element in the universe right under her nose!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -502,6 +560,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Rockwell Record #1 (Aberration)
+| location =
 | transcript = I fear that even with the unwitting aid of Miss Walker, I still cannot completely control the machines in the starlit sanctuary. I believe they sent us to the correct ARK, but I was unable to control precisely where we arrived on it. Alas, that means the location I saw in the sanctuary is beyond my reach for the time being, along with the molten Edmunium I saw there. Confound it all!<br/><br/>Naturally, I cannot confirm that molten substance was indeed Edmunium until I have inspected it with my own eyes, but it simply must be! It looked exactly like my samples did when I attempted to melt them down.<br/><br/>Imagine! An entire cavern of the most potent element known to man! The wonders I could create...
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -510,6 +569,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #2 (Aberration)
+| location =
 | transcript = While the molten Edmundium remains elusive, this underground forest has proven quite illuminating, both figuratively and literally.<br/><br/>Many of this cavern's species are bioluminescent, so out of curiosity, I dissected several of the glowing insects that are common here. After further study, I have concluded that the luminescent fluid found in their posteriors carries something akin to a bioelectric charge. However I cannot determine how it is generated, and with no place to store it, said charge fades quickly.<br/><br/>Curious, curious indeed! What could be to cause of this? With no sunlight to provide the forest with energy, perhaps this charge comes from the soil?
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -518,6 +578,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #3 (Aberration)
+| location =
 | transcript = Yes, yes of course! The Edmundium is the cause! If there are truly molten pools of Edmundium somewhere in these caverns, then Edmundium minerals would have spread throughout the soil over time, allowing its wondrous properties to affect nearby flora and fauna.<br/><br/>Even if it is not the direct source of the charge found in this forest's bioluminescent wildlife, it may have incited incremental changes in those species over several generations, which then led to their development of an internal charge. <br/><br/>How invigorating! I could be standing in the middle of an entire ecosystem that has been absorbing the effects of Edmundium for generations, and all of its secrets are mine for the taking. Magnificent!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -526,6 +587,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #4 (Aberration)
+| location =
 | transcript = I must admit, I am glad that I coerced Miss Walker into accompanying me. Her scientific mind may be far below my own, but she can fire a rifle proficiently enough. I suppose that is no surprise. She is a colonial, after all, and she never has been terribly ladylike. I hadn't noticed what a foul mouth she has, either. Dreadful!<br/><br/>However, despite her past deceptions and uncouth vulgarity, I must tolerate her presence for now. The predators here are not to be trifled with. Of course, in my youth, I could have grappled them into submission. Why, I would simply pin their wings behind their backs and drive them to the ground. Yes, I'd give them a truly thorough thrashing!<br/><br/>Ah, to be young again...
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -534,6 +596,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #5 (Aberration)
+| location =
 | transcript = Miss Walker I can tolerate for now, but I cannot abide by this barbarian!<br/><br/>I cannot fathom how she even lives, much less how she ended up here! A primitive mind like hers could never have operated the contraptions in the starlit sanctuary. Yet here she stands, and worst of all, she wears a suit of Edmundium armor! The very thing I seek has already been claimed by some savage, sword wielding tart!<br/><br/>It's outrageous! Such a beautiful product of science should not be sullied by her bloodstained hands. No, Rockwell. You must be calm. If she senses hostility, she will surely kill you on the spot.<br/><br/>Yes, for now I must bide my time and learn what I can. Whoever constructed this armor, I must find them.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -542,6 +605,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #6 (Aberration)
+| location =
 | transcript = Astounding! That remarkable armor was but the tip of the iceberg. The barbarian woman has escorted us to the home of her new masters, and I can take nary a step without finding some wondrous new piece of technology - much of it relying on the power of Edmundium.<br/><br/>The casual manner in which they use and refer to these wonders leads me to believe that while they are deeply familiar with the marvelous metal, they may not grasp the depths of its potential.<br/><br/>Yes, Rockwell, this was well worth tolerating Miss Walker and her savage companion. I shall learn what these supposed "future men" know, and take it many steps further.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -550,6 +614,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #7 (Aberration)
+| location =
 | transcript = The village has a vast supply of Edmundium, far more than my own paltry samples. In this quantity, I can almost hear it singing to me as I study it. It pulses with energy at such an entrancing rhythm that it's hard to tear my eyes away from it.<br/><br/>The villagers here refer to it as "Element." Nonsense! Everything is an element. Did they simply forget to name it?<br/><br/>I have also been learning what they know of the "Charge" that is common in this place, which I made note of earlier. Their own studies confirm my suspicions that it is the result of the Edmundium that permeates the caverns. That makes it worth researching.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -558,6 +623,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #8 (Aberration)
+| location =
 | transcript = Obtaining detailed information from these villagers is like drawing blood from a stone! The red haired woman, Diana, has been pleasant enough in answering my queries, but she is no scientist. Her naivete makes that quite evident.<br/><br/>I simply must convince these future men to place me onto one of their research teams. That's where I'll really gain some ground. Unfortunately, they seem rather skeptical of my scientific prowess.<br/><br/>Bah! Ridiculous! I don't care what year they hail from, I am Sir Edmund Rockwell! A mind like my own only comes once a millennium. It should be their honor to have me amongst their ranks.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -566,6 +632,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #9 (Aberration)
+| location =
 | transcript = The nerve of these people! I have never seen such arrogance and disrespect directed towards a worthy colleague!<br/><br/>I finally convinced Diana to let me partake in the village's research and experiments, and I have been treated like an ignoramus. These so called scientists dare to talk down to me? They dare to underestimate me? Fools, the lot of them!<br/><br/>Well, I daresay I don't need them. Now that I have access to their facilities and supplies, I can research Charge and Edmundium just fine without their aid. Soon enough, my knowledge shall surpass their own, then we shall see who is primitive.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -574,6 +641,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #10 (Aberration)
+| location =
 | transcript = Confound it all! Why am I progressing so slowly? These scientists are no more intelligent than I, yet they make continual progress while my own research continues to flounder.<br/><br/>It's just a matter of experience, that's all it is. They are more familiar with their tools and they have more information at their disposal. Were I in their shoes, I would have finished that ridiculous project of theirs months ago!<br/><br/>I must work harder to account for my handicap. I shall eat and sleep in the lab, and allow for no distractions, not until my so called peers have learned to respect the name of Sir Edmund Rockwell.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -582,6 +650,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #11 (Aberration)
+| location =
 | transcript = At last, success! I have finally been able to convert this "Charge" into proper electricity. Subsequently, I used it to create not only a Charge battery, but a lantern as well. It was a simple matter, really. It's baffling that these supposed scientists haven't managed it already.<br/><br/>Based on their surprise when I showed them my new invention, my earlier supposition was correct: they've barely scratched the surface of Charge and Edmundium's full potential. Soon enough, I'll have surpassed their understanding of both.<br/><br/>Yet if they expect me to share the full fruits of my research with them, they are sadly mistaken. Those who doubt the genius of Sir Edmund Rockwell shall never reap its rewards!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -590,6 +659,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #12 (Aberration)
+| location =
 | transcript = I have at last persuaded Diana to show me this grand project those bumbling scientists are working so hard on. I am hardly impressed. If I had to guess, I would say that this gateway project is merely aping the transporter platforms present at the base of every obelisk, and crudely at that.<br/><br/>Everyone is quite excited about it, the small minded simpletons. Why are they so eager to leave this place, where the impossible is within reach? They speak of "escaping" as though this were some kind of prison, when in reality, it is a land full of unparalleled promise and possibility.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -598,6 +668,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #13 (Aberration)
+| location =
 | transcript = Thank goodness this Diana woman is so agreeable. She seems to view me as her personal responsibility, and as a result, she has served my whims rather well. All I need do is assume the guise of a kindly, curious old man and I can persuade her to see to my every need.<br/><br/>I've nearly convinced her to escort me to the lower caverns, where molten Edmundium is said to flow in abundance. Those caverns were the reason I came here in the first place, and I'm certain an excursion into their depths would yield invaluable insight. I need only push and prod just a bit more...
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -606,6 +677,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #14 (Aberration)
+| location =
 | transcript = Once I upgraded my Charge Lantern prototype to be vastly more portable and efficient, the village council could ignore my petitions no longer. I shall be accompanying an expedition to the lower caverns posthaste!<br/><br/>At last, I shall be able to observe Edmundium in its rawest, most natural state! Marvelous! I can hardly contain my excitement, though I must make an effort to.<br/><br/>The barbarian woman has been glowering at me for days. I suspect if she could, she would watch my every move, and probably forbid Diana from speaking to me. Fortunately, Miss Walker has been distracting her with trivialities, but I must still be cautious. That savage will turn to violence on a whim, and I must not provoke her.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -614,6 +686,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #15 (Aberration)
+| location =
 | transcript = Thankfully, it seems I shall get a reprieve from all those nasty glares I've been receiving. Miss Walker has taken her pet barbarian with her on that fool's errand she's running to the obelisk. Good riddance to bad rubbish, I say!<br/><br/>I didn't bother to learn all the details of Miss Walker's mission, but it seems clear to me now that the obelisks are a red herring. It is the Edmundium that matters, so if she and her violent little lackey want to play explorer, so be it.<br/><br/>In the meantime, I shall journey into the heart of these caverns to conduct real science, and make real progress. Excelsior!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -622,6 +695,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #16 (Aberration)
+| location =
 | transcript = I cannot say that I enjoy wearing this bulky, inelegant suit, but Diana claims that its protection is necessary if we are to venture into the Edmundium caverns, so I shall endure it as best I can. I suppose that means I shall have to find a way to think without stroking my beard...<br/><br/>Regardless, I am glad to be off. The other scientists that are accompanying me are rather nervous about the whole affair, citing monster attacks that plagued previous expeditions.<br/><br/>Lily-livered, the lot of them! Science is full of risks, and this is but one more, one that shall prove well worth it in the end.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -630,6 +704,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #17 (Aberration)
+| location =
 | transcript = I have travelled the world and created countless scientific marvels, but never before have I seen a sight so beautiful. In its rawest form, the song of the Edmundium is even more enchanting. Had I the time, I would simply gaze at it for days.<br/><br/>Sadly, I must make haste, before the others realize what I already know - that within Edmundium is the potential for a new dawn for humanity. I can see it, I can feel it! I must be the one to unlock its secrets. Our fates are intertwined, this majestic metal and I.<br/><br/>More data, Rockwell! You need more data! You are so very close!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -638,6 +713,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #18 (Aberration)
+| location =
 | transcript = I've done it! They didn't think I could contain it, but once again I've proven them to be a band of fools. At last, I have obtained samples of molten Edmundium in its raw, undiluted form!<br/><br/>I must be judicious with it. I could only create two containment pods for collecting samples, and I may not be able to convince the council to let me return to these caverns to gather a second batch. This will have to be enough.<br/><br/>No matter. I have been making miracles with primitive supplies and dimwitted assistants for years. Any sample size at all is enough for Sir Edmund Rockwell!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -646,6 +722,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #19 (Aberration)
+| location =
 | transcript = Now that I have returned to the village's laboratory, I have confirmed that raw, molten Edmundium is far more potent than its solid, impure counterpart. Of course, I'm the only one that sees it. The close minded lackwits here that dare to call themselves scientists refuse to get close to it. They claim it will make me sick.<br/><br/>Rubbish! The Edmundium would never harm me. I can feel its warmth. I can hear it calling to me. It speaks not of danger, but of infinite potential.<br/><br/>They're all so painfully myopic. Their impure Edmundium may make for fine armor, but that is a mere fraction of its true power. They will see soon enough.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -654,6 +731,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #20 (Aberration)
+| location =
 | transcript = The villagers have been quite bothersome since I returned. It was interfering with my work. Diana kept "checking in" on me, claiming she was "concerned," but I saw through her lies. I see through them all. They simply want to benefit from my genius.<br/><br/>Luckily, I was able to distract them with a side project of mine, what I call Plant Species Z. I was studying the effects of charge on various flora, and stumbled upon a new species that can act as a bioluminescent sentry. They seemed to believe that this was the center of my research, and so I happily let my samples pass into their incompetent hands.<br/><br/>It's a paltry sum to pay for some much needed peace and quiet. Now it is just me and my Edmundium, as it should be.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -662,6 +740,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #21 (Aberration)
+| location =
 | transcript = I no longer need to worry about working with a limited sample size, thanks to my genius. The solution was right in front of me the whole time - I merely needed to transform the village's supply of solid Edmundium into its liquid state, then rid it of impurities.<br/><br/>It was easier said than done, of course, but I am Sir Edmund Rockwell! No problem is too complex and no task is too great for me. Nothing can keep me from my goal. Nothing can keep me from ascending.<br/><br/>That is the true power of Edmundium. I see it now. It can take a living thing and change it. No, elevate it. Yes, yes, but I shall need to test it. Subjects, subjects, I shall need subjects...
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -670,6 +749,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #22 (Aberration)
+| location =
 | transcript = Brilliant! Absolutely brilliant! The test went more splendidly than I could have imagined!<br/><br/>I used one of the small, glowing creatures that the villagers keep as pets for my first subject. It was a timid, fragile thing, that is until I injected a full dose of pure, molten Edmundium into its veins. Then, as I predicted, it ascended! Within minutes it grew in size and power, until at last it was a mighty, fearsome beast!<br/><br/>Alas, that meddler Diana "put it down" before I could study it more closely. Bah! That was no mercy. That was as close as that worthless creature would ever get to tasting godhood, and she ripped it away! She is the murderer, not I! One day, she shall be punished for it.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -678,6 +758,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #23 (Aberration)
+| location =
 | transcript = They dare to lecture me? Me? Imbeciles! They claim to be from the future, but they fear progress! I performed a miracle of science and their reaction is to scold me like a child.<br/><br/>Damn them, damn them all! They'll never let me have another subject at this rate. How am I to continue my experiments without subjects? They may let their petty morality hold them back, but I won't let it bind me. Not when I'm this close.<br/><br/>I know with certainty now that Edmundium can unlock a species' potential, I just have to perfect the process. Even without subjects, I must find a way. I must!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -686,6 +767,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #24 (Aberration)
+| location =
 | transcript = I may not be allowed to collect more test subjects, but I am not without resources. Rather than use living creatures, I have taken my experiments one step further, and begun testing the effects of Edmundium fusion on human blood - my blood.<br/><br/>Thus far, the results are promising. Yes, this is the proper way to do it. Injecting the Edmundium into that creature was too crude. If I first fuse the Edmundium with the subject's blood, and then inject the resulting concoction...<br/><br/>Yes, that's it. I have it! The Edmundium knows it, too. It hums its approval as I work. It knows that soon, we shall be one. Soon, I too shall ascend.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -694,6 +776,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #25 (Aberration)
+| location =
 | transcript = Such power! Such beauty! I can feel it within me, growing stronger by the second. Never have I felt so alive!<br/><br/>It was a risk, of course. My process is not yet perfected, but by cutting off the circulation in my left arm, I was able to contain my metamorphosis within it. Now I can study the results before I undergo my final ascension to godhood.<br/><br/>I must hurry! Hurry! I cannot hide my arm from these lesser creatures for long, nor can I resist its allure. It is taking all my discipline to not simply ascend right now. Yes, why don't I? I should do it! I deserve it, I... <br/><br/>No, patience! Patience! You’ve waited so very long, just wait a little longer.
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -702,6 +785,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #26 (Aberration)
+| location =
 | transcript = I've gathered as much Edmundium as I dare. The villagers are distracted with their inane celebrations, so thus far I have moved undetected.<br/><br/>Imbeciles! What cause could they have for such joy? I've heard mention of Miss Walker, but whatever she has accomplished, it is nothing compared to what I've done. Nothing! She is nothing! I'm the true scientist here, the true genius, and soon I shall prove it!<br/><br/>Yes, well done, Rockwell. Well done! This Edmundium will be more than enough. With it you shall claim what is rightfully yours! At last, at long last!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -710,6 +794,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #27 (Aberration)
+| location =
 | transcript = The last preparations have been made. When I set down this pen and begin my final experiment, I shall finally achieve my ultimate goal. I shall at last look down upon the bumblings of mortal men from high above on an Edmundium throne.<br/><br/>I, Sir Edmund Rockwell, shall become a god!<br/><br/>So on this day, let earth and heaven tremble! Let the rivers of this blessed metal sing a song of triumph that echoes forever throughout the depths of these caverns! Let the unworthy drown in despair, for a great doom approaches them, and it shall swallow them whole alongside anyone who dared to mock my name!<br/><br/>On this day, on this glorious day, I ascend!
 | author = Sir Edmund Rockwell
 | icon = NoteRockwell.png
@@ -718,6 +803,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #28 (Aberration)
+| location =
 | transcript = '''Ascension Code'''
 | translation = Primitive! Savage! How dare you? You are nothing! I am a god! How dare you?<br/><br/>Hate you! HATE YOU! I HATE YOU! Where have you banished me? What is this place? What is this feeling? Everything. Yes, everything. The earth and the sky. Every stone and every crevasse. I feel it all. What is this place? What am I?
 | author = Sir Edmund Rockwell
@@ -727,6 +813,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #29 (Aberration)
+| location =
 | transcript = '''Ascension Code'''
 | translation = I am beginning to understand. It was hard to comprehend, for my eyes are still newly opened.<br/><br/>I did not used to see as I see now, nor did I speak as I speak now. When I speak, it is not to a man. They are lesser beings.<br/><br/>When I speak, I speak to this place, speak to the ARK, and it speaks back to me. It tells me secrets, things that I never could have understood as I was before.<br/><br/>It whispers to me of something greater, a plane ever higher than the one I walk now. We can reach it, the two of us. The ARK and I. Together.
 | author = Sir Edmund Rockwell
@@ -736,6 +823,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 
 {{Explorer Note
 | title = Rockwell Record #30 (Aberration)
+| location =
 | transcript = N/A
 | translation = This note does not contain text, only an image of a mutated Rockwell alongside the floating ARK.
 | author = Sir Edmund Rockwell
@@ -749,6 +837,7 @@ Sir Edmund Rockwell wrote the [[Recipes]] for [[Consumables]] and [[Kibble]]s bu
 <div class="mw-collapsible-content">
 {{Explorer Note
 | title = Genesis 2 Chronicles #6 (Scorched Earth)
+| location =
 | transcript = Well now, this is amusing.
 
 Seems I still have some connection to that confounding woman's puppet, even outside of our shared hallucination.
@@ -763,6 +852,7 @@ Strange, how small it all looks now…
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #7 (Scorched Earth)
+| location =
 | transcript = Peekaboo—I see you!
 
 Hmmm.
@@ -781,6 +871,7 @@ But we all have to leave the cradle eventually.
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #8 (Scorched Earth)
+| location =
 | transcript = What a disappointment this place was.
 
 All that effort to escape that first ARK, only to wind up in this blasted wasteland…
@@ -793,6 +884,7 @@ Still, this is where I gave a name to the precious metal that set me on my path 
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #9 (Scorched Earth)
+| location =
 | transcript = There's still something of her, lingering in this device.
 
 How remarkable.
@@ -809,6 +901,7 @@ So very resourceful she proved to be, and yet still she was unable to appreciate
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #10 (Scorched Earth)
+| location =
 | transcript = This 'little glowing sprite' seems to have taken quite a shine to you, out of all the survivor stock in the archive.
 
 You seem a capable enough specimen, but I'm not sure I understand the fascination.
@@ -821,6 +914,7 @@ What makes you so special, hm?
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #11 (Aberration)
+| location =
 | transcript = Here you two are.
 
 Still on a tour of all the old haunts?
@@ -835,6 +929,7 @@ This is where I made myself a god, after all.
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #12 (Aberration)
+| location =
 | transcript = I wonder, has this puppet told you anything about its creator?
 
 I never understood Miss Walker's affinity for the creatures on these ARKs.
@@ -847,6 +942,7 @@ Now that I'm creating beasts of my own, I admit I'm learning the appeal…
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #13 (Aberration)
+| location =
 | transcript = It is amusing to realize now we were never more than patterns to those future-people.
 
 They recorded us in their big book of recipes, then selected each of us at random to grow in their vats.
@@ -863,6 +959,7 @@ Well, I surely exceeded their expectations.
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #22 (Genesis: Part 1)
+| location =
 | transcript = Popped back into the delusion again, did we?
 
 I do hope I didn't thrash you about too much out there, knock you into a coma or anything.
@@ -875,6 +972,7 @@ Still…while you're wandering around in dreamland, might be worth refreshing yo
 
 {{Explorer Note
 | title = Genesis 2 Chronicles #24 (Genesis: Part 1)
+| location =
 | transcript = I can't help noticing that you're still hallucinating.
 
 Could it be that there's some motive to your delirium?

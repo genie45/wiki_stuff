@@ -1,0 +1,13 @@
+#                    Ark
+# Health              0
+# Stamina             1
+# Torpidity           2
+# Oxygen              3
+# Food                4
+# Water               5
+# Temperature         6
+# Weight              7
+# Melee Damage        8   (add 100%)
+# Movement Speed      9   (add 100%)
+# Fortitude           10
+# Crafting Skill      11
