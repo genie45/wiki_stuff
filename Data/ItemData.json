@@ -1,0 +1,109 @@
+{
+    "page": "",
+    "game": {
+        "ASA": {
+            "name": "",
+            "blueprintpath": "",
+            "image": "",
+            "type": [],
+            "description": "",
+            "values": {
+                "base": {
+                    "weight": "",
+                    "stack": "",
+                    "durability": "",
+                    "durabilityloss": "",
+                    "damage": "",
+                    "onetimeuse": "false",
+                    "ammo": "",
+                    "attachments": [],
+                    "foundin": ""
+                },
+                "crafting": {
+                    "level": "",
+                    "engrampoints": "",
+                    "xp": "",
+                    "craftedin": [],
+                    "recipes": [
+                        {
+                          "amount": 1,
+                          "ingredients": {
+                            "Item": "Amount"
+                          }
+                        }
+                      ],
+                    "unlocks": [],
+                    "requires": []
+                }
+            },
+            "colorizable": "true",
+            "colorregions": [
+                {
+                    "region": "",
+                    "description": "",
+                    "image": ""
+                }
+            ],
+            "paintable": "false",
+            "keybinds": [
+                {
+                    "key": "",
+                    "description": "",
+                    "image": ""
+                }
+            ]
+        },
+        "ASE": {
+            "name": "",
+            "blueprintpath": "",
+            "image": "",
+            "type": [],
+            "description": "",
+            "values": {
+                "base": {
+                    "weight": "",
+                    "stack": "",
+                    "durability": "",
+                    "durabilityloss": "",
+                    "damage": "",
+                    "onetimeuse": "false",
+                    "ammo": "",
+                    "attachments": [],
+                    "foundin": ""
+                },
+                "crafting": {
+                    "level": "",
+                    "engrampoints": "",
+                    "xp": "",
+                    "craftedin": [],
+                    "recipes": [
+                        {
+                          "amount": 1,
+                          "ingredients": {
+                            "Item": "Amount"
+                          }
+                        }
+                      ],
+                    "unlocks": [],
+                    "requires": []
+                }
+            },
+            "colorizable": "true",
+            "colorregions": [
+                {
+                    "region": "",
+                    "description": "",
+                    "image": ""
+                }
+            ],
+            "paintable": "false",
+            "keybinds": [
+                {
+                    "key": "",
+                    "description": "",
+                    "image": ""
+                }
+            ]
+        }
+    }
+}
