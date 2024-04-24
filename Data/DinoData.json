@@ -1,0 +1,55 @@
+{
+    "page": "",
+    "game": {
+        "ASA": {
+            "name": "",
+            "blueprintpath": "",
+            "sound": "",
+            "icon": "",
+            "type": [],
+            "dossier": {
+                "image": "",
+                "species": "use dossier",
+                "time": "use dossier",
+                "diet": "use dossier",
+                "temperament": "use dossier",
+                "text": "",
+                "sound": ""
+            },
+            "releases": [
+                {"platform": "version"}
+            ],
+            "variants": [],
+            "values": {
+                "taming": {
+
+                },
+                "breeding": {
+
+                },
+                "stats": {
+                    "wild": {
+
+                    },
+                    "tamed": {
+
+                    }
+                }
+            },
+            "colorregions": [
+                {
+                    "region": "",
+                    "description": "",
+                    "image": ""
+                }
+            ],
+            "keybinds": [
+                {
+                    "key": "",
+                    "description": "",
+                    "image": ""
+                }
+            ]
+        }
+    }
+}
