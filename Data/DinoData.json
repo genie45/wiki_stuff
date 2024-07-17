@@ -3,6 +3,7 @@
     "game": {
         "ASA": {
             "name": "",
+            "altname": [],
             "blueprintpath": "",
             "sound": "",
             "icon": "",
@@ -20,25 +21,90 @@
                 {"platform": "version"}
             ],
             "variants": [],
+            "variantof": "",
             "values": {
                 "taming": {
-
+                    "canbetamed": "",
+                    "torporimmune": "",
+                    "method": "knockout|taming|other|none",
+                    "affinitybase": "",
+                    "ineffectivenessbyaffinity": "",
+                    "affinityperlevel": "",
+                    "favoritefood": ""
                 },
                 "breeding": {
-
+                    "gestationtime": "",
+                    "maturationtime": "",
+                    "mintimebetweenmating": "",
+                    "maxtimebetweenmating": ""
                 },
                 "stats": {
+                    "base": {
+                        "health": "",
+                        "stamina": "",
+                        "torpor": "",
+                        "oxygen": "",
+                        "food": "",
+                        "water": "",
+                        "temperature": "",
+                        "weight": "",
+                        "meleedmg": "",
+                        "movementspeed": "",
+                        "fortitude": "",
+                        "craftingskill": "",
+                        "walkspeed": "",
+                        "swimmspeed": "",
+                        "dragweight": "",
+                        "grabweightthreshold": ""
+                    },
                     "wild": {
-
+                        "healthlevel": "",
+                        "staminalevel": "",
+                        "torporlevel": "",
+                        "oxygenlevel": "",
+                        "foodlevel": "",
+                        "weightlevel": "",
+                        "meleelevel": "",
+                        "movementspeedlevel": ""
                     },
                     "tamed": {
-
+                        "healthlevel": "",
+                        "healthmult": "",
+                        "healthadd": "",
+                        "staminalevel": "",
+                        "staminamult": "",
+                        "staminaadd": "",
+                        "torporlevel": "",
+                        "torpormult": "",
+                        "torporadd": "",
+                        "oxygenlevel": "",
+                        "oxygenmult": "",
+                        "oxygenadd": "",
+                        "foodlevel": "",
+                        "foodmult": "",
+                        "foodadd": "",
+                        "weightlevel": "",
+                        "weightmult": "",
+                        "weightadd": "",
+                        "meleelevel": "",
+                        "meleemult": "",
+                        "meleeadd": "",
+                        "movementspeedlevel": "",
+                        "movementspeedmult": "",
+                        "movementspeedadd": ""
                     }
-                }
+                },
+                "saddle": [],
+                "equipment": [],
+                "shoulderpet": "bool",
+                "xp": "",
+                "radiationimmune": "",
+                "isplatformdino": "",
+                "cansuffocate": "bool"
             },
             "colorregions": [
                 {
-                    "region": "",
+                    "region": ["colorids"],
                     "description": "",
                     "image": ""
                 }
