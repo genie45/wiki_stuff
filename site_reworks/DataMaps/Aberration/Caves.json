@@ -1,0 +1,51 @@
+{
+	"$schema": "https://ark.wiki.gg/extensions/DataMaps/schemas/v17.2.json",
+	"$fragment": true,
+	"markers": {
+		"cave-entrance": [
+			{
+				"lat": 48.338, "lon": 27.23,
+				"name": "Old Railway Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Depths}}",
+				"image": "ASA Aberration Old Railway Cave Entrance.jpg"
+			},
+            {
+				"lat": 55.3, "lon": 65.866,
+				"name": "Hidden Grotto Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Shadows}}",
+				"image": "ASA Aberration Hidden Grotto Cave Entrance.jpg"
+			},
+            {
+				"lat": 80.805, "lon": 46.764,
+				"name": "Element Vault Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Stalker}}",
+				"image": "ASA Aberration Element Vault Cave Entrance.jpg"
+			},
+            {
+				"lat": 19.475, "lon": 26.863,
+				"name": "North West Surface entrance",
+				"image": "ASA Aberration NW Surface entrance.jpg"
+			},
+            {
+				"lat": 38.375, "lon": 79.643,
+				"name": "North East Surface entrance",
+				"image": "ASA Aberration NE Surface entrance 1.jpg"
+			},
+            {
+				"lat": 26.861, "lon": 63.066,
+				"name": "North East Surface entrance",
+				"image": "ASA Aberration NE Surface entrance 2.jpg"
+			},
+            {
+				"lat": 78.784, "lon": 28.369,
+				"name": "South West Surface entrance",
+				"image": "ASA Aberration SW Surface entrance 1.jpg"
+			},
+            {
+				"lat": 52.122, "lon": 22.551,
+				"name": "South West Surface entrance",
+				"image": "ASA Aberration SW Surface entrance 2.jpg"
+			}
+        ]
+    }
+}

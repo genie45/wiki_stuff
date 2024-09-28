@@ -1,121 +1,122 @@
 {
-	"$mixin": true,
+	"$schema": "https://ark.wiki.gg/extensions/DataMaps/schemas/v17.2.json",
+	"$fragment": true,
 	"markers": {
 		"cave-entrance": [
-            {
-                "lat": 41.6, "lon": 47.0,
-                "name": "Central Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Clever}}",
-                "image": "Central Cave Entrance.jpg"
-            },
-            {
-                "lat": 19.2, "lon": 19.0,
-                "name": "North West Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Skylord}}",
-                "image": "CaveNWEntrance.jpg"
-            },
-            {
-                "lat": 80.2, "lon": 53.5,
-                "name": "Lower South Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Hunter}}",
-                "image": "Lower South Cave Entrance.jpg"
-            },
-            {
-                "lat": 14.8, "lon": 85.3,
-                "name": "North East Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Devourer}}",
-                "image": "CaveNEEntrance.jpg"
-            },
-            {
-                "lat": 68.2, "lon": 56.1,
-                "name": "Upper South Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Pack}}",
-                "image": "CaveUSEntrance.jpg"
-            },
-            {
-                "lat": 70.6, "lon": 86.1,
-                "name": "South East Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Massive}}",
-                "image": "CaveSEEntrance.jpg"
-            },
-            {
-                "lat": 62.7, "lon": 37.3,
-                "name": "Swamp Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Immune}}",
-                "image": "Swamp Cave Entrance.jpg"
-            },
-            {
-                "lat": 29.1, "lon": 31.8,
-                "name": "Snow Cave",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Strong}}",
-                "image": "Snow Cave Entrance.jpg"
-            },
-            {
-                "lat": 53.7, "lon": 10.4,
-                "name": "The Caverns of Lost Faith",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Brute}}",
-                "image": "The Caverns of Lost Faith Entrance.jpg"
-            },
-            {
-                "lat": 45.9, "lon": 88.9,
-                "name": "The Caverns of Lost Hope",
-                "description": "Holds:\n* {{ItemLink|Artifact of the Cunning}}",
-                "image": "The Caverns of Lost Hope Entrance.jpg"
-            },
-            {
-                "lat": 43.2, "lon": 39.1,
-                "name": "Tek Cave",
-                "description": "Overseer Fight is at the end of the cave",
-                "image": "Tek Cave Entrance.jpg"
-            },
-            {
-                "lat": 16.0, "lon": 10.1,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 10.0, "lon": 21.5,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 10.4, "lon": 39.5,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 7.9, "lon": 90.1,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 36.3, "lon": 91.5,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 50.5, "lon": 11.2,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 52.7, "lon": 91.9,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 83.0, "lon": 9.9,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 90.8, "lon": 13.0,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 89.8, "lon": 36.8,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 90.3, "lon": 71.3,
-                "name": "Unnamed Underwater Cave"
-            },
-            {
-                "lat": 87.1, "lon": 90.2,
-                "name": "Unnamed Underwater Cave"
-            }
-        ]
+			{
+				"lat": 40.162, "lon": 46.574,
+				"name": "Central Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Clever}}",
+				"image": "ASA_TheIsland_CaveEntrance_Central_Cave.jpg"
+			},
+			{
+				"lat": 14.122, "lon": 13.914,
+				"name": "North West Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Skylord}}",
+				"image": "ASA_TheIsland_CaveEntrance_North West Cave.jpg"
+			},
+			{
+				"lat": 85.285, "lon": 54.171,
+				"name": "Lower South Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Hunter}}",
+				"image": "ASA_TheIsland_CaveEntrance_Lower South Cave.jpg"
+			},
+			{
+				"lat": 8.952, "lon": 91.317,
+				"name": "North East Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Devourer}}",
+				"image": "ASA_TheIsland_CaveEntrance_North East Cave.jpg"
+			},
+			{
+				"lat": 71.323, "lon": 57.222,
+				"name": "Upper South Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Pack}}",
+				"image": "ASA_TheIsland_CaveEntrance_Upper South Cave.jpg"
+			},
+			{
+				"lat": 74.069, "lon": 92.166,
+				"name": "South East Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Massive}}",
+				"image": "ASA_TheIsland_CaveEntrance_South East Cave.jpg"
+			},
+			{
+				"lat": 64.823, "lon": 35.177,
+				"name": "Swamp Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Immune}}",
+				"image": "ASA_TheIsland_CaveEntrance_Swamp_Cave.jpg"
+			},
+			{
+				"lat": 25.991, "lon": 29.008,
+				"name": "Snow Cave",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Strong}}",
+				"image": "ASA_TheIsland_CaveEntrance_Snow Cave.jpg"
+			},
+			{
+				"lat": 54.122, "lon": 3.816,
+				"name": "The Caverns of Lost Faith",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Brute}}",
+				"image": "ASA_TheIsland_CaveEntrance_The Caverns of Lost Faith.jpg"
+			},
+			{
+				"lat": 45.178, "lon": 95.481,
+				"name": "The Caverns of Lost Hope",
+				"description": "Holds:\n* {{ItemLink|Artifact of the Cunning}}",
+				"image": "ASA_TheIsland_CaveEntrance_The Caverns of Lost Hope.jpg"
+			},
+			{
+				"lat": 42.041, "lon": 37.301,
+				"name": "Tek Cave",
+				"description": "Overseer Fight is at the end of the cave",
+				"image": "ASA_TheIsland_CaveEntrance_Tek Cave.jpg"
+			},
+			{
+				"lat": 1.256, "lon": 97.164,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 33.866, "lon": 98.587,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 93.683, "lon": 97.4,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 98.211, "lon": 75.052,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 97.321, "lon": 34.066,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 97.644, "lon": 7.017,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 89.328, "lon": 3.803,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 10.394, "lon": 4.503,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 4.178, "lon": 17.192,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 3.938, "lon": 38.888,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 53.381, "lon": 99.415,
+				"name": "Unnamed Underwater Cave"
+			},
+			{
+				"lat": 49.589, "lon": 4.496,
+				"name": "Unnamed Underwater Cave"
+			}
+		]
 	}
 }

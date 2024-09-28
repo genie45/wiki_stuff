@@ -1,0 +1,10 @@
+{
+	"$schema": "https://ark.wiki.gg/extensions/DataMaps/schemas/v17.2.json",
+	"$fragment": true,
+	"markers": {
+		"obelisk-blue": [ { "lat": 18.958, "lon": 16.107 } ],
+		"obelisk-green": [ { "lat": 22.558, "lon": 77.802 } ],
+		"obelisk-red": [ { "lat": 80.883, "lon": 20.37 } ],
+        "rockwell-terminal": [ { "lat": 42.723, "lon": 36.796 } ]
+	}
+}
