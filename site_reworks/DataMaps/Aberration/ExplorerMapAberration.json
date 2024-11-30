@@ -200,6 +200,13 @@
                 "image": "ASA Aberration ExpNote ID 366.jpg"
             },
             {
+                "lat": 48.05,
+                "lon": 38.5,
+                "name": "Meiyin Note #11 <span class=\"datamap-explorer-note-id\">(ID: 367)</span>",
+                "description": "Teleport command: <code>cheat spi -92002 -15599 7670 51.79 -59.51</code>",
+                "image": "ASA Aberration ExpNote ID 367.jpg"
+            },
+            {
                 "lat": 52.967,
                 "lon": 36.428,
                 "name": "Meiyin Note #12 <span class=\"datamap-explorer-note-id\">(ID: 368)</span>",
